@@ -8,3 +8,5 @@
 6. The data consumer is provisional. After both PRs are reviewed and promoted, enable the downstream workflow's PR-creation permission and validate its first receipt. No production database connection is required.
 
 The initial byte snapshots are preserved by digest in the project owner's private archive on tower. Fetch checks FORMAL_SCIENCES_SNAPSHOT_DIR or the default ~/.local/share/curricula/formal-sciences/snapshots location before using the network. Three endpoints produced different bytes immediately on refetch (DBpedia, TPTP and zbMATH). Restore the archived bytes to reproduce those exact historical documents. A public CI runner without that archive reports their drift in the weekly network audit.
+
+For automatically opened GitHub PRs to trigger a separate pull_request run, configure ONTOLOGY_REVIEW_TOKEN as a repository-scoped GitHub App token or equivalent automation credential. GitHub suppresses recursive workflow events initiated with the default GITHUB_TOKEN. With the default token, a maintainer can push the reviewed revision to trigger the PR checks before merge.
