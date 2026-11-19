@@ -20,3 +20,12 @@ c:binary-search-tree a skos:Concept ; skos:prefLabel "Binary search tree"@en ;
 
 c:stack-data-structure a skos:Concept ; skos:prefLabel "Stack (data structure)"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:disjoint-set-data-structure a skos:Concept ; skos:prefLabel "Disjoint-set data structure"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:queue a skos:Concept ; skos:prefLabel "Queue (data structure)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:binary-decision-diagram a skos:Concept ; skos:prefLabel "Binary decision diagram"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .

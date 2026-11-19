@@ -15,7 +15,7 @@ def dictionary(store, root, graph):
     ns = "{http://www.openmath.org/OpenMathCD}"
     if root.tag != ns + "CD":
         raise ValueError("Expected an OpenMath CD document")
-    cd = root.findtext(ns + "CDName")
+    cd = (root.findtext(ns + "CDName") or "").strip()
     base = root.findtext(ns + "CDBase") or "http://www.openmath.org/cd"
     for symbol in root.findall(ns + "CDDefinition"):
         name = (symbol.findtext(ns + "Name") or "").strip()
@@ -23,12 +23,18 @@ def dictionary(store, root, graph):
             raise ValueError("Unnamed dictionary or symbol")
         subject = NamedNode(f"{base.rstrip('/')}/{cd}#{name}")
         store.add(Quad(subject, LABEL, Literal(name), graph))
+        description = symbol.find(ns+"Description")
+        if description is not None:
+            store.add(Quad(subject,NamedNode("http://www.w3.org/2000/01/rdf-schema#comment"),
+                           Literal("".join(description.itertext()).strip()),graph))
+        store.add(Quad(subject,NamedNode("http://purl.org/dc/terms/isPartOf"),
+                       NamedNode(base.rstrip("/")+"/"+cd),graph))
 
 
 def openmath_archive(store, path, graph):
     with tarfile.open(path, "r|gz") as tar:
         for member in tar:
-            if "/cd/Official/" in member.name and member.name.endswith(".ocd") and member.isfile():
+            if member.name.endswith(".ocd") and member.isfile():
                 with tar.extractfile(member) as stream:
                     dictionary(store, ET.parse(stream).getroot(), graph)
 

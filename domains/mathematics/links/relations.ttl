@@ -8,3 +8,9 @@ c:directed-graph skos:broader c:graph-graph-theory .
 c:weighted-graph skos:broader c:graph-graph-theory .
 c:tree-graph-theory skos:broader c:graph-graph-theory .
 c:euclidean-distance skos:related c:inner-product .
+c:adjacency-matrix v:uses c:matrix .
+c:graph-laplacian v:uses c:matrix .
+c:graph-laplacian skos:related c:eigenvalue .
+c:conjugate-gradient-method v:uses c:inner-product .
+c:newton-s-method v:uses c:derivative .
+c:matrix-factorization skos:related c:singular-value-decomposition .

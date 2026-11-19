@@ -17,3 +17,6 @@ c:digital-signature a skos:Concept ; skos:prefLabel "Digital signature"@en ;
 
 c:zero-knowledge-proof a skos:Concept ; skos:prefLabel "Zero-knowledge proof"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:cryptography .
+
+c:rsa-cryptosystem a skos:Concept ; skos:prefLabel "RSA cryptosystem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:cryptography .

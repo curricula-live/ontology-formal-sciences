@@ -20,6 +20,9 @@ def load_graph(store, path, source, graph):
                 raise ValueError("Expected one N-Triples document")
             with archive.open(members[0]) as stream:
                 store.bulk_load(input=stream, format=RdfFormat.N_TRIPLES, to_graph=graph)
+    elif fmt == "qudt-release":
+        with zipfile.ZipFile(path) as archive, archive.open("QUDT-all-in-one-OWL.ttl") as stream:
+            store.bulk_load(input=stream,format=RdfFormat.TURTLE,to_graph=graph)
     elif fmt in {"lean-archive","bfile","tex-equation","tptp-archive","zbmath"}:
         from pipeline.parse.adapters import references
         references(store,path,source,graph)
@@ -32,10 +35,15 @@ def load_graph(store, path, source, graph):
 
 def ingest(source, offline=False):
     path = fetch(source, offline)
-    folder = ROOT / ".cache" / "stage" / source["id"] / source["sha256"]
+    folder = ROOT / ".cache" / "stage-v2" / source["id"] / source["sha256"]
     report = folder / "report.json"
+    def verify(store, result):
+        query = source.get("validation_query")
+        if not query or not bool(store.query(query)):
+            raise ValueError(f"{source['id']} failed its registered source competency query")
+        return dict(result, validation="passed")
     if report.exists():
-        return read(report)
+        return verify(Store.read_only(str(folder/"store")), read(report))
     folder.parent.mkdir(parents=True, exist_ok=True)
     tmp = Path(tempfile.mkdtemp(dir=folder.parent))
     try:
@@ -45,8 +53,8 @@ def ingest(source, offline=False):
         size = len(store)
         if not size:
             raise ValueError("Parsed source contained no statements")
+        result = verify(store, dict(source=source["id"], sha256=source["sha256"], triples=size, graph=name))
         del store
-        result = dict(source=source["id"], sha256=source["sha256"], triples=size, graph=name)
         write(tmp / "report.json", result)
         try:
             tmp.rename(folder)
@@ -59,5 +67,5 @@ def ingest(source, offline=False):
 
 
 def staged(source):
-    path = ROOT / ".cache" / "stage" / source["id"] / source["sha256"] / "store"
+    path = ROOT / ".cache" / "stage-v2" / source["id"] / source["sha256"] / "store"
     return Store.read_only(str(path))

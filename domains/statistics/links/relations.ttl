@@ -5,3 +5,11 @@
 
 c:bayesian-network v:uses c:conditional-probability .
 c:linear-regression skos:related c:least-squares .
+c:bayesian-network skos:broader c:probabilistic-graphical-model .
+c:probabilistic-graphical-model v:uses c:joint-distribution .
+c:maximum-a-posteriori-estimation v:uses c:posterior-distribution .
+c:maximum-a-posteriori-estimation skos:broader c:statistical-estimation .
+c:markov-chain skos:related c:transition-matrix .
+c:bias-of-an-estimator v:uses c:expected-value .
+c:bayes-theorem v:uses c:conditional-probability .
+c:posterior-distribution skos:related c:bayes-theorem .

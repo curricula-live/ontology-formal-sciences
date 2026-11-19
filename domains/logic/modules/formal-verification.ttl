@@ -17,3 +17,9 @@ c:loop-invariant a skos:Concept ; skos:prefLabel "Loop invariant"@en ;
 
 c:program-correctness a skos:Concept ; skos:prefLabel "Program correctness"@en ;
     skos:inScheme scheme:logic ; skos:broader c:formal-verification .
+
+c:symbolic-model-checking a skos:Concept ; skos:prefLabel "Symbolic model checking"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification .
+
+c:weakest-precondition a skos:Concept ; skos:prefLabel "Weakest precondition"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification .

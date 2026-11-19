@@ -17,3 +17,9 @@ c:posterior-distribution a skos:Concept ; skos:prefLabel "Posterior distribution
 
 c:bayesian-network a skos:Concept ; skos:prefLabel "Bayesian network"@en ;
     skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics .
+
+c:probabilistic-graphical-model a skos:Concept ; skos:prefLabel "Probabilistic graphical model"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics .
+
+c:maximum-a-posteriori-estimation a skos:Concept ; skos:prefLabel "Maximum a posteriori estimation"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics .

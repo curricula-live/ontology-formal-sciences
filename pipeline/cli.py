@@ -4,6 +4,7 @@ import sys
 from rdflib import Graph
 from pipeline.common import ROOT, registry, read
 from pipeline.curate import authored
+from pipeline.normalize.index import normalize
 from pipeline.fetch import fetch
 from pipeline.parse import ingest, staged
 from pipeline.align import candidates
@@ -29,7 +30,7 @@ def main():
     subs = parser.add_subparsers(dest="cmd",required=True)
     listing = subs.add_parser("sources")
     listing.add_argument("view",choices=["list","status"])
-    for cmd in ("fetch","ingest","align","audit"):
+    for cmd in ("fetch","ingest","normalize","align","audit"):
         p = subs.add_parser(cmd)
         p.add_argument("--source",required=True,choices=sorted(registry()))
         p.add_argument("--offline",action="store_true")
@@ -46,6 +47,8 @@ def main():
                 result = {"path":str(fetch(s,args.offline))}
             elif args.cmd=="ingest":
                 result = ingest(s,args.offline)
+            elif args.cmd=="normalize":
+                result = normalize(s,args.offline)
             elif args.cmd=="audit":
                 result = audit(s,args.offline)
             else:

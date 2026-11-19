@@ -9,3 +9,8 @@ c:dpll-algorithm v:solves c:boolean-satisfiability .
 c:conflict-driven-clause-learning v:solves c:boolean-satisfiability .
 c:hoare-logic skos:related c:program-correctness .
 c:hoare-logic skos:related c:axiomatic-semantics .
+c:resolution-refutation v:uses c:resolution-logic .
+c:conflict-driven-clause-learning v:uses c:clause-learning .
+c:clause-learning skos:related c:resolution-logic .
+c:symbolic-model-checking skos:broader c:model-checking .
+c:weakest-precondition skos:related c:hoare-logic .

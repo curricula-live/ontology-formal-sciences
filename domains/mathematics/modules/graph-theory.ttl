@@ -25,3 +25,21 @@ c:tree-graph-theory a skos:Concept ; skos:prefLabel "Tree (graph theory)"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
 
 c:directed-acyclic-graph skos:definition "A directed graph that contains no directed cycle."@en .
+
+c:adjacency-matrix a skos:Concept ; skos:prefLabel "Adjacency matrix"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:adjacency-list a skos:Concept ; skos:prefLabel "Adjacency list"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:graph-laplacian a skos:Concept ; skos:prefLabel "Graph Laplacian"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:bipartite-graph a skos:Concept ; skos:prefLabel "Bipartite graph"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:spanning-tree a skos:Concept ; skos:prefLabel "Spanning tree"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:graph-coloring a skos:Concept ; skos:prefLabel "Graph coloring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .

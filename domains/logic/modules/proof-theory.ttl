@@ -17,3 +17,6 @@ c:cut-elimination a skos:Concept ; skos:prefLabel "Cut elimination"@en ;
 
 c:inference-rule a skos:Concept ; skos:prefLabel "Inference rule"@en ;
     skos:inScheme scheme:logic ; skos:broader c:proof-theory .
+
+c:resolution-refutation a skos:Concept ; skos:prefLabel "Resolution refutation"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory .

@@ -19,3 +19,6 @@ c:conflict-driven-clause-learning a skos:Concept ; skos:prefLabel "Conflict-driv
     skos:inScheme scheme:logic ; skos:broader c:boolean-satisfiability .
 
 c:unit-propagation skos:definition "In a conjunction of clauses under a partial assignment, repeatedly assign the remaining literal of a unit clause to true and simplify the clauses."@en .
+
+c:clause-learning a skos:Concept ; skos:prefLabel "Clause learning"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:boolean-satisfiability .

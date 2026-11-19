@@ -17,3 +17,9 @@ c:support-vector-machine a skos:Concept ; skos:prefLabel "Support vector machine
 
 c:gradient-descent a skos:Concept ; skos:prefLabel "Gradient descent"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:kernel-method a skos:Concept ; skos:prefLabel "Kernel method"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:backpropagation a skos:Concept ; skos:prefLabel "Backpropagation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .

@@ -25,3 +25,24 @@ c:binary-search a skos:Concept ; skos:prefLabel "Binary search"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
 
 c:dijkstra-s-algorithm skos:definition "A shortest-path algorithm that repeatedly settles an unsettled vertex of minimum tentative distance. Its standard correctness guarantee assumes nonnegative edge weights."@en .
+
+c:breadth-first-search a skos:Concept ; skos:prefLabel "Breadth-first search"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:depth-first-search a skos:Concept ; skos:prefLabel "Depth-first search"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:kruskal-s-algorithm a skos:Concept ; skos:prefLabel "Kruskal's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:minimum-spanning-tree-problem a skos:Concept ; skos:prefLabel "Minimum spanning tree problem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:topological-sorting a skos:Concept ; skos:prefLabel "Topological sorting"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:ford-fulkerson-method a skos:Concept ; skos:prefLabel "Ford–Fulkerson method"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:maximum-flow-problem a skos:Concept ; skos:prefLabel "Maximum flow problem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .

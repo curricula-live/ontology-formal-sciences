@@ -2,5 +2,6 @@
   "graph": "https://curricula.live/id/formal-sciences/stage/rdf-rdfs/ecee3a011b7c13ea2a7e40b0a208bfe6be53d69fdd53ee035e09e9f9e5108ad6",
   "sha256": "ecee3a011b7c13ea2a7e40b0a208bfe6be53d69fdd53ee035e09e9f9e5108ad6",
   "source": "rdf-rdfs",
-  "triples": 87
+  "triples": 87,
+  "validation": "passed"
 }

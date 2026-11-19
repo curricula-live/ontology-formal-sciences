@@ -20,3 +20,15 @@ c:singular-value-decomposition a skos:Concept ; skos:prefLabel "Singular value d
 
 c:inner-product a skos:Concept ; skos:prefLabel "Inner product"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:eigenvector a skos:Concept ; skos:prefLabel "Eigenvector"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:orthogonal-projection a skos:Concept ; skos:prefLabel "Orthogonal projection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:quadratic-form a skos:Concept ; skos:prefLabel "Quadratic form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:matrix-factorization a skos:Concept ; skos:prefLabel "Matrix factorization"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .

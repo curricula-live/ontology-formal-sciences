@@ -2,5 +2,6 @@
   "graph": "https://curricula.live/id/formal-sciences/stage/cso/47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
   "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
   "source": "cso",
-  "triples": 166518
+  "triples": 166518,
+  "validation": "passed"
 }

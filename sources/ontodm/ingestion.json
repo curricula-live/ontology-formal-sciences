@@ -2,5 +2,6 @@
   "graph": "https://curricula.live/id/formal-sciences/stage/ontodm/28d821c5bb962af35768c569fa77bb5558c936d4deb09561e7ebba828036f69a",
   "sha256": "28d821c5bb962af35768c569fa77bb5558c936d4deb09561e7ebba828036f69a",
   "source": "ontodm",
-  "triples": 7531
+  "triples": 7531,
+  "validation": "passed"
 }

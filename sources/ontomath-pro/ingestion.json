@@ -2,5 +2,6 @@
   "graph": "https://curricula.live/id/formal-sciences/stage/ontomath-pro/d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
   "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
   "source": "ontomath-pro",
-  "triples": 21731
+  "triples": 21731,
+  "validation": "passed"
 }

@@ -2,5 +2,6 @@
   "graph": "https://curricula.live/id/formal-sciences/stage/dlmf/faf0aeccd2ee45c3f05a3b85b6bc086de58979da2ad7388e97b9d7e0e696d3a9",
   "sha256": "faf0aeccd2ee45c3f05a3b85b6bc086de58979da2ad7388e97b9d7e0e696d3a9",
   "source": "dlmf",
-  "triples": 1
+  "triples": 1,
+  "validation": "passed"
 }

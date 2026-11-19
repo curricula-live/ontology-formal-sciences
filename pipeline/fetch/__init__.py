@@ -3,6 +3,7 @@ import os
 import shutil
 import tempfile
 from urllib.request import urlopen
+from pathlib import Path
 from pipeline.common import ROOT, checksum
 
 
@@ -14,14 +15,20 @@ def fetch(source, offline=False):
         return dest
     dest.parent.mkdir(exist_ok=True)
     packed = dest.with_suffix(".gz")
-    if offline and not packed.exists():
+    vault = Path(os.environ.get("FORMAL_SCIENCES_SNAPSHOT_DIR", Path.home()/".local/share/curricula/formal-sciences/snapshots")) / source["sha256"]
+    if offline and not packed.exists() and not vault.exists():
         raise ValueError(f"Missing or corrupt cache for {source['id']}; run fetch online")
     with tempfile.NamedTemporaryFile(dir=dest.parent, delete=False) as tmp:
         name = tmp.name
     try:
-        with (gzip.open(packed, "rb") if packed.exists() else urlopen(source["url"], timeout=180)) as src, open(name, "wb") as out:
+        if packed.exists():
+            stream = gzip.open(packed,"rb")
+        elif vault.exists():
+            stream = vault.open("rb")
+        else:
+            stream = urlopen(source["url"],timeout=180)
+        with stream as src, open(name,"wb") as out:
             shutil.copyfileobj(src, out)
-        from pathlib import Path
         if checksum(Path(name)) != source["sha256"]:
             raise ValueError(f"Snapshot checksum mismatch for {source['id']}; review upstream revision")
         os.replace(name, dest)

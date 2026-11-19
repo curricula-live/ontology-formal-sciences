@@ -17,3 +17,6 @@ c:sample-space a skos:Concept ; skos:prefLabel "Sample space"@en ;
 
 c:independence-probability a skos:Concept ; skos:prefLabel "Independence (probability)"@en ;
     skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:joint-distribution a skos:Concept ; skos:prefLabel "Joint probability distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .

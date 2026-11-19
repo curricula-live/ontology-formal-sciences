@@ -8,3 +8,17 @@ c:bellman-ford-algorithm v:solves c:shortest-path-problem .
 c:dijkstra-s-algorithm skos:broader c:graph-algorithm .
 c:bellman-ford-algorithm skos:broader c:graph-algorithm .
 c:cryptographic-hash-function skos:related c:digital-signature .
+c:breadth-first-search v:uses c:queue .
+c:breadth-first-search skos:broader c:graph-algorithm .
+c:depth-first-search skos:broader c:graph-algorithm .
+c:depth-first-search skos:related c:stack-data-structure .
+c:kruskal-s-algorithm v:solves c:minimum-spanning-tree-problem .
+c:kruskal-s-algorithm skos:broader c:graph-algorithm .
+c:kruskal-s-algorithm skos:related c:disjoint-set-data-structure .
+c:topological-sorting skos:broader c:graph-algorithm .
+c:ford-fulkerson-method v:solves c:maximum-flow-problem .
+c:support-vector-machine skos:related c:kernel-method .
+c:cook-levin-theorem skos:related c:np-completeness .
+c:rsa-cryptosystem skos:broader c:public-key-cryptography .
+c:huffman-coding skos:broader c:entropy-coding .
+c:entropy-coding skos:related c:shannon-entropy .

@@ -2,5 +2,6 @@
   "graph": "https://curricula.live/id/formal-sciences/stage/openalex/74687f76161db9da5a5959053a46abba071e3d8a236fdb8a7d307d7f2bb5f291",
   "sha256": "74687f76161db9da5a5959053a46abba071e3d8a236fdb8a7d307d7f2bb5f291",
   "source": "openalex",
-  "triples": 2
+  "triples": 2,
+  "validation": "passed"
 }

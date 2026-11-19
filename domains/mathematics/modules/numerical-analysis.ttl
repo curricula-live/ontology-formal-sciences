@@ -17,3 +17,6 @@ c:round-off-error a skos:Concept ; skos:prefLabel "Round-off error"@en ;
 
 c:condition-number a skos:Concept ; skos:prefLabel "Condition number"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:conjugate-gradient-method a skos:Concept ; skos:prefLabel "Conjugate gradient method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .

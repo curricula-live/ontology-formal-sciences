@@ -10,5 +10,6 @@
   "scope": "complete OWL/XML document; imported ontology IRIs retained, imports not dereferenced",
   "sha256": "28d821c5bb962af35768c569fa77bb5558c936d4deb09561e7ebba828036f69a",
   "status": "staged",
-  "url": "https://raw.githubusercontent.com/panovp/ontodm-core/d4aeb928a86b61bc3e7d1177589ea16362f929ce/OntoDM.owl"
+  "url": "https://raw.githubusercontent.com/panovp/ontodm-core/d4aeb928a86b61bc3e7d1177589ea16362f929ce/OntoDM.owl",
+  "validation_query": "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX skos: <http://www.w3.org/2004/02/skos/core#> PREFIX owl: <http://www.w3.org/2002/07/owl#> PREFIX dct: <http://purl.org/dc/terms/> ASK { GRAPH ?g { ?c a owl:Class ; rdfs:subClassOf ?super } }"
 }

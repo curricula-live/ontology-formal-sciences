@@ -1,7 +1,7 @@
 from hashlib import sha256
 from rdflib import Graph, RDF, RDFS, SKOS, URIRef, Literal
 from rdflib.namespace import PROV, DCTERMS
-from pipeline.common import ROOT, BASE, D, read, checksum
+from pipeline.common import ROOT, BASE, C, V, D, read, checksum
 
 DOMAINS = ("mathematics", "computer-science", "logic", "statistics")
 
@@ -34,6 +34,22 @@ def authored():
                 prov.add((stmt,PROV.wasDerivedFrom,node))
                 for pred,term in zip((RDF.subject,RDF.predicate,RDF.object),triple):
                     prov.add((stmt,pred,term))
+    for path in sorted((ROOT/"domains").rglob("*.ttl")):
+        rel = path.relative_to(ROOT/"domains")
+        if rel.parts[1] not in {"bridges","links"}:
+            continue
+        for subject, _, target in Graph().parse(path):
+            owner, other = graph.value(subject,SKOS.inScheme), graph.value(target,SKOS.inScheme)
+            if not owner or not other or ((owner != other) != (rel.parts[1]=="bridges")):
+                raise ValueError(f"Misplaced or unresolved link in {rel}: {subject} -> {target}")
+            if rel.parts[1]=="links" and owner!=D[rel.parts[0]]:
+                raise ValueError(f"Link belongs to a different domain: {rel}")
+    for subject, predicate, target, reference in read(ROOT/"reviews/approved/citations.json"):
+        triple = C[subject], V[predicate], C[target]
+        if triple not in graph:
+            raise ValueError(f"Referenced assertion missing: {triple}")
+        digest = sha256(" ".join(v.n3() for v in triple).encode()).hexdigest()
+        prov.add((URIRef(BASE+"assertion/"+digest),DCTERMS.source,URIRef(reference)))
     return graph, prov
 
 

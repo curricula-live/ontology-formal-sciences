@@ -17,3 +17,6 @@ c:modular-arithmetic a skos:Concept ; skos:prefLabel "Modular arithmetic"@en ;
 
 c:greatest-common-divisor a skos:Concept ; skos:prefLabel "Greatest common divisor"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:number-theory .
+
+c:modular-exponentiation a skos:Concept ; skos:prefLabel "Modular exponentiation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:number-theory .

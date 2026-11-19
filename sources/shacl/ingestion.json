@@ -2,5 +2,6 @@
   "graph": "https://curricula.live/id/formal-sciences/stage/shacl/0e5d8aea0eab98a072d4a02faaee1ee914ec99eab2ca473429726faed4a13f69",
   "sha256": "0e5d8aea0eab98a072d4a02faaee1ee914ec99eab2ca473429726faed4a13f69",
   "source": "shacl",
-  "triples": 1128
+  "triples": 1128,
+  "validation": "passed"
 }

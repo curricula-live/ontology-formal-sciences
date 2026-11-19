@@ -17,3 +17,9 @@ c:channel-capacity a skos:Concept ; skos:prefLabel "Channel capacity"@en ;
 
 c:source-coding-theorem a skos:Concept ; skos:prefLabel "Source coding theorem"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:entropy-coding a skos:Concept ; skos:prefLabel "Entropy coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:huffman-coding a skos:Concept ; skos:prefLabel "Huffman coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .

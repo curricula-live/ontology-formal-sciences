@@ -1,0 +1,51 @@
+name: Propose upstream revision
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: Registered source ID
+        required: true
+        type: string
+  schedule:
+    - cron: '41 3 * * *'
+concurrency:
+  group: ontology-source-refresh
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  propose:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.lock
+      - run: curl --fail --location --retry 3 https://github.com/ontodev/robot/releases/download/v1.9.8/robot.jar -o "$RUNNER_TEMP/robot.jar"
+      - name: Parse proposed snapshot and open review
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REQUESTED: ${{ inputs.source }}
+        run: |
+          source="$REQUESTED"
+          if test -z "$source"; then
+            sources=(opencs cso ontomath-pro ontomath-edu openmath mathmoddb ml-schema stato ontodm edam qudt msc2020 openmath-rdf swo mathlib4)
+            source=${sources[$(( $(date +%s)/86400 % ${#sources[@]} ))]}
+          fi
+          export ROBOT_JAR="$RUNNER_TEMP/robot.jar"
+          python -m pipeline.refresh "$source" > "$RUNNER_TEMP/revision.json"
+          if test "$(jq -r .status "$RUNNER_TEMP/revision.json")" = unchanged; then exit 0; fi
+          digest=$(jq -r .new "$RUNNER_TEMP/revision.json")
+          branch="review/source-$source-$digest"
+          git switch -c "$branch"
+          git config user.name github-actions
+          git config user.email github-actions@users.noreply.github.com
+          git add "sources/$source" dist
+          git commit -m "Stage $source revision for semantic review"
+          if ! git ls-remote --exit-code --heads origin "$branch" >/dev/null; then git push origin "$branch"; fi
+          if test "$(gh pr list --head "$branch" --state all --json number --jq length)" = 0; then
+            gh pr create --draft --base main --head "$branch" --title "Review $source revision" --body-file "$RUNNER_TEMP/revision.json"
+          fi

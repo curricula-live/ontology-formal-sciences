@@ -1,0 +1,9 @@
+[
+  ["bayesian-network","uses","directed-acyclic-graph","https://web.stanford.edu/~shervine/teaching/cs-221/cheatsheet-variables-models/"],
+  ["bayesian-network","uses","conditional-probability","https://web.stanford.edu/~shervine/teaching/cs-221/cheatsheet-variables-models/"],
+  ["backpropagation","uses","chain-rule","https://stanford-cs221.github.io/spring2023-extra/modules/machine-learning/learning3-6pp.pdf"],
+  ["dijkstra-s-algorithm","solves","shortest-path-problem","https://algs4.cs.princeton.edu/44sp/"],
+  ["bellman-ford-algorithm","solves","shortest-path-problem","https://algs4.cs.princeton.edu/44sp/"],
+  ["kruskal-s-algorithm","solves","minimum-spanning-tree-problem","https://algs4.cs.princeton.edu/43mst/"],
+  ["ford-fulkerson-method","solves","maximum-flow-problem","https://algs4.cs.princeton.edu/lectures/"]
+]

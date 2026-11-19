@@ -2,5 +2,6 @@
   "graph": "https://curricula.live/id/formal-sciences/stage/ml-schema/5eb9572cde53e362f74113b9292f07a9d9ad115d811341489fa00dba4dd0f35e",
   "sha256": "5eb9572cde53e362f74113b9292f07a9d9ad115d811341489fa00dba4dd0f35e",
   "source": "ml-schema",
-  "triples": 441
+  "triples": 441,
+  "validation": "passed"
 }

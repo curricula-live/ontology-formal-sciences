@@ -1,0 +1,186 @@
+[
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/scheme/computer-science",
+    "external": "https://w3id.org/ocs/ont/C1",
+    "label": "computer science",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/instruction-pipeline",
+    "external": "https://w3id.org/ocs/ont/C13099",
+    "label": "instruction pipeline",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/depth-first-search",
+    "external": "https://w3id.org/ocs/ont/C14406",
+    "label": "depth-first search",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/conjugate-gradient-method",
+    "external": "https://w3id.org/ocs/ont/C15070",
+    "label": "conjugate gradient method",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/breadth-first-search",
+    "external": "https://w3id.org/ocs/ont/C16033",
+    "label": "breadth-first search",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/adjacency-list",
+    "external": "https://w3id.org/ocs/ont/C16376",
+    "label": "adjacency list",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/bipartite-graph",
+    "external": "https://w3id.org/ocs/ont/C19336",
+    "label": "bipartite graph",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/backpropagation",
+    "external": "https://w3id.org/ocs/ont/C22089",
+    "label": "backpropagation",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/software-testing",
+    "external": "https://w3id.org/ocs/ont/C22180",
+    "label": "software testing",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/kernel-method",
+    "external": "https://w3id.org/ocs/ont/C25040",
+    "label": "kernel method",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/sequent-calculus",
+    "external": "https://w3id.org/ocs/ont/C26635",
+    "label": "sequent calculus",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/maximum-a-posteriori-estimation",
+    "external": "https://w3id.org/ocs/ont/C26986",
+    "label": "maximum a posteriori estimation",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/spanning-tree",
+    "external": "https://w3id.org/ocs/ont/C26989",
+    "label": "spanning tree",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/adjacency-matrix",
+    "external": "https://w3id.org/ocs/ont/C30245",
+    "label": "adjacency matrix",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/topological-sorting",
+    "external": "https://w3id.org/ocs/ont/C30307",
+    "label": "topological sorting",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/predicate-logic",
+    "external": "https://w3id.org/ocs/ont/C30651",
+    "label": "predicate logic",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/bias-of-an-estimator",
+    "external": "https://w3id.org/ocs/ont/C30859",
+    "label": "bias of an estimator",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/modular-exponentiation",
+    "external": "https://w3id.org/ocs/ont/C32396",
+    "label": "modular exponentiation",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/kruskal-s-algorithm",
+    "external": "https://w3id.org/ocs/ont/C33274",
+    "label": "kruskal's algorithm",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/decidability",
+    "external": "https://w3id.org/ocs/ont/C3515",
+    "label": "decidability",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/graph-coloring",
+    "external": "https://w3id.org/ocs/ont/C37036",
+    "label": "graph coloring",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/cook-levin-theorem",
+    "external": "https://w3id.org/ocs/ont/C38867",
+    "label": "cook–levin theorem",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/binary-decision-diagram",
+    "external": "https://w3id.org/ocs/ont/C9393",
+    "label": "binary decision diagram",
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  }
+]

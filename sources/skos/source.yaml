@@ -10,5 +10,6 @@
   "scope": "vocabulary dependency",
   "sha256": "e79633b8d0564816cee8a99f5c9acf9a0e6fc7257c7209acd684ecad53a89dd6",
   "status": "staged",
-  "url": "https://www.w3.org/2009/08/skos-reference/skos.rdf"
+  "url": "https://www.w3.org/2009/08/skos-reference/skos.rdf",
+  "validation_query": "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX skos: <http://www.w3.org/2004/02/skos/core#> PREFIX owl: <http://www.w3.org/2002/07/owl#> PREFIX dct: <http://purl.org/dc/terms/> ASK { GRAPH ?g { skos:broader ?p ?o } }"
 }

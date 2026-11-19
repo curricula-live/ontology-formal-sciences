@@ -22,3 +22,23 @@ jobs:
         with:
           name: formal-sciences-rdf-v1
           path: dist/
+  mapping-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.lock
+      - run: curl --fail --location --retry 3 https://github.com/ontodev/robot/releases/download/v1.9.8/robot.jar -o "$RUNNER_TEMP/robot.jar"
+      - name: Replay every decision against the actual pinned source
+        run: |
+          export ROBOT_JAR="$RUNNER_TEMP/robot.jar"
+          python - <<'PY'
+          from pipeline.cli import audit
+          from pipeline.common import ROOT,read,registry
+          catalog=registry()
+          decisions=[d for state in ("approved","rejected") for d in read(ROOT/"reviews"/state/"mappings.json")]
+          for source in sorted({d["source"] for d in decisions}):
+              print(audit(catalog[source]))
+          PY

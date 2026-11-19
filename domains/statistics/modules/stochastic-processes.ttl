@@ -17,3 +17,6 @@ c:poisson-process a skos:Concept ; skos:prefLabel "Poisson process"@en ;
 
 c:martingale a skos:Concept ; skos:prefLabel "Martingale"@en ;
     skos:inScheme scheme:statistics ; skos:broader c:stochastic-processes .
+
+c:transition-matrix a skos:Concept ; skos:prefLabel "Transition matrix"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:stochastic-processes .

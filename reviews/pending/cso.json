@@ -1,0 +1,354 @@
+[
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/backpropagation",
+    "external": "https://cso.kmi.open.ac.uk/topics/backpropagation",
+    "label": "backpropagation",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/binary-decision-diagram",
+    "external": "https://cso.kmi.open.ac.uk/topics/binary_decision_diagram",
+    "label": "binary decision diagram",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/bipartite-graph",
+    "external": "https://cso.kmi.open.ac.uk/topics/bipartite_graph",
+    "label": "bipartite graph",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/cache-memory",
+    "external": "https://cso.kmi.open.ac.uk/topics/cache_memory",
+    "label": "cache memory",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/clause-learning",
+    "external": "https://cso.kmi.open.ac.uk/topics/clause_learning",
+    "label": "clause learning",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/computer-networks",
+    "external": "https://cso.kmi.open.ac.uk/topics/computer_networks",
+    "label": "computer networks",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/scheme/computer-science",
+    "external": "https://cso.kmi.open.ac.uk/topics/computer_science",
+    "label": "computer science",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/congestion-control",
+    "external": "https://cso.kmi.open.ac.uk/topics/congestion_control",
+    "label": "congestion control",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/covariance-matrix",
+    "external": "https://cso.kmi.open.ac.uk/topics/covariance_matrix",
+    "label": "covariance matrix",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/cut-elimination",
+    "external": "https://cso.kmi.open.ac.uk/topics/cut_elimination",
+    "label": "cut elimination",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/eigenvalue",
+    "external": "https://cso.kmi.open.ac.uk/topics/eigenvalue",
+    "label": "eigenvalue",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/eigenvector",
+    "external": "https://cso.kmi.open.ac.uk/topics/eigenvector",
+    "label": "eigenvector",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/entropy-coding",
+    "external": "https://cso.kmi.open.ac.uk/topics/entropy_coding",
+    "label": "entropy coding",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/formal-semantics",
+    "external": "https://cso.kmi.open.ac.uk/topics/formal_semantics",
+    "label": "formal semantics",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/geometry",
+    "external": "https://cso.kmi.open.ac.uk/topics/geometry",
+    "label": "geometry",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/graph-coloring",
+    "external": "https://cso.kmi.open.ac.uk/topics/graph_coloring",
+    "label": "graph coloring",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/huffman-coding",
+    "external": "https://cso.kmi.open.ac.uk/topics/huffman_coding",
+    "label": "huffman coding",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/information-theory",
+    "external": "https://cso.kmi.open.ac.uk/topics/information_theory",
+    "label": "information theory",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/kernel-method",
+    "external": "https://cso.kmi.open.ac.uk/topics/kernel_method",
+    "label": "kernel method",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/knowledge-representation",
+    "external": "https://cso.kmi.open.ac.uk/topics/knowledge_representation",
+    "label": "knowledge representation",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/lambda-calculus",
+    "external": "https://cso.kmi.open.ac.uk/topics/lambda_calculus",
+    "label": "lambda calculus",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/mathematics",
+    "external": "https://cso.kmi.open.ac.uk/topics/mathematics",
+    "label": "mathematics",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/scheme/mathematics",
+    "external": "https://cso.kmi.open.ac.uk/topics/mathematics",
+    "label": "mathematics",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/matrix-factorization",
+    "external": "https://cso.kmi.open.ac.uk/topics/matrix_factorization",
+    "label": "matrix factorization",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/method-of-moments",
+    "external": "https://cso.kmi.open.ac.uk/topics/method_of_moments",
+    "label": "method of moments",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/minimum-spanning-tree-problem",
+    "external": "https://cso.kmi.open.ac.uk/topics/minimum_spanning_tree_problem",
+    "label": "minimum spanning tree problem",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/modular-exponentiation",
+    "external": "https://cso.kmi.open.ac.uk/topics/modular_exponentiation",
+    "label": "modular exponentiation",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/mutual-information",
+    "external": "https://cso.kmi.open.ac.uk/topics/mutual_information",
+    "label": "mutual information",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/network-topology",
+    "external": "https://cso.kmi.open.ac.uk/topics/network_topology",
+    "label": "network topology",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/operating-systems",
+    "external": "https://cso.kmi.open.ac.uk/topics/operating_systems",
+    "label": "operating systems",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/principal-component-analysis",
+    "external": "https://cso.kmi.open.ac.uk/topics/principal_component_analysis",
+    "label": "principal component analysis",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/probability-distributions",
+    "external": "https://cso.kmi.open.ac.uk/topics/probability_distributions",
+    "label": "probability distributions",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/programming-languages",
+    "external": "https://cso.kmi.open.ac.uk/topics/programming_languages",
+    "label": "programming languages",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/quadratic-form",
+    "external": "https://cso.kmi.open.ac.uk/topics/quadratic_form",
+    "label": "quadratic form",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/random-variable",
+    "external": "https://cso.kmi.open.ac.uk/topics/random_variable",
+    "label": "random variable",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/sequent-calculus",
+    "external": "https://cso.kmi.open.ac.uk/topics/sequent_calculus",
+    "label": "sequent calculus",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/spanning-tree",
+    "external": "https://cso.kmi.open.ac.uk/topics/spanning_tree",
+    "label": "spanning tree",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/statistics",
+    "external": "https://cso.kmi.open.ac.uk/topics/statistics",
+    "label": "statistics",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/scheme/statistics",
+    "external": "https://cso.kmi.open.ac.uk/topics/statistics",
+    "label": "statistics",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/stochastic-processes",
+    "external": "https://cso.kmi.open.ac.uk/topics/stochastic_processes",
+    "label": "stochastic processes",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/supervised-learning",
+    "external": "https://cso.kmi.open.ac.uk/topics/supervised_learning",
+    "label": "supervised learning",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/symbolic-model-checking",
+    "external": "https://cso.kmi.open.ac.uk/topics/symbolic_model_checking",
+    "label": "symbolic model checking",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/topology",
+    "external": "https://cso.kmi.open.ac.uk/topics/topology",
+    "label": "topology",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/weighted-graph",
+    "external": "https://cso.kmi.open.ac.uk/topics/weighted_graph",
+    "label": "weighted graph",
+    "rule": "normalized-label",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "state": "pending"
+  }
+]

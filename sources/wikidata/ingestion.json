@@ -2,5 +2,6 @@
   "graph": "https://curricula.live/id/formal-sciences/stage/wikidata/a66946dbf19dcfd6a69052f3227e40ee4c7a7b792d5434cec94101a4453a5f6c",
   "sha256": "a66946dbf19dcfd6a69052f3227e40ee4c7a7b792d5434cec94101a4453a5f6c",
   "source": "wikidata",
-  "triples": 6127
+  "triples": 6127,
+  "validation": "passed"
 }

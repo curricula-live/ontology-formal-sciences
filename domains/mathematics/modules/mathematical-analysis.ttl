@@ -17,3 +17,6 @@ c:continuity a skos:Concept ; skos:prefLabel "Continuity"@en ;
 
 c:real-analysis a skos:Concept ; skos:prefLabel "Real analysis"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:fixed-point a skos:Concept ; skos:prefLabel "Fixed point (mathematics)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .

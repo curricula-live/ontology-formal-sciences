@@ -17,3 +17,6 @@ c:conjunctive-normal-form a skos:Concept ; skos:prefLabel "Conjunctive normal fo
 
 c:logical-conjunction a skos:Concept ; skos:prefLabel "Logical conjunction"@en ;
     skos:inScheme scheme:logic ; skos:broader c:propositional-logic .
+
+c:boolean-formula a skos:Concept ; skos:prefLabel "Boolean formula"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic .

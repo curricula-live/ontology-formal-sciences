@@ -1,6 +1,7 @@
 {
-  "graph": "https://curricula.live/id/formal-sciences/stage/qudt/cdea638573c5315ef80fa0eb5cd3d0a49b0bde19f5212db0e92acd9c2113adcb",
-  "sha256": "cdea638573c5315ef80fa0eb5cd3d0a49b0bde19f5212db0e92acd9c2113adcb",
+  "graph": "https://curricula.live/id/formal-sciences/stage/qudt/1e73b229ba1b2e047136b15bc14ad385d013d2ac5cbda69e9453916e68b2ed75",
+  "sha256": "1e73b229ba1b2e047136b15bc14ad385d013d2ac5cbda69e9453916e68b2ed75",
   "source": "qudt",
-  "triples": 2150
+  "triples": 132359,
+  "validation": "passed"
 }

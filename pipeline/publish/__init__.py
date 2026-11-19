@@ -52,11 +52,21 @@ def build(dest=None):
         for id,source in sources.items():
             path = ROOT / "sources" / id / "ingestion.json"
             stats = read(path) if path.exists() else {}
-            if stats and stats["sha256"] != source.get("sha256"):
+            if stats and (stats["sha256"] != source.get("sha256") or stats.get("validation") != "passed"):
                 raise ValueError(f"Outdated staging report: {id}")
             inventory[id] = {k:source.get(k) for k in ("revision","sha256","license","attribution","scope","url")}
-            inventory[id].update(staged_triples=stats.get("triples",0),status=source["status"])
-        manifest = dict(contract="curricula.rdf-release/v1",namespace=BASE,version="0.1.0",conforms=True,
+            normalized_path = path.with_name("normalization.json")
+            normalized = read(normalized_path) if normalized_path.exists() else {}
+            if normalized and normalized["sha256"] != source.get("sha256"):
+                raise ValueError(f"Outdated normalization report: {id}")
+            inventory[id].update(staged_triples=stats.get("triples",0),status=source["status"],
+                                 normalized_label_keys=normalized.get("label_keys",0),
+                                 candidate_pairs=normalized.get("candidates",0),
+                                 stage_validation=stats.get("validation","unprocessed"))
+        config = read(ROOT / "ontology.yaml")
+        if config["namespace"] != BASE:
+            raise ValueError("Namespace differs from identifier policy")
+        manifest = dict(contract=config["contract"],namespace=BASE,version=config["version"],conforms=True,
                         counts={name:len(g) for name,g in graphs.items()},
                         concepts=len(set(graph.subjects(RDF.type,SKOS.Concept))),predicates=len(set(graph.predicates())),
                         sources=inventory,artifacts={p.name:checksum(p) for p in sorted(out.iterdir())})

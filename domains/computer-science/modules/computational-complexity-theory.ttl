@@ -17,3 +17,6 @@ c:polynomial-time-reduction a skos:Concept ; skos:prefLabel "Polynomial-time red
 
 c:space-complexity a skos:Concept ; skos:prefLabel "Space complexity"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:cook-levin-theorem a skos:Concept ; skos:prefLabel "Cook–Levin theorem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .

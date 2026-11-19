@@ -17,3 +17,6 @@ c:method-of-moments a skos:Concept ; skos:prefLabel "Method of moments"@en ;
 
 c:confidence-interval a skos:Concept ; skos:prefLabel "Confidence interval"@en ;
     skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:bias-of-an-estimator a skos:Concept ; skos:prefLabel "Bias of an estimator"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
