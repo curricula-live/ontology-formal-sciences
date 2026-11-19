@@ -1,0 +1,14 @@
+{
+  "allow_mapping": false,
+  "attribution": "W3C",
+  "bytes": 28966,
+  "format": "xml",
+  "homepage": "https://www.w3.org/2009/08/skos-reference/skos.rdf",
+  "id": "skos",
+  "license": "reference only",
+  "revision": "content digest",
+  "scope": "vocabulary dependency",
+  "sha256": "e79633b8d0564816cee8a99f5c9acf9a0e6fc7257c7209acd684ecad53a89dd6",
+  "status": "staged",
+  "url": "https://www.w3.org/2009/08/skos-reference/skos.rdf"
+}

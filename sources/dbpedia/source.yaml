@@ -1,0 +1,14 @@
+{
+  "allow_mapping": false,
+  "attribution": "DBpedia contributors",
+  "bytes": 137025,
+  "format": "turtle",
+  "homepage": "https://dbpedia.org/data/Graph_theory.ttl",
+  "id": "dbpedia",
+  "license": "unverified",
+  "revision": "content digest",
+  "scope": "Graph theory resource document",
+  "sha256": "2c2525a89646fbf72831d0b606d50a7457abafa2782e97afcdf1d383c27e498d",
+  "status": "staged",
+  "url": "https://dbpedia.org/data/Graph_theory.ttl"
+}

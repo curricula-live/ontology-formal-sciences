@@ -1,0 +1,15 @@
+{
+  "allow_mapping": true,
+  "attribution": "ML-Schema/core",
+  "bytes": 43855,
+  "format": "turtle",
+  "homepage": "https://github.com/ML-Schema/core",
+  "id": "ml-schema",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "revision": "4e1d90292509ed2a2ec52efc955e40e17fa92281",
+  "scope": "core schema",
+  "sha256": "5eb9572cde53e362f74113b9292f07a9d9ad115d811341489fa00dba4dd0f35e",
+  "status": "staged",
+  "url": "https://raw.githubusercontent.com/ML-Schema/core/4e1d90292509ed2a2ec52efc955e40e17fa92281/MLSchema.ttl"
+}

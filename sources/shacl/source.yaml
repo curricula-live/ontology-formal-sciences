@@ -1,0 +1,14 @@
+{
+  "allow_mapping": false,
+  "attribution": "W3C",
+  "bytes": 52899,
+  "format": "turtle",
+  "homepage": "https://www.w3.org/ns/shacl.ttl",
+  "id": "shacl",
+  "license": "reference only",
+  "revision": "content digest",
+  "scope": "vocabulary dependency",
+  "sha256": "0e5d8aea0eab98a072d4a02faaee1ee914ec99eab2ca473429726faed4a13f69",
+  "status": "staged",
+  "url": "https://www.w3.org/ns/shacl.ttl"
+}

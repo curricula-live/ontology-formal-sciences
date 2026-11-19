@@ -1,0 +1,269 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://curricula.live/id/formal-sciences/concept/abstract-machine> skos:exactMatch <https://w3id.org/ocs/ont/C156> .
+
+<https://curricula.live/id/formal-sciences/concept/algorithm> skos:exactMatch <https://w3id.org/ocs/ont/C10> .
+
+<https://curricula.live/id/formal-sciences/concept/artificial-intelligence> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/artificial_intelligence>,
+        <https://w3id.org/ocs/ont/C8> .
+
+<https://curricula.live/id/formal-sciences/concept/automata-theory> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/automata_theory>,
+        <https://w3id.org/ocs/ont/C19560> .
+
+<https://curricula.live/id/formal-sciences/concept/automated-reasoning> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/automated_reasoning>,
+        <https://w3id.org/ocs/ont/C10479> .
+
+<https://curricula.live/id/formal-sciences/concept/axiom> skos:exactMatch <https://w3id.org/ocs/ont/C2978> .
+
+<https://curricula.live/id/formal-sciences/concept/axiomatic-semantics> skos:exactMatch <https://w3id.org/ocs/ont/C42129> .
+
+<https://curricula.live/id/formal-sciences/concept/axiomatic-system> skos:exactMatch <https://w3id.org/ocs/ont/C15965> .
+
+<https://curricula.live/id/formal-sciences/concept/bayes-theorem> skos:exactMatch <https://w3id.org/ocs/ont/C6291> .
+
+<https://curricula.live/id/formal-sciences/concept/bayesian-network> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/bayesian_network>,
+        <https://w3id.org/ocs/ont/C2874> .
+
+<https://curricula.live/id/formal-sciences/concept/bayesian-statistics> skos:exactMatch <https://w3id.org/ocs/ont/C34619> .
+
+<https://curricula.live/id/formal-sciences/concept/binary-heap> skos:exactMatch <https://w3id.org/ocs/ont/C33378> .
+
+<https://curricula.live/id/formal-sciences/concept/binary-search-tree> skos:exactMatch <https://w3id.org/ocs/ont/C26753> .
+
+<https://curricula.live/id/formal-sciences/concept/boolean-algebra> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/boolean_algebra>,
+        <https://w3id.org/ocs/ont/C3894> .
+
+<https://curricula.live/id/formal-sciences/concept/boolean-satisfiability> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/boolean_satisfiability> .
+
+<https://curricula.live/id/formal-sciences/concept/cartesian-product> skos:exactMatch <https://w3id.org/ocs/ont/C14151> .
+
+<https://curricula.live/id/formal-sciences/concept/causal-consistency> skos:exactMatch <https://w3id.org/ocs/ont/C35107> .
+
+<https://curricula.live/id/formal-sciences/concept/channel-capacity> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/channel_capacity>,
+        <https://w3id.org/ocs/ont/C21471> .
+
+<https://curricula.live/id/formal-sciences/concept/computability-theory> skos:exactMatch <https://w3id.org/ocs/ont/C28635> .
+
+<https://curricula.live/id/formal-sciences/concept/computational-complexity-theory> skos:exactMatch <https://w3id.org/ocs/ont/C3678> .
+
+<https://curricula.live/id/formal-sciences/concept/computational-problem> skos:exactMatch <https://w3id.org/ocs/ont/C3891> .
+
+<https://curricula.live/id/formal-sciences/concept/computer-architecture> skos:exactMatch <https://w3id.org/ocs/ont/C15> .
+
+<https://curricula.live/id/formal-sciences/concept/computer-science> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/computer_science>,
+        <https://w3id.org/ocs/ont/C1> .
+
+<https://curricula.live/id/formal-sciences/concept/condition-number> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/condition_number> .
+
+<https://curricula.live/id/formal-sciences/concept/conditional-probability> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/conditional_probability>,
+        <https://w3id.org/ocs/ont/C246> .
+
+<https://curricula.live/id/formal-sciences/concept/conflict-driven-clause-learning> skos:exactMatch <https://w3id.org/ocs/ont/C14212> .
+
+<https://curricula.live/id/formal-sciences/concept/conjunctive-normal-form> skos:exactMatch <https://w3id.org/ocs/ont/C4149> .
+
+<https://curricula.live/id/formal-sciences/concept/context-free-grammar> skos:exactMatch <https://w3id.org/ocs/ont/C22624> .
+
+<https://curricula.live/id/formal-sciences/concept/cryptographic-hash-function> skos:exactMatch <https://w3id.org/ocs/ont/C23875> .
+
+<https://curricula.live/id/formal-sciences/concept/cryptography> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/cryptography>,
+        <https://w3id.org/ocs/ont/C4218> .
+
+<https://curricula.live/id/formal-sciences/concept/cumulative-distribution-function> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/cumulative_distribution_function> .
+
+<https://curricula.live/id/formal-sciences/concept/database-transaction> skos:exactMatch <https://w3id.org/ocs/ont/C6754> .
+
+<https://curricula.live/id/formal-sciences/concept/decision-tree-learning> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/decision_tree_learning>,
+        <https://w3id.org/ocs/ont/C25520> .
+
+<https://curricula.live/id/formal-sciences/concept/denotational-semantics> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/denotational_semantics>,
+        <https://w3id.org/ocs/ont/C36771> .
+
+<https://curricula.live/id/formal-sciences/concept/digital-signature> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/digital_signature>,
+        <https://w3id.org/ocs/ont/C21324> .
+
+<https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm> skos:exactMatch <https://w3id.org/ocs/ont/C4966> .
+
+<https://curricula.live/id/formal-sciences/concept/directed-acyclic-graph> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/directed_acyclic_graph>,
+        <https://w3id.org/ocs/ont/C15414> .
+
+<https://curricula.live/id/formal-sciences/concept/directed-graph> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/directed_graph>,
+        <https://w3id.org/ocs/ont/C17717> .
+
+<https://curricula.live/id/formal-sciences/concept/distributed-computing> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/distributed_computing>,
+        <https://w3id.org/ocs/ont/C30> .
+
+<https://curricula.live/id/formal-sciences/concept/dynamic-programming> skos:exactMatch <https://w3id.org/ocs/ont/C77> .
+
+<https://curricula.live/id/formal-sciences/concept/estimator> skos:exactMatch <https://w3id.org/ocs/ont/C13685> .
+
+<https://curricula.live/id/formal-sciences/concept/euclidean-distance> skos:exactMatch <https://w3id.org/ocs/ont/C13787> .
+
+<https://curricula.live/id/formal-sciences/concept/first-order-logic> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/first-order_logic>,
+        <https://w3id.org/ocs/ont/C2418> .
+
+<https://curricula.live/id/formal-sciences/concept/formal-system> skos:exactMatch <https://w3id.org/ocs/ont/C10558> .
+
+<https://curricula.live/id/formal-sciences/concept/formal-verification> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/formal_verification>,
+        <https://w3id.org/ocs/ont/C7903> .
+
+<https://curricula.live/id/formal-sciences/concept/functional-dependency> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/functional_dependency>,
+        <https://w3id.org/ocs/ont/C16432> .
+
+<https://curricula.live/id/formal-sciences/concept/gradient-descent> skos:exactMatch <https://w3id.org/ocs/ont/C14414> .
+
+<https://curricula.live/id/formal-sciences/concept/graph-theory> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/graph_theory>,
+        <https://w3id.org/ocs/ont/C14693> .
+
+<https://curricula.live/id/formal-sciences/concept/halting-problem> skos:exactMatch <https://w3id.org/ocs/ont/C34319> .
+
+<https://curricula.live/id/formal-sciences/concept/hash-table> skos:exactMatch <https://w3id.org/ocs/ont/C26456> .
+
+<https://curricula.live/id/formal-sciences/concept/hoare-logic> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/hoare_logic>,
+        <https://w3id.org/ocs/ont/C16907> .
+
+<https://curricula.live/id/formal-sciences/concept/information-theory> skos:exactMatch <https://w3id.org/ocs/ont/C5816> .
+
+<https://curricula.live/id/formal-sciences/concept/lambda-calculus> skos:exactMatch <https://w3id.org/ocs/ont/C1631> .
+
+<https://curricula.live/id/formal-sciences/concept/least-squares> skos:exactMatch <https://w3id.org/ocs/ont/C7471> .
+
+<https://curricula.live/id/formal-sciences/concept/linear-regression> skos:exactMatch <https://w3id.org/ocs/ont/C5087> .
+
+<https://curricula.live/id/formal-sciences/concept/logical-clock> skos:exactMatch <https://w3id.org/ocs/ont/C34712> .
+
+<https://curricula.live/id/formal-sciences/concept/logical-conjunction> skos:exactMatch <https://w3id.org/ocs/ont/C4073> .
+
+<https://curricula.live/id/formal-sciences/concept/logistic-regression> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/logistic_regression> .
+
+<https://curricula.live/id/formal-sciences/concept/machine-learning> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/machine_learning>,
+        <https://w3id.org/ocs/ont/C25> .
+
+<https://curricula.live/id/formal-sciences/concept/markov-chain> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/markov_chain>,
+        <https://w3id.org/ocs/ont/C7689> .
+
+<https://curricula.live/id/formal-sciences/concept/mathematical-proof> skos:exactMatch <https://w3id.org/ocs/ont/C13511> .
+
+<https://curricula.live/id/formal-sciences/concept/maximum-likelihood-estimation> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/maximum_likelihood_estimation> .
+
+<https://curricula.live/id/formal-sciences/concept/metric-space> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/metric_space> .
+
+<https://curricula.live/id/formal-sciences/concept/model-checking> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/model_checking>,
+        <https://w3id.org/ocs/ont/C12098> .
+
+<https://curricula.live/id/formal-sciences/concept/model-theory> skos:exactMatch <https://w3id.org/ocs/ont/C8635> .
+
+<https://curricula.live/id/formal-sciences/concept/modular-arithmetic> skos:exactMatch <https://w3id.org/ocs/ont/C24353> .
+
+<https://curricula.live/id/formal-sciences/concept/multivariate-normal-distribution> skos:exactMatch <https://w3id.org/ocs/ont/C25862> .
+
+<https://curricula.live/id/formal-sciences/concept/multivariate-statistics> skos:exactMatch <https://w3id.org/ocs/ont/C10923> .
+
+<https://curricula.live/id/formal-sciences/concept/mutual-exclusion> skos:exactMatch <https://w3id.org/ocs/ont/C8204> .
+
+<https://curricula.live/id/formal-sciences/concept/mutual-information> skos:exactMatch <https://w3id.org/ocs/ont/C8332> .
+
+<https://curricula.live/id/formal-sciences/concept/natural-deduction> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/natural_deduction>,
+        <https://w3id.org/ocs/ont/C13255> .
+
+<https://curricula.live/id/formal-sciences/concept/network-topology> skos:exactMatch <https://w3id.org/ocs/ont/C3233> .
+
+<https://curricula.live/id/formal-sciences/concept/newton-s-method> skos:exactMatch <https://w3id.org/ocs/ont/C19177> .
+
+<https://curricula.live/id/formal-sciences/concept/number-theory> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/number_theory> .
+
+<https://curricula.live/id/formal-sciences/concept/numerical-analysis> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/numerical_analysis> .
+
+<https://curricula.live/id/formal-sciences/concept/numerical-integration> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/numerical_integration> .
+
+<https://curricula.live/id/formal-sciences/concept/operational-semantics> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/operational_semantics>,
+        <https://w3id.org/ocs/ont/C26693> .
+
+<https://curricula.live/id/formal-sciences/concept/packet-switching> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/packet_switching>,
+        <https://w3id.org/ocs/ont/C16953> .
+
+<https://curricula.live/id/formal-sciences/concept/path-graph-theory> skos:exactMatch <https://w3id.org/ocs/ont/C38535> .
+
+<https://curricula.live/id/formal-sciences/concept/permutation> skos:exactMatch <https://w3id.org/ocs/ont/C11282> .
+
+<https://curricula.live/id/formal-sciences/concept/polynomial-time-reduction> skos:exactMatch <https://w3id.org/ocs/ont/C41116> .
+
+<https://curricula.live/id/formal-sciences/concept/principal-component-analysis> skos:exactMatch <https://w3id.org/ocs/ont/C6912> .
+
+<https://curricula.live/id/formal-sciences/concept/priority-queue> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/priority_queue>,
+        <https://w3id.org/ocs/ont/C28232> .
+
+<https://curricula.live/id/formal-sciences/concept/proof-theory> skos:exactMatch <https://w3id.org/ocs/ont/C25442> .
+
+<https://curricula.live/id/formal-sciences/concept/propositional-logic> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/propositional_logic> .
+
+<https://curricula.live/id/formal-sciences/concept/propositional-variable> skos:exactMatch <https://w3id.org/ocs/ont/C44339> .
+
+<https://curricula.live/id/formal-sciences/concept/public-key-cryptography> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/public-key_cryptography>,
+        <https://w3id.org/ocs/ont/C16125> .
+
+<https://curricula.live/id/formal-sciences/concept/pushdown-automaton> skos:exactMatch <https://w3id.org/ocs/ont/C22626> .
+
+<https://curricula.live/id/formal-sciences/concept/query-optimization> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/query_optimization>,
+        <https://w3id.org/ocs/ont/C6917> .
+
+<https://curricula.live/id/formal-sciences/concept/random-walk> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/random_walk> .
+
+<https://curricula.live/id/formal-sciences/concept/regression-analysis> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/regression_analysis>,
+        <https://w3id.org/ocs/ont/C6116> .
+
+<https://curricula.live/id/formal-sciences/concept/regular-language> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/regular_language>,
+        <https://w3id.org/ocs/ont/C17566> .
+
+<https://curricula.live/id/formal-sciences/concept/relational-algebra> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/relational_algebra>,
+        <https://w3id.org/ocs/ont/C16334> .
+
+<https://curricula.live/id/formal-sciences/concept/resolution-logic> skos:exactMatch <https://w3id.org/ocs/ont/C45817> .
+
+<https://curricula.live/id/formal-sciences/concept/round-off-error> skos:exactMatch <https://w3id.org/ocs/ont/C6997> .
+
+<https://curricula.live/id/formal-sciences/concept/routing-protocol> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/routing_protocol>,
+        <https://w3id.org/ocs/ont/C26066> .
+
+<https://curricula.live/id/formal-sciences/concept/sample-space> skos:exactMatch <https://w3id.org/ocs/ont/C2726> .
+
+<https://curricula.live/id/formal-sciences/concept/set-theory> skos:exactMatch <https://w3id.org/ocs/ont/C5251> .
+
+<https://curricula.live/id/formal-sciences/concept/shortest-path-problem> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/shortest_path_problem>,
+        <https://w3id.org/ocs/ont/C6335> .
+
+<https://curricula.live/id/formal-sciences/concept/simply-typed-lambda-calculus> skos:exactMatch <https://w3id.org/ocs/ont/C36417> .
+
+<https://curricula.live/id/formal-sciences/concept/software-engineering> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/software_engineering>,
+        <https://w3id.org/ocs/ont/C28> .
+
+<https://curricula.live/id/formal-sciences/concept/state-machine-replication> skos:exactMatch <https://w3id.org/ocs/ont/C14150> .
+
+<https://curricula.live/id/formal-sciences/concept/static-program-analysis> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/static_program_analysis>,
+        <https://w3id.org/ocs/ont/C45212> .
+
+<https://curricula.live/id/formal-sciences/concept/supervised-learning> skos:exactMatch <https://w3id.org/ocs/ont/C25196> .
+
+<https://curricula.live/id/formal-sciences/concept/support-vector-machine> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/support_vector_machine>,
+        <https://w3id.org/ocs/ont/C2005> .
+
+<https://curricula.live/id/formal-sciences/concept/tree-graph-theory> skos:exactMatch <https://w3id.org/ocs/ont/C16670> .
+
+<https://curricula.live/id/formal-sciences/concept/turing-machine> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/turing_machine>,
+        <https://w3id.org/ocs/ont/C22100> .
+
+<https://curricula.live/id/formal-sciences/concept/type-inference> skos:exactMatch <https://cso.kmi.open.ac.uk/topics/type_inference>,
+        <https://w3id.org/ocs/ont/C6918> .
+
+<https://curricula.live/id/formal-sciences/concept/type-theory> skos:exactMatch <https://w3id.org/ocs/ont/C10498> .
+
+<https://curricula.live/id/formal-sciences/concept/unification> skos:exactMatch <https://w3id.org/ocs/ont/C3484> .
+
+<https://curricula.live/id/formal-sciences/concept/unit-propagation> skos:exactMatch <https://w3id.org/ocs/ont/C28386> .
+
+<https://curricula.live/id/formal-sciences/concept/universal-quantification> skos:exactMatch <https://w3id.org/ocs/ont/C10671> .
+
+<https://curricula.live/id/formal-sciences/concept/virtual-memory> skos:exactMatch <https://w3id.org/ocs/ont/C38819> .
+
+<https://curricula.live/id/formal-sciences/concept/zero-knowledge-proof> skos:exactMatch <https://w3id.org/ocs/ont/C23073> .
+

@@ -20,18 +20,12 @@ def load_graph(store, path, source, graph):
                 raise ValueError("Expected one N-Triples document")
             with archive.open(members[0]) as stream:
                 store.bulk_load(input=stream, format=RdfFormat.N_TRIPLES, to_graph=graph)
-    elif fmt == "openmath":
-        root = ET.parse(path).getroot()
-        ns = "{http://www.openmath.org/OpenMathCD}"
-        if root.tag != ns + "CD":
-            raise ValueError("Expected OpenMath CD document")
-        cd = root.findtext(ns + "CDName")
-        for symbol in root.findall(ns + "CDDefinition"):
-            name = symbol.findtext(ns + "Name")
-            if not cd or not name:
-                raise ValueError("Unnamed OpenMath dictionary or symbol")
-            subject = NamedNode(f"http://www.openmath.org/cd/{cd}#{name}")
-            store.add(Quad(subject, NamedNode("http://www.w3.org/2000/01/rdf-schema#label"), Literal(name), graph))
+    elif fmt in {"lean-archive","bfile","tex-equation"}:
+        from pipeline.parse.adapters import references
+        references(store,path,source,graph)
+    elif fmt in {"owlxml","manchester", "openmath-tar", "openalex"}:
+        from pipeline.parse.adapters import manchester, openmath_archive, openalex
+        {"owlxml": manchester,"manchester": manchester, "openmath-tar": openmath_archive, "openalex": openalex}[fmt](store, path, graph)
     else:
         store.bulk_load(path=path, format=FORMATS[fmt], to_graph=graph, base_iri=source["url"])
 

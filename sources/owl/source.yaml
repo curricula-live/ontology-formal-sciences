@@ -1,0 +1,14 @@
+{
+  "allow_mapping": false,
+  "attribution": "W3C",
+  "bytes": 24545,
+  "format": "turtle",
+  "homepage": "https://www.w3.org/2002/07/owl.ttl",
+  "id": "owl",
+  "license": "reference only",
+  "revision": "content digest",
+  "scope": "vocabulary dependency",
+  "sha256": "718fa1db7840d3315bfce94398543f91437ef6fe933054fd93f5471d19262fc5",
+  "status": "staged",
+  "url": "https://www.w3.org/2002/07/owl.ttl"
+}

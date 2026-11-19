@@ -1,0 +1,15 @@
+{
+  "allow_mapping": true,
+  "attribution": "OpenCS contributors",
+  "bytes": 62881387,
+  "format": "nt",
+  "homepage": "https://opencs-ontology.github.io/",
+  "id": "opencs",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "revision": "0.4.0",
+  "scope": "full stable N-Triples release, content pinned",
+  "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+  "status": "aligned",
+  "url": "https://opencs-ontology.github.io/releases/stable/opencs.nt"
+}

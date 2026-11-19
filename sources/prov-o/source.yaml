@@ -1,0 +1,14 @@
+{
+  "allow_mapping": false,
+  "attribution": "W3C",
+  "bytes": 68795,
+  "format": "turtle",
+  "homepage": "https://www.w3.org/ns/prov-o.ttl",
+  "id": "prov-o",
+  "license": "reference only",
+  "revision": "content digest",
+  "scope": "vocabulary dependency",
+  "sha256": "7d203989f67b38bca572253942acc5a1bf24ce3ccfece16f072dcb4be2b79a96",
+  "status": "staged",
+  "url": "https://www.w3.org/ns/prov-o.ttl"
+}

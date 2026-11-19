@@ -1,0 +1,14 @@
+{
+  "allow_mapping": false,
+  "attribution": "DCMI",
+  "bytes": 47834,
+  "format": "turtle",
+  "homepage": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_terms.ttl",
+  "id": "dublin-core",
+  "license": "reference only",
+  "revision": "content digest",
+  "scope": "vocabulary dependency",
+  "sha256": "13df401072dd7015bf9d75162f3e41c8138075304b7b9cc1aa1e9c16db976797",
+  "status": "staged",
+  "url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_terms.ttl"
+}

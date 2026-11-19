@@ -1,0 +1,14 @@
+{
+  "allow_mapping": false,
+  "attribution": "edamontology/edamontology",
+  "bytes": 3240287,
+  "format": "xml",
+  "homepage": "https://github.com/edamontology/edamontology",
+  "id": "edam",
+  "license": "CC-BY-SA-4.0",
+  "revision": "3a6e2ca4f5eba34d189e737808909f3c96270c84",
+  "scope": "1.25 ontology",
+  "sha256": "af29132f641b5f4096d9d7659ee9450c75b1ef56471a7c35e3175d1228324f48",
+  "status": "staged",
+  "url": "https://raw.githubusercontent.com/edamontology/edamontology/3a6e2ca4f5eba34d189e737808909f3c96270c84/releases/EDAM_1.25.owl"
+}

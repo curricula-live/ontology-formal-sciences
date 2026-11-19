@@ -1,0 +1,14 @@
+{
+  "allow_mapping": false,
+  "attribution": "TIBHannover/MSC2020_SKOS",
+  "bytes": 5074747,
+  "format": "turtle",
+  "homepage": "https://github.com/TIBHannover/MSC2020_SKOS",
+  "id": "msc2020",
+  "license": "CC-BY-NC-SA",
+  "revision": "33972ddb6a72c3660a6e499ee5f881b57fa92d41",
+  "scope": "suggestion 4 edition",
+  "sha256": "ee4afa1f198ffd0f5ea807377e46420c5fd7537991928c67c759fa44640421e9",
+  "status": "staged",
+  "url": "https://raw.githubusercontent.com/TIBHannover/MSC2020_SKOS/33972ddb6a72c3660a6e499ee5f881b57fa92d41/msc-2020-suggestion4.ttl"
+}

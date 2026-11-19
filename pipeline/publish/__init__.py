@@ -1,0 +1,67 @@
+import os
+import tempfile
+from pathlib import Path
+from rdflib import Dataset, Graph, URIRef, Literal, RDF, SKOS, BNode
+from rdflib.namespace import DCTERMS, PROV
+from pipeline.common import ROOT, BASE, G, checksum, registry, write, read
+from pipeline.curate import authored, reviewed
+from pipeline.validate import check
+from pipeline.reason import reason
+
+
+def lines(graph):
+    if any(isinstance(term,BNode) for triple in graph for term in triple):
+        raise ValueError("Published profile requires named resources (blank nodes remain valid in staging)")
+    return sorted(graph.serialize(format="nt").splitlines())
+
+
+def build(dest=None):
+    dest = Path(dest or ROOT / "dist")
+    graph, prov = authored()
+    sources = registry()
+    maps = reviewed(sources,graph,prov)
+    report = check(graph)
+    if not report["conforms"]:
+        raise ValueError(report)
+    inferred = reason(graph)
+    prov.add((G.inferred,PROV.wasDerivedFrom,G.asserted))
+    prov.add((G.inferred,DCTERMS.description,Literal("Inverse of skos:broader and symmetry of skos:related; reverse the edge to recover each premise.")))
+    graphs = {"asserted":graph,"alignments":maps,"provenance":prov,"inferred":inferred}
+    dest.parent.mkdir(parents=True,exist_ok=True)
+    with tempfile.TemporaryDirectory(dir=dest.parent) as tmp:
+        out = Path(tmp)
+        trig, nq = [], []
+        for name,part in graphs.items():
+            values = lines(part)
+            if name == "asserted":
+                (out / "formal-sciences.ttl").write_text("\n".join(values)+"\n")
+            block = G[name].n3()+" {\n"+"\n".join(values)+"\n}\n"
+            trig.append(block)
+            if name == "alignments":
+                (out / "source-alignments.trig").write_text(block)
+            nq.extend(v[:-2]+" "+G[name].n3()+" ." for v in values)
+        (out / "formal-sciences.trig").write_text("".join(trig))
+        (out / "formal-sciences.nq").write_text("\n".join(sorted(nq))+"\n")
+        expected = {(s,p,o,G[n]) for n,g in graphs.items() for s,p,o in g}
+        for ext,fmt in [("trig","trig"),("nq","nquads")]:
+            ds = Dataset(); ds.parse(out/("formal-sciences."+ext),format=fmt)
+            if set(ds.quads()) != expected:
+                raise ValueError(f"Dataset round-trip mismatch: {ext}")
+        write(out / "validation-report.json",report)
+        inventory = {}
+        for id,source in sources.items():
+            path = ROOT / "sources" / id / "ingestion.json"
+            stats = read(path) if path.exists() else {}
+            if stats and stats["sha256"] != source.get("sha256"):
+                raise ValueError(f"Outdated staging report: {id}")
+            inventory[id] = {k:source.get(k) for k in ("revision","sha256","license","attribution","scope","url")}
+            inventory[id].update(staged_triples=stats.get("triples",0),status=source["status"])
+        manifest = dict(contract="curricula.rdf-release/v1",namespace=BASE,version="0.1.0",conforms=True,
+                        counts={name:len(g) for name,g in graphs.items()},
+                        concepts=len(set(graph.subjects(RDF.type,SKOS.Concept))),predicates=len(set(graph.predicates())),
+                        sources=inventory,artifacts={p.name:checksum(p) for p in sorted(out.iterdir())})
+        write(out / "manifest.json",manifest)
+        dest.mkdir(exist_ok=True)
+        for path in sorted(out.iterdir(),key=lambda p:p.name=="manifest.json"):
+            os.replace(path,dest/path.name)
+    return manifest

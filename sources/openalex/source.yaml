@@ -1,0 +1,14 @@
+{
+  "allow_mapping": true,
+  "attribution": "OurResearch",
+  "bytes": 5601,
+  "format": "openalex",
+  "homepage": "https://api.openalex.org/topics/T10374",
+  "id": "openalex",
+  "license": "CC0-1.0",
+  "revision": "content digest",
+  "scope": "one graph theory research topic",
+  "sha256": "74687f76161db9da5a5959053a46abba071e3d8a236fdb8a7d307d7f2bb5f291",
+  "status": "staged",
+  "url": "https://api.openalex.org/topics/T10374"
+}

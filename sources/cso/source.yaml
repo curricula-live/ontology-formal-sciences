@@ -1,0 +1,15 @@
+{
+  "allow_mapping": true,
+  "attribution": "Salatino et al., The Open University",
+  "bytes": 1271346,
+  "format": "nt-zip",
+  "homepage": "https://cso.kmi.open.ac.uk/downloads",
+  "id": "cso",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "revision": "3.5",
+  "scope": "full N-Triples release",
+  "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+  "status": "aligned",
+  "url": "https://cso.kmi.open.ac.uk/download/version-3.5/CSO.3.5.nt.zip"
+}

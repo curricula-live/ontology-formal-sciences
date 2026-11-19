@@ -1,0 +1,14 @@
+{
+  "allow_mapping": false,
+  "attribution": "W3C",
+  "bytes": 3790,
+  "format": "turtle",
+  "homepage": "https://www.w3.org/2000/01/rdf-schema.ttl",
+  "id": "rdf-rdfs",
+  "license": "reference only",
+  "revision": "content digest",
+  "scope": "vocabulary dependency",
+  "sha256": "ecee3a011b7c13ea2a7e40b0a208bfe6be53d69fdd53ee035e09e9f9e5108ad6",
+  "status": "staged",
+  "url": "https://www.w3.org/2000/01/rdf-schema.ttl"
+}

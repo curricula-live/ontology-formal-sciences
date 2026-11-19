@@ -1,0 +1,14 @@
+{
+  "allow_mapping": false,
+  "attribution": "CLLKazan/OntoMathEdu",
+  "bytes": 597906,
+  "format": "manchester",
+  "homepage": "https://github.com/CLLKazan/OntoMathEdu",
+  "id": "ontomath-edu",
+  "license": "unverified",
+  "revision": "fd39c2fa5aebdfba07f09f4829f49cc95cd70246",
+  "scope": "complete Manchester document; 16 named-operand DisjointUnionOf frames translated to RDF lists",
+  "sha256": "ea619ad644de79ac379b853b8cf636f6c4daec5258a726bd82402ffe97a56081",
+  "status": "staged",
+  "url": "https://raw.githubusercontent.com/CLLKazan/OntoMathEdu/fd39c2fa5aebdfba07f09f4829f49cc95cd70246/ontomathedu.omn"
+}

@@ -1,0 +1,14 @@
+{
+  "allow_mapping": false,
+  "attribution": "NIST DLMF",
+  "bytes": 69,
+  "format": "tex-equation",
+  "homepage": "https://dlmf.nist.gov/",
+  "id": "dlmf",
+  "license": "reference only",
+  "revision": "content digest",
+  "scope": "one formula resource 5.2.E1; private reference",
+  "sha256": "faf0aeccd2ee45c3f05a3b85b6bc086de58979da2ad7388e97b9d7e0e696d3a9",
+  "status": "staged",
+  "url": "https://dlmf.nist.gov/5.2.E1.tex"
+}

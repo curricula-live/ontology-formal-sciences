@@ -1,0 +1,14 @@
+{
+  "allow_mapping": false,
+  "attribution": "mathlib community",
+  "bytes": 24381847,
+  "format": "lean-archive",
+  "homepage": "https://codeload.github.com/leanprover-community/mathlib4/tar.gz/35f494609c32653bae53eb33f0cf2d899808909a",
+  "id": "mathlib4",
+  "license": "Apache-2.0",
+  "revision": "35f494609c32653bae53eb33f0cf2d899808909a",
+  "scope": "complete mathlib4 source archive; index Mathlib module paths only",
+  "sha256": "e38cb828c5368d71469540927a0c81ea1faa69f007c9a372926207c8521e82b3",
+  "status": "staged",
+  "url": "https://codeload.github.com/leanprover-community/mathlib4/tar.gz/35f494609c32653bae53eb33f0cf2d899808909a"
+}

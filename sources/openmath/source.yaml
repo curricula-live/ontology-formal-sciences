@@ -1,0 +1,14 @@
+{
+  "allow_mapping": false,
+  "attribution": "OpenMath Society and dictionary authors",
+  "bytes": 6862676,
+  "format": "openmath-tar",
+  "homepage": "https://codeload.github.com/OpenMath/CDs/tar.gz/cbf607561e3f90630ce7a57fe9a85f5bc0dfdd3c",
+  "id": "openmath",
+  "license": "per dictionary",
+  "revision": "cbf607561e3f90630ce7a57fe9a85f5bc0dfdd3c",
+  "scope": "complete repository archive; symbol extraction from official CDs only; trim surrounding XML name whitespace",
+  "sha256": "4bcd5e40a5985f1bd29b0aea8f3bf172ecaf2392be44edf4b7b4eb4756340ac2",
+  "status": "staged",
+  "url": "https://codeload.github.com/OpenMath/CDs/tar.gz/cbf607561e3f90630ce7a57fe9a85f5bc0dfdd3c"
+}

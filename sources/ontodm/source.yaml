@@ -1,0 +1,14 @@
+{
+  "allow_mapping": false,
+  "attribution": "Panče Panov and OntoDM contributors",
+  "bytes": 1070046,
+  "format": "owlxml",
+  "homepage": "https://github.com/panovp/ontodm-core",
+  "id": "ontodm",
+  "license": "unverified",
+  "revision": "d4aeb928a86b61bc3e7d1177589ea16362f929ce",
+  "scope": "complete OWL/XML document; imported ontology IRIs retained, imports not dereferenced",
+  "sha256": "28d821c5bb962af35768c569fa77bb5558c936d4deb09561e7ebba828036f69a",
+  "status": "staged",
+  "url": "https://raw.githubusercontent.com/panovp/ontodm-core/d4aeb928a86b61bc3e7d1177589ea16362f929ce/OntoDM.owl"
+}

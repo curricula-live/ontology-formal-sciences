@@ -1,0 +1,14 @@
+{
+  "allow_mapping": true,
+  "attribution": "CLLKazan/OntoMathPro",
+  "bytes": 1436718,
+  "format": "manchester",
+  "homepage": "https://github.com/CLLKazan/OntoMathPro",
+  "id": "ontomath-pro",
+  "license": "Apache-2.0",
+  "revision": "ebb4083adec275e079bb6210df24cfcd11d2767c",
+  "scope": "full Manchester ontology; OWLAPI conversion",
+  "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
+  "status": "staged",
+  "url": "https://raw.githubusercontent.com/CLLKazan/OntoMathPro/ebb4083adec275e079bb6210df24cfcd11d2767c/OntoMathPro.omn"
+}

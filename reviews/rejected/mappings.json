@@ -1,0 +1,24 @@
+[
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/finite-automaton",
+    "evidence": "<https://cso.kmi.open.ac.uk/topics/finite_automaton> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Finite_set> .\n<https://cso.kmi.open.ac.uk/topics/finite_automaton> <http://www.w3.org/2000/01/rdf-schema#label> \"finite automaton\"@en .\n",
+    "external": "https://cso.kmi.open.ac.uk/topics/finite_automaton",
+    "id": "cso-finite-automaton",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The linked resource Finite set does not establish the proposed specificity. Withhold the mapping until independent corroboration.",
+    "reviewer": "initial editorial pass (Codex); submitted for maintainer review",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "source": "cso"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/graph-algorithm",
+    "evidence": "<https://cso.kmi.open.ac.uk/topics/graph_algorithm> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/List_of_algorithms> .\n<https://cso.kmi.open.ac.uk/topics/graph_algorithm> <http://www.w3.org/2000/01/rdf-schema#label> \"graph algorithm\"@en .\n",
+    "external": "https://cso.kmi.open.ac.uk/topics/graph_algorithm",
+    "id": "cso-graph-algorithm",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The linked resource List of algorithms does not establish the proposed specificity. Withhold the mapping until independent corroboration.",
+    "reviewer": "initial editorial pass (Codex); submitted for maintainer review",
+    "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+    "source": "cso"
+  }
+]
