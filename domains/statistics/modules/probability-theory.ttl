@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:probability-theory a skos:Concept ; skos:prefLabel "Probability theory"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistics .
+
+c:probability-measure a skos:Concept ; skos:prefLabel "Probability measure"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:conditional-probability a skos:Concept ; skos:prefLabel "Conditional probability"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:sample-space a skos:Concept ; skos:prefLabel "Sample space"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:independence-probability a skos:Concept ; skos:prefLabel "Independence (probability)"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .

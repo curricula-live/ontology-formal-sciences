@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:proof-theory a skos:Concept ; skos:prefLabel "Proof theory"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:logic .
+
+c:natural-deduction a skos:Concept ; skos:prefLabel "Natural deduction"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory .
+
+c:sequent-calculus a skos:Concept ; skos:prefLabel "Sequent calculus"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory .
+
+c:cut-elimination a skos:Concept ; skos:prefLabel "Cut elimination"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory .
+
+c:inference-rule a skos:Concept ; skos:prefLabel "Inference rule"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory .

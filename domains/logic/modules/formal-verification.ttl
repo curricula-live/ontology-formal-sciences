@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:formal-verification a skos:Concept ; skos:prefLabel "Formal verification"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:logic .
+
+c:model-checking a skos:Concept ; skos:prefLabel "Model checking"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification .
+
+c:hoare-logic a skos:Concept ; skos:prefLabel "Hoare logic"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification .
+
+c:loop-invariant a skos:Concept ; skos:prefLabel "Loop invariant"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification .
+
+c:program-correctness a skos:Concept ; skos:prefLabel "Program correctness"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification .

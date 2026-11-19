@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:statistical-estimation a skos:Concept ; skos:prefLabel "Statistical estimation"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistics .
+
+c:estimator a skos:Concept ; skos:prefLabel "Estimator"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:maximum-likelihood-estimation a skos:Concept ; skos:prefLabel "Maximum likelihood estimation"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:method-of-moments a skos:Concept ; skos:prefLabel "Method of moments"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:confidence-interval a skos:Concept ; skos:prefLabel "Confidence interval"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .

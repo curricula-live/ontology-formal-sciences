@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:artificial-intelligence a skos:Concept ; skos:prefLabel "Artificial intelligence"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-science .
+
+c:heuristic-search a skos:Concept ; skos:prefLabel "Heuristic search"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:artificial-intelligence .
+
+c:a-star-search a skos:Concept ; skos:prefLabel "A-star search"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:artificial-intelligence .
+
+c:knowledge-representation a skos:Concept ; skos:prefLabel "Knowledge representation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:artificial-intelligence .
+
+c:automated-planning a skos:Concept ; skos:prefLabel "Automated planning"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:artificial-intelligence .

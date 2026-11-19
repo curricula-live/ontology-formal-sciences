@@ -1,0 +1,25 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:algorithms a skos:Concept ; skos:prefLabel "Algorithms"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-science .
+
+c:graph-algorithm a skos:Concept ; skos:prefLabel "Graph algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:dijkstra-s-algorithm a skos:Concept ; skos:prefLabel "Dijkstra's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:bellman-ford-algorithm a skos:Concept ; skos:prefLabel "Bellman-Ford algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:shortest-path-problem a skos:Concept ; skos:prefLabel "Shortest path problem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:dynamic-programming a skos:Concept ; skos:prefLabel "Dynamic programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:binary-search a skos:Concept ; skos:prefLabel "Binary search"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .

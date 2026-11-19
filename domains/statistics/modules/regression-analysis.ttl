@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:regression-analysis a skos:Concept ; skos:prefLabel "Regression analysis"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistics .
+
+c:linear-regression a skos:Concept ; skos:prefLabel "Linear regression"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:regression-analysis .
+
+c:logistic-regression a skos:Concept ; skos:prefLabel "Logistic regression"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:regression-analysis .
+
+c:least-squares a skos:Concept ; skos:prefLabel "Least squares"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:regression-analysis .
+
+c:residual-statistics a skos:Concept ; skos:prefLabel "Residual (statistics)"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:regression-analysis .

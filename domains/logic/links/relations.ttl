@@ -1,0 +1,11 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:dpll-algorithm v:uses c:unit-propagation .
+c:conflict-driven-clause-learning v:uses c:unit-propagation .
+c:dpll-algorithm v:solves c:boolean-satisfiability .
+c:conflict-driven-clause-learning v:solves c:boolean-satisfiability .
+c:hoare-logic skos:related c:program-correctness .
+c:hoare-logic skos:related c:axiomatic-semantics .

@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:machine-learning a skos:Concept ; skos:prefLabel "Machine learning"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-science .
+
+c:supervised-learning a skos:Concept ; skos:prefLabel "Supervised learning"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:decision-tree-learning a skos:Concept ; skos:prefLabel "Decision tree learning"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:support-vector-machine a skos:Concept ; skos:prefLabel "Support vector machine"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:gradient-descent a skos:Concept ; skos:prefLabel "Gradient descent"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .

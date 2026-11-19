@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:mathematical-analysis a skos:Concept ; skos:prefLabel "Mathematical analysis"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematics .
+
+c:metric-space a skos:Concept ; skos:prefLabel "Metric space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:convergent-sequence a skos:Concept ; skos:prefLabel "Convergent sequence"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:continuity a skos:Concept ; skos:prefLabel "Continuity"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:real-analysis a skos:Concept ; skos:prefLabel "Real analysis"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .

@@ -1,0 +1,8 @@
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+v:uses a rdf:Property ; rdfs:label "uses"@en ; rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+ rdfs:comment "From a method or construct to a mathematical or computational ingredient it employs. Directional; no closure rule."@en .
+v:solves a rdf:Property ; rdfs:label "solves"@en ; rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+ rdfs:comment "From an algorithm to the problem it solves under its applicability conditions. Does not imply every instance satisfies those conditions."@en .

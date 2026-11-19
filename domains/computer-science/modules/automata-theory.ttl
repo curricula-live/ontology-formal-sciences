@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:automata-theory a skos:Concept ; skos:prefLabel "Automata theory"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-science .
+
+c:finite-automaton a skos:Concept ; skos:prefLabel "Finite automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:automata-theory .
+
+c:pushdown-automaton a skos:Concept ; skos:prefLabel "Pushdown automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:automata-theory .
+
+c:regular-language a skos:Concept ; skos:prefLabel "Regular language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:automata-theory .
+
+c:context-free-grammar a skos:Concept ; skos:prefLabel "Context-free grammar"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:automata-theory .

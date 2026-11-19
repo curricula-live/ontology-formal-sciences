@@ -1,0 +1,22 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:set-theory a skos:Concept ; skos:prefLabel "Set theory"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematics .
+
+c:set a skos:Concept ; skos:prefLabel "Set"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory .
+
+c:subset a skos:Concept ; skos:prefLabel "Subset"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory .
+
+c:power-set a skos:Concept ; skos:prefLabel "Power set"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory .
+
+c:cartesian-product a skos:Concept ; skos:prefLabel "Cartesian product"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory .
+
+c:set-intersection a skos:Concept ; skos:prefLabel "Set intersection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory .

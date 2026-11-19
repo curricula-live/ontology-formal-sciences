@@ -1,0 +1,22 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:data-structures a skos:Concept ; skos:prefLabel "Data structures"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-science .
+
+c:priority-queue a skos:Concept ; skos:prefLabel "Priority queue"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:binary-heap a skos:Concept ; skos:prefLabel "Binary heap"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:hash-table a skos:Concept ; skos:prefLabel "Hash table"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:binary-search-tree a skos:Concept ; skos:prefLabel "Binary search tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:stack-data-structure a skos:Concept ; skos:prefLabel "Stack (data structure)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .

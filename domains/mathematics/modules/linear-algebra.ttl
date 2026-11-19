@@ -1,0 +1,22 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:linear-algebra a skos:Concept ; skos:prefLabel "Linear algebra"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematics .
+
+c:vector-space a skos:Concept ; skos:prefLabel "Vector space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:matrix a skos:Concept ; skos:prefLabel "Matrix"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:eigenvalue a skos:Concept ; skos:prefLabel "Eigenvalue"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:singular-value-decomposition a skos:Concept ; skos:prefLabel "Singular value decomposition"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:inner-product a skos:Concept ; skos:prefLabel "Inner product"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .

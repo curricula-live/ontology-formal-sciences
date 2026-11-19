@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:multivariate-statistics a skos:Concept ; skos:prefLabel "Multivariate statistics"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistics .
+
+c:principal-component-analysis a skos:Concept ; skos:prefLabel "Principal component analysis"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:multivariate-statistics .
+
+c:covariance-matrix a skos:Concept ; skos:prefLabel "Covariance matrix"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:multivariate-statistics .
+
+c:multivariate-normal-distribution a skos:Concept ; skos:prefLabel "Multivariate normal distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:multivariate-statistics .
+
+c:factor-analysis a skos:Concept ; skos:prefLabel "Factor analysis"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:multivariate-statistics .

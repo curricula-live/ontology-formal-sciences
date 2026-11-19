@@ -1,0 +1,22 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:algebra a skos:Concept ; skos:prefLabel "Algebra"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematics .
+
+c:group a skos:Concept ; skos:prefLabel "Group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ring a skos:Concept ; skos:prefLabel "Ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:field-algebra a skos:Concept ; skos:prefLabel "Field (algebra)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:group-homomorphism a skos:Concept ; skos:prefLabel "Group homomorphism"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:monoid a skos:Concept ; skos:prefLabel "Monoid"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .

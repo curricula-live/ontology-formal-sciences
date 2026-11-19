@@ -1,0 +1,6 @@
+@prefix s: <https://curricula.live/id/formal-sciences/shape/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+s:Concept a sh:NodeShape ; sh:targetClass skos:Concept ; sh:nodeKind sh:IRI ;
+ sh:property [ sh:path skos:prefLabel ; sh:minCount 1 ; sh:uniqueLang true ; sh:nodeKind sh:Literal ] ;
+ sh:property [ sh:path skos:inScheme ; sh:minCount 1 ; sh:maxCount 1 ; sh:class skos:ConceptScheme ] .

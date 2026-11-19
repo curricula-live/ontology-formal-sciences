@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:combinatorics a skos:Concept ; skos:prefLabel "Combinatorics"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematics .
+
+c:permutation a skos:Concept ; skos:prefLabel "Permutation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:combinatorics .
+
+c:binomial-coefficient a skos:Concept ; skos:prefLabel "Binomial coefficient"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:combinatorics .
+
+c:generating-function a skos:Concept ; skos:prefLabel "Generating function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:combinatorics .
+
+c:inclusion-exclusion-principle a skos:Concept ; skos:prefLabel "Inclusion-exclusion principle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:combinatorics .
