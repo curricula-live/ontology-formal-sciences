@@ -133,6 +133,7 @@ def test_offline_normalization_and_candidates(tmp_path,monkeypatch):
                 validation_query="ASK { GRAPH ?g { <https://example.org/ring> ?p ?o } }")
     graph=Graph()
     for term in ("ring-algebra","ring-jewelry"):
+        graph.add((C[term], RDF.type, SKOS.Concept))
         graph.add((C[term],SKOS.prefLabel,Literal("Ring",lang="en")))
     result=candidates(source,graph,True)
     assert {r["canonical"] for r in result}=={str(C["ring-algebra"]),str(C["ring-jewelry"])}
