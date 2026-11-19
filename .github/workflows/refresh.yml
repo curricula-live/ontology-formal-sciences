@@ -25,9 +25,18 @@ jobs:
           python-version: '3.12'
       - run: pip install -r requirements.lock
       - run: curl --fail --location --retry 3 https://github.com/ontodev/robot/releases/download/v1.9.8/robot.jar -o "$RUNNER_TEMP/robot.jar"
+      - name: Mint repository-scoped proposal credential
+        if: vars.CURRICULA_REVIEW_APP_ID != ''
+        id: review-app
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.CURRICULA_REVIEW_APP_ID }}
+          private-key: ${{ secrets.CURRICULA_REVIEW_APP_PRIVATE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
       - name: Parse proposed snapshot and open review
         env:
-          GH_TOKEN: ${{ secrets.ONTOLOGY_REVIEW_TOKEN || github.token }}
+          GH_TOKEN: ${{ steps.review-app.outputs.token || secrets.ONTOLOGY_REVIEW_TOKEN || github.token }}
           REQUESTED: ${{ inputs.source }}
         run: |
           source="$REQUESTED"
