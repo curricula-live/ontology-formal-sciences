@@ -23,3 +23,5 @@ c:dynamic-programming a skos:Concept ; skos:prefLabel "Dynamic programming"@en ;
 
 c:binary-search a skos:Concept ; skos:prefLabel "Binary search"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:dijkstra-s-algorithm skos:definition "A shortest-path algorithm that repeatedly settles an unsettled vertex of minimum tentative distance. Its standard correctness guarantee assumes nonnegative edge weights."@en .

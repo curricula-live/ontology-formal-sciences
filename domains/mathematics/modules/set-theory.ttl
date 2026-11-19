@@ -20,3 +20,7 @@ c:cartesian-product a skos:Concept ; skos:prefLabel "Cartesian product"@en ;
 
 c:set-intersection a skos:Concept ; skos:prefLabel "Set intersection"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:set-theory .
+
+c:function a skos:Concept ; skos:prefLabel "Function (mathematics)"@en ;
+    skos:definition "A mapping that assigns exactly one output to each element of its domain."@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory .

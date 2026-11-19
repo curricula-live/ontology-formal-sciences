@@ -20,7 +20,7 @@ def load_graph(store, path, source, graph):
                 raise ValueError("Expected one N-Triples document")
             with archive.open(members[0]) as stream:
                 store.bulk_load(input=stream, format=RdfFormat.N_TRIPLES, to_graph=graph)
-    elif fmt in {"lean-archive","bfile","tex-equation"}:
+    elif fmt in {"lean-archive","bfile","tex-equation","tptp-archive","zbmath"}:
         from pipeline.parse.adapters import references
         references(store,path,source,graph)
     elif fmt in {"owlxml","manchester", "openmath-tar", "openalex"}:

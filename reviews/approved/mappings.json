@@ -1681,5 +1681,137 @@
     "reviewer": "initial editorial pass (Codex); submitted for maintainer review",
     "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
     "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/group",
+    "evidence": "<http://cll.niimm.ksu.ru/ontologies/mathematics#E2145> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cll.niimm.ksu.ru/ontologies/mathematics#E2144> .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E2145> <http://www.w3.org/2000/01/rdf-schema#label> \"Group\"@en .\n",
+    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2145",
+    "id": "ontomath-pro-group",
+    "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "rationale": "The class and its named superclass locate the mathematical sense. This reference points readers to the class without equating it to a SKOS topic.",
+    "reviewer": "initial editorial pass (Codex); submitted for maintainer review",
+    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
+    "source": "ontomath-pro"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/ring",
+    "evidence": "<http://cll.niimm.ksu.ru/ontologies/mathematics#E2271> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cll.niimm.ksu.ru/ontologies/mathematics#E2144> .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E2271> <http://www.w3.org/2000/01/rdf-schema#label> \"Ring\"@en .\n",
+    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2271",
+    "id": "ontomath-pro-ring",
+    "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "rationale": "The class and its named superclass locate the mathematical sense. This reference points readers to the class without equating it to a SKOS topic.",
+    "reviewer": "initial editorial pass (Codex); submitted for maintainer review",
+    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
+    "source": "ontomath-pro"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/field-algebra",
+    "evidence": "<http://cll.niimm.ksu.ru/ontologies/mathematics#E2368> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cll.niimm.ksu.ru/ontologies/mathematics#E2144> .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E2368> <http://www.w3.org/2000/01/rdf-schema#label> \"Field\"@en .\n",
+    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2368",
+    "id": "ontomath-pro-field-algebra",
+    "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "rationale": "The class and its named superclass locate the mathematical sense. This reference points readers to the class without equating it to a SKOS topic.",
+    "reviewer": "initial editorial pass (Codex); submitted for maintainer review",
+    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
+    "source": "ontomath-pro"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/function",
+    "evidence": "<http://cll.niimm.ksu.ru/ontologies/mathematics#E1505> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cll.niimm.ksu.ru/ontologies/mathematics#E1324> .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E1505> <http://www.w3.org/2000/01/rdf-schema#label> \"Function\"@en .\n",
+    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E1505",
+    "id": "ontomath-pro-function",
+    "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "rationale": "The class and its named superclass locate the mathematical sense. This reference points readers to the class without equating it to a SKOS topic.",
+    "reviewer": "initial editorial pass (Codex); submitted for maintainer review",
+    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
+    "source": "ontomath-pro"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/matrix",
+    "evidence": "<http://cll.niimm.ksu.ru/ontologies/mathematics#E1703> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cll.niimm.ksu.ru/ontologies/mathematics#E1687> .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E1703> <http://www.w3.org/2000/01/rdf-schema#label> \"Matrix\"@en .\n",
+    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E1703",
+    "id": "ontomath-pro-matrix",
+    "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "rationale": "The class and its named superclass locate the mathematical sense. This reference points readers to the class without equating it to a SKOS topic.",
+    "reviewer": "initial editorial pass (Codex); submitted for maintainer review",
+    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
+    "source": "ontomath-pro"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/vector-space",
+    "evidence": "<http://cll.niimm.ksu.ru/ontologies/mathematics#E1102> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cll.niimm.ksu.ru/ontologies/mathematics#E1080> .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E1102> <http://www.w3.org/2000/01/rdf-schema#label> \"Vector space\"@en .\n",
+    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E1102",
+    "id": "ontomath-pro-vector-space",
+    "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "rationale": "The class and its named superclass locate the mathematical sense. This reference points readers to the class without equating it to a SKOS topic.",
+    "reviewer": "initial editorial pass (Codex); submitted for maintainer review",
+    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
+    "source": "ontomath-pro"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/topological-space",
+    "evidence": "<http://cll.niimm.ksu.ru/ontologies/mathematics#E1160> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cll.niimm.ksu.ru/ontologies/mathematics#E1080> .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E1160> <http://www.w3.org/2000/01/rdf-schema#label> \"Topological space\"@en .\n",
+    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E1160",
+    "id": "ontomath-pro-topological-space",
+    "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "rationale": "The class and its named superclass locate the mathematical sense. This reference points readers to the class without equating it to a SKOS topic.",
+    "reviewer": "initial editorial pass (Codex); submitted for maintainer review",
+    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
+    "source": "ontomath-pro"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/random-variable",
+    "evidence": "<http://cll.niimm.ksu.ru/ontologies/mathematics#E2544> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cll.niimm.ksu.ru/ontologies/mathematics#E2406> .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E2544> <http://www.w3.org/2000/01/rdf-schema#label> \"Random variable\"@en .\n",
+    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2544",
+    "id": "ontomath-pro-random-variable",
+    "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "rationale": "The class and its named superclass locate the mathematical sense. This reference points readers to the class without equating it to a SKOS topic.",
+    "reviewer": "initial editorial pass (Codex); submitted for maintainer review",
+    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
+    "source": "ontomath-pro"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/normal-distribution",
+    "evidence": "<http://cll.niimm.ksu.ru/ontologies/mathematics#E2514> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cll.niimm.ksu.ru/ontologies/mathematics#E2478> .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E2514> <http://www.w3.org/2000/01/rdf-schema#label> \"Normal distribution\"@en .\n",
+    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2514",
+    "id": "ontomath-pro-normal-distribution",
+    "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "rationale": "The class and its named superclass locate the mathematical sense. This reference points readers to the class without equating it to a SKOS topic.",
+    "reviewer": "initial editorial pass (Codex); submitted for maintainer review",
+    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
+    "source": "ontomath-pro"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/algorithm",
+    "evidence": "<http://www.w3.org/ns/mls#Algorithm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/mls#InformationEntity> .\n",
+    "external": "http://www.w3.org/ns/mls#Algorithm",
+    "id": "ml-schema-algorithm",
+    "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "rationale": "ML-Schema explicitly separates the algorithm from a concrete software implementation.",
+    "reviewer": "initial editorial pass (Codex); submitted for maintainer review",
+    "sha256": "5eb9572cde53e362f74113b9292f07a9d9ad115d811341489fa00dba4dd0f35e",
+    "source": "ml-schema"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/normal-distribution",
+    "evidence": "<https://portal.mardi4nfdi.de/entity/Q6674002> <https://portal.mardi4nfdi.de/entity/P104> <https://en.wikipedia.org/wiki/Normal_distribution> .\n<https://portal.mardi4nfdi.de/entity/Q6674002> <http://www.w3.org/2000/01/rdf-schema#label> \"normal distribution\"@en .\n",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6674002",
+    "id": "mathmoddb-normal-distribution",
+    "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "rationale": "The MaRDI record explicitly links to the normal distribution article. Its representation as a named individual is retained upstream.",
+    "reviewer": "initial editorial pass (Codex); submitted for maintainer review",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "source": "mathmoddb"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/function",
+    "evidence": "<http://www.wikidata.org/entity/Q11348> <http://schema.org/description> \"association of a single output to each input\"@en .\n<http://www.wikidata.org/entity/Q11348> <http://www.w3.org/2000/01/rdf-schema#label> \"function\"@en .\n",
+    "external": "http://www.wikidata.org/entity/Q11348",
+    "id": "wikidata-function",
+    "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "rationale": "The single-output condition distinguishes a mathematical function from a role or software procedure.",
+    "reviewer": "initial editorial pass (Codex); submitted for maintainer review",
+    "sha256": "a66946dbf19dcfd6a69052f3227e40ee4c7a7b792d5434cec94101a4453a5f6c",
+    "source": "wikidata"
   }
 ]

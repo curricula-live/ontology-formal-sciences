@@ -1,22 +1,22 @@
 {
   "artifacts": {
-    "formal-sciences.nq": "e4ad1535fdaed3fad16b1ca5c17c0b366a5b075b442c3d2ce1918feeca415500",
-    "formal-sciences.trig": "f8f7b7af2d6a42418e2e4e19774da148565b52ba8ba9d448b9250d7edfc420fc",
-    "formal-sciences.ttl": "04fcdc6c6187ad18c2c7b9b2d02e28c445b42b7ed325f5722ba1387160422fb0",
-    "source-alignments.trig": "4bb552eed550a1fc572402edc49323a984a34c909102eeb1526818be09f4158b",
+    "formal-sciences.nq": "d996eb06748d3beb9efe31dd1397a6b0bc324cdd81217e82f1b1de66bed85b07",
+    "formal-sciences.trig": "1d69ee7e5ea6d15708e2f18397ec24b282cec20ac8af44e581aa0a31ccdfc4d4",
+    "formal-sciences.ttl": "8765095fb9e0dfc5bd0e239df8d1272668d004cf770ff569c81cf27dc0554803",
+    "source-alignments.trig": "3527c3049d2bbe2d564949474d8855070045ccf1af5a0fca4e966c33df09302d",
     "validation-report.json": "53d08d3d3ba0eb867f1671cd1ae50c0254b5122d63db5c5d209e180c92008116"
   },
-  "concepts": 251,
+  "concepts": 252,
   "conforms": true,
   "contract": "curricula.rdf-release/v1",
   "counts": {
-    "alignments": 153,
-    "asserted": 1048,
-    "inferred": 266,
-    "provenance": 1593
+    "alignments": 165,
+    "asserted": 1057,
+    "inferred": 267,
+    "provenance": 1840
   },
   "namespace": "https://curricula.live/id/formal-sciences/",
-  "predicates": 11,
+  "predicates": 12,
   "sources": {
     "acm-ccs": {
       "attribution": "Association for Computing Machinery",
@@ -105,7 +105,7 @@
       "scope": "full ontology file",
       "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
       "staged_triples": 45029,
-      "status": "staged",
+      "status": "aligned",
       "url": "https://raw.githubusercontent.com/MaRDI4NFDI/MathModDB/0c308b7888a12cd1103a6f7f0273b8554d039482/MathModDB_full.owl"
     },
     "ml-schema": {
@@ -115,7 +115,7 @@
       "scope": "core schema",
       "sha256": "5eb9572cde53e362f74113b9292f07a9d9ad115d811341489fa00dba4dd0f35e",
       "staged_triples": 441,
-      "status": "staged",
+      "status": "aligned",
       "url": "https://raw.githubusercontent.com/ML-Schema/core/4e1d90292509ed2a2ec52efc955e40e17fa92281/MLSchema.ttl"
     },
     "msc2020": {
@@ -165,7 +165,7 @@
       "scope": "full Manchester ontology; OWLAPI conversion",
       "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
       "staged_triples": 21731,
-      "status": "staged",
+      "status": "aligned",
       "url": "https://raw.githubusercontent.com/CLLKazan/OntoMathPro/ebb4083adec275e079bb6210df24cfcd11d2767c/OntoMathPro.omn"
     },
     "openalex": {
@@ -292,11 +292,11 @@
       "attribution": "TPTP World",
       "license": "unverified",
       "revision": "content digest",
-      "scope": "one annotated problem; private staging only",
-      "sha256": null,
-      "staged_triples": 0,
-      "status": "failed",
-      "url": "https://raw.githubusercontent.com/TPTPWorld/TPTP/master/Problems/PUZ/PUZ001-1.p"
+      "scope": "PUZ001-1 problem; inventory annotated CNF formula names and roles only",
+      "sha256": "73a011c22f2583491605d29e712d7b9bb26c737331b97eee6172a231e50d2ff6",
+      "staged_triples": 12,
+      "status": "staged",
+      "url": "https://seetptp.tptp.org/download/TPTPWorld/TPTP/Problems/PUZ/PUZ001-1.p"
     },
     "wikidata": {
       "attribution": "Wikidata contributors",
@@ -305,18 +305,18 @@
       "scope": "Q11348 mathematical function entity document",
       "sha256": "a66946dbf19dcfd6a69052f3227e40ee4c7a7b792d5434cec94101a4453a5f6c",
       "staged_triples": 6127,
-      "status": "staged",
+      "status": "aligned",
       "url": "https://www.wikidata.org/wiki/Special:EntityData/Q11348.ttl"
     },
     "zbmath-open": {
       "attribution": "FIZ Karlsruhe",
       "license": "field-specific",
       "revision": "content digest",
-      "scope": "one bibliographic record; private staging only",
-      "sha256": "7c53bbb5d2f9cc2b91553413d6ff6e1db92885aa0b53368d32c8b15e530a878e",
-      "staged_triples": 0,
-      "status": "blocked",
-      "url": "https://api.zbmath.org/v1/document/1"
+      "scope": "one formal-logic bibliographic record; retain identifier and title in private staging",
+      "sha256": "6ff84101d9746770dd91250081b4b7711be9a4a1171556454be8e179fbee7fa1",
+      "staged_triples": 2,
+      "status": "staged",
+      "url": "https://api.zbmath.org/v1/document/7000000"
     }
   },
   "version": "0.1.0"

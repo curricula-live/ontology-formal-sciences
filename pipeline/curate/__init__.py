@@ -1,4 +1,5 @@
-from rdflib import Graph, RDF, SKOS, URIRef, Literal
+from hashlib import sha256
+from rdflib import Graph, RDF, RDFS, SKOS, URIRef, Literal
 from rdflib.namespace import PROV, DCTERMS
 from pipeline.common import ROOT, BASE, D, read, checksum
 
@@ -26,6 +27,13 @@ def authored():
             if triple in graph:
                 raise ValueError(f"Duplicate authored assertion in {rel}: {triple}")
             graph.add(triple)
+            if rel.parts[1] in {"links","bridges"}:
+                digest = sha256(" ".join(v.n3() for v in triple).encode()).hexdigest()
+                stmt = URIRef(BASE+"assertion/"+digest)
+                prov.add((stmt,RDF.type,RDF.Statement))
+                prov.add((stmt,PROV.wasDerivedFrom,node))
+                for pred,term in zip((RDF.subject,RDF.predicate,RDF.object),triple):
+                    prov.add((stmt,pred,term))
     return graph, prov
 
 
@@ -51,11 +59,12 @@ def reviewed(registry, graph, prov):
             if (can, RDF.type, SKOS.Concept) not in graph:
                 raise ValueError(f"Unowned target {can}")
             pred = URIRef(r["predicate"])
-            if pred not in {SKOS.exactMatch, SKOS.closeMatch}:
+            if pred not in {SKOS.exactMatch, SKOS.closeMatch, RDFS.seeAlso}:
                 raise ValueError(f"Unsupported mapping {pred}")
             if pred == SKOS.exactMatch and ext in exact:
                 raise ValueError(f"Conflicting identity for {ext}")
-            exact[ext] = can if pred == SKOS.exactMatch else exact.get(ext)
+            if pred == SKOS.exactMatch:
+                exact[ext] = can
             evidence = Graph().parse(data=r["evidence"],format="nt")
             if not any(p not in {SKOS.prefLabel, SKOS.altLabel, URIRef("http://www.w3.org/2000/01/rdf-schema#label")} for _,p,_ in evidence.triples((ext,None,None))):
                 raise ValueError(f"Missing structural evidence: {ext}")

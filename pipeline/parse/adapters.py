@@ -91,6 +91,24 @@ def references(store, path, source, graph):
             point = NamedNode(source["url"]+"#index-"+str(index))
             store.add(Quad(point,NamedNode(str(DCTERMS.isPartOf)),series,graph))
             store.add(Quad(point,NamedNode(str(RDF.value)),Literal(number),graph))
+    elif id == "zbmath-open":
+        record = json.loads(path.read_bytes())["result"]
+        if not record or not record["identifier"]:
+            raise ValueError("No bibliographic record in response")
+        store.add(Quad(subject,NamedNode(str(DCTERMS.identifier)),Literal(record["identifier"]),graph))
+        store.add(Quad(subject,NamedNode(str(DCTERMS.title)),Literal(record["title"]["title"]),graph))
+    elif id == "tptp":
+        import re
+        with tarfile.open(path) as archive:
+            with archive.extractfile("PUZ001-1.p") as file:
+                for line in file:
+                    text = line.decode().strip()
+                    if text.startswith("cnf("):
+                        match = re.match(r"cnf\(\s*([\w-]+)\s*,\s*([\w-]+)\s*,",text)
+                        if not match:
+                            raise ValueError("Unsupported CNF formula header")
+                        name, role = match.groups()
+                        store.add(Quad(NamedNode(source["url"]+"#"+name),NamedNode(str(DCTERMS.type)),Literal(role),graph))
     elif id == "dlmf":
         value = path.read_text().strip()
         if not (value.startswith(r"\[") and value.endswith(r"\]")):

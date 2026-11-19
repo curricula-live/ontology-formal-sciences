@@ -1,0 +1,8 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT ?method ?ingredient WHERE {
+  ?m v:uses ?i ; skos:prefLabel ?method ; skos:inScheme ?a .
+  ?i skos:prefLabel ?ingredient ; skos:inScheme ?b .
+  FILTER (?a != ?b)
+} ORDER BY ?method ?ingredient

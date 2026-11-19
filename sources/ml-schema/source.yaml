@@ -10,6 +10,6 @@
   "revision": "4e1d90292509ed2a2ec52efc955e40e17fa92281",
   "scope": "core schema",
   "sha256": "5eb9572cde53e362f74113b9292f07a9d9ad115d811341489fa00dba4dd0f35e",
-  "status": "staged",
+  "status": "aligned",
   "url": "https://raw.githubusercontent.com/ML-Schema/core/4e1d90292509ed2a2ec52efc955e40e17fa92281/MLSchema.ttl"
 }

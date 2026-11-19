@@ -1,15 +1,14 @@
 {
   "allow_mapping": false,
   "attribution": "FIZ Karlsruhe",
-  "blocker": "API returned result:null for document 1. Select a real record and retain only licensed fields.",
-  "bytes": 331,
+  "bytes": 2752,
   "format": "zbmath",
   "homepage": "https://api.zbmath.org/",
   "id": "zbmath-open",
   "license": "field-specific",
   "revision": "content digest",
-  "scope": "one bibliographic record; private staging only",
-  "sha256": "7c53bbb5d2f9cc2b91553413d6ff6e1db92885aa0b53368d32c8b15e530a878e",
-  "status": "blocked",
-  "url": "https://api.zbmath.org/v1/document/1"
+  "scope": "one formal-logic bibliographic record; retain identifier and title in private staging",
+  "sha256": "6ff84101d9746770dd91250081b4b7711be9a4a1171556454be8e179fbee7fa1",
+  "status": "staged",
+  "url": "https://api.zbmath.org/v1/document/7000000"
 }

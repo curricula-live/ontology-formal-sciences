@@ -10,6 +10,6 @@
   "revision": "0c308b7888a12cd1103a6f7f0273b8554d039482",
   "scope": "full ontology file",
   "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
-  "status": "staged",
+  "status": "aligned",
   "url": "https://raw.githubusercontent.com/MaRDI4NFDI/MathModDB/0c308b7888a12cd1103a6f7f0273b8554d039482/MathModDB_full.owl"
 }

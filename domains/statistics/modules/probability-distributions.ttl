@@ -17,3 +17,5 @@ c:poisson-distribution a skos:Concept ; skos:prefLabel "Poisson distribution"@en
 
 c:cumulative-distribution-function a skos:Concept ; skos:prefLabel "Cumulative distribution function"@en ;
     skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:normal-distribution skos:definition "A continuous univariate probability distribution determined by a mean and a strictly positive variance, with density proportional to the exponential of a negative squared deviation from the mean."@en .

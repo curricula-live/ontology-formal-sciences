@@ -23,3 +23,5 @@ c:path-graph-theory a skos:Concept ; skos:prefLabel "Path (graph theory)"@en ;
 
 c:tree-graph-theory a skos:Concept ; skos:prefLabel "Tree (graph theory)"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:directed-acyclic-graph skos:definition "A directed graph that contains no directed cycle."@en .

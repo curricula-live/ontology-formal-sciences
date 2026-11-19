@@ -1,6 +1,6 @@
 # zbmath-open
 
-one bibliographic record; private staging only.
+one formal-logic bibliographic record; retain identifier and title in private staging.
 
 Upstream: https://api.zbmath.org/
 

@@ -1,13 +1,14 @@
 {
   "allow_mapping": false,
   "attribution": "TPTP World",
-  "blocker": "curl: (22) The requested URL returned error: 404\n",
-  "format": "tptp",
-  "homepage": "https://github.com/TPTPWorld/TPTP",
+  "bytes": 1144,
+  "format": "tptp-archive",
+  "homepage": "https://tptp.org/",
   "id": "tptp",
   "license": "unverified",
   "revision": "content digest",
-  "scope": "one annotated problem; private staging only",
-  "status": "failed",
-  "url": "https://raw.githubusercontent.com/TPTPWorld/TPTP/master/Problems/PUZ/PUZ001-1.p"
+  "scope": "PUZ001-1 problem; inventory annotated CNF formula names and roles only",
+  "sha256": "73a011c22f2583491605d29e712d7b9bb26c737331b97eee6172a231e50d2ff6",
+  "status": "staged",
+  "url": "https://seetptp.tptp.org/download/TPTPWorld/TPTP/Problems/PUZ/PUZ001-1.p"
 }

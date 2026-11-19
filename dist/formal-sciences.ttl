@@ -277,12 +277,14 @@
 <https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/graph-algorithm> .
+<https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm> <http://www.w3.org/2004/02/skos/core#definition> "A shortest-path algorithm that repeatedly settles an unsettled vertex of minimum tentative distance. Its standard correctness guarantee assumes nonnegative edge weights."@en .
 <https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dijkstra's algorithm"@en .
 <https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/shortest-path-problem> .
 <https://curricula.live/id/formal-sciences/concept/directed-acyclic-graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/directed-acyclic-graph> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/directed-graph> .
 <https://curricula.live/id/formal-sciences/concept/directed-acyclic-graph> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/graph-theory> .
+<https://curricula.live/id/formal-sciences/concept/directed-acyclic-graph> <http://www.w3.org/2004/02/skos/core#definition> "A directed graph that contains no directed cycle."@en .
 <https://curricula.live/id/formal-sciences/concept/directed-acyclic-graph> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/directed-acyclic-graph> <http://www.w3.org/2004/02/skos/core#prefLabel> "Directed acyclic graph"@en .
 <https://curricula.live/id/formal-sciences/concept/directed-graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -389,6 +391,11 @@
 <https://curricula.live/id/formal-sciences/concept/free-variable> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/predicate-logic> .
 <https://curricula.live/id/formal-sciences/concept/free-variable> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
 <https://curricula.live/id/formal-sciences/concept/free-variable> <http://www.w3.org/2004/02/skos/core#prefLabel> "Free variable"@en .
+<https://curricula.live/id/formal-sciences/concept/function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/function> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/set-theory> .
+<https://curricula.live/id/formal-sciences/concept/function> <http://www.w3.org/2004/02/skos/core#definition> "A mapping that assigns exactly one output to each element of its domain."@en .
+<https://curricula.live/id/formal-sciences/concept/function> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/function> <http://www.w3.org/2004/02/skos/core#prefLabel> "Function (mathematics)"@en .
 <https://curricula.live/id/formal-sciences/concept/functional-dependency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/functional-dependency> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/databases> .
 <https://curricula.live/id/formal-sciences/concept/functional-dependency> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -623,6 +630,7 @@
 <https://curricula.live/id/formal-sciences/concept/newton-s-method> <http://www.w3.org/2004/02/skos/core#prefLabel> "Newton's method"@en .
 <https://curricula.live/id/formal-sciences/concept/normal-distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/normal-distribution> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/probability-distributions> .
+<https://curricula.live/id/formal-sciences/concept/normal-distribution> <http://www.w3.org/2004/02/skos/core#definition> "A continuous univariate probability distribution determined by a mean and a strictly positive variance, with density proportional to the exponential of a negative squared deviation from the mean."@en .
 <https://curricula.live/id/formal-sciences/concept/normal-distribution> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/normal-distribution> <http://www.w3.org/2004/02/skos/core#prefLabel> "Normal distribution"@en .
 <https://curricula.live/id/formal-sciences/concept/np-completeness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -997,6 +1005,7 @@
 <https://curricula.live/id/formal-sciences/concept/unification> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unification"@en .
 <https://curricula.live/id/formal-sciences/concept/unit-propagation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/unit-propagation> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/boolean-satisfiability> .
+<https://curricula.live/id/formal-sciences/concept/unit-propagation> <http://www.w3.org/2004/02/skos/core#definition> "In a conjunction of clauses under a partial assignment, repeatedly assign the remaining literal of a unit clause to true and simplify the clauses."@en .
 <https://curricula.live/id/formal-sciences/concept/unit-propagation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
 <https://curricula.live/id/formal-sciences/concept/unit-propagation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unit propagation"@en .
 <https://curricula.live/id/formal-sciences/concept/universal-quantification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
