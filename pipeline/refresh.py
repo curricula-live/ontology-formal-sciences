@@ -77,6 +77,8 @@ def prepare(id):
     write(folder/"normalization.json",dict(label_keys=norm["label_keys"],source=id,sha256=digest,
           candidates=len(suggestions),pending=sum(r["state"]=="pending" for r in suggestions)))
     affected=[d["id"] for state in ("approved","rejected") for d in read(ROOT/"reviews"/state/"mappings.json") if d["source"]==id]
+    if (ROOT / "reviews/approved/batches" / f"{id}.json").exists():
+        affected.append("batch/" + id)
     if not affected:
         build()
     return dict(status="review-required",source=id,old=source["sha256"],new=digest,
