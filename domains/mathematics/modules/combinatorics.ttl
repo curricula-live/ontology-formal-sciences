@@ -33,3 +33,35 @@ c:linear-recurrence a skos:Concept ; skos:prefLabel "Linear recurrence relation"
 c:generating-function-recurrence-method a skos:Concept ; skos:prefLabel "Generating-function method for linear recurrences"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:combinatorics ;
     skos:definition "For linear recurrences with constant coefficients, encode the recurrence and initial conditions as a formal power-series equation and recover sequence terms as coefficients."@en .
+
+c:factorial a skos:Concept ; skos:prefLabel "Factorial"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:combinatorics ;
+    skos:definition "For a nonnegative integer, the product of the positive integers up to that integer, with the empty product equal to one."@en .
+
+c:binomial-factorial-identity a skos:Concept ; skos:prefLabel "Factorial formula for binomial coefficients"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:combinatorics ;
+    skos:definition "For integer n and k with zero at most k at most n, the number of k-element subsets is n factorial divided by the product of k factorial and n minus k factorial."@en .
+
+c:stirling-number-second-kind a skos:Concept ; skos:prefLabel "Stirling number of the second kind"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:combinatorics ;
+    skos:definition "The number of ways to partition an n-element set into exactly k nonempty unlabeled blocks."@en .
+
+c:bell-number a skos:Concept ; skos:prefLabel "Bell number"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:combinatorics ;
+    skos:definition "The number of set partitions of an n-element set."@en .
+
+c:bell-stirling-sum a skos:Concept ; skos:prefLabel "Bell number sum over Stirling numbers"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:combinatorics ;
+    skos:definition "The nth Bell number is the sum of the second-kind Stirling numbers over block counts between zero and n."@en .
+
+c:fibonacci-sequence a skos:Concept ; skos:prefLabel "Fibonacci sequence"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:combinatorics ;
+    skos:definition "The sequence beginning with zero and one and continuing by addition of each pair of consecutive terms."@en .
+
+c:fibonacci-recurrence a skos:Concept ; skos:prefLabel "Fibonacci initial values and recurrence"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:combinatorics ;
+    skos:definition "The sequence begins with zero and one. For indices n at least one, the term at n plus one is the sum of the terms at n and n minus one."@en .
+
+c:stirling-inclusion-exclusion-formula a skos:Concept ; skos:prefLabel "Inclusion-exclusion formula for Stirling numbers"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:combinatorics ;
+    skos:definition "For positive n and k, count onto maps to a set of k labels by inclusion-exclusion and divide by k factorial to obtain the number of unlabeled partitions."@en .

@@ -1,0 +1,564 @@
+{
+  "decisions": {
+    "arith1:divide/1": {
+      "law": "nonzero-scalar-self-division",
+      "properties": [
+        "arith1:divide"
+      ],
+      "rationale": "The formula explicitly restricts the divisor to nonzero values.",
+      "sha256": "6011f801486603d647f17794f12c9f4f3db640db9f6993aa2f5d00d69af8fd2f",
+      "state": "approved",
+      "uses": [
+        "arith1:divide"
+      ]
+    },
+    "arith1:lcm/1": {
+      "rationale": "The expression divides by the GCD and lacks the zero and sign conditions needed for the ordinary nonnegative LCM.",
+      "sha256": "32ed4c11ac57faf4051951d3c685e8ab3090e0ad97cb325001cdaabedd74a722",
+      "state": "rejected"
+    },
+    "arith1:minus/1": {
+      "law": "scalar-subtraction-identity",
+      "properties": [
+        "arith1:minus"
+      ],
+      "rationale": "The negated operand is the subtrahend.",
+      "sha256": "de35498a00ab21071f22a21bc40050585f8afa57fe362f1f3d8808d5087a469b",
+      "state": "approved",
+      "uses": [
+        "arith1:minus",
+        "arith1:plus",
+        "arith1:unary_minus"
+      ]
+    },
+    "arith1:plus/1": {
+      "law": "scalar-addition-commutativity",
+      "properties": [
+        "arith1:plus"
+      ],
+      "rationale": "The operands exchange positions under a universal binding.",
+      "sha256": "643a73f20065de03f77597265dbcc2c914bcb821e83eb35ad1d476dda6595e6b",
+      "state": "approved",
+      "uses": [
+        "arith1:plus"
+      ]
+    },
+    "arith1:power/2": {
+      "rationale": "The unconditional zero-exponent and recurrence expressions fail to state the nonzero base conditions needed for negative integer exponents.",
+      "sha256": "c00086b533f4abdb77fdf6382b0b981a29cc268bc28c582cf991ac195fe1ea98",
+      "state": "rejected"
+    },
+    "arith1:times/2": {
+      "law": "scalar-left-distributivity",
+      "properties": [
+        "arith1:times"
+      ],
+      "rationale": "The same left operand multiplies each summand.",
+      "sha256": "b97dd1bbb54e7fa2c0cf4b7257d1d88fe71f64a1124c02a62173adb9bc2157a7",
+      "state": "approved",
+      "uses": [
+        "arith1:times",
+        "arith1:plus"
+      ]
+    },
+    "arith1:unary_minus/1": {
+      "law": "scalar-additive-inverse-law",
+      "properties": [
+        "arith1:unary_minus"
+      ],
+      "rationale": "A scalar and its additive inverse sum to zero.",
+      "sha256": "de74d1d20b66439c1b76e21d9739cf0602676aa5ae7312343369f27ac28fa31b",
+      "state": "approved",
+      "uses": [
+        "arith1:plus",
+        "arith1:unary_minus"
+      ]
+    },
+    "combinat1:Bell/1": {
+      "law": "bell-stirling-sum",
+      "properties": [
+        "combinat1:Bell"
+      ],
+      "rationale": "Partition counts are summed over all allowed block counts. This is a reviewed experimental dictionary statement.",
+      "sha256": "7446a89346d097ea4aea33dbee324d9eb080383c0050dc7576c0d48155f53972",
+      "state": "approved",
+      "uses": [
+        "combinat1:Bell",
+        "combinat1:Stirling2"
+      ]
+    },
+    "combinat1:Fibonacci/1": {
+      "law": "fibonacci-recurrence",
+      "properties": [
+        "combinat1:Fibonacci"
+      ],
+      "rationale": "The two starting values and recurrence use index n at least one in the canonical identity.",
+      "sha256": "c8f5390d05439301264dec7bdc2242866427c5acd9d75119f85932653b876a90",
+      "state": "approved",
+      "uses": [
+        "combinat1:Fibonacci",
+        "arith1:plus",
+        "arith1:minus"
+      ]
+    },
+    "combinat1:Stirling2/1": {
+      "law": "stirling-inclusion-exclusion-formula",
+      "properties": [
+        "combinat1:Stirling2"
+      ],
+      "rationale": "The alternating sum counts onto maps and division by k factorial removes label order. The canonical topic has positive n and k.",
+      "sha256": "57e1ce9d921d52e47652886c051e36d5bd4fe07039d8c715c2a58d0a4f3267ea",
+      "state": "approved",
+      "uses": [
+        "combinat1:Stirling2",
+        "combinat1:binomial",
+        "integer1:factorial"
+      ]
+    },
+    "combinat1:binomial/1": {
+      "law": "binomial-factorial-identity",
+      "properties": [
+        "combinat1:binomial"
+      ],
+      "rationale": "The reviewed numeric scope is integer parameters zero at most k at most n. The factorial denominator implements that counting identity.",
+      "sha256": "532611e4e123e8b0a2db67aa1ca269cb318b8d10e34ba98f6b6952bc151016ce",
+      "state": "approved",
+      "uses": [
+        "combinat1:binomial",
+        "integer1:factorial",
+        "arith1:minus",
+        "arith1:divide",
+        "arith1:times"
+      ]
+    },
+    "combinat1:multinomial/1": {
+      "rationale": "The source formula uses inconsistent free variable names in the factorial list. The intended counting identity needs separate evidence.",
+      "sha256": "be15944ad6f6dbfef08bbbf62caae6362013faacf9a585f375de1ac5c9e5ed6b",
+      "state": "rejected"
+    },
+    "fns1:identity/1": {
+      "law": "identity-function-evaluation",
+      "properties": [
+        "fns1:identity"
+      ],
+      "rationale": "The bound equality evaluates an identity function on its argument.",
+      "sha256": "ce40363229e2e7bab8a7583de35bd2301a5813cb98a6d62b7b8be25dc4c4818e",
+      "state": "approved",
+      "uses": [
+        "fns1:identity"
+      ]
+    },
+    "fns1:left_compose/1": {
+      "law": "composition-evaluation-law",
+      "properties": [
+        "fns1:left_compose"
+      ],
+      "rationale": "The nested application has the same inner and outer function order as the composition symbol. The canonical definition requires composability.",
+      "sha256": "b3787a5995fd25d63fbd9788c475778640ee67c3962542b5cc70691cceea2dcf",
+      "state": "approved",
+      "uses": [
+        "fns1:left_compose"
+      ]
+    },
+    "fns1:range/1": {
+      "rationale": "The prose defines range as a containing codomain. The formula places it inside the image, which reverses the documented inclusion.",
+      "sha256": "ed113ae6e2241288f8c0e730161fe90f44a99f3dc3da3602c2366ebb1a4cda13",
+      "state": "rejected"
+    },
+    "linalg1:vectorproduct/1": {
+      "rationale": "The formula uses Boolean conjunction in the position of the numeric vector constructor.",
+      "sha256": "64fcd0350ee44bc838f40372e9d5c224324561559d2c63ec1985f55c14c4b063",
+      "state": "rejected"
+    },
+    "logic1:and/1": {
+      "law": "boolean-noncontradiction",
+      "properties": [
+        "logic1:and"
+      ],
+      "rationale": "The bound Boolean expression conjoins a value with its negation.",
+      "sha256": "3ec39787d794051bc13ee3c2e81c764934022d6a5482fcef322f8b63afada61b",
+      "state": "approved",
+      "uses": [
+        "logic1:and",
+        "logic1:not"
+      ]
+    },
+    "logic1:equivalent/1": {
+      "law": "material-biconditional-identity",
+      "properties": [
+        "logic1:equivalent"
+      ],
+      "rationale": "The Boolean biconditional is expressed by the two directed implications.",
+      "sha256": "2380142743a82250076ff3de47a4c560d17f4382612327caeac94a691cd466e0",
+      "state": "approved",
+      "uses": [
+        "logic1:equivalent",
+        "logic1:and",
+        "logic1:implies"
+      ]
+    },
+    "logic1:nand/2": {
+      "law": "nand-definition-identity",
+      "properties": [
+        "logic1:nand"
+      ],
+      "rationale": "Both sides use the same two bound Boolean operands.",
+      "sha256": "c431f327dda11a2502ed23ed9665bc3af19e93898e031fd28eb708711dec42c9",
+      "state": "approved",
+      "uses": [
+        "logic1:nand",
+        "logic1:not",
+        "logic1:and"
+      ]
+    },
+    "logic1:nor/3": {
+      "law": "nor-definition-identity",
+      "properties": [
+        "logic1:nor"
+      ],
+      "rationale": "Binary NOR is expressed by negation of binary disjunction.",
+      "sha256": "261268d8cb5803931c4db3857b370309c00828626df4aa5d7de5c36781195c0f",
+      "state": "approved",
+      "uses": [
+        "logic1:nor",
+        "logic1:not",
+        "logic1:or"
+      ]
+    },
+    "logic1:not/1": {
+      "law": "boolean-double-negation-law",
+      "properties": [
+        "logic1:not"
+      ],
+      "rationale": "The bound expression has two negations of the same truth value.",
+      "sha256": "7a36997a1335209515afba7e825d2f0d64defb4a1bc450ebf5a0d3664c89de83",
+      "state": "approved",
+      "uses": [
+        "logic1:not"
+      ]
+    },
+    "logic1:or/1": {
+      "law": "boolean-excluded-middle",
+      "properties": [
+        "logic1:or"
+      ],
+      "rationale": "This pair of complementary Boolean operands yields true.",
+      "sha256": "d088f1792c7ab4b08e3e69ed5a9ea87a655c843c6b29e9b184a13e2044b64861",
+      "state": "approved",
+      "uses": [
+        "logic1:or",
+        "logic1:not"
+      ]
+    },
+    "logic1:or/2": {
+      "law": "de-morgan-conjunction-law",
+      "properties": [
+        "logic1:not"
+      ],
+      "rationale": "Negation of a conjunction equals the disjunction of the two negated inputs.",
+      "sha256": "4c4da67b3fb53f00bcdf4d07ac29c067a7a1180711e1478e829c8f3110549a58",
+      "state": "approved",
+      "uses": [
+        "logic1:not",
+        "logic1:and",
+        "logic1:or"
+      ]
+    },
+    "logic1:xnor/3": {
+      "law": "xnor-complement-of-xor",
+      "properties": [
+        "logic1:xnor"
+      ],
+      "rationale": "XNOR is the complement of XOR in this binary scope.",
+      "sha256": "7489d12581b8e04526eae6a17a5776bf66c609d3b8aa61d1eb6e42225821b753",
+      "state": "approved",
+      "uses": [
+        "logic1:xnor",
+        "logic1:not",
+        "logic1:xor"
+      ]
+    },
+    "logic1:xor/1": {
+      "law": "xor-self-cancellation",
+      "properties": [
+        "logic1:xor"
+      ],
+      "rationale": "The two identical operands contribute an even parity.",
+      "sha256": "823415afa83ded6ebe9e6d395431283137076d362723ef9253eee777bd1243b3",
+      "state": "approved",
+      "uses": [
+        "logic1:xor"
+      ]
+    },
+    "logic1:xor/2": {
+      "law": "xor-complement-identity",
+      "properties": [
+        "logic1:xor"
+      ],
+      "rationale": "The two complementary operands contribute exactly one true value.",
+      "sha256": "e653aaf506a69f5e1da3c123d0829b2748f030d8589f368cef17018fbba45dfc",
+      "state": "approved",
+      "uses": [
+        "logic1:xor",
+        "logic1:not"
+      ]
+    },
+    "relation1:eq/1": {
+      "law": "relation-transitivity",
+      "properties": [
+        "relation1:eq"
+      ],
+      "rationale": "The implication is the transitive equality rule.",
+      "sha256": "45fe557eb95fab0423e50b71a5bc3137fe75c661789d2233a9bfd8742fb234f0",
+      "state": "approved",
+      "uses": [
+        "relation1:eq"
+      ]
+    },
+    "relation1:neq/1": {
+      "rationale": "The open expression is not a universally valid negation of the displayed implication for arbitrary values.",
+      "sha256": "cc7a60bed82cbaf08eb342814e080ee18c642d69bc52e6bd59347e2f3945d879",
+      "state": "rejected"
+    },
+    "set1:emptyset/1": {
+      "law": "emptyset-intersection-annihilation",
+      "properties": [
+        "set1:intersect"
+      ],
+      "rationale": "The empty set is an annihilator for intersection.",
+      "sha256": "ad85dbf84f6fb9760cec0ae1a7ca869e45baaf10ab2175e3fdc6161094497b8f",
+      "state": "approved",
+      "uses": [
+        "set1:emptyset",
+        "set1:intersect"
+      ]
+    },
+    "set1:emptyset/2": {
+      "law": "emptyset-union-identity",
+      "properties": [
+        "set1:union"
+      ],
+      "rationale": "The empty set is the identity operand of union.",
+      "sha256": "1ff8d78b7318620deac0500ed20b2b55e6be314808856f5054abd763b90945f4",
+      "state": "approved",
+      "uses": [
+        "set1:emptyset",
+        "set1:union"
+      ]
+    },
+    "set1:in/1": {
+      "law": "intersection-membership-introduction",
+      "properties": [
+        "set1:intersect"
+      ],
+      "rationale": "Membership in each set suffices for membership in their intersection.",
+      "sha256": "f65b6efc3186e2438c2bfaf9ec48d9357b05f9b313ac2e0ccf35f887729b1ba4",
+      "state": "approved",
+      "uses": [
+        "set1:in",
+        "set1:intersect"
+      ]
+    },
+    "set1:intersect/1": {
+      "law": "intersection-subset-law",
+      "properties": [
+        "set1:intersect"
+      ],
+      "rationale": "Both source subset assertions agree with the dictionary's operand order.",
+      "sha256": "1a7de16ae6d670a6264617a9701c52af358139b6524ee4b2995a3e2cd8741f9f",
+      "state": "approved",
+      "uses": [
+        "set1:intersect",
+        "set1:subset"
+      ]
+    },
+    "set1:notsubset/1": {
+      "rationale": "Under the stated subset argument order the witness must lie in the first set outside the second. The formula uses the reversed witness.",
+      "sha256": "9092e8327e0abef9627857f4891481da425432df1cb0c5a239819ab884c22c9d",
+      "state": "rejected"
+    },
+    "set1:prsubset/1": {
+      "law": "proper-subset-characterization",
+      "properties": [
+        "set1:prsubset"
+      ],
+      "rationale": "The conclusion requires ordinary inclusion and distinctness.",
+      "sha256": "96950844dae63455d623a9ab92a2bc3a25185b6c3c6cb6ea7bbe927c0311b19b",
+      "state": "approved",
+      "uses": [
+        "set1:prsubset",
+        "set1:subset"
+      ]
+    },
+    "set1:setdiff/1": {
+      "law": "difference-subset-law",
+      "properties": [
+        "set1:setdiff"
+      ],
+      "rationale": "The difference is included in the original minuend.",
+      "sha256": "d6c02d2e5622c8d920f040feb6f72a38d05c28dac2f56662652912e4fe4e7759",
+      "state": "approved",
+      "uses": [
+        "set1:setdiff",
+        "set1:subset"
+      ]
+    },
+    "set1:subset/1": {
+      "law": "relation-transitivity",
+      "properties": [
+        "set1:subset"
+      ],
+      "rationale": "The implication is the transitive inclusion rule.",
+      "sha256": "9fd582ea7368e3fdd0839fb7ea4be24796d70464ef4629c24fb81d8c3f96ceaf",
+      "state": "approved",
+      "uses": [
+        "set1:subset"
+      ]
+    },
+    "set1:union/1": {
+      "law": "union-superset-law",
+      "properties": [
+        "set1:union"
+      ],
+      "rationale": "Each set is the first argument of the subset operator.",
+      "sha256": "ea38b39fc3731b14487d7cafc6095e376a78985be3b21ea42195083475bee522",
+      "state": "approved",
+      "uses": [
+        "set1:union",
+        "set1:subset"
+      ]
+    },
+    "set1:union/2": {
+      "law": "set-union-over-intersection-law",
+      "properties": [
+        "set1:union"
+      ],
+      "rationale": "The quantified equality distributes union over intersection.",
+      "sha256": "eb04735562cb14d498f04ea0a9e3d86698f0fd329d014d4e288c6ba6d1906dcd",
+      "state": "approved",
+      "uses": [
+        "set1:union",
+        "set1:intersect"
+      ]
+    }
+  },
+  "sha256": "4bcd5e40a5985f1bd29b0aea8f3bf172ecaf2392be44edf4b7b4eb4756340ac2",
+  "symbols": {
+    "arith1:divide": {
+      "canonical": "scalar-division",
+      "scope": "Field division in the nonzero and finite combinatorial scopes."
+    },
+    "arith1:minus": {
+      "canonical": "scalar-subtraction",
+      "scope": "Ordered binary scalar subtraction."
+    },
+    "arith1:plus": {
+      "canonical": "scalar-addition",
+      "scope": "Ordinary addition of numeric scalars in the reviewed property."
+    },
+    "arith1:times": {
+      "canonical": "scalar-multiplication",
+      "scope": "Ordinary multiplication of numeric scalars in the reviewed property."
+    },
+    "arith1:unary_minus": {
+      "canonical": "additive-inverse",
+      "scope": "Additive inverse of a scalar under the arithmetic interpretation."
+    },
+    "combinat1:Bell": {
+      "canonical": "bell-number",
+      "scope": "Counting all unlabeled set partitions."
+    },
+    "combinat1:Fibonacci": {
+      "canonical": "fibonacci-sequence",
+      "scope": "Fibonacci values with the archived starting indices."
+    },
+    "combinat1:Stirling2": {
+      "canonical": "stirling-number-second-kind",
+      "scope": "Counting unlabeled partitions with a specified number of blocks."
+    },
+    "combinat1:binomial": {
+      "canonical": "binomial-coefficient",
+      "scope": "Counting k-element subsets of an n-element set for integer parameters."
+    },
+    "fns1:identity": {
+      "canonical": "identity-function",
+      "scope": "Identity function on the domain of evaluation."
+    },
+    "fns1:left_compose": {
+      "canonical": "function-composition",
+      "scope": "Left composition for composable functions in the specified order."
+    },
+    "integer1:factorial": {
+      "canonical": "factorial",
+      "scope": "Factorial on nonnegative integer arguments."
+    },
+    "logic1:and": {
+      "canonical": "logical-conjunction",
+      "scope": "Boolean conjunction of formulas."
+    },
+    "logic1:equivalent": {
+      "canonical": "boolean-biconditional",
+      "scope": "Truth-value biconditional in the reviewed Boolean expression."
+    },
+    "logic1:implies": {
+      "canonical": "material-implication",
+      "scope": "Material implication in the truth-value interpretation."
+    },
+    "logic1:nand": {
+      "canonical": "boolean-nand",
+      "scope": "Negated Boolean conjunction."
+    },
+    "logic1:nor": {
+      "canonical": "boolean-nor",
+      "scope": "Negated Boolean disjunction."
+    },
+    "logic1:not": {
+      "canonical": "logical-negation",
+      "scope": "Boolean negation of a truth value."
+    },
+    "logic1:or": {
+      "canonical": "logical-disjunction",
+      "scope": "Inclusive Boolean disjunction of formulas."
+    },
+    "logic1:xnor": {
+      "canonical": "boolean-xnor",
+      "scope": "Complement of Boolean parity in the cited binary identity."
+    },
+    "logic1:xor": {
+      "canonical": "boolean-exclusive-or",
+      "scope": "Boolean parity in the cited binary identities."
+    },
+    "relation1:eq": {
+      "canonical": "equality-relation",
+      "scope": "Mathematical equality of values in the stated expression."
+    },
+    "set1:emptyset": {
+      "canonical": "empty-set",
+      "scope": "Distinguished empty set of the set dictionary."
+    },
+    "set1:in": {
+      "canonical": "set-membership",
+      "scope": "Element-to-set membership in the stated formula."
+    },
+    "set1:intersect": {
+      "canonical": "set-intersection",
+      "scope": "Intersection of sets."
+    },
+    "set1:prsubset": {
+      "canonical": "proper-subset-relation",
+      "scope": "Proper inclusion with the first set on the smaller side."
+    },
+    "set1:setdiff": {
+      "canonical": "set-difference",
+      "scope": "Difference with the minuend in the first position."
+    },
+    "set1:subset": {
+      "canonical": "subset-relation",
+      "scope": "The first set is contained in the second set."
+    },
+    "set1:union": {
+      "canonical": "set-union",
+      "scope": "Union of sets."
+    }
+  }
+}

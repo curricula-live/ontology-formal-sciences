@@ -1,0 +1,1176 @@
+{
+  "declarations": {
+    "alg1:one": "constant",
+    "alg1:zero": "constant",
+    "arith1:abs": "application",
+    "arith1:divide": "application",
+    "arith1:gcd": "application",
+    "arith1:lcm": "application",
+    "arith1:minus": "application",
+    "arith1:plus": "application",
+    "arith1:power": "application",
+    "arith1:product": "application",
+    "arith1:root": "application",
+    "arith1:sum": "application",
+    "arith1:times": "application",
+    "arith1:unary_minus": "application",
+    "combinat1:Bell": "application",
+    "combinat1:Fibonacci": "application",
+    "combinat1:Stirling1": "application",
+    "combinat1:Stirling2": "application",
+    "combinat1:binomial": "application",
+    "combinat1:multinomial": "application",
+    "fns1:domain": "application",
+    "fns1:domainofapplication": "application",
+    "fns1:identity": "application",
+    "fns1:image": "application",
+    "fns1:inverse": "application",
+    "fns1:lambda": "binder",
+    "fns1:left_compose": "application",
+    "fns1:left_inverse": "application",
+    "fns1:range": "application",
+    "fns1:restriction": "application",
+    "fns1:right_inverse": "application",
+    "integer1:factorial": "application",
+    "integer1:factorof": "application",
+    "integer1:quotient": "application",
+    "integer1:remainder": "application",
+    "linalg1:determinant": "application",
+    "linalg1:matrix_selector": "application",
+    "linalg1:outerproduct": "application",
+    "linalg1:scalarproduct": "application",
+    "linalg1:transpose": "application",
+    "linalg1:vector_selector": "application",
+    "linalg1:vectorproduct": "application",
+    "logic1:and": "application",
+    "logic1:equivalent": "application",
+    "logic1:false": "constant",
+    "logic1:implies": "application",
+    "logic1:nand": "application",
+    "logic1:nor": "application",
+    "logic1:not": "application",
+    "logic1:or": "application",
+    "logic1:true": "constant",
+    "logic1:xnor": "application",
+    "logic1:xor": "application",
+    "quant1:exists": "binder",
+    "quant1:forall": "binder",
+    "relation1:approx": "application",
+    "relation1:eq": "application",
+    "relation1:geq": "application",
+    "relation1:gt": "application",
+    "relation1:leq": "application",
+    "relation1:lt": "application",
+    "relation1:neq": "application",
+    "set1:cartesian_product": "application",
+    "set1:emptyset": "constant",
+    "set1:in": "application",
+    "set1:intersect": "application",
+    "set1:map": "application",
+    "set1:notin": "application",
+    "set1:notprsubset": "application",
+    "set1:notsubset": "application",
+    "set1:prsubset": "application",
+    "set1:set": "application",
+    "set1:setdiff": "application",
+    "set1:size": "application",
+    "set1:subset": "application",
+    "set1:suchthat": "application",
+    "set1:union": "application",
+    "setname1:C": "constant",
+    "setname1:N": "constant",
+    "setname1:P": "constant",
+    "setname1:Q": "constant",
+    "setname1:R": "constant",
+    "setname1:Z": "constant"
+  },
+  "dictionaries": {
+    "alg1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/alg1.ocd",
+      "sha256": "e3660d4031649da6fc76a9de5c5efffc19568d47f50e20885541204dd07a4405",
+      "status": "official"
+    },
+    "arith1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/arith1.ocd",
+      "sha256": "8dab1c657db03b87da8ed3a139c2490df0e86076ab634c3804b757c5594f6d8a",
+      "status": "official"
+    },
+    "combinat1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/experimental/combinat1.ocd",
+      "sha256": "7b985c10e357579e4432cf51da1e838063868d2467fcbd2f9a6d49cb41f896c5",
+      "status": "experimental"
+    },
+    "fns1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/fns1.ocd",
+      "sha256": "9d45eafcb9b527de68dee8f2a129fe8ec71667ef8490fa5e50ddb7eedd3f8c5e",
+      "status": "official"
+    },
+    "integer1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/integer1.ocd",
+      "sha256": "e8844f0415a9078293717f075fa83a06985f0ba7ddca9cd74b1d234ff79d287d",
+      "status": "official"
+    },
+    "linalg1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/linalg1.ocd",
+      "sha256": "2aec606eea01c8011db4aa151df6f623efd10eb4ecc58429acb6ba8cd160227a",
+      "status": "official"
+    },
+    "logic1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/logic1.ocd",
+      "sha256": "5bd450962d9ee3f867770608ce6f823b0ad705123afb9af5d1950a39a46498cd",
+      "status": "official"
+    },
+    "quant1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/quant1.ocd",
+      "sha256": "58e065460b461514e83fc432372e1b598a5a589ed8c5992d20913a20c49db928",
+      "status": "official"
+    },
+    "relation1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/relation1.ocd",
+      "sha256": "1c50e72514373c6d60c3f82c28936670ccb8615e8cf85b40de6ee747487842e6",
+      "status": "official"
+    },
+    "set1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/set1.ocd",
+      "sha256": "6d4995d2e7f1f24e062f52f600f33cceabe24e3055927e668dbea6a5dd0c5ea2",
+      "status": "official"
+    },
+    "setname1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/setname1.ocd",
+      "sha256": "746cc460c6aec8601d72dbfe16b99451dcd24f165b2d9ec4f77b4f391bd54abd",
+      "status": "official"
+    }
+  },
+  "properties": {
+    "alg1:one/1": {
+      "sha256": "78bdf97805a3a89d2e2745ec95ddcd6a68f16ae2851271d3b2ac66b526d609b8",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:times",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "alg1:one/2": {
+      "sha256": "be688b036f30bc7771ad6d4bd579aa2db4d1ff8b6924e2a583c10d9abd15c3ee",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:times",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "alg1:one/3": {
+      "sha256": "e7b7d416ef16ba019e5a358e622ee529ad23f509a6b0ee769f882c292b9cf6d4",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "alg1:one",
+        "logic1:and",
+        "logic1:implies",
+        "quant1:forall",
+        "relation1:eq",
+        "set1:in",
+        "setname1:Z"
+      ]
+    },
+    "alg1:zero/1": {
+      "sha256": "739aa80134bf091ed673b39a97c1ea719e904ce71a107363a15838a629ff46f0",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "alg1:zero",
+        "arith1:plus",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "alg1:zero/2": {
+      "sha256": "0e94f8761f36ac5b2edbd8d96c0e12cddc65f32483513d87f3e5dddca6d9eb5b",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "alg1:zero",
+        "arith1:times",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "alg1:zero/3": {
+      "sha256": "ce3de7a84666c43dc42c8f8914d274d207990d941150356c6b0ccd6f3c56baa5",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "alg1:zero",
+        "logic1:and",
+        "logic1:implies",
+        "quant1:forall",
+        "relation1:eq",
+        "set1:in",
+        "setname1:Z"
+      ]
+    },
+    "arith1:abs/1": {
+      "sha256": "691b27aa676f2541631b713702adbfbb7ea5117e1b7932f6b91d050a13ca96ca",
+      "shape": "quant1:forall/relation1:geq",
+      "symbols": [
+        "arith1:abs",
+        "arith1:plus",
+        "quant1:forall",
+        "relation1:geq"
+      ]
+    },
+    "arith1:divide/1": {
+      "sha256": "6011f801486603d647f17794f12c9f4f3db640db9f6993aa2f5d00d69af8fd2f",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "alg1:one",
+        "alg1:zero",
+        "arith1:divide",
+        "logic1:implies",
+        "quant1:forall",
+        "relation1:eq",
+        "relation1:neq"
+      ]
+    },
+    "arith1:gcd/1": {
+      "sha256": "919a79d4df3c76567a7e2d53bb3249e10147302b287a1efea2231a822c181848",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "arith1:divide",
+        "arith1:gcd",
+        "logic1:and",
+        "logic1:implies",
+        "logic1:not",
+        "quant1:exists",
+        "quant1:forall",
+        "relation1:gt",
+        "set1:in",
+        "setname1:Z"
+      ]
+    },
+    "arith1:lcm/1": {
+      "sha256": "32ed4c11ac57faf4051951d3c685e8ab3090e0ad97cb325001cdaabedd74a722",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:divide",
+        "arith1:gcd",
+        "arith1:lcm",
+        "arith1:times",
+        "relation1:eq"
+      ]
+    },
+    "arith1:lcm/2": {
+      "sha256": "51f6308db281b0de7e397bb4604fcf8b2195cc987f0933d070dc71a61a633c72",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "arith1:lcm",
+        "integer1:factorof",
+        "logic1:and",
+        "logic1:implies",
+        "logic1:not",
+        "quant1:exists",
+        "quant1:forall",
+        "relation1:gt",
+        "relation1:lt",
+        "set1:in",
+        "setname1:Z"
+      ]
+    },
+    "arith1:minus/1": {
+      "sha256": "de35498a00ab21071f22a21bc40050585f8afa57fe362f1f3d8808d5087a469b",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "arith1:minus",
+        "arith1:plus",
+        "arith1:unary_minus",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "arith1:plus/1": {
+      "sha256": "643a73f20065de03f77597265dbcc2c914bcb821e83eb35ad1d476dda6595e6b",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "arith1:plus",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "arith1:power/1": {
+      "sha256": "8f17ed75ad9689d3fe113caa1b33dc08b1a9b5d04fe495396a5c5da3a1f4db75",
+      "shape": "logic1:implies",
+      "symbols": [
+        "arith1:power",
+        "arith1:times",
+        "logic1:implies",
+        "relation1:eq",
+        "set1:in",
+        "setname1:C",
+        "transc1:exp",
+        "transc1:ln"
+      ]
+    },
+    "arith1:power/2": {
+      "sha256": "c00086b533f4abdb77fdf6382b0b981a29cc268bc28c582cf991ac195fe1ea98",
+      "shape": "logic1:implies",
+      "symbols": [
+        "alg1:one",
+        "arith1:minus",
+        "arith1:power",
+        "arith1:times",
+        "logic1:and",
+        "logic1:implies",
+        "relation1:eq",
+        "set1:in",
+        "setname1:Z"
+      ]
+    },
+    "arith1:root/1": {
+      "sha256": "c2f18e300c0d7405d7cb1ea2d76b0918183f04e03112820afd4afa6a6b18a5b2",
+      "shape": "logic1:implies",
+      "symbols": [
+        "arith1:divide",
+        "arith1:root",
+        "logic1:implies",
+        "relation1:eq",
+        "set1:in",
+        "setname1:C",
+        "transc1:exp",
+        "transc1:ln"
+      ]
+    },
+    "arith1:root/2": {
+      "sha256": "388a0055e748475621e3f63ba39aa625ed79eb3e29cd3116f89b272ea2e2b4aa",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "arith1:power",
+        "arith1:root",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "arith1:times/1": {
+      "sha256": "67ec079fd9b146a73e29ce1036cfe0f37f93185400a7825d239b1666a15c8639",
+      "shape": "quant1:forall/logic1:and",
+      "symbols": [
+        "alg1:one",
+        "alg1:zero",
+        "arith1:minus",
+        "arith1:plus",
+        "arith1:times",
+        "logic1:and",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "arith1:times/2": {
+      "sha256": "b97dd1bbb54e7fa2c0cf4b7257d1d88fe71f64a1124c02a62173adb9bc2157a7",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "arith1:plus",
+        "arith1:times",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "arith1:unary_minus/1": {
+      "sha256": "de74d1d20b66439c1b76e21d9739cf0602676aa5ae7312343369f27ac28fa31b",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "alg1:zero",
+        "arith1:plus",
+        "arith1:unary_minus",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "combinat1:Bell/1": {
+      "sha256": "7446a89346d097ea4aea33dbee324d9eb080383c0050dc7576c0d48155f53972",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:zero",
+        "arith1:sum",
+        "combinat1:Bell",
+        "combinat1:Stirling2",
+        "fns1:lambda",
+        "interval1:integer_interval",
+        "relation1:eq"
+      ]
+    },
+    "combinat1:Fibonacci/1": {
+      "sha256": "c8f5390d05439301264dec7bdc2242866427c5acd9d75119f85932653b876a90",
+      "shape": "logic1:and",
+      "symbols": [
+        "alg1:one",
+        "alg1:zero",
+        "arith1:minus",
+        "arith1:plus",
+        "combinat1:Fibonacci",
+        "logic1:and",
+        "relation1:eq"
+      ]
+    },
+    "combinat1:Stirling1/1": {
+      "sha256": "53918eeb012a7cd7b627cbe0c3119bfacd38a41118f74b9efd3715dcbdd97ae1",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "alg1:zero",
+        "arith1:minus",
+        "arith1:plus",
+        "arith1:power",
+        "arith1:sum",
+        "arith1:times",
+        "arith1:unary_minus",
+        "combinat1:Stirling1",
+        "combinat1:Stirling2",
+        "combinat1:binomial",
+        "fns1:lambda",
+        "interval1:integer_interval",
+        "relation1:eq"
+      ]
+    },
+    "combinat1:Stirling2/1": {
+      "sha256": "57e1ce9d921d52e47652886c051e36d5bd4fe07039d8c715c2a58d0a4f3267ea",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "alg1:zero",
+        "arith1:divide",
+        "arith1:minus",
+        "arith1:power",
+        "arith1:sum",
+        "arith1:times",
+        "arith1:unary_minus",
+        "combinat1:Stirling2",
+        "combinat1:binomial",
+        "fns1:lambda",
+        "integer1:factorial",
+        "interval1:integer_interval",
+        "relation1:eq"
+      ]
+    },
+    "combinat1:binomial/1": {
+      "sha256": "532611e4e123e8b0a2db67aa1ca269cb318b8d10e34ba98f6b6952bc151016ce",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:divide",
+        "arith1:minus",
+        "arith1:times",
+        "combinat1:binomial",
+        "integer1:factorial",
+        "relation1:eq"
+      ]
+    },
+    "combinat1:multinomial/1": {
+      "sha256": "be15944ad6f6dbfef08bbbf62caae6362013faacf9a585f375de1ac5c9e5ed6b",
+      "shape": "logic1:and",
+      "symbols": [
+        "arith1:divide",
+        "arith1:plus",
+        "arith1:times",
+        "combinat1:multinomial",
+        "fns2:apply_to_list",
+        "integer1:factorial",
+        "linalg1:vector_selector",
+        "linalg2:vector",
+        "list2:cons",
+        "logic1:and",
+        "relation1:eq"
+      ]
+    },
+    "fns1:domain/1": {
+      "sha256": "d8199c53cfd24e46de706fd0e7dacdbab86ecc0000f18c290669c0126f2f2e37",
+      "shape": "logic1:equivalent",
+      "symbols": [
+        "fns1:domain",
+        "fns1:range",
+        "logic1:and",
+        "logic1:equivalent",
+        "quant1:exists",
+        "relation1:eq",
+        "set1:in"
+      ]
+    },
+    "fns1:identity/1": {
+      "sha256": "ce40363229e2e7bab8a7583de35bd2301a5813cb98a6d62b7b8be25dc4c4818e",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "fns1:identity",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "fns1:image/1": {
+      "sha256": "9aecf7c2c039471f24b26e0d6ae5a62d7c077d7414abe79a7eee8f32d25d8b3d",
+      "shape": "logic1:implies",
+      "symbols": [
+        "fns1:domain",
+        "fns1:image",
+        "logic1:implies",
+        "set1:in"
+      ]
+    },
+    "fns1:inverse/1": {
+      "sha256": "71adf6db26587a87f185d1e914d17777ecf718c86a1c6aa97be1f0d93e5107ae",
+      "shape": "logic1:implies",
+      "symbols": [
+        "fns1:inverse",
+        "logic1:implies",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "fns1:inverse/2": {
+      "sha256": "7866484320a3ee39f7cd0e6ce6d3e4fc3e8fb1f86e98712e6063818b47949556",
+      "shape": "logic1:implies",
+      "symbols": [
+        "fns1:inverse",
+        "logic1:implies",
+        "quant1:exists",
+        "relation1:eq"
+      ]
+    },
+    "fns1:left_compose/1": {
+      "sha256": "b3787a5995fd25d63fbd9788c475778640ee67c3962542b5cc70691cceea2dcf",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "fns1:left_compose",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "fns1:range/1": {
+      "sha256": "ed113ae6e2241288f8c0e730161fe90f44a99f3dc3da3602c2366ebb1a4cda13",
+      "shape": "set1:subset",
+      "symbols": [
+        "fns1:image",
+        "fns1:range",
+        "set1:subset"
+      ]
+    },
+    "fns1:restriction/1": {
+      "sha256": "c89eac5e4a3b7f895030566495c5e08a5d031a0b765d7a5f216f485f70368a4e",
+      "shape": "relation1:eq",
+      "symbols": [
+        "fns1:domain",
+        "fns1:restriction",
+        "relation1:eq"
+      ]
+    },
+    "fns1:restriction/2": {
+      "sha256": "7009b9d97974aac309e36091520388cb6ec2f73496941848ec34404509d88166",
+      "shape": "relation1:eq",
+      "symbols": [
+        "fns1:domain",
+        "fns1:restriction",
+        "relation1:eq"
+      ]
+    },
+    "integer1:factorial/1": {
+      "sha256": "9292843e8f2825afb52af41a85b9ba14401afa0d7b3baffba1220a2fd75c733a",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:product",
+        "fns1:lambda",
+        "integer1:factorial",
+        "interval1:integer_interval",
+        "relation1:eq"
+      ]
+    },
+    "integer1:factorof/1": {
+      "sha256": "2d934868eaa979b0a62ef6492dd453cd5297984e022a42e1623a1d856b795b24",
+      "shape": "logic1:implies",
+      "symbols": [
+        "alg1:zero",
+        "integer1:factorof",
+        "integer1:remainder",
+        "logic1:implies",
+        "relation1:eq"
+      ]
+    },
+    "integer1:quotient/1": {
+      "sha256": "493bab1dc2436e97ca3846731d57433be13beb9ccce1db34df97414be0ab62c5",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "alg1:zero",
+        "arith1:abs",
+        "arith1:plus",
+        "arith1:times",
+        "integer1:quotient",
+        "integer1:remainder",
+        "logic1:and",
+        "logic1:implies",
+        "quant1:forall",
+        "relation1:eq",
+        "relation1:geq",
+        "relation1:lt",
+        "set1:in",
+        "setname1:Z"
+      ]
+    },
+    "integer1:remainder/1": {
+      "sha256": "493bab1dc2436e97ca3846731d57433be13beb9ccce1db34df97414be0ab62c5",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "alg1:zero",
+        "arith1:abs",
+        "arith1:plus",
+        "arith1:times",
+        "integer1:quotient",
+        "integer1:remainder",
+        "logic1:and",
+        "logic1:implies",
+        "quant1:forall",
+        "relation1:eq",
+        "relation1:geq",
+        "relation1:lt",
+        "set1:in",
+        "setname1:Z"
+      ]
+    },
+    "linalg1:determinant/1": {
+      "sha256": "3569a887716116f4ce6375bd53d4d64dd899d5f5d8323c63709da1dc70c92190",
+      "shape": "logic1:implies",
+      "symbols": [
+        "alg1:one",
+        "alg1:zero",
+        "linalg1:determinant",
+        "linalg1:matrix_selector",
+        "logic1:and",
+        "logic1:implies",
+        "relation1:eq",
+        "relation1:neq"
+      ]
+    },
+    "linalg1:outerproduct/1": {
+      "sha256": "27956ff699a6f9b25926105098b3b99ea5ec2f43595eb3c357a1c83e148f724e",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:times",
+        "linalg1:matrix_selector",
+        "linalg1:outerproduct",
+        "linalg1:vector_selector",
+        "relation1:eq"
+      ]
+    },
+    "linalg1:scalarproduct/1": {
+      "sha256": "2afe65324fad511fbd0a5328b2c30d6c5343a034fd2d3779fcf2bd8f95af1b2c",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:abs",
+        "arith1:divide",
+        "arith1:minus",
+        "arith1:plus",
+        "arith1:power",
+        "arith1:root",
+        "arith1:times",
+        "linalg1:scalarproduct",
+        "linalg1:vector_selector",
+        "relation1:eq",
+        "transc1:arctan",
+        "transc1:cos"
+      ]
+    },
+    "linalg1:vectorproduct/1": {
+      "sha256": "64fcd0350ee44bc838f40372e9d5c224324561559d2c63ec1985f55c14c4b063",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:minus",
+        "arith1:times",
+        "linalg1:vector_selector",
+        "linalg1:vectorproduct",
+        "logic1:and",
+        "relation1:eq"
+      ]
+    },
+    "logic1:and/1": {
+      "sha256": "3ec39787d794051bc13ee3c2e81c764934022d6a5482fcef322f8b63afada61b",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "logic1:and",
+        "logic1:false",
+        "logic1:not",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "logic1:equivalent/1": {
+      "sha256": "2380142743a82250076ff3de47a4c560d17f4382612327caeac94a691cd466e0",
+      "shape": "logic1:equivalent",
+      "symbols": [
+        "logic1:and",
+        "logic1:equivalent",
+        "logic1:implies"
+      ]
+    },
+    "logic1:false/1": {
+      "sha256": "facfb9ab8fdcb91ce2fdd70f3032be790b3531367992bafcf4ed2b6d19fe05cd",
+      "shape": "relation1:eq",
+      "symbols": [
+        "logic1:false",
+        "logic1:not",
+        "logic1:true",
+        "relation1:eq"
+      ]
+    },
+    "logic1:implies/1": {
+      "sha256": "5154c9b5aa54025d2f6003b7a84a747ec4b452a78a5e20863f5803d2017c7ebe",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "logic1:false",
+        "logic1:implies",
+        "quant1:forall"
+      ]
+    },
+    "logic1:nand/1": {
+      "sha256": "2fe7ad631d999dac1420241b2792d7d20ac3d53d4e033c2feab1f70ec5e630f2",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "logic1:nand",
+        "logic1:not",
+        "logic1:true",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "logic1:nand/2": {
+      "sha256": "c431f327dda11a2502ed23ed9665bc3af19e93898e031fd28eb708711dec42c9",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "logic1:and",
+        "logic1:nand",
+        "logic1:not",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "logic1:nor/1": {
+      "sha256": "fb869d41418d7bad2b7b8721712b6c00dc1be77084177227febc55545ce3564e",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "logic1:false",
+        "logic1:nor",
+        "logic1:not",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "logic1:nor/2": {
+      "sha256": "530f240227d7b5dbff1273f1d6b2071494ace74297cfb7e5fbba58a7545c79f2",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "logic1:and",
+        "logic1:nor",
+        "logic1:not",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "logic1:nor/3": {
+      "sha256": "261268d8cb5803931c4db3857b370309c00828626df4aa5d7de5c36781195c0f",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "logic1:nor",
+        "logic1:not",
+        "logic1:or",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "logic1:not/1": {
+      "sha256": "7a36997a1335209515afba7e825d2f0d64defb4a1bc450ebf5a0d3664c89de83",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "logic1:not",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "logic1:or/1": {
+      "sha256": "d088f1792c7ab4b08e3e69ed5a9ea87a655c843c6b29e9b184a13e2044b64861",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "logic1:not",
+        "logic1:or",
+        "logic1:true",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "logic1:or/2": {
+      "sha256": "4c4da67b3fb53f00bcdf4d07ac29c067a7a1180711e1478e829c8f3110549a58",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "logic1:and",
+        "logic1:not",
+        "logic1:or",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "logic1:true/1": {
+      "sha256": "ff91ac44a3d8f6dce904485465a70c849daaf04a5c170ab9a7bbd3eb4b6e3dae",
+      "shape": "relation1:eq",
+      "symbols": [
+        "logic1:false",
+        "logic1:not",
+        "logic1:true",
+        "relation1:eq"
+      ]
+    },
+    "logic1:xnor/1": {
+      "sha256": "dc5fee11f25eed87a15704f39d094e4f7801d656e7ee11bff4e60f64c763992e",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "logic1:true",
+        "logic1:xnor",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "logic1:xnor/2": {
+      "sha256": "da8a90580213e5c9729e23e2f0918a60a368cff6f08abcdaff3999ae231d38ea",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "logic1:false",
+        "logic1:not",
+        "logic1:xnor",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "logic1:xnor/3": {
+      "sha256": "7489d12581b8e04526eae6a17a5776bf66c609d3b8aa61d1eb6e42225821b753",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "logic1:not",
+        "logic1:xnor",
+        "logic1:xor",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "logic1:xor/1": {
+      "sha256": "823415afa83ded6ebe9e6d395431283137076d362723ef9253eee777bd1243b3",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "logic1:false",
+        "logic1:xor",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "logic1:xor/2": {
+      "sha256": "e653aaf506a69f5e1da3c123d0829b2748f030d8589f368cef17018fbba45dfc",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "logic1:not",
+        "logic1:true",
+        "logic1:xor",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "relation1:eq/1": {
+      "sha256": "45fe557eb95fab0423e50b71a5bc3137fe75c661789d2233a9bfd8742fb234f0",
+      "shape": "logic1:implies",
+      "symbols": [
+        "logic1:and",
+        "logic1:implies",
+        "relation1:eq"
+      ]
+    },
+    "relation1:geq/1": {
+      "sha256": "fe09c8e009e241890fb329b79baed3349ddfdf5b26541b64437d0c84fe7060c2",
+      "shape": "logic1:implies",
+      "symbols": [
+        "logic1:and",
+        "logic1:implies",
+        "relation1:geq"
+      ]
+    },
+    "relation1:gt/1": {
+      "sha256": "e852023c14c261a8ee359e8564c15eff36b5860c99e330f3a25687285c9fcd21",
+      "shape": "logic1:implies",
+      "symbols": [
+        "logic1:and",
+        "logic1:implies",
+        "relation1:gt"
+      ]
+    },
+    "relation1:leq/1": {
+      "sha256": "1886808b5e10896ada7deaf4920d633fa0113acb54a2b272b19b31436a972e13",
+      "shape": "logic1:implies",
+      "symbols": [
+        "logic1:and",
+        "logic1:implies",
+        "relation1:leq"
+      ]
+    },
+    "relation1:lt/1": {
+      "sha256": "5ecd0243786e99b1e067694febe3585a1564abb6cad6d4903a35d524a69a7543",
+      "shape": "logic1:implies",
+      "symbols": [
+        "logic1:and",
+        "logic1:implies",
+        "relation1:lt"
+      ]
+    },
+    "relation1:neq/1": {
+      "sha256": "cc7a60bed82cbaf08eb342814e080ee18c642d69bc52e6bd59347e2f3945d879",
+      "shape": "logic1:not",
+      "symbols": [
+        "logic1:and",
+        "logic1:implies",
+        "logic1:not",
+        "relation1:neq"
+      ]
+    },
+    "set1:emptyset/1": {
+      "sha256": "ad85dbf84f6fb9760cec0ae1a7ca869e45baaf10ab2175e3fdc6161094497b8f",
+      "shape": "relation1:eq",
+      "symbols": [
+        "relation1:eq",
+        "set1:emptyset",
+        "set1:intersect"
+      ]
+    },
+    "set1:emptyset/2": {
+      "sha256": "1ff8d78b7318620deac0500ed20b2b55e6be314808856f5054abd763b90945f4",
+      "shape": "relation1:eq",
+      "symbols": [
+        "relation1:eq",
+        "set1:emptyset",
+        "set1:union"
+      ]
+    },
+    "set1:emptyset/3": {
+      "sha256": "64e1d59cdaff09004db505768aa436392e4e0cdeeb18aac28141b0f275476ceb",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:zero",
+        "relation1:eq",
+        "set1:emptyset",
+        "set1:size"
+      ]
+    },
+    "set1:in/1": {
+      "sha256": "f65b6efc3186e2438c2bfaf9ec48d9357b05f9b313ac2e0ccf35f887729b1ba4",
+      "shape": "logic1:implies",
+      "symbols": [
+        "logic1:and",
+        "logic1:implies",
+        "set1:in",
+        "set1:intersect"
+      ]
+    },
+    "set1:intersect/1": {
+      "sha256": "1a7de16ae6d670a6264617a9701c52af358139b6524ee4b2995a3e2cd8741f9f",
+      "shape": "logic1:and",
+      "symbols": [
+        "logic1:and",
+        "set1:intersect",
+        "set1:subset"
+      ]
+    },
+    "set1:notin/1": {
+      "sha256": "50b20b1703a7fbc41e06f6ece413234e9db8117a6d67a1a03d6ef10fbc6443ba",
+      "shape": "logic1:implies",
+      "symbols": [
+        "logic1:implies",
+        "logic1:not",
+        "set1:in",
+        "set1:notin"
+      ]
+    },
+    "set1:notprsubset/1": {
+      "sha256": "efc94053b1d4a1c1ef16c671c1b79b66a652e4bce5e553d612ba5cdafb0a570f",
+      "shape": "logic1:implies",
+      "symbols": [
+        "logic1:implies",
+        "logic1:not",
+        "set1:notprsubset",
+        "set1:prsubset"
+      ]
+    },
+    "set1:notsubset/1": {
+      "sha256": "9092e8327e0abef9627857f4891481da425432df1cb0c5a239819ab884c22c9d",
+      "shape": "logic1:implies",
+      "symbols": [
+        "logic1:and",
+        "logic1:implies",
+        "quant1:exists",
+        "set1:in",
+        "set1:notin",
+        "set1:notsubset"
+      ]
+    },
+    "set1:prsubset/1": {
+      "sha256": "96950844dae63455d623a9ab92a2bc3a25185b6c3c6cb6ea7bbe927c0311b19b",
+      "shape": "logic1:implies",
+      "symbols": [
+        "logic1:and",
+        "logic1:implies",
+        "relation1:neq",
+        "set1:prsubset",
+        "set1:subset"
+      ]
+    },
+    "set1:setdiff/1": {
+      "sha256": "d6c02d2e5622c8d920f040feb6f72a38d05c28dac2f56662652912e4fe4e7759",
+      "shape": "set1:subset",
+      "symbols": [
+        "set1:setdiff",
+        "set1:subset"
+      ]
+    },
+    "set1:subset/1": {
+      "sha256": "9fd582ea7368e3fdd0839fb7ea4be24796d70464ef4629c24fb81d8c3f96ceaf",
+      "shape": "logic1:implies",
+      "symbols": [
+        "logic1:and",
+        "logic1:implies",
+        "set1:subset"
+      ]
+    },
+    "set1:union/1": {
+      "sha256": "ea38b39fc3731b14487d7cafc6095e376a78985be3b21ea42195083475bee522",
+      "shape": "logic1:and",
+      "symbols": [
+        "logic1:and",
+        "set1:subset",
+        "set1:union"
+      ]
+    },
+    "set1:union/2": {
+      "sha256": "eb04735562cb14d498f04ea0a9e3d86698f0fd329d014d4e288c6ba6d1906dcd",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "quant1:forall",
+        "relation1:eq",
+        "set1:intersect",
+        "set1:union"
+      ]
+    },
+    "setname1:C/1": {
+      "sha256": "8fad0badba15525ec9af28bd0872b5274e1aa61ef8f758dfaf0ea50a99ba0703",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "arith1:plus",
+        "arith1:times",
+        "logic1:and",
+        "logic1:implies",
+        "nums1:i",
+        "quant1:exists",
+        "quant1:forall",
+        "relation1:eq",
+        "set1:in",
+        "setname1:C",
+        "setname1:R"
+      ]
+    },
+    "setname1:N/1": {
+      "sha256": "ff80d537acd38acb54d1c1f861a9fd7988f5b13f74c24b2b8d18291783c29f21",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "alg1:one",
+        "alg1:zero",
+        "arith1:minus",
+        "logic1:implies",
+        "logic1:or",
+        "quant1:forall",
+        "relation1:eq",
+        "set1:in",
+        "setname1:N"
+      ]
+    },
+    "setname1:P/1": {
+      "sha256": "9d48cad6aff93d5eed96789829ff6b5136e226710adfaf0fcb1bfe6e2acbc1b5",
+      "shape": "quant1:forall/logic1:equivalent",
+      "symbols": [
+        "alg1:one",
+        "arith1:times",
+        "logic1:and",
+        "logic1:equivalent",
+        "logic1:implies",
+        "logic1:or",
+        "quant1:forall",
+        "relation1:eq",
+        "relation1:gt",
+        "set1:in",
+        "setname1:N",
+        "setname1:P"
+      ]
+    },
+    "setname1:Q/1": {
+      "sha256": "bf3ebd593585cd2cdf55fc2086580144bbada36a60532e88703902cf5d0dc608",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "alg1:one",
+        "arith1:divide",
+        "logic1:and",
+        "logic1:implies",
+        "quant1:exists",
+        "quant1:forall",
+        "relation1:eq",
+        "relation1:geq",
+        "set1:in",
+        "setname1:Q",
+        "setname1:Z"
+      ]
+    },
+    "setname1:Q/2": {
+      "sha256": "99d8d6857bbd155d3813025530755790b2b0c9dd6cdd43ef0fa90a16cb543e37",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "logic1:and",
+        "logic1:implies",
+        "quant1:exists",
+        "quant1:forall",
+        "relation1:lt",
+        "set1:in",
+        "setname1:Q"
+      ]
+    },
+    "setname1:R/1": {
+      "sha256": "e9ed4349ccf247d3de0e2a2408ea7470762680d3febf5b3876caf15393825485",
+      "shape": "logic1:implies",
+      "symbols": [
+        "logic1:and",
+        "logic1:implies",
+        "quant1:exists",
+        "quant1:forall",
+        "relation1:leq",
+        "set1:in",
+        "set1:subset",
+        "setname1:R"
+      ]
+    },
+    "setname1:Z/1": {
+      "sha256": "ace8ca1767f0f5733af8d6b8c6500f74f8f549cdde29b916edcb7abb0188e99e",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "arith1:unary_minus",
+        "logic1:implies",
+        "logic1:or",
+        "quant1:forall",
+        "set1:in",
+        "setname1:N",
+        "setname1:Z"
+      ]
+    }
+  },
+  "revision": "cbf607561e3f90630ce7a57fe9a85f5bc0dfdd3c",
+  "sha256": "4bcd5e40a5985f1bd29b0aea8f3bf172ecaf2392be44edf4b7b4eb4756340ac2"
+}

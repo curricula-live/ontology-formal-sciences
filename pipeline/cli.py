@@ -11,6 +11,7 @@ from pipeline.parse import ingest, staged
 from pipeline.align import candidates
 from pipeline.publish import build
 from pipeline.curate.relations import PROFILES, replay as replay_relations
+from pipeline.curate.openmath import replay as replay_openmath
 
 
 def audit(source, offline=False):
@@ -45,6 +46,9 @@ def main():
     relations.add_argument("--source", required=True, choices=sorted(PROFILES))
     relations.add_argument("--offline", action="store_true")
     relations.add_argument("--write-evidence", action="store_true")
+    formal = subs.add_parser("replay-openmath")
+    formal.add_argument("--offline", action="store_true")
+    formal.add_argument("--write-evidence", action="store_true")
     for cmd in ("build","validate","stats","reason"):
         subs.add_parser(cmd)
     args = parser.parse_args()
@@ -52,6 +56,8 @@ def main():
         catalog = registry()
         if args.cmd == "sources":
             result = list(catalog) if args.view=="list" else {k:s["status"] for k,s in catalog.items()}
+        elif args.cmd == "replay-openmath":
+            result = replay_openmath(args.offline, args.write_evidence)
         elif hasattr(args,"source"):
             s = catalog[args.source]
             if args.cmd=="fetch":

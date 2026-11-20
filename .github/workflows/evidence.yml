@@ -61,3 +61,5 @@ jobs:
               if record.get("relations"):
                   subprocess.run([sys.executable, "-m", "pipeline.cli", "replay-relations", "--source", source], check=True)
           PYTHON
+      - name: Replay the reviewed OpenMath dictionaries and expression witnesses
+        run: python -m pipeline.cli replay-openmath
