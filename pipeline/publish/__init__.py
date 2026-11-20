@@ -6,6 +6,7 @@ from rdflib.namespace import DCTERMS, PROV
 from pipeline.common import ROOT, BASE, G, checksum, registry, write, read
 from pipeline.curate import authored, reviewed
 from pipeline.curate.batches import verify_batches
+from pipeline.curate.relations import apply_relations
 from pipeline.validate import check
 from pipeline.reason import reason
 from pipeline.quality import quality
@@ -23,6 +24,7 @@ def build(dest=None):
     sources = registry()
     maps = reviewed(sources,graph,prov)
     admissions = verify_batches(sources, graph, prov)
+    relation_sources = apply_relations(sources, graph, maps, prov)
     report = check(graph)
     if not report["conforms"]:
         raise ValueError(report)
@@ -68,6 +70,8 @@ def build(dest=None):
                                  stage_validation=stats.get("validation","unprocessed"))
         for source_id, admission in admissions.items():
             inventory[source_id]["admission"] = admission
+        for source_id, relations in relation_sources.items():
+            inventory[source_id]["relations"] = relations
         config = read(ROOT / "ontology.yaml")
         if config["namespace"] != BASE:
             raise ValueError("Namespace differs from identifier policy")

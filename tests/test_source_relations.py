@@ -1,0 +1,68 @@
+from pyoxigraph import NamedNode, RdfFormat, Store
+import pytest
+from rdflib import Graph, RDF, SKOS, URIRef
+from rdflib.namespace import DCTERMS, PROV
+
+from pipeline.common import C, G, ROOT, V, read, registry, write
+from pipeline.curate import authored, reviewed
+from pipeline.curate import relations
+
+
+def test_extractor_preserves_restriction_shape_and_graph():
+    store = Store()
+    graph = "urn:test:stage"
+    store.load(input=f"""
+        @prefix o: <{relations.OBO}> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        o:STATO_0000001 rdfs:subClassOf [
+            a owl:Restriction ; owl:onProperty o:OBI_0000293 ; owl:someValuesFrom o:STATO_0000002
+        ] .
+        o:STATO_0000003 rdfs:subClassOf [
+            a owl:Restriction ; owl:onProperty o:OBI_0000293 ; owl:allValuesFrom o:STATO_0000002
+        ] .
+        o:STATO_0000004 rdfs:subClassOf [
+            a owl:Restriction ; owl:onProperty o:OBI_0000293 ; owl:someValuesFrom o:OBI_0000001
+        ] .
+        o:STATO_0000001 rdfs:subClassOf o:STATO_0000005 .
+        """, format=RdfFormat.TURTLE, to_graph=NamedNode(graph))
+    profile = relations.PROFILES["stato"]
+    assert relations.extract(store, graph, profile) == [("0000001", "input", "0000002")]
+    assert relations.extract(store, "urn:test:other", profile) == []
+
+
+def test_approved_source_projection_keeps_evidence_and_rejections():
+    canonical, provenance = authored()
+    catalog = registry()
+    mappings = reviewed(catalog, canonical, provenance)
+    result = relations.apply_relations(catalog, canonical, mappings, provenance)
+    accepted = (C["stato-0000073"], V.usesReferenceDistribution, C["stato-0000060"])
+    assert accepted in canonical
+    statement = relations.statement_for(accepted)
+    witness, = provenance.objects(statement, PROV.wasDerivedFrom)
+    assert str(provenance.value(witness, DCTERMS.type)) == "subclass-some"
+    assert provenance.value(witness, RDF.predicate) == URIRef(relations.OBO + "OBI_0000293")
+    assert (C["stato-0000077"], V.usesReferenceDistribution, C["normal-distribution"]) not in canonical
+    assert (C["mathmoddb-q6684551"], V.appliesToModel, C["mathmoddb-q6675333"]) in canonical
+    assert (C["mathmoddb-q6675333"], V.appliesToModel, C["mathmoddb-q6684551"]) not in canonical
+    assert result["ontomath-pro"].get("approved", 0) == 0
+
+
+def test_review_gate_rejects_revision_and_ambiguous_identity(tmp_path, monkeypatch):
+    canonical, provenance = authored()
+    catalog = registry()
+    mappings = reviewed(catalog, canonical, provenance)
+    monkeypatch.setattr(relations, "LEDGERS", tmp_path)
+    for name in ("stato.json", "stato-decisions.json"):
+        write(tmp_path / name, read(ROOT / "reviews/relations" / name))
+    external = URIRef(relations.OBO + "STATO_0000060")
+    mappings.add((C["normal-distribution"], SKOS.exactMatch, external))
+    with pytest.raises(ValueError, match="ambiguous endpoints"):
+        relations.apply_relations(catalog, canonical, mappings, Graph())
+
+    evidence = tmp_path / "stato.json"
+    record = read(evidence)
+    record["sha256"] = "stale"
+    write(evidence, record)
+    with pytest.raises(ValueError, match="rights or revision"):
+        relations.apply_relations(catalog, canonical, mappings, Graph())

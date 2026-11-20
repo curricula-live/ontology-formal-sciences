@@ -1,0 +1,132 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:mathmoddb-q6534338 a skos:Concept ; skos:prefLabel "optimal control"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6674141 a skos:Concept ; skos:prefLabel "Lyapunov equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6674142 a skos:Concept ; skos:prefLabel "control system input bilinear"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6674143 a skos:Concept ; skos:prefLabel "control system input bilinear (reduced)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6674144 a skos:Concept ; skos:prefLabel "control system output linear (reduced)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6674148 a skos:Concept ; skos:prefLabel "control system input linear"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6674149 a skos:Concept ; skos:prefLabel "control system input linear (reduced)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6674150 a skos:Concept ; skos:prefLabel "control system output linear"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6674257 a skos:Concept ; skos:prefLabel "Hamilton's equations"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6674264 a skos:Concept ; skos:prefLabel "leapfrog integration"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:mathmoddb-q6674283 a skos:Concept ; skos:prefLabel "continuity equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6674300 a skos:Concept ; skos:prefLabel "control system output quadratic (reduced)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6674301 a skos:Concept ; skos:prefLabel "control system output quadratic"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6674304 a skos:Concept ; skos:prefLabel "Darcy's law"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6674305 a skos:Concept ; skos:prefLabel "Darcy equation (Euler backward)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:mathmoddb-q6674306 a skos:Concept ; skos:prefLabel "Darcy equation (finite volume)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:mathmoddb-q6674350 a skos:Concept ; skos:prefLabel "Stokes equation (Euler backward)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:mathmoddb-q6674357 a skos:Concept ; skos:prefLabel "Stokes equation (finite volume)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:mathmoddb-q6674516 a skos:Concept ; skos:prefLabel "Stokes equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6674576 a skos:Concept ; skos:prefLabel "stability linear autonomous system"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6675332 a skos:Concept ; skos:prefLabel "control system model (bilinear)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6675333 a skos:Concept ; skos:prefLabel "linear time-invariant system"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6675390 a skos:Concept ; skos:prefLabel "Darcy model"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6675391 a skos:Concept ; skos:prefLabel "Darcy model (discretized)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:mathmoddb-q6675408 a skos:Concept ; skos:prefLabel "Stokes Darcy model"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6675409 a skos:Concept ; skos:prefLabel "Stokes model"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6675441 a skos:Concept ; skos:prefLabel "Stokes Darcy model (discretized)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:mathmoddb-q6675442 a skos:Concept ; skos:prefLabel "Stokes model (discretized)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:mathmoddb-q6684551 a skos:Concept ; skos:prefLabel "balanced truncation (linear)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6684552 a skos:Concept ; skos:prefLabel "balanced truncation (bi-linear)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6684558 a skos:Concept ; skos:prefLabel "H2 optimal approximation (bi-linear)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6684561 a skos:Concept ; skos:prefLabel "control system time evolution (bi-linear)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6684562 a skos:Concept ; skos:prefLabel "control system time evolution (linear)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6684570 a skos:Concept ; skos:prefLabel "H2 optimal approximation (linear)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6775296 a skos:Concept ; skos:prefLabel "plate with a hole: linear elasticity model"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6775585 a skos:Concept ; skos:prefLabel "Cauchy momentum equation: elastostatic limit, no body forces"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6775619 a skos:Concept ; skos:prefLabel "Cauchy momentum equation: weak formulation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6775662 a skos:Concept ; skos:prefLabel "Poisson's equation for the electric potential"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6775736 a skos:Concept ; skos:prefLabel "plate with a hole: weak formulation, discretized model"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:mathmoddb-q6775737 a skos:Concept ; skos:prefLabel "Cauchy momentum equation: weak formulation, discretized"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:mathmoddb-q6822179 a skos:Concept ; skos:prefLabel "plate with a hole: weak formulation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6823150 a skos:Concept ; skos:prefLabel "Poisson's equation for the electric potential: weak formulation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6823151 a skos:Concept ; skos:prefLabel "continuity equation: weak formulation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .

@@ -49,3 +49,10 @@ jobs:
         run: |
           python -m pipeline.cli fetch --source ontomath-edu
           python -m pytest -q tests/test_ontomath_edu.py
+      - name: Reproduce relation candidates and replay source decisions
+        env:
+          ROBOT_JAR: ${{ runner.temp }}/robot.jar
+        run: |
+          for source in mathmoddb stato ontomath-pro; do
+            python -m pipeline.cli replay-relations --source "$source"
+          done

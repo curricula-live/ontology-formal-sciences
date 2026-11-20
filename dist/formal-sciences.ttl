@@ -380,6 +380,11 @@
 <https://curricula.live/id/formal-sciences/concept/continuity> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/mathematical-analysis> .
 <https://curricula.live/id/formal-sciences/concept/continuity> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/continuity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Continuity"@en .
+<https://curricula.live/id/formal-sciences/concept/control-systems-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/control-systems-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/differential-equations> .
+<https://curricula.live/id/formal-sciences/concept/control-systems-theory> <http://www.w3.org/2004/02/skos/core#definition> "The mathematical study of dynamical systems with inputs, including their stability, feedback and the design of inputs to reach specified objectives."@en .
+<https://curricula.live/id/formal-sciences/concept/control-systems-theory> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/control-systems-theory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Control systems theory"@en .
 <https://curricula.live/id/formal-sciences/concept/convergent-sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/convergent-sequence> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/mathematical-analysis> .
 <https://curricula.live/id/formal-sciences/concept/convergent-sequence> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
@@ -1120,6 +1125,229 @@
 <https://curricula.live/id/formal-sciences/concept/mathematics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/mathematics> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/mathematics> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mathematics"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6534338> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6534338> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6534338> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6534338> <http://www.w3.org/2004/02/skos/core#prefLabel> "optimal control"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6534338> <https://curricula.live/id/formal-sciences/vocab/appliesToModel> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675332> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674141> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674141> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674141> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lyapunov equation"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674141> <https://curricula.live/id/formal-sciences/vocab/hasModelingAssumption> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674576> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674142> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674142> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674142> <http://www.w3.org/2004/02/skos/core#prefLabel> "control system input bilinear"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674142> <https://curricula.live/id/formal-sciences/vocab/hasApproximation> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674143> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674143> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674143> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674143> <http://www.w3.org/2004/02/skos/core#prefLabel> "control system input bilinear (reduced)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674144> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674144> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674144> <http://www.w3.org/2004/02/skos/core#prefLabel> "control system output linear (reduced)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674148> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674148> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674148> <http://www.w3.org/2004/02/skos/core#prefLabel> "control system input linear"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674148> <https://curricula.live/id/formal-sciences/vocab/hasApproximation> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674149> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674149> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674149> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674149> <http://www.w3.org/2004/02/skos/core#prefLabel> "control system input linear (reduced)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674150> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674150> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674150> <http://www.w3.org/2004/02/skos/core#prefLabel> "control system output linear"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674150> <https://curricula.live/id/formal-sciences/vocab/hasApproximation> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674144> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674257> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674257> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/differential-equations> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674257> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674257> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hamilton's equations"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674257> <https://curricula.live/id/formal-sciences/vocab/hasDiscretization> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674264> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674264> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/numerical-analysis> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674264> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674264> <http://www.w3.org/2004/02/skos/core#prefLabel> "leapfrog integration"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674283> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674283> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/differential-equations> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674283> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674283> <http://www.w3.org/2004/02/skos/core#prefLabel> "continuity equation"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674283> <https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6823151> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674300> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674300> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674300> <http://www.w3.org/2004/02/skos/core#prefLabel> "control system output quadratic (reduced)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674301> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674301> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674301> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674301> <http://www.w3.org/2004/02/skos/core#prefLabel> "control system output quadratic"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674301> <https://curricula.live/id/formal-sciences/vocab/hasApproximation> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674300> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674304> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674304> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/differential-equations> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674304> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674304> <http://www.w3.org/2004/02/skos/core#prefLabel> "Darcy's law"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674304> <https://curricula.live/id/formal-sciences/vocab/hasDiscretization> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674306> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674305> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674305> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/numerical-analysis> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674305> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674305> <http://www.w3.org/2004/02/skos/core#prefLabel> "Darcy equation (Euler backward)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674306> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674306> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/numerical-analysis> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674306> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674306> <http://www.w3.org/2004/02/skos/core#prefLabel> "Darcy equation (finite volume)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674350> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/numerical-analysis> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674350> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674350> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stokes equation (Euler backward)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674357> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674357> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/numerical-analysis> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674357> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674357> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stokes equation (finite volume)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674516> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674516> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/differential-equations> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674516> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674516> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stokes equation"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674516> <https://curricula.live/id/formal-sciences/vocab/hasDiscretization> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674350> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674516> <https://curricula.live/id/formal-sciences/vocab/hasDiscretization> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674357> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674576> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674576> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674576> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674576> <http://www.w3.org/2004/02/skos/core#prefLabel> "stability linear autonomous system"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675332> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675332> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675332> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675332> <http://www.w3.org/2004/02/skos/core#prefLabel> "control system model (bilinear)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675332> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674142> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675332> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674150> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675332> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674301> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675333> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675333> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675333> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675333> <http://www.w3.org/2004/02/skos/core#prefLabel> "linear time-invariant system"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675333> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674148> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675333> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674150> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675390> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675390> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/differential-equations> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675390> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675390> <http://www.w3.org/2004/02/skos/core#prefLabel> "Darcy model"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675390> <https://curricula.live/id/formal-sciences/vocab/hasDiscretization> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675391> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675390> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674304> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675391> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675391> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/numerical-analysis> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675391> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675391> <http://www.w3.org/2004/02/skos/core#prefLabel> "Darcy model (discretized)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675391> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674305> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675391> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674306> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675408> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675408> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/differential-equations> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675408> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675408> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stokes Darcy model"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675408> <https://curricula.live/id/formal-sciences/vocab/hasDiscretization> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675441> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675408> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675390> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675408> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675409> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675409> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675409> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/differential-equations> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675409> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675409> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stokes model"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675409> <https://curricula.live/id/formal-sciences/vocab/hasDiscretization> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675442> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675409> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674516> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675441> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675441> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/numerical-analysis> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675441> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675441> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stokes Darcy model (discretized)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675441> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675391> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675441> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675442> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675442> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675442> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/numerical-analysis> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675442> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675442> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stokes model (discretized)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675442> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674350> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675442> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674357> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684551> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684551> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684551> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684551> <http://www.w3.org/2004/02/skos/core#prefLabel> "balanced truncation (linear)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684551> <https://curricula.live/id/formal-sciences/vocab/appliesToModel> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675333> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684551> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674144> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684551> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674148> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684551> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674149> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684552> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684552> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684552> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684552> <http://www.w3.org/2004/02/skos/core#prefLabel> "balanced truncation (bi-linear)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684552> <https://curricula.live/id/formal-sciences/vocab/appliesToModel> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675332> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684552> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674142> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684552> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674143> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684552> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674144> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684558> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684558> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684558> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684558> <http://www.w3.org/2004/02/skos/core#prefLabel> "H2 optimal approximation (bi-linear)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684558> <https://curricula.live/id/formal-sciences/vocab/appliesToModel> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675332> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684558> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674142> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684558> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674143> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684561> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684561> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684561> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684561> <http://www.w3.org/2004/02/skos/core#prefLabel> "control system time evolution (bi-linear)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684561> <https://curricula.live/id/formal-sciences/vocab/appliesToModel> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675332> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684562> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684562> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684562> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684562> <http://www.w3.org/2004/02/skos/core#prefLabel> "control system time evolution (linear)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684562> <https://curricula.live/id/formal-sciences/vocab/appliesToModel> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675333> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684570> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684570> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684570> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684570> <http://www.w3.org/2004/02/skos/core#prefLabel> "H2 optimal approximation (linear)"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684570> <https://curricula.live/id/formal-sciences/vocab/appliesToModel> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675333> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684570> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674148> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6684570> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674149> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775296> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775296> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/differential-equations> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775296> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775296> <http://www.w3.org/2004/02/skos/core#prefLabel> "plate with a hole: linear elasticity model"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775296> <https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6822179> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775585> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775585> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/differential-equations> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775585> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775585> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cauchy momentum equation: elastostatic limit, no body forces"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775619> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775619> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/differential-equations> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775619> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775619> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cauchy momentum equation: weak formulation"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775619> <https://curricula.live/id/formal-sciences/vocab/hasDiscretization> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775737> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775662> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775662> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/differential-equations> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775662> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775662> <http://www.w3.org/2004/02/skos/core#prefLabel> "Poisson's equation for the electric potential"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775662> <https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6823150> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775736> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775736> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/numerical-analysis> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775736> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775736> <http://www.w3.org/2004/02/skos/core#prefLabel> "plate with a hole: weak formulation, discretized model"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775736> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775737> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775737> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775737> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/numerical-analysis> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775737> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775737> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cauchy momentum equation: weak formulation, discretized"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6822179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6822179> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/differential-equations> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6822179> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6822179> <http://www.w3.org/2004/02/skos/core#prefLabel> "plate with a hole: weak formulation"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6822179> <https://curricula.live/id/formal-sciences/vocab/hasDiscretization> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775736> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6822179> <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775619> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6823150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6823150> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/differential-equations> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6823150> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6823150> <http://www.w3.org/2004/02/skos/core#prefLabel> "Poisson's equation for the electric potential: weak formulation"@en .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6823151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6823151> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/differential-equations> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6823151> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6823151> <http://www.w3.org/2004/02/skos/core#prefLabel> "continuity equation: weak formulation"@en .
 <https://curricula.live/id/formal-sciences/concept/matrix-factorization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/matrix-factorization> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/linear-algebra> .
 <https://curricula.live/id/formal-sciences/concept/matrix-factorization> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
@@ -9094,10 +9322,12 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000073> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000027> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000073> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000073> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fisher's exact test"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000073> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000060> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000074> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000027> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000074> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000074> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cochran–Mantel–Haenszel test"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000074> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000229> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000076> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000198> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000076> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -9122,6 +9352,7 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000081> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000027> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000081> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000081> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pearson's chi-square test of independence"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000081> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000229> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000082> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000107> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000082> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -9138,6 +9369,7 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000086> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/hypothesis-testing> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000086> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000086> <http://www.w3.org/2004/02/skos/core#prefLabel> "F-test"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000086> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000204> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000088> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000047> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000088> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -9154,10 +9386,12 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000095> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000202> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000095> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000095> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paired t-test"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000095> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000059> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000098> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/hypothesis-testing> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000098> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000098> <http://www.w3.org/2004/02/skos/core#prefLabel> "Two sample Hotelling T2 test"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000098> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000132> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000099> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000099> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000107> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000099> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -9191,6 +9425,7 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000130> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000247> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000130> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000130> <http://www.w3.org/2004/02/skos/core#prefLabel> "Breslow-Day test for homogeneity of odds ratio"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000130> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000229> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000131> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/hypothesis-testing> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000131> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -9252,6 +9487,7 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000153> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/hypothesis-testing> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000153> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000153> <http://www.w3.org/2004/02/skos/core#prefLabel> "One-sample Hotelling's T-squared test"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000153> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000132> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000156> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000133> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000156> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -9314,6 +9550,7 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000187> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000133> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000187> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000187> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tukey's honestly significant difference test"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000187> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000023> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000189> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000107> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000189> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -9402,6 +9639,7 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000261> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000133> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000261> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000261> <http://www.w3.org/2004/02/skos/core#prefLabel> "Newman–Keuls test"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000261> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000023> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000266> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000266> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000184> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000266> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -9446,6 +9684,7 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000285> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/hypothesis-testing> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000285> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000285> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hypergeometric test"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000285> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000060> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000286> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000286> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/hypothesis-testing> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000286> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -9470,6 +9709,7 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000298> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000191> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000298> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000298> <http://www.w3.org/2004/02/skos/core#prefLabel> "Exact binomial test"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000298> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000276> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000300> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000184> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000300> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -9478,18 +9718,22 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000302> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/hypothesis-testing> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000302> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000302> <http://www.w3.org/2004/02/skos/core#prefLabel> "One-sample t-test"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000302> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000059> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000303> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000303> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000279> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000303> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000303> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pooled two-sample t-test"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000303> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000059> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000304> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000304> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000279> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000304> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000304> <http://www.w3.org/2004/02/skos/core#prefLabel> "Welch's t-test"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000304> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000059> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000309> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000309> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000191> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000309> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000309> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pearson's chi-square goodness-of-fit test"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000309> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000229> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000310> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000027> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000310> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -9778,10 +10022,12 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000425> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000471> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000425> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000425> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sidik-Jonkman estimator"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000425> <https://curricula.live/id/formal-sciences/vocab/estimates> <https://curricula.live/id/formal-sciences/concept/stato-0000421> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000426> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000426> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000471> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000426> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000426> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hunter-Schmidt estimator"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000426> <https://curricula.live/id/formal-sciences/vocab/estimates> <https://curricula.live/id/formal-sciences/concept/stato-0000421> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000427> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000427> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/maximum-likelihood-estimation> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000427> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -9790,6 +10036,7 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000429> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000471> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000429> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000429> <http://www.w3.org/2004/02/skos/core#prefLabel> "DerSimonian-Laird estimator"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000429> <https://curricula.live/id/formal-sciences/vocab/estimates> <https://curricula.live/id/formal-sciences/concept/stato-0000421> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000433> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000433> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/hypothesis-testing> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000433> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -9798,6 +10045,7 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000434> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000027> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000434> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000434> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cochran's Q test for matched proportions"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000434> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000229> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000435> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000435> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/probability-distributions> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000435> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -10260,6 +10508,7 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000653> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000191> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000653> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000653> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hosmer-Lemeshow goodness-of-fit test"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000653> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000229> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000658> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000658> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000573> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000658> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -10510,21 +10759,56 @@
 <https://curricula.live/id/formal-sciences/scheme/mathematics> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mathematics"@en .
 <https://curricula.live/id/formal-sciences/scheme/statistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://curricula.live/id/formal-sciences/scheme/statistics> <http://www.w3.org/2004/02/skos/core#prefLabel> "Statistics"@en .
+<https://curricula.live/id/formal-sciences/vocab/appliesToModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://curricula.live/id/formal-sciences/vocab/appliesToModel> <http://www.w3.org/2000/01/rdf-schema#comment> "A source-documented application of a task or method to a model. Applicability is scoped to the documented case."@en .
+<https://curricula.live/id/formal-sciences/vocab/appliesToModel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/appliesToModel> <http://www.w3.org/2000/01/rdf-schema#label> "applies to model"@en .
+<https://curricula.live/id/formal-sciences/vocab/appliesToModel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/computes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://curricula.live/id/formal-sciences/vocab/computes> <http://www.w3.org/2000/01/rdf-schema#comment> "From a method to the type of quantity or mathematical result it computes under the applicability conditions in its definition."@en .
 <https://curricula.live/id/formal-sciences/vocab/computes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/computes> <http://www.w3.org/2000/01/rdf-schema#label> "computes"@en .
 <https://curricula.live/id/formal-sciences/vocab/computes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/estimates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://curricula.live/id/formal-sciences/vocab/estimates> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an estimator to the quantity targeted under the estimator's stated model."@en .
+<https://curricula.live/id/formal-sciences/vocab/estimates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/estimates> <http://www.w3.org/2000/01/rdf-schema#label> "estimates"@en .
+<https://curricula.live/id/formal-sciences/vocab/estimates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/guarantees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://curricula.live/id/formal-sciences/vocab/guarantees> <http://www.w3.org/2000/01/rdf-schema#comment> "From a method to a property guaranteed of its output or of the relationship between its input and output under its stated conditions."@en .
 <https://curricula.live/id/formal-sciences/vocab/guarantees> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/guarantees> <http://www.w3.org/2000/01/rdf-schema#label> "guarantees"@en .
 <https://curricula.live/id/formal-sciences/vocab/guarantees> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/hasApproximation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://curricula.live/id/formal-sciences/vocab/hasApproximation> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a mathematical formulation to an explicitly documented approximation in its source context."@en .
+<https://curricula.live/id/formal-sciences/vocab/hasApproximation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/hasApproximation> <http://www.w3.org/2000/01/rdf-schema#label> "has approximation"@en .
+<https://curricula.live/id/formal-sciences/vocab/hasApproximation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/hasDiscretization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://curricula.live/id/formal-sciences/vocab/hasDiscretization> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a mathematical equation or model to a documented discretized formulation or applicable discretization scheme. The link applies in the recorded source context."@en .
+<https://curricula.live/id/formal-sciences/vocab/hasDiscretization> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/hasDiscretization> <http://www.w3.org/2000/01/rdf-schema#label> "has discretization"@en .
+<https://curricula.live/id/formal-sciences/vocab/hasDiscretization> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a documented mathematical model or task formulation to an equation, submodel or discretization it includes in the recorded context."@en .
+<https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <http://www.w3.org/2000/01/rdf-schema#label> "has formulation component"@en .
+<https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/hasModelingAssumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://curricula.live/id/formal-sciences/vocab/hasModelingAssumption> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a documented formulation to an assumption of its particular modeling or analysis context."@en .
+<https://curricula.live/id/formal-sciences/vocab/hasModelingAssumption> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/hasModelingAssumption> <http://www.w3.org/2000/01/rdf-schema#label> "has modeling assumption"@en .
+<https://curricula.live/id/formal-sciences/vocab/hasModelingAssumption> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/hasProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://curricula.live/id/formal-sciences/vocab/hasProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "From a scientific subject to a property established for its stated scope. A topical assertion about that subject does not propagate to narrower SKOS concepts."@en .
 <https://curricula.live/id/formal-sciences/vocab/hasProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/hasProperty> <http://www.w3.org/2000/01/rdf-schema#label> "has property"@en .
 <https://curricula.live/id/formal-sciences/vocab/hasProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a documented model or equation to a weak formulation using test functions over the applicable model domain."@en .
+<https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation> <http://www.w3.org/2000/01/rdf-schema#label> "has weak formulation"@en .
+<https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/recognizesExactly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://curricula.live/id/formal-sciences/vocab/recognizesExactly> <http://www.w3.org/2000/01/rdf-schema#comment> "From a machine model to the family consisting of the languages recognized by machines of that model. Each machine recognizes an individual language. The assertion has no symmetry or transitive closure."@en .
 <https://curricula.live/id/formal-sciences/vocab/recognizesExactly> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -10550,3 +10834,8 @@
 <https://curricula.live/id/formal-sciences/vocab/uses> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/uses> <http://www.w3.org/2000/01/rdf-schema#label> "uses"@en .
 <https://curricula.live/id/formal-sciences/vocab/uses> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a testing procedure to the distribution used to assess its statistic under the applicable null and sampling conditions. The reference law may be exact, conditional or asymptotic."@en .
+<https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <http://www.w3.org/2000/01/rdf-schema#label> "uses reference distribution"@en .
+<https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .

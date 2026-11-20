@@ -10,6 +10,7 @@ from pipeline.curate import DOMAINS
 
 # Scope covers native subjects only. Imported OWL classes have their own rights.
 SOURCE_POLICIES = {
+    "mathmoddb": ("CC-BY-4.0", r"https://portal\.mardi4nfdi\.de/entity/Q[0-9]+"),
     "opencs": ("CC-BY-4.0", r"https://w3id\.org/ocs/ont/C[0-9]+"),
     "ontomath-pro": ("Apache-2.0", r"http://cll\.niimm\.ksu\.ru/ontologies/mathematics#E[0-9]+"),
     "stato": ("CC-BY-3.0 (embedded imports have separate notices)",

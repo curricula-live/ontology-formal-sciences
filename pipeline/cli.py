@@ -10,6 +10,7 @@ from pipeline.fetch import fetch
 from pipeline.parse import ingest, staged
 from pipeline.align import candidates
 from pipeline.publish import build
+from pipeline.curate.relations import PROFILES, replay as replay_relations
 
 
 def audit(source, offline=False):
@@ -40,6 +41,10 @@ def main():
         p.stem for p in (ROOT / "reviews/approved/batches").glob("*.json")
     ))
     batch.add_argument("--offline", action="store_true")
+    relations = subs.add_parser("replay-relations")
+    relations.add_argument("--source", required=True, choices=sorted(PROFILES))
+    relations.add_argument("--offline", action="store_true")
+    relations.add_argument("--write-evidence", action="store_true")
     for cmd in ("build","validate","stats","reason"):
         subs.add_parser(cmd)
     args = parser.parse_args()
@@ -57,6 +62,8 @@ def main():
                 result = normalize(s,args.offline)
             elif args.cmd=="audit":
                 result = audit(s,args.offline)
+            elif args.cmd == "replay-relations":
+                result = replay_relations(args.source, args.offline, args.write_evidence)
             elif args.cmd == "replay-batch":
                 from pipeline.curate.batches import SOURCE_POLICIES
 

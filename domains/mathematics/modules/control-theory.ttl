@@ -1,0 +1,7 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:control-systems-theory a skos:Concept ; skos:prefLabel "Control systems theory"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations ;
+    skos:definition "The mathematical study of dynamical systems with inputs, including their stability, feedback and the design of inputs to reach specified objectives."@en .

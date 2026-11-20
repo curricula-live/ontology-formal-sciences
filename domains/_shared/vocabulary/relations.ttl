@@ -30,3 +30,35 @@ v:computes a rdf:Property ; rdfs:label "computes"@en ;
 v:guarantees a rdf:Property ; rdfs:label "guarantees"@en ;
     rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
     rdfs:comment "From a method to a property guaranteed of its output or of the relationship between its input and output under its stated conditions."@en .
+
+v:hasDiscretization a rdf:Property ; rdfs:label "has discretization"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links a mathematical equation or model to a documented discretized formulation or applicable discretization scheme. The link applies in the recorded source context."@en .
+
+v:hasWeakFormulation a rdf:Property ; rdfs:label "has weak formulation"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links a documented model or equation to a weak formulation using test functions over the applicable model domain."@en .
+
+v:hasApproximation a rdf:Property ; rdfs:label "has approximation"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links a mathematical formulation to an explicitly documented approximation in its source context."@en .
+
+v:hasModelingAssumption a rdf:Property ; rdfs:label "has modeling assumption"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links a documented formulation to an assumption of its particular modeling or analysis context."@en .
+
+v:appliesToModel a rdf:Property ; rdfs:label "applies to model"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "A source-documented application of a task or method to a model. Applicability is scoped to the documented case."@en .
+
+v:usesReferenceDistribution a rdf:Property ; rdfs:label "uses reference distribution"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links a testing procedure to the distribution used to assess its statistic under the applicable null and sampling conditions. The reference law may be exact, conditional or asymptotic."@en .
+
+v:estimates a rdf:Property ; rdfs:label "estimates"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links an estimator to the quantity targeted under the estimator's stated model."@en .
+
+v:hasFormulationComponent a rdf:Property ; rdfs:label "has formulation component"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links a documented mathematical model or task formulation to an equation, submodel or discretization it includes in the recorded context."@en .

@@ -42,6 +42,15 @@ def test_connectivity_counts_only_asserted_concept_edges():
     assert science["largest_component"] == 2
     assert science["cited_relations"] == 1
     assert science["cross_domain_relations"] == 0
+    assert science["evidence_backed"]["component_size_histogram"] == {"2": 1}
+    assert result["taxonomic_connectivity"]["component_size_histogram"] == {"1": 3}
+    assert science["citation_coverage"] == 1
+
+    graph.add((C.algorithm, V.uses, C.graph))
+    result = graph_metrics(graph, prov)
+    assert result["scientific_connectivity"]["largest_component"] == 3
+    assert result["scientific_connectivity"]["evidence_backed"]["largest_component"] == 2
+    assert result["scientific_connectivity"]["citation_coverage"] == 0.5
 
 
 

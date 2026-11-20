@@ -1,0 +1,44 @@
+id	broader	source_label
+Q6534338	control-systems-theory	optimal control
+Q6674141	control-systems-theory	Lyapunov equation
+Q6674142	control-systems-theory	control system input bilinear
+Q6674143	control-systems-theory	control system input bilinear (reduced)
+Q6674144	control-systems-theory	control system output linear (reduced)
+Q6674148	control-systems-theory	control system input linear
+Q6674149	control-systems-theory	control system input linear (reduced)
+Q6674150	control-systems-theory	control system output linear
+Q6674257	differential-equations	Hamilton's equations
+Q6674264	numerical-analysis	leapfrog integration
+Q6674283	differential-equations	continuity equation
+Q6674300	control-systems-theory	control system output quadratic (reduced)
+Q6674301	control-systems-theory	control system output quadratic
+Q6674304	differential-equations	Darcy's law
+Q6674305	numerical-analysis	Darcy equation (Euler backward)
+Q6674306	numerical-analysis	Darcy equation (finite volume)
+Q6674350	numerical-analysis	Stokes equation (Euler backward)
+Q6674357	numerical-analysis	Stokes equation (finite volume)
+Q6674516	differential-equations	Stokes equation
+Q6674576	control-systems-theory	stability linear autonomous system
+Q6675332	control-systems-theory	control system model (bilinear)
+Q6675333	control-systems-theory	linear time-invariant system
+Q6675390	differential-equations	Darcy model
+Q6675391	numerical-analysis	Darcy model (discretized)
+Q6675408	differential-equations	Stokes Darcy model
+Q6675409	differential-equations	Stokes model
+Q6675441	numerical-analysis	Stokes Darcy model (discretized)
+Q6675442	numerical-analysis	Stokes model (discretized)
+Q6684551	control-systems-theory	balanced truncation (linear)
+Q6684552	control-systems-theory	balanced truncation (bi-linear)
+Q6684558	control-systems-theory	H2 optimal approximation (bi-linear)
+Q6684561	control-systems-theory	control system time evolution (bi-linear)
+Q6684562	control-systems-theory	control system time evolution (linear)
+Q6684570	control-systems-theory	H2 optimal approximation (linear)
+Q6775296	differential-equations	plate with a hole: linear elasticity model
+Q6775585	differential-equations	Cauchy momentum equation: elastostatic limit, no body forces
+Q6775619	differential-equations	Cauchy momentum equation: weak formulation
+Q6775662	differential-equations	Poisson's equation for the electric potential
+Q6775736	numerical-analysis	plate with a hole: weak formulation, discretized model
+Q6775737	numerical-analysis	Cauchy momentum equation: weak formulation, discretized
+Q6822179	differential-equations	plate with a hole: weak formulation
+Q6823150	differential-equations	Poisson's equation for the electric potential: weak formulation
+Q6823151	differential-equations	continuity equation: weak formulation

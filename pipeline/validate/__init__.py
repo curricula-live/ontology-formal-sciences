@@ -6,6 +6,8 @@ from pipeline.normalize import label_key
 RELATIONS = {
     SKOS.broader, SKOS.related, V.uses, V.solves, V.represents, V.hasProperty,
     V.requiresAssumption, V.recognizesExactly, V.computes, V.guarantees,
+    V.hasDiscretization, V.hasWeakFormulation, V.hasApproximation, V.hasModelingAssumption,
+    V.appliesToModel, V.usesReferenceDistribution, V.estimates, V.hasFormulationComponent,
 }
 
 

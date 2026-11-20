@@ -1,0 +1,172 @@
+{
+  "decisions": {
+    "approved": [
+      [
+        "0000073",
+        "input",
+        "0000060",
+        "With fixed margins, Fisher's exact test evaluates the hypergeometric count law under the null."
+      ],
+      [
+        "0000074",
+        "input",
+        "0000229",
+        "The Cochran–Mantel–Haenszel statistic uses an asymptotic chi-square reference under appropriate stratified conditions."
+      ],
+      [
+        "0000081",
+        "input",
+        "0000229",
+        "Pearson's test of independence compares its statistic to a chi-square reference under large-sample regularity."
+      ],
+      [
+        "0000086",
+        "input",
+        "0000204",
+        "The F-test evaluates an F statistic against the reference F distribution in the applicable model."
+      ],
+      [
+        "0000095",
+        "input",
+        "0000059",
+        "Under paired t-test assumptions, the standardized mean of the paired differences follows Student t under the null."
+      ],
+      [
+        "0000098",
+        "input",
+        "0000132",
+        "Under the common covariance and normality conditions, the two-sample T-squared statistic has the Hotelling reference law."
+      ],
+      [
+        "0000130",
+        "input",
+        "0000229",
+        "The Breslow–Day statistic is evaluated with its asymptotic chi-square reference."
+      ],
+      [
+        "0000153",
+        "input",
+        "0000132",
+        "The one-sample Hotelling test uses the T-squared reference distribution under multivariate normality."
+      ],
+      [
+        "0000187",
+        "input",
+        "0000023",
+        "Tukey's HSD calibrates comparisons using the studentized range."
+      ],
+      [
+        "0000261",
+        "input",
+        "0000023",
+        "The Newman–Keuls range procedure uses the studentized range reference law."
+      ],
+      [
+        "0000285",
+        "input",
+        "0000060",
+        "The exact hypergeometric test uses the hypergeometric reference law for counts under its conditioning model."
+      ],
+      [
+        "0000298",
+        "input",
+        "0000276",
+        "The exact binomial test evaluates the count under the specified binomial null."
+      ],
+      [
+        "0000302",
+        "input",
+        "0000059",
+        "The one-sample t-test evaluates its statistic under the reference t law with the stated sampling assumptions."
+      ],
+      [
+        "0000303",
+        "input",
+        "0000059",
+        "The pooled test uses a t reference under equal population variances and normal-sample conditions."
+      ],
+      [
+        "0000304",
+        "input",
+        "0000059",
+        "Welch's unequal-variance test uses an approximate t reference with Welch–Satterthwaite degrees of freedom."
+      ],
+      [
+        "0000309",
+        "input",
+        "0000229",
+        "The Pearson goodness-of-fit statistic uses an asymptotic chi-square reference under its count and model conditions."
+      ],
+      [
+        "0000434",
+        "input",
+        "0000229",
+        "Cochran's Q for matched binary proportions has an asymptotic chi-square reference under its null."
+      ],
+      [
+        "0000653",
+        "input",
+        "0000229",
+        "The Hosmer–Lemeshow statistic is conventionally assessed using an approximate chi-square reference."
+      ],
+      [
+        "0000425",
+        "target",
+        "0000421",
+        "The Sidik–Jonkman procedure estimates between-study heterogeneity variance in random-effects meta-analysis."
+      ],
+      [
+        "0000426",
+        "target",
+        "0000421",
+        "The Hunter–Schmidt record is linked to the between-study variance estimand in its stated meta-analysis context."
+      ],
+      [
+        "0000429",
+        "target",
+        "0000421",
+        "The DerSimonian–Laird method estimates between-study variance."
+      ]
+    ],
+    "rejected": [
+      [
+        "0000077",
+        "input",
+        "0000227",
+        "Normality is the hypothesis of the Shapiro–Wilk test. The W statistic has its own null distribution."
+      ],
+      [
+        "0000441",
+        "input",
+        "0000227",
+        "Grubbs' outlier test assumes a normal sample and uses a distinct reference law for the test statistic."
+      ],
+      [
+        "0000442",
+        "input",
+        "0000227",
+        "Normality of the underlying data does not give a normal reference law for the Tietjen–Moore statistic."
+      ],
+      [
+        "0000443",
+        "input",
+        "0000227",
+        "Normal sampling is an applicability assumption in the generalized ESD test. Its critical values are not normal quantiles."
+      ],
+      [
+        "0000650",
+        "target",
+        "0000646",
+        "Sampling variance of a statistic is not in general an estimate of the variance of the underlying population."
+      ],
+      [
+        "0000095",
+        "input",
+        "0000053",
+        "The nominal significance level and realized false-positive probability may differ. This restriction cannot identify a reference distribution."
+      ]
+    ]
+  },
+  "profile_sha256": "ac8d9a8792bdd01148ff26589c37f5e98277733ea9c3f6e679aa615f694ad7cb",
+  "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578"
+}

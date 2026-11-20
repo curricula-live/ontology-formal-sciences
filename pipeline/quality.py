@@ -7,7 +7,7 @@ from pathlib import Path
 from rdflib import RDF, SKOS, URIRef
 from rdflib.namespace import DCTERMS, PROV
 
-from pipeline.common import BASE, D, ROOT, V, read, registry
+from pipeline.common import BASE, ROOT, V, read, registry
 
 
 def components(concepts, neighbors):
@@ -26,70 +26,81 @@ def components(concepts, neighbors):
     return component_sizes
 
 
+def relation_connectivity(edges, owners, population=None):
+    neighbors = defaultdict(set)
+    cross = 0
+    for subject, _, obj in edges:
+        neighbors[subject].add(obj)
+        neighbors[obj].add(subject)
+        cross += owners[subject] != owners[obj]
+    participating = set(neighbors)
+    sizes = components(participating if population is None else population, neighbors)
+    return {
+        "relations": len(edges),
+        "participating_concepts": len(participating),
+        "participating_by_scheme": dict(Counter(owners[term] for term in participating)),
+        "cross_domain_relations": cross,
+        "components_with_edges": sum(size > 1 for size in sizes),
+        "component_size_histogram": dict(Counter(map(str, sizes))),
+        "largest_component": max(sizes, default=0),
+    }
+
+
 def graph_metrics(graph, prov):
-    """Measure weak connectivity over asserted edges between concept individuals."""
+    """Measure asserted taxonomy, scientific edges and replayable evidence separately."""
     concepts = set(graph.subjects(RDF.type, SKOS.Concept))
-    owners, domains, modules = {}, Counter(), Counter()
+    owners, modules = {}, Counter()
     module_prefix = BASE + "module/"
     for concept in concepts:
-        # Authors attach exactly one owning module. Other provenance may identify upstream sources.
         owner, = (str(term).removeprefix(module_prefix) for term in prov.objects(concept, PROV.wasDerivedFrom)
                   if str(term).startswith(module_prefix))
         owners[concept] = owner.split("/", 1)[0]
         modules[owner] += 1
-        for scheme in graph.objects(concept, SKOS.inScheme):
-            domains[str(scheme).removeprefix(str(D))] += 1
 
-    relations, cross_domain, neighbors = Counter(), Counter(), defaultdict(set)
-    for subject, predicate, obj in graph:
-        if subject in concepts and obj in concepts:
-            relations[str(predicate)] += 1
-            if owners[subject] != owners[obj]:
-                cross_domain[str(predicate)] += 1
-            neighbors[subject].add(obj)
-            neighbors[obj].add(subject)
-    component_sizes = components(concepts, neighbors)
-    scientific = defaultdict(set)
-    scientific_counts = Counter()
-    cross_science = 0
-    cited = {
-        (prov.value(statement, RDF.subject), prov.value(statement, RDF.predicate),
-         prov.value(statement, RDF.object))
-        for statement in prov.subjects(DCTERMS.source)
-    }
-    cited_edges = 0
-    for subject, predicate, obj in graph:
-        if subject in concepts and obj in concepts and str(predicate).startswith(str(V)):
-            scientific_counts[str(predicate)] += 1
-            scientific[subject].add(obj)
-            scientific[obj].add(subject)
-            cross_science += owners[subject] != owners[obj]
-            cited_edges += (subject, predicate, obj) in cited
-    participating = set(scientific)
-    science_components = components(participating, scientific)
+    relations, cross_domain = Counter(), Counter()
+    asserted = {(s, p, o) for s, p, o in graph if s in concepts and o in concepts}
+    for subject, predicate, obj in asserted:
+        relations[str(predicate)] += 1
+        if owners[subject] != owners[obj]:
+            cross_domain[str(predicate)] += 1
 
+    full = relation_connectivity(asserted, owners, concepts)
+    hierarchy = {triple for triple in asserted if triple[1] == SKOS.broader}
+    specific = {triple for triple in asserted if str(triple[1]).startswith(str(V))}
+    cited, source_edges = set(), defaultdict(set)
+    for statement in prov.subjects(DCTERMS.source):
+        triple = tuple(prov.value(statement, prop) for prop in (RDF.subject, RDF.predicate, RDF.object))
+        if triple not in specific:
+            continue
+        cited.add(triple)
+        for witness in prov.objects(statement, PROV.wasDerivedFrom):
+            source = prov.value(witness, DCTERMS.isPartOf)
+            if source is not None:
+                source_edges[str(source).removeprefix(BASE + "source/")].add(triple)
+
+    science = relation_connectivity(specific, owners)
+    science.update({
+        "relations_by_predicate": dict(Counter(str(triple[1]) for triple in specific)),
+        "cited_relations": len(cited),
+        "citation_coverage": round(len(cited) / len(specific), 6) if specific else None,
+        "concepts_without_specific_relations": len(concepts) - science["participating_concepts"],
+        "evidence_backed": relation_connectivity(cited, owners),
+        "pinned_source_contributions": {
+            name: relation_connectivity(triples, owners) for name, triples in source_edges.items()
+        },
+    })
     return {
-        "concepts_by_scheme": dict(domains),
+        "concepts_by_scheme": dict(Counter(owners.values())),
         "concepts_by_owning_module": dict(modules),
         "relation_counts": dict(relations),
         "cross_domain_relation_counts": dict(cross_domain),
         "cross_domain_relations": sum(cross_domain.values()),
-        "connected_components": len(component_sizes),
-        "largest_component": max(component_sizes, default=0),
-        "isolated_concepts": sum(not neighbors[term] for term in concepts),
-        "scientific_connectivity": {
-            "relations": sum(scientific_counts.values()),
-            "relations_by_predicate": dict(scientific_counts),
-            "cited_relations": cited_edges,
-            "cross_domain_relations": cross_science,
-            "participating_concepts": len(participating),
-            "participating_by_scheme": dict(Counter(owners[term] for term in participating)),
-            "concepts_without_specific_relations": len(concepts - participating),
-            "components_with_edges": len(science_components),
-            "largest_component": max(science_components, default=0),
-        },
+        "connected_components": sum(full["component_size_histogram"].values()),
+        "largest_component": full["largest_component"],
+        "isolated_concepts": full["component_size_histogram"].get("1", 0),
+        "taxonomic_connectivity": relation_connectivity(hierarchy, owners, concepts),
+        "scientific_connectivity": science,
     }
-
 
 def mapping_counts(graph, maps, catalog):
     """Track still-open retained candidate pairs separately from batch admission queues."""
