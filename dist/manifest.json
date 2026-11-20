@@ -1,19 +1,19 @@
 {
   "artifacts": {
-    "formal-sciences.nq": "f54f6e81844a2c1733a622a1c234e200a457b548754f994d5c32116bda6bb8ec",
-    "formal-sciences.trig": "00410504885df9301b723aef4b5714a72f9162346b5d17700d8396f718c0b18b",
+    "formal-sciences.nq": "c01b50e43ecd87695d194f6314f699820fd1093db4f2fe2ef1e14cb8f7daf8b6",
+    "formal-sciences.trig": "43e0c1c7b391d4f899eb042e5dd9d10288327ff424c6cc472fc161e089de2337",
     "formal-sciences.ttl": "80a91ae2f1573c8b1d631254bb7de3549199b1ada3f28c9038373e6f765b14ac",
-    "source-alignments.trig": "3527c3049d2bbe2d564949474d8855070045ccf1af5a0fca4e966c33df09302d",
+    "source-alignments.trig": "7bc4c31a1659b15f09a7a029c359ae9641b75632e459db77cac98226cf3534bc",
     "validation-report.json": "53d08d3d3ba0eb867f1671cd1ae50c0254b5122d63db5c5d209e180c92008116"
   },
   "concepts": 2432,
   "conforms": true,
   "contract": "curricula.rdf-release/v1",
   "counts": {
-    "alignments": 165,
+    "alignments": 173,
     "asserted": 10074,
     "inferred": 2581,
-    "provenance": 6895
+    "provenance": 6959
   },
   "namespace": "https://curricula.live/id/formal-sciences/",
   "predicates": 19,
@@ -115,10 +115,10 @@
       "license": "Apache-2.0",
       "normalized_label_keys": 8728,
       "revision": "35f494609c32653bae53eb33f0cf2d899808909a",
-      "scope": "complete mathlib4 source archive; index Mathlib module paths only",
+      "scope": "Complete Mathlib source archive. Stage module names and direct local Mathlib import declarations.",
       "sha256": "e38cb828c5368d71469540927a0c81ea1faa69f007c9a372926207c8521e82b3",
       "stage_validation": "passed",
-      "staged_triples": 8728,
+      "staged_triples": 32592,
       "status": "staged",
       "url": "https://codeload.github.com/leanprover-community/mathlib4/tar.gz/35f494609c32653bae53eb33f0cf2d899808909a"
     },
@@ -233,7 +233,7 @@
         "registry_sha256": "b7ee2c0023c1ce66678fa98096051e9a9a6c463f55987970a0b3c17b106344d7"
       },
       "attribution": "CLLKazan/OntoMathPro",
-      "candidate_pairs": 36,
+      "candidate_pairs": 939,
       "license": "Apache-2.0",
       "normalized_label_keys": 6462,
       "revision": "ebb4083adec275e079bb6210df24cfcd11d2767c",
@@ -286,7 +286,7 @@
         "registry_sha256": "cf9407ad62ab1c9b8cfe64080950f8f199a41b2debc4d3cb2b7c71ae74566e8b"
       },
       "attribution": "OpenCS contributors",
-      "candidate_pairs": 126,
+      "candidate_pairs": 1131,
       "license": "CC-BY-4.0",
       "normalized_label_keys": 45918,
       "revision": "0.4.0",
@@ -424,7 +424,7 @@
         "registry_sha256": "4e1b4ca2017e034d57b6046179638d5085c160d4a37f4a54aa2183738c3cb6e9"
       },
       "attribution": "ISA-tools/stato",
-      "candidate_pairs": 17,
+      "candidate_pairs": 281,
       "license": "CC-BY-3.0 (embedded imports have separate notices)",
       "normalized_label_keys": 1074,
       "revision": "a5910e6115217a88ee86e2666e12983ef2ef2a42",

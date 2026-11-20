@@ -1813,5 +1813,93 @@
     "reviewer": "initial editorial pass (Codex); submitted for maintainer review",
     "sha256": "a66946dbf19dcfd6a69052f3227e40ee4c7a7b792d5434cec94101a4453a5f6c",
     "source": "wikidata"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/ordinary-least-squares",
+    "evidence": "<https://w3id.org/ocs/ont/C10138> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Ordinary_least_squares> .\n<https://w3id.org/ocs/ont/C10138> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Ordinary least squares\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C10138",
+    "id": "opencs-reviewed-c10138",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The external heading refers to the squared-residual minimization estimator.",
+    "reviewer": "Editorial verification against pinned source and canonical scope, pending PR review",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/conditional-entropy",
+    "evidence": "<https://w3id.org/ocs/ont/C13874> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Conditional_entropy> .\n<https://w3id.org/ocs/ont/C13874> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Conditional entropy\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C13874",
+    "id": "opencs-reviewed-c13874",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "Both headings describe information-theoretic entropy conditioned on a second variable.",
+    "reviewer": "Editorial verification against pinned source and canonical scope, pending PR review",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/depth-first-search",
+    "evidence": "<https://w3id.org/ocs/ont/C14406> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Depth-first_search> .\n<https://w3id.org/ocs/ont/C14406> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Depth-first search\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C14406",
+    "id": "opencs-reviewed-c14406",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The reference describes graph or tree traversal that explores branches before backtracking.",
+    "reviewer": "Editorial verification against pinned source and canonical scope, pending PR review",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/conjugate-gradient-method",
+    "evidence": "<https://w3id.org/ocs/ont/C15070> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Conjugate_gradient_method> .\n<https://w3id.org/ocs/ont/C15070> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Conjugate gradient method\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C15070",
+    "id": "opencs-reviewed-c15070",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The cited topic and canonical heading cover the classical method for symmetric positive-definite systems.",
+    "reviewer": "Editorial verification against pinned source and canonical scope, pending PR review",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/breadth-first-search",
+    "evidence": "<https://w3id.org/ocs/ont/C16033> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Breadth-first_search> .\n<https://w3id.org/ocs/ont/C16033> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Breadth-first search\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C16033",
+    "id": "opencs-reviewed-c16033",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The reference describes traversal in order of increasing distance from the starting vertex.",
+    "reviewer": "Editorial verification against pinned source and canonical scope, pending PR review",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/adjacency-list",
+    "evidence": "<https://w3id.org/ocs/ont/C16376> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Adjacency_list> .\n<https://w3id.org/ocs/ont/C16376> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Adjacency list\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C16376",
+    "id": "opencs-reviewed-c16376",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "Both headings denote the representation of a graph by lists of adjacent vertices.",
+    "reviewer": "Editorial verification against pinned source and canonical scope, pending PR review",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/kullback-leibler-divergence",
+    "evidence": "<https://w3id.org/ocs/ont/C10767> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Kullback–Leibler_divergence> .\n<https://w3id.org/ocs/ont/C10767> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Kullback–Leibler divergence\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C10767",
+    "id": "opencs-reviewed-c10767",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The source reference denotes relative entropy between probability distributions.",
+    "reviewer": "Editorial verification against pinned source and canonical scope, pending PR review",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e626",
+    "evidence": "<https://w3id.org/ocs/ont/C12155> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Bisection_method> .\n<https://w3id.org/ocs/ont/C12155> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Bisection method\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C12155",
+    "id": "opencs-reviewed-c12155",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "Both headings refer to bisection as an interval-halving method for root finding.",
+    "reviewer": "Editorial verification against pinned source and canonical scope, pending PR review",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
   }
 ]

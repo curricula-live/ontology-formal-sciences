@@ -289,3 +289,19 @@
 
 <https://curricula.live/id/formal-sciences/concept/zero-knowledge-proof> skos:exactMatch <https://w3id.org/ocs/ont/C23073> .
 
+
+<https://curricula.live/id/formal-sciences/concept/ordinary-least-squares> skos:exactMatch <https://w3id.org/ocs/ont/C10138> .
+
+<https://curricula.live/id/formal-sciences/concept/conditional-entropy> skos:exactMatch <https://w3id.org/ocs/ont/C13874> .
+
+<https://curricula.live/id/formal-sciences/concept/depth-first-search> skos:exactMatch <https://w3id.org/ocs/ont/C14406> .
+
+<https://curricula.live/id/formal-sciences/concept/conjugate-gradient-method> skos:exactMatch <https://w3id.org/ocs/ont/C15070> .
+
+<https://curricula.live/id/formal-sciences/concept/breadth-first-search> skos:exactMatch <https://w3id.org/ocs/ont/C16033> .
+
+<https://curricula.live/id/formal-sciences/concept/adjacency-list> skos:exactMatch <https://w3id.org/ocs/ont/C16376> .
+
+<https://curricula.live/id/formal-sciences/concept/kullback-leibler-divergence> skos:exactMatch <https://w3id.org/ocs/ont/C10767> .
+
+<https://curricula.live/id/formal-sciences/concept/ontomath-pro-e626> skos:exactMatch <https://w3id.org/ocs/ont/C12155> .
