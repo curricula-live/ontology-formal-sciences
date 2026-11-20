@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import subprocess
 import tarfile
 import tempfile
@@ -46,14 +47,14 @@ def openalex(store, path, graph):
     store.add(Quad(subject,NamedNode("http://www.w3.org/2004/02/skos/core#broader"),NamedNode(row["subfield"]["id"]),graph))
 
 
-def manchester(store, path, graph):
+def manchester(store, path, graph, *, edu=False):
     jar = Path(os.environ.get("ROBOT_JAR","tools/robot.jar"))
     expected = (Path(__file__).parent / "robot.sha256").read_text().strip()
     if not jar.exists() or checksum(jar) != expected:
         raise ValueError("Install pinned ROBOT 1.9.8 and set ROBOT_JAR (see docs/sources.md)")
     with tempfile.TemporaryDirectory() as tmp:
         rdf = Path(tmp) / "converted.owl"
-        if path.parent.parent.name == "ontomath-edu":
+        if edu:
             path, extra = edu_frames(path, Path(tmp))
             store.bulk_load(input=extra.serialize(format="nt").encode(),format=RdfFormat.N_TRIPLES,to_graph=graph)
         args = ["java","-jar",str(jar),"convert","--input",str(path),"--output",str(rdf)]
@@ -78,16 +79,12 @@ def manchester(store, path, graph):
 def references(store, path, source, graph):
     """Bibliographic and non-RDF resources: extract only the declared scope."""
     from rdflib.namespace import DCTERMS, RDF
-    from urllib.parse import quote
     id = source["id"]
     subject = NamedNode(source["url"])
     if id == "mathlib4":
-        with tarfile.open(path, "r|gz") as tar:
-            for member in tar:
-                rel = member.name.partition("/")[2]
-                if rel.startswith("Mathlib/") and rel.endswith(".lean") and member.isfile():
-                    iri = "https://github.com/leanprover-community/mathlib4/blob/"+source["revision"]+"/"+quote(rel)
-                    store.add(Quad(NamedNode(iri), LABEL, Literal(rel[:-5].replace("/",".")),graph))
+        from pipeline.parse.mathlib import stage_modules
+
+        stage_modules(store, path, source["revision"], graph)
     elif id == "oeis":
         series = NamedNode("https://oeis.org/A000045")
         for line in path.read_text().splitlines():
@@ -125,35 +122,58 @@ def references(store, path, source, graph):
 
 
 def edu_frames(path, folder):
-    """Translate the source's DisjointUnionOf extension for named operands only."""
-    import re
-    from rdflib import Graph, BNode, URIRef, OWL
+    """Translate OntoMathEdu's named-class partition frames per OWL 2 Mapping to RDF §3.2.5."""
+    from rdflib import BNode, Graph, OWL, URIRef
     from rdflib.collection import Collection
-    text = path.read_text()
-    prefixes = dict(re.findall(r"(?m)^Prefix: (\w+): <([^>]+)>",text))
-    def iri(token):
-        if re.fullmatch(r"<[^\s<>]+>",token):
-            return URIRef(token[1:-1])
-        if re.fullmatch(r"\w+:[\w.-]+",token):
-            prefix, local = token.split(":",1)
-            return URIRef(prefixes[prefix]+local)
-        raise ValueError("Unsupported disjoint union operand "+token)
-    lines = iter(text.splitlines())
-    remaining, extra, owner = [], Graph(), None
+
+    text = path.read_text(encoding="utf-8")
+    prefixes = dict(re.findall(r"(?m)^Prefix:\s*([\w-]*):[ \t]*<([^>\s]+)>", text))
+    token = r"(?:<[a-zA-Z][a-zA-Z0-9+.\-]*:[^<>\s]+>|[\w-]*:[\w.\-]+)"
+    named_list = re.compile(rf"{token}(?:\s*,\s*{token})+")
+
+    def iri(name):
+        if name.startswith("<"):
+            return URIRef(name[1:-1])
+        prefix, local = name.split(":", 1)
+        if prefix not in prefixes:
+            raise ValueError(f"Unknown OntoMathEdu prefix in {name!r}")
+        return URIRef(prefixes[prefix] + local)
+
+    remaining, extra = [], Graph()
+    declared, participants = set(), set()
+    owner = None
+    lines = iter(text.splitlines(keepends=True))
     for line in lines:
         if line and not line[0].isspace():
-            owner = line[7:].strip() if line.startswith("Class: ") else None
-        if line.strip()=="DisjointUnionOf:":
-            if owner is None:
-                raise ValueError("Disjoint union outside class frame")
-            operands = [iri(i.strip()) for i in next(lines).split(",")]
-            if len(operands)<2:
-                raise ValueError("Disjoint union needs multiple operands")
-            node = BNode()
-            Collection(extra,node,operands)
-            extra.add((iri(owner),OWL.disjointUnionOf,node))
-        else:
+            header = re.fullmatch(rf"Class:[ \t]+({token})", line.rstrip())
+            owner = iri(header[1]) if header else None
+            if owner is not None:
+                declared.add(owner)
+        body = line.strip()
+        if not body.startswith("DisjointUnionOf:"):
             remaining.append(line)
+            continue
+        if owner is None:
+            raise ValueError("DisjointUnionOf outside a named class frame")
+        names = body.removeprefix("DisjointUnionOf:").strip()
+        while not names or names.endswith(","):
+            continuation = next(lines, "")
+            if not continuation or not continuation[0].isspace():
+                raise ValueError(f"Incomplete DisjointUnionOf on {owner}")
+            names += " " + continuation.strip()
+            names = names.strip()
+        if not named_list.fullmatch(names):
+            raise ValueError(f"Unsupported DisjointUnionOf expression on {owner}: {names}")
+        operands = [iri(name) for name in re.findall(token, names)]
+        if len(set(operands)) != len(operands):
+            raise ValueError(f"Repeated DisjointUnionOf operand on {owner}")
+        participants.update(operands)
+        node = BNode()
+        Collection(extra, node, operands)
+        extra.add((owner, OWL.disjointUnionOf, node))
+    undeclared = participants - declared
+    if undeclared:
+        raise ValueError("Expected locally declared partition classes: " + ", ".join(sorted(undeclared)))
     converted = folder / "normalized.omn"
-    converted.write_text("\n".join(remaining)+"\n")
+    converted.write_text("".join(remaining), encoding="utf-8")
     return converted, extra

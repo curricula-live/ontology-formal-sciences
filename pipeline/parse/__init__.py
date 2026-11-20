@@ -26,16 +26,29 @@ def load_graph(store, path, source, graph):
     elif fmt in {"lean-archive","bfile","tex-equation","tptp-archive","zbmath"}:
         from pipeline.parse.adapters import references
         references(store,path,source,graph)
-    elif fmt in {"owlxml","manchester", "openmath-tar", "openalex"}:
-        from pipeline.parse.adapters import manchester, openmath_archive, openalex
-        {"owlxml": manchester,"manchester": manchester, "openmath-tar": openmath_archive, "openalex": openalex}[fmt](store, path, graph)
+    elif fmt in {"owlxml", "manchester"}:
+        from pipeline.parse.adapters import manchester
+        manchester(store, path, graph, edu=(source["id"] == "ontomath-edu"))
+    elif fmt in {"openmath-tar", "openalex"}:
+        from pipeline.parse.adapters import openmath_archive, openalex
+        {"openmath-tar": openmath_archive, "openalex": openalex}[fmt](store, path, graph)
     else:
         store.bulk_load(path=path, format=FORMATS[fmt], to_graph=graph, base_iri=source["url"])
 
 
+def extraction_version(source):
+    return "mathlib-imports-v1" if source["format"] == "lean-archive" else None
+
+
+def stage_path(source):
+    root = ROOT / ".cache" / "stage-v2" / source["id"] / source["sha256"]
+    version = extraction_version(source)
+    return root / version if version else root
+
+
 def ingest(source, offline=False):
     path = fetch(source, offline)
-    folder = ROOT / ".cache" / "stage-v2" / source["id"] / source["sha256"]
+    folder = stage_path(source)
     report = folder / "report.json"
     def verify(store, result):
         query = source.get("validation_query")
@@ -67,5 +80,4 @@ def ingest(source, offline=False):
 
 
 def staged(source):
-    path = ROOT / ".cache" / "stage-v2" / source["id"] / source["sha256"] / "store"
-    return Store.read_only(str(path))
+    return Store.read_only(str(stage_path(source) / "store"))
