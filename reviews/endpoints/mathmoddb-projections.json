@@ -1,0 +1,35 @@
+{
+  "projections": {
+    "Q6673771": {
+      "canonical": "state-space-state-matrix",
+      "evidence_sha256": "e0f38b8c30c868b3fa2be49ea811fea7f1f97fd8ba9e4ad955dda2e54b278bda",
+      "rationale": "The source description of A as the homogeneous state-equation coefficient agrees with its role in the linear control-model neighborhood.",
+      "reference": "https://mitpress.mit.edu/9780262193874/linear-system-theory/"
+    },
+    "Q6673772": {
+      "canonical": "state-space-input-matrix",
+      "evidence_sha256": "232334a69767edae3010471b301074fbacd76701ba72258c00fe483a5d20a795",
+      "rationale": "The source describes B as the inhomogeneous coefficient of the linear input equation. The reviewed control tasks use it as the input-to-state matrix.",
+      "reference": "https://mitpress.mit.edu/9780262193874/linear-system-theory/"
+    },
+    "Q6673773": {
+      "canonical": "state-space-output-matrix",
+      "evidence_sha256": "85fdad2aaff1ba4a53f854f5daebc7299686dc467647120abe843803115a44c7",
+      "rationale": "The source C is the linear state coefficient in the output equation. It projects to a reusable state-space matrix role for the reviewed reduction tasks.",
+      "reference": "https://mitpress.mit.edu/9780262193874/linear-system-theory/"
+    },
+    "Q6674483": {
+      "canonical": "poisson-log-likelihood",
+      "evidence_sha256": "7f44ca2c1e3a33cf3c54eb1ef375251b576f86be56c992f91b5a7b06c8bdcfc8",
+      "rationale": "The source explicitly describes the log-likelihood function of a Poisson distribution. The projection is scoped to the function used by the source likelihood-maximizing task.",
+      "reference": "https://online.stat.psu.edu/stat504/lesson/9"
+    },
+    "Q6775613": {
+      "canonical": "ontomath-pro-e3187",
+      "evidence_sha256": "06e339d47de706a6519438937c9f929a3feb709d446d246bbbad8a54e444fc2d",
+      "rationale": "Both source subjects denote the finite element method. The MathModDB label and description identify a general numerical method even though the incoming relation records a particular elasticity task.",
+      "reference": "https://doi.org/10.1137/1.9781611975619"
+    }
+  },
+  "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d"
+}

@@ -10,6 +10,7 @@ from rdflib.namespace import DCTERMS, PROV
 
 from pipeline.common import BASE, C, ROOT, V, checksum, read, registry, write
 from pipeline.curate import authored, reviewed
+from pipeline.curate import endpoints
 from pipeline.parse import ingest, staged
 
 LEDGERS = ROOT / "reviews/relations"
@@ -42,10 +43,12 @@ PROFILES = {
         "P1656": Rule(MARDI + "P1656", "hasDiscretization"),
         "P1674": Rule(MARDI + "P1674", "hasModelingAssumption"),
         "P1736": Rule(MARDI + "P1736", "hasWeakFormulation"),
+        "P1692": Rule(MARDI + "P1692", "isSolutionOf"),
     }),
     "stato": Profile(OBO + "STATO_", r"[0-9]{7}",
                      "CC-BY-3.0 (embedded imports have separate notices)", "subclass-some", {
         "input": Rule(OBO + "OBI_0000293", "usesReferenceDistribution"),
+        "output": Rule(OBO + "OBI_0000299", "producesEstimate"),
         "target": Rule(OBO + "STATO_0000403", "estimates"),
     }),
     "ontomath-pro": Profile(ONTO, r"E[0-9]+", "Apache-2.0", "equivalent-all", {
@@ -171,7 +174,7 @@ def describe_source(provenance, source_id, source):
     provenance.add((node, DCTERMS.bibliographicCitation, Literal(source["attribution"])))
 
 
-def apply_relations(catalog, canonical, mappings, provenance):
+def apply_relations(catalog, canonical, mappings, provenance, review_output=None):
     """Publish only adjudicated rows and retain counts of the other candidates."""
     report = {}
     for source_id in sorted(PROFILES):
@@ -187,6 +190,15 @@ def apply_relations(catalog, canonical, mappings, provenance):
             raise ValueError(f"Unordered or duplicate relation evidence for {source_id}")
         decisions = decisions_for(source_id, set(edges), record)
         targets = resolved_identities(source_id, mappings)
+        endpoint_evidence = endpoints.evidence_for(source_id, record)
+        projections = endpoints.reviewed_projections(source_id, profile.namespace, record, endpoint_evidence, canonical)
+        for local, (target, _) in projections.items():
+            targets[URIRef(profile.namespace + local)].add(target)
+        resolution = endpoints.triage(source_id, profile.namespace, record, endpoint_evidence,
+                                      targets, canonical, mappings)
+        if review_output is not None:
+            review_output[source_id] = resolution
+        actions = Counter()
         counts = Counter(dict.fromkeys(("approved", "rejected", "pending", "unresolved", "ambiguous"), 0))
         source_node = URIRef(BASE + "source/" + source_id)
         for edge in edges:
@@ -195,6 +207,23 @@ def apply_relations(catalog, canonical, mappings, provenance):
             if not all(re.fullmatch(profile.native_id, endpoint) for endpoint in (left, right)):
                 raise ValueError(f"Foreign relation endpoint: {source_id} {edge}")
             state, rationale = decisions.get(edge, ("pending", ""))
+            if state != "pending":
+                actions[state] += 1
+            elif rule.relation is None or profile.shape == "equivalent-all":
+                actions["outside_relation_profile"] += 1
+            else:
+                states = {resolution[left]["state"], resolution[right]["state"]}
+                priority = (
+                    ("outside_reviewed_domain", "exclude_reviewed_application"),
+                    ("outside_profile_role", "exclude_profile_role"),
+                    ("ambiguous_identity", "resolve_identity_conflict"),
+                    ("review_mapping", "review_mapping"),
+                    ("need_endpoint_evidence", "collect_endpoint_evidence"),
+                    ("review_domain_scope", "review_domain_scope"),
+                    ("candidate_missing_subject", "review_subject_admission"),
+                )
+                actions[next((action for reason, action in priority if reason in states),
+                             "review_relation")] += 1
             if state == "rejected":
                 counts[state] += 1
                 continue
@@ -219,6 +248,19 @@ def apply_relations(catalog, canonical, mappings, provenance):
             canonical.add(triple)
             evidence = annotate(provenance, source, profile, edge, triple, rationale)
             provenance.add((evidence, DCTERMS.isPartOf, source_node))
+            for local in (left, right):
+                if local in projections:
+                    target, row = projections[local]
+                    projected_from = URIRef(profile.namespace + local)
+                    projection_id = URIRef(BASE + "endpoint-projection/" + endpoints.digest(
+                        [str(projected_from), str(target), row["evidence_sha256"]]))
+                    provenance.add((evidence, PROV.wasDerivedFrom, projection_id))
+                    provenance.add((projection_id, RDF.type, PROV.Entity))
+                    provenance.add((projection_id, RDF.subject, target))
+                    provenance.add((projection_id, RDF.object, projected_from))
+                    provenance.add((projection_id, DCTERMS.identifier, Literal(row["evidence_sha256"])))
+                    provenance.add((projection_id, DCTERMS.description, Literal(row["rationale"], lang="en")))
+                    provenance.add((projection_id, DCTERMS.source, URIRef(row["reference"])))
             counts["approved"] += 1
         if counts["approved"]:
             describe_source(provenance, source_id, source)
@@ -226,6 +268,10 @@ def apply_relations(catalog, canonical, mappings, provenance):
         report[source_id] = dict(counts, extracted=len(edges), evidence_sha256=checksum(path))
         if review_path.exists():
             report[source_id]["review_sha256"] = checksum(review_path)
+        if resolution:
+            report[source_id]["endpoint_resolution"] = endpoints.summary(resolution, edges)
+            report[source_id]["endpoint_resolution"]["reviewed_projections"] = len(projections)
+            report[source_id]["candidate_actions"] = dict(actions)
     return report
 
 
@@ -239,12 +285,19 @@ def replay(source_id, offline=False, write_evidence=False):
     edges = extract(staged(source), stats["graph"], profile)
     record = dict(sha256=source["sha256"], revision=source["revision"],
                   profile_sha256=profile_digest(profile), edges=[list(r) for r in edges])
+    evidence_path = endpoints.DIRECTORY / f"{source_id}.json"
+    endpoint_record = dict(sha256=source["sha256"], edges_sha256=endpoints.digest(record["edges"]),
+                           entities=endpoints.collect(staged(source), stats["graph"], source_id, profile.namespace, edges))
     if write_evidence:
         write(path, record)
+        write(evidence_path, endpoint_record)
         return {"extracted": len(edges), "profile_sha256": record["profile_sha256"]}
-    if read(path) != record:
+    if read(path) != record or read(evidence_path) != endpoint_record:
         raise ValueError(f"Relation evidence drifted for {source_id}")
     canonical, provenance = authored()
     catalog = registry()
     mappings = reviewed(catalog, canonical, provenance)
-    return apply_relations(catalog, canonical, mappings, provenance)[source_id]
+    review_output = {}
+    report = apply_relations(catalog, canonical, mappings, provenance, review_output)[source_id]
+    write(ROOT / f".cache/endpoint-review/{source_id}.json", review_output[source_id])
+    return report

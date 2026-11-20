@@ -89,3 +89,34 @@ universal OWL restriction and a witnessed defining relationship. See the
 committed decisions for the rationale on each of the 11 rejected pairs.
 These observations describe the reviewed sample and the stated
 projections. Candidate coverage varies by source and by predicate.
+
+## Endpoint resolution in v0.5.0
+
+Relation replay also extracts endpoint labels, source types, named parents
+and definition term fingerprints. The source digest and extracted edge
+digest bind this evidence to the profile. The local
+`.cache/endpoint-review/<source>.json` report ranks candidates using
+reviewed references, label agreement, scope and role compatibility,
+definition term overlap and canonical neighbors. These signals guide
+review. Existing admitted identities, approved exact matches and
+explicit scoped projections are the resolution mechanisms.
+
+Scoped projections separately document the scientific sense of a source
+endpoint. For example, the MathModDB finite-element method record resolves
+to the existing OntoMathPro-backed method subject. The MathModDB
+individual and the OntoMathPro class keep their native identities. Each
+new relationship with this projection records the endpoint decision
+in its provenance. The control-system matrix records project only their
+reviewed state, input and output roles. Local quantities without a
+reviewed subject projection stay outside the current relation profile.
+
+The manifest reports endpoint states and candidate actions separately.
+An extracted relation can be approved, rejected, outside the relation
+profile, excluded from the current slice by its source role or
+application, or queued for identity, evidence, mapping, scope, subject
+admission or relation review. A type and label alone leave an endpoint
+subject candidate for review. MathModDB application exclusions use
+documented field, problem, model and task paths. Shared modeling tasks
+with incoming models outside those reviewed application fields remain
+eligible for further review. These categories preserve the candidate
+ledger and explain the current publication boundary.

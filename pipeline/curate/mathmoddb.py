@@ -9,6 +9,7 @@ from pyoxigraph import Literal as OxLiteral, NamedNode
 from rdflib import Graph, Literal, RDFS, SKOS
 
 from pipeline.common import C, D, ROOT, registry
+from pipeline.curate.endpoints import MARDI, PROFILE_TYPES
 from pipeline.normalize import label_key
 from pipeline.parse import ingest, staged
 
@@ -42,6 +43,13 @@ def outputs(source, store, graph_name):
                 name, NamedNode(str(RDFS.label)), None, NamedNode(graph_name)
             ) if isinstance(quad.object, OxLiteral) and quad.object.language == "en"
         }
+        type_values = {
+            q.object.value.removeprefix(MARDI)
+            for q in store.quads_for_pattern(name, NamedNode(MARDI + "P1460"), None, NamedNode(graph_name))
+            if isinstance(q.object, NamedNode)
+        }
+        if {PROFILE_TYPES.get(value) for value in type_values} != {row["role"]}:
+            raise ValueError(f"MathModDB profile role changed for {native}")
         if witnessed_labels != {label}:
             raise ValueError(f"MathModDB English label changed for {native}")
         if label_key(label) in labels or (C[parent], SKOS.inScheme, D.mathematics) not in baseline:

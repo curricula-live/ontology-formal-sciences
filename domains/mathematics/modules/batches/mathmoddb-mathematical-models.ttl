@@ -17,6 +17,9 @@ c:mathmoddb-q6674143 a skos:Concept ; skos:prefLabel "control system input bilin
 c:mathmoddb-q6674144 a skos:Concept ; skos:prefLabel "control system output linear (reduced)"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
 
+c:mathmoddb-q6674147 a skos:Concept ; skos:prefLabel "initial condition for control state"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
 c:mathmoddb-q6674148 a skos:Concept ; skos:prefLabel "control system input linear"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
 
@@ -29,7 +32,13 @@ c:mathmoddb-q6674150 a skos:Concept ; skos:prefLabel "control system output line
 c:mathmoddb-q6674257 a skos:Concept ; skos:prefLabel "Hamilton's equations"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
 
+c:mathmoddb-q6674260 a skos:Concept ; skos:prefLabel "Newton second law of motion for constant mass"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
 c:mathmoddb-q6674264 a skos:Concept ; skos:prefLabel "leapfrog integration"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:mathmoddb-q6674268 a skos:Concept ; skos:prefLabel "Verlet integration"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
 
 c:mathmoddb-q6674283 a skos:Concept ; skos:prefLabel "continuity equation"@en ;
@@ -50,16 +59,52 @@ c:mathmoddb-q6674305 a skos:Concept ; skos:prefLabel "Darcy equation (Euler back
 c:mathmoddb-q6674306 a skos:Concept ; skos:prefLabel "Darcy equation (finite volume)"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
 
+c:mathmoddb-q6674308 a skos:Concept ; skos:prefLabel "Poisson's equation for the electric potential (semiconductors)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
 c:mathmoddb-q6674350 a skos:Concept ; skos:prefLabel "Stokes equation (Euler backward)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:mathmoddb-q6674356 a skos:Concept ; skos:prefLabel "Poisson equation for the electric potential (finite volume)"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
 
 c:mathmoddb-q6674357 a skos:Concept ; skos:prefLabel "Stokes equation (finite volume)"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
 
+c:mathmoddb-q6674362 a skos:Concept ; skos:prefLabel "uniform gravitational acceleration"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6674363 a skos:Concept ; skos:prefLabel "free fall equation (air drag)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6674365 a skos:Concept ; skos:prefLabel "free fall equation (vacuum)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6674366 a skos:Concept ; skos:prefLabel "vanishing air density"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6674367 a skos:Concept ; skos:prefLabel "vanishing drag coefficient"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6674368 a skos:Concept ; skos:prefLabel "free fall initial condition"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
 c:mathmoddb-q6674516 a skos:Concept ; skos:prefLabel "Stokes equation"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
 
 c:mathmoddb-q6674576 a skos:Concept ; skos:prefLabel "stability linear autonomous system"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
+c:mathmoddb-q6674577 a skos:Concept ; skos:prefLabel "Stokes Darcy coupling conditions"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6674578 a skos:Concept ; skos:prefLabel "Stokes Darcy equation (discretized, pv)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:mathmoddb-q6674579 a skos:Concept ; skos:prefLabel "Stokes Darcy equation (discretized, td)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:mathmoddb-q6675331 a skos:Concept ; skos:prefLabel "control system"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
 
 c:mathmoddb-q6675332 a skos:Concept ; skos:prefLabel "control system model (bilinear)"@en ;
@@ -73,6 +118,12 @@ c:mathmoddb-q6675390 a skos:Concept ; skos:prefLabel "Darcy model"@en ;
 
 c:mathmoddb-q6675391 a skos:Concept ; skos:prefLabel "Darcy model (discretized)"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:mathmoddb-q6675405 a skos:Concept ; skos:prefLabel "free fall model (vacuum)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6675406 a skos:Concept ; skos:prefLabel "free fall model (air drag)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
 
 c:mathmoddb-q6675408 a skos:Concept ; skos:prefLabel "Stokes Darcy model"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
@@ -95,6 +146,9 @@ c:mathmoddb-q6684552 a skos:Concept ; skos:prefLabel "balanced truncation (bi-li
 c:mathmoddb-q6684558 a skos:Concept ; skos:prefLabel "H2 optimal approximation (bi-linear)"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
 
+c:mathmoddb-q6684560 a skos:Concept ; skos:prefLabel "control system time evolution"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
+
 c:mathmoddb-q6684561 a skos:Concept ; skos:prefLabel "control system time evolution (bi-linear)"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
 
@@ -104,11 +158,20 @@ c:mathmoddb-q6684562 a skos:Concept ; skos:prefLabel "control system time evolut
 c:mathmoddb-q6684570 a skos:Concept ; skos:prefLabel "H2 optimal approximation (linear)"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory .
 
+c:mathmoddb-q6684606 a skos:Concept ; skos:prefLabel "maximizing Poisson log-likelihood"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
 c:mathmoddb-q6775296 a skos:Concept ; skos:prefLabel "plate with a hole: linear elasticity model"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
 
 c:mathmoddb-q6775585 a skos:Concept ; skos:prefLabel "Cauchy momentum equation: elastostatic limit, no body forces"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6775614 a skos:Concept ; skos:prefLabel "plate with a hole: solve variational discretized problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:mathmoddb-q6775615 a skos:Concept ; skos:prefLabel "plate with a hole: finite element discretization"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
 
 c:mathmoddb-q6775619 a skos:Concept ; skos:prefLabel "Cauchy momentum equation: weak formulation"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
@@ -121,6 +184,93 @@ c:mathmoddb-q6775736 a skos:Concept ; skos:prefLabel "plate with a hole: weak fo
 
 c:mathmoddb-q6775737 a skos:Concept ; skos:prefLabel "Cauchy momentum equation: weak formulation, discretized"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:mathmoddb-q6775745 a skos:Concept ; skos:prefLabel "free fall solution (air drag)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6775754 a skos:Concept ; skos:prefLabel "free fall solution (vacuum)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6821153 a skos:Concept ; skos:prefLabel "mathematical pendulum model (small angle)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6821154 a skos:Concept ; skos:prefLabel "mathematical pendulum equation (small angle)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6821156 a skos:Concept ; skos:prefLabel "determine frequency of a pendulum (small angle)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6821158 a skos:Concept ; skos:prefLabel "mathematical pendulum frequency (small angle)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6821397 a skos:Concept ; skos:prefLabel "mathematical pendulum (initial condition)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6821398 a skos:Concept ; skos:prefLabel "mathematical pendulum solution (small angle)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6821402 a skos:Concept ; skos:prefLabel "determine frequency of a pendulum"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6821403 a skos:Concept ; skos:prefLabel "mathematical pendulum frequency"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6821404 a skos:Concept ; skos:prefLabel "mathematical pendulum equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6821405 a skos:Concept ; skos:prefLabel "mathematical pendulum model"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6821439 a skos:Concept ; skos:prefLabel "mathematical pendulum period (small angle)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6821441 a skos:Concept ; skos:prefLabel "determine period of a pendulum (small angle)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6821442 a skos:Concept ; skos:prefLabel "determine length of a pendulum (small angle)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6821443 a skos:Concept ; skos:prefLabel "mathematical pendulum length (small angle)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6821444 a skos:Concept ; skos:prefLabel "determine trajectory of a pendulum"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6821445 a skos:Concept ; skos:prefLabel "determine period of a pendulum"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6821446 a skos:Concept ; skos:prefLabel "mathematical pendulum period"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6822086 a skos:Concept ; skos:prefLabel "mathematical pendulum solution (small angle, damped)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6822087 a skos:Concept ; skos:prefLabel "mathematical pendulum frequency (small angle, damped)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6822089 a skos:Concept ; skos:prefLabel "determine frequency of a pendulum (small angle, damped)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6822090 a skos:Concept ; skos:prefLabel "mathematical pendulum equation (small angle, damped)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6822091 a skos:Concept ; skos:prefLabel "mathematical pendulum model (small angle, damped)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6822164 a skos:Concept ; skos:prefLabel "mathematical pendulum equation (small angle, damped, driven)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6822166 a skos:Concept ; skos:prefLabel "determine amplitude of a pendulum (small angle, damped, driven)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6822168 a skos:Concept ; skos:prefLabel "mathematical pendulum model (small angle, damped, driven)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6822169 a skos:Concept ; skos:prefLabel "mathematical pendulum solution (small angle, damped, driven)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:mathmoddb-q6822174 a skos:Concept ; skos:prefLabel "determine resonance of a pendulum (small angle, damped, driven)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
 
 c:mathmoddb-q6822179 a skos:Concept ; skos:prefLabel "plate with a hole: weak formulation"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .

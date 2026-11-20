@@ -1,0 +1,1644 @@
+{
+  "edges_sha256": "bd4d2213e0097df7ecb9a36b660f35192b5118209300197df23f14a5c538b56e",
+  "entities": {
+    "E101": {
+      "definition_terms": [],
+      "labels": [
+        "Planar curve"
+      ],
+      "parents": [
+        "E86"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1010": {
+      "definition_terms": [],
+      "labels": [
+        "Contact manifold"
+      ],
+      "parents": [
+        "E980"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1015": {
+      "definition_terms": [],
+      "labels": [
+        "Varifold off algebra"
+      ],
+      "parents": [
+        "E980"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1020": {
+      "definition_terms": [],
+      "labels": [
+        "Pseudo-Riemannian manifold"
+      ],
+      "parents": [
+        "E980"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1021": {
+      "definition_terms": [],
+      "labels": [
+        "Poisson manifold"
+      ],
+      "parents": [
+        "E980"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1022": {
+      "definition_terms": [],
+      "labels": [
+        "Riemannian manifold"
+      ],
+      "parents": [
+        "E980"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1030": {
+      "definition_terms": [],
+      "labels": [
+        "Symplectic manifold"
+      ],
+      "parents": [
+        "E980"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1032": {
+      "definition_terms": [],
+      "labels": [
+        "Finsler manifold"
+      ],
+      "parents": [
+        "E980"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1080": {
+      "definition_terms": [],
+      "labels": [
+        "Space"
+      ],
+      "parents": [
+        "E2844",
+        "E847"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1135": {
+      "definition_terms": [],
+      "labels": [
+        "Probability space"
+      ],
+      "parents": [
+        "E1080",
+        "E2406"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E115": {
+      "definition_terms": [],
+      "labels": [
+        "Spinor"
+      ],
+      "parents": [
+        "E35"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1159": {
+      "definition_terms": [],
+      "labels": [
+        "Spinor space"
+      ],
+      "parents": [
+        "E1080"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1163": {
+      "definition_terms": [],
+      "labels": [
+        "Metrizable space"
+      ],
+      "parents": [
+        "E1160"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E124": {
+      "definition_terms": [],
+      "labels": [
+        "Atlas"
+      ],
+      "parents": [
+        "E123"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1324": {
+      "definition_terms": [],
+      "labels": [
+        "Map"
+      ],
+      "parents": [
+        "E34"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1326": {
+      "definition_terms": [],
+      "labels": [
+        "Automorphism Lie group"
+      ],
+      "parents": [
+        "E1324"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E134": {
+      "definition_terms": [],
+      "labels": [
+        "Map"
+      ],
+      "parents": [
+        "E123"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1346": {
+      "definition_terms": [],
+      "labels": [
+        "Centroaffine transformation"
+      ],
+      "parents": [
+        "E1329"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1376": {
+      "definition_terms": [],
+      "labels": [
+        "Lie derivative"
+      ],
+      "parents": [
+        "E1324"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E139": {
+      "definition_terms": [],
+      "labels": [
+        "Complex"
+      ],
+      "parents": [
+        "E123"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E140": {
+      "definition_terms": [],
+      "labels": [
+        "Differential complex"
+      ],
+      "parents": [
+        "E139"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E141": {
+      "definition_terms": [],
+      "labels": [
+        "Differential form"
+      ],
+      "parents": [
+        "E140",
+        "E275"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1424": {
+      "definition_terms": [],
+      "labels": [
+        "Parallel transport"
+      ],
+      "parents": [
+        "E1324"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1441": {
+      "definition_terms": [],
+      "labels": [
+        "Lie algebra representation"
+      ],
+      "parents": [
+        "E1324"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1479": {
+      "definition_terms": [],
+      "labels": [
+        "Poisson tensor"
+      ],
+      "parents": [
+        "E1324"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1489": {
+      "definition_terms": [],
+      "labels": [
+        "Transition functions"
+      ],
+      "parents": [
+        "E1505"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1505": {
+      "definition_terms": [],
+      "labels": [
+        "Function"
+      ],
+      "parents": [
+        "E1324"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1517": {
+      "definition_terms": [],
+      "labels": [
+        "Density"
+      ],
+      "parents": [
+        "E1505"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1552": {
+      "definition_terms": [],
+      "labels": [
+        "Metric"
+      ],
+      "parents": [
+        "E1505"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1573": {
+      "definition_terms": [],
+      "labels": [
+        "Pseudo-Riemannian metric"
+      ],
+      "parents": [
+        "E1552"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1576": {
+      "definition_terms": [],
+      "labels": [
+        "Finsler metric"
+      ],
+      "parents": [
+        "E1552"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1637": {
+      "definition_terms": [],
+      "labels": [
+        "Contraction"
+      ],
+      "parents": [
+        "E1634"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1689": {
+      "definition_terms": [],
+      "labels": [
+        "Dyadic"
+      ],
+      "parents": [
+        "E1687"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1712": {
+      "definition_terms": [],
+      "labels": [
+        "Exterior form"
+      ],
+      "parents": [
+        "E1687"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1713": {
+      "definition_terms": [],
+      "labels": [
+        "Second fundamental form"
+      ],
+      "parents": [
+        "E1712"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1714": {
+      "definition_terms": [],
+      "labels": [
+        "Contact form"
+      ],
+      "parents": [
+        "E1712"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1716": {
+      "definition_terms": [],
+      "labels": [
+        "Covariantly constant tensor"
+      ],
+      "parents": [
+        "E1687"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1726": {
+      "definition_terms": [],
+      "labels": [
+        "The Poisson tensor"
+      ],
+      "parents": [
+        "E1687"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1729": {
+      "definition_terms": [],
+      "labels": [
+        "Hessian matrix"
+      ],
+      "parents": [
+        "E1728"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1736": {
+      "definition_terms": [],
+      "labels": [
+        "Torsion tensor of connection"
+      ],
+      "parents": [
+        "E1687"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1739": {
+      "definition_terms": [],
+      "labels": [
+        "Curvature form"
+      ],
+      "parents": [
+        "E1687"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1740": {
+      "definition_terms": [],
+      "labels": [
+        "Connection form"
+      ],
+      "parents": [
+        "E1687"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1744": {
+      "definition_terms": [],
+      "labels": [
+        "Ado theorem"
+      ],
+      "parents": [
+        "E1741"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1746": {
+      "definition_terms": [],
+      "labels": [
+        "Stokes theorem"
+      ],
+      "parents": [
+        "E1741"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1747": {
+      "definition_terms": [],
+      "labels": [
+        "Urysohn metrization theorem"
+      ],
+      "parents": [
+        "E1741"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1748": {
+      "definition_terms": [],
+      "labels": [
+        "Frobenius theorem"
+      ],
+      "parents": [
+        "E1741"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1749": {
+      "definition_terms": [],
+      "labels": [
+        "De Rham theorem"
+      ],
+      "parents": [
+        "E1741"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E185": {
+      "definition_terms": [],
+      "labels": [
+        "Distribution"
+      ],
+      "parents": [
+        "E123"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1858": {
+      "definition_terms": [],
+      "labels": [
+        "Darboux theorem"
+      ],
+      "parents": [
+        "E1857"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E186": {
+      "definition_terms": [],
+      "labels": [
+        "Integrable distribution"
+      ],
+      "parents": [
+        "E185"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E1891": {
+      "definition_terms": [],
+      "labels": [
+        "Equation"
+      ],
+      "parents": [
+        "E34"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2027": {
+      "definition_terms": [],
+      "labels": [],
+      "parents": [
+        "E2026"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2052": {
+      "definition_terms": [],
+      "labels": [
+        "Runge-Kutta one-term formula"
+      ],
+      "parents": [
+        "E2026"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2056": {
+      "definition_terms": [],
+      "labels": [
+        "Runge-Kutta trinomial formula"
+      ],
+      "parents": [
+        "E2026"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2068": {
+      "definition_terms": [],
+      "labels": [
+        "Adams extrapolation formula"
+      ],
+      "parents": [
+        "E2064"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2070": {
+      "definition_terms": [],
+      "labels": [
+        "Runge-Kutta four-termed formula"
+      ],
+      "parents": [
+        "E2026"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2077": {
+      "definition_terms": [],
+      "labels": [
+        "Principal curvature"
+      ],
+      "parents": [
+        "E2072"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2079": {
+      "definition_terms": [],
+      "labels": [
+        "Diameter"
+      ],
+      "parents": [
+        "E2072",
+        "E2844"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E208": {
+      "definition_terms": [],
+      "labels": [
+        "Fabric"
+      ],
+      "parents": [
+        "E207"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2082": {
+      "definition_terms": [],
+      "labels": [
+        "Length"
+      ],
+      "parents": [
+        "E2072"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2083": {
+      "definition_terms": [],
+      "labels": [
+        "Arc length"
+      ],
+      "parents": [
+        "E2072"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2090": {
+      "definition_terms": [],
+      "labels": [
+        "Morse index"
+      ],
+      "parents": [
+        "E2072"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2092": {
+      "definition_terms": [],
+      "labels": [
+        "Class of centroaffine transformation"
+      ],
+      "parents": [
+        "E2072"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2100": {
+      "definition_terms": [],
+      "labels": [
+        "Curvature of curve"
+      ],
+      "parents": [
+        "E2072"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2103": {
+      "definition_terms": [],
+      "labels": [],
+      "parents": [
+        "E2072"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2108": {
+      "definition_terms": [],
+      "labels": [
+        "Distance"
+      ],
+      "parents": [
+        "E2072"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2109": {
+      "definition_terms": [],
+      "labels": [
+        "Tissue connectivity"
+      ],
+      "parents": [
+        "E2072"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2113": {
+      "definition_terms": [],
+      "labels": [
+        "Betti number"
+      ],
+      "parents": [
+        "E2072"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2117": {
+      "definition_terms": [],
+      "labels": [
+        "Rational number"
+      ],
+      "parents": [
+        "E2115"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E212": {
+      "definition_terms": [],
+      "labels": [
+        "Cartan disposal"
+      ],
+      "parents": [
+        "E185",
+        "E2688"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E213": {
+      "definition_terms": [],
+      "labels": [
+        "Connectedness"
+      ],
+      "parents": [
+        "E185"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E219": {
+      "definition_terms": [],
+      "labels": [
+        "Covariant differentiation"
+      ],
+      "parents": [
+        "E1324",
+        "E213"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2243": {
+      "definition_terms": [],
+      "labels": [
+        "Ideal"
+      ],
+      "parents": [
+        "E2144"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2271": {
+      "definition_terms": [],
+      "labels": [
+        "Ring"
+      ],
+      "parents": [
+        "E2144"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E23": {
+      "definition_terms": [],
+      "labels": [
+        "Theory of functions of a complex variable"
+      ],
+      "parents": [
+        "E1"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E231": {
+      "definition_terms": [],
+      "labels": [
+        "Fiber bundle"
+      ],
+      "parents": [
+        "E123"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2325": {
+      "definition_terms": [],
+      "labels": [
+        "Modulus"
+      ],
+      "parents": [
+        "E2144"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2361": {
+      "definition_terms": [],
+      "labels": [
+        "Submodule"
+      ],
+      "parents": [
+        "E2144"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2385": {
+      "definition_terms": [],
+      "labels": [
+        "System of algebraic equation"
+      ],
+      "parents": [
+        "E2143"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2407": {
+      "definition_terms": [],
+      "labels": [
+        "Axiom theory of chances"
+      ],
+      "parents": [
+        "E2406"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2410": {
+      "definition_terms": [],
+      "labels": [
+        "Probability"
+      ],
+      "parents": [
+        "E2406",
+        "E2895"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2468": {
+      "definition_terms": [],
+      "labels": [
+        "Order of autoregression model"
+      ],
+      "parents": [
+        "E2406"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2478": {
+      "definition_terms": [],
+      "labels": [
+        "Distribution"
+      ],
+      "parents": [
+        "E2406"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2544": {
+      "definition_terms": [],
+      "labels": [
+        "Random variable"
+      ],
+      "parents": [
+        "E2406"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E255": {
+      "definition_terms": [],
+      "labels": [
+        "Normal"
+      ],
+      "parents": [
+        "E254"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2637": {
+      "definition_terms": [],
+      "labels": [
+        "Stochastic process"
+      ],
+      "parents": [
+        "E2406"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2660": {
+      "definition_terms": [],
+      "labels": [
+        "Statistical model"
+      ],
+      "parents": [
+        "E2406"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2668": {
+      "definition_terms": [],
+      "labels": [
+        "Trajectory of stochastic process"
+      ],
+      "parents": [
+        "E2406"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2675": {
+      "definition_terms": [],
+      "labels": [
+        "Sample characteristic"
+      ],
+      "parents": [
+        "E2406"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2802": {
+      "definition_terms": [],
+      "labels": [
+        "Haar system"
+      ],
+      "parents": [
+        "E44"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E285": {
+      "definition_terms": [],
+      "labels": [
+        "Symplectic structure"
+      ],
+      "parents": [
+        "E123"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2851": {
+      "definition_terms": [],
+      "labels": [],
+      "parents": [
+        "E2844"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E289": {
+      "definition_terms": [],
+      "labels": [
+        "Zariski topology"
+      ],
+      "parents": [
+        "E123"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2895": {
+      "definition_terms": [],
+      "labels": [],
+      "parents": [
+        "E2844"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E2927": {
+      "definition_terms": [],
+      "labels": [],
+      "parents": [
+        "E2920"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E3147": {
+      "definition_terms": [],
+      "labels": [
+        "Zariski topology"
+      ],
+      "parents": [
+        "E1306"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E3150": {
+      "definition_terms": [],
+      "labels": [
+        "Correlation plane"
+      ],
+      "parents": [
+        "E1077"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E3156": {
+      "definition_terms": [],
+      "labels": [
+        "Cartan form"
+      ],
+      "parents": [
+        "E1712"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E3166": {
+      "definition_terms": [],
+      "labels": [],
+      "parents": [
+        "E3050"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E3170": {
+      "definition_terms": [],
+      "labels": [
+        "Chebyshev weight"
+      ],
+      "parents": [
+        "E1517"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E3171": {
+      "definition_terms": [],
+      "labels": [
+        "Weight space"
+      ],
+      "parents": [
+        "E1080"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E3176": {
+      "definition_terms": [],
+      "labels": [
+        "Integral operator"
+      ],
+      "parents": [
+        "E1227"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E3182": {
+      "definition_terms": [],
+      "labels": [
+        "Equation of evolution"
+      ],
+      "parents": [
+        "E2688"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E3192": {
+      "definition_terms": [],
+      "labels": [
+        "kernel of integral operator",
+        "Ядро интегрального оператора"
+      ],
+      "parents": [
+        "E1505"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E3206": {
+      "definition_terms": [],
+      "labels": [
+        "Convolution operator"
+      ],
+      "parents": [
+        "E1227"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E3217": {
+      "definition_terms": [],
+      "labels": [
+        "Image"
+      ],
+      "parents": [
+        "E847"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E3218": {
+      "definition_terms": [],
+      "labels": [
+        "Homomorphy"
+      ],
+      "parents": [
+        "E1324"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E3219": {
+      "definition_terms": [],
+      "labels": [
+        "Kernel"
+      ],
+      "parents": [
+        "E2351"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E3234": {
+      "definition_terms": [],
+      "labels": [
+        "Poisson structure"
+      ],
+      "parents": [
+        "E123"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E3244": {
+      "definition_terms": [],
+      "labels": [
+        "Jet"
+      ],
+      "parents": [
+        "E1301"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E3298": {
+      "definition_terms": [],
+      "labels": [
+        "Plane of complex numbers"
+      ],
+      "parents": [
+        "E1077"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E3299": {
+      "definition_terms": [],
+      "labels": [],
+      "parents": [
+        "E2844"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E339": {
+      "definition_terms": [],
+      "labels": [
+        "Problem"
+      ],
+      "parents": [
+        "E34"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E359": {
+      "definition_terms": [],
+      "labels": [
+        "Cauchy problem"
+      ],
+      "parents": [
+        "E349"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E39": {
+      "definition_terms": [],
+      "labels": [
+        "Christoffel symbol"
+      ],
+      "parents": [
+        "E36"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E40": {
+      "definition_terms": [],
+      "labels": [
+        "Clifford algebra"
+      ],
+      "parents": [
+        "E35",
+        "E850"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E536": {
+      "definition_terms": [],
+      "labels": [
+        "Adams method"
+      ],
+      "parents": [
+        "E499"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E59": {
+      "definition_terms": [],
+      "labels": [
+        "Locally geodesic frame"
+      ],
+      "parents": [
+        "E56"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E598": {
+      "definition_terms": [],
+      "labels": [
+        "Runge-Kutta method"
+      ],
+      "parents": [
+        "E499"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E86": {
+      "definition_terms": [],
+      "labels": [
+        "Curve"
+      ],
+      "parents": [
+        "E35",
+        "E847"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E866": {
+      "definition_terms": [],
+      "labels": [
+        "Sample",
+        "Sampling"
+      ],
+      "parents": [
+        "E2406",
+        "E847"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E928": {
+      "definition_terms": [],
+      "labels": [
+        "Manifold"
+      ],
+      "parents": [
+        "E847"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E934": {
+      "definition_terms": [],
+      "labels": [
+        "Jet manifolds"
+      ],
+      "parents": [
+        "E928"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E938": {
+      "definition_terms": [],
+      "labels": [
+        "Surface"
+      ],
+      "parents": [
+        "E2845",
+        "E928"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E956": {
+      "definition_terms": [],
+      "labels": [
+        "Cone"
+      ],
+      "parents": [
+        "E953"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "E982": {
+      "definition_terms": [],
+      "labels": [
+        "Lie group"
+      ],
+      "parents": [
+        "E1037",
+        "E980"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    }
+  },
+  "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f"
+}

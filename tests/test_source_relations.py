@@ -81,3 +81,43 @@ def test_universal_restriction_cannot_be_promoted_by_an_approval(tmp_path, monke
     write(tmp_path / f"{name}-decisions.json", approval)
     with pytest.raises(ValueError, match="No sound relation projection"):
         relations.apply_relations(catalog, canonical, mappings, Graph())
+
+
+def test_scoped_projection_reuses_existing_subject_and_preserves_original_role():
+    canonical, provenance = authored()
+    catalog = registry()
+    mappings = reviewed(catalog, canonical, provenance)
+    stats = relations.apply_relations(catalog, canonical, mappings, provenance)
+    edge = (C["mathmoddb-q6775615"], V.hasFormulationComponent, C["ontomath-pro-e3187"])
+    assert edge in canonical
+    witness, = provenance.objects(relations.statement_for(edge), PROV.wasDerivedFrom)
+    projection, = provenance.objects(witness, PROV.wasDerivedFrom)
+    native = URIRef(relations.MARDI + "Q6775613")
+    assert provenance.value(witness, RDF.object) == native
+    assert provenance.value(projection, RDF.object) == native
+    assert (C["ontomath-pro-e3187"], SKOS.exactMatch, native) not in mappings
+    cross = (C["mathmoddb-q6684606"], V.hasFormulationComponent, C["poisson-log-likelihood"])
+    assert cross in canonical
+    assert stats["mathmoddb"]["endpoint_resolution"]["reviewed_projections"] == 5
+    for source in stats.values():
+        assert sum(source["candidate_actions"].values()) == source["extracted"]
+    assert stats["mathmoddb"]["candidate_actions"]["exclude_profile_role"] > 0
+    assert stats["mathmoddb"]["candidate_actions"]["exclude_reviewed_application"] > 0
+    assert stats["ontomath-pro"]["candidate_actions"]["outside_relation_profile"] == 71
+
+
+def test_lexical_suggestion_remains_pending():
+    from pipeline.curate import endpoints
+    from rdflib import Literal
+    from pipeline.common import D
+
+    graph = Graph()
+    graph.add((C["kernel-method"], RDF.type, SKOS.Concept))
+    graph.add((C["kernel-method"], SKOS.prefLabel, Literal("Kernel method", lang="en")))
+    graph.add((C["kernel-method"], SKOS.inScheme, D.statistics))
+    info = {"labels": ["Kernel method"], "role": "class", "parents": [], "definition_terms": []}
+    result = endpoints.triage("stato", relations.OBO + "STATO_", {"edges": []},
+                              {"0000540": info}, {}, graph, Graph())
+    assert result["0000540"]["state"] == "review_mapping"
+    assert result["0000540"]["canonical"] == []
+    assert result["0000540"]["suggestions"][0]["label_match"]

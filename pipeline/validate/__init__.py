@@ -8,6 +8,7 @@ RELATIONS = {
     V.requiresAssumption, V.recognizesExactly, V.computes, V.guarantees,
     V.hasDiscretization, V.hasWeakFormulation, V.hasApproximation, V.hasModelingAssumption,
     V.appliesToModel, V.usesReferenceDistribution, V.estimates, V.hasFormulationComponent,
+    V.isSolutionOf, V.producesEstimate,
 }
 
 

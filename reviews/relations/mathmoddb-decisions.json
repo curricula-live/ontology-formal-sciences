@@ -306,6 +306,588 @@
         "P1560",
         "Q6775737",
         "The discretized plate model explicitly includes the discretized weak momentum equation."
+      ],
+      [
+        "Q6674260",
+        "P1656",
+        "Q6674268",
+        "Reviewed numerical formulation of the named source equation in its recorded setting."
+      ],
+      [
+        "Q6674308",
+        "P1656",
+        "Q6674356",
+        "Reviewed numerical formulation of the named source equation in its recorded setting."
+      ],
+      [
+        "Q6674363",
+        "P1674",
+        "Q6674362",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6674365",
+        "P1674",
+        "Q6674366",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6674365",
+        "P1674",
+        "Q6674367",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6675405",
+        "P1674",
+        "Q6674366",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6675405",
+        "P1674",
+        "Q6674367",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6675406",
+        "P1674",
+        "Q6674362",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6775745",
+        "P1674",
+        "Q6674362",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6775754",
+        "P1674",
+        "Q6674366",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6775754",
+        "P1674",
+        "Q6674367",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6821153",
+        "P1674",
+        "Q6674362",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6821153",
+        "P1674",
+        "Q6674366",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6821153",
+        "P1674",
+        "Q6674367",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6821405",
+        "P1674",
+        "Q6674362",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6821405",
+        "P1674",
+        "Q6674366",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6821405",
+        "P1674",
+        "Q6674367",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6822091",
+        "P1674",
+        "Q6674362",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6675331",
+        "P147",
+        "Q6534338",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6675331",
+        "P147",
+        "Q6684560",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6775296",
+        "P147",
+        "Q6775614",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6775296",
+        "P147",
+        "Q6775615",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6775736",
+        "P147",
+        "Q6775614",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6821153",
+        "P147",
+        "Q6821156",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6821153",
+        "P147",
+        "Q6821441",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6821153",
+        "P147",
+        "Q6821442",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6821405",
+        "P147",
+        "Q6821444",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6821405",
+        "P147",
+        "Q6821445",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6822091",
+        "P147",
+        "Q6822089",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6822168",
+        "P147",
+        "Q6822166",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6822168",
+        "P147",
+        "Q6822174",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6675332",
+        "P1560",
+        "Q6674147",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675333",
+        "P1560",
+        "Q6674147",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675405",
+        "P1560",
+        "Q6674365",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675405",
+        "P1560",
+        "Q6674368",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675405",
+        "P1560",
+        "Q6775754",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675406",
+        "P1560",
+        "Q6674363",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675406",
+        "P1560",
+        "Q6674368",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675406",
+        "P1560",
+        "Q6775745",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675408",
+        "P1560",
+        "Q6674577",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675441",
+        "P1560",
+        "Q6674578",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675441",
+        "P1560",
+        "Q6674579",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684551",
+        "P1560",
+        "Q6674147",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684551",
+        "P1560",
+        "Q6674150",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684552",
+        "P1560",
+        "Q6674147",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684552",
+        "P1560",
+        "Q6674150",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684552",
+        "P1560",
+        "Q6674301",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684558",
+        "P1560",
+        "Q6674144",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684558",
+        "P1560",
+        "Q6674147",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684558",
+        "P1560",
+        "Q6674150",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684561",
+        "P1560",
+        "Q6674142",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684561",
+        "P1560",
+        "Q6674147",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684561",
+        "P1560",
+        "Q6674150",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684562",
+        "P1560",
+        "Q6674147",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684562",
+        "P1560",
+        "Q6674148",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684562",
+        "P1560",
+        "Q6674150",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684570",
+        "P1560",
+        "Q6674144",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684570",
+        "P1560",
+        "Q6674147",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684570",
+        "P1560",
+        "Q6674150",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6775296",
+        "P1560",
+        "Q6775585",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6775614",
+        "P1560",
+        "Q6775737",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821153",
+        "P1560",
+        "Q6821154",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821153",
+        "P1560",
+        "Q6821397",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821153",
+        "P1560",
+        "Q6821398",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821156",
+        "P1560",
+        "Q6821158",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821402",
+        "P1560",
+        "Q6821403",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821405",
+        "P1560",
+        "Q6821397",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821405",
+        "P1560",
+        "Q6821404",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821405",
+        "P1560",
+        "Q6821446",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821441",
+        "P1560",
+        "Q6821439",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821442",
+        "P1560",
+        "Q6821443",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821444",
+        "P1560",
+        "Q6821397",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821444",
+        "P1560",
+        "Q6821404",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821445",
+        "P1560",
+        "Q6821446",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6822089",
+        "P1560",
+        "Q6822087",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6822091",
+        "P1560",
+        "Q6821397",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6822091",
+        "P1560",
+        "Q6822086",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6822091",
+        "P1560",
+        "Q6822090",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6822168",
+        "P1560",
+        "Q6822164",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6822168",
+        "P1560",
+        "Q6822169",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684551",
+        "P1560",
+        "Q6673771",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684551",
+        "P1560",
+        "Q6673772",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684551",
+        "P1560",
+        "Q6673773",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684552",
+        "P1560",
+        "Q6673771",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684552",
+        "P1560",
+        "Q6673772",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684552",
+        "P1560",
+        "Q6673773",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684561",
+        "P1560",
+        "Q6673771",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684561",
+        "P1560",
+        "Q6673772",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684561",
+        "P1560",
+        "Q6673773",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684562",
+        "P1560",
+        "Q6673771",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684562",
+        "P1560",
+        "Q6673772",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684562",
+        "P1560",
+        "Q6673773",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6775745",
+        "P1692",
+        "Q6675406",
+        "The solution record and model have the same documented approximation and forcing context."
+      ],
+      [
+        "Q6775754",
+        "P1692",
+        "Q6675405",
+        "The solution record and model have the same documented approximation and forcing context."
+      ],
+      [
+        "Q6821398",
+        "P1692",
+        "Q6821153",
+        "The solution record and model have the same documented approximation and forcing context."
+      ],
+      [
+        "Q6775615",
+        "P1560",
+        "Q6775613",
+        "The plate-specific FEM discretization explicitly includes the general finite element method, whose endpoint reuses the OntoMathPro-backed subject."
+      ],
+      [
+        "Q6684606",
+        "P1560",
+        "Q6674483",
+        "The numerical maximization task contains the Poisson log-likelihood for its count model. The function is a statistical subject, distinct from the optimization task."
       ]
     ],
     "rejected": [
@@ -320,9 +902,21 @@
         "P1736",
         "Q6775619",
         "The source subject specifies the elastostatic no-body-force limit. The target symbols and scope do not establish those restrictions on the generic weak momentum equation."
+      ],
+      [
+        "Q6674268",
+        "P1560",
+        "Q6674265",
+        "The source record references Euler formulas nearby. Forward Euler is not a defining component of the Verlet method."
+      ],
+      [
+        "Q6674268",
+        "P1560",
+        "Q6674269",
+        "Backward Euler and Verlet are distinct time discretizations. The generic contains annotation supplies no compound-method evidence."
       ]
     ]
   },
-  "profile_sha256": "7fff84f895797a7bfc450d25522024b705468f47037dff9775d0dd9c2801268f",
+  "profile_sha256": "72f3513f8f12533c66a22131a240e568d1eb8d6fa74ca80fa27e578a3ec7f42e",
   "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d"
 }

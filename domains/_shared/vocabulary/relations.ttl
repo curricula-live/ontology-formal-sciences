@@ -62,3 +62,11 @@ v:estimates a rdf:Property ; rdfs:label "estimates"@en ;
 v:hasFormulationComponent a rdf:Property ; rdfs:label "has formulation component"@en ;
     rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
     rdfs:comment "Links a documented mathematical model or task formulation to an equation, submodel or discretization it includes in the recorded context."@en .
+
+v:isSolutionOf a rdf:Property ; rdfs:label "is solution of"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links a documented solution to the mathematical model it satisfies in the recorded formulation and conditions."@en .
+
+v:producesEstimate a rdf:Property ; rdfs:label "produces estimate"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links a statistical estimation procedure to the type of estimate it returns in its applicable setting."@en .

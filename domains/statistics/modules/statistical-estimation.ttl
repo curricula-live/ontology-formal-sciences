@@ -20,3 +20,7 @@ c:confidence-interval a skos:Concept ; skos:prefLabel "Confidence interval"@en ;
 
 c:bias-of-an-estimator a skos:Concept ; skos:prefLabel "Bias of an estimator"@en ;
     skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:poisson-log-likelihood a skos:Concept ; skos:prefLabel "Poisson log-likelihood"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation ;
+    skos:definition "The log of the likelihood function under a Poisson count model. For independent observations the log-likelihood is the sum of their Poisson log mass functions evaluated at the observed counts."@en .

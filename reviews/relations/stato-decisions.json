@@ -126,6 +126,24 @@
         "target",
         "0000421",
         "The DerSimonian–Laird method estimates between-study variance."
+      ],
+      [
+        "0000119",
+        "output",
+        "0000144",
+        "Model parameter estimation yields an estimate of its model parameter in the documented setting."
+      ],
+      [
+        "0000428",
+        "output",
+        "0000144",
+        "The STATO likelihood estimation restriction identifies a model parameter estimate as the method output."
+      ],
+      [
+        "0000582",
+        "output",
+        "0000144",
+        "The source refers to the best linear unbiased estimator for a parameter in its applicable linear model."
       ]
     ],
     "rejected": [
@@ -164,9 +182,27 @@
         "input",
         "0000053",
         "The nominal significance level and realized false-positive probability may differ. This restriction cannot identify a reference distribution."
+      ],
+      [
+        "0000336",
+        "output",
+        "0000144",
+        "The predictor targets a random quantity. The generic model-parameter-estimate projection would erase the estimator–predictor distinction."
+      ],
+      [
+        "0000052",
+        "output",
+        "0000196",
+        "A test can be inverted to construct a confidence interval, but the ordinary test itself does not generally return an interval."
+      ],
+      [
+        "0000074",
+        "output",
+        "0000069",
+        "Degrees of freedom are part of a test's reference setup, not a statistical estimate returned by the test."
       ]
     ]
   },
-  "profile_sha256": "ac8d9a8792bdd01148ff26589c37f5e98277733ea9c3f6e679aa615f694ad7cb",
+  "profile_sha256": "fd150421e382f5c9431ef3d55bd53feaa5ec1894af4b5bc214e02afc080857ac",
   "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578"
 }
