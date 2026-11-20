@@ -127,7 +127,7 @@ E283	geometry	Total space of bundle
 E285	geometry	Symplectic structure
 E287	geometry	Pasch axiom
 E289	topology	Zariski topology
-E290	algebra	Fundamental group
+E290	topology	Fundamental group
 E292	geometry	Equiaffine structure
 E293	geometry	Point
 E294	geometry	Point at infinity

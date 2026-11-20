@@ -342,7 +342,7 @@
   },
   "license": "CC-BY-3.0 (embedded imports have separate notices)",
   "modules": {
-    "domains/statistics/modules/batches/stato-distributions.ttl": "692bfaa15b803bd60bbe4c126f5bb1e1262a5c7578f4bda44f55003c44facc5e",
+    "domains/statistics/modules/batches/stato-distributions.ttl": "c1885806ddf7e23069fd8c04fb5e3c8bf43d204ad917fb6810201d0d99dbbcaa",
     "domains/statistics/modules/batches/stato-experimental-design.ttl": "58889a90987e326184b0dd7017a880dc8a1e855e6ec069c2a56b22e10bca722f",
     "domains/statistics/modules/batches/stato-hypothesis-tests.ttl": "b3ad71c51cbdbe1d4b8c50d5251af7684669373245c93b6b10c991d9f193c20d",
     "domains/statistics/modules/batches/stato-sampling-and-imputation.ttl": "6067103891dda63bab7ddb5a68eb8e9fe83f28a49431c4882f72e95b50fd1d5c",

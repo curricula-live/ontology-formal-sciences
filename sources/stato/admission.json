@@ -87,6 +87,7 @@
     "0624": "Disambiguate the Gini coefficient from the Gini impurity measure."
   },
   "labels": {
+    "0529": "Location-scale t distribution",
     "0017": "Wilks' lambda distribution",
     "0030": "Chi-square statistic",
     "0035": "Range (statistics)",
@@ -154,6 +155,7 @@
     "0645": "Rate per unit time"
   },
   "parents": {
+    "0529": ["probability-distributions"],
     "0033": ["0029"],
     "0070": ["0081"],
     "0078": ["0137"],

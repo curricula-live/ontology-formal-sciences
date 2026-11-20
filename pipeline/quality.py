@@ -5,9 +5,25 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from rdflib import RDF, SKOS, URIRef
-from rdflib.namespace import PROV
+from rdflib.namespace import DCTERMS, PROV
 
-from pipeline.common import BASE, D, ROOT, read, registry
+from pipeline.common import BASE, D, ROOT, V, read, registry
+
+
+def components(concepts, neighbors):
+    remaining = concepts.copy()
+    component_sizes = []
+    while remaining:
+        queue = [remaining.pop()]
+        size = 0
+        while queue:
+            current = queue.pop()
+            size += 1
+            new = neighbors[current].intersection(remaining)
+            queue.extend(new)
+            remaining.difference_update(new)
+        component_sizes.append(size)
+    return component_sizes
 
 
 def graph_metrics(graph, prov):
@@ -32,18 +48,25 @@ def graph_metrics(graph, prov):
                 cross_domain[str(predicate)] += 1
             neighbors[subject].add(obj)
             neighbors[obj].add(subject)
-    remaining = concepts.copy()
-    component_sizes = []
-    while remaining:
-        queue = [remaining.pop()]
-        size = 0
-        while queue:
-            current = queue.pop()
-            size += 1
-            new = neighbors[current].intersection(remaining)
-            queue.extend(new)
-            remaining.difference_update(new)
-        component_sizes.append(size)
+    component_sizes = components(concepts, neighbors)
+    scientific = defaultdict(set)
+    scientific_counts = Counter()
+    cross_science = 0
+    cited = {
+        (prov.value(statement, RDF.subject), prov.value(statement, RDF.predicate),
+         prov.value(statement, RDF.object))
+        for statement in prov.subjects(DCTERMS.source)
+    }
+    cited_edges = 0
+    for subject, predicate, obj in graph:
+        if subject in concepts and obj in concepts and str(predicate).startswith(str(V)):
+            scientific_counts[str(predicate)] += 1
+            scientific[subject].add(obj)
+            scientific[obj].add(subject)
+            cross_science += owners[subject] != owners[obj]
+            cited_edges += (subject, predicate, obj) in cited
+    participating = set(scientific)
+    science_components = components(participating, scientific)
 
     return {
         "concepts_by_scheme": dict(domains),
@@ -54,6 +77,17 @@ def graph_metrics(graph, prov):
         "connected_components": len(component_sizes),
         "largest_component": max(component_sizes, default=0),
         "isolated_concepts": sum(not neighbors[term] for term in concepts),
+        "scientific_connectivity": {
+            "relations": sum(scientific_counts.values()),
+            "relations_by_predicate": dict(scientific_counts),
+            "cited_relations": cited_edges,
+            "cross_domain_relations": cross_science,
+            "participating_concepts": len(participating),
+            "participating_by_scheme": dict(Counter(owners[term] for term in participating)),
+            "concepts_without_specific_relations": len(concepts - participating),
+            "components_with_edges": len(science_components),
+            "largest_component": max(science_components, default=0),
+        },
     }
 
 

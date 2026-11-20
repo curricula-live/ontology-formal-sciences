@@ -145,9 +145,9 @@ c:stato-0000501 a skos:Concept ;
     skos:broader c:stato-0000067 .
 
 c:stato-0000529 a skos:Concept ;
-    skos:prefLabel "Scaled t distribution"@en ;
+    skos:prefLabel "Location-scale t distribution"@en ;
     skos:inScheme scheme:statistics ;
-    skos:broader c:stato-0000059 .
+    skos:broader c:probability-distributions .
 
 c:stato-0000538 a skos:Concept ;
     skos:prefLabel "Continuous multivariate probability distribution"@en ;

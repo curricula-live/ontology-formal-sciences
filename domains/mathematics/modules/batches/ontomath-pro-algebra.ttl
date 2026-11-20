@@ -23,9 +23,6 @@ c:ontomath-pro-e172 a skos:Concept ; skos:prefLabel "Long exact sequence"@en ;
 c:ontomath-pro-e173 a skos:Concept ; skos:prefLabel "Short exact sequence"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:algebra .
 
-c:ontomath-pro-e290 a skos:Concept ; skos:prefLabel "Fundamental group"@en ;
-    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
-
 c:ontomath-pro-e983 a skos:Concept ; skos:prefLabel "Lie algebra"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:algebra .
 

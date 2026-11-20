@@ -204,7 +204,7 @@ c:opencs-c29014 a skos:Concept ; skos:prefLabel "Link Layer Discovery Protocol"@
     skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
 
 c:opencs-c29123 a skos:Concept ; skos:prefLabel "Population protocol"@en ;
-    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+    skos:inScheme scheme:computer-science ; skos:broader c:distributed-computing .
 
 c:opencs-c29125 a skos:Concept ; skos:prefLabel "Fast Ethernet"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c490 .

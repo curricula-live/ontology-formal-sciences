@@ -3547,7 +3547,7 @@
 <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e289> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e289> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zariski topology"@en .
 <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e290> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://curricula.live/id/formal-sciences/concept/ontomath-pro-e290> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algebra> .
+<https://curricula.live/id/formal-sciences/concept/ontomath-pro-e290> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/topology> .
 <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e290> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e290> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fundamental group"@en .
 <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e292> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -5830,7 +5830,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c29024> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c29024> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hierarchical clustering"@en .
 <https://curricula.live/id/formal-sciences/concept/opencs-c29123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://curricula.live/id/formal-sciences/concept/opencs-c29123> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-networks> .
+<https://curricula.live/id/formal-sciences/concept/opencs-c29123> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/distributed-computing> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c29123> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c29123> <http://www.w3.org/2004/02/skos/core#prefLabel> "Population protocol"@en .
 <https://curricula.live/id/formal-sciences/concept/opencs-c29125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -9647,9 +9647,9 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000527> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000527> <http://www.w3.org/2004/02/skos/core#prefLabel> "Denominator degrees of freedom"@en .
 <https://curricula.live/id/formal-sciences/concept/stato-0000529> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://curricula.live/id/formal-sciences/concept/stato-0000529> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000059> .
+<https://curricula.live/id/formal-sciences/concept/stato-0000529> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/probability-distributions> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000529> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
-<https://curricula.live/id/formal-sciences/concept/stato-0000529> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scaled t distribution"@en .
+<https://curricula.live/id/formal-sciences/concept/stato-0000529> <http://www.w3.org/2004/02/skos/core#prefLabel> "Location-scale t distribution"@en .
 <https://curricula.live/id/formal-sciences/concept/stato-0000530> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000530> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stato-0000107> .
 <https://curricula.live/id/formal-sciences/concept/stato-0000530> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .

@@ -26,6 +26,9 @@ c:ontomath-pro-e183 a skos:Concept ; skos:prefLabel "Soft sheaf"@en ;
 c:ontomath-pro-e289 a skos:Concept ; skos:prefLabel "Zariski topology"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:topology .
 
+c:ontomath-pro-e290 a skos:Concept ; skos:prefLabel "Fundamental group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:topology .
+
 c:ontomath-pro-e321 a skos:Concept ; skos:prefLabel "Adherent point"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:topology .
 

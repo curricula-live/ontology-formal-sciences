@@ -3,9 +3,9 @@ import shutil
 
 import pytest
 from rdflib import Graph, RDF, SKOS, URIRef
-from rdflib.namespace import PROV
+from rdflib.namespace import DCTERMS, PROV
 
-from pipeline.common import BASE, C, D, ROOT, checksum, read
+from pipeline.common import BASE, C, D, ROOT, V, checksum, read
 from pipeline.package_check import verify
 from pipeline.quality import comparison, graph_metrics
 from pipeline.reason import reason
@@ -25,6 +25,24 @@ def test_connectivity_counts_only_asserted_concept_edges():
     assert result["largest_component"] == 2
     assert result["cross_domain_relation_counts"] == {str(SKOS.related): 1}
     assert result["concepts_by_scheme"] == {"mathematics": 2, "computer-science": 1}
+    assert result["scientific_connectivity"]["participating_concepts"] == 0
+
+    graph.add((C.isolate, V.uses, C.graph))
+    statement = URIRef("urn:test:evidenced-edge")
+    for predicate, obj in (
+        (RDF.subject, C.isolate), (RDF.predicate, V.uses), (RDF.object, C.graph),
+        (DCTERMS.source, URIRef("urn:test:reference")),
+    ):
+        prov.add((statement, predicate, obj))
+    result = graph_metrics(graph, prov)
+    assert result["connected_components"] == 1
+    science = result["scientific_connectivity"]
+    assert science["participating_concepts"] == 2
+    assert science["concepts_without_specific_relations"] == 1
+    assert science["largest_component"] == 2
+    assert science["cited_relations"] == 1
+    assert science["cross_domain_relations"] == 0
+
 
 
 def test_comparison_excludes_unmeasured_indicators():

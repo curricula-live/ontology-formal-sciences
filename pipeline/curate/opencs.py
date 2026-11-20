@@ -190,12 +190,15 @@ def outputs(source, terms, policy, existing, decisions):
                 raise ValueError(f"Unwitnessed OpenCS direct hierarchy: {child} -> {parent}")
             if child in minted and parent in minted:
                 reviewed_parents[child].add(parent)
+    overrides = policy.get("editorial_broader", {})
+    if missing := overrides.keys() - minted.keys():
+        raise ValueError(f"OpenCS broader overrides must target admitted topics: {sorted(missing)}")
     witnesses = ["id\tcanonical\tmodule\tscope_path\tclose_match\tpublished_direct_parents"]
     identities = {}
     for source_id, (family, label, path) in sorted(minted.items()):
         slug = "opencs-" + source_id.lower()
         identities[UPSTREAM + source_id] = slug
-        broader = policy["families"][family]["broader"]
+        broader = overrides.get(source_id, policy["families"][family]["broader"])
         parents = [f"c:{broader}"] + ["c:opencs-" + p.lower() for p in sorted(reviewed_parents[source_id])]
         groups[family].append(
             f"c:{slug} a skos:Concept ; skos:prefLabel {Literal(label, lang='en').n3()} ;\n"

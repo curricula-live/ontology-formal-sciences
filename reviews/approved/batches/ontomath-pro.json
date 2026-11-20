@@ -876,7 +876,7 @@
   "license": "Apache-2.0",
   "modules": {
     "domains/computer-science/modules/batches/ontomath-pro-computability-theory.ttl": "0b3f24a22fc288ad272643fac18de90c9acdfac9138d2ac86d0fea53d7396900",
-    "domains/mathematics/modules/batches/ontomath-pro-algebra.ttl": "a481b6257bbf6adae6aafc4f284e4b28afe545692ebdf6661458b4acb0bd4b05",
+    "domains/mathematics/modules/batches/ontomath-pro-algebra.ttl": "e05d27c581758e101db3821b4310b92ad9d97103eb473d53b938a135d4b278d9",
     "domains/mathematics/modules/batches/ontomath-pro-calculus.ttl": "db34b06fe3fcc90eec2b9d288a36b2dc1f5c37ecc1fc2ac19a02d1719cdc1798",
     "domains/mathematics/modules/batches/ontomath-pro-differential-equations.ttl": "9db9bee0bc66d51bf98d886ba4a5de9178fbb00ff108e8a103f06e297ed1db93",
     "domains/mathematics/modules/batches/ontomath-pro-geometry.ttl": "da3aa16e51e15f9977eb828d44347db69015c79abf6dd05b37552940361a8437",
@@ -887,7 +887,7 @@
     "domains/mathematics/modules/batches/ontomath-pro-numerical-analysis.ttl": "19e8abad4de756a9f4f8488179a04321c524ff9ac79fd9d25f0194ed58242b65",
     "domains/mathematics/modules/batches/ontomath-pro-ring.ttl": "99fa24cbb329a900e2eb720fc284c4d2a2a32b7d1aa8e2e19167ae21a69b8580",
     "domains/mathematics/modules/batches/ontomath-pro-set-theory.ttl": "4ae7a7df21acd06cd5e0ab94e67df26bcb29970d7c10c85c7d4126df99b0aacb",
-    "domains/mathematics/modules/batches/ontomath-pro-topology.ttl": "00daa628570f5e92cbdb7188d018b24440d615db4aa083198296340e3b9a2aaf",
+    "domains/mathematics/modules/batches/ontomath-pro-topology.ttl": "91e2a6669bc3b9b9f4181aed0f0fa324d464d6503f150ee964724955925e3c3d",
     "domains/statistics/modules/batches/ontomath-pro-hypothesis-testing.ttl": "1ec35ca22168ec1630b475d3841c0f978bb7e6de6f367c2c7accb78f647b448b",
     "domains/statistics/modules/batches/ontomath-pro-probability-distributions.ttl": "a039fe7230ca760d9fcc87c1fc07df4040b06d9e69296c5e795bdf88bcbb14c4",
     "domains/statistics/modules/batches/ontomath-pro-probability-theory.ttl": "f88f78710c6916c3b987afe63c666e7dd1ed62e34484f45fcacfb9224a7d33d2",
