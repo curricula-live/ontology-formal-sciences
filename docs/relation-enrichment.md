@@ -120,3 +120,34 @@ documented field, problem, model and task paths. Shared modeling tasks
 with incoming models outside those reviewed application fields remain
 eligible for further review. These categories preserve the candidate
 ledger and explain the current publication boundary.
+
+## Native neighborhoods and role review in v0.7.0
+
+Run `python -m pipeline.cli replay-neighborhood --source opencs --offline`
+or use `--source ontomath-pro`. The report checks the source revision and
+the digest of the exact identities, class references and negative mapping
+decisions used to classify endpoints. A neighborhood can have two canonical
+endpoints and still express only a topical, subclass or disjointness
+relationship. The full declared predicates retain their native meaning.
+
+The OpenCS shared-anchor queue compares native `skos:closeMatch` links
+with explicit `owl:sameAs` DBpedia references in approved CSO source
+witnesses. The queue keeps both upstream subjects and the shared anchor.
+It distinguishes agreement with an existing mapping, multiple eligible
+topics, and rejected candidate pairs. Shared anchors guide editorial
+review. The registered CSO profile can also replay its pinned source
+directly when the bytes are available.
+
+A STATO input restriction can refer to a statistic, a model, an observation
+assumption or a reference distribution. The release checks that a default
+reference-law projection has a canonical distribution endpoint. A
+reviewed alternative projection records a specific source pair and role,
+such as a test using its statistic or a modeling procedure computing a
+diagnostic. Source provenance still identifies the original OWL existential
+restriction. The release records unresolved non-reference inputs separately
+from missing canonical subjects.
+
+Every scientific edge can contribute once to each applicable evidence-type
+or source cohort. The full scientific and evidence-backed views deduplicate
+the edges. The manifest includes per-predicate evidence counts, participation
+by scheme and evidence-backed component-size distributions.

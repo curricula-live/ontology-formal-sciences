@@ -2528,5 +2528,49 @@
     "reviewer": "v0.6.0 pinned-source editorial audit",
     "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
     "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/curry-howard-correspondence",
+    "evidence": "<https://w3id.org/ocs/ont/C16614> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C16614> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C13255> .\n<https://w3id.org/ocs/ont/C16614> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C13511> .\n<https://w3id.org/ocs/ont/C16614> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C1631> .\n<https://w3id.org/ocs/ont/C16614> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Curry–Howard_correspondence> .\n<https://w3id.org/ocs/ont/C16614> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Curry–Howard correspondence\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C16614",
+    "id": "opencs-v07-review-c16614",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The explicit reference and lambda-calculus neighborhood identify the propositions-as-types correspondence already described by the canonical topic.",
+    "reviewer": "v0.7.0 pinned-source editorial review",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/kleene-recursion-theorem",
+    "evidence": "<https://w3id.org/ocs/ont/C1096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C1096> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C19> .\n<https://w3id.org/ocs/ont/C1096> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Kleene_fixed-point_theorem> .\n<https://w3id.org/ocs/ont/C1096> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Kleene fixed-point theorem\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C1096",
+    "id": "opencs-v07-review-c1096",
+    "predicate": "http://www.w3.org/2004/02/skos/core#closeMatch",
+    "rationale": "The source uses the alternate fixed-point name for Kleene's recursion theorem. The separate C15800 topic also has reviewed evidence for this semantic theorem.",
+    "reviewer": "v0.7.0 pinned-source editorial review",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/logic",
+    "evidence": "<http://cll.niimm.ksu.ru/ontologies/mathematics#E18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E18> <http://www.w3.org/2000/01/rdf-schema#label> \"Mathematical logic\"@en .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E18> <http://www.w3.org/2000/01/rdf-schema#label> \"Математическая логика\" .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E18> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cll.niimm.ksu.ru/ontologies/mathematics#E1> .\n",
+    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E18",
+    "id": "ontomath-pro-v07-review-e18",
+    "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "rationale": "The named OWL class concerns mathematical logic. It is a relevant class reference for the formal-sciences logic scheme and has a different modeling level from the canonical topic.",
+    "reviewer": "v0.7.0 pinned-source editorial review",
+    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
+    "source": "ontomath-pro"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/complex-plane",
+    "evidence": "<http://cll.niimm.ksu.ru/ontologies/mathematics#E3298> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E3298> <http://www.w3.org/2000/01/rdf-schema#label> \"Plane of complex numbers\"@en .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E3298> <http://www.w3.org/2000/01/rdf-schema#label> \"комплексная плоскость\"@ru .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E3298> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cll.niimm.ksu.ru/ontologies/mathematics#E1077> .\n",
+    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E3298",
+    "id": "ontomath-pro-v07-review-e3298",
+    "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "rationale": "The source names the plane of complex numbers. The canonical topic covers the rectangular representation; its coordinate equivalence has a separate Mathlib declaration witness.",
+    "reviewer": "v0.7.0 pinned-source editorial review",
+    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
+    "source": "ontomath-pro"
   }
 ]

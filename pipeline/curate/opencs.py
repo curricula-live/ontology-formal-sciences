@@ -16,14 +16,14 @@ from urllib.parse import unquote
 from pyoxigraph import Literal as OxLiteral, NamedNode
 from rdflib import Graph, Literal, RDF, SKOS
 
-from pipeline.common import BASE, C, ROOT, read, registry
+from pipeline.common import BASE, C, D, ROOT, read, registry
+from pipeline.curate import DOMAINS
 from pipeline.parse import ingest, staged
 
 SOURCE = "opencs"
 UPSTREAM = "https://w3id.org/ocs/ont/"
 DBPEDIA = "http://dbpedia.org/resource/"
 DIGEST = "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5"
-MODULES = Path("domains/computer-science/modules/batches")
 LEDGER = Path("reviews/approved/batches/opencs.json")
 QUEUE = Path("reviews/pending/batches/opencs.json")
 EVIDENCE = Path("sources/opencs/admission-witnesses.tsv")
@@ -145,6 +145,13 @@ def project(terms, policy, existing, decisions):
         match = classify(terms, source_id, families)
         if match:
             candidates[source_id] = match
+    for source_id, entry in policy.get("reviewed_topics", {}).items():
+        topic = terms.get(source_id)
+        if (topic is None or topic.labels != {entry["label"]}
+                or topic.references != {entry["anchor"]}
+                or entry["native_parent"] not in topic.parents or not entry["scope"].strip()):
+            raise ValueError(f"Reviewed OpenCS topic witness changed: {source_id}")
+        candidates[source_id] = (entry["family"], entry["label"], (source_id, entry["native_parent"]))
 
     by_key = defaultdict(set)
     for source_id, (_, label, _) in candidates.items():
@@ -195,17 +202,32 @@ def outputs(source, terms, policy, existing, decisions):
         raise ValueError(f"OpenCS broader overrides must target admitted topics: {sorted(missing)}")
     witnesses = ["id\tcanonical\tmodule\tscope_path\tclose_match\tpublished_direct_parents"]
     identities = {}
+    reviewed = policy.get("reviewed_topics", {})
+    owners = {}
+    if reviewed:
+        for path in sorted(ROOT.glob("domains/*/modules/**/*.ttl")):
+            if "batches" not in path.parts:
+                owners.update(Graph().parse(path).subject_objects(SKOS.inScheme))
     for source_id, (family, label, path) in sorted(minted.items()):
         slug = "opencs-" + source_id.lower()
         identities[UPSTREAM + source_id] = slug
-        broader = overrides.get(source_id, policy["families"][family]["broader"])
+        if source_id in reviewed:
+            broader = reviewed[source_id]["broader"]
+            domain = str(owners.get(C[broader])).removeprefix(str(D))
+            if domain not in DOMAINS:
+                raise ValueError(f"Unknown OpenCS reviewed parent: {broader}")
+        else:
+            broader = overrides.get(source_id, policy["families"][family]["broader"])
+            domain = "computer-science"
         parents = [f"c:{broader}"] + ["c:opencs-" + p.lower() for p in sorted(reviewed_parents[source_id])]
-        groups[family].append(
+        scope = f" ;\n    skos:definition {Literal(reviewed[source_id]['scope'], lang='en').n3()}" if source_id in reviewed else ""
+        groups[domain, family].append(
             f"c:{slug} a skos:Concept ; skos:prefLabel {Literal(label, lang='en').n3()} ;\n"
-            f"    skos:inScheme scheme:computer-science ; skos:broader {", ".join(parents)} .\n"
+            f"    skos:inScheme scheme:{domain} ; skos:broader {', '.join(parents)}{scope} .\n"
         )
         witnesses.append("\t".join((source_id, slug, family, ">".join(path), next(iter(terms[source_id].references)), ",".join(sorted(reviewed_parents[source_id])) or "-")))
-    files = {MODULES / f"opencs-{family}.ttl": HEADER+"\n".join(rows) for family, rows in groups.items()}
+    files = {Path(f"domains/{domain}/modules/batches/opencs-{family}.ttl"): HEADER+"\n".join(rows)
+             for (domain, family), rows in groups.items()}
     ledger = {
         "source": SOURCE, "sha256": DIGEST, "revision": source["revision"], "license": source["license"],
         "policy": "OpenCS subject-family admission v1. Reviewed naming families, taxonomic scope and concordant topic referents. See sources/opencs/admission-policy.json and admission-witnesses.tsv.",
@@ -239,7 +261,7 @@ def replay(offline=False, write=False):
         for row in read(ROOT / "reviews" / state / "mappings.json") if row["source"] == SOURCE
     }
     files = outputs(source, terms, read(ROOT / POLICY), editorial_index(), decisions)
-    extra = set((ROOT / MODULES).glob("opencs-*.ttl")) - {ROOT / p for p in files}
+    extra = set(ROOT.glob("domains/*/modules/batches/opencs-*.ttl")) - {ROOT / p for p in files}
     if extra:
         raise ValueError(f"Stale generated modules require explicit review: {extra}")
     for path, content in files.items():

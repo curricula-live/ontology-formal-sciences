@@ -4,6 +4,8 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 v:uses a rdf:Property ; rdfs:label "uses"@en ; rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
  rdfs:comment "From a method or construct to a mathematical or computational ingredient it employs. Directional; no closure rule."@en .
+v:proves a rdf:Property ; rdfs:label "proves"@en ; rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+ rdfs:comment "From a scoped proof subject to the mathematical statement it establishes. Its witnesses document the proof and the conditions of the statement."@en .
 v:solves a rdf:Property ; rdfs:label "solves"@en ; rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
  rdfs:comment "From an algorithm to the problem it solves under its applicability conditions. Does not imply every instance satisfies those conditions."@en .
 

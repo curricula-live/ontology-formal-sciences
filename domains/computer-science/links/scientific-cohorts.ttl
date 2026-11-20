@@ -1,0 +1,13 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+
+c:rice-fixed-point-proof v:uses c:kleene-recursion-theorem .
+c:rice-fixed-point-proof v:proves c:opencs-c43294 .
+c:fixed-input-halting v:hasProperty c:fixed-input-halting-undecidability .
+c:fixed-input-halting-rice-proof v:uses c:opencs-c43294 .
+c:fixed-input-halting-rice-proof v:proves c:fixed-input-halting-undecidability .
+c:fixed-input-halting v:hasProperty c:fixed-input-halting-enumerability .
+c:opencs-c21398 v:hasProperty c:dfa-concatenation-evaluation .
+c:opencs-c22977 v:hasProperty c:kleene-star-membership-law .
+c:regular-expression-star-semantics v:uses c:opencs-c22977 .

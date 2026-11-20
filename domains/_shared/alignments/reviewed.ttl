@@ -419,3 +419,11 @@
 <https://curricula.live/id/formal-sciences/concept/empty-set> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E1171> .
 
 <https://curricula.live/id/formal-sciences/concept/boolean-nand> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/ocs/ont/C14021> .
+
+<https://curricula.live/id/formal-sciences/concept/curry-howard-correspondence> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C16614> .
+
+<https://curricula.live/id/formal-sciences/concept/kleene-recursion-theorem> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/ocs/ont/C1096> .
+
+<https://curricula.live/id/formal-sciences/concept/logic> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E18> .
+
+<https://curricula.live/id/formal-sciences/concept/complex-plane> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E3298> .

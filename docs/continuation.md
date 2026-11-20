@@ -127,3 +127,55 @@ scientific edges, 367 concepts participate in 62 components, with 55
 concepts in the largest. The corresponding v0.4.0 sizes were 286, 54
 and 33. See the [semantic audit](semantic-audit-v0.5.md) and the
 [endpoint replay guide](relation-enrichment.md).
+
+## 0.6.0 completed scope
+
+OpenMath, ML-Schema and selected Mathlib declarations joined the MathModDB
+and STATO evidence profiles. The release contained 2,751 canonical
+subjects and 534 scientific statements, including 514 with evidence.
+Scientific statements touched 480 subjects. The largest evidence-backed
+component contained 85 subjects, and 67 evidenced edges crossed schemes.
+The audit reviewed 40 cases, clarified four subjects and recorded 12
+withheld interpretations. [v0.6.0 semantic audit](semantic-audit-v0.6.md)
+
+## 0.7.0 completed scope
+
+The release contains 2,849 subjects and 702 specific scientific edges.
+There are 682 evidence-backed edges, touching 556 subjects in 70
+components. The largest evidence-backed component has 199 subjects.
+Evidenced cross-scheme edges increased from 67 to 82. OpenMath now
+reviews 190 formal properties from 23 content dictionaries. STATO
+distinguishes test statistics, reference laws and computed diagnostics.
+Reviewed OpenCS subjects extend logic, proof theory and computability.
+Full native-neighborhood counts identify OpenCS and OntoMathPro endpoint
+limitations. Shared DBpedia anchors join OpenCS evidence with approved
+CSO witnesses for review. The Mathlib index records visible declaration
+headers in 8,728 source files and preserves selected proof occurrences
+with exact source anchors.
+
+The manifest reports participation and evidence by scheme, predicate, type
+and source. Individual competency queries demonstrate the statistical use
+of multiset multiplicity, the use of derivative rules in automatic
+differentiation, and the separate roles of a proof, a result and a named
+ingredient. Common operation subjects connect many of the new expressions.
+The local manifest also records source-specific gaps.
+[v0.7.0 semantic audit](semantic-audit-v0.7.md)
+
+## Remaining milestones
+
+- Ground scientific claims for the 2,272 subjects outside the scientific
+  subgraph. Prioritize existing concept neighborhoods in probability,
+  program semantics, proof theory and discrete mathematics, with scoped
+  independent witnesses where native predicates express topical association.
+- Reproduce the full CSO neighborhood against the pinned bytes. The cloud
+  workspace cannot fetch the registered CSO host. Existing mapping
+  evidence can replay in GitHub CI.
+- Review unresolved OpenMath dictionary scope and symbol identities,
+  including references to absent symbols. Preserve the corrected scope of
+  formula statements across subsequent snapshots.
+- Establish a pinned Lean toolchain and object environment to export
+  elaborated types and actual proof dependencies. Report those separately
+  from the textual declaration and import indexes.
+- Finish source acquisitions and rights verification for OntoMathEdu,
+  ACM CCS and DMOP. Retain quantified OWL meaning and native identifiers
+  in source review. Continue benchmark work before million-triple releases.

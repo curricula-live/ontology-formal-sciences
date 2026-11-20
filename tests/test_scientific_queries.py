@@ -99,6 +99,32 @@ def test_published_competencies():
     assert reduction["composition"] == str(C["many-one-reduction-transitivity"])
     assert reduction["topic"] == str(C["function-composition"])
     assert reduction["declaration"] == "ManyOneReducible.trans"
+    empirical = result["empirical-multiset-frequency"]
+    assert {row["ingredient"] for row in empirical} == {
+        str(C["multiset-multiplicity"]), str(C["multiset-cardinality"]),
+    }
+    assert {row["extraction"] for row in empirical} == {"textual source excerpt"}
+    derivative, = result["automatic-differentiation-product-rule"]
+    assert derivative["declaration"] == "HasDerivAt.mul"
+    assert len(derivative["expression"]) == 64
+    halting, = result["rice-halting-proof"]
+    assert halting["theorem"] == str(C["opencs-c43294"])
+    assert halting["declaration"] == "ComputablePred.halting_problem"
+    assert halting["textualReference"] == "rice"
+    assert {row["shape"] for row in result["openmath-rounding-guard"]} == {"quant1:forall/logic1:implies"}
+    assert "http://www.openmath.org/cd/set1#in" in {
+        row["guardSymbol"] for row in result["openmath-rounding-guard"]
+    }
+    coordinates, = result["ontomath-complex-coordinates"]
+    assert coordinates["number"] == str(C["ontomath-pro-e2127"])
+    assert coordinates["declaration"] == "Complex.equivRealProd"
+    welch_roles = result["welch-test-input-roles"]
+    assert {(row["role"], row["input"]) for row in welch_roles} == {
+        (str(V.uses), str(C["stato-0000176"])),
+        (str(V.usesReferenceDistribution), str(C["stato-0000059"])),
+    }
+    assert {row["nativePredicate"] for row in welch_roles} == {"http://purl.obolibrary.org/obo/OBI_0000293"}
+    assert {row["axiom"] for row in welch_roles} == {"subclass-some"}
 
 
 def test_every_new_scientific_claim_has_a_citation_and_no_implicit_inverse():
@@ -107,7 +133,7 @@ def test_every_new_scientific_claim_has_a_citation_and_no_implicit_inverse():
     for path in (ROOT / "domains").rglob("*.ttl"):
         if path.parent.name in {"links", "bridges"} and path.name in {
             "scientific-methods.ttl", "foundations.ttl", "advanced-methods.ttl", "semantic-resolution.ttl",
-            "interdisciplinary.ttl",
+            "interdisciplinary.ttl", "scientific-cohorts.ttl",
         }:
             claims.parse(path)
     directional = {triple for triple in claims if triple[1] != SKOS.broader}

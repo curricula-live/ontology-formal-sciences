@@ -370,5 +370,175 @@
   "editorial_broader": {
     "C29123": "distributed-computing",
     "C17053": "inductive-rule-learning"
+  },
+  "reviewed_topics": {
+    "C11287": {
+      "anchor": "http://dbpedia.org/resource/Church–Kleene_ordinal",
+      "broader": "set-theory",
+      "family": "logic-and-foundations",
+      "label": "Church–Kleene ordinal",
+      "native_parent": "C19",
+      "scope": "The least nonrecursive ordinal, equivalently the supremum of the order types of computable well-orderings of the natural numbers."
+    },
+    "C11706": {
+      "anchor": "http://dbpedia.org/resource/Kleene_algebra",
+      "broader": "algebra",
+      "family": "logic-and-foundations",
+      "label": "Kleene algebra",
+      "native_parent": "C10",
+      "scope": "An idempotent semiring equipped with a star operation satisfying star-unfolding and induction axioms."
+    },
+    "C17709": {
+      "anchor": "http://dbpedia.org/resource/Skolem_normal_form",
+      "broader": "automated-reasoning",
+      "family": "logic-and-foundations",
+      "label": "Skolem normal form",
+      "native_parent": "C2418",
+      "scope": "A first-order formula with existential quantifiers eliminated using fresh Skolem functions or constants, leaving a universal quantifier prefix, in the usual satisfiability-preserving transformation."
+    },
+    "C18045": {
+      "anchor": "http://dbpedia.org/resource/Explicit_substitution",
+      "broader": "type-theory",
+      "family": "logic-and-foundations",
+      "label": "Explicit substitution",
+      "native_parent": "C1631",
+      "scope": "The treatment of substitutions as syntactic constructs with their own rules for propagation or evaluation."
+    },
+    "C18772": {
+      "anchor": "http://dbpedia.org/resource/Intuitionistic_type_theory",
+      "broader": "type-theory",
+      "family": "logic-and-foundations",
+      "label": "Intuitionistic type theory",
+      "native_parent": "C10498",
+      "scope": "An intuitionistic dependent type theory in which types may depend on terms and propositions admit a types-as-proofs interpretation."
+    },
+    "C22977": {
+      "anchor": "http://dbpedia.org/resource/Kleene_star",
+      "broader": "automata-theory",
+      "family": "logic-and-foundations",
+      "label": "Kleene star",
+      "native_parent": "C12099",
+      "scope": "On a language L, the language of concatenations of finitely many words in L, including the empty concatenation."
+    },
+    "C24201": {
+      "anchor": "http://dbpedia.org/resource/Gödel_numbering",
+      "broader": "proof-theory",
+      "family": "logic-and-foundations",
+      "label": "Gödel numbering",
+      "native_parent": "C2089",
+      "scope": "An effective encoding of syntactic objects such as formulas and derivations by natural numbers."
+    },
+    "C24869": {
+      "anchor": "http://dbpedia.org/resource/Herbrand's_theorem",
+      "broader": "automated-reasoning",
+      "family": "logic-and-foundations",
+      "label": "Herbrand's theorem",
+      "native_parent": "C4756",
+      "scope": "For an unsatisfiable first-order clause set, there is an unsatisfiable finite set of its ground instances over the Herbrand universe, with a fresh constant available if needed."
+    },
+    "C39446": {
+      "anchor": "http://dbpedia.org/resource/Robinson_arithmetic",
+      "broader": "first-order-logic",
+      "family": "logic-and-foundations",
+      "label": "Robinson arithmetic",
+      "native_parent": "C32774",
+      "scope": "A finitely axiomatized arithmetic theory in the language of zero, successor, addition and multiplication, with no induction schema."
+    },
+    "C4049": {
+      "anchor": "http://dbpedia.org/resource/Structural_rule",
+      "broader": "sequent-calculus",
+      "family": "logic-and-foundations",
+      "label": "Structural rule",
+      "native_parent": "C10",
+      "scope": "A proof rule governing the organization or number of assumptions, for example exchange, weakening, or contraction."
+    },
+    "C41499": {
+      "anchor": "http://dbpedia.org/resource/Prenex_normal_form",
+      "broader": "first-order-logic",
+      "family": "logic-and-foundations",
+      "label": "Prenex normal form",
+      "native_parent": "C30651",
+      "scope": "The form of a first-order formula consisting of a quantifier prefix followed by a quantifier-free matrix."
+    },
+    "C42139": {
+      "anchor": "http://dbpedia.org/resource/Diagonal_lemma",
+      "broader": "proof-theory",
+      "family": "logic-and-foundations",
+      "label": "Diagonal lemma",
+      "native_parent": "C36232",
+      "scope": "For a one-variable arithmetical formula, an effective diagonal construction obtains a sentence that an appropriate arithmetic theory proves equivalent to the formula applied to its own Gödel number."
+    },
+    "C43008": {
+      "anchor": "http://dbpedia.org/resource/Proof_by_contradiction",
+      "broader": "proof-theory",
+      "family": "logic-and-foundations",
+      "label": "Proof by contradiction",
+      "native_parent": "C29546",
+      "scope": "A proof principle that obtains a proposition by deducing a contradiction from its negation in classical logic."
+    },
+    "C43294": {
+      "anchor": "http://dbpedia.org/resource/Rice's_theorem",
+      "broader": "computability-theory",
+      "family": "logic-and-foundations",
+      "label": "Rice's theorem",
+      "native_parent": "C36232",
+      "scope": "Every nontrivial extensional property of partial computable functions has an undecidable index set in a standard effective enumeration."
+    },
+    "C44107": {
+      "anchor": "http://dbpedia.org/resource/Turing_jump",
+      "broader": "computability-theory",
+      "family": "logic-and-foundations",
+      "label": "Turing jump",
+      "native_parent": "C31124",
+      "scope": "The relative halting problem for oracle computations in a given set, whose Turing degree strictly exceeds that of the oracle set."
+    },
+    "C44728": {
+      "anchor": "http://dbpedia.org/resource/Herbrand_interpretation",
+      "broader": "model-theory",
+      "family": "logic-and-foundations",
+      "label": "Herbrand interpretation",
+      "native_parent": "C30367",
+      "scope": "A first-order interpretation over the Herbrand universe whose constants and function symbols have their canonical term interpretations."
+    },
+    "C44999": {
+      "anchor": "http://dbpedia.org/resource/Church–Rosser_theorem",
+      "broader": "proof-theory",
+      "family": "logic-and-foundations",
+      "label": "Church–Rosser theorem",
+      "native_parent": "C36417",
+      "scope": "For beta reduction in the untyped lambda calculus, terms reachable by conversion admit a common beta reduct."
+    },
+    "C45880": {
+      "anchor": "http://dbpedia.org/resource/Post's_theorem",
+      "broader": "computability-theory",
+      "family": "logic-and-foundations",
+      "label": "Post's theorem",
+      "native_parent": "C31124",
+      "scope": "The characterization of finite levels of the arithmetical hierarchy in terms of computability and enumerability relative to finite Turing jumps."
+    },
+    "C5714": {
+      "anchor": "http://dbpedia.org/resource/Intuitionistic_logic",
+      "broader": "proof-theory",
+      "family": "logic-and-foundations",
+      "label": "Intuitionistic logic",
+      "native_parent": "C10",
+      "scope": "A logic of constructive proofs in which a proof of arbitrary excluded middle is unavailable."
+    },
+    "C7574": {
+      "anchor": "http://dbpedia.org/resource/Kleene's_T_predicate",
+      "broader": "computability-theory",
+      "family": "logic-and-foundations",
+      "label": "Kleene's T predicate",
+      "native_parent": "C19",
+      "scope": "A primitive recursive relation witnessing that a code records a terminating computation for the given program and input."
+    },
+    "C8914": {
+      "anchor": "http://dbpedia.org/resource/Kleene–Rosser_paradox",
+      "broader": "proof-theory",
+      "family": "logic-and-foundations",
+      "label": "Kleene–Rosser paradox",
+      "native_parent": "C19",
+      "scope": "An inconsistency of specific unrestricted systems combining lambda abstraction and strong principles of logic."
+    }
   }
 }

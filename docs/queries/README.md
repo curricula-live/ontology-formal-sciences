@@ -29,5 +29,11 @@ Run `python -m pipeline.competency` from the checkout after building the release
 | hypergeometric-normalization | Follow hypergeometric mass normalization to Vandermonde's identity and its named Lean proof. |
 | ml-schema-evaluation-chain | Trace evaluation output and measure through separate ML-Schema existential witnesses. |
 | many-one-reduction-composition | Connect OpenCS reduction and function composition topics through a named Mathlib declaration, with distinct mapping strengths. |
+| empirical-multiset-frequency | Follow a STATO empirical distribution to multiplicity and cardinality through the pinned Mathlib singleton formula. |
+| automatic-differentiation-product-rule | Find the product rule used in forward-mode differentiation with independent OpenMath and Mathlib witnesses. |
+| rice-halting-proof | Find the proof of fixed-input halting undecidability and the textual occurrence of Rice's theorem. |
+| openmath-rounding-guard | Inspect the native guard symbols of the half-integer ties-to-even rule. |
+| ontomath-complex-coordinates | Join an OntoMathPro class reference and a source-backed complex coordinate equivalence. |
+| welch-test-input-roles | Distinguish Welch's statistic and reference distribution while retaining their shared native input predicate. |
 
 The source of each algorithm-evidence row is the published article [A linear-time algorithm for testing the truth of certain quantified boolean formulas](https://doi.org/10.1016/0020-0190(79)90002-4). The scientific assertions in these queries describe the scopes in their canonical definitions. In particular, the release associates exact marginal computation with the tree case. Loopy sum-product has different convergence and accuracy properties.

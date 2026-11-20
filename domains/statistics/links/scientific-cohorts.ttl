@@ -1,0 +1,6 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+
+c:stato-0000330 v:hasProperty c:empirical-singleton-frequency .
+c:boolean-bernoulli-representation v:represents c:bernoulli-distribution .

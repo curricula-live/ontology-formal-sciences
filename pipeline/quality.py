@@ -69,30 +69,53 @@ def graph_metrics(graph, prov):
     full = relation_connectivity(asserted, owners, concepts)
     hierarchy = {triple for triple in asserted if triple[1] == SKOS.broader}
     specific = {triple for triple in asserted if str(triple[1]).startswith(str(V))}
-    cited, source_edges = set(), defaultdict(set)
+    cited, source_edges, type_edges = set(), defaultdict(set), defaultdict(set)
     for statement in prov.subjects(DCTERMS.source):
         triple = tuple(prov.value(statement, prop) for prop in (RDF.subject, RDF.predicate, RDF.object))
         if triple not in specific:
             continue
         cited.add(triple)
+        witness_references = set()
         for witness in prov.objects(statement, PROV.wasDerivedFrom):
             source = prov.value(witness, DCTERMS.isPartOf)
             if source is not None:
                 source_edges[str(source).removeprefix(BASE + "source/")].add(triple)
+                evidence_type = prov.value(witness, DCTERMS.type)
+                type_edges[str(evidence_type or "pinned source witness")].add(triple)
+                witness_references.update(prov.objects(witness, PROV.hadPrimarySource))
+        if set(prov.objects(statement, DCTERMS.source)) - witness_references:
+            type_edges["editorial citation"].add(triple)
 
     science = relation_connectivity(specific, owners)
+    total_by_scheme = Counter(owners.values())
+    evidence_backed = relation_connectivity(cited, owners)
+    predicates = Counter(str(triple[1]) for triple in specific)
+    evidenced_predicates = Counter(str(triple[1]) for triple in cited)
     science.update({
-        "relations_by_predicate": dict(Counter(str(triple[1]) for triple in specific)),
+        "relations_by_predicate": dict(predicates),
+        "evidence_backed_by_predicate": {key: evidenced_predicates[key] for key in predicates},
+        "coverage_by_scheme": {
+            name: {
+                "canonical": count,
+                "participating": science["participating_by_scheme"].get(name, 0),
+                "evidence_backed_participating": evidence_backed["participating_by_scheme"].get(name, 0),
+            } for name, count in total_by_scheme.items()
+        },
         "cited_relations": len(cited),
         "citation_coverage": round(len(cited) / len(specific), 6) if specific else None,
         "concepts_without_specific_relations": len(concepts) - science["participating_concepts"],
-        "evidence_backed": relation_connectivity(cited, owners),
+        "evidence_backed": evidence_backed,
+        "evidence_by_type": {name: relation_connectivity(triples, owners) |
+                             {"by_predicate": dict(Counter(str(triple[1]) for triple in triples))}
+                             for name, triples in type_edges.items()},
         "pinned_source_contributions": {
-            name: relation_connectivity(triples, owners) for name, triples in source_edges.items()
+            name: relation_connectivity(triples, owners) |
+            {"by_predicate": dict(Counter(str(triple[1]) for triple in triples))}
+            for name, triples in source_edges.items()
         },
     })
     return {
-        "concepts_by_scheme": dict(Counter(owners.values())),
+        "concepts_by_scheme": dict(total_by_scheme),
         "concepts_by_owning_module": dict(modules),
         "relation_counts": dict(relations),
         "cross_domain_relation_counts": dict(cross_domain),

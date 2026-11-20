@@ -1,25 +1,25 @@
 {
   "artifacts": {
-    "formal-sciences.nq": "9dd2278e7a5ceeefe6571ae5d504b70dab6b332a7f34c396871d7fe200a5db87",
-    "formal-sciences.trig": "c70f2a8d610c2f8cc26a2448cc147f077ac8406fe6eb2ceb5a5d18f7d7ddcba0",
-    "formal-sciences.ttl": "597f9f1def7a3a78d3e102182e06051d13034c23329a1c08cc5acc738a5e53e3",
-    "source-alignments.trig": "5b87e3a9463649a09435b88563493d997ccf386a7b3de4b85c1d35bc60702a70",
+    "formal-sciences.nq": "a577a315dc1a67b671c9f76339d21537c27d09f15178dae7eb4cad294414fe43",
+    "formal-sciences.trig": "395a16f9867a14f9fa2220869ecd41fab3a77fc7d54f39ac0a89a2ac48059454",
+    "formal-sciences.ttl": "d7e542e2506efb343c6e90076f679c3a3fbdacbb44bcc58488c8584900ac3078",
+    "source-alignments.trig": "373a560fbbef3688b718ad203c713478180da0bda9ef9f9955b587d455386d34",
     "validation-report.json": "53d08d3d3ba0eb867f1671cd1ae50c0254b5122d63db5c5d209e180c92008116"
   },
-  "concepts": 2751,
+  "concepts": 2849,
   "conforms": true,
   "contract": "curricula.rdf-release/v1",
   "counts": {
-    "alignments": 230,
-    "asserted": 12103,
-    "inferred": 2900,
-    "provenance": 12694
+    "alignments": 234,
+    "asserted": 12766,
+    "inferred": 2998,
+    "provenance": 14545
   },
   "namespace": "https://curricula.live/id/formal-sciences/",
-  "predicates": 34,
+  "predicates": 35,
   "quality": {
-    "approved_mappings": 230,
-    "batch_eligible_entities": 2365,
+    "approved_mappings": 234,
+    "batch_eligible_entities": 2386,
     "batch_pending_entities": 49,
     "concepts_by_owning_module": {
       "computer-science/modules/algorithms.ttl": 15,
@@ -34,6 +34,7 @@
       "computer-science/modules/batches/opencs-data-management.ttl": 34,
       "computer-science/modules/batches/opencs-data-structures.ttl": 64,
       "computer-science/modules/batches/opencs-distributed-computing.ttl": 11,
+      "computer-science/modules/batches/opencs-logic-and-foundations.ttl": 5,
       "computer-science/modules/batches/opencs-machine-learning.ttl": 77,
       "computer-science/modules/batches/opencs-networking.ttl": 201,
       "computer-science/modules/batches/opencs-operating-systems.ttl": 21,
@@ -54,8 +55,10 @@
       "computer-science/modules/machine-learning.ttl": 8,
       "computer-science/modules/operating-systems.ttl": 5,
       "computer-science/modules/programming-languages.ttl": 6,
+      "computer-science/modules/scientific-cohorts.ttl": 8,
       "computer-science/modules/software-engineering.ttl": 5,
       "logic/modules/automated-reasoning.ttl": 34,
+      "logic/modules/batches/opencs-logic-and-foundations.ttl": 14,
       "logic/modules/boolean-satisfiability.ttl": 8,
       "logic/modules/domain.ttl": 1,
       "logic/modules/formal-semantics.ttl": 5,
@@ -66,6 +69,7 @@
       "logic/modules/predicate-logic.ttl": 5,
       "logic/modules/proof-theory.ttl": 18,
       "logic/modules/propositional-logic.ttl": 28,
+      "logic/modules/scientific-cohorts.ttl": 4,
       "logic/modules/type-theory.ttl": 32,
       "mathematics/modules/algebra.ttl": 21,
       "mathematics/modules/batches/mathmoddb-mathematical-models.ttl": 92,
@@ -81,6 +85,7 @@
       "mathematics/modules/batches/ontomath-pro-ring.ttl": 33,
       "mathematics/modules/batches/ontomath-pro-set-theory.ttl": 3,
       "mathematics/modules/batches/ontomath-pro-topology.ttl": 18,
+      "mathematics/modules/batches/opencs-logic-and-foundations.ttl": 2,
       "mathematics/modules/calculus.ttl": 5,
       "mathematics/modules/combinatorics.ttl": 17,
       "mathematics/modules/control-theory.ttl": 6,
@@ -95,6 +100,8 @@
       "mathematics/modules/mathematical-foundations.ttl": 5,
       "mathematics/modules/number-theory.ttl": 11,
       "mathematics/modules/numerical-analysis.ttl": 14,
+      "mathematics/modules/openmath-structures.ttl": 57,
+      "mathematics/modules/scientific-cohorts.ttl": 2,
       "mathematics/modules/set-theory.ttl": 35,
       "mathematics/modules/topology.ttl": 13,
       "statistics/modules/batches/ml-schema-evaluation.ttl": 3,
@@ -114,18 +121,20 @@
       "statistics/modules/hypothesis-testing.ttl": 5,
       "statistics/modules/interdisciplinary.ttl": 5,
       "statistics/modules/multivariate-statistics.ttl": 7,
+      "statistics/modules/openmath-structures.ttl": 4,
       "statistics/modules/probability-distributions.ttl": 8,
       "statistics/modules/probability-theory.ttl": 9,
       "statistics/modules/random-variables.ttl": 4,
       "statistics/modules/regression-analysis.ttl": 11,
+      "statistics/modules/scientific-cohorts.ttl": 2,
       "statistics/modules/statistical-estimation.ttl": 8,
       "statistics/modules/stochastic-processes.ttl": 8
     },
     "concepts_by_scheme": {
-      "computer-science": 1038,
-      "logic": 179,
-      "mathematics": 1047,
-      "statistics": 487
+      "computer-science": 1051,
+      "logic": 197,
+      "mathematics": 1108,
+      "statistics": 493
     },
     "connected_components": 1,
     "contributions": {
@@ -257,7 +266,7 @@
       },
       "ontomath-pro": {
         "admitted_fraction": 0.959071,
-        "approved": 23,
+        "approved": 25,
         "eligible": 904,
         "identities": 867,
         "new_concepts": 867,
@@ -274,11 +283,11 @@
         "rejected": 0
       },
       "opencs": {
-        "admitted_fraction": 0.886719,
-        "approved": 154,
-        "eligible": 1024,
-        "identities": 908,
-        "new_concepts": 908,
+        "admitted_fraction": 0.888995,
+        "approved": 156,
+        "eligible": 1045,
+        "identities": 929,
+        "new_concepts": 929,
         "pending": 98,
         "rejected": 2
       },
@@ -411,20 +420,20 @@
       "https://curricula.live/id/formal-sciences/vocab/represents": 2,
       "https://curricula.live/id/formal-sciences/vocab/requiresAssumption": 3,
       "https://curricula.live/id/formal-sciences/vocab/solves": 3,
-      "https://curricula.live/id/formal-sciences/vocab/uses": 54
+      "https://curricula.live/id/formal-sciences/vocab/uses": 69
     },
-    "cross_domain_relations": 94,
-    "inferred_triples": 2900,
+    "cross_domain_relations": 109,
+    "inferred_triples": 2998,
     "isolated_concepts": 0,
-    "largest_component": 2751,
+    "largest_component": 2849,
     "pending_mapping_pairs": 232,
     "pending_nonconcept_pairs": 3,
     "rejected_mappings": 7,
     "relation_counts": {
-      "http://www.w3.org/2004/02/skos/core#broader": 2867,
+      "http://www.w3.org/2004/02/skos/core#broader": 2965,
       "http://www.w3.org/2004/02/skos/core#related": 33,
       "https://curricula.live/id/formal-sciences/vocab/appliesToModel": 21,
-      "https://curricula.live/id/formal-sciences/vocab/computes": 13,
+      "https://curricula.live/id/formal-sciences/vocab/computes": 15,
       "https://curricula.live/id/formal-sciences/vocab/documentsEvaluationOutput": 1,
       "https://curricula.live/id/formal-sciences/vocab/estimates": 3,
       "https://curricula.live/id/formal-sciences/vocab/executesImplementation": 1,
@@ -434,123 +443,363 @@
       "https://curricula.live/id/formal-sciences/vocab/hasEvaluationComponent": 2,
       "https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent": 89,
       "https://curricula.live/id/formal-sciences/vocab/hasModelingAssumption": 17,
-      "https://curricula.live/id/formal-sciences/vocab/hasProperty": 47,
+      "https://curricula.live/id/formal-sciences/vocab/hasProperty": 84,
       "https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation": 3,
       "https://curricula.live/id/formal-sciences/vocab/implementsAlgorithm": 1,
       "https://curricula.live/id/formal-sciences/vocab/isSolutionOf": 3,
       "https://curricula.live/id/formal-sciences/vocab/producesEstimate": 5,
+      "https://curricula.live/id/formal-sciences/vocab/proves": 2,
       "https://curricula.live/id/formal-sciences/vocab/recognizesExactly": 2,
       "https://curricula.live/id/formal-sciences/vocab/reportsEvaluationMeasure": 1,
-      "https://curricula.live/id/formal-sciences/vocab/represents": 8,
+      "https://curricula.live/id/formal-sciences/vocab/represents": 10,
       "https://curricula.live/id/formal-sciences/vocab/requiresAssumption": 9,
       "https://curricula.live/id/formal-sciences/vocab/solves": 19,
-      "https://curricula.live/id/formal-sciences/vocab/uses": 254,
-      "https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution": 19
+      "https://curricula.live/id/formal-sciences/vocab/uses": 378,
+      "https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution": 20
     },
     "scientific_connectivity": {
-      "citation_coverage": 0.962547,
-      "cited_relations": 514,
+      "citation_coverage": 0.97151,
+      "cited_relations": 682,
       "component_size_histogram": {
         "10": 2,
         "15": 1,
-        "17": 2,
-        "2": 27,
+        "17": 1,
+        "2": 26,
+        "205": 1,
         "21": 1,
-        "29": 2,
+        "29": 1,
         "3": 14,
-        "4": 9,
+        "4": 12,
         "5": 3,
-        "55": 1,
+        "56": 1,
         "6": 3,
         "7": 2,
-        "89": 1,
+        "8": 2,
         "9": 1
       },
-      "components_with_edges": 69,
-      "concepts_without_specific_relations": 2271,
+      "components_with_edges": 71,
+      "concepts_without_specific_relations": 2272,
+      "coverage_by_scheme": {
+        "computer-science": {
+          "canonical": 1051,
+          "evidence_backed_participating": 55,
+          "participating": 61
+        },
+        "logic": {
+          "canonical": 197,
+          "evidence_backed_participating": 142,
+          "participating": 145
+        },
+        "mathematics": {
+          "canonical": 1108,
+          "evidence_backed_participating": 268,
+          "participating": 274
+        },
+        "statistics": {
+          "canonical": 493,
+          "evidence_backed_participating": 91,
+          "participating": 97
+        }
+      },
       "cross_domain_by_direction": {
         "computer-science -> logic": 8,
-        "computer-science -> mathematics": 26,
+        "computer-science -> mathematics": 30,
         "computer-science -> statistics": 11,
         "logic -> computer-science": 4,
         "logic -> mathematics": 11,
-        "mathematics -> logic": 1,
+        "mathematics -> logic": 3,
         "mathematics -> statistics": 3,
-        "statistics -> mathematics": 12
+        "statistics -> logic": 1,
+        "statistics -> mathematics": 20
       },
-      "cross_domain_relations": 76,
+      "cross_domain_relations": 91,
       "evidence_backed": {
         "component_size_histogram": {
           "10": 1,
           "12": 1,
           "15": 1,
           "16": 1,
-          "17": 1,
-          "2": 25,
-          "29": 2,
-          "3": 16,
-          "4": 7,
+          "199": 1,
+          "2": 24,
+          "29": 1,
+          "3": 17,
+          "4": 10,
           "5": 3,
-          "55": 1,
+          "56": 1,
           "6": 3,
           "7": 2,
-          "8": 1,
-          "85": 1,
+          "8": 3,
           "9": 1
         },
-        "components_with_edges": 67,
+        "components_with_edges": 70,
         "cross_domain_by_direction": {
           "computer-science -> logic": 8,
-          "computer-science -> mathematics": 20,
+          "computer-science -> mathematics": 24,
           "computer-science -> statistics": 11,
           "logic -> computer-science": 4,
           "logic -> mathematics": 10,
-          "mathematics -> logic": 1,
+          "mathematics -> logic": 3,
           "mathematics -> statistics": 3,
-          "statistics -> mathematics": 10
+          "statistics -> logic": 1,
+          "statistics -> mathematics": 18
         },
-        "cross_domain_relations": 67,
-        "largest_component": 85,
+        "cross_domain_relations": 82,
+        "largest_component": 199,
         "participating_by_scheme": {
-          "computer-science": 44,
-          "logic": 132,
-          "mathematics": 206,
-          "statistics": 76
+          "computer-science": 55,
+          "logic": 142,
+          "mathematics": 268,
+          "statistics": 91
         },
-        "participating_concepts": 458,
-        "relations": 514
+        "participating_concepts": 556,
+        "relations": 682
       },
-      "largest_component": 89,
-      "participating_by_scheme": {
-        "computer-science": 50,
-        "logic": 135,
-        "mathematics": 213,
-        "statistics": 82
+      "evidence_backed_by_predicate": {
+        "https://curricula.live/id/formal-sciences/vocab/appliesToModel": 21,
+        "https://curricula.live/id/formal-sciences/vocab/computes": 15,
+        "https://curricula.live/id/formal-sciences/vocab/documentsEvaluationOutput": 1,
+        "https://curricula.live/id/formal-sciences/vocab/estimates": 3,
+        "https://curricula.live/id/formal-sciences/vocab/executesImplementation": 1,
+        "https://curricula.live/id/formal-sciences/vocab/guarantees": 1,
+        "https://curricula.live/id/formal-sciences/vocab/hasApproximation": 4,
+        "https://curricula.live/id/formal-sciences/vocab/hasDiscretization": 11,
+        "https://curricula.live/id/formal-sciences/vocab/hasEvaluationComponent": 2,
+        "https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent": 89,
+        "https://curricula.live/id/formal-sciences/vocab/hasModelingAssumption": 17,
+        "https://curricula.live/id/formal-sciences/vocab/hasProperty": 84,
+        "https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation": 3,
+        "https://curricula.live/id/formal-sciences/vocab/implementsAlgorithm": 1,
+        "https://curricula.live/id/formal-sciences/vocab/isSolutionOf": 3,
+        "https://curricula.live/id/formal-sciences/vocab/producesEstimate": 5,
+        "https://curricula.live/id/formal-sciences/vocab/proves": 2,
+        "https://curricula.live/id/formal-sciences/vocab/recognizesExactly": 2,
+        "https://curricula.live/id/formal-sciences/vocab/reportsEvaluationMeasure": 1,
+        "https://curricula.live/id/formal-sciences/vocab/represents": 10,
+        "https://curricula.live/id/formal-sciences/vocab/requiresAssumption": 9,
+        "https://curricula.live/id/formal-sciences/vocab/solves": 19,
+        "https://curricula.live/id/formal-sciences/vocab/uses": 358,
+        "https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution": 20
       },
-      "participating_concepts": 480,
-      "pinned_source_contributions": {
-        "mathlib4": {
+      "evidence_by_type": {
+        "Lean declaration": {
+          "by_predicate": {
+            "https://curricula.live/id/formal-sciences/vocab/hasProperty": 10,
+            "https://curricula.live/id/formal-sciences/vocab/proves": 2,
+            "https://curricula.live/id/formal-sciences/vocab/represents": 2,
+            "https://curricula.live/id/formal-sciences/vocab/uses": 14
+          },
           "component_size_histogram": {
-            "2": 1,
-            "3": 3
+            "2": 2,
+            "3": 4,
+            "4": 1,
+            "6": 1,
+            "8": 1
           },
-          "components_with_edges": 4,
+          "components_with_edges": 9,
           "cross_domain_by_direction": {
-            "computer-science -> mathematics": 1,
-            "statistics -> mathematics": 1
+            "computer-science -> mathematics": 3,
+            "statistics -> logic": 1,
+            "statistics -> mathematics": 3
           },
-          "cross_domain_relations": 2,
-          "largest_component": 3,
+          "cross_domain_relations": 7,
+          "largest_component": 8,
           "participating_by_scheme": {
-            "computer-science": 4,
-            "logic": 3,
-            "mathematics": 3,
+            "computer-science": 15,
+            "logic": 4,
+            "mathematics": 10,
+            "statistics": 5
+          },
+          "participating_concepts": 34,
+          "relations": 28
+        },
+        "OpenMath formal mathematical property": {
+          "by_predicate": {
+            "https://curricula.live/id/formal-sciences/vocab/hasProperty": 63,
+            "https://curricula.live/id/formal-sciences/vocab/uses": 167
+          },
+          "component_size_histogram": {
+            "118": 1,
+            "2": 2
+          },
+          "components_with_edges": 3,
+          "cross_domain_by_direction": {
+            "mathematics -> logic": 2,
+            "statistics -> mathematics": 6
+          },
+          "cross_domain_relations": 8,
+          "largest_component": 118,
+          "participating_by_scheme": {
+            "logic": 19,
+            "mathematics": 99,
+            "statistics": 4
+          },
+          "participating_concepts": 122,
+          "relations": 230
+        },
+        "direct": {
+          "by_predicate": {
+            "https://curricula.live/id/formal-sciences/vocab/appliesToModel": 20,
+            "https://curricula.live/id/formal-sciences/vocab/hasApproximation": 4,
+            "https://curricula.live/id/formal-sciences/vocab/hasDiscretization": 11,
+            "https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent": 89,
+            "https://curricula.live/id/formal-sciences/vocab/hasModelingAssumption": 17,
+            "https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation": 3,
+            "https://curricula.live/id/formal-sciences/vocab/isSolutionOf": 3
+          },
+          "component_size_histogram": {
+            "15": 1,
+            "2": 8,
+            "23": 1,
+            "29": 1,
+            "5": 1,
+            "9": 1
+          },
+          "components_with_edges": 13,
+          "cross_domain_by_direction": {
+            "mathematics -> statistics": 1
+          },
+          "cross_domain_relations": 1,
+          "largest_component": 29,
+          "participating_by_scheme": {
+            "mathematics": 96,
             "statistics": 1
           },
-          "participating_concepts": 11,
-          "relations": 10
+          "participating_concepts": 97,
+          "relations": 147
+        },
+        "editorial citation": {
+          "by_predicate": {
+            "https://curricula.live/id/formal-sciences/vocab/appliesToModel": 1,
+            "https://curricula.live/id/formal-sciences/vocab/computes": 13,
+            "https://curricula.live/id/formal-sciences/vocab/guarantees": 1,
+            "https://curricula.live/id/formal-sciences/vocab/hasProperty": 16,
+            "https://curricula.live/id/formal-sciences/vocab/recognizesExactly": 2,
+            "https://curricula.live/id/formal-sciences/vocab/represents": 8,
+            "https://curricula.live/id/formal-sciences/vocab/requiresAssumption": 9,
+            "https://curricula.live/id/formal-sciences/vocab/solves": 19,
+            "https://curricula.live/id/formal-sciences/vocab/uses": 177,
+            "https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution": 1
+          },
+          "component_size_histogram": {
+            "10": 1,
+            "12": 1,
+            "16": 1,
+            "2": 16,
+            "28": 1,
+            "3": 15,
+            "4": 5,
+            "5": 4,
+            "58": 1,
+            "6": 3,
+            "8": 3
+          },
+          "components_with_edges": 51,
+          "cross_domain_by_direction": {
+            "computer-science -> logic": 8,
+            "computer-science -> mathematics": 22,
+            "computer-science -> statistics": 8,
+            "logic -> computer-science": 4,
+            "logic -> mathematics": 10,
+            "mathematics -> logic": 1,
+            "mathematics -> statistics": 2,
+            "statistics -> mathematics": 10
+          },
+          "cross_domain_relations": 65,
+          "largest_component": 58,
+          "participating_by_scheme": {
+            "computer-science": 40,
+            "logic": 129,
+            "mathematics": 76,
+            "statistics": 38
+          },
+          "participating_concepts": 283,
+          "relations": 247
+        },
+        "subclass-some": {
+          "by_predicate": {
+            "https://curricula.live/id/formal-sciences/vocab/computes": 2,
+            "https://curricula.live/id/formal-sciences/vocab/documentsEvaluationOutput": 1,
+            "https://curricula.live/id/formal-sciences/vocab/estimates": 3,
+            "https://curricula.live/id/formal-sciences/vocab/executesImplementation": 1,
+            "https://curricula.live/id/formal-sciences/vocab/hasEvaluationComponent": 2,
+            "https://curricula.live/id/formal-sciences/vocab/implementsAlgorithm": 1,
+            "https://curricula.live/id/formal-sciences/vocab/producesEstimate": 5,
+            "https://curricula.live/id/formal-sciences/vocab/reportsEvaluationMeasure": 1,
+            "https://curricula.live/id/formal-sciences/vocab/uses": 6,
+            "https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution": 19
+          },
+          "component_size_histogram": {
+            "2": 3,
+            "3": 4,
+            "4": 3,
+            "6": 1,
+            "7": 1,
+            "8": 1
+          },
+          "components_with_edges": 13,
+          "cross_domain_by_direction": {
+            "computer-science -> statistics": 3
+          },
+          "cross_domain_relations": 3,
+          "largest_component": 8,
+          "participating_by_scheme": {
+            "computer-science": 4,
+            "statistics": 47
+          },
+          "participating_concepts": 51,
+          "relations": 41
+        }
+      },
+      "largest_component": 205,
+      "participating_by_scheme": {
+        "computer-science": 61,
+        "logic": 145,
+        "mathematics": 274,
+        "statistics": 97
+      },
+      "participating_concepts": 577,
+      "pinned_source_contributions": {
+        "mathlib4": {
+          "by_predicate": {
+            "https://curricula.live/id/formal-sciences/vocab/hasProperty": 10,
+            "https://curricula.live/id/formal-sciences/vocab/proves": 2,
+            "https://curricula.live/id/formal-sciences/vocab/represents": 2,
+            "https://curricula.live/id/formal-sciences/vocab/uses": 14
+          },
+          "component_size_histogram": {
+            "2": 2,
+            "3": 4,
+            "4": 1,
+            "6": 1,
+            "8": 1
+          },
+          "components_with_edges": 9,
+          "cross_domain_by_direction": {
+            "computer-science -> mathematics": 3,
+            "statistics -> logic": 1,
+            "statistics -> mathematics": 3
+          },
+          "cross_domain_relations": 7,
+          "largest_component": 8,
+          "participating_by_scheme": {
+            "computer-science": 15,
+            "logic": 4,
+            "mathematics": 10,
+            "statistics": 5
+          },
+          "participating_concepts": 34,
+          "relations": 28
         },
         "mathmoddb": {
+          "by_predicate": {
+            "https://curricula.live/id/formal-sciences/vocab/appliesToModel": 20,
+            "https://curricula.live/id/formal-sciences/vocab/hasApproximation": 4,
+            "https://curricula.live/id/formal-sciences/vocab/hasDiscretization": 11,
+            "https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent": 89,
+            "https://curricula.live/id/formal-sciences/vocab/hasModelingAssumption": 17,
+            "https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation": 3,
+            "https://curricula.live/id/formal-sciences/vocab/isSolutionOf": 3
+          },
           "component_size_histogram": {
             "15": 1,
             "2": 8,
@@ -573,6 +822,13 @@
           "relations": 147
         },
         "ml-schema": {
+          "by_predicate": {
+            "https://curricula.live/id/formal-sciences/vocab/documentsEvaluationOutput": 1,
+            "https://curricula.live/id/formal-sciences/vocab/executesImplementation": 1,
+            "https://curricula.live/id/formal-sciences/vocab/hasEvaluationComponent": 2,
+            "https://curricula.live/id/formal-sciences/vocab/implementsAlgorithm": 1,
+            "https://curricula.live/id/formal-sciences/vocab/reportsEvaluationMeasure": 1
+          },
           "component_size_histogram": {
             "7": 1
           },
@@ -590,45 +846,59 @@
           "relations": 6
         },
         "openmath": {
+          "by_predicate": {
+            "https://curricula.live/id/formal-sciences/vocab/hasProperty": 63,
+            "https://curricula.live/id/formal-sciences/vocab/uses": 167
+          },
           "component_size_histogram": {
-            "17": 1,
-            "19": 2,
+            "118": 1,
             "2": 2
           },
-          "components_with_edges": 5,
-          "cross_domain_by_direction": {},
-          "cross_domain_relations": 0,
-          "largest_component": 19,
+          "components_with_edges": 3,
+          "cross_domain_by_direction": {
+            "mathematics -> logic": 2,
+            "statistics -> mathematics": 6
+          },
+          "cross_domain_relations": 8,
+          "largest_component": 118,
           "participating_by_scheme": {
             "logic": 19,
-            "mathematics": 40
+            "mathematics": 99,
+            "statistics": 4
           },
-          "participating_concepts": 59,
-          "relations": 96
+          "participating_concepts": 122,
+          "relations": 230
         },
         "stato": {
-          "component_size_histogram": {
-            "2": 4,
-            "3": 3,
-            "4": 2,
-            "5": 1,
-            "7": 1
+          "by_predicate": {
+            "https://curricula.live/id/formal-sciences/vocab/computes": 2,
+            "https://curricula.live/id/formal-sciences/vocab/estimates": 3,
+            "https://curricula.live/id/formal-sciences/vocab/producesEstimate": 5,
+            "https://curricula.live/id/formal-sciences/vocab/uses": 6,
+            "https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution": 19
           },
-          "components_with_edges": 11,
+          "component_size_histogram": {
+            "2": 3,
+            "3": 4,
+            "4": 3,
+            "6": 1,
+            "8": 1
+          },
+          "components_with_edges": 12,
           "cross_domain_by_direction": {},
           "cross_domain_relations": 0,
-          "largest_component": 7,
+          "largest_component": 8,
           "participating_by_scheme": {
-            "statistics": 37
+            "statistics": 44
           },
-          "participating_concepts": 37,
-          "relations": 26
+          "participating_concepts": 44,
+          "relations": 35
         }
       },
-      "relations": 534,
+      "relations": 702,
       "relations_by_predicate": {
         "https://curricula.live/id/formal-sciences/vocab/appliesToModel": 21,
-        "https://curricula.live/id/formal-sciences/vocab/computes": 13,
+        "https://curricula.live/id/formal-sciences/vocab/computes": 15,
         "https://curricula.live/id/formal-sciences/vocab/documentsEvaluationOutput": 1,
         "https://curricula.live/id/formal-sciences/vocab/estimates": 3,
         "https://curricula.live/id/formal-sciences/vocab/executesImplementation": 1,
@@ -638,112 +908,95 @@
         "https://curricula.live/id/formal-sciences/vocab/hasEvaluationComponent": 2,
         "https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent": 89,
         "https://curricula.live/id/formal-sciences/vocab/hasModelingAssumption": 17,
-        "https://curricula.live/id/formal-sciences/vocab/hasProperty": 47,
+        "https://curricula.live/id/formal-sciences/vocab/hasProperty": 84,
         "https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation": 3,
         "https://curricula.live/id/formal-sciences/vocab/implementsAlgorithm": 1,
         "https://curricula.live/id/formal-sciences/vocab/isSolutionOf": 3,
         "https://curricula.live/id/formal-sciences/vocab/producesEstimate": 5,
+        "https://curricula.live/id/formal-sciences/vocab/proves": 2,
         "https://curricula.live/id/formal-sciences/vocab/recognizesExactly": 2,
         "https://curricula.live/id/formal-sciences/vocab/reportsEvaluationMeasure": 1,
-        "https://curricula.live/id/formal-sciences/vocab/represents": 8,
+        "https://curricula.live/id/formal-sciences/vocab/represents": 10,
         "https://curricula.live/id/formal-sciences/vocab/requiresAssumption": 9,
         "https://curricula.live/id/formal-sciences/vocab/solves": 19,
-        "https://curricula.live/id/formal-sciences/vocab/uses": 254,
-        "https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution": 19
+        "https://curricula.live/id/formal-sciences/vocab/uses": 378,
+        "https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution": 20
       }
     },
     "semantic_audit": {
       "batch_sample_by_scheme": {
-        "computer-science": 4,
-        "mathematics": 6,
-        "statistics": 6
+        "computer-science": 1,
+        "logic": 2,
+        "mathematics": 2
       },
       "by_method": {
-        "batch_admission": 16,
-        "formal_declaration": 5,
+        "batch_admission": 5,
+        "formal_declaration": 8,
         "formal_property": 11,
-        "mapping": 3,
-        "relation_projection": 5
+        "mapping": 4,
+        "relation_projection": 12
       },
       "by_predicate": {
-        "documentsEvaluationOutput": 1,
-        "exactMatch": 2,
-        "hasProperty": 14,
-        "isSolutionOf": 1,
+        "closeMatch": 1,
+        "computes": 1,
+        "documentsEvaluationOutput": 2,
+        "exactMatch": 1,
+        "executesImplementation": 1,
+        "hasEvaluationComponent": 2,
+        "hasProperty": 11,
+        "implementsAlgorithm": 1,
+        "proves": 1,
         "reportsEvaluationMeasure": 2,
-        "seeAlso": 1,
-        "uses": 2,
-        "usesReferenceDistribution": 1
+        "represents": 2,
+        "seeAlso": 2,
+        "uses": 6,
+        "usesReferenceDistribution": 2
       },
       "by_scheme": {
-        "computer-science": 8,
+        "computer-science": 10,
         "logic": 4,
-        "mathematics": 18,
-        "statistics": 10
+        "mathematics": 12,
+        "statistics": 14
       },
       "cases": 40,
-      "corrected_subjects": [
-        "https://curricula.live/id/formal-sciences/concept/opencs-c17053",
-        "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675406",
-        "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6821441",
-        "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6821398"
-      ],
-      "record": "reviews/quality/0.6.0.json",
-      "selection_limit": "The batch sample is small and the targeted review deliberately includes ambiguity and scope risks. Counts do not estimate an error rate.",
-      "sha256": "fcd67b465af4390dff927c67242d7bf8c8084867e9e7fc38abc2be9ca2715bb3",
+      "corrected_subjects": [],
+      "record": "reviews/quality/0.7.0.json",
+      "selection_limit": "The audit samples the new cohort and separately targets expression, mapping, and proof roles. The outcome counts do not estimate a graph-wide error rate.",
+      "sha256": "3ed017c8a0b1de04cfc9bc6b8547f97a85e3ab581a65f846ec6510705bb97bc8",
       "source_assessments": {
         "cso": {
-          "cause": "insufficient_local_evidence",
-          "counts": {},
-          "explanation": "Existing pinned topic mappings remain under evidence CI. The snapshot fetch returned HTTP 403 in the release workspace so no new CSO relation projection was reviewed locally.",
+          "cause": "offline_source_unavailable",
+          "explanation": "The workspace fetch returned HTTP 403. Shared-anchor review uses explicit sameAs witnesses from approved CSO decisions and the pinned OpenCS snapshot.",
           "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc"
         },
         "mathlib4": {
-          "cause": "unsupported_relation_semantics",
-          "counts": {},
-          "explanation": "Lean module imports are source dependency metadata. Only explicitly reviewed declarations contribute scientific claims.",
+          "cause": "textual_extraction_only",
+          "explanation": "Textual headers and reviewed declaration ranges are indexed. Elaboration and extraction of kernel proof dependencies require a pinned Lean environment.",
           "sha256": "e38cb828c5368d71469540927a0c81ea1faa69f007c9a372926207c8521e82b3"
         },
         "ontomath-edu": {
           "cause": "licensing_restriction",
-          "counts": {
-            "owl:disjointUnionOf": 16,
-            "owl:disjointWith": 1,
-            "owl:someValuesFrom": 207
-          },
-          "explanation": "Pinned OWL axioms remain in staging. The license is unverified and the mathematical-object/formula partition must be preserved before any scoped projection.",
+          "explanation": "The pinned native OWL artifacts remain available in staging pending verification of publication rights.",
           "sha256": "ea619ad644de79ac379b853b8cf636f6c4daec5258a726bd82402ffe97a56081"
         },
         "ontomath-pro": {
-          "cause": "unsupported_relation_semantics",
-          "counts": {
-            "owl:allValuesFrom": 1137,
-            "owl:disjointWith": 3,
-            "rdfs:subClassOf": 3627
-          },
-          "explanation": "The existing named restriction profile retains reviewed range constraints. Those universal constraints leave existence unspecified.",
+          "cause": "owl_universal_scope",
+          "explanation": "The source restriction inventory counts universal and existential forms separately. A reviewed OWL class reference guides reconciliation while the independent Mathlib witness supplies the coordinate equivalence.",
           "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f"
         },
         "opencs": {
-          "cause": "unsupported_relation_semantics",
-          "counts": {
-            "skos:broader": 72849,
-            "skos:closeMatch": 26245,
-            "skos:related": 347114
-          },
-          "explanation": "The native links are taxonomy, topical associations, and mapping references. Reviewed neighboring topics corroborate identities; the generic links do not establish an algorithmic or mathematical predicate.",
+          "cause": "topical_relation_semantics",
+          "explanation": "The full eligible neighborhood counts and shared anchor review retain SKOS meanings. Cohort admission separately checks the source label, anchor and native parent.",
           "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5"
         },
         "openmath": {
-          "cause": "unreviewed_dictionary_scope",
-          "counts": {},
-          "explanation": "The release covers reviewed FMPs and symbol bindings in the selected dictionaries. Other files require checks of their license notices, semantics, and symbol bindings.",
+          "cause": "per_dictionary_rights_and_expression_scope",
+          "explanation": "Selected dictionaries require the approved derivative-work notice. Unresolved native symbols, missing bindings and semantic rejections retain distinct review states.",
           "sha256": "4bcd5e40a5985f1bd29b0aea8f3bf172ecaf2392be44edf4b7b4eb4756340ac2"
         }
       },
       "sources": [
         "mathlib4",
-        "mathmoddb",
         "ml-schema",
         "ontomath-pro",
         "opencs",
@@ -751,9 +1004,8 @@
         "stato"
       ],
       "verdicts": {
-        "corrected": 4,
-        "retained": 24,
-        "withheld": 12
+        "retained": 29,
+        "withheld": 11
       }
     },
     "sources_with_mapping_disabled": [
@@ -784,24 +1036,24 @@
     "staged_triples": 1113204,
     "taxonomic_connectivity": {
       "component_size_histogram": {
-        "1047": 1,
-        "1217": 1,
-        "487": 1
+        "1108": 1,
+        "1248": 1,
+        "493": 1
       },
       "components_with_edges": 3,
       "cross_domain_by_direction": {
         "logic -> computer-science": 1
       },
       "cross_domain_relations": 1,
-      "largest_component": 1217,
+      "largest_component": 1248,
       "participating_by_scheme": {
-        "computer-science": 1038,
-        "logic": 179,
-        "mathematics": 1047,
-        "statistics": 487
+        "computer-science": 1051,
+        "logic": 197,
+        "mathematics": 1108,
+        "statistics": 493
       },
-      "participating_concepts": 2751,
-      "relations": 2867
+      "participating_concepts": 2849,
+      "relations": 2965
     },
     "validation_findings": 0
   },
@@ -902,12 +1154,13 @@
       "candidate_pairs": 0,
       "formal_declarations": {
         "decisions": {
-          "approved": 10,
-          "rejected": 2
+          "approved": 28,
+          "rejected": 4
         },
-        "projected_relations": 10,
-        "review_sha256": "dd9c540701205136ed3e5a0d3283acbc7238d240a05bebf8be717f0eee0bfcdb",
-        "reviewed_declarations": 5
+        "projected_relations": 28,
+        "review_sha256": "edd8e9ccded26e9b109bc58ea765dfdc7c5f6394d37eb29b90d0daa8b3e42eaa",
+        "reviewed_declarations": 15,
+        "reviewed_textual_proof_reference_occurrences": 5
       },
       "license": "Apache-2.0",
       "normalized_label_keys": 8728,
@@ -917,6 +1170,247 @@
       "stage_validation": "passed",
       "staged_triples": 32592,
       "status": "staged",
+      "textual_declaration_index": {
+        "by_family": {
+          "Algebra": {
+            "abbrev": 755,
+            "def": 4972,
+            "lemma": 11867,
+            "modules": 1405,
+            "theorem": 18390
+          },
+          "AlgebraicGeometry": {
+            "abbrev": 93,
+            "def": 773,
+            "lemma": 2543,
+            "modules": 141,
+            "theorem": 668
+          },
+          "AlgebraicTopology": {
+            "abbrev": 212,
+            "def": 935,
+            "lemma": 1522,
+            "modules": 167,
+            "theorem": 372
+          },
+          "Analysis": {
+            "abbrev": 154,
+            "def": 1695,
+            "lemma": 5907,
+            "modules": 819,
+            "theorem": 17924
+          },
+          "Basic": {
+            "abbrev": 23,
+            "def": 138,
+            "lemma": 696,
+            "modules": 52,
+            "theorem": 1468
+          },
+          "CategoryTheory": {
+            "abbrev": 959,
+            "def": 7308,
+            "lemma": 7724,
+            "modules": 1140,
+            "theorem": 5129
+          },
+          "Combinatorics": {
+            "abbrev": 86,
+            "def": 754,
+            "lemma": 2915,
+            "modules": 192,
+            "theorem": 3230
+          },
+          "Computability": {
+            "abbrev": 10,
+            "def": 270,
+            "lemma": 209,
+            "modules": 29,
+            "theorem": 963
+          },
+          "Condensed": {
+            "abbrev": 52,
+            "def": 137,
+            "lemma": 78,
+            "modules": 32,
+            "theorem": 10
+          },
+          "Control": {
+            "abbrev": 24,
+            "def": 125,
+            "lemma": 3,
+            "modules": 25,
+            "theorem": 208
+          },
+          "Data": {
+            "abbrev": 57,
+            "def": 2165,
+            "lemma": 3340,
+            "modules": 663,
+            "theorem": 14092
+          },
+          "Deprecated": {
+            "modules": 1
+          },
+          "Dynamics": {
+            "def": 57,
+            "lemma": 188,
+            "modules": 37,
+            "theorem": 568
+          },
+          "FieldTheory": {
+            "abbrev": 23,
+            "def": 303,
+            "lemma": 274,
+            "modules": 87,
+            "theorem": 1972
+          },
+          "Geometry": {
+            "abbrev": 41,
+            "def": 553,
+            "lemma": 1887,
+            "modules": 170,
+            "theorem": 3043
+          },
+          "GroupTheory": {
+            "abbrev": 44,
+            "def": 704,
+            "lemma": 679,
+            "modules": 173,
+            "theorem": 3646
+          },
+          "InformationTheory": {
+            "def": 10,
+            "lemma": 77,
+            "modules": 9,
+            "theorem": 62
+          },
+          "Init": {
+            "modules": 1
+          },
+          "Lean": {
+            "abbrev": 4,
+            "def": 219,
+            "modules": 35,
+            "theorem": 7
+          },
+          "LinearAlgebra": {
+            "abbrev": 123,
+            "def": 1532,
+            "lemma": 2579,
+            "modules": 392,
+            "theorem": 7486
+          },
+          "Logic": {
+            "abbrev": 17,
+            "def": 426,
+            "lemma": 243,
+            "modules": 47,
+            "theorem": 1188
+          },
+          "MeasureTheory": {
+            "abbrev": 9,
+            "def": 617,
+            "lemma": 2140,
+            "modules": 342,
+            "theorem": 7819
+          },
+          "ModelTheory": {
+            "abbrev": 26,
+            "def": 284,
+            "lemma": 79,
+            "modules": 34,
+            "theorem": 945
+          },
+          "NumberTheory": {
+            "abbrev": 85,
+            "def": 791,
+            "lemma": 2292,
+            "modules": 255,
+            "theorem": 3695
+          },
+          "Order": {
+            "abbrev": 189,
+            "def": 1205,
+            "lemma": 2969,
+            "modules": 335,
+            "theorem": 8770
+          },
+          "Probability": {
+            "abbrev": 4,
+            "def": 234,
+            "lemma": 2129,
+            "modules": 141,
+            "theorem": 1362
+          },
+          "RepresentationTheory": {
+            "abbrev": 155,
+            "def": 392,
+            "lemma": 685,
+            "modules": 45,
+            "theorem": 307
+          },
+          "RingTheory": {
+            "abbrev": 204,
+            "def": 2093,
+            "lemma": 4388,
+            "modules": 735,
+            "theorem": 10222
+          },
+          "SetTheory": {
+            "abbrev": 13,
+            "def": 204,
+            "lemma": 309,
+            "modules": 57,
+            "theorem": 2423
+          },
+          "Tactic": {
+            "abbrev": 88,
+            "def": 2434,
+            "lemma": 185,
+            "modules": 423,
+            "opaque": 3,
+            "theorem": 1221
+          },
+          "Testing": {
+            "def": 11,
+            "modules": 3,
+            "theorem": 7
+          },
+          "Topology": {
+            "abbrev": 268,
+            "def": 2465,
+            "lemma": 4136,
+            "modules": 708,
+            "theorem": 13466
+          },
+          "Util": {
+            "abbrev": 3,
+            "def": 162,
+            "modules": 33,
+            "opaque": 1,
+            "theorem": 1
+          }
+        },
+        "by_kind": {
+          "abbrev": 3721,
+          "def": 33968,
+          "lemma": 62043,
+          "opaque": 4,
+          "skipped_headers": 1,
+          "theorem": 130664
+        },
+        "elaborated_signatures": 0,
+        "index_sha256": "c954b9f4f804dee74dd3602f9df31fdd01994f027ee98a4a054463686332c70b",
+        "kernel_proof_dependencies": 0,
+        "modules": 8728,
+        "profile": "lean-textual-headers-v1",
+        "records": 230400,
+        "report_sha256": "c672e76b87448320c618bb0858bbf90b18c6b8477e33c12f27d4db6b1cd362de",
+        "revision": "35f494609c32653bae53eb33f0cf2d899808909a",
+        "sha256": "e38cb828c5368d71469540927a0c81ea1faa69f007c9a372926207c8521e82b3",
+        "source": "mathlib4"
+      },
       "url": "https://codeload.github.com/leanprover-community/mathlib4/tar.gz/35f494609c32653bae53eb33f0cf2d899808909a"
     },
     "mathmoddb": {
@@ -1139,6 +1633,34 @@
       "attribution": "CLLKazan/OntoMathPro",
       "candidate_pairs": 940,
       "license": "Apache-2.0",
+      "native_neighborhood": {
+        "anchor_dispositions": {},
+        "by_predicate": {
+          "named_disjoint_classes": {
+            "candidate_causes": {
+              "one_canonical_subject": 3
+            },
+            "predicate": "http://www.w3.org/2002/07/owl#disjointWith"
+          },
+          "named_subclass": {
+            "candidate_causes": {
+              "needs_scoped_endpoint_review": 316,
+              "neither_endpoint_admitted": 2251,
+              "one_canonical_subject": 744,
+              "two_canonical_subjects": 304,
+              "unresolved_with_negative_history": 12
+            },
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          }
+        },
+        "evidence_sha256": "78b8d1ded4a523063d9f24f5f65244dbb96987c5e60ba51673a5e4b60eee5351",
+        "owl_restriction_inventory": {
+          "all_values_from": 1137,
+          "has_value": 0,
+          "some_values_from": 0
+        },
+        "profile": "source-neighborhood-review-v1"
+      },
       "normalized_label_keys": 6462,
       "relations": {
         "ambiguous": 0,
@@ -1153,17 +1675,17 @@
         },
         "endpoint_resolution": {
           "by_state": {
-            "candidate_missing_subject": 64,
+            "candidate_missing_subject": 63,
             "need_endpoint_evidence": 9,
             "resolved": 47,
-            "review_mapping": 6
+            "review_mapping": 7
           },
           "endpoints": 126,
           "relation_endpoint_states": {
-            "candidate_missing_subject": 18,
+            "candidate_missing_subject": 17,
             "candidate_missing_subject + need_endpoint_evidence": 4,
             "candidate_missing_subject + resolved": 33,
-            "candidate_missing_subject + review_mapping": 3,
+            "candidate_missing_subject + review_mapping": 4,
             "need_endpoint_evidence + resolved": 5,
             "resolved": 8,
             "resolved + review_mapping": 2,
@@ -1201,13 +1723,13 @@
     },
     "opencs": {
       "admission": {
-        "eligible": 1024,
+        "eligible": 1045,
         "exclusions": {
           "ambiguous subject or scope": 35,
           "existing individual review": 28,
           "outside reviewed subject scope": 35
         },
-        "identities": 908,
+        "identities": 929,
         "modules": {
           "domains/computer-science/modules/batches/opencs-algorithms.ttl": "5fc562b3b192e2e7f02d5645a010023dea0756918f09c581fff50c94c64253b9",
           "domains/computer-science/modules/batches/opencs-automata-and-languages.ttl": "9115b688345446e6a52edc223853e2b4858f26cab182c96100a8693bbd1e8e4a",
@@ -1216,20 +1738,54 @@
           "domains/computer-science/modules/batches/opencs-data-management.ttl": "aee849c944ab79de5372bc5efecbc81935c01d79be19d5f1a019ed828dde3038",
           "domains/computer-science/modules/batches/opencs-data-structures.ttl": "cf878d378cf97e05a780e8603dd64f8cf44c9565e21a5b0b23190e728eb0cbc5",
           "domains/computer-science/modules/batches/opencs-distributed-computing.ttl": "6ace0f98874c4628b51bd9e9849718d091988a732bffb1428a0e8e522e1c6ef6",
+          "domains/computer-science/modules/batches/opencs-logic-and-foundations.ttl": "3f01b2c91819e5fcf5ce08ae5022543266bc22b288e3c8458756d8f4eba16407",
           "domains/computer-science/modules/batches/opencs-machine-learning.ttl": "dacbe39e56792847567b0444c02175777e632f0739bb59d9dc379932e00b0b42",
           "domains/computer-science/modules/batches/opencs-networking.ttl": "b0908f07047b1768dbdb9005f56f6fa4a509b8ff6bfec21631553a93bf56164b",
           "domains/computer-science/modules/batches/opencs-operating-systems.ttl": "f94091734819861b6d8e9d788a8746a20d062e8e3e7ef378d6e94d84434b9159",
           "domains/computer-science/modules/batches/opencs-programming-languages.ttl": "35b1c8472965f61c216ebfb787e8513dea8aea0777b4119f048dbfd86de0d87c",
-          "domains/computer-science/modules/batches/opencs-software-engineering.ttl": "81887c2eb5d5b5c2552843028b5c00a8b206bfb6c67677fe0c2b50182b75a8b9"
+          "domains/computer-science/modules/batches/opencs-software-engineering.ttl": "81887c2eb5d5b5c2552843028b5c00a8b206bfb6c67677fe0c2b50182b75a8b9",
+          "domains/logic/modules/batches/opencs-logic-and-foundations.ttl": "1aeb2bf9ab0e954f053d4dc473920696fea734714fcdb4f84a84c3139bea90b3",
+          "domains/mathematics/modules/batches/opencs-logic-and-foundations.ttl": "1828f6b780f0fa95905f8a33b21b338bbd28cb4fe30a46e5309720ebdfa499a4"
         },
-        "new_concepts": 908,
+        "new_concepts": 929,
         "pending": 18,
         "policy": "OpenCS subject-family admission v1. Reviewed naming families, taxonomic scope and concordant topic referents. See sources/opencs/admission-policy.json and admission-witnesses.tsv.",
-        "registry_sha256": "c9b1eeaf43a8388c322a1281c936d40c5bc61720391efad37d93135576f14c6a"
+        "registry_sha256": "6573b60d769fbbab92fc8c95f4ec1d94f49dd22266a75e530be6519e23369bf6"
       },
       "attribution": "OpenCS contributors",
       "candidate_pairs": 1151,
       "license": "CC-BY-4.0",
+      "native_neighborhood": {
+        "anchor_dispositions": {
+          "ambiguous_shared_anchor": 1,
+          "consistent_with_review": 40,
+          "rejected_pair": 1
+        },
+        "by_predicate": {
+          "associated_topic": {
+            "candidate_causes": {
+              "needs_scoped_endpoint_review": 79,
+              "neither_endpoint_admitted": 297121,
+              "one_canonical_subject": 43242,
+              "two_canonical_subjects": 6618,
+              "unresolved_with_negative_history": 54
+            },
+            "predicate": "http://www.w3.org/2004/02/skos/core#related"
+          },
+          "broader_topic": {
+            "candidate_causes": {
+              "needs_scoped_endpoint_review": 10,
+              "neither_endpoint_admitted": 61022,
+              "one_canonical_subject": 10939,
+              "two_canonical_subjects": 876,
+              "unresolved_with_negative_history": 2
+            },
+            "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+          }
+        },
+        "evidence_sha256": "0703bf2ccf27a068a3f452c73d583f73d17a81a48f609b7db7df7d5ea610aae9",
+        "profile": "source-neighborhood-review-v1"
+      },
       "normalized_label_keys": 45918,
       "revision": "0.4.0",
       "scope": "full stable N-Triples release, content pinned",
@@ -1243,19 +1799,20 @@
       "attribution": "OpenMath Society and dictionary authors",
       "candidate_pairs": 29,
       "formal_properties": {
-        "canonical_laws": 30,
-        "canonical_relations": 96,
-        "dictionaries": 11,
+        "canonical_laws": 62,
+        "canonical_relations": 230,
+        "dictionaries": 23,
         "dispositions": {
-          "approved": 31,
-          "missing_symbol_binding": 40,
-          "rejected": 7,
-          "review_statement": 9
+          "approved": 64,
+          "missing_symbol_binding": 77,
+          "rejected": 19,
+          "review_statement": 23,
+          "unresolved_native_symbol": 7
         },
-        "evidence_sha256": "980631ee8c8731b898113f67ba4542e590f356f2159dd2a8d328cb9f3ba6f43e",
-        "properties": 87,
-        "review_sha256": "0565754bc99cdb0a96709745d9414b431b618ab93bca63532332761549007868",
-        "symbols_bound": 29
+        "evidence_sha256": "41803521c41653a3cb0261d2a7336018f5eb4db51290aa29a231ff90076b15bf",
+        "properties": 190,
+        "review_sha256": "450750bc76feb68653d2f39599977ce8e8cbf02339ef975a35c632614faf85c5",
+        "symbols_bound": 64
       },
       "license": "per dictionary",
       "normalized_label_keys": 1560,
@@ -1386,19 +1943,21 @@
       "normalized_label_keys": 1074,
       "relations": {
         "ambiguous": 0,
-        "approved": 26,
+        "approved": 35,
         "candidate_actions": {
-          "approved": 26,
-          "rejected": 10,
+          "approved": 35,
+          "rejected": 12,
+          "review_input_role": 70,
           "review_mapping": 4,
-          "review_relation": 73,
-          "review_subject_admission": 77
+          "review_relation": 12,
+          "review_subject_admission": 57
         },
         "candidate_causes": {
-          "approved": 26,
-          "editorially_rejected": 10,
-          "insufficient_relation_evidence": 73,
-          "missing_canonical_subject": 77,
+          "approved": 35,
+          "editorially_rejected": 12,
+          "insufficient_relation_evidence": 12,
+          "missing_canonical_subject": 57,
+          "non_reference_input_requires_role_review": 70,
           "unreviewed_identity_mapping": 4
         },
         "endpoint_resolution": {
@@ -1419,9 +1978,9 @@
         },
         "evidence_sha256": "38ddedef03e8a5051df698e735107624ee61165ecb61054a9eaf3313f077119e",
         "extracted": 190,
-        "pending": 73,
-        "rejected": 10,
-        "review_sha256": "3d9de12e9341fbcf6193865735718c41c338930f8fdece7923ecdc497a52a104",
+        "pending": 62,
+        "rejected": 12,
+        "review_sha256": "06c1a41e35311a4292ebdcebe9633c993bbe715aad054bdcef0ee39bffb86e96",
         "unresolved": 81
       },
       "revision": "a5910e6115217a88ee86e2666e12983ef2ef2a42",
@@ -1485,5 +2044,5 @@
       "url": "https://api.zbmath.org/v1/document/7000000"
     }
   },
-  "version": "0.6.0"
+  "version": "0.7.0"
 }

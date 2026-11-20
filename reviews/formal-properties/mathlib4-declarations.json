@@ -160,8 +160,313 @@
       "module": "Mathlib/Data/Nat/Choose/Vandermonde.lean",
       "name": "Nat.add_choose_eq",
       "rationale": "The proof over natural arguments uses coefficient multiplication and a finite antidiagonal sum. Its binomial identity also normalizes hypergeometric probability mass, where the denominator is nonzero by the sampling assumptions.",
+      "textual_proof_references": [
+        "coeff_mul"
+      ],
       "token": "add_choose_eq",
       "witness_sha256": "d28efb3137880c8f0e3db34695cde5fcbea5e18dc8251bc8dd6b8d3afb395574"
+    },
+    {
+      "claims": [
+        {
+          "rationale": "This particular proof invokes the parameterized extensional fixed-point theorem fixed_point₂. The code-level property must respect equality of partial evaluations.",
+          "state": "approved",
+          "triple": [
+            "rice-fixed-point-proof",
+            "uses",
+            "kleene-recursion-theorem"
+          ]
+        },
+        {
+          "rationale": "This particular proof invokes the parameterized extensional fixed-point theorem fixed_point₂. The code-level property must respect equality of partial evaluations.",
+          "state": "approved",
+          "triple": [
+            "rice-fixed-point-proof",
+            "proves",
+            "opencs-c43294"
+          ]
+        },
+        {
+          "rationale": "The property depends on the partial function computed. Definitional equality of the program codes would require different evidence.",
+          "state": "rejected",
+          "triple": [
+            "opencs-c43294",
+            "hasProperty",
+            "definitional-equality"
+          ]
+        }
+      ],
+      "first_line": 32,
+      "last_line": 40,
+      "module": "Mathlib/Computability/Halting.lean",
+      "name": "ComputablePred.rice",
+      "rationale": "This particular proof invokes the parameterized extensional fixed-point theorem fixed_point₂. The code-level property must respect equality of partial evaluations.",
+      "textual_proof_references": [
+        "fixed_point₂"
+      ],
+      "token": "rice",
+      "witness_sha256": "12bb061e7e1fdc2e55fd6acb6459a4c20f994756382143b084ffd8d1081c68fc"
+    },
+    {
+      "claims": [
+        {
+          "rationale": "For each fixed input n, the named proof applies Rice's theorem to the domain of partial evaluation at n.",
+          "state": "approved",
+          "triple": [
+            "fixed-input-halting",
+            "hasProperty",
+            "fixed-input-halting-undecidability"
+          ]
+        },
+        {
+          "rationale": "For each fixed input n, the named proof applies Rice's theorem to the domain of partial evaluation at n.",
+          "state": "approved",
+          "triple": [
+            "fixed-input-halting-rice-proof",
+            "uses",
+            "opencs-c43294"
+          ]
+        },
+        {
+          "rationale": "For each fixed input n, the named proof applies Rice's theorem to the domain of partial evaluation at n.",
+          "state": "approved",
+          "triple": [
+            "fixed-input-halting-rice-proof",
+            "proves",
+            "fixed-input-halting-undecidability"
+          ]
+        }
+      ],
+      "first_line": 64,
+      "last_line": 65,
+      "module": "Mathlib/Computability/Halting.lean",
+      "name": "ComputablePred.halting_problem",
+      "rationale": "For each fixed input n, the named proof applies Rice's theorem to the domain of partial evaluation at n.",
+      "textual_proof_references": [
+        "rice"
+      ],
+      "token": "halting_problem",
+      "witness_sha256": "95c38537ad6c1743b1cd2cd9d9d90e02bd2cf73e558c5a14ffb77901888b4816"
+    },
+    {
+      "claims": [
+        {
+          "rationale": "The domain of each fixed-input partial evaluation gives a computably enumerable predicate.",
+          "state": "approved",
+          "triple": [
+            "fixed-input-halting",
+            "hasProperty",
+            "fixed-input-halting-enumerability"
+          ]
+        }
+      ],
+      "first_line": 60,
+      "last_line": 61,
+      "module": "Mathlib/Computability/Halting.lean",
+      "name": "ComputablePred.halting_problem_re",
+      "rationale": "The domain of each fixed-input partial evaluation gives a computably enumerable predicate.",
+      "token": "halting_problem_re",
+      "witness_sha256": "f9ebbc6b5ddaf2ed9d02622c9ed357f82b8d653f5557c5dbe15b03a6012fca88"
+    },
+    {
+      "claims": [
+        {
+          "rationale": "The theorem uses sequential evaluation from the state reached by the first word and explicitly uses list concatenation.",
+          "state": "approved",
+          "triple": [
+            "opencs-c21398",
+            "hasProperty",
+            "dfa-concatenation-evaluation"
+          ]
+        },
+        {
+          "rationale": "The theorem uses sequential evaluation from the state reached by the first word and explicitly uses list concatenation.",
+          "state": "approved",
+          "triple": [
+            "dfa-concatenation-evaluation",
+            "uses",
+            "word-concatenation"
+          ]
+        }
+      ],
+      "first_line": 112,
+      "last_line": 114,
+      "module": "Mathlib/Computability/DFA.lean",
+      "name": "DFA.evalFrom_of_append",
+      "rationale": "The theorem uses sequential evaluation from the state reached by the first word and explicitly uses list concatenation.",
+      "textual_proof_references": [
+        "List.foldl_append"
+      ],
+      "token": "evalFrom_of_append",
+      "witness_sha256": "3467ed116a7f01b12e111cbb6eb85e1eb59542249c81607fb087405dfb2bd6a3"
+    },
+    {
+      "claims": [
+        {
+          "rationale": "The flattening of a finite list of words witnesses membership. The empty list gives the empty word.",
+          "state": "approved",
+          "triple": [
+            "opencs-c22977",
+            "hasProperty",
+            "kleene-star-membership-law"
+          ]
+        },
+        {
+          "rationale": "The flattening of a finite list of words witnesses membership. The empty list gives the empty word.",
+          "state": "approved",
+          "triple": [
+            "kleene-star-membership-law",
+            "uses",
+            "word-concatenation"
+          ]
+        }
+      ],
+      "first_line": 147,
+      "last_line": 148,
+      "module": "Mathlib/Computability/Language.lean",
+      "name": "Language.mem_kstar",
+      "rationale": "The flattening of a finite list of words witnesses membership. The empty list gives the empty word.",
+      "token": "mem_kstar",
+      "witness_sha256": "96b889a45f93237aea3c0bde42185cadc706d538aa4d5a70ce4fa26f2b394cd1"
+    },
+    {
+      "claims": [
+        {
+          "rationale": "The expression constructor's denotation is the closure operation on languages.",
+          "state": "approved",
+          "triple": [
+            "regular-expression-star-semantics",
+            "uses",
+            "opencs-c22977"
+          ]
+        }
+      ],
+      "first_line": 128,
+      "last_line": 129,
+      "module": "Mathlib/Computability/RegularExpressions.lean",
+      "name": "RegularExpression.matches'_star",
+      "rationale": "The expression constructor's denotation is the closure operation on languages.",
+      "token": "matches'_star",
+      "witness_sha256": "17aa442b16f37d87ffb0c16e1194a96468f70c6653fd2a023e189759367d350a"
+    },
+    {
+      "claims": [
+        {
+          "rationale": "The theorem separately requires derivatives of each factor at x. Its real-valued specialization corroborates the OpenMath product rule.",
+          "state": "approved",
+          "triple": [
+            "derivative",
+            "hasProperty",
+            "derivative-product-rule"
+          ]
+        }
+      ],
+      "first_line": 254,
+      "last_line": 257,
+      "module": "Mathlib/Analysis/Calculus/Deriv/Mul.lean",
+      "name": "HasDerivAt.mul",
+      "rationale": "The theorem separately requires derivatives of each factor at x. Its real-valued specialization corroborates the OpenMath product rule.",
+      "textual_proof_references": [
+        "HasDerivWithinAt.mul"
+      ],
+      "token": "HasDerivAt.mul",
+      "witness_sha256": "82419b2acaf50fc612b8023962931a2d6ace7946e6b6e383c6a668c84cb129ba"
+    },
+    {
+      "claims": [
+        {
+          "rationale": "The measurable singleton formula counts repeated observations. Nonempty input makes the total count positive and permits the probability interpretation.",
+          "state": "approved",
+          "triple": [
+            "stato-0000330",
+            "hasProperty",
+            "empirical-singleton-frequency"
+          ]
+        },
+        {
+          "rationale": "The measurable singleton formula counts repeated observations. Nonempty input makes the total count positive and permits the probability interpretation.",
+          "state": "approved",
+          "triple": [
+            "empirical-singleton-frequency",
+            "uses",
+            "multiset-multiplicity"
+          ]
+        },
+        {
+          "rationale": "The measurable singleton formula counts repeated observations. Nonempty input makes the total count positive and permits the probability interpretation.",
+          "state": "approved",
+          "triple": [
+            "empirical-singleton-frequency",
+            "uses",
+            "multiset-cardinality"
+          ]
+        },
+        {
+          "rationale": "Unique elements lose multiplicities. The probability formula requires the nonempty observation multiset.",
+          "state": "rejected",
+          "triple": [
+            "empirical-singleton-frequency",
+            "uses",
+            "empty-set"
+          ]
+        }
+      ],
+      "first_line": 300,
+      "last_line": 308,
+      "module": "Mathlib/Probability/Distributions/Uniform.lean",
+      "name": "MeasureTheory.Measure.ofMultiset_apply_singleton",
+      "rationale": "The measurable singleton formula counts repeated observations. Nonempty input makes the total count positive and permits the probability interpretation.",
+      "token": "ofMultiset_apply_singleton",
+      "witness_sha256": "8dc495eda924dba5452a82ac43b11569109e4703a83178cc004261a7d7e35c37"
+    },
+    {
+      "claims": [
+        {
+          "rationale": "The pinned, deprecated declaration computes probabilities on Bool, with true receiving p and false receiving 1−p.",
+          "state": "approved",
+          "triple": [
+            "boolean-bernoulli-representation",
+            "represents",
+            "bernoulli-distribution"
+          ]
+        },
+        {
+          "rationale": "The pinned, deprecated declaration computes probabilities on Bool, with true receiving p and false receiving 1−p.",
+          "state": "approved",
+          "triple": [
+            "boolean-bernoulli-representation",
+            "uses",
+            "boolean-truth-value"
+          ]
+        }
+      ],
+      "first_line": 304,
+      "last_line": 306,
+      "module": "Mathlib/Probability/ProbabilityMassFunction/Constructions.lean",
+      "name": "PMF.bernoulli_apply",
+      "rationale": "The pinned, deprecated declaration computes probabilities on Bool, with true receiving p and false receiving 1−p.",
+      "token": "bernoulli_apply",
+      "witness_sha256": "e6b3191a8523f0b05b361b4ee793f952e55192a4c74f4faee410a0788d8e27e0"
+    },
+    {
+      "claims": [
+        {
+          "rationale": "The named equivalence sends a complex number to its real coordinates and reconstructs it from the ordered pair.",
+          "state": "approved",
+          "triple": [
+            "complex-plane",
+            "represents",
+            "ontomath-pro-e2127"
+          ]
+        }
+      ],
+      "first_line": 52,
+      "last_line": 54,
+      "module": "Mathlib/Basic/Complex/Basic.lean",
+      "name": "Complex.equivRealProd",
+      "rationale": "The named equivalence sends a complex number to its real coordinates and reconstructs it from the ordered pair.",
+      "token": "equivRealProd",
+      "witness_sha256": "766ccec14205a3c0d12d6daac0f246356c6c684ebd79d33941febb01be25ded1"
     }
   ],
   "sha256": "e38cb828c5368d71469540927a0c81ea1faa69f007c9a372926207c8521e82b3"

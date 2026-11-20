@@ -69,6 +69,7 @@ CAUSE_BY_ACTION = {
     "exclude_reviewed_application": "out_of_scope_source_content",
     "exclude_profile_role": "out_of_scope_endpoint_role",
     "outside_relation_profile": "unsupported_relation_semantics",
+    "review_input_role": "non_reference_input_requires_role_review",
     "resolve_identity_conflict": "ambiguous_identity",
     "review_mapping": "unreviewed_identity_mapping",
     "collect_endpoint_evidence": "insufficient_endpoint_evidence",
@@ -78,6 +79,8 @@ CAUSE_BY_ACTION = {
     "approved": "approved",
     "rejected": "editorially_rejected",
 }
+
+REVIEWED_ROLE_PROJECTIONS = {("stato", "input"): {"uses"}, ("stato", "output"): {"computes"}}
 
 
 def extract(store, graph_name, profile):
@@ -150,11 +153,14 @@ def decisions_for(source_id, known, record):
     for state, entries in review["decisions"].items():
         if state not in {"approved", "rejected"}:
             raise ValueError(f"Unknown relation review state for {source_id}: {state}")
-        for left, predicate, right, rationale in entries:
+        for left, predicate, right, rationale, *projection in entries:
             key = (left, predicate, right)
             if key not in known or key in decisions or not rationale.strip():
                 raise ValueError(f"Unsupported or conflicting relation decision: {source_id} {key}")
-            decisions[key] = state, rationale
+            if projection and (state != "approved" or len(projection) != 1 or
+                               projection[0] not in REVIEWED_ROLE_PROJECTIONS.get((source_id, predicate), ())):
+                raise ValueError(f"Unregistered reviewed role projection: {source_id} {key}")
+            decisions[key] = state, rationale, projection[0] if projection else None
     return decisions
 
 
@@ -228,11 +234,19 @@ def apply_relations(catalog, canonical, mappings, provenance, review_output=None
             rule = profile.rules[rule_key]
             if not all(re.fullmatch(profile.native_id, endpoint) for endpoint in (left, right)):
                 raise ValueError(f"Foreign relation endpoint: {source_id} {edge}")
-            state, rationale = decisions.get(edge, ("pending", ""))
+            state, rationale, projection = decisions.get(edge, ("pending", "", None))
+            subjects, objects = (targets[URIRef(profile.namespace + endpoint)] for endpoint in (left, right))
+            non_reference_input = (
+                source_id == "stato" and rule_key == "input" and len(objects) == 1
+                and C["probability-distributions"] not in
+                canonical.transitive_objects(next(iter(objects)), SKOS.broader)
+            )
             if state != "pending":
                 actions[state] += 1
             elif rule.relation is None or profile.shape == "equivalent-all":
                 actions["outside_relation_profile"] += 1
+            elif non_reference_input:
+                actions["review_input_role"] += 1
             else:
                 states = {resolution[left]["state"], resolution[right]["state"]}
                 priority = (
@@ -249,7 +263,6 @@ def apply_relations(catalog, canonical, mappings, provenance, review_output=None
             if state == "rejected":
                 counts[state] += 1
                 continue
-            subjects, objects = (targets[URIRef(profile.namespace + endpoint)] for endpoint in (left, right))
             if len(subjects) != 1 or len(objects) != 1:
                 if state == "approved":
                     raise ValueError(f"Approved relation has unresolved or ambiguous endpoints: {source_id} {edge}")
@@ -260,13 +273,15 @@ def apply_relations(catalog, canonical, mappings, provenance, review_output=None
                 continue
             if rule.relation is None or profile.shape == "equivalent-all":
                 raise ValueError(f"No sound relation projection for {source_id} {edge}")
+            if non_reference_input and projection is None:
+                raise ValueError(f"STATO test input outside reference-law scope: {edge}")
             subject, = subjects
             obj, = objects
             if rule.reverse:
                 subject, obj = obj, subject
             if subject == obj or any((node, RDF.type, SKOS.Concept) not in canonical for node in (subject, obj)):
                 raise ValueError(f"Invalid canonical relation endpoints: {source_id} {edge}")
-            triple = subject, V[rule.relation], obj
+            triple = subject, V[projection or rule.relation], obj
             canonical.add(triple)
             evidence = annotate(provenance, source, profile, edge, triple, rationale)
             provenance.add((evidence, DCTERMS.isPartOf, source_node))

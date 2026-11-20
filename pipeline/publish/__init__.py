@@ -9,6 +9,8 @@ from pipeline.curate.batches import verify_batches
 from pipeline.curate.relations import apply_relations
 from pipeline.curate.openmath import apply_formal_properties
 from pipeline.curate.mathlib_evidence import apply_declarations
+from pipeline.curate.neighborhoods import release_summaries as neighborhood_summaries
+from pipeline.parse.lean_index import release_summary as mathlib_index_summary
 from pipeline.validate import check
 from pipeline.reason import reason
 from pipeline.quality import quality
@@ -80,6 +82,9 @@ def build(dest=None):
         if formal_properties:
             inventory["openmath"]["formal_properties"] = formal_properties
         inventory["mathlib4"]["formal_declarations"] = declarations
+        inventory["mathlib4"]["textual_declaration_index"] = mathlib_index_summary(sources["mathlib4"])
+        for source_id, neighborhood in neighborhood_summaries(sources):
+            inventory[source_id]["native_neighborhood"] = neighborhood
         config = read(ROOT / "ontology.yaml")
         if config["namespace"] != BASE:
             raise ValueError("Namespace differs from identifier policy")

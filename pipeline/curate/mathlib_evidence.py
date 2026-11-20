@@ -4,6 +4,7 @@ from hashlib import sha256
 from pathlib import PurePosixPath
 import re
 from tarfile import open as open_archive
+from urllib.parse import quote
 
 from rdflib import DCTERMS, Literal, RDF, URIRef
 from rdflib.namespace import PROV
@@ -27,7 +28,7 @@ def reviewed_declarations(source):
         path = PurePosixPath(row["module"])
         if not path.parts or path.parts[0] != "Mathlib" or path.suffix != ".lean" or ".." in path.parts:
             raise ValueError(f"Invalid Mathlib module: {path}")
-        if row["name"] in identities or not re.fullmatch(r"[\w.]+", row["name"]):
+        if row["name"] in identities or not re.fullmatch(r"\w[\w'!?]*(?:\.\w[\w'!?]*)*", row["name"]):
             raise ValueError(f"Invalid or duplicate declaration identity: {row['name']}")
         identities.add(row["name"])
         if row["first_line"] < 1 or row["last_line"] < row["first_line"]:
@@ -36,6 +37,9 @@ def reviewed_declarations(source):
             raise ValueError(f"Invalid Mathlib witness checksum: {row['name']}")
         if not row["rationale"].strip() or not row["claims"]:
             raise ValueError(f"Empty Mathlib declaration review: {row['name']}")
+        for reference in row.get("textual_proof_references", []):
+            if not re.fullmatch(r"\w[\w.'!?]*", reference):
+                raise ValueError(f"Invalid textual proof reference: {reference}")
         for claim in row["claims"]:
             if claim["state"] not in {"approved", "rejected"} or not claim["rationale"].strip():
                 raise ValueError(f"Invalid Mathlib claim decision: {row['name']}")
@@ -59,6 +63,10 @@ def replay(offline=False):
                     sha256("\n".join(lines).encode()).hexdigest() != row["witness_sha256"] or
                     not lines[0].startswith(("theorem " + row["token"] + " ", "def " + row["token"] + " "))):
                 raise ValueError(f"Mathlib declaration or proof excerpt changed: {row['name']}")
+            for reference in row.get("textual_proof_references", []):
+                spelling = rf"(?<![\w.']){re.escape(reference)}(?![\w.'])"
+                if not re.search(spelling, "\n".join(lines[1:])):
+                    raise ValueError(f"Missing reviewed textual occurrence in {row['name']}: {reference}")
     return {"source": SOURCE, "verified_declarations": len(rows), "modules": len(modules)}
 
 
@@ -75,17 +83,20 @@ def apply_declarations(source, graph, provenance):
         anchor = (f"{GITHUB}/blob/{source['revision']}/{row['module']}"
                   f"#L{row['first_line']}-L{row['last_line']}")
         declaration = URIRef(anchor)
-        evidence = URIRef(BASE + "relation-evidence/mathlib4/" + name)
+        evidence = URIRef(BASE + "relation-evidence/mathlib4/" + quote(name, safe="."))
         for pred, obj in (
             (RDF.type, PROV.Entity), (DCTERMS.isPartOf, source_entity),
             (DCTERMS.identifier, Literal(source["sha256"])),
             (DCTERMS.type, Literal("Lean declaration")),
+            (V.evidenceExtraction, Literal("textual source excerpt")),
             (DCTERMS.title, Literal(name)), (PROV.hadPrimarySource, declaration),
             (DCTERMS.references, declaration),
             (V.evidenceContentDigest, Literal(row["witness_sha256"])),
             (DCTERMS.description, Literal(row["rationale"], lang="en")),
         ):
             provenance.add((evidence, pred, obj))
+        for reference in row.get("textual_proof_references", []):
+            provenance.add((evidence, V.sourceLexicalProofReference, Literal(reference)))
         for claim in row["claims"]:
             decisions[claim["state"]] += 1
             s, p, o = claim["triple"]
@@ -102,4 +113,6 @@ def apply_declarations(source, graph, provenance):
             provenance.add((statement, DCTERMS.description, Literal(claim["rationale"], lang="en")))
             contributions.add(triple)
     return {"reviewed_declarations": len(rows), "decisions": dict(decisions),
-            "projected_relations": len(contributions), "review_sha256": checksum(LEDGER)}
+            "projected_relations": len(contributions), "review_sha256": checksum(LEDGER),
+            "reviewed_textual_proof_reference_occurrences":
+                sum(len(row.get("textual_proof_references", ())) for row in rows)}

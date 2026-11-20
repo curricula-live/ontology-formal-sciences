@@ -16,6 +16,7 @@ C1082	opencs-c1082	data-structures	C1082>C10	http://dbpedia.org/resource/Monoton
 C11030	opencs-c11030	machine-learning	C11030>C21	http://dbpedia.org/resource/Statistical_classification	-
 C11128	opencs-c11128	programming-languages	C11128>C19	http://dbpedia.org/resource/Python_(programming_language)	-
 C11144	opencs-c11144	networking	C11144>C26	http://dbpedia.org/resource/Node_(networking)	-
+C11287	opencs-c11287	logic-and-foundations	C11287>C19	http://dbpedia.org/resource/Church–Kleene_ordinal	-
 C11308	opencs-c11308	algorithms	C11308>C10	http://dbpedia.org/resource/Schönhage–Strassen_algorithm	-
 C11309	opencs-c11309	algorithms	C11309>C10	http://dbpedia.org/resource/Chaitin's_algorithm	-
 C1140	opencs-c1140	algorithms	C1140>C10	http://dbpedia.org/resource/Spigot_algorithm	-
@@ -23,6 +24,7 @@ C1154	opencs-c1154	networking	C1154>C26	http://dbpedia.org/resource/Signaling_pr
 C11550	opencs-c11550	networking	C11550>C26	http://dbpedia.org/resource/Stream_Control_Transmission_Protocol	-
 C11614	opencs-c11614	algorithms	C11614>C10	http://dbpedia.org/resource/Unicode_collation_algorithm	-
 C11691	opencs-c11691	algorithms	C11691>C10	http://dbpedia.org/resource/SIMPLE_algorithm	-
+C11706	opencs-c11706	logic-and-foundations	C11706>C10	http://dbpedia.org/resource/Kleene_algebra	-
 C11899	opencs-c11899	data-structures	C11899>C10	http://dbpedia.org/resource/Search_tree	-
 C12014	opencs-c12014	coding	C12014>C10	http://dbpedia.org/resource/Shannon–Fano–Elias_coding	-
 C12060	opencs-c12060	networking	C12060>C26	http://dbpedia.org/resource/Apple_Filing_Protocol	-
@@ -112,11 +114,13 @@ C17433	opencs-c17433	coding	C17433>C11705>C10	http://dbpedia.org/resource/Speech
 C17580	opencs-c17580	networking	C17580>C3391>C26	http://dbpedia.org/resource/Source-specific_multicast	C3391
 C17593	opencs-c17593	data-management	C17593>C10444>C6	http://dbpedia.org/resource/Relation_(database)	-
 C17667	opencs-c17667	programming-languages	C17667>C4321	http://dbpedia.org/resource/Incremental_compiler	C4321
+C17709	opencs-c17709	logic-and-foundations	C17709>C2418	http://dbpedia.org/resource/Skolem_normal_form	-
 C178	opencs-c178	machine-learning	C178>C25	http://dbpedia.org/resource/Document_classification	-
 C17875	opencs-c17875	automata-and-languages	C17875>C8564>C19	http://dbpedia.org/resource/Morphological_parsing	C8564
 C17915	opencs-c17915	algorithms	C17915>C198>C10	http://dbpedia.org/resource/Suzuki-Kasami_algorithm	C198
 C17918	opencs-c17918	networking	C17918>C6592>C26	http://dbpedia.org/resource/Simple_Network_Management_Protocol	-
 C17976	opencs-c17976	networking	C17976>C3236>C26	http://dbpedia.org/resource/Personal_area_network	-
+C18045	opencs-c18045	logic-and-foundations	C18045>C1631	http://dbpedia.org/resource/Explicit_substitution	-
 C18328	opencs-c18328	algorithms	C18328>C386>C10	http://dbpedia.org/resource/Knuth–Morris–Pratt_algorithm	C9556
 C18362	opencs-c18362	algorithms	C18362>C8517>C10	http://dbpedia.org/resource/Root-finding_algorithm	-
 C18405	opencs-c18405	data-management	C18405>C10444>C6	http://dbpedia.org/resource/Database_model	-
@@ -126,6 +130,7 @@ C18623	opencs-c18623	algorithms	C18623>C7553>C10	http://dbpedia.org/resource/FSA
 C18626	opencs-c18626	coding	C18626>C4099>C3	http://dbpedia.org/resource/Block_code	-
 C18730	opencs-c18730	machine-learning	C18730>C2005>C21	http://dbpedia.org/resource/Transduction_(machine_learning)	-
 C18745	opencs-c18745	networking	C18745>C2935>C26	http://dbpedia.org/resource/10_Gigabit_Ethernet	C490
+C18772	opencs-c18772	logic-and-foundations	C18772>C10498	http://dbpedia.org/resource/Intuitionistic_type_theory	-
 C18790	opencs-c18790	coding	C18790>C8332>C10	http://dbpedia.org/resource/Pointwise_mutual_information	-
 C18798	opencs-c18798	algorithms	C18798>C3401>C10	http://dbpedia.org/resource/Suurballe's_algorithm	-
 C18805	opencs-c18805	machine-learning	C18805>C9022	http://dbpedia.org/resource/Time_delay_neural_network	C9022
@@ -199,6 +204,7 @@ C22653	opencs-c22653	machine-learning	C22653>C2005>C21	http://dbpedia.org/resour
 C22819	opencs-c22819	networking	C22819>C3391>C26	http://dbpedia.org/resource/Protocol_Independent_Multicast	-
 C22852	opencs-c22852	algorithms	C22852>C10390>C10	http://dbpedia.org/resource/Firefly_algorithm	-
 C22974	opencs-c22974	automata-and-languages	C22974>C12099>C10	http://dbpedia.org/resource/Hybrid_automaton	C12099
+C22977	opencs-c22977	logic-and-foundations	C22977>C12099	http://dbpedia.org/resource/Kleene_star	-
 C23023	opencs-c23023	complexity	C23023>C3678	http://dbpedia.org/resource/Reduction_(complexity)	-
 C2311	opencs-c2311	programming-languages	C2311>C19	http://dbpedia.org/resource/Algebraic_Logic_Functional_programming_language	-
 C23138	opencs-c23138	networking	C23138>C2511>C30	http://dbpedia.org/resource/Java_Remote_Method_Protocol	-
@@ -230,6 +236,7 @@ C2414	opencs-c2414	data-management	C2414>C6	http://dbpedia.org/resource/Data_mod
 C24153	opencs-c24153	distributed-computing	C24153>C1491>C27	http://dbpedia.org/resource/Eventual_consistency	C1491
 C24154	opencs-c24154	algorithms	C24154>C5691>C10	http://dbpedia.org/resource/Hungarian_algorithm	-
 C24194	opencs-c24194	algorithms	C24194>C8516>C10	http://dbpedia.org/resource/Condensation_algorithm	-
+C24201	opencs-c24201	logic-and-foundations	C24201>C2089	http://dbpedia.org/resource/Gödel_numbering	-
 C24202	opencs-c24202	complexity	C24202>C3678	http://dbpedia.org/resource/PSPACE-complete	-
 C2430	opencs-c2430	networking	C2430>C26	http://dbpedia.org/resource/Management_Component_Transport_Protocol	-
 C24323	opencs-c24323	networking	C24323>C390>C26	http://dbpedia.org/resource/Transmission_Control_Protocol	-
@@ -237,6 +244,7 @@ C24335	opencs-c24335	networking	C24335>C490>C26	http://dbpedia.org/resource/Poin
 C24349	opencs-c24349	programming-languages	C24349>C1253>C19	http://dbpedia.org/resource/Instrumentation_(computer_programming)	-
 C24456	opencs-c24456	programming-languages	C24456>C12257>C19	http://dbpedia.org/resource/Conditional_compilation	-
 C24725	opencs-c24725	algorithms	C24725>C8517>C10	http://dbpedia.org/resource/Broyden–Fletcher–Goldfarb–Shanno_algorithm	-
+C24869	opencs-c24869	logic-and-foundations	C24869>C4756	http://dbpedia.org/resource/Herbrand's_theorem	-
 C24961	opencs-c24961	automata-and-languages	C24961>C12099>C10	http://dbpedia.org/resource/Input/output_automaton	C12099
 C25027	opencs-c25027	networking	C25027>C490>C26	http://dbpedia.org/resource/Industrial_Ethernet	C490
 C25081	opencs-c25081	automata-and-languages	C25081>C12099>C10	http://dbpedia.org/resource/Tree_automaton	C12099
@@ -549,6 +557,7 @@ C3934	opencs-c3934	data-management	C3934>C6	http://dbpedia.org/resource/Table_(d
 C39385	opencs-c39385	data-structures	C39385>C31455>C23875>C3936>C10	http://dbpedia.org/resource/Consistent_hashing	-
 C39422	opencs-c39422	programming-languages	C39422>C31256>C18566>C8751>C19	http://dbpedia.org/resource/Fourth-generation_programming_language	-
 C39434	opencs-c39434	algorithms	C39434>C29797>C16028	http://dbpedia.org/resource/Proxmap_sort	-
+C39446	opencs-c39446	logic-and-foundations	C39446>C32774	http://dbpedia.org/resource/Robinson_arithmetic	-
 C39490	opencs-c39490	algorithms	C39490>C32507>C16028	http://dbpedia.org/resource/Adaptive_sort	-
 C39542	opencs-c39542	data-management	C39542>C35394>C18405	http://dbpedia.org/resource/Projection_(relational_algebra)	-
 C39572	opencs-c39572	coding	C39572>C32049>C18626>C4099>C3	http://dbpedia.org/resource/Prefix_code	-
@@ -588,6 +597,7 @@ C40373	opencs-c40373	coding	C40373>C35138>C18626>C4099>C3	http://dbpedia.org/res
 C4040	opencs-c4040	networking	C4040>C26	http://dbpedia.org/resource/Microcom_Networking_Protocol	-
 C40414	opencs-c40414	programming-languages	C40414>C31397>C18566>C8751>C19	http://dbpedia.org/resource/Rank_(computer_programming)	-
 C40477	opencs-c40477	automata-and-languages	C40477>C31124>C22100>C8753>C10	http://dbpedia.org/resource/Non-deterministic_Turing_machine	-
+C4049	opencs-c4049	logic-and-foundations	C4049>C10	http://dbpedia.org/resource/Structural_rule	-
 C40492	opencs-c40492	machine-learning	C40492>C30082>C16742>C10382>C13	http://dbpedia.org/resource/Suffix_tree_clustering	-
 C40529	opencs-c40529	operating-systems	C40529>C30430>C25960	http://dbpedia.org/resource/Demand_paging	-
 C40535	opencs-c40535	networking	C40535>C36500>C15728>C3236>C26	http://dbpedia.org/resource/Wireless_Session_Protocol	C36500
@@ -630,6 +640,7 @@ C41390	opencs-c41390	networking	C41390>C30652>C15728>C3236>C26	http://dbpedia.or
 C41436	opencs-c41436	algorithms	C41436>C29797>C16028	http://dbpedia.org/resource/Pigeonhole_sort	-
 C41437	opencs-c41437	software-engineering	C41437>C35575>C18973>C1253>C19	http://dbpedia.org/resource/Lean_software_development	-
 C41486	opencs-c41486	networking	C41486>C35923>C26066	http://dbpedia.org/resource/Hybrid_Wireless_Mesh_Protocol	-
+C41499	opencs-c41499	logic-and-foundations	C41499>C30651	http://dbpedia.org/resource/Prenex_normal_form	-
 C41548	opencs-c41548	algorithms	C41548>C33615>C29242>C11705>C10	http://dbpedia.org/resource/Blahut–Arimoto_algorithm	-
 C41572	opencs-c41572	networking	C41572>C35923>C26066	http://dbpedia.org/resource/Enhanced_Interior_Gateway_Routing_Protocol	-
 C41587	opencs-c41587	algorithms	C41587>C30179>C20803>C13686>C10	http://dbpedia.org/resource/Quine–McCluskey_algorithm	-
@@ -658,6 +669,7 @@ C42055	opencs-c42055	automata-and-languages	C42055>C30272>C19560	http://dbpedia.
 C42058	opencs-c42058	data-structures	C42058>C31455>C23875>C3936>C10	http://dbpedia.org/resource/2-choice_hashing	-
 C42059	opencs-c42059	algorithms	C42059>C29797>C16028	http://dbpedia.org/resource/Block_sort	-
 C42063	opencs-c42063	automata-and-languages	C42063>C31124>C22100>C8753>C10	http://dbpedia.org/resource/Multitape_Turing_machine	-
+C42139	opencs-c42139	logic-and-foundations	C42139>C36232	http://dbpedia.org/resource/Diagonal_lemma	-
 C42183	opencs-c42183	networking	C42183>C36939>C15728>C3236>C26	http://dbpedia.org/resource/Heterogeneous_wireless_network	-
 C42185	opencs-c42185	automata-and-languages	C42185>C30921>C28460>C7330>C10	http://dbpedia.org/resource/Scannerless_parsing	-
 C42235	opencs-c42235	networking	C42235>C37329>C26066	http://dbpedia.org/resource/Common_Address_Redundancy_Protocol	-
@@ -694,6 +706,7 @@ C42922	opencs-c42922	automata-and-languages	C42922>C37207>C19560	http://dbpedia.
 C42934	opencs-c42934	networking	C42934>C36308>C15804>C490>C26	http://dbpedia.org/resource/Media_Redundancy_Protocol	-
 C42952	opencs-c42952	algorithms	C42952>C32507>C16028	http://dbpedia.org/resource/Tree_sort	-
 C43003	opencs-c43003	operating-systems	C43003>C30430>C25960	http://dbpedia.org/resource/Region-based_memory_management	-
+C43008	opencs-c43008	logic-and-foundations	C43008>C29546	http://dbpedia.org/resource/Proof_by_contradiction	-
 C43011	opencs-c43011	software-engineering	C43011>C30036>C28080>C1253>C19	http://dbpedia.org/resource/Domain-specific_software_architecture	-
 C43016	opencs-c43016	networking	C43016>C30247>C17580>C3391>C26	http://dbpedia.org/resource/Overlay_multicast	-
 C43029	opencs-c43029	algorithms	C43029>C31198>C18623>C7553>C10	http://dbpedia.org/resource/Bentley–Ottmann_algorithm	-
@@ -710,6 +723,7 @@ C43274	opencs-c43274	programming-languages	C43274>C31256>C18566>C8751>C19	http:/
 C43277	opencs-c43277	automata-and-languages	C43277>C30272>C19560	http://dbpedia.org/resource/Two-way_deterministic_finite_automaton	-
 C43279	opencs-c43279	algorithms	C43279>C34053>C23071>C8944>C10	http://dbpedia.org/resource/Lemke's_algorithm	-
 C43281	opencs-c43281	algorithms	C43281>C30922>C16690>C4218>C10	http://dbpedia.org/resource/Tiny_Encryption_Algorithm	-
+C43294	opencs-c43294	logic-and-foundations	C43294>C36232	http://dbpedia.org/resource/Rice's_theorem	-
 C43338	opencs-c43338	networking	C43338>C30595>C16125>C5692>C26	http://dbpedia.org/resource/Online_Certificate_Status_Protocol	-
 C43346	opencs-c43346	automata-and-languages	C43346>C30921>C28460>C7330>C10	http://dbpedia.org/resource/Shift-reduce_parser	-
 C43382	opencs-c43382	programming-languages	C43382>C31256>C18566>C8751>C19	http://dbpedia.org/resource/Purely_functional_programming	-
@@ -740,6 +754,7 @@ C43884	opencs-c43884	data-structures	C43884>C31455>C23875>C3936>C10	http://dbped
 C44075	opencs-c44075	algorithms	C44075>C32321>C18626>C5196>C10	http://dbpedia.org/resource/Soft_output_Viterbi_algorithm	-
 C44098	opencs-c44098	operating-systems	C44098>C32296>C20750>C328>C9	http://dbpedia.org/resource/Virtual_file_system	-
 C44101	opencs-c44101	algorithms	C44101>C33603>C19560>C12099>C10	http://dbpedia.org/resource/GrowCut_algorithm	-
+C44107	opencs-c44107	logic-and-foundations	C44107>C31124	http://dbpedia.org/resource/Turing_jump	-
 C44124	opencs-c44124	automata-and-languages	C44124>C29901>C22624>C7330>C10	http://dbpedia.org/resource/Definite_clause_grammar	-
 C44158	opencs-c44158	software-engineering	C44158>C35575>C18973>C1253>C19	http://dbpedia.org/resource/Operational_acceptance_testing	-
 C44226	opencs-c44226	data-structures	C44226>C31455>C23875>C3936>C10	http://dbpedia.org/resource/Zobrist_hashing	-
@@ -765,6 +780,7 @@ C44610	opencs-c44610	coding	C44610>C36671>C17433>C11705>C10	http://dbpedia.org/r
 C44634	opencs-c44634	software-engineering	C44634>C30036>C28080>C1253>C19	http://dbpedia.org/resource/Interaction_design_pattern	-
 C4466	opencs-c4466	algorithms	C4466>C10	http://dbpedia.org/resource/Pollard's_p_−_1_algorithm	-
 C44667	opencs-c44667	operating-systems	C44667>C31027>C25960	http://dbpedia.org/resource/DOS_memory_management	-
+C44728	opencs-c44728	logic-and-foundations	C44728>C30367	http://dbpedia.org/resource/Herbrand_interpretation	-
 C44729	opencs-c44729	complexity	C44729>C34139>C23872>C11701>C10	http://dbpedia.org/resource/Co-NP-complete	-
 C44766	opencs-c44766	data-structures	C44766>C31455>C23875>C3936>C10	http://dbpedia.org/resource/Feature_hashing	-
 C44769	opencs-c44769	networking	C44769>C33191>C16125>C5692>C26	http://dbpedia.org/resource/Certificate_Management_Protocol	-
@@ -774,6 +790,7 @@ C44887	opencs-c44887	networking	C44887>C37329>C26066	http://dbpedia.org/resource
 C44929	opencs-c44929	networking	C44929>C35494>C24563>C4197>C26	http://dbpedia.org/resource/Label_Distribution_Protocol	-
 C44933	opencs-c44933	algorithms	C44933>C30922>C16690>C4218>C10	http://dbpedia.org/resource/International_Data_Encryption_Algorithm	-
 C44991	opencs-c44991	networking	C44991>C34898>C17918>C6592>C26	http://dbpedia.org/resource/Service_Location_Protocol	-
+C44999	opencs-c44999	logic-and-foundations	C44999>C36417	http://dbpedia.org/resource/Church–Rosser_theorem	-
 C45000	opencs-c45000	data-management	C45000>C31010>C17905>C5402>C6	http://dbpedia.org/resource/Consistency_(database_systems)	-
 C4501	opencs-c4501	automata-and-languages	C4501>C10	http://dbpedia.org/resource/Post–Turing_machine	-
 C45051	opencs-c45051	algorithms	C45051>C30856>C14849>C10382>C10	http://dbpedia.org/resource/Randomized_weighted_majority_algorithm	-
@@ -812,6 +829,7 @@ C45739	opencs-c45739	data-structures	C45739>C29660>C23182>C8565	http://dbpedia.o
 C45758	opencs-c45758	automata-and-languages	C45758>C34566>C22624>C7330>C10	http://dbpedia.org/resource/Recursive_descent_parser	-
 C45775	opencs-c45775	programming-languages	C45775>C30561>C17734>C10720>C19	http://dbpedia.org/resource/Cloning_(programming)	-
 C45823	opencs-c45823	machine-learning	C45823>C30082>C16742>C10382>C13	http://dbpedia.org/resource/Consensus_clustering	-
+C45880	opencs-c45880	logic-and-foundations	C45880>C31124	http://dbpedia.org/resource/Post's_theorem	-
 C4606	opencs-c4606	automata-and-languages	C4606>C10	http://dbpedia.org/resource/Greenberg–Hastings_cellular_automaton	-
 C4615	opencs-c4615	algorithms	C4615>C10	http://dbpedia.org/resource/Goertzel_algorithm	-
 C4750	opencs-c4750	algorithms	C4750>C10	http://dbpedia.org/resource/MM_algorithm	-
@@ -829,6 +847,7 @@ C529	opencs-c529	coding	C529>C10	http://dbpedia.org/resource/Warped_linear_predi
 C5334	opencs-c5334	networking	C5334>C26	http://dbpedia.org/resource/Hop_(networking)	-
 C5401	opencs-c5401	machine-learning	C5401>C13	http://dbpedia.org/resource/Feature_selection	-
 C5498	opencs-c5498	machine-learning	C5498>C21	http://dbpedia.org/resource/Feature_learning	-
+C5714	opencs-c5714	logic-and-foundations	C5714>C10	http://dbpedia.org/resource/Intuitionistic_logic	-
 C5814	opencs-c5814	networking	C5814>C26	http://dbpedia.org/resource/Highway_Addressable_Remote_Transducer_Protocol	-
 C5823	opencs-c5823	algorithms	C5823>C10	http://dbpedia.org/resource/Approximation_algorithm	-
 C5860	opencs-c5860	algorithms	C5860>C10	http://dbpedia.org/resource/Sweep_line_algorithm	-
@@ -861,6 +880,7 @@ C7465	opencs-c7465	programming-languages	C7465>C19	http://dbpedia.org/resource/P
 C7476	opencs-c7476	operating-systems	C7476>C9	http://dbpedia.org/resource/File_system	-
 C753	opencs-c753	algorithms	C753>C10	http://dbpedia.org/resource/Adaptive_algorithm	-
 C7553	opencs-c7553	algorithms	C7553>C10	http://dbpedia.org/resource/Genetic_algorithm	-
+C7574	opencs-c7574	logic-and-foundations	C7574>C19	http://dbpedia.org/resource/Kleene's_T_predicate	-
 C7652	opencs-c7652	machine-learning	C7652>C13	http://dbpedia.org/resource/Decision_tree	-
 C7676	opencs-c7676	data-structures	C7676>C10	http://dbpedia.org/resource/2–3_heap	-
 C7701	opencs-c7701	networking	C7701>C26	http://dbpedia.org/resource/XAP_Home_Automation_protocol	-
@@ -890,6 +910,7 @@ C8660	opencs-c8660	complexity	C8660>C10	http://dbpedia.org/resource/Time_complex
 C8751	opencs-c8751	programming-languages	C8751>C19	http://dbpedia.org/resource/Programming_paradigm	-
 C8793	opencs-c8793	algorithms	C8793>C10	http://dbpedia.org/resource/Dykstra's_projection_algorithm	-
 C8857	opencs-c8857	networking	C8857>C26	http://dbpedia.org/resource/Daytime_Protocol	-
+C8914	opencs-c8914	logic-and-foundations	C8914>C19	http://dbpedia.org/resource/Kleene–Rosser_paradox	-
 C8970	opencs-c8970	networking	C8970>C26	http://dbpedia.org/resource/National_Transportation_Communications_for_Intelligent_Transportation_System_Protocol	-
 C9022	opencs-c9022	machine-learning	C9022>C25	http://dbpedia.org/resource/Artificial_neural_network	-
 C9167	opencs-c9167	automata-and-languages	C9167>C19	http://dbpedia.org/resource/Weighted_context-free_grammar	-

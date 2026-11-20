@@ -31,3 +31,20 @@ reproduces that inventory from source.
 - [Official logic dictionary](http://www.openmath.org/cd/logic1.ocd)
 - [Official set dictionary](http://www.openmath.org/cd/set1.ocd)
 - [Experimental combinatorics dictionary](http://www.openmath.org/cd/combinat1.ocd)
+
+## v0.7.0 expression scope
+
+The reviewed slice contains 23 content dictionaries and 190 formal
+properties. The extractor records top-level implication guards and
+consequences, including under outer binders. The RDF exposes the native
+guard symbols alongside the original expression fingerprint. A property
+target that occurs only in the guard requires an explicit scope decision.
+An unresolved native symbol blocks approval and has a separate review
+disposition from a missing canonical symbol binding.
+
+Now-reviewed cohorts include ordinary differentiation, multiset
+operations, real intervals, rounding, complex coordinates and density
+integrals. The reasons for withholding statements include undeclared
+symbol spellings, a sample formula that loses multiplicity, and a
+distribution expression that omits the square root. The archive and
+decision ledger retain these original identifiers.

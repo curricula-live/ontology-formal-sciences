@@ -19,3 +19,18 @@ the declaration name, upstream revision, range and excerpt digest for each
 reviewed claim. The replay verifies the cited text against the archive; the
 Lean statements and proofs are maintained upstream. Rejected readings
 remain in `reviews/formal-properties/mathlib4-declarations.json`.
+
+v0.7.0 also inventories 230,400 visible named declaration headers in
+8,728 Mathlib files. The index stores the written name, command kind,
+file, line, explicit result-type indicator and a textual header digest.
+The source archive remains authoritative for names and ranges. The
+bounded lexical scanner recognizes common declaration layout and masks
+comments. Its coverage depends on textual syntax. Namespace resolution,
+macro expansion, inferred types and kernel dependency extraction require
+Lean and are outside this inventory.
+
+Run `python -m pipeline.cli replay-mathlib-index --offline` to recompute
+the inventory. Add `--export .cache/mathlib-declarations.jsonl` for a
+local searchable index. Reviewed canonical claims use separate declaration
+ranges. A small set of source spellings is replayed within those reviewed
+proof fragments and published as textual proof references.

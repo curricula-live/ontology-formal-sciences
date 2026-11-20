@@ -1,0 +1,23 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:opencs-c22977 a skos:Concept ; skos:prefLabel "Kleene star"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:automata-theory ;
+    skos:definition "On a language L, the language of concatenations of finitely many words in L, including the empty concatenation."@en .
+
+c:opencs-c43294 a skos:Concept ; skos:prefLabel "Rice's theorem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computability-theory ;
+    skos:definition "Every nontrivial extensional property of partial computable functions has an undecidable index set in a standard effective enumeration."@en .
+
+c:opencs-c44107 a skos:Concept ; skos:prefLabel "Turing jump"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computability-theory ;
+    skos:definition "The relative halting problem for oracle computations in a given set, whose Turing degree strictly exceeds that of the oracle set."@en .
+
+c:opencs-c45880 a skos:Concept ; skos:prefLabel "Post's theorem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computability-theory ;
+    skos:definition "The characterization of finite levels of the arithmetical hierarchy in terms of computability and enumerability relative to finite Turing jumps."@en .
+
+c:opencs-c7574 a skos:Concept ; skos:prefLabel "Kleene's T predicate"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computability-theory ;
+    skos:definition "A primitive recursive relation witnessing that a code records a terminating computation for the given program and input."@en .

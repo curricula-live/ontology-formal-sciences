@@ -63,8 +63,15 @@ jobs:
           PYTHON
       - name: Replay the reviewed OpenMath dictionaries and expression witnesses
         run: python -m pipeline.cli replay-openmath
+      - name: Replay native topic neighborhoods and shared anchors
+        run: |
+          for source in opencs ontomath-pro; do
+            python -m pipeline.cli replay-neighborhood --source "$source" --offline
+          done
       - name: Replay reviewed Mathlib source declarations
-        run: python -m pipeline.cli replay-mathlib
+        run: |
+          python -m pipeline.cli replay-mathlib
+          python -m pipeline.cli replay-mathlib-index --offline
       - name: Replay stratified audit batch witnesses
         run: |
           release=$(jq -r .version dist/manifest.json)

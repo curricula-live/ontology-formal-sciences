@@ -1,0 +1,508 @@
+{
+  "batch_baseline": "2da2f7676dd1a68fc8dc01427a5240882c7f951a",
+  "batch_selection": "Order the new OpenCS cohort's native IRIs by SHA-256 of 0.7.0-topics followed by NUL and the IRI. Take five.",
+  "cases": [
+    {
+      "broader": "automated-reasoning",
+      "canonical": "opencs-c17709",
+      "key": "https://w3id.org/ocs/ont/C17709",
+      "label_witness": [
+        "<https://w3id.org/ocs/ont/C17709> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Skolem normal form\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The native topic label, parent and explicit referent agree with the reviewed scope. A first-order formula with existential quantifiers eliminated using fresh Skolem functions or constants, leaving a universal quantifier prefix, in the usual satisfiability-preserving transformation.",
+      "requires_definition": true,
+      "source": "opencs",
+      "verdict": "retained"
+    },
+    {
+      "broader": "computability-theory",
+      "canonical": "opencs-c7574",
+      "key": "https://w3id.org/ocs/ont/C7574",
+      "label_witness": [
+        "<https://w3id.org/ocs/ont/C7574> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Kleene's T predicate\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The native topic label, parent and explicit referent agree with the reviewed scope. A primitive recursive relation witnessing that a code records a terminating computation for the given program and input.",
+      "requires_definition": true,
+      "source": "opencs",
+      "verdict": "retained"
+    },
+    {
+      "broader": "set-theory",
+      "canonical": "opencs-c11287",
+      "key": "https://w3id.org/ocs/ont/C11287",
+      "label_witness": [
+        "<https://w3id.org/ocs/ont/C11287> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Church–Kleene ordinal\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The native topic label, parent and explicit referent agree with the reviewed scope. The least nonrecursive ordinal, equivalently the supremum of the order types of computable well-orderings of the natural numbers.",
+      "requires_definition": true,
+      "source": "opencs",
+      "verdict": "retained"
+    },
+    {
+      "broader": "proof-theory",
+      "canonical": "opencs-c24201",
+      "key": "https://w3id.org/ocs/ont/C24201",
+      "label_witness": [
+        "<https://w3id.org/ocs/ont/C24201> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Gödel numbering\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The native topic label, parent and explicit referent agree with the reviewed scope. An effective encoding of syntactic objects such as formulas and derivations by natural numbers.",
+      "requires_definition": true,
+      "source": "opencs",
+      "verdict": "retained"
+    },
+    {
+      "broader": "algebra",
+      "canonical": "opencs-c11706",
+      "key": "https://w3id.org/ocs/ont/C11706",
+      "label_witness": [
+        "<https://w3id.org/ocs/ont/C11706> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Kleene algebra\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The native topic label, parent and explicit referent agree with the reviewed scope. An idempotent semiring equipped with a star operation satisfying star-unfolding and induction axioms.",
+      "requires_definition": true,
+      "source": "opencs",
+      "verdict": "retained"
+    },
+    {
+      "key": "calculus1:diff/2",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "Differentiability of both factors at x is explicit in the canonical scope.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "retained"
+    },
+    {
+      "key": "rounding1:round/2",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The expression guard selects half-integer nonintegers; the consequence states evenness.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "retained"
+    },
+    {
+      "key": "s_dist1:mean/1",
+      "method": "formal_property",
+      "predicate": "uses",
+      "rationale": "The function is a real probability density with a finite absolute first moment, and the published integral retains that scope.",
+      "scheme": "statistics",
+      "source": "openmath",
+      "verdict": "retained"
+    },
+    {
+      "key": "s_dist1:moment/1",
+      "method": "formal_property",
+      "predicate": "uses",
+      "rationale": "The power applies to the displacement from the center. The integral requires a finite moment and specified order.",
+      "scheme": "statistics",
+      "source": "openmath",
+      "verdict": "retained"
+    },
+    {
+      "key": "multiset1:union/2",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The native operation uses addition of multiplicities and distributes over pointwise minimum.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "retained"
+    },
+    {
+      "key": "set1:prsubset/1",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "Proper subset occurs only in the guard. The reviewed claim is a direction from proper inclusion to ordinary inclusion and distinctness.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "retained"
+    },
+    {
+      "key": "calculus1:defint/2",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The interval symbol is missing from the pinned dictionary. The expression remains rejected even though the intended additivity statement is familiar.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "withheld"
+    },
+    {
+      "key": "interval1:interval_cc/1",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The reference spells less-than-or-equal as relation1:le; the dictionary declares leq.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "withheld"
+    },
+    {
+      "key": "s_data1:sdev/1",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "Set cardinality collapses duplicate values, so the witness gives the wrong denominator for a sample with repetitions.",
+      "scheme": "statistics",
+      "source": "openmath",
+      "verdict": "withheld"
+    },
+    {
+      "key": "s_dist1:sdev/1",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The source expression lacks a square root and supplies the density in the role of an outcome.",
+      "scheme": "statistics",
+      "source": "openmath",
+      "verdict": "withheld"
+    },
+    {
+      "key": "transc1:sin/1",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The displayed source expression negates the exponential value instead of negating the exponent.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "withheld"
+    },
+    {
+      "key": [
+        "Implementation",
+        "implements",
+        "Algorithm"
+      ],
+      "method": "relation_projection",
+      "predicate": "implementsAlgorithm",
+      "rationale": "The source axiom has an existential algorithm filler for an implementation class. The reviewed topic refers to the algorithm it realizes.",
+      "scheme": "computer-science",
+      "source": "ml-schema",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "Run",
+        "executes",
+        "Implementation"
+      ],
+      "method": "relation_projection",
+      "predicate": "executesImplementation",
+      "rationale": "The run and implementation have distinct activity and executable roles.",
+      "scheme": "computer-science",
+      "source": "ml-schema",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "Run",
+        "output",
+        "ModelEvaluation"
+      ],
+      "method": "relation_projection",
+      "predicate": "documentsEvaluationOutput",
+      "rationale": "The source existential restricts the modeled class and the canonical statement documents the output role scoped to that model.",
+      "scheme": "computer-science",
+      "source": "ml-schema",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "ModelEvaluation",
+        "specifies",
+        "EvaluationMeasure"
+      ],
+      "method": "relation_projection",
+      "predicate": "reportsEvaluationMeasure",
+      "rationale": "The result refers to a measure, which has a separate identity from its value or computation.",
+      "scheme": "statistics",
+      "source": "ml-schema",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "EvaluationSpecification",
+        "part",
+        "EvaluationProcedure"
+      ],
+      "method": "relation_projection",
+      "predicate": "hasEvaluationComponent",
+      "rationale": "The scope admits an assessment procedure as one role of a specification.",
+      "scheme": "statistics",
+      "source": "ml-schema",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "EvaluationSpecification",
+        "part",
+        "EvaluationMeasure"
+      ],
+      "method": "relation_projection",
+      "predicate": "hasEvaluationComponent",
+      "rationale": "The scope admits a measure as a separate role of the assessment specification.",
+      "scheme": "statistics",
+      "source": "ml-schema",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "HyperParameterSetting",
+        "specifies",
+        "HyperParameter"
+      ],
+      "method": "relation_projection",
+      "predicate": "reportsEvaluationMeasure",
+      "rationale": "This source occurrence assigns a parameter role to the same property. Performance measurement requires a separate witness.",
+      "scheme": "computer-science",
+      "source": "ml-schema",
+      "verdict": "withheld"
+    },
+    {
+      "key": [
+        "Run",
+        "output",
+        "Model"
+      ],
+      "method": "relation_projection",
+      "predicate": "documentsEvaluationOutput",
+      "rationale": "This output represents a trained model. An evaluation-result claim requires the separate evaluation filler.",
+      "scheme": "computer-science",
+      "source": "ml-schema",
+      "verdict": "withheld"
+    },
+    {
+      "key": [
+        "MeasureTheory.Measure.ofMultiset_apply_singleton",
+        "empirical-singleton-frequency",
+        "uses",
+        "multiset-multiplicity"
+      ],
+      "method": "formal_declaration",
+      "predicate": "uses",
+      "rationale": "The pinned proof counts observations. Its probability interpretation explicitly requires a nonempty multiset.",
+      "scheme": "statistics",
+      "source": "mathlib4",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "MeasureTheory.Measure.ofMultiset_apply_singleton",
+        "empirical-singleton-frequency",
+        "uses",
+        "empty-set"
+      ],
+      "method": "formal_declaration",
+      "predicate": "uses",
+      "rationale": "A set of distinct observations omits frequencies and cannot witness this denominator.",
+      "scheme": "statistics",
+      "source": "mathlib4",
+      "verdict": "withheld"
+    },
+    {
+      "key": [
+        "HasDerivAt.mul",
+        "derivative",
+        "hasProperty",
+        "derivative-product-rule"
+      ],
+      "method": "formal_declaration",
+      "predicate": "hasProperty",
+      "rationale": "The declaration has two derivative hypotheses and corroborates the ordinary product rule through real specialization.",
+      "scheme": "mathematics",
+      "source": "mathlib4",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "ComputablePred.rice",
+        "rice-fixed-point-proof",
+        "proves",
+        "opencs-c43294"
+      ],
+      "method": "formal_declaration",
+      "predicate": "proves",
+      "rationale": "The source proof uses a parameterized extensional fixed-point theorem and establishes the scoped Rice result.",
+      "scheme": "computer-science",
+      "source": "mathlib4",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "ComputablePred.rice",
+        "opencs-c43294",
+        "hasProperty",
+        "definitional-equality"
+      ],
+      "method": "formal_declaration",
+      "predicate": "hasProperty",
+      "rationale": "The source uses equality of evaluated partial functions. Code identity calls for different evidence.",
+      "scheme": "computer-science",
+      "source": "mathlib4",
+      "verdict": "withheld"
+    },
+    {
+      "key": [
+        "DFA.evalFrom_of_append",
+        "dfa-concatenation-evaluation",
+        "uses",
+        "word-concatenation"
+      ],
+      "method": "formal_declaration",
+      "predicate": "uses",
+      "rationale": "The source uses the append equation on finite words, with the intermediate state passed to the second evaluation.",
+      "scheme": "computer-science",
+      "source": "mathlib4",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "PMF.bernoulli_apply",
+        "boolean-bernoulli-representation",
+        "represents",
+        "bernoulli-distribution"
+      ],
+      "method": "formal_declaration",
+      "predicate": "represents",
+      "rationale": "The pinned historical representation assigns the two masses to true and false, including the degenerate endpoint values.",
+      "scheme": "statistics",
+      "source": "mathlib4",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "Complex.equivRealProd",
+        "complex-plane",
+        "represents",
+        "ontomath-pro-e2127"
+      ],
+      "method": "formal_declaration",
+      "predicate": "represents",
+      "rationale": "The equivalence identifies the coordinates used in the representation and gives a map back to complex numbers.",
+      "scheme": "mathematics",
+      "source": "mathlib4",
+      "verdict": "retained"
+    },
+    {
+      "key": "opencs-v07-review-c16614",
+      "method": "mapping",
+      "predicate": "exactMatch",
+      "rationale": "The explicit referent and lambda-calculus parents corroborate the existing Curry–Howard topic.",
+      "scheme": "logic",
+      "source": "opencs",
+      "verdict": "retained"
+    },
+    {
+      "key": "opencs-v07-review-c1096",
+      "method": "mapping",
+      "predicate": "closeMatch",
+      "rationale": "The alternate fixed-point topic supports a close mapping alongside the separately evidenced recursion-theorem topic.",
+      "scheme": "computer-science",
+      "source": "opencs",
+      "verdict": "retained"
+    },
+    {
+      "key": "ontomath-pro-v07-review-e3298",
+      "method": "mapping",
+      "predicate": "seeAlso",
+      "rationale": "The OWL class names the complex plane. The canonical subject concerns its mathematical representation rather than class equivalence.",
+      "scheme": "mathematics",
+      "source": "ontomath-pro",
+      "verdict": "retained"
+    },
+    {
+      "key": "ontomath-pro-v07-review-e18",
+      "method": "mapping",
+      "predicate": "seeAlso",
+      "rationale": "Mathematical logic has a relevant native OWL class; the canonical logic topic is an editorial subject.",
+      "scheme": "logic",
+      "source": "ontomath-pro",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "0000304",
+        "input",
+        "0000176"
+      ],
+      "method": "relation_projection",
+      "predicate": "uses",
+      "rationale": "A Welch t statistic and a t reference law have separate roles, even though the native input predicate covers both.",
+      "scheme": "statistics",
+      "source": "stato",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "0000571",
+        "output",
+        "0000580"
+      ],
+      "method": "relation_projection",
+      "predicate": "computes",
+      "rationale": "The variable-importance-in-projection score is a fitted PLS diagnostic rather than a statistical parameter estimate.",
+      "scheme": "statistics",
+      "source": "stato",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "0000440",
+        "input",
+        "0000227"
+      ],
+      "method": "relation_projection",
+      "predicate": "usesReferenceDistribution",
+      "rationale": "The normality assumption does not supply the null law of the Dixon spacing ratio.",
+      "scheme": "statistics",
+      "source": "stato",
+      "verdict": "withheld"
+    },
+    {
+      "key": [
+        "0000083",
+        "input",
+        "0000067"
+      ],
+      "method": "relation_projection",
+      "predicate": "usesReferenceDistribution",
+      "rationale": "Continuity of the null observation distribution does not specify the test statistic's sampling law.",
+      "scheme": "statistics",
+      "source": "stato",
+      "verdict": "withheld"
+    }
+  ],
+  "selection_limit": "The audit samples the new cohort and separately targets expression, mapping, and proof roles. The outcome counts do not estimate a graph-wide error rate.",
+  "source_assessments": {
+    "cso": {
+      "cause": "offline_source_unavailable",
+      "explanation": "The workspace fetch returned HTTP 403. Shared-anchor review uses explicit sameAs witnesses from approved CSO decisions and the pinned OpenCS snapshot.",
+      "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc"
+    },
+    "mathlib4": {
+      "cause": "textual_extraction_only",
+      "explanation": "Textual headers and reviewed declaration ranges are indexed. Elaboration and extraction of kernel proof dependencies require a pinned Lean environment.",
+      "sha256": "e38cb828c5368d71469540927a0c81ea1faa69f007c9a372926207c8521e82b3"
+    },
+    "ontomath-edu": {
+      "cause": "licensing_restriction",
+      "explanation": "The pinned native OWL artifacts remain available in staging pending verification of publication rights.",
+      "sha256": "ea619ad644de79ac379b853b8cf636f6c4daec5258a726bd82402ffe97a56081"
+    },
+    "ontomath-pro": {
+      "cause": "owl_universal_scope",
+      "explanation": "The source restriction inventory counts universal and existential forms separately. A reviewed OWL class reference guides reconciliation while the independent Mathlib witness supplies the coordinate equivalence.",
+      "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f"
+    },
+    "opencs": {
+      "cause": "topical_relation_semantics",
+      "explanation": "The full eligible neighborhood counts and shared anchor review retain SKOS meanings. Cohort admission separately checks the source label, anchor and native parent.",
+      "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5"
+    },
+    "openmath": {
+      "cause": "per_dictionary_rights_and_expression_scope",
+      "explanation": "Selected dictionaries require the approved derivative-work notice. Unresolved native symbols, missing bindings and semantic rejections retain distinct review states.",
+      "sha256": "4bcd5e40a5985f1bd29b0aea8f3bf172ecaf2392be44edf4b7b4eb4756340ac2"
+    }
+  },
+  "version": "0.7.0"
+}

@@ -1,0 +1,59 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:opencs-c17709 a skos:Concept ; skos:prefLabel "Skolem normal form"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "A first-order formula with existential quantifiers eliminated using fresh Skolem functions or constants, leaving a universal quantifier prefix, in the usual satisfiability-preserving transformation."@en .
+
+c:opencs-c18045 a skos:Concept ; skos:prefLabel "Explicit substitution"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "The treatment of substitutions as syntactic constructs with their own rules for propagation or evaluation."@en .
+
+c:opencs-c18772 a skos:Concept ; skos:prefLabel "Intuitionistic type theory"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "An intuitionistic dependent type theory in which types may depend on terms and propositions admit a types-as-proofs interpretation."@en .
+
+c:opencs-c24201 a skos:Concept ; skos:prefLabel "Gödel numbering"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory ;
+    skos:definition "An effective encoding of syntactic objects such as formulas and derivations by natural numbers."@en .
+
+c:opencs-c24869 a skos:Concept ; skos:prefLabel "Herbrand's theorem"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "For an unsatisfiable first-order clause set, there is an unsatisfiable finite set of its ground instances over the Herbrand universe, with a fresh constant available if needed."@en .
+
+c:opencs-c39446 a skos:Concept ; skos:prefLabel "Robinson arithmetic"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:first-order-logic ;
+    skos:definition "A finitely axiomatized arithmetic theory in the language of zero, successor, addition and multiplication, with no induction schema."@en .
+
+c:opencs-c4049 a skos:Concept ; skos:prefLabel "Structural rule"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:sequent-calculus ;
+    skos:definition "A proof rule governing the organization or number of assumptions, for example exchange, weakening, or contraction."@en .
+
+c:opencs-c41499 a skos:Concept ; skos:prefLabel "Prenex normal form"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:first-order-logic ;
+    skos:definition "The form of a first-order formula consisting of a quantifier prefix followed by a quantifier-free matrix."@en .
+
+c:opencs-c42139 a skos:Concept ; skos:prefLabel "Diagonal lemma"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory ;
+    skos:definition "For a one-variable arithmetical formula, an effective diagonal construction obtains a sentence that an appropriate arithmetic theory proves equivalent to the formula applied to its own Gödel number."@en .
+
+c:opencs-c43008 a skos:Concept ; skos:prefLabel "Proof by contradiction"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory ;
+    skos:definition "A proof principle that obtains a proposition by deducing a contradiction from its negation in classical logic."@en .
+
+c:opencs-c44728 a skos:Concept ; skos:prefLabel "Herbrand interpretation"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:model-theory ;
+    skos:definition "A first-order interpretation over the Herbrand universe whose constants and function symbols have their canonical term interpretations."@en .
+
+c:opencs-c44999 a skos:Concept ; skos:prefLabel "Church–Rosser theorem"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory ;
+    skos:definition "For beta reduction in the untyped lambda calculus, terms reachable by conversion admit a common beta reduct."@en .
+
+c:opencs-c5714 a skos:Concept ; skos:prefLabel "Intuitionistic logic"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory ;
+    skos:definition "A logic of constructive proofs in which a proof of arbitrary excluded middle is unavailable."@en .
+
+c:opencs-c8914 a skos:Concept ; skos:prefLabel "Kleene–Rosser paradox"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory ;
+    skos:definition "An inconsistency of specific unrestricted systems combining lambda abstraction and strong principles of logic."@en .

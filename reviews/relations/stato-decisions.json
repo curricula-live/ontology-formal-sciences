@@ -156,6 +156,68 @@
         "output",
         "0000565",
         "The PLS regression fit yields coefficients for its prediction equation within its model context."
+      ],
+      [
+        "0000052",
+        "input",
+        "0000376",
+        "The standardized Z statistic is used to evaluate the Z-test. The source models the statistic as an input distinct from the normal reference distribution.",
+        "uses"
+      ],
+      [
+        "0000086",
+        "input",
+        "0000282",
+        "The F statistic is the test statistic of the scoped F-test. The input role names the statistic and the separately reviewed reference-law projection retains the F distribution.",
+        "uses"
+      ],
+      [
+        "0000095",
+        "input",
+        "0000176",
+        "The paired t procedure uses the t statistic computed on paired differences under its ordinary application conditions.",
+        "uses"
+      ],
+      [
+        "0000302",
+        "input",
+        "0000176",
+        "The one-sample t procedure uses the t statistic formed from a sample mean and estimated standard error.",
+        "uses"
+      ],
+      [
+        "0000303",
+        "input",
+        "0000176",
+        "The pooled two-sample t procedure uses a t statistic with a pooled estimate of variance.",
+        "uses"
+      ],
+      [
+        "0000304",
+        "input",
+        "0000176",
+        "The unequal-variance Welch procedure uses its t statistic with separate variance estimates.",
+        "uses"
+      ],
+      [
+        "0000571",
+        "output",
+        "0000570",
+        "The source documents the selectivity ratio as a model-dependent diagnostic computed from a fitted PLS application.",
+        "computes"
+      ],
+      [
+        "0000571",
+        "output",
+        "0000580",
+        "The source documents the variable-importance-in-projection scores computed from a fitted PLS model.",
+        "computes"
+      ],
+      [
+        "0000246",
+        "input",
+        "0000229",
+        "The usual Woolf heterogeneity statistic for odds ratios uses an asymptotic chi-square reference under large-sample conditions."
       ]
     ],
     "rejected": [
@@ -218,6 +280,18 @@
         "output",
         "0000569",
         "A latent component score is a computed coordinate of an observation, not the parameter estimate covered by the output projection."
+      ],
+      [
+        "0000440",
+        "input",
+        "0000227",
+        "The normal distribution describes an assumption for the observations in the usual Dixon Q procedure. The ratio statistic has a different null law."
+      ],
+      [
+        "0000083",
+        "input",
+        "0000067",
+        "Continuity of the specified null distribution is part of the usual one-sample setting. This filler does not name the distribution of the test statistic."
       ]
     ]
   },

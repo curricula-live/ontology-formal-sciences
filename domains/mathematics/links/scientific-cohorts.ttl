@@ -1,0 +1,4 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+
+c:complex-plane v:represents c:ontomath-pro-e2127 .
