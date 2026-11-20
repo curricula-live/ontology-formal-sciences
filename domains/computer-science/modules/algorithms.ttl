@@ -46,3 +46,9 @@ c:ford-fulkerson-method a skos:Concept ; skos:prefLabel "Ford–Fulkerson method
 
 c:maximum-flow-problem a skos:Concept ; skos:prefLabel "Maximum flow problem"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:edge-relaxation a skos:Concept ; skos:prefLabel "Edge relaxation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms ;
+    skos:definition "A shortest-path update that compares the current distance estimate with the estimate obtained by extending a path across one edge."@en .
+
+c:bellman-ford-algorithm skos:definition "A single-source algorithm that relaxes edges to obtain finite shortest-path distances to reachable vertices when no negative-weight cycle is reachable from the source. An additional relaxation pass can detect such a cycle."@en .

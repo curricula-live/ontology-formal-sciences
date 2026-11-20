@@ -1,0 +1,234 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:ontomath-pro-e40 a skos:Concept ; skos:prefLabel "Clifford algebra"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e43 a skos:Concept ; skos:prefLabel "Even Clifford subalgebra"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e127 a skos:Concept ; skos:prefLabel "Homology"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e128 a skos:Concept ; skos:prefLabel "Group homology"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e171 a skos:Concept ; skos:prefLabel "Exact sequence"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e172 a skos:Concept ; skos:prefLabel "Long exact sequence"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e173 a skos:Concept ; skos:prefLabel "Short exact sequence"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e290 a skos:Concept ; skos:prefLabel "Fundamental group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e983 a skos:Concept ; skos:prefLabel "Lie algebra"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e985 a skos:Concept ; skos:prefLabel "Compact Lie algebra"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e986 a skos:Concept ; skos:prefLabel "Cartan subalgebra"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e987 a skos:Concept ; skos:prefLabel "Semisimple Lie algebra"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e988 a skos:Concept ; skos:prefLabel "Simple Lie algebra"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e989 a skos:Concept ; skos:prefLabel "Principal subalgebra of Lie algebra"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e991 a skos:Concept ; skos:prefLabel "Orthogonal group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e997 a skos:Concept ; skos:prefLabel "Poincare group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e998 a skos:Concept ; skos:prefLabel "Lorentz group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e1000 a skos:Concept ; skos:prefLabel "One-parameter subgroup of Lie group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e1006 a skos:Concept ; skos:prefLabel "Connected component of the identity"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e1905 a skos:Concept ; skos:prefLabel "Quadratic equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e1906 a skos:Concept ; skos:prefLabel "Cubic equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e1907 a skos:Concept ; skos:prefLabel "Linear equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2144 a skos:Concept ; skos:prefLabel "Algebraic system"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2243 a skos:Concept ; skos:prefLabel "Ideal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2244 a skos:Concept ; skos:prefLabel "Annihilator ideal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2246 a skos:Concept ; skos:prefLabel "Inner ideal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2248 a skos:Concept ; skos:prefLabel "Principal ideal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2249 a skos:Concept ; skos:prefLabel "Differential ideal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2250 a skos:Concept ; skos:prefLabel "Dual ideal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2252 a skos:Concept ; skos:prefLabel "Idempotent ideal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2256 a skos:Concept ; skos:prefLabel "Maximal ideal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2257 a skos:Concept ; skos:prefLabel "Minimal ideal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2258 a skos:Concept ; skos:prefLabel "Modular ideal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2260 a skos:Concept ; skos:prefLabel "Primary ideal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2261 a skos:Concept ; skos:prefLabel "Semiprime ideal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2262 a skos:Concept ; skos:prefLabel "Right ideal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2263 a skos:Concept ; skos:prefLabel "Non-zero right ideal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2264 a skos:Concept ; skos:prefLabel "Cyclic right ideal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2265 a skos:Concept ; skos:prefLabel "Simple ideal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2268 a skos:Concept ; skos:prefLabel "Essential ideal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2328 a skos:Concept ; skos:prefLabel "Completely reducible module"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2330 a skos:Concept ; skos:prefLabel "Graded module"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2331 a skos:Concept ; skos:prefLabel "Induced module"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2332 a skos:Concept ; skos:prefLabel "Injective module"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2333 a skos:Concept ; skos:prefLabel "Finitely cogenerated module"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2335 a skos:Concept ; skos:prefLabel "Bezout module"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2341 a skos:Concept ; skos:prefLabel "Semisimple module"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2342 a skos:Concept ; skos:prefLabel "Right module"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2343 a skos:Concept ; skos:prefLabel "Projective module"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2344 a skos:Concept ; skos:prefLabel "Simple module"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2345 a skos:Concept ; skos:prefLabel "Free module"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2346 a skos:Concept ; skos:prefLabel "Topological module"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2349 a skos:Concept ; skos:prefLabel "Chain module"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2350 a skos:Concept ; skos:prefLabel "Cyclic module"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2351 a skos:Concept ; skos:prefLabel "Subgroup"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2352 a skos:Concept ; skos:prefLabel "Maximal subgroup"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2353 a skos:Concept ; skos:prefLabel "Normal subgroup"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2354 a skos:Concept ; skos:prefLabel "Frattini subgroup"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2356 a skos:Concept ; skos:prefLabel "Hall subgroup"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2357 a skos:Concept ; skos:prefLabel "Sylow subgroup"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2358 a skos:Concept ; skos:prefLabel "Proper subgroup"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2359 a skos:Concept ; skos:prefLabel "Cyclic subgroup"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2360 a skos:Concept ; skos:prefLabel "Elementary subgroup"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2361 a skos:Concept ; skos:prefLabel "Submodule"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2363 a skos:Concept ; skos:prefLabel "Closed submodule"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2364 a skos:Concept ; skos:prefLabel "Maximal submodule"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2365 a skos:Concept ; skos:prefLabel "Small submodule"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2366 a skos:Concept ; skos:prefLabel "Minimal submodule"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2367 a skos:Concept ; skos:prefLabel "Essential submodule"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2369 a skos:Concept ; skos:prefLabel "Galois field"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2373 a skos:Concept ; skos:prefLabel "Semi-group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2375 a skos:Concept ; skos:prefLabel "Periodic semigroup"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2377 a skos:Concept ; skos:prefLabel "Semilattice"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e2384 a skos:Concept ; skos:prefLabel "Monomial"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e3110 a skos:Concept ; skos:prefLabel "Iwasawa decomposition"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e3111 a skos:Concept ; skos:prefLabel "Cartan decomposition"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ontomath-pro-e3241 a skos:Concept ; skos:prefLabel "Co-kernel"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .

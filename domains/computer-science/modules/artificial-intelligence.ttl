@@ -17,3 +17,15 @@ c:knowledge-representation a skos:Concept ; skos:prefLabel "Knowledge representa
 
 c:automated-planning a skos:Concept ; skos:prefLabel "Automated planning"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:artificial-intelligence .
+
+c:sum-product-algorithm a skos:Concept ; skos:prefLabel "Sum-product algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:artificial-intelligence ;
+    skos:definition "Message passing on a factor graph that computes exact marginals on a tree. Loopy applications can be approximate."@en .
+
+c:factor-graph a skos:Concept ; skos:prefLabel "Factor graph"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:artificial-intelligence ;
+    skos:definition "A bipartite graph whose two types of nodes represent variables and factors in a product decomposition of a function."@en .
+
+c:tree-sum-product a skos:Concept ; skos:prefLabel "Sum-product inference on a tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:sum-product-algorithm ;
+    skos:definition "Sum-product message passing on an acyclic factor graph. For a normalizable probability model, normalizing the resulting beliefs yields the exact variable marginals."@en .

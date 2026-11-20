@@ -3,7 +3,10 @@ from pyshacl import validate
 from pipeline.common import ROOT, C, V
 from pipeline.normalize import label_key
 
-RELATIONS = {SKOS.broader, SKOS.related, V.uses, V.solves}
+RELATIONS = {
+    SKOS.broader, SKOS.related, V.uses, V.solves, V.represents, V.hasProperty,
+    V.requiresAssumption, V.recognizesExactly, V.computes, V.guarantees,
+}
 
 
 def check(graph):

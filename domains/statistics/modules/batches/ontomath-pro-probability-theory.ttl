@@ -1,0 +1,174 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:ontomath-pro-e344 a skos:Concept ; skos:prefLabel "Buffon problem"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e836 a skos:Concept ; skos:prefLabel "Stochastic approximation"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e867 a skos:Concept ; skos:prefLabel "Sample without replacement"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e868 a skos:Concept ; skos:prefLabel "Grouped sample"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e869 a skos:Concept ; skos:prefLabel "Univariate sample"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e870 a skos:Concept ; skos:prefLabel "Representative sample"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e871 a skos:Concept ; skos:prefLabel "Simple random sample"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e872 a skos:Concept ; skos:prefLabel "Sampling with replacement"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e1135 a skos:Concept ; skos:prefLabel "Probability space"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e1210 a skos:Concept ; skos:prefLabel "Jensen inequality"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e1211 a skos:Concept ; skos:prefLabel "Kolmogorov inequality"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e1220 a skos:Concept ; skos:prefLabel "Chebyshev inequality"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e1635 a skos:Concept ; skos:prefLabel "Probability density function"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e1644 a skos:Concept ; skos:prefLabel "Function of random variable"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e1646 a skos:Concept ; skos:prefLabel "Regret function"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e1647 a skos:Concept ; skos:prefLabel "Likelihood function"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e1833 a skos:Concept ; skos:prefLabel "The law of large numbers"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e1834 a skos:Concept ; skos:prefLabel "Strong law of large numbers"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e1835 a skos:Concept ; skos:prefLabel "Borel-Cantelli lemma"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e1841 a skos:Concept ; skos:prefLabel "Lindeberg theorem"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e1856 a skos:Concept ; skos:prefLabel "Central limit theorem"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2007 a skos:Concept ; skos:prefLabel "Formula of total probability"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2408 a skos:Concept ; skos:prefLabel "Brownian motion"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2410 a skos:Concept ; skos:prefLabel "Probability"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2411 a skos:Concept ; skos:prefLabel "Transitional probability"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2415 a skos:Concept ; skos:prefLabel "Unconditional probability"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2416 a skos:Concept ; skos:prefLabel "Geometric probability"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2417 a skos:Concept ; skos:prefLabel "Fiducial probability"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2425 a skos:Concept ; skos:prefLabel "Biased sampling"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2432 a skos:Concept ; skos:prefLabel "Poisson intensity"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2473 a skos:Concept ; skos:prefLabel "Decision rule"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2474 a skos:Concept ; skos:prefLabel "Randomized decision rule"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2552 a skos:Concept ; skos:prefLabel "Conditional independence of random variable"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2553 a skos:Concept ; skos:prefLabel "Local asymptotic normality"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2557 a skos:Concept ; skos:prefLabel "Nonnegative random variable"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2558 a skos:Concept ; skos:prefLabel "Simple random variable"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2563 a skos:Concept ; skos:prefLabel "Independent random variable"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2564 a skos:Concept ; skos:prefLabel "Uncorrelated random variable"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2565 a skos:Concept ; skos:prefLabel "Identically distributed random variable"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2571 a skos:Concept ; skos:prefLabel "Histogram"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2579 a skos:Concept ; skos:prefLabel "Conditional variance"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2583 a skos:Concept ; skos:prefLabel "Sample covariance"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2588 a skos:Concept ; skos:prefLabel "Sample correlation coefficient"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2590 a skos:Concept ; skos:prefLabel "Correlation ratio"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2606 a skos:Concept ; skos:prefLabel "Cumulant"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2608 a skos:Concept ; skos:prefLabel "Conditional expectation"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2612 a skos:Concept ; skos:prefLabel "Absolute moment"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2614 a skos:Concept ; skos:prefLabel "Raw moment"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2618 a skos:Concept ; skos:prefLabel "Conditional moment"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2619 a skos:Concept ; skos:prefLabel "Factorial moment"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2620 a skos:Concept ; skos:prefLabel "Central moment"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2648 a skos:Concept ; skos:prefLabel "Independence of events"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2651 a skos:Concept ; skos:prefLabel "Certain event"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2653 a skos:Concept ; skos:prefLabel "Elementary event"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2658 a skos:Concept ; skos:prefLabel "Sufficient statistic"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2663 a skos:Concept ; skos:prefLabel "Stochastic model"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:ontomath-pro-e2682 a skos:Concept ; skos:prefLabel "Random experiment"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory .

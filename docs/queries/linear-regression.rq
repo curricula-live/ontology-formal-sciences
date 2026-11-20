@@ -1,0 +1,12 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX s: <https://curricula.live/id/formal-sciences/scheme/>
+
+# Which statistical estimator and matrix-based numerical method solve the same problem?
+SELECT ?estimator ?method ?factorization FROM g:asserted WHERE {
+  ?estimator skos:inScheme s:statistics ; v:solves ?problem .
+  ?method skos:inScheme s:mathematics ; v:solves ?problem ; v:uses ?factorization .
+  VALUES ?factorization { c:qr-factorization c:singular-value-decomposition c:cholesky-factorization }
+} ORDER BY ?estimator ?method ?factorization

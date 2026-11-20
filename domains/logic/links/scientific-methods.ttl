@@ -1,0 +1,12 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:two-sat-implication-graph-algorithm v:solves c:two-satisfiability .
+c:tseitin-transformation v:uses c:conjunctive-normal-form .
+c:tseitin-transformation v:guarantees c:equisatisfiability .
+c:unit-propagation v:uses c:unit-clause .
+c:unit-clause v:uses c:literal-propositional-logic .
+c:automata-theoretic-ltl-model-checking v:uses c:linear-temporal-logic .
+c:automata-theoretic-ltl-model-checking skos:broader c:model-checking .

@@ -17,3 +17,20 @@ c:least-squares a skos:Concept ; skos:prefLabel "Least squares"@en ;
 
 c:residual-statistics a skos:Concept ; skos:prefLabel "Residual (statistics)"@en ;
     skos:inScheme scheme:statistics ; skos:broader c:regression-analysis .
+
+c:design-matrix a skos:Concept ; skos:prefLabel "Design matrix"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:regression-analysis ;
+    skos:definition "A matrix whose rows encode observations and whose columns encode model terms for those observations."@en .
+
+c:ordinary-least-squares a skos:Concept ; skos:prefLabel "Ordinary least squares"@en ;
+    skos:altLabel "OLS"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:regression-analysis ;
+    skos:definition "Estimation of coefficients in a linear model by minimizing the unweighted sum of squared residuals."@en .
+
+c:ridge-regression a skos:Concept ; skos:prefLabel "Ridge regression"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:regression-analysis ;
+    skos:definition "Linear regression with a quadratic penalty on the fitted coefficients, typically excluding the intercept."@en .
+
+c:least-squares-residual a skos:Concept ; skos:prefLabel "Linear least-squares residual"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:regression-analysis ;
+    skos:definition "The difference between the response vector and the fitted vector in a linear least-squares problem."@en .

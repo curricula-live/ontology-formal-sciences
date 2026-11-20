@@ -20,3 +20,15 @@ c:independence-probability a skos:Concept ; skos:prefLabel "Independence (probab
 
 c:joint-distribution a skos:Concept ; skos:prefLabel "Joint probability distribution"@en ;
     skos:inScheme scheme:statistics ; skos:broader c:probability-theory .
+
+c:conditional-distribution a skos:Concept ; skos:prefLabel "Conditional distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory ;
+    skos:definition "The probability law of one variable given information about another variable or event."@en .
+
+c:marginal-distribution a skos:Concept ; skos:prefLabel "Marginal distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory ;
+    skos:definition "The probability distribution obtained from a joint law by retaining only selected variables."@en .
+
+c:product-of-marginals a skos:Concept ; skos:prefLabel "Product of marginal distributions"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory ;
+    skos:definition "The product measure formed from individual marginal distributions. It agrees with the joint law when the variables are independent."@en .

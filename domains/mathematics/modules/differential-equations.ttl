@@ -1,0 +1,9 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:differential-equations a skos:Concept ;
+    skos:prefLabel "Differential equations"@en ;
+    skos:inScheme scheme:mathematics ;
+    skos:definition "Equations involving unknown functions and their derivatives."@en ;
+    skos:broader c:mathematical-analysis .

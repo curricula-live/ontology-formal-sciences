@@ -17,3 +17,7 @@ c:term-rewriting a skos:Concept ; skos:prefLabel "Term rewriting"@en ;
 
 c:theorem-prover a skos:Concept ; skos:prefLabel "Theorem prover"@en ;
     skos:inScheme scheme:logic ; skos:broader c:automated-reasoning .
+
+c:two-sat-implication-graph-algorithm a skos:Concept ; skos:prefLabel "Implication-graph algorithm for 2-SAT"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "A decision procedure that checks whether a literal and its negation lie in the same strongly connected component of a 2-SAT implication graph."@en .

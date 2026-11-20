@@ -1,0 +1,12 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:ontomath-pro-e853 a skos:Concept ; skos:prefLabel "Algebra of events"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory .
+
+c:ontomath-pro-e856 a skos:Concept ; skos:prefLabel "Sigma algebra"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory .
+
+c:ontomath-pro-e2142 a skos:Concept ; skos:prefLabel "Transfinite number"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory .

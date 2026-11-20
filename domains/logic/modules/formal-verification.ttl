@@ -23,3 +23,12 @@ c:symbolic-model-checking a skos:Concept ; skos:prefLabel "Symbolic model checki
 
 c:weakest-precondition a skos:Concept ; skos:prefLabel "Weakest precondition"@en ;
     skos:inScheme scheme:logic ; skos:broader c:formal-verification .
+
+c:linear-temporal-logic a skos:Concept ; skos:prefLabel "Linear temporal logic"@en ;
+    skos:altLabel "LTL"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification ;
+    skos:definition "A temporal logic interpreted over paths with operators such as next and until."@en .
+
+c:automata-theoretic-ltl-model-checking a skos:Concept ; skos:prefLabel "Automata-theoretic LTL model checking"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification ;
+    skos:definition "A verification method that searches for an execution satisfying the negation of a linear temporal specification using an automaton on infinite words."@en .

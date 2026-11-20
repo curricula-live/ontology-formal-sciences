@@ -1,0 +1,12 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:adjacency-list v:represents c:graph-graph-theory .
+c:adjacency-matrix v:represents c:graph-graph-theory .
+c:qr-least-squares-method v:uses c:qr-factorization .
+c:qr-least-squares-method v:solves c:linear-least-squares-problem .
+c:conjugate-gradient-method v:solves c:linear-system-solution .
+c:conjugate-gradient-method v:requiresAssumption c:symmetric-positive-definiteness .
+c:linear-least-squares-problem v:uses c:euclidean-norm .

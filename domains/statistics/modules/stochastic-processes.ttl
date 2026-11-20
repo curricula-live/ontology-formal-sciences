@@ -20,3 +20,12 @@ c:martingale a skos:Concept ; skos:prefLabel "Martingale"@en ;
 
 c:transition-matrix a skos:Concept ; skos:prefLabel "Transition matrix"@en ;
     skos:inScheme scheme:statistics ; skos:broader c:stochastic-processes .
+
+c:markov-chain-monte-carlo a skos:Concept ; skos:prefLabel "Markov chain Monte Carlo"@en ;
+    skos:altLabel "MCMC"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:stochastic-processes ;
+    skos:definition "Methods for sampling via a Markov chain constructed to have a designated target distribution as a stationary distribution."@en .
+
+c:stationary-distribution a skos:Concept ; skos:prefLabel "Stationary distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:stochastic-processes ;
+    skos:definition "A probability distribution invariant under a Markov transition kernel."@en .

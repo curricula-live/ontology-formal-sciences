@@ -6,3 +6,27 @@ v:uses a rdf:Property ; rdfs:label "uses"@en ; rdfs:domain skos:Concept ; rdfs:r
  rdfs:comment "From a method or construct to a mathematical or computational ingredient it employs. Directional; no closure rule."@en .
 v:solves a rdf:Property ; rdfs:label "solves"@en ; rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
  rdfs:comment "From an algorithm to the problem it solves under its applicability conditions. Does not imply every instance satisfies those conditions."@en .
+
+v:hasProperty a rdf:Property ; rdfs:label "has property"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "From a scientific subject to a property established for its stated scope. A topical assertion about that subject does not propagate to narrower SKOS concepts."@en .
+
+v:requiresAssumption a rdf:Property ; rdfs:label "requires assumption"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "From a method to an input condition assumed in the stated standard application or guarantee. A violation removes that guarantee and need not make every run fail."@en .
+
+v:represents a rdf:Property ; rdfs:label "represents"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "From a representation to a structure or family of structures it can encode. Multiple representations may encode the same structure."@en .
+
+v:recognizesExactly a rdf:Property ; rdfs:label "recognizes exactly"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "From a machine model to the family consisting of the languages recognized by machines of that model. Each machine recognizes an individual language. The assertion has no symmetry or transitive closure."@en .
+
+v:computes a rdf:Property ; rdfs:label "computes"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "From a method to the type of quantity or mathematical result it computes under the applicability conditions in its definition."@en .
+
+v:guarantees a rdf:Property ; rdfs:label "guarantees"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "From a method to a property guaranteed of its output or of the relationship between its input and output under its stated conditions."@en .

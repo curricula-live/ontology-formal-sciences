@@ -20,3 +20,23 @@ c:condition-number a skos:Concept ; skos:prefLabel "Condition number"@en ;
 
 c:conjugate-gradient-method a skos:Concept ; skos:prefLabel "Conjugate gradient method"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:linear-least-squares-problem a skos:Concept ; skos:prefLabel "Linear least-squares problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis ;
+    skos:definition "The problem of minimizing the Euclidean norm of the residual of a linear system."@en .
+
+c:qr-least-squares-method a skos:Concept ; skos:prefLabel "QR method for linear least squares"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis ;
+    skos:definition "A method that transforms a linear least-squares problem using an orthogonal factorization. In the full-column-rank case it recovers the unique solution by triangular substitution."@en .
+
+c:normal-equations a skos:Concept ; skos:prefLabel "Normal equations"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis ;
+    skos:definition "The linear equations obtained by requiring a linear least-squares residual to be orthogonal to the column space of the design matrix."@en .
+
+c:linear-system-solution a skos:Concept ; skos:prefLabel "Linear system solution problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis ;
+    skos:definition "The problem of finding a vector satisfying a specified system of linear equations."@en .
+
+c:cholesky-factorization a skos:Concept ; skos:prefLabel "Cholesky factorization"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis ;
+    skos:definition "A factorization of a positive definite Hermitian matrix as a triangular matrix times its conjugate transpose, with positive diagonal entries."@en .

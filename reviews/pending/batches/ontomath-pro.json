@@ -1,0 +1,246 @@
+{
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2121": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/prime-number"
+    ],
+    "label": "Prime number",
+    "upstream_candidates": []
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2419": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/conditional-probability"
+    ],
+    "label": "Conditional probability",
+    "upstream_candidates": []
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2434": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stato-0000291"
+    ],
+    "label": "Quantile",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000291"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2435": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stato-0000152"
+    ],
+    "label": "Quartile",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000152"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2451": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stato-0000237"
+    ],
+    "label": "Standard deviation",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000237"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2455": {
+    "canonical_candidates": [],
+    "label": "Likelihood ratio",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000409"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2485": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stato-0000547"
+    ],
+    "label": "Laplace distribution",
+    "upstream_candidates": []
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2497": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stato-0000177"
+    ],
+    "label": "Beta distribution",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000177"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2498": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stato-0000276"
+    ],
+    "label": "Binomial distribution",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000276"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2499": {
+    "canonical_candidates": [],
+    "label": "Probability distribution",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000225"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2503": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stato-0000268"
+    ],
+    "label": "Gamma distribution",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000268"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2504": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/geometric-distribution"
+    ],
+    "label": "Geometric distribution",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000145"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2505": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stato-0000060"
+    ],
+    "label": "Hypergeometric distribution",
+    "upstream_candidates": []
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2517": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stato-0000283"
+    ],
+    "label": "Negative binomial distribution",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000283"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2518": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/exponential-distribution"
+    ],
+    "label": "Exponential distribution",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000160"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2521": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/poisson-distribution"
+    ],
+    "label": "Poisson distribution",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000051"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2527": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stationary-distribution"
+    ],
+    "label": "Stationary distribution",
+    "upstream_candidates": []
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2531": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/conditional-distribution"
+    ],
+    "label": "Conditional distribution",
+    "upstream_candidates": []
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2533": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stato-0000229"
+    ],
+    "label": "Chi-square distribution",
+    "upstream_candidates": []
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2534": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/marginal-distribution"
+    ],
+    "label": "Marginal distribution",
+    "upstream_candidates": []
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2572": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stato-0000292"
+    ],
+    "label": "Decile",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000292"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2574": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stato-0000650"
+    ],
+    "label": "Sampling variance",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000650"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2602": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stato-0000565"
+    ],
+    "label": "Regression coefficient",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000565"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2632": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stato-0000401"
+    ],
+    "label": "Sample mean",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000401"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2656": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stato-0000039"
+    ],
+    "label": "Statistic",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000039"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2660": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stato-0000107"
+    ],
+    "label": "Statistical model",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000107"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2666": {
+    "canonical_candidates": [],
+    "label": "Contingency table",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000140"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E3374": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/condition-number"
+    ],
+    "label": "Condition number",
+    "upstream_candidates": []
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E338": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/null-hypothesis"
+    ],
+    "label": "Null hypothesis",
+    "upstream_candidates": [
+      "http://purl.obolibrary.org/obo/STATO_0000057"
+    ]
+  },
+  "http://cll.niimm.ksu.ru/ontologies/mathematics#E750": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/conjugate-gradient-method"
+    ],
+    "label": "Conjugate gradient method",
+    "upstream_candidates": []
+  }
+}

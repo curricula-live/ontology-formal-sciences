@@ -23,3 +23,7 @@ c:kernel-method a skos:Concept ; skos:prefLabel "Kernel method"@en ;
 
 c:backpropagation a skos:Concept ; skos:prefLabel "Backpropagation"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:forward-mode-automatic-differentiation a skos:Concept ; skos:prefLabel "Forward-mode automatic differentiation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning ;
+    skos:definition "Propagation of tangents through a computation by composing local derivatives in evaluation order."@en .

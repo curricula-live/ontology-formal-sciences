@@ -20,3 +20,19 @@ c:logical-conjunction a skos:Concept ; skos:prefLabel "Logical conjunction"@en ;
 
 c:boolean-formula a skos:Concept ; skos:prefLabel "Boolean formula"@en ;
     skos:inScheme scheme:logic ; skos:broader c:propositional-logic .
+
+c:equisatisfiability a skos:Concept ; skos:prefLabel "Equisatisfiability"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "Two formulas are equisatisfiable when one has a satisfying assignment exactly when the other does. Their assignments and free variables can differ."@en .
+
+c:tseitin-transformation a skos:Concept ; skos:prefLabel "Tseitin transformation"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "An encoding of a propositional formula into an equisatisfiable conjunction of clauses using auxiliary variables for subformulas."@en .
+
+c:literal-propositional-logic a skos:Concept ; skos:prefLabel "Propositional literal"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "A propositional variable or its negation."@en .
+
+c:unit-clause a skos:Concept ; skos:prefLabel "Unit clause"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "A clause consisting of a single literal."@en .

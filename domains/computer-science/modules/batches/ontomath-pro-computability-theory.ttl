@@ -1,0 +1,9 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:ontomath-pro-e2394 a skos:Concept ; skos:prefLabel "Recursive set"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computability-theory .
+
+c:ontomath-pro-e2400 a skos:Concept ; skos:prefLabel "General recursive function"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computability-theory .

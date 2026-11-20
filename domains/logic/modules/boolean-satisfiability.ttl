@@ -22,3 +22,13 @@ c:unit-propagation skos:definition "In a conjunction of clauses under a partial 
 
 c:clause-learning a skos:Concept ; skos:prefLabel "Clause learning"@en ;
     skos:inScheme scheme:logic ; skos:broader c:boolean-satisfiability .
+
+c:two-satisfiability a skos:Concept ; skos:prefLabel "2-satisfiability"@en ;
+    skos:altLabel "2-SAT"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:boolean-satisfiability ;
+    skos:definition "The decision problem of whether a conjunction of clauses with at most two literals per clause admits a satisfying assignment."@en .
+
+c:three-satisfiability a skos:Concept ; skos:prefLabel "3-satisfiability"@en ;
+    skos:altLabel "3-SAT"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:boolean-satisfiability ;
+    skos:definition "The decision problem of whether a conjunction of clauses with at most three literals per clause admits a satisfying assignment."@en .

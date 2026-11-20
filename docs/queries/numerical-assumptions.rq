@@ -1,0 +1,8 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+
+# Which numerical solvers have a stated assumption on a linear-system problem?
+SELECT ?method ?assumption FROM g:asserted WHERE {
+  ?method v:solves c:linear-system-solution ; v:requiresAssumption ?assumption .
+} ORDER BY ?method ?assumption

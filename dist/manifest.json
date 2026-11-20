@@ -1,22 +1,22 @@
 {
   "artifacts": {
-    "formal-sciences.nq": "e3c110b5f113e2273e57795288de30f0986121dc566369af86e73aef2b5cb723",
-    "formal-sciences.trig": "8bc93dda16485d5b41338dcd08d8d1d09d1c2c370f5ab6eeb8b9e29e14f87696",
-    "formal-sciences.ttl": "951ca7a07320079d2b1a7b45162404396252b655f6cb5cfcc4791e855458080a",
+    "formal-sciences.nq": "f54f6e81844a2c1733a622a1c234e200a457b548754f994d5c32116bda6bb8ec",
+    "formal-sciences.trig": "00410504885df9301b723aef4b5714a72f9162346b5d17700d8396f718c0b18b",
+    "formal-sciences.ttl": "80a91ae2f1573c8b1d631254bb7de3549199b1ada3f28c9038373e6f765b14ac",
     "source-alignments.trig": "3527c3049d2bbe2d564949474d8855070045ccf1af5a0fca4e966c33df09302d",
     "validation-report.json": "53d08d3d3ba0eb867f1671cd1ae50c0254b5122d63db5c5d209e180c92008116"
   },
-  "concepts": 291,
+  "concepts": 2432,
   "conforms": true,
   "contract": "curricula.rdf-release/v1",
   "counts": {
     "alignments": 165,
-    "asserted": 1264,
-    "inferred": 336,
-    "provenance": 2141
+    "asserted": 10074,
+    "inferred": 2581,
+    "provenance": 6895
   },
   "namespace": "https://curricula.live/id/formal-sciences/",
-  "predicates": 12,
+  "predicates": 19,
   "sources": {
     "acm-ccs": {
       "attribution": "Association for Computing Machinery",
@@ -201,6 +201,37 @@
       "url": "https://raw.githubusercontent.com/CLLKazan/OntoMathEdu/fd39c2fa5aebdfba07f09f4829f49cc95cd70246/ontomathedu.omn"
     },
     "ontomath-pro": {
+      "admission": {
+        "eligible": 904,
+        "exclusions": {
+          "existing individual review": 7,
+          "native classes outside reviewed scope": 2545
+        },
+        "identities": 867,
+        "modules": {
+          "domains/computer-science/modules/batches/ontomath-pro-computability-theory.ttl": "0b3f24a22fc288ad272643fac18de90c9acdfac9138d2ac86d0fea53d7396900",
+          "domains/mathematics/modules/batches/ontomath-pro-algebra.ttl": "a481b6257bbf6adae6aafc4f284e4b28afe545692ebdf6661458b4acb0bd4b05",
+          "domains/mathematics/modules/batches/ontomath-pro-calculus.ttl": "db34b06fe3fcc90eec2b9d288a36b2dc1f5c37ecc1fc2ac19a02d1719cdc1798",
+          "domains/mathematics/modules/batches/ontomath-pro-differential-equations.ttl": "9db9bee0bc66d51bf98d886ba4a5de9178fbb00ff108e8a103f06e297ed1db93",
+          "domains/mathematics/modules/batches/ontomath-pro-geometry.ttl": "da3aa16e51e15f9977eb828d44347db69015c79abf6dd05b37552940361a8437",
+          "domains/mathematics/modules/batches/ontomath-pro-group.ttl": "bc531724720c9d393ecc5fa63c07217f25c2405bae7a774022e943227f3f2c81",
+          "domains/mathematics/modules/batches/ontomath-pro-linear-algebra.ttl": "49106276d27ad12b77c4843537644921a0aa6090280e6915efe8b767b08b721a",
+          "domains/mathematics/modules/batches/ontomath-pro-mathematical-analysis.ttl": "5df977e56de0f301083fa68d206d8223cfd48c540da1e772bc592804766f1fca",
+          "domains/mathematics/modules/batches/ontomath-pro-number-theory.ttl": "8dc4989b2724cd798f4794afeaff366078cfccb91ac6e71fb3a8690b71a47df1",
+          "domains/mathematics/modules/batches/ontomath-pro-numerical-analysis.ttl": "19e8abad4de756a9f4f8488179a04321c524ff9ac79fd9d25f0194ed58242b65",
+          "domains/mathematics/modules/batches/ontomath-pro-ring.ttl": "99fa24cbb329a900e2eb720fc284c4d2a2a32b7d1aa8e2e19167ae21a69b8580",
+          "domains/mathematics/modules/batches/ontomath-pro-set-theory.ttl": "4ae7a7df21acd06cd5e0ab94e67df26bcb29970d7c10c85c7d4126df99b0aacb",
+          "domains/mathematics/modules/batches/ontomath-pro-topology.ttl": "00daa628570f5e92cbdb7188d018b24440d615db4aa083198296340e3b9a2aaf",
+          "domains/statistics/modules/batches/ontomath-pro-hypothesis-testing.ttl": "1ec35ca22168ec1630b475d3841c0f978bb7e6de6f367c2c7accb78f647b448b",
+          "domains/statistics/modules/batches/ontomath-pro-probability-distributions.ttl": "a039fe7230ca760d9fcc87c1fc07df4040b06d9e69296c5e795bdf88bcbb14c4",
+          "domains/statistics/modules/batches/ontomath-pro-probability-theory.ttl": "f88f78710c6916c3b987afe63c666e7dd1ed62e34484f45fcacfb9224a7d33d2",
+          "domains/statistics/modules/batches/ontomath-pro-statistical-estimation.ttl": "e29a851c280ce8d5be8358e5b0b4b5f7921ea0e7c032900647e36ff0d1da5c25"
+        },
+        "new_concepts": 867,
+        "pending": 30,
+        "policy": "Project reviewed English OWL class names into editorial subject collections. See sources/ontomath-pro/scope.tsv.",
+        "registry_sha256": "b7ee2c0023c1ce66678fa98096051e9a9a6c463f55987970a0b3c17b106344d7"
+      },
       "attribution": "CLLKazan/OntoMathPro",
       "candidate_pairs": 36,
       "license": "Apache-2.0",
@@ -227,6 +258,33 @@
       "url": "https://api.openalex.org/topics/T10374"
     },
     "opencs": {
+      "admission": {
+        "eligible": 1024,
+        "exclusions": {
+          "ambiguous subject or scope": 35,
+          "existing individual review": 25,
+          "outside reviewed subject scope": 35
+        },
+        "identities": 908,
+        "modules": {
+          "domains/computer-science/modules/batches/opencs-algorithms.ttl": "1aed4cd3170f80c8825d6ab5abbd2ba550ed3faa58d19f82a95a06884267a7a8",
+          "domains/computer-science/modules/batches/opencs-automata-and-languages.ttl": "9115b688345446e6a52edc223853e2b4858f26cab182c96100a8693bbd1e8e4a",
+          "domains/computer-science/modules/batches/opencs-coding.ttl": "2740cf000c2e505da97f32dc4d960911e3d8f391551ef84a0e973cec1d433145",
+          "domains/computer-science/modules/batches/opencs-complexity.ttl": "19012abd6ad827c6000482d8765a0429d2ac6e4a3d4123de4afe9a3e5bf1b3b9",
+          "domains/computer-science/modules/batches/opencs-data-management.ttl": "aee849c944ab79de5372bc5efecbc81935c01d79be19d5f1a019ed828dde3038",
+          "domains/computer-science/modules/batches/opencs-data-structures.ttl": "cf878d378cf97e05a780e8603dd64f8cf44c9565e21a5b0b23190e728eb0cbc5",
+          "domains/computer-science/modules/batches/opencs-distributed-computing.ttl": "6ace0f98874c4628b51bd9e9849718d091988a732bffb1428a0e8e522e1c6ef6",
+          "domains/computer-science/modules/batches/opencs-machine-learning.ttl": "dacbe39e56792847567b0444c02175777e632f0739bb59d9dc379932e00b0b42",
+          "domains/computer-science/modules/batches/opencs-networking.ttl": "7679c5fe156a79786c0625057a978d42ff4200453a398aa983ea5f3526f78f94",
+          "domains/computer-science/modules/batches/opencs-operating-systems.ttl": "f94091734819861b6d8e9d788a8746a20d062e8e3e7ef378d6e94d84434b9159",
+          "domains/computer-science/modules/batches/opencs-programming-languages.ttl": "35b1c8472965f61c216ebfb787e8513dea8aea0777b4119f048dbfd86de0d87c",
+          "domains/computer-science/modules/batches/opencs-software-engineering.ttl": "81887c2eb5d5b5c2552843028b5c00a8b206bfb6c67677fe0c2b50182b75a8b9"
+        },
+        "new_concepts": 908,
+        "pending": 21,
+        "policy": "OpenCS subject-family admission v1. Reviewed naming families, taxonomic scope and concordant topic referents. See sources/opencs/admission-policy.json and admission-witnesses.tsv.",
+        "registry_sha256": "cf9407ad62ab1c9b8cfe64080950f8f199a41b2debc4d3cb2b7c71ae74566e8b"
+      },
       "attribution": "OpenCS contributors",
       "candidate_pairs": 126,
       "license": "CC-BY-4.0",
@@ -344,6 +402,27 @@
       "url": "https://www.w3.org/2009/08/skos-reference/skos.rdf"
     },
     "stato": {
+      "admission": {
+        "eligible": 339,
+        "exclusions": {
+          "application-specific topic or specialized source sense": 51,
+          "native class outside the selected families": 238,
+          "particular interval level already represented by the generic topic": 6
+        },
+        "identities": 333,
+        "modules": {
+          "domains/statistics/modules/batches/stato-distributions.ttl": "692bfaa15b803bd60bbe4c126f5bb1e1262a5c7578f4bda44f55003c44facc5e",
+          "domains/statistics/modules/batches/stato-experimental-design.ttl": "58889a90987e326184b0dd7017a880dc8a1e855e6ec069c2a56b22e10bca722f",
+          "domains/statistics/modules/batches/stato-hypothesis-tests.ttl": "b3ad71c51cbdbe1d4b8c50d5251af7684669373245c93b6b10c991d9f193c20d",
+          "domains/statistics/modules/batches/stato-sampling-and-imputation.ttl": "6067103891dda63bab7ddb5a68eb8e9fe83f28a49431c4882f72e95b50fd1d5c",
+          "domains/statistics/modules/batches/stato-statistical-measures.ttl": "24db2ff8d94a554292d393a06924cda20b89be79244325768afafab3ca67a4d8",
+          "domains/statistics/modules/batches/stato-statistical-models.ttl": "d0fa8bc18cadb04dcaf3d7cafd3421bf9155000cf69e2bf821e075c68198dcf2"
+        },
+        "new_concepts": 316,
+        "pending": 6,
+        "policy": "Native STATO statistical subjects, reviewed class families and hierarchy exceptions",
+        "registry_sha256": "4e1b4ca2017e034d57b6046179638d5085c160d4a37f4a54aa2183738c3cb6e9"
+      },
       "attribution": "ISA-tools/stato",
       "candidate_pairs": 17,
       "license": "CC-BY-3.0 (embedded imports have separate notices)",

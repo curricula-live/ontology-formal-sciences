@@ -23,3 +23,16 @@ c:entropy-coding a skos:Concept ; skos:prefLabel "Entropy coding"@en ;
 
 c:huffman-coding a skos:Concept ; skos:prefLabel "Huffman coding"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:conditional-entropy a skos:Concept ; skos:prefLabel "Conditional entropy"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory ;
+    skos:definition "For discrete variables, the average entropy of a conditional distribution with respect to the conditioning variable."@en .
+
+c:kullback-leibler-divergence a skos:Concept ; skos:prefLabel "Kullback–Leibler divergence"@en ;
+    skos:altLabel "Relative entropy"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory ;
+    skos:definition "A directional discrepancy between distributions, defined as the expected log likelihood ratio under the first distribution, with the usual absolute-continuity convention."@en .
+
+c:conditional-mutual-information a skos:Concept ; skos:prefLabel "Conditional mutual information"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory ;
+    skos:definition "The expected divergence between the conditional joint distribution and the product of the conditional marginals."@en .

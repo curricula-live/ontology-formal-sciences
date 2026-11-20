@@ -32,3 +32,19 @@ c:quadratic-form a skos:Concept ; skos:prefLabel "Quadratic form"@en ;
 
 c:matrix-factorization a skos:Concept ; skos:prefLabel "Matrix factorization"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:qr-factorization a skos:Concept ; skos:prefLabel "QR factorization"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra ;
+    skos:definition "A matrix factorization into a factor with orthonormal columns and an upper triangular or upper trapezoidal factor."@en .
+
+c:symmetric-positive-definiteness a skos:Concept ; skos:prefLabel "Symmetric positive definiteness"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra ;
+    skos:definition "The property of a real matrix being symmetric and having a strictly positive quadratic form on every nonzero vector."@en .
+
+c:euclidean-norm a skos:Concept ; skos:prefLabel "Euclidean norm"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra ;
+    skos:definition "The square root of the sum of the squared coordinates of a real vector in an orthonormal basis."@en .
+
+c:orthonormal-basis a skos:Concept ; skos:prefLabel "Orthonormal basis"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra ;
+    skos:definition "A basis of pairwise orthogonal unit vectors in an inner product space."@en .

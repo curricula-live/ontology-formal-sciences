@@ -23,3 +23,11 @@ c:probabilistic-graphical-model a skos:Concept ; skos:prefLabel "Probabilistic g
 
 c:maximum-a-posteriori-estimation a skos:Concept ; skos:prefLabel "Maximum a posteriori estimation"@en ;
     skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics .
+
+c:gibbs-sampling a skos:Concept ; skos:prefLabel "Gibbs sampling"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics ;
+    skos:definition "A Markov chain Monte Carlo method that updates variables or blocks using their full conditional distributions."@en .
+
+c:full-conditional-distribution a skos:Concept ; skos:prefLabel "Full conditional distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics ;
+    skos:definition "The conditional law of a variable or block given the values of all the remaining variables in a joint model."@en .

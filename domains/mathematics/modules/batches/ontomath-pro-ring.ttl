@@ -1,0 +1,102 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:ontomath-pro-e2272 a skos:Concept ; skos:prefLabel "Arithmetic ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2274 a skos:Concept ; skos:prefLabel "Archimedean ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2275 a skos:Concept ; skos:prefLabel "Associative ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2276 a skos:Concept ; skos:prefLabel "Binomial ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2277 a skos:Concept ; skos:prefLabel "Boolean ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2278 a skos:Concept ; skos:prefLabel "Absolutely idempotent ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2279 a skos:Concept ; skos:prefLabel "Dedekind ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2280 a skos:Concept ; skos:prefLabel "Differential ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2285 a skos:Concept ; skos:prefLabel "Ring without identity"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2286 a skos:Concept ; skos:prefLabel "Bezout ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2288 a skos:Concept ; skos:prefLabel "Principal ideal ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2290 a skos:Concept ; skos:prefLabel "Group ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2295 a skos:Concept ; skos:prefLabel "Ring of skew polynomials"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2296 a skos:Concept ; skos:prefLabel "Matrix ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2298 a skos:Concept ; skos:prefLabel "Ring with unit element"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2299 a skos:Concept ; skos:prefLabel "Commutative ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2301 a skos:Concept ; skos:prefLabel "Linearly compact ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2302 a skos:Concept ; skos:prefLabel "Linearly ordered ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2303 a skos:Concept ; skos:prefLabel "Local ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2305 a skos:Concept ; skos:prefLabel "Right hereditary ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2306 a skos:Concept ; skos:prefLabel "Nonassociative ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2307 a skos:Concept ; skos:prefLabel "Noetherian ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2308 a skos:Concept ; skos:prefLabel "Null ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2310 a skos:Concept ; skos:prefLabel "Prime ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2311 a skos:Concept ; skos:prefLabel "Subdirectly irreducible ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2314 a skos:Concept ; skos:prefLabel "Semilocal ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2316 a skos:Concept ; skos:prefLabel "Semiprime ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2317 a skos:Concept ; skos:prefLabel "Semiregular ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2318 a skos:Concept ; skos:prefLabel "Semiperfect ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2320 a skos:Concept ; skos:prefLabel "Primary ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2321 a skos:Concept ; skos:prefLabel "Simple ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2322 a skos:Concept ; skos:prefLabel "Regular ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
+
+c:ontomath-pro-e2324 a skos:Concept ; skos:prefLabel "Euclidean ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring .
