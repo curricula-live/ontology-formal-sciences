@@ -1,0 +1,66 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:opencs-c1042 a skos:Concept ; skos:prefLabel "Android (operating system)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c20127 a skos:Concept ; skos:prefLabel "Journaling file system"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c27190 a skos:Concept ; skos:prefLabel "Copy-on-write"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c27721 a skos:Concept ; skos:prefLabel "Synthetic file system"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems, c:opencs-c7476 .
+
+c:opencs-c28016 a skos:Concept ; skos:prefLabel "Interrupt handler"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c33702 a skos:Concept ; skos:prefLabel "C dynamic memory allocation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c35398 a skos:Concept ; skos:prefLabel "Versioning file system"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c36517 a skos:Concept ; skos:prefLabel "Flash file system"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c39186 a skos:Concept ; skos:prefLabel "Clustered file system"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c40103 a skos:Concept ; skos:prefLabel "Installable File System"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c40351 a skos:Concept ; skos:prefLabel "Fork (file system)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c40529 a skos:Concept ; skos:prefLabel "Demand paging"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c41696 a skos:Concept ; skos:prefLabel "Page table"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c42749 a skos:Concept ; skos:prefLabel "Andrew File System"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c43003 a skos:Concept ; skos:prefLabel "Region-based memory management"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c44098 a skos:Concept ; skos:prefLabel "Virtual file system"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c44417 a skos:Concept ; skos:prefLabel "Design rule for Camera File system"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c44667 a skos:Concept ; skos:prefLabel "DOS memory management"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c45269 a skos:Concept ; skos:prefLabel "Network File System"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c7476 a skos:Concept ; skos:prefLabel "File system"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:opencs-c9177 a skos:Concept ; skos:prefLabel "Stack-based memory allocation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .

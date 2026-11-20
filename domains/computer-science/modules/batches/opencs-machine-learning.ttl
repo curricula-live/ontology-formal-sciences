@@ -1,0 +1,234 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:opencs-c10136 a skos:Concept ; skos:prefLabel "Semi-supervised learning"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c11030 a skos:Concept ; skos:prefLabel "Statistical classification"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c13429 a skos:Concept ; skos:prefLabel "Multi-label classification"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c13610 a skos:Concept ; skos:prefLabel "Reinforcement learning"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c13943 a skos:Concept ; skos:prefLabel "General regression neural network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning, c:opencs-c9022 .
+
+c:opencs-c14221 a skos:Concept ; skos:prefLabel "Multilayer perceptron"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning, c:opencs-c9022 .
+
+c:opencs-c16153 a skos:Concept ; skos:prefLabel "Structured support vector machine"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c16176 a skos:Concept ; skos:prefLabel "Nearest centroid classifier"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c16742 a skos:Concept ; skos:prefLabel "Correlation clustering"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c17261 a skos:Concept ; skos:prefLabel "Recurrent neural network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning, c:opencs-c9022 .
+
+c:opencs-c178 a skos:Concept ; skos:prefLabel "Document classification"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c18730 a skos:Concept ; skos:prefLabel "Transduction (machine learning)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c18805 a skos:Concept ; skos:prefLabel "Time delay neural network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning, c:opencs-c9022 .
+
+c:opencs-c19354 a skos:Concept ; skos:prefLabel "Linear classifier"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c19499 a skos:Concept ; skos:prefLabel "Document clustering"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c19939 a skos:Concept ; skos:prefLabel "Hybrid neural network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning, c:opencs-c9022 .
+
+c:opencs-c20003 a skos:Concept ; skos:prefLabel "Nonlinear dimensionality reduction"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning, c:opencs-c9538 .
+
+c:opencs-c20126 a skos:Concept ; skos:prefLabel "Spiking neural network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning, c:opencs-c9022 .
+
+c:opencs-c20377 a skos:Concept ; skos:prefLabel "Deep learning"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c20811 a skos:Concept ; skos:prefLabel "Fuzzy clustering"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c21723 a skos:Concept ; skos:prefLabel "Feedforward neural network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning, c:opencs-c9022 .
+
+c:opencs-c22146 a skos:Concept ; skos:prefLabel "Semantic neural network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c22643 a skos:Concept ; skos:prefLabel "Probabilistic classification"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c22653 a skos:Concept ; skos:prefLabel "One-class classification"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c23669 a skos:Concept ; skos:prefLabel "Quadratic classifier"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c23929 a skos:Concept ; skos:prefLabel "Multiclass classification"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c24068 a skos:Concept ; skos:prefLabel "Optical neural network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning, c:opencs-c9022 .
+
+c:opencs-c24136 a skos:Concept ; skos:prefLabel "Gradient boosting"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning, c:opencs-c424 .
+
+c:opencs-c25193 a skos:Concept ; skos:prefLabel "Bayes classifier"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c25201 a skos:Concept ; skos:prefLabel "Perceptron"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning, c:opencs-c9022 .
+
+c:opencs-c26767 a skos:Concept ; skos:prefLabel "k-means clustering"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c27275 a skos:Concept ; skos:prefLabel "Adversarial machine learning"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c27393 a skos:Concept ; skos:prefLabel "Hierarchical classifier"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c27841 a skos:Concept ; skos:prefLabel "Extension neural network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c2801 a skos:Concept ; skos:prefLabel "Feature extraction"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c28179 a skos:Concept ; skos:prefLabel "Margin classifier"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c28516 a skos:Concept ; skos:prefLabel "Binary classification"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c28523 a skos:Concept ; skos:prefLabel "Least squares support vector machine"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c29024 a skos:Concept ; skos:prefLabel "Hierarchical clustering"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c29574 a skos:Concept ; skos:prefLabel "Spectral clustering"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c30532 a skos:Concept ; skos:prefLabel "Autoencoder"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c3063 a skos:Concept ; skos:prefLabel "Convolutional neural network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c31418 a skos:Concept ; skos:prefLabel "Margin (machine learning)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c31630 a skos:Concept ; skos:prefLabel "Online machine learning"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c32478 a skos:Concept ; skos:prefLabel "Probabilistic neural network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c33073 a skos:Concept ; skos:prefLabel "Fuzzy classification"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c33443 a skos:Concept ; skos:prefLabel "Modular neural network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c34121 a skos:Concept ; skos:prefLabel "Stochastic neural network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c34220 a skos:Concept ; skos:prefLabel "Minimum redundancy feature selection"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c36198 a skos:Concept ; skos:prefLabel "Incremental decision tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c36403 a skos:Concept ; skos:prefLabel "Feature (machine learning)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c36427 a skos:Concept ; skos:prefLabel "Residual neural network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c37520 a skos:Concept ; skos:prefLabel "Multispectral image classification"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c37823 a skos:Concept ; skos:prefLabel "FLAME clustering"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c38213 a skos:Concept ; skos:prefLabel "k-medians clustering"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c38396 a skos:Concept ; skos:prefLabel "Single-linkage clustering"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c38397 a skos:Concept ; skos:prefLabel "Complete-linkage clustering"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c39283 a skos:Concept ; skos:prefLabel "Alternating decision tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c40492 a skos:Concept ; skos:prefLabel "Suffix tree clustering"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c41275 a skos:Concept ; skos:prefLabel "Kernel perceptron"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c41644 a skos:Concept ; skos:prefLabel "Random neural network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c41773 a skos:Concept ; skos:prefLabel "Constrained clustering"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c4183 a skos:Concept ; skos:prefLabel "Active learning (machine learning)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c424 a skos:Concept ; skos:prefLabel "Boosting (machine learning)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c42787 a skos:Concept ; skos:prefLabel "Data stream clustering"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c44351 a skos:Concept ; skos:prefLabel "Brown clustering"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c45455 a skos:Concept ; skos:prefLabel "Conceptual clustering"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c45823 a skos:Concept ; skos:prefLabel "Consensus clustering"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c5401 a skos:Concept ; skos:prefLabel "Feature selection"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c5498 a skos:Concept ; skos:prefLabel "Feature learning"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c6021 a skos:Concept ; skos:prefLabel "Naive Bayes classifier"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c610 a skos:Concept ; skos:prefLabel "Ensemble learning"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c7652 a skos:Concept ; skos:prefLabel "Decision tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c7911 a skos:Concept ; skos:prefLabel "Contextual image classification"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c8216 a skos:Concept ; skos:prefLabel "Geometric feature learning"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c9022 a skos:Concept ; skos:prefLabel "Artificial neural network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .
+
+c:opencs-c9538 a skos:Concept ; skos:prefLabel "Dimensionality reduction"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning .

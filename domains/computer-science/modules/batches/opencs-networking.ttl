@@ -1,0 +1,606 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:opencs-c10331 a skos:Concept ; skos:prefLabel "Bridging (networking)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c11144 a skos:Concept ; skos:prefLabel "Node (networking)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c1154 a skos:Concept ; skos:prefLabel "Signaling protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c11550 a skos:Concept ; skos:prefLabel "Stream Control Transmission Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c12060 a skos:Concept ; skos:prefLabel "Apple Filing Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c12442 a skos:Concept ; skos:prefLabel "DF-1 Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c12490 a skos:Concept ; skos:prefLabel "Digital Data Communications Message Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c12785 a skos:Concept ; skos:prefLabel "Real-Time Media Flow Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c12935 a skos:Concept ; skos:prefLabel "Multiple Registration Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c13381 a skos:Concept ; skos:prefLabel "Near-me area network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c13850 a skos:Concept ; skos:prefLabel "Reliability (computer networking)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c14061 a skos:Concept ; skos:prefLabel "XML Configuration Access Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c14160 a skos:Concept ; skos:prefLabel "IP multicast"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c3391 .
+
+c:opencs-c15065 a skos:Concept ; skos:prefLabel "Packet loss"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c15174 a skos:Concept ; skos:prefLabel "Diameter protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c15449 a skos:Concept ; skos:prefLabel "Wire protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c15728 a skos:Concept ; skos:prefLabel "Wireless network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c15804 a skos:Concept ; skos:prefLabel "Ethernet flow control"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c16380 a skos:Concept ; skos:prefLabel "Admission control"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c16730 a skos:Concept ; skos:prefLabel "Stream Reservation Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c16885 a skos:Concept ; skos:prefLabel "CCSDS File Delivery Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c17381 a skos:Concept ; skos:prefLabel "Open smart grid protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c17580 a skos:Concept ; skos:prefLabel "Source-specific multicast"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c3391 .
+
+c:opencs-c17918 a skos:Concept ; skos:prefLabel "Simple Network Management Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c17976 a skos:Concept ; skos:prefLabel "Personal area network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c18560 a skos:Concept ; skos:prefLabel "Radio Link Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c18745 a skos:Concept ; skos:prefLabel "10 Gigabit Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c490 .
+
+c:opencs-c19170 a skos:Concept ; skos:prefLabel "Traffic flow (computer networking)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c19491 a skos:Concept ; skos:prefLabel "Contract Net Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c19510 a skos:Concept ; skos:prefLabel "Discovery and Configuration Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c19544 a skos:Concept ; skos:prefLabel "Broadcasting (networking)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c20125 a skos:Concept ; skos:prefLabel "Dynamic Host Configuration Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c20314 a skos:Concept ; skos:prefLabel "Point-to-Point Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c20373 a skos:Concept ; skos:prefLabel "Carrier Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c490 .
+
+c:opencs-c20794 a skos:Concept ; skos:prefLabel "Packet Layer Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c20810 a skos:Concept ; skos:prefLabel "SDS Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c2085 a skos:Concept ; skos:prefLabel "System area network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c21306 a skos:Concept ; skos:prefLabel "ATA over Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c21314 a skos:Concept ; skos:prefLabel "Time-Triggered Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c9931 .
+
+c:opencs-c22191 a skos:Concept ; skos:prefLabel "Fibre Channel over Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c22559 a skos:Concept ; skos:prefLabel "Power over Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c22819 a skos:Concept ; skos:prefLabel "Protocol Independent Multicast"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c23138 a skos:Concept ; skos:prefLabel "Java Remote Method Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c2316 a skos:Concept ; skos:prefLabel "xPL Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c23191 a skos:Concept ; skos:prefLabel "Time Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c23315 a skos:Concept ; skos:prefLabel "RTP Control Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c23334 a skos:Concept ; skos:prefLabel "Network Load Balancing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c23503 a skos:Concept ; skos:prefLabel "Constrained Application Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c23567 a skos:Concept ; skos:prefLabel "Authentication protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c23663 a skos:Concept ; skos:prefLabel "Gossip protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c23855 a skos:Concept ; skos:prefLabel "Cryptographic protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c23895 a skos:Concept ; skos:prefLabel "Alternating bit protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c9931 .
+
+c:opencs-c23919 a skos:Concept ; skos:prefLabel "Gigabit Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c490 .
+
+c:opencs-c23965 a skos:Concept ; skos:prefLabel "Internet Control Message Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c2430 a skos:Concept ; skos:prefLabel "Management Component Transport Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c24323 a skos:Concept ; skos:prefLabel "Transmission Control Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c24335 a skos:Concept ; skos:prefLabel "Point-to-point protocol over Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c25027 a skos:Concept ; skos:prefLabel "Industrial Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c490 .
+
+c:opencs-c25133 a skos:Concept ; skos:prefLabel "Wide area network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c25482 a skos:Concept ; skos:prefLabel "Session Description Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c2659 a skos:Concept ; skos:prefLabel "Network Voice Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c27546 a skos:Concept ; skos:prefLabel "Synchronous Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c490 .
+
+c:opencs-c2819 a skos:Concept ; skos:prefLabel "NetWare Link Services Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c28190 a skos:Concept ; skos:prefLabel "Energy-Efficient Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c490 .
+
+c:opencs-c2822 a skos:Concept ; skos:prefLabel "Simple Certificate Enrollment Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c28520 a skos:Concept ; skos:prefLabel "Packet forwarding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c29014 a skos:Concept ; skos:prefLabel "Link Layer Discovery Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c29123 a skos:Concept ; skos:prefLabel "Population protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c29125 a skos:Concept ; skos:prefLabel "Fast Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c490 .
+
+c:opencs-c29205 a skos:Concept ; skos:prefLabel "Password authentication protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c29274 a skos:Concept ; skos:prefLabel "Metropolitan area network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c2935 a skos:Concept ; skos:prefLabel "Local area network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c29568 a skos:Concept ; skos:prefLabel "Extensible Authentication Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c23567 .
+
+c:opencs-c2986 a skos:Concept ; skos:prefLabel "Port Aggregation Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c30216 a skos:Concept ; skos:prefLabel "Avaya Simple Loop Prevention Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c3086 a skos:Concept ; skos:prefLabel "Secure Socket Tunneling Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c31379 a skos:Concept ; skos:prefLabel "Lightweight Extensible Authentication Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c23567 .
+
+c:opencs-c32582 a skos:Concept ; skos:prefLabel "Challenge-Handshake Authentication Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c23567 .
+
+c:opencs-c32956 a skos:Concept ; skos:prefLabel "Time stamp protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c3304 a skos:Concept ; skos:prefLabel "Line Printer Daemon protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c33387 a skos:Concept ; skos:prefLabel "Avionics Full-Duplex Switched Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c33745 a skos:Concept ; skos:prefLabel "Contention-based protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c3391 a skos:Concept ; skos:prefLabel "Multicast"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c34161 a skos:Concept ; skos:prefLabel "Pragmatic General Multicast"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c34221 a skos:Concept ; skos:prefLabel "Distance Vector Multicast Routing Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c34719 a skos:Concept ; skos:prefLabel "Real-time Transport Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c34946 a skos:Concept ; skos:prefLabel "Trivial File Transfer Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c35075 a skos:Concept ; skos:prefLabel "Body area network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c15728 .
+
+c:opencs-c36080 a skos:Concept ; skos:prefLabel "Fast packet switching"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c36109 a skos:Concept ; skos:prefLabel "Link-state routing protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c36412 a skos:Concept ; skos:prefLabel "Spatial Reuse Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c3645 a skos:Concept ; skos:prefLabel "Stateless protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c36500 a skos:Concept ; skos:prefLabel "Wireless Application Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c36706 a skos:Concept ; skos:prefLabel "Wireless Routing Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c36923 a skos:Concept ; skos:prefLabel "Call Admission Control"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c36975 a skos:Concept ; skos:prefLabel "Connection-oriented Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c37073 a skos:Concept ; skos:prefLabel "Optimized Link State Routing Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c37312 a skos:Concept ; skos:prefLabel "Upstream (networking)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c37329 a skos:Concept ; skos:prefLabel "Virtual Router Redundancy Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c37469 a skos:Concept ; skos:prefLabel "Reliable multicast"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c37577 a skos:Concept ; skos:prefLabel "Traffic shaping"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c37722 a skos:Concept ; skos:prefLabel "Metro Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c37888 a skos:Concept ; skos:prefLabel "Zone Routing Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c38064 a skos:Concept ; skos:prefLabel "Hazy Sighted Link State Routing Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c3809 a skos:Concept ; skos:prefLabel "Internet area network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c38122 a skos:Concept ; skos:prefLabel "Downstream (networking)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c38231 a skos:Concept ; skos:prefLabel "Routing Information Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c38606 a skos:Concept ; skos:prefLabel "Licklider Transmission Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c38608 a skos:Concept ; skos:prefLabel "Scalable Reliable Multicast"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c3863 a skos:Concept ; skos:prefLabel "Subnetwork Access Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c38690 a skos:Concept ; skos:prefLabel "Protected Extensible Authentication Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c38743 a skos:Concept ; skos:prefLabel "Datagram Congestion Control Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c38957 a skos:Concept ; skos:prefLabel "Interlock protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c38961 a skos:Concept ; skos:prefLabel "Network Admission Control"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c39020 a skos:Concept ; skos:prefLabel "Inter-Access Point Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c39022 a skos:Concept ; skos:prefLabel "Three-phase commit protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c39078 a skos:Concept ; skos:prefLabel "Wireless Datagram Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c36500 .
+
+c:opencs-c39742 a skos:Concept ; skos:prefLabel "Interior Gateway Routing Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c40181 a skos:Concept ; skos:prefLabel "Gateway Load Balancing Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c40288 a skos:Concept ; skos:prefLabel "Temporal Key Integrity Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c4040 a skos:Concept ; skos:prefLabel "Microcom Networking Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c40535 a skos:Concept ; skos:prefLabel "Wireless Session Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c36500 .
+
+c:opencs-c40682 a skos:Concept ; skos:prefLabel "Otway–Rees protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c40702 a skos:Concept ; skos:prefLabel "Terabit Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c40721 a skos:Concept ; skos:prefLabel "PKI Resource Query Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c40748 a skos:Concept ; skos:prefLabel "Long Reach Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c40753 a skos:Concept ; skos:prefLabel "Internet Security Association and Key Management Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c40790 a skos:Concept ; skos:prefLabel "Wide Mouth Frog protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c40791 a skos:Concept ; skos:prefLabel "Key-agreement protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c40973 a skos:Concept ; skos:prefLabel "Cisco Discovery Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c41012 a skos:Concept ; skos:prefLabel "Secure Remote Password protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c41013 a skos:Concept ; skos:prefLabel "Mobile Location Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c41259 a skos:Concept ; skos:prefLabel "Path vector protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c41301 a skos:Concept ; skos:prefLabel "Municipal wireless network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c41312 a skos:Concept ; skos:prefLabel "Wireless transaction protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks, c:opencs-c36500 .
+
+c:opencs-c41390 a skos:Concept ; skos:prefLabel "Visual sensor network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c41486 a skos:Concept ; skos:prefLabel "Hybrid Wireless Mesh Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c41572 a skos:Concept ; skos:prefLabel "Enhanced Interior Gateway Routing Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c41598 a skos:Concept ; skos:prefLabel "Station-to-Station protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c41750 a skos:Concept ; skos:prefLabel "Wireless Internet Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c41802 a skos:Concept ; skos:prefLabel "NetBIOS Frames protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c41910 a skos:Concept ; skos:prefLabel "GPRS Tunnelling Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c41949 a skos:Concept ; skos:prefLabel "End System Multicast"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c42183 a skos:Concept ; skos:prefLabel "Heterogeneous wireless network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c42235 a skos:Concept ; skos:prefLabel "Common Address Redundancy Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c42350 a skos:Concept ; skos:prefLabel "Networked Transport of RTCM via Internet Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c42651 a skos:Concept ; skos:prefLabel "Ethernet Global Data Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c42815 a skos:Concept ; skos:prefLabel "RDMA over Converged Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c4283 a skos:Concept ; skos:prefLabel "Datagram Delivery Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c42853 a skos:Concept ; skos:prefLabel "Border Gateway Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c42912 a skos:Concept ; skos:prefLabel "Collection Tree Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c42934 a skos:Concept ; skos:prefLabel "Media Redundancy Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c43016 a skos:Concept ; skos:prefLabel "Overlay multicast"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c43135 a skos:Concept ; skos:prefLabel "Multicast Source Discovery Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c43140 a skos:Concept ; skos:prefLabel "Any-source multicast"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c4316 a skos:Concept ; skos:prefLabel "Gateway-to-Gateway Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c43338 a skos:Concept ; skos:prefLabel "Online Certificate Status Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c43403 a skos:Concept ; skos:prefLabel "Order One Network Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c43513 a skos:Concept ; skos:prefLabel "Distance-vector routing protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c43534 a skos:Concept ; skos:prefLabel "Session Announcement Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c43549 a skos:Concept ; skos:prefLabel "Secure multicast"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c43574 a skos:Concept ; skos:prefLabel "Next Hop Resolution Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c44230 a skos:Concept ; skos:prefLabel "Internet Cache Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c44254 a skos:Concept ; skos:prefLabel "Internet Group Management Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c44561 a skos:Concept ; skos:prefLabel "Flooding (computer networking)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c44582 a skos:Concept ; skos:prefLabel "Interior gateway protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c44769 a skos:Concept ; skos:prefLabel "Certificate Management Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c44887 a skos:Concept ; skos:prefLabel "Hot Standby Router Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c44929 a skos:Concept ; skos:prefLabel "Label Distribution Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c44991 a skos:Concept ; skos:prefLabel "Service Location Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c45281 a skos:Concept ; skos:prefLabel "Oakley protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c45370 a skos:Concept ; skos:prefLabel "Two-phase commit protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c45400 a skos:Concept ; skos:prefLabel "Physical Layer Convergence Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c45498 a skos:Concept ; skos:prefLabel "Exterior Gateway Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c45502 a skos:Concept ; skos:prefLabel "100 Gigabit Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c45506 a skos:Concept ; skos:prefLabel "Needham–Schroeder protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c45523 a skos:Concept ; skos:prefLabel "Finger protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c45545 a skos:Concept ; skos:prefLabel "Mobile wireless sensor network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c45628 a skos:Concept ; skos:prefLabel "Three-pass protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c45641 a skos:Concept ; skos:prefLabel "Common Management Information Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c490 a skos:Concept ; skos:prefLabel "Ethernet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c5334 a skos:Concept ; skos:prefLabel "Hop (networking)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c5814 a skos:Concept ; skos:prefLabel "Highway Addressable Remote Transducer Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c5908 a skos:Concept ; skos:prefLabel "Lightweight Presentation Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c6082 a skos:Concept ; skos:prefLabel "Bit-oriented protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c6129 a skos:Concept ; skos:prefLabel "IP Payload Compression Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c6135 a skos:Concept ; skos:prefLabel "Skinny Call Control Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c6240 a skos:Concept ; skos:prefLabel "Radio resource location services protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c6473 a skos:Concept ; skos:prefLabel "Port (computer networking)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c7228 a skos:Concept ; skos:prefLabel "Constraint-based Routing Label Distribution Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c7233 a skos:Concept ; skos:prefLabel "Agent Extensibility Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c7701 a skos:Concept ; skos:prefLabel "xAP Home Automation protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c8172 a skos:Concept ; skos:prefLabel "Wireless sensor network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c8337 a skos:Concept ; skos:prefLabel "Vehicle Area Network"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c8515 a skos:Concept ; skos:prefLabel "Session Initiation Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c8857 a skos:Concept ; skos:prefLabel "Daytime Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c8970 a skos:Concept ; skos:prefLabel "National Transportation Communications for Intelligent Transportation System Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c9274 a skos:Concept ; skos:prefLabel "Content Vectoring Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c9640 a skos:Concept ; skos:prefLabel "SCSI RDMA Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c9797 a skos:Concept ; skos:prefLabel "Remote Desktop Protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .
+
+c:opencs-c9931 a skos:Concept ; skos:prefLabel "Communications protocol"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-networks .

@@ -1,0 +1,297 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:opencs-c10182 a skos:Concept ; skos:prefLabel "Class (computer programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c10219 a skos:Concept ; skos:prefLabel "Continuation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c10241 a skos:Concept ; skos:prefLabel "Inductive logic programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c10327 a skos:Concept ; skos:prefLabel "Logic programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c10557 a skos:Concept ; skos:prefLabel "Operator (computer programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c10608 a skos:Concept ; skos:prefLabel "Generic programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c11128 a skos:Concept ; skos:prefLabel "Python (programming language)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c12108 a skos:Concept ; skos:prefLabel "Closure (computer programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c12826 a skos:Concept ; skos:prefLabel "Parrot intermediate representation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c12846 a skos:Concept ; skos:prefLabel "Structured programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c13045 a skos:Concept ; skos:prefLabel "High-level programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c15309 a skos:Concept ; skos:prefLabel "Cross compiler"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages, c:opencs-c4321 .
+
+c:opencs-c1625 a skos:Concept ; skos:prefLabel "Erlang (programming language)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c17167 a skos:Concept ; skos:prefLabel "PEARL (programming language)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c17392 a skos:Concept ; skos:prefLabel "Applicative programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c17667 a skos:Concept ; skos:prefLabel "Incremental compiler"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages, c:opencs-c4321 .
+
+c:opencs-c18970 a skos:Concept ; skos:prefLabel "Elixir (programming language)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c1900 a skos:Concept ; skos:prefLabel "General-purpose programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c19031 a skos:Concept ; skos:prefLabel "Constraint logic programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c19345 a skos:Concept ; skos:prefLabel "Recursive data type"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c19458 a skos:Concept ; skos:prefLabel "GOAL agent programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c19594 a skos:Concept ; skos:prefLabel "Lasso (programming language)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c19720 a skos:Concept ; skos:prefLabel "First-generation programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c20000 a skos:Concept ; skos:prefLabel "Algebraic data type"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c2009 a skos:Concept ; skos:prefLabel "Call stack"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c20132 a skos:Concept ; skos:prefLabel "Typed lambda calculus"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c20208 a skos:Concept ; skos:prefLabel "Scheme (programming language)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c2050 a skos:Concept ; skos:prefLabel "Abstract data type"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c20865 a skos:Concept ; skos:prefLabel "Synchronous programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c21201 a skos:Concept ; skos:prefLabel "Optimizing compiler"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages, c:opencs-c4321 .
+
+c:opencs-c22245 a skos:Concept ; skos:prefLabel "Dynamic compilation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c2311 a skos:Concept ; skos:prefLabel "Algebraic Logic Functional programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c23249 a skos:Concept ; skos:prefLabel "Visual programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c23863 a skos:Concept ; skos:prefLabel "Just-in-time compilation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c23909 a skos:Concept ; skos:prefLabel "Imperative programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages, c:opencs-c8751 .
+
+c:opencs-c24349 a skos:Concept ; skos:prefLabel "Instrumentation (computer programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c24456 a skos:Concept ; skos:prefLabel "Conditional compilation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c25747 a skos:Concept ; skos:prefLabel "Total functional programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c26258 a skos:Concept ; skos:prefLabel "Delimited continuation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages, c:opencs-c10219 .
+
+c:opencs-c26585 a skos:Concept ; skos:prefLabel "Fifth-generation programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c27185 a skos:Concept ; skos:prefLabel "Generalized algebraic data type"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c2879 a skos:Concept ; skos:prefLabel "Primitive data type"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c28950 a skos:Concept ; skos:prefLabel "Dynamic program analysis"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages, c:opencs-c7465 .
+
+c:opencs-c2916 a skos:Concept ; skos:prefLabel "Multi-pass compiler"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c29679 a skos:Concept ; skos:prefLabel "System programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c29868 a skos:Concept ; skos:prefLabel "Atom (programming language)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c31256 a skos:Concept ; skos:prefLabel "Functional logic programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c31724 a skos:Concept ; skos:prefLabel "Declarative programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c31850 a skos:Concept ; skos:prefLabel "Compiler-compiler"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c3415 a skos:Concept ; skos:prefLabel "Micro programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c34501 a skos:Concept ; skos:prefLabel "Tracing just-in-time compilation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages, c:opencs-c22245, c:opencs-c23863 .
+
+c:opencs-c34660 a skos:Concept ; skos:prefLabel "Second-generation programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c3537 a skos:Concept ; skos:prefLabel "Call-with-current-continuation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c35849 a skos:Concept ; skos:prefLabel "Ahead-of-time compilation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c36593 a skos:Concept ; skos:prefLabel "Functional compiler"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c36927 a skos:Concept ; skos:prefLabel "Common Type System"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c3706 a skos:Concept ; skos:prefLabel "Non-structured programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c37878 a skos:Concept ; skos:prefLabel "Binary lambda calculus"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c38070 a skos:Concept ; skos:prefLabel "Hindley–Milner type system"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c3845 a skos:Concept ; skos:prefLabel "Evaluation strategy"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c38593 a skos:Concept ; skos:prefLabel "Protocol (object-oriented programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c38618 a skos:Concept ; skos:prefLabel "Nominal type system"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c38644 a skos:Concept ; skos:prefLabel "Opaque data type"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c38785 a skos:Concept ; skos:prefLabel "Association (object-oriented programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c38884 a skos:Concept ; skos:prefLabel "Deductive lambda calculus"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c39422 a skos:Concept ; skos:prefLabel "Fourth-generation programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c39996 a skos:Concept ; skos:prefLabel "Third-generation programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c40193 a skos:Concept ; skos:prefLabel "Factory (object-oriented programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c40414 a skos:Concept ; skos:prefLabel "Rank (computer programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c40798 a skos:Concept ; skos:prefLabel "Inductive functional programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c41674 a skos:Concept ; skos:prefLabel "Java compiler"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c41694 a skos:Concept ; skos:prefLabel "Symbol (programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c41754 a skos:Concept ; skos:prefLabel "Pure type system"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c42424 a skos:Concept ; skos:prefLabel "Strict programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c4321 a skos:Concept ; skos:prefLabel "Compiler"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c43274 a skos:Concept ; skos:prefLabel "Orthogonality (programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c43382 a skos:Concept ; skos:prefLabel "Purely functional programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c43536 a skos:Concept ; skos:prefLabel "Concurrent constraint logic programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c43727 a skos:Concept ; skos:prefLabel "Very high-level programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c43792 a skos:Concept ; skos:prefLabel "Concurrent logic programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c44259 a skos:Concept ; skos:prefLabel "Rational data type"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c44411 a skos:Concept ; skos:prefLabel "Jackson structured programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c44447 a skos:Concept ; skos:prefLabel "Reflection (computer programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c45210 a skos:Concept ; skos:prefLabel "Low-level programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c45496 a skos:Concept ; skos:prefLabel "Decimal data type"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c45775 a skos:Concept ; skos:prefLabel "Cloning (programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c5041 a skos:Concept ; skos:prefLabel "Profiling (computer programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c6411 a skos:Concept ; skos:prefLabel "Esoteric programming language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c6663 a skos:Concept ; skos:prefLabel "Property (programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c6870 a skos:Concept ; skos:prefLabel "One-pass compiler"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c6941 a skos:Concept ; skos:prefLabel "Functional programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c7126 a skos:Concept ; skos:prefLabel "Abstract interpretation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c7465 a skos:Concept ; skos:prefLabel "Program analysis"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c7825 a skos:Concept ; skos:prefLabel "Monad (functional programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c794 a skos:Concept ; skos:prefLabel "Pointer (computer programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c8023 a skos:Concept ; skos:prefLabel "Action at a distance (computer programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c8751 a skos:Concept ; skos:prefLabel "Programming paradigm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:opencs-c9870 a skos:Concept ; skos:prefLabel "Skeleton (computer programming)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .

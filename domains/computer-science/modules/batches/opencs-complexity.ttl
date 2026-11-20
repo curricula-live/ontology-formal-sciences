@@ -1,0 +1,72 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:opencs-c10276 a skos:Concept ; skos:prefLabel "Communication complexity"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c14927 a skos:Concept ; skos:prefLabel "Implicit computational complexity"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c16696 a skos:Concept ; skos:prefLabel "P-complete"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c20382 a skos:Concept ; skos:prefLabel "Complexity class"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c22501 a skos:Concept ; skos:prefLabel "Worst-case complexity"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c23023 a skos:Concept ; skos:prefLabel "Reduction (complexity)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c24202 a skos:Concept ; skos:prefLabel "PSPACE-complete"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c26406 a skos:Concept ; skos:prefLabel "Proof complexity"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c26464 a skos:Concept ; skos:prefLabel "Arithmetic circuit complexity"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c28335 a skos:Concept ; skos:prefLabel "Average-case complexity"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c34666 a skos:Concept ; skos:prefLabel "Asymptotic computational complexity"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c34810 a skos:Concept ; skos:prefLabel "Complement (complexity)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c34978 a skos:Concept ; skos:prefLabel "Chain rule for Kolmogorov complexity"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c35940 a skos:Concept ; skos:prefLabel "State complexity"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c36638 a skos:Concept ; skos:prefLabel "Generic-case complexity"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c37008 a skos:Concept ; skos:prefLabel "Game complexity"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c39944 a skos:Concept ; skos:prefLabel "Turing completeness"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c41645 a skos:Concept ; skos:prefLabel "Time hierarchy theorem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c44729 a skos:Concept ; skos:prefLabel "co-NP-complete"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c619 a skos:Concept ; skos:prefLabel "Parameterized complexity"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c6880 a skos:Concept ; skos:prefLabel "Kolmogorov complexity"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c7936 a skos:Concept ; skos:prefLabel "Sample complexity"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .
+
+c:opencs-c8660 a skos:Concept ; skos:prefLabel "Time complexity"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory .

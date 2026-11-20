@@ -1,4 +1,5 @@
 import argparse
+from importlib import import_module
 import json
 import sys
 from rdflib import Graph
@@ -34,6 +35,11 @@ def main():
         p = subs.add_parser(cmd)
         p.add_argument("--source",required=True,choices=sorted(registry()))
         p.add_argument("--offline",action="store_true")
+    batch = subs.add_parser("replay-batch")
+    batch.add_argument("--source", required=True, choices=sorted(
+        p.stem for p in (ROOT / "reviews/approved/batches").glob("*.json")
+    ))
+    batch.add_argument("--offline", action="store_true")
     for cmd in ("build","validate","stats","reason"):
         subs.add_parser(cmd)
     args = parser.parse_args()
@@ -51,6 +57,13 @@ def main():
                 result = normalize(s,args.offline)
             elif args.cmd=="audit":
                 result = audit(s,args.offline)
+            elif args.cmd == "replay-batch":
+                from pipeline.curate.batches import SOURCE_POLICIES
+
+                if args.source not in SOURCE_POLICIES:
+                    raise ValueError(f"No registered admission policy for {args.source}")
+                module = import_module("pipeline.curate." + args.source.replace("-", "_"))
+                result = module.replay(offline=args.offline)
             else:
                 result = {"candidates":len(candidates(s,authored()[0],args.offline))}
         else:

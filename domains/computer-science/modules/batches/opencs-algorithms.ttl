@@ -1,0 +1,708 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:opencs-c10107 a skos:Concept ; skos:prefLabel "Marzullo's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c10640 a skos:Concept ; skos:prefLabel "Tate's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c11308 a skos:Concept ; skos:prefLabel "Schönhage–Strassen algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c11309 a skos:Concept ; skos:prefLabel "Chaitin's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c1140 a skos:Concept ; skos:prefLabel "Spigot algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c11614 a skos:Concept ; skos:prefLabel "Unicode collation algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c11691 a skos:Concept ; skos:prefLabel "SIMPLE algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c12329 a skos:Concept ; skos:prefLabel "Anytime algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c12597 a skos:Concept ; skos:prefLabel "Exact algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c12780 a skos:Concept ; skos:prefLabel "Parallel algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c12816 a skos:Concept ; skos:prefLabel "Online algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c13312 a skos:Concept ; skos:prefLabel "Out-of-core algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c13317 a skos:Concept ; skos:prefLabel "Search algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c13876 a skos:Concept ; skos:prefLabel "Bowyer–Watson algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c1389 a skos:Concept ; skos:prefLabel "Artificial bee colony algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c1446 a skos:Concept ; skos:prefLabel "Greedy algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c1487 a skos:Concept ; skos:prefLabel "Pocklington's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c14921 a skos:Concept ; skos:prefLabel "Evolutionary algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c14950 a skos:Concept ; skos:prefLabel "Lamport's bakery algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c15052 a skos:Concept ; skos:prefLabel "Pitch detection algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c15418 a skos:Concept ; skos:prefLabel "Karatsuba algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c15480 a skos:Concept ; skos:prefLabel "Simplex algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c16028 a skos:Concept ; skos:prefLabel "Sorting algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c16166 a skos:Concept ; skos:prefLabel "Bat algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c16467 a skos:Concept ; skos:prefLabel "Margin Infused Relaxed Algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c16606 a skos:Concept ; skos:prefLabel "Nearest neighbour algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c16904 a skos:Concept ; skos:prefLabel "Levenberg–Marquardt algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c16915 a skos:Concept ; skos:prefLabel "Approximate counting algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c16947 a skos:Concept ; skos:prefLabel "Apriori algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c16951 a skos:Concept ; skos:prefLabel "Berlekamp–Massey algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c16990 a skos:Concept ; skos:prefLabel "C4.5 algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c17053 a skos:Concept ; skos:prefLabel "CN2 algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c17406 a skos:Concept ; skos:prefLabel "Hybrid algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c17915 a skos:Concept ; skos:prefLabel "Suzuki-Kasami algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms, c:opencs-c198 .
+
+c:opencs-c18328 a skos:Concept ; skos:prefLabel "Knuth–Morris–Pratt algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms, c:opencs-c9556 .
+
+c:opencs-c18362 a skos:Concept ; skos:prefLabel "Root-finding algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c18623 a skos:Concept ; skos:prefLabel "FSA-Red Algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c18798 a skos:Concept ; skos:prefLabel "Suurballe's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c18813 a skos:Concept ; skos:prefLabel "Junction tree algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c19033 a skos:Concept ; skos:prefLabel "Loopless algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c19174 a skos:Concept ; skos:prefLabel "Viterbi algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c19193 a skos:Concept ; skos:prefLabel "Lehmer–Schur algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c19540 a skos:Concept ; skos:prefLabel "Pathfinding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c19685 a skos:Concept ; skos:prefLabel "Sequential algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c19728 a skos:Concept ; skos:prefLabel "Bully algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c198 a skos:Concept ; skos:prefLabel "Distributed algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c2017 a skos:Concept ; skos:prefLabel "Chaff algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c20431 a skos:Concept ; skos:prefLabel "Phonetic algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c2079 a skos:Concept ; skos:prefLabel "Cycle sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c2122 a skos:Concept ; skos:prefLabel "Selection algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c2138 a skos:Concept ; skos:prefLabel "Davis–Putnam algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c21710 a skos:Concept ; skos:prefLabel "Expectation–maximization algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c22852 a skos:Concept ; skos:prefLabel "Firefly algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c2315 a skos:Concept ; skos:prefLabel "Concurrent algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c23309 a skos:Concept ; skos:prefLabel "Graph traversal"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c23508 a skos:Concept ; skos:prefLabel "God's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c2355 a skos:Concept ; skos:prefLabel "Asymptotically optimal algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c24154 a skos:Concept ; skos:prefLabel "Hungarian algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c24194 a skos:Concept ; skos:prefLabel "Condensation algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c24725 a skos:Concept ; skos:prefLabel "Broyden–Fletcher–Goldfarb–Shanno algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c25669 a skos:Concept ; skos:prefLabel "HS algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c26942 a skos:Concept ; skos:prefLabel "Shuffled frog leaping algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c27084 a skos:Concept ; skos:prefLabel "Dekker's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c27260 a skos:Concept ; skos:prefLabel "Yen's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c27575 a skos:Concept ; skos:prefLabel "Nested sampling algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c28942 a skos:Concept ; skos:prefLabel "Remez algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c29473 a skos:Concept ; skos:prefLabel "De Boor's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c29738 a skos:Concept ; skos:prefLabel "Gauss–Newton algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c29967 a skos:Concept ; skos:prefLabel "Christofides algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c29978 a skos:Concept ; skos:prefLabel "Schreier–Sims algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c30004 a skos:Concept ; skos:prefLabel "Block-matching algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c30034 a skos:Concept ; skos:prefLabel "Comb sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms, c:opencs-c16028 .
+
+c:opencs-c30082 a skos:Concept ; skos:prefLabel "Canopy clustering algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c30267 a skos:Concept ; skos:prefLabel "Memetic algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms, c:opencs-c14921 .
+
+c:opencs-c30285 a skos:Concept ; skos:prefLabel "Banker's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c30437 a skos:Concept ; skos:prefLabel "Tonelli–Shanks algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c3049 a skos:Concept ; skos:prefLabel "Kabsch algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c3081 a skos:Concept ; skos:prefLabel "Fürer's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c31167 a skos:Concept ; skos:prefLabel "Metropolis–Hastings algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c31198 a skos:Concept ; skos:prefLabel "Ramer–Douglas–Peucker algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c31280 a skos:Concept ; skos:prefLabel "Commentz-Walter algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c3140 a skos:Concept ; skos:prefLabel "Emergent algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c3144 a skos:Concept ; skos:prefLabel "Pollard's rho algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c31656 a skos:Concept ; skos:prefLabel "Lin–Kernighan heuristic"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c31778 a skos:Concept ; skos:prefLabel "Wagner–Fischer algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c31979 a skos:Concept ; skos:prefLabel "Peterson's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c32108 a skos:Concept ; skos:prefLabel "Ruppert's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c32131 a skos:Concept ; skos:prefLabel "Chew's second algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c32350 a skos:Concept ; skos:prefLabel "Common Scrambling Algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c32353 a skos:Concept ; skos:prefLabel "Cultural algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms, c:opencs-c14921 .
+
+c:opencs-c324 a skos:Concept ; skos:prefLabel "Adaptive heap sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c32449 a skos:Concept ; skos:prefLabel "Shortest Path Faster Algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c32507 a skos:Concept ; skos:prefLabel "Merge sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms, c:opencs-c16028 .
+
+c:opencs-c3286 a skos:Concept ; skos:prefLabel "Streaming algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c32980 a skos:Concept ; skos:prefLabel "Odd–even sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms, c:opencs-c16028 .
+
+c:opencs-c33039 a skos:Concept ; skos:prefLabel "Bubble sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms, c:opencs-c16028 .
+
+c:opencs-c33276 a skos:Concept ; skos:prefLabel "Linde–Buzo–Gray algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c3339 a skos:Concept ; skos:prefLabel "A* search algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c33651 a skos:Concept ; skos:prefLabel "Rocchio algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c33804 a skos:Concept ; skos:prefLabel "GSP Algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c33859 a skos:Concept ; skos:prefLabel "Merge algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c34053 a skos:Concept ; skos:prefLabel "Criss-cross algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c34299 a skos:Concept ; skos:prefLabel "Cellular evolutionary algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms, c:opencs-c14921 .
+
+c:opencs-c34382 a skos:Concept ; skos:prefLabel "Lloyd's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c34400 a skos:Concept ; skos:prefLabel "Kahan summation algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c34510 a skos:Concept ; skos:prefLabel "Swendsen–Wang algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c34688 a skos:Concept ; skos:prefLabel "Null-move heuristic"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c34708 a skos:Concept ; skos:prefLabel "Tarjan's strongly connected components algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c3512 a skos:Concept ; skos:prefLabel "k-nearest neighbors algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c35199 a skos:Concept ; skos:prefLabel "Insertion sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms, c:opencs-c16028 .
+
+c:opencs-c35458 a skos:Concept ; skos:prefLabel "Imperialist competitive algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms, c:opencs-c14921 .
+
+c:opencs-c35693 a skos:Concept ; skos:prefLabel "CURE data clustering algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c36074 a skos:Concept ; skos:prefLabel "Radix sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms, c:opencs-c16028 .
+
+c:opencs-c36132 a skos:Concept ; skos:prefLabel "Buchberger's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c36684 a skos:Concept ; skos:prefLabel "Bees algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c36813 a skos:Concept ; skos:prefLabel "Knuth–Bendix completion algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c36983 a skos:Concept ; skos:prefLabel "Backfitting algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c37330 a skos:Concept ; skos:prefLabel "Chandra–Toueg consensus algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c37542 a skos:Concept ; skos:prefLabel "Ricart–Agrawala algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c37560 a skos:Concept ; skos:prefLabel "SMAWK algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c37684 a skos:Concept ; skos:prefLabel "Baum–Welch algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c37783 a skos:Concept ; skos:prefLabel "Maekawa's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c37833 a skos:Concept ; skos:prefLabel "Steinhaus–Johnson–Trotter algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c37879 a skos:Concept ; skos:prefLabel "Sardinas–Patterson algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c37885 a skos:Concept ; skos:prefLabel "Tournament sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c37941 a skos:Concept ; skos:prefLabel "Hopcroft–Karp algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c38030 a skos:Concept ; skos:prefLabel "Karloff–Zwick algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c38116 a skos:Concept ; skos:prefLabel "Super-recursive algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c3817 a skos:Concept ; skos:prefLabel "Chan's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c38367 a skos:Concept ; skos:prefLabel "In-place algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c38430 a skos:Concept ; skos:prefLabel "Painter's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c38447 a skos:Concept ; skos:prefLabel "Wake-sleep algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c38457 a skos:Concept ; skos:prefLabel "Borůvka's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c38603 a skos:Concept ; skos:prefLabel "Hunt–McIlroy algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c38729 a skos:Concept ; skos:prefLabel "Out-of-kilter algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c38917 a skos:Concept ; skos:prefLabel "Rabin–Karp algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c39027 a skos:Concept ; skos:prefLabel "VEGAS algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c39123 a skos:Concept ; skos:prefLabel "Coppersmith–Winograd algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c39131 a skos:Concept ; skos:prefLabel "Berlekamp–Welch algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c39217 a skos:Concept ; skos:prefLabel "OPTICS algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c39434 a skos:Concept ; skos:prefLabel "Proxmap sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c39490 a skos:Concept ; skos:prefLabel "Adaptive sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c39606 a skos:Concept ; skos:prefLabel "Boyer–Moore–Horspool algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c39632 a skos:Concept ; skos:prefLabel "Bron–Kerbosch algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c39680 a skos:Concept ; skos:prefLabel "Forward–backward algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c39683 a skos:Concept ; skos:prefLabel "Consistent heuristic"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c39711 a skos:Concept ; skos:prefLabel "AC-3 algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c39879 a skos:Concept ; skos:prefLabel "Binary GCD algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c39942 a skos:Concept ; skos:prefLabel "Cantor–Zassenhaus algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c39969 a skos:Concept ; skos:prefLabel "Boyer–Moore string search algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c40066 a skos:Concept ; skos:prefLabel "Freivalds' algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c40081 a skos:Concept ; skos:prefLabel "Admissible heuristic"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c40100 a skos:Concept ; skos:prefLabel "Karmarkar's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c40107 a skos:Concept ; skos:prefLabel "Weighted Majority Algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c40237 a skos:Concept ; skos:prefLabel "Killer heuristic"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c40293 a skos:Concept ; skos:prefLabel "CYK algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c40335 a skos:Concept ; skos:prefLabel "Girvan–Newman algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c40553 a skos:Concept ; skos:prefLabel "Ziggurat algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c40810 a skos:Concept ; skos:prefLabel "Jump-and-Walk algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c40824 a skos:Concept ; skos:prefLabel "Path-based strong component algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c40881 a skos:Concept ; skos:prefLabel "Markov algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c4092 a skos:Concept ; skos:prefLabel "Berkeley algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c41255 a skos:Concept ; skos:prefLabel "Selection sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c41288 a skos:Concept ; skos:prefLabel "American flag sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms, c:opencs-c36074 .
+
+c:opencs-c41361 a skos:Concept ; skos:prefLabel "Cornacchia's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c41363 a skos:Concept ; skos:prefLabel "Hyper-heuristic"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c41436 a skos:Concept ; skos:prefLabel "Pigeonhole sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c41548 a skos:Concept ; skos:prefLabel "Blahut–Arimoto algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c41587 a skos:Concept ; skos:prefLabel "Quine–McCluskey algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c41594 a skos:Concept ; skos:prefLabel "Min-conflicts algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c41652 a skos:Concept ; skos:prefLabel "Extended Euclidean algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c41863 a skos:Concept ; skos:prefLabel "Nearest-neighbor chain algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c41899 a skos:Concept ; skos:prefLabel "Internal sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c41937 a skos:Concept ; skos:prefLabel "ID3 algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c41938 a skos:Concept ; skos:prefLabel "Floyd–Warshall algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c42059 a skos:Concept ; skos:prefLabel "Block sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c42302 a skos:Concept ; skos:prefLabel "Karger's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c42443 a skos:Concept ; skos:prefLabel "Neville's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c42589 a skos:Concept ; skos:prefLabel "Bucket sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c42615 a skos:Concept ; skos:prefLabel "Comparison sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c42688 a skos:Concept ; skos:prefLabel "Forney algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c42696 a skos:Concept ; skos:prefLabel "Forward algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c42816 a skos:Concept ; skos:prefLabel "Counting sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c42952 a skos:Concept ; skos:prefLabel "Tree sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c43029 a skos:Concept ; skos:prefLabel "Bentley–Ottmann algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c43031 a skos:Concept ; skos:prefLabel "Marr–Hildreth algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c43091 a skos:Concept ; skos:prefLabel "BCJR algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c43186 a skos:Concept ; skos:prefLabel "Kosaraju's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c43226 a skos:Concept ; skos:prefLabel "Stooge sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c43279 a skos:Concept ; skos:prefLabel "Lemke's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c43281 a skos:Concept ; skos:prefLabel "Tiny Encryption Algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c43401 a skos:Concept ; skos:prefLabel "Generalized Hebbian Algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c43466 a skos:Concept ; skos:prefLabel "Dinic's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c43491 a skos:Concept ; skos:prefLabel "Bitap algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c43738 a skos:Concept ; skos:prefLabel "Prim's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c43852 a skos:Concept ; skos:prefLabel "Wang and Landau algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c43855 a skos:Concept ; skos:prefLabel "Bead sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c44075 a skos:Concept ; skos:prefLabel "Soft output Viterbi algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c44101 a skos:Concept ; skos:prefLabel "GrowCut algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c44387 a skos:Concept ; skos:prefLabel "Ukkonen's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c44422 a skos:Concept ; skos:prefLabel "Integer relation algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c44494 a skos:Concept ; skos:prefLabel "Inside–outside algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c44526 a skos:Concept ; skos:prefLabel "Polyphase merge sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms, c:opencs-c32507 .
+
+c:opencs-c44580 a skos:Concept ; skos:prefLabel "Push–relabel maximum flow algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c4466 a skos:Concept ; skos:prefLabel "Pollard's p − 1 algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c44933 a skos:Concept ; skos:prefLabel "International Data Encryption Algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c45051 a skos:Concept ; skos:prefLabel "Randomized weighted majority algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c45183 a skos:Concept ; skos:prefLabel "Fortune's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c45458 a skos:Concept ; skos:prefLabel "Gnome sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c45557 a skos:Concept ; skos:prefLabel "Library sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c45709 a skos:Concept ; skos:prefLabel "Reverse-delete algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c4615 a skos:Concept ; skos:prefLabel "Goertzel algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c4750 a skos:Concept ; skos:prefLabel "MM algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c4788 a skos:Concept ; skos:prefLabel "Maze generation algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c5106 a skos:Concept ; skos:prefLabel "Held–Karp algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c5178 a skos:Concept ; skos:prefLabel "Hyphenation algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c5244 a skos:Concept ; skos:prefLabel "Blossom algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c527 a skos:Concept ; skos:prefLabel "Spaghetti sort"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c5823 a skos:Concept ; skos:prefLabel "Approximation algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c5860 a skos:Concept ; skos:prefLabel "Sweep line algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c6128 a skos:Concept ; skos:prefLabel "Division algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c6238 a skos:Concept ; skos:prefLabel "Warnock algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c6537 a skos:Concept ; skos:prefLabel "Randomized algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c6697 a skos:Concept ; skos:prefLabel "Tree traversal"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c6712 a skos:Concept ; skos:prefLabel "Odlyzko–Schönhage algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c689 a skos:Concept ; skos:prefLabel "Rainflow-counting algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c7214 a skos:Concept ; skos:prefLabel "Deterministic algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c753 a skos:Concept ; skos:prefLabel "Adaptive algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c7553 a skos:Concept ; skos:prefLabel "Genetic algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c7796 a skos:Concept ; skos:prefLabel "Difference-map algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c7801 a skos:Concept ; skos:prefLabel "Estimation of distribution algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c8401 a skos:Concept ; skos:prefLabel "Fiat–Shamir heuristic"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c8793 a skos:Concept ; skos:prefLabel "Dykstra's projection algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c9252 a skos:Concept ; skos:prefLabel "Nondeterministic algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:opencs-c9556 a skos:Concept ; skos:prefLabel "String searching algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .

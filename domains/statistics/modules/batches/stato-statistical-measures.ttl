@@ -1,0 +1,725 @@
+# Selected and adapted from STATO 1.5 by ISA-tools/STATO, CC BY 3.0.
+# See sources/stato/README.md for license, authorship and the pinned revision.
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:stato-0000028 a skos:Concept ;
+    skos:prefLabel "Measure of dispersion"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000029 a skos:Concept ;
+    skos:prefLabel "Measure of central tendency"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000030 a skos:Concept ;
+    skos:prefLabel "Chi-square statistic"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000609 .
+
+c:stato-0000033 a skos:Concept ;
+    skos:prefLabel "Mode"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000029 .
+
+c:stato-0000035 a skos:Concept ;
+    skos:prefLabel "Range (statistics)"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000028 .
+
+c:stato-0000037 a skos:Concept ;
+    skos:prefLabel "Standard error of the mean"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000562 .
+
+c:stato-0000039 a skos:Concept ;
+    skos:prefLabel "Statistic"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:statistics .
+
+c:stato-0000047 a skos:Concept ;
+    skos:prefLabel "Count"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000050 a skos:Concept ;
+    skos:prefLabel "Signal to noise ratio"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000184 .
+
+c:stato-0000053 a skos:Concept ;
+    skos:prefLabel "False positive rate"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000607 .
+
+c:stato-0000068 a skos:Concept ;
+    skos:prefLabel "Skewness"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000069 a skos:Concept ;
+    skos:prefLabel "Number of degrees of freedom"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000047 .
+
+c:stato-0000085 a skos:Concept ;
+    skos:prefLabel "Effect size estimate"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000471 .
+
+c:stato-0000088 a skos:Concept ;
+    skos:prefLabel "Study group population size"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000047 .
+
+c:stato-0000100 a skos:Concept ;
+    skos:prefLabel "Standardized mean difference"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000085, c:stato-0000613 .
+
+c:stato-0000104 a skos:Concept ;
+    skos:prefLabel "Z-score"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000609 .
+
+c:stato-0000134 a skos:Concept ;
+    skos:prefLabel "True negative rate"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000184 .
+
+c:stato-0000135 a skos:Concept ;
+    skos:prefLabel "Strictly standardized mean difference"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000100 .
+
+c:stato-0000142 a skos:Concept ;
+    skos:prefLabel "Correlation coefficient"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000085, c:stato-0000611 .
+
+c:stato-0000144 a skos:Concept ;
+    skos:prefLabel "Model parameter estimate"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000471 .
+
+c:stato-0000150 a skos:Concept ;
+    skos:prefLabel "Minimum value"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000151 a skos:Concept ;
+    skos:prefLabel "Maximum value"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000152 a skos:Concept ;
+    skos:prefLabel "Quartile"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000291 .
+
+c:stato-0000163 a skos:Concept ;
+    skos:prefLabel "Trimmed mean"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000029 .
+
+c:stato-0000164 a skos:Concept ;
+    skos:prefLabel "Interquartile range"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000028 .
+
+c:stato-0000167 a skos:Concept ;
+    skos:prefLabel "First quartile"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000152 .
+
+c:stato-0000169 a skos:Concept ;
+    skos:prefLabel "Fold change"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000300 .
+
+c:stato-0000170 a skos:Concept ;
+    skos:prefLabel "Third quartile"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000152 .
+
+c:stato-0000176 a skos:Concept ;
+    skos:prefLabel "T-statistic"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000178 a skos:Concept ;
+    skos:prefLabel "Kurtosis"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000182 a skos:Concept ;
+    skos:prefLabel "Odds ratio"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000085, c:stato-0000300, c:stato-0000622 .
+
+c:stato-0000184 a skos:Concept ;
+    skos:prefLabel "Ratio"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000195 a skos:Concept ;
+    skos:prefLabel "Number of factor level combinations"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000047 .
+
+c:stato-0000201 a skos:Concept ;
+    skos:prefLabel "Spearman's rank correlation coefficient"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000142 .
+
+c:stato-0000209 a skos:Concept ;
+    skos:prefLabel "Area under curve"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000212 a skos:Concept ;
+    skos:prefLabel "Tetrachoric correlation coefficient"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000269 .
+
+c:stato-0000220 a skos:Concept ;
+    skos:prefLabel "False negative rate"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000607 .
+
+c:stato-0000233 a skos:Concept ;
+    skos:prefLabel "True positive rate"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000184 .
+
+c:stato-0000236 a skos:Concept ;
+    skos:prefLabel "Coefficient of variation"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000028 .
+
+c:stato-0000237 a skos:Concept ;
+    skos:prefLabel "Standard deviation"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000028 .
+
+c:stato-0000240 a skos:Concept ;
+    skos:prefLabel "Kendall's rank correlation coefficient"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000142 .
+
+c:stato-0000242 a skos:Concept ;
+    skos:prefLabel "Error (statistical models)"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000266 a skos:Concept ;
+    skos:prefLabel "Bayes factor"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000184 .
+
+c:stato-0000269 a skos:Concept ;
+    skos:prefLabel "Polychoric correlation coefficient"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000142 .
+
+c:stato-0000280 a skos:Concept ;
+    skos:prefLabel "Pearson's correlation coefficient"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000142 .
+
+c:stato-0000282 a skos:Concept ;
+    skos:prefLabel "F-statistic"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000291 a skos:Concept ;
+    skos:prefLabel "Quantile"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000292 a skos:Concept ;
+    skos:prefLabel "Decile"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000291 .
+
+c:stato-0000293 a skos:Concept ;
+    skos:prefLabel "Percentile"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000291 .
+
+c:stato-0000300 a skos:Concept ;
+    skos:prefLabel "Dimensionless ratio"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000184 .
+
+c:stato-0000316 a skos:Concept ;
+    skos:prefLabel "Root-mean-square standardized effect"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039, c:stato-0000085 .
+
+c:stato-0000317 a skos:Concept ;
+    skos:prefLabel "Eta-squared"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000085, c:stato-0000471 .
+
+c:stato-0000318 a skos:Concept ;
+    skos:prefLabel "Omega-squared"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000085, c:stato-0000471 .
+
+c:stato-0000319 a skos:Concept ;
+    skos:prefLabel "Hedges's g"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000100 .
+
+c:stato-0000320 a skos:Concept ;
+    skos:prefLabel "Glass's delta"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000100 .
+
+c:stato-0000324 a skos:Concept ;
+    skos:prefLabel "Contrast weight estimate"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000144 .
+
+c:stato-0000368 a skos:Concept ;
+    skos:prefLabel "Mallows' Cp"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000375 a skos:Concept ;
+    skos:prefLabel "Residual mean square"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000376 a skos:Concept ;
+    skos:prefLabel "Z-statistic"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000377 a skos:Concept ;
+    skos:prefLabel "Deviance"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000384 a skos:Concept ;
+    skos:prefLabel "Contrast estimate"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000471 .
+
+c:stato-0000385 a skos:Concept ;
+    skos:prefLabel "Standard error of a contrast estimate"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000562 .
+
+c:stato-0000396 a skos:Concept ;
+    skos:prefLabel "Geometric mean"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000029 .
+
+c:stato-0000397 a skos:Concept ;
+    skos:prefLabel "Harmonic mean"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000029 .
+
+c:stato-0000398 a skos:Concept ;
+    skos:prefLabel "Weighted arithmetic mean"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000029 .
+
+c:stato-0000399 a skos:Concept ;
+    skos:prefLabel "Interquartile mean"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000163 .
+
+c:stato-0000400 a skos:Concept ;
+    skos:prefLabel "Quadratic mean"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000029 .
+
+c:stato-0000401 a skos:Concept ;
+    skos:prefLabel "Sample mean"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000471, c:stato-0000573 .
+
+c:stato-0000415 a skos:Concept ;
+    skos:prefLabel "Classification accuracy"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000639 .
+
+c:stato-0000416 a skos:Concept ;
+    skos:prefLabel "Precision (classification)"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000607 .
+
+c:stato-0000418 a skos:Concept ;
+    skos:prefLabel "Measure of heterogeneity (meta-analysis)"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000028 .
+
+c:stato-0000419 a skos:Concept ;
+    skos:prefLabel "Cochran's Q statistic"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000418 .
+
+c:stato-0000420 a skos:Concept ;
+    skos:prefLabel "I-squared statistic"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000418 .
+
+c:stato-0000421 a skos:Concept ;
+    skos:prefLabel "Between-study variance (meta-analysis)"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000418 .
+
+c:stato-0000425 a skos:Concept ;
+    skos:prefLabel "Sidik-Jonkman estimator"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000471 .
+
+c:stato-0000426 a skos:Concept ;
+    skos:prefLabel "Hunter-Schmidt estimator"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000471 .
+
+c:stato-0000429 a skos:Concept ;
+    skos:prefLabel "DerSimonian-Laird estimator"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000471 .
+
+c:stato-0000435 a skos:Concept ;
+    skos:prefLabel "Probability distribution scale parameter"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:probability-distributions .
+
+c:stato-0000450 a skos:Concept ;
+    skos:prefLabel "Wilks' lambda statistic"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000451 a skos:Concept ;
+    skos:prefLabel "Pillai's trace"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000452 a skos:Concept ;
+    skos:prefLabel "Hotelling-Lawley trace"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000453 a skos:Concept ;
+    skos:prefLabel "Roy's largest root statistic"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000455 a skos:Concept ;
+    skos:prefLabel "Credible interval"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:bayesian-statistics .
+
+c:stato-0000457 a skos:Concept ;
+    skos:prefLabel "Mean difference"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000614 .
+
+c:stato-0000471 a skos:Concept ;
+    skos:prefLabel "Estimate"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000498 a skos:Concept ;
+    skos:prefLabel "Numerator degrees of freedom"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000069 .
+
+c:stato-0000524 a skos:Concept ;
+    skos:prefLabel "Matthews correlation coefficient"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000142, c:stato-0000622 .
+
+c:stato-0000527 a skos:Concept ;
+    skos:prefLabel "Denominator degrees of freedom"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000069 .
+
+c:stato-0000554 a skos:Concept ;
+    skos:prefLabel "Number of cross-validation segments"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000047 .
+
+c:stato-0000555 a skos:Concept ;
+    skos:prefLabel "Number of predictive components"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000047 .
+
+c:stato-0000556 a skos:Concept ;
+    skos:prefLabel "Number of orthogonal components"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000047 .
+
+c:stato-0000560 a skos:Concept ;
+    skos:prefLabel "Rao's score"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000561 a skos:Concept ;
+    skos:prefLabel "Confidence level"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000300 .
+
+c:stato-0000562 a skos:Concept ;
+    skos:prefLabel "Standard error of estimate"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000028, c:stato-0000471 .
+
+c:stato-0000564 a skos:Concept ;
+    skos:prefLabel "Coefficient of determination"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000565 a skos:Concept ;
+    skos:prefLabel "Regression coefficient"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:regression-analysis .
+
+c:stato-0000569 a skos:Concept ;
+    skos:prefLabel "Score"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000570 a skos:Concept ;
+    skos:prefLabel "Selectivity ratio"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000184 .
+
+c:stato-0000573 a skos:Concept ;
+    skos:prefLabel "Arithmetic mean"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000029 .
+
+c:stato-0000574 a skos:Concept ;
+    skos:prefLabel "Median"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000029 .
+
+c:stato-0000580 a skos:Concept ;
+    skos:prefLabel "Variable importance in projection"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000584 a skos:Concept ;
+    skos:prefLabel "Wald statistic"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000587 a skos:Concept ;
+    skos:prefLabel "Percentage of variance"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000639 .
+
+c:stato-0000592 a skos:Concept ;
+    skos:prefLabel "Rand index"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000184 .
+
+c:stato-0000593 a skos:Concept ;
+    skos:prefLabel "Adjusted Rand index"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000592 .
+
+c:stato-0000595 a skos:Concept ;
+    skos:prefLabel "Number of true positive"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000047 .
+
+c:stato-0000596 a skos:Concept ;
+    skos:prefLabel "Number of false positive"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000047 .
+
+c:stato-0000597 a skos:Concept ;
+    skos:prefLabel "Number of true negative"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000047 .
+
+c:stato-0000598 a skos:Concept ;
+    skos:prefLabel "Number of false negative"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000047 .
+
+c:stato-0000599 a skos:Concept ;
+    skos:prefLabel "Point estimate"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000471 .
+
+c:stato-0000600 a skos:Concept ;
+    skos:prefLabel "Interval estimate"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000471 .
+
+c:stato-0000606 a skos:Concept ;
+    skos:prefLabel "Studentized range statistic"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000607 a skos:Concept ;
+    skos:prefLabel "Proportion"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000184 .
+
+c:stato-0000608 a skos:Concept ;
+    skos:prefLabel "Area under the receiver operator characteristic curve"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000209 .
+
+c:stato-0000609 a skos:Concept ;
+    skos:prefLabel "Measure of hypothesis testing"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000610 a skos:Concept ;
+    skos:prefLabel "Measure of statistical association"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000611 a skos:Concept ;
+    skos:prefLabel "Measure of correlation"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000610 .
+
+c:stato-0000612 a skos:Concept ;
+    skos:prefLabel "Goodman and Kruskal's gamma"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000142 .
+
+c:stato-0000613 a skos:Concept ;
+    skos:prefLabel "Difference"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000039 .
+
+c:stato-0000614 a skos:Concept ;
+    skos:prefLabel "Absolute difference"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000613 .
+
+c:stato-0000615 a skos:Concept ;
+    skos:prefLabel "Relative difference"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000613 .
+
+c:stato-0000616 a skos:Concept ;
+    skos:prefLabel "Count difference"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000614 .
+
+c:stato-0000617 a skos:Concept ;
+    skos:prefLabel "Median difference"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000614 .
+
+c:stato-0000618 a skos:Concept ;
+    skos:prefLabel "Cohen's d"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000100 .
+
+c:stato-0000622 a skos:Concept ;
+    skos:prefLabel "Ratio-based measure of association"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000184, c:stato-0000610 .
+
+c:stato-0000623 a skos:Concept ;
+    skos:prefLabel "Measure of statistical agreement"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000610 .
+
+c:stato-0000625 a skos:Concept ;
+    skos:prefLabel "Relative mean difference"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000615 .
+
+c:stato-0000627 a skos:Concept ;
+    skos:prefLabel "Odds"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000184 .
+
+c:stato-0000628 a skos:Concept ;
+    skos:prefLabel "F1 score"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000623 .
+
+c:stato-0000629 a skos:Concept ;
+    skos:prefLabel "Scott's pi"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000623 .
+
+c:stato-0000630 a skos:Concept ;
+    skos:prefLabel "Cohen's kappa"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000623 .
+
+c:stato-0000631 a skos:Concept ;
+    skos:prefLabel "Kappa statistic for multiple raters"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000623 .
+
+c:stato-0000632 a skos:Concept ;
+    skos:prefLabel "Misclassification rate"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000623 .
+
+c:stato-0000639 a skos:Concept ;
+    skos:prefLabel "Percentage"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000184 .
+
+c:stato-0000643 a skos:Concept ;
+    skos:prefLabel "Sample variance"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:variance .
+
+c:stato-0000645 a skos:Concept ;
+    skos:prefLabel "Rate per unit time"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000184 .
+
+c:stato-0000646 a skos:Concept ;
+    skos:prefLabel "Population variance"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:variance .
+
+c:stato-0000647 a skos:Concept ;
+    skos:prefLabel "Standard error of the proportion"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000562 .
+
+c:stato-0000648 a skos:Concept ;
+    skos:prefLabel "Standard error of the difference between independent means"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000562 .
+
+c:stato-0000649 a skos:Concept ;
+    skos:prefLabel "Standard error of the difference between independent proportions"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000562 .
+
+c:stato-0000650 a skos:Concept ;
+    skos:prefLabel "Sampling variance"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:variance .
+
+c:stato-0000658 a skos:Concept ;
+    skos:prefLabel "Mean time-to-event"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000573 .
+
+c:stato-0000659 a skos:Concept ;
+    skos:prefLabel "Median time-to-event"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000574 .
+
+c:stato-0000663 a skos:Concept ;
+    skos:prefLabel "F-beta score"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000623 .
