@@ -1,0 +1,51 @@
+name: Replay pinned source evidence
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'sources/**'
+      - 'reviews/**'
+      - 'pipeline/**'
+      - 'domains/**'
+      - '.github/workflows/evidence.yml'
+permissions:
+  contents: read
+jobs:
+  mapping-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.lock
+      - run: curl --fail --location --retry 3 https://github.com/ontodev/robot/releases/download/v1.9.8/robot.jar -o "$RUNNER_TEMP/robot.jar"
+      - name: Replay every decision against the actual pinned source
+        run: |
+          export ROBOT_JAR="$RUNNER_TEMP/robot.jar"
+          python - <<'PY'
+          from pipeline.cli import audit
+          from pipeline.common import ROOT,read,registry
+          catalog=registry()
+          decisions=[d for state in ("approved","rejected") for d in read(ROOT/"reviews"/state/"mappings.json")]
+          for source in sorted({d["source"] for d in decisions}):
+              print(audit(catalog[source]))
+          PY
+      - name: Reproduce registered batch admissions from verified original bytes
+        run: |
+          export ROBOT_JAR="$RUNNER_TEMP/robot.jar"
+          python - <<'PY'
+          import json, subprocess, sys
+          with open("dist/manifest.json") as handle:
+              inventory = json.load(handle)["sources"]
+          for source, record in sorted(inventory.items()):
+              if record.get("admission"):
+                  subprocess.run([sys.executable, "-m", "pipeline.cli", "replay-batch", "--source", source], check=True)
+          PY
+      - name: Verify OntoMathEdu partitions against OWLAPI and the pinned source
+        env:
+          ROBOT_JAR: ${{ runner.temp }}/robot.jar
+        run: |
+          python -m pipeline.cli fetch --source ontomath-edu
+          python -m pytest -q tests/test_ontomath_edu.py

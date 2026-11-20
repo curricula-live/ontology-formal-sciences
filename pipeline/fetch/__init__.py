@@ -2,6 +2,7 @@ import gzip
 import os
 import shutil
 import tempfile
+from urllib.error import URLError
 from urllib.request import urlopen
 from pathlib import Path
 from pipeline.common import ROOT, checksum
@@ -26,9 +27,24 @@ def fetch(source, offline=False):
         elif vault.exists():
             stream = vault.open("rb")
         else:
-            stream = urlopen(source["url"],timeout=180)
-        with stream as src, open(name,"wb") as out:
-            shutil.copyfileobj(src, out)
+            stream = None
+        if stream is not None:
+            with stream as src, open(name, "wb") as out:
+                shutil.copyfileobj(src, out)
+        else:
+            failures = []
+            for url in (source["url"], *source.get("mirrors", ())):
+                try:
+                    with urlopen(url, timeout=180) as src, open(name, "wb") as out:
+                        shutil.copyfileobj(src, out)
+                except (URLError, TimeoutError) as exc:
+                    failures.append(str(exc))
+                    continue
+                if checksum(Path(name)) == source["sha256"]:
+                    break
+                failures.append("checksum mismatch")
+            else:
+                raise ValueError(f"Could not retrieve pinned bytes for {source['id']}: {'; '.join(failures)}")
         if checksum(Path(name)) != source["sha256"]:
             raise ValueError(f"Snapshot checksum mismatch for {source['id']}; review upstream revision")
         os.replace(name, dest)

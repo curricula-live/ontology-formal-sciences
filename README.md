@@ -35,3 +35,19 @@ The scheduled network audit verifies pinned documents and flags newer repository
 The daily revision-proposal workflow rotates through fifteen ontology sources and accepts a source ID via manual dispatch. For a local proposal, use a disposable checkout and run `python -m pipeline.refresh SOURCE`. It verifies that the new snapshot parses, generates candidates and opens a draft PR on GitHub when the source bytes change. Sources with reviewed mapping decisions require explicit revision of the affected evidence before rebuilding. GitHub's workflow permission to create pull requests is required for automatic proposals. The read-only weekly audit covers all available sources.
 
 To publish a numbered release after main review, set the intended version in ontology.yaml in the release PR, commit the regenerated dist files, then tag the accepted commit v<version>. The tag workflow checks main ancestry and version consistency, rebuilds, tests and attaches all six files to a GitHub Release.
+
+## Review the source batches
+
+Use `python -m pipeline.cli replay-batch --source opencs` to reproduce a
+registered batch from its checksum-pinned original. The same command supports
+`stato` and `ontomath-pro`. OntoMathPro uses the pinned ROBOT jar.
+Append `--offline` to require local snapshot bytes. The offline release build
+checks eligible source namespaces, license scope, ownership and reviewed
+module digests without downloading the originals. Source replay also checks
+the generated modules and pending queues against the source records.
+
+Use `python -m pipeline.cli stats` for source, domain and relationship
+coverage, `python -m pipeline.package_check dist` to verify a package
+independently and `python -m pipeline.competency` to run the published
+SPARQL queries. Compare two manifests with
+`python -m pipeline.quality OLD_MANIFEST NEW_MANIFEST`.

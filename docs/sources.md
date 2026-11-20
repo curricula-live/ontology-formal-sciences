@@ -1,6 +1,6 @@
 # Source inventory and attribution
 
-Counts refer to one separately staged graph per processed family. The scope column identifies what was actually parsed. No unreviewed upstream triples are bundled in the release.
+Counts refer to one separately staged graph per processed family. The scope column identifies what was actually parsed. The release includes source-derived subjects from three pinned batches. Source graphs stay separate.
 
 | Source | Status | Staged triples | Published links | Snapshot scope | Rights and attribution |
 |---|---|---:|---:|---|---|
@@ -11,7 +11,7 @@ Counts refer to one separately staged graph per processed family. The scope colu
 | [dmop](https://bioportal.bioontology.org/ontologies/DMOP) | failed | 0 | 0 | DMOP ontology | unverified, e-LICO |
 | [dublin-core](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_terms.ttl) | staged | 700 | 0 | vocabulary dependency | reference only, DCMI |
 | [edam](https://github.com/edamontology/edamontology) | staged | 36,888 | 0 | 1.25 ontology | CC-BY-SA-4.0, edamontology/edamontology |
-| [mathlib4](https://codeload.github.com/leanprover-community/mathlib4/tar.gz/35f494609c32653bae53eb33f0cf2d899808909a) | staged | 8,728 | 0 | complete mathlib4 source archive; index Mathlib module paths only | Apache-2.0, mathlib community |
+| [mathlib4](https://codeload.github.com/leanprover-community/mathlib4/tar.gz/35f494609c32653bae53eb33f0cf2d899808909a) | staged | 32,592 | 0 | 8,728 module paths and 23,864 direct local imports from the pinned Mathlib archive | Apache-2.0, mathlib community |
 | [mathmoddb](https://github.com/MaRDI4NFDI/MathModDB) | aligned | 45,029 | 1 | full ontology file | CC-BY-4.0, MaRDI4NFDI/MathModDB |
 | [ml-schema](https://github.com/ML-Schema/core) | aligned | 441 | 1 | core schema | CC-BY-4.0, ML-Schema/core |
 | [msc2020](https://github.com/TIBHannover/MSC2020_SKOS) | staged | 48,524 | 0 | suggestion 4 edition | CC-BY-NC-SA, TIBHannover/MSC2020_SKOS |
@@ -20,7 +20,7 @@ Counts refer to one separately staged graph per processed family. The scope colu
 | [ontomath-edu](https://github.com/CLLKazan/OntoMathEdu) | staged | 7,867 | 0 | complete Manchester document; 16 named-operand DisjointUnionOf frames translated to RDF lists | unverified, CLLKazan/OntoMathEdu |
 | [ontomath-pro](https://github.com/CLLKazan/OntoMathPro) | aligned | 21,731 | 9 | full Manchester ontology; OWLAPI conversion | Apache-2.0, CLLKazan/OntoMathPro |
 | [openalex](https://api.openalex.org/topics/T10374) | staged | 2 | 0 | one graph theory research topic | CC0-1.0, OurResearch |
-| [opencs](https://opencs-ontology.github.io/) | aligned | 538,056 | 103 | full stable N-Triples release, content pinned | CC-BY-4.0, OpenCS contributors |
+| [opencs](https://opencs-ontology.github.io/) | aligned | 538,056 | 111 | full stable N-Triples release, content pinned | CC-BY-4.0, OpenCS contributors |
 | [openmath](https://codeload.github.com/OpenMath/CDs/tar.gz/cbf607561e3f90630ce7a57fe9a85f5bc0dfdd3c) | staged | 4,687 | 0 | complete repository archive; extract symbols, descriptions and dictionary membership from all 216 official, experimental and contributed CDs | per dictionary, OpenMath Society and dictionary authors |
 | [openmath-rdf](https://github.com/OpenMath/om-rdf) | staged | 270 | 0 | math schema | unverified, OpenMath/om-rdf |
 | [owl](https://www.w3.org/2002/07/owl.ttl) | staged | 450 | 0 | vocabulary dependency | reference only, W3C |

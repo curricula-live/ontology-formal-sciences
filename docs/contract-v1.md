@@ -16,3 +16,11 @@ Resolve graph names as https://curricula.live/id/formal-sciences/graph/ followed
 The reference intake in curricula-live/data is provisional. A pull-based job reads the reviewed producer main branch and proposes one immutable receipt in a pull request to dev. Updating main here requires producer review. Database changes are outside this contract.
 
 GitHub Releases use v<ontology-version> tags for accepted main commits. Development builds are also reproducible from a branch or immutable commit. The provisional consumer compares manifest digests to avoid requesting another intake when an upstream code-only commit preserves the same release.
+
+The source inventory includes admission summaries for registered batches.
+The provenance graph connects each generated module to its reviewed batch,
+source revision, digest and attribution. A topic's `dct:source` identifies
+the source entity that supports the topic. Approved SKOS mapping triples
+retain their own review provenance. The manifest's quality object reports
+coverage and distinguishes pending mapping pairs from pending admission
+entities.

@@ -69,6 +69,8 @@ def main():
         else:
             manifest = build()
             result = {k:manifest[k] for k in ("contract","counts","concepts","predicates","conforms")}
+            if args.cmd == "stats":
+                result["quality"] = manifest["quality"]
         print(json.dumps(result,indent=2))
     except Exception as exc:
         print(json.dumps({"error":str(exc)}),file=sys.stderr)

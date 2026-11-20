@@ -8,6 +8,7 @@ from pipeline.curate import authored, reviewed
 from pipeline.curate.batches import verify_batches
 from pipeline.validate import check
 from pipeline.reason import reason
+from pipeline.quality import quality
 
 
 def lines(graph):
@@ -74,6 +75,7 @@ def build(dest=None):
                         counts={name:len(g) for name,g in graphs.items()},
                         concepts=len(set(graph.subjects(RDF.type,SKOS.Concept))),predicates=len(set(graph.predicates())),
                         sources=inventory,artifacts={p.name:checksum(p) for p in sorted(out.iterdir())})
+        manifest["quality"] = quality(graph, maps, prov, inferred, inventory, report)
         write(out / "manifest.json",manifest)
         dest.mkdir(exist_ok=True)
         for path in sorted(out.iterdir(),key=lambda p:p.name=="manifest.json"):

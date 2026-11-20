@@ -7,6 +7,9 @@
   "id": "opencs",
   "license": "CC-BY-4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "mirrors": [
+    "https://raw.githubusercontent.com/opencs-ontology/opencs-ontology.github.io/cd71da5305062c5f578c212432c028203d7709f1/releases/stable/opencs.nt"
+  ],
   "revision": "0.4.0",
   "scope": "full stable N-Triples release, content pinned",
   "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
