@@ -38,3 +38,7 @@ c:least-squares-residual a skos:Concept ; skos:prefLabel "Linear least-squares r
 c:ols-coefficient-t-test a skos:Concept ; skos:prefLabel "Ordinary least squares coefficient t-test"@en ;
     skos:inScheme scheme:statistics ; skos:broader c:hypothesis-testing ;
     skos:definition "Test a coefficient of a full-rank linear regression by dividing its estimated deviation from the null value by its estimated standard error. With independent homoscedastic normal errors the statistic has a Student t null distribution with residual degrees of freedom."@en .
+
+c:partial-least-squares-regression a skos:Concept ; skos:prefLabel "Partial least squares regression"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:regression-analysis ;
+    skos:definition "A family of regression procedures using latent components of the predictor matrix chosen with information about its covariance with the responses."@en .

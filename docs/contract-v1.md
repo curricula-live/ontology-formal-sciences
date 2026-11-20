@@ -40,3 +40,11 @@ the source expression under the recorded axiom shape. The manifest
 includes extracted, approved, rejected, pending, unresolved and
 ambiguous source counts. The scientific connectivity report includes
 an evidence-backed subgraph and per-source distinct edge counts.
+
+The manifest's per-source `endpoint_resolution` summarizes the states
+of distinct native endpoints and their combinations across extracted
+relations. `candidate_actions` assigns each candidate one primary review
+action. Exclusion actions describe publication scope for this profile.
+A witness may also link to a scoped endpoint-projection entity with
+the native endpoint, canonical subject, evidence fingerprint and reviewed
+reason. It provides source-aware resolution for the statement.

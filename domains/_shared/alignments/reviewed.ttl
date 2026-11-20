@@ -379,3 +379,21 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000132> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C36011> .
 
 <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674141> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/ocs/ont/C35657> .
+
+<https://curricula.live/id/formal-sciences/concept/coinduction> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C19907> .
+
+<https://curricula.live/id/formal-sciences/concept/impredicative-polymorphism> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/ocs/ont/C14619> .
+
+<https://curricula.live/id/formal-sciences/concept/logical-relations> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C9439> .
+
+<https://curricula.live/id/formal-sciences/concept/proof-assistant> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C22394> .
+
+<https://curricula.live/id/formal-sciences/concept/satisfiability-modulo-theories> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C5561> .
+
+<https://curricula.live/id/formal-sciences/concept/structural-induction> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C24482> .
+
+<https://curricula.live/id/formal-sciences/concept/system-f> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C16537> .
+
+<https://curricula.live/id/formal-sciences/concept/type-constructor> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C11327> .
+
+<https://curricula.live/id/formal-sciences/concept/type-erasure> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C45767> .

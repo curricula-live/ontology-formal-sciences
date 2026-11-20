@@ -555,6 +555,21 @@
     "state": "pending"
   },
   {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/proof-obligation",
+    "external": "https://w3id.org/ocs/ont/C2387",
+    "label": "proof obligation",
+    "labels": [
+      {
+        "key": "proof obligation",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/stato-0000524",
     "external": "https://w3id.org/ocs/ont/C24024",
     "label": "matthews correlation coefficient",
@@ -1206,21 +1221,6 @@
     "labels": [
       {
         "key": "newman's lemma",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/satisfiability-modulo-theories",
-    "external": "https://w3id.org/ocs/ont/C5561",
-    "label": "satisfiability modulo theories",
-    "labels": [
-      {
-        "key": "satisfiability modulo theories",
         "language": "en"
       }
     ],

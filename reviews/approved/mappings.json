@@ -2308,5 +2308,104 @@
     "reviewer": "Editorial cross-source review against pinned source evidence",
     "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
     "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/coinduction",
+    "evidence": "<https://w3id.org/ocs/ont/C19907> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C19907> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C13511> .\n<https://w3id.org/ocs/ont/C19907> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C1451> .\n<https://w3id.org/ocs/ont/C19907> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Coinduction> .\n<https://w3id.org/ocs/ont/C19907> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Coinduction\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C19907",
+    "id": "opencs-v05-review-c19907",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The reference identifies the general greatest-fixed-point proof principle.",
+    "reviewer": "Editorial scope review against pinned OpenCS and canonical definitions",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/impredicative-polymorphism",
+    "evidence": "<https://w3id.org/ocs/ont/C14619> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C14619> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C10498> .\n<https://w3id.org/ocs/ont/C14619> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Impredicativity> .\n<https://w3id.org/ocs/ont/C14619> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Impredicativity\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C14619",
+    "id": "opencs-v05-review-c14619",
+    "predicate": "http://www.w3.org/2004/02/skos/core#closeMatch",
+    "rationale": "Impredicativity is broader than its use in polymorphic type quantification.",
+    "reviewer": "Editorial scope review against pinned OpenCS and canonical definitions",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/logical-relations",
+    "evidence": "<https://w3id.org/ocs/ont/C9439> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C9439> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C10> .\n<https://w3id.org/ocs/ont/C9439> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C29> .\n<https://w3id.org/ocs/ont/C9439> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Logical_relations> .\n<https://w3id.org/ocs/ont/C9439> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Logical relations\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C9439",
+    "id": "opencs-v05-review-c9439",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The reference identifies the type-indexed proof technique for programming-language semantics.",
+    "reviewer": "Editorial scope review against pinned OpenCS and canonical definitions",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/proof-assistant",
+    "evidence": "<https://w3id.org/ocs/ont/C22394> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C22394> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C13511> .\n<https://w3id.org/ocs/ont/C22394> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Proof_assistant> .\n<https://w3id.org/ocs/ont/C22394> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Proof assistant\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C22394",
+    "id": "opencs-v05-review-c22394",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The reference and broader computing topic describe interactive machine-checked proof assistants.",
+    "reviewer": "Editorial scope review against pinned OpenCS and canonical definitions",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/satisfiability-modulo-theories",
+    "evidence": "<https://w3id.org/ocs/ont/C5561> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C5561> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C10> .\n<https://w3id.org/ocs/ont/C5561> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C19> .\n<https://w3id.org/ocs/ont/C5561> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C29> .\n<https://w3id.org/ocs/ont/C5561> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Satisfiability_modulo_theories> .\n<https://w3id.org/ocs/ont/C5561> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Satisfiability modulo theories\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C5561",
+    "id": "opencs-v05-review-c5561",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "Both topics concern satisfiability relative to a background theory.",
+    "reviewer": "Editorial scope review against pinned OpenCS and canonical definitions",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/structural-induction",
+    "evidence": "<https://w3id.org/ocs/ont/C24482> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C24482> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C10917> .\n<https://w3id.org/ocs/ont/C24482> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Structural_induction> .\n<https://w3id.org/ocs/ont/C24482> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Structural induction\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C24482",
+    "id": "opencs-v05-review-c24482",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The referenced principle uses the recursive construction of the objects.",
+    "reviewer": "Editorial scope review against pinned OpenCS and canonical definitions",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/system-f",
+    "evidence": "<https://w3id.org/ocs/ont/C16537> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C16537> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C1631> .\n<https://w3id.org/ocs/ont/C16537> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/System_F> .\n<https://w3id.org/ocs/ont/C16537> <http://www.w3.org/2004/02/skos/core#prefLabel> \"System F\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C16537",
+    "id": "opencs-v05-review-c16537",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The reference identifies the second-order polymorphic lambda calculus.",
+    "reviewer": "Editorial scope review against pinned OpenCS and canonical definitions",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/type-constructor",
+    "evidence": "<https://w3id.org/ocs/ont/C11327> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C11327> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C10> .\n<https://w3id.org/ocs/ont/C11327> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C19> .\n<https://w3id.org/ocs/ont/C11327> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C29> .\n<https://w3id.org/ocs/ont/C11327> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Type_constructor> .\n<https://w3id.org/ocs/ont/C11327> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Type constructor\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C11327",
+    "id": "opencs-v05-review-c11327",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The reference denotes constructing types from type parameters.",
+    "reviewer": "Editorial scope review against pinned OpenCS and canonical definitions",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/type-erasure",
+    "evidence": "<https://w3id.org/ocs/ont/C45767> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C45767> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C31223> .\n<https://w3id.org/ocs/ont/C45767> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C31956> .\n<https://w3id.org/ocs/ont/C45767> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C36771> .\n<https://w3id.org/ocs/ont/C45767> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Type_erasure> .\n<https://w3id.org/ocs/ont/C45767> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Type erasure\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C45767",
+    "id": "opencs-v05-review-c45767",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The source refers to removal of statically checked types from executable code.",
+    "reviewer": "Editorial scope review against pinned OpenCS and canonical definitions",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
   }
 ]

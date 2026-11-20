@@ -195,6 +195,21 @@
     "state": "pending"
   },
   {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/poisson-log-likelihood",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6674483",
+    "label": "poisson log-likelihood",
+    "labels": [
+      {
+        "key": "poisson log-likelihood",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/opencs-c9022",
     "external": "https://portal.mardi4nfdi.de/entity/Q6675321",
     "label": "artificial neural network",

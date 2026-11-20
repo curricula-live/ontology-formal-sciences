@@ -1,0 +1,22 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+SELECT ?task ?method ?mathmoddb ?ontomath
+WHERE {
+  GRAPH g:asserted {
+    ?task v:appliesToModel c:mathmoddb-q6775296 ;
+          v:hasFormulationComponent ?method .
+  }
+  GRAPH g:provenance {
+    ?method dct:source ?ontomath .
+    ?statement rdf:subject ?task ; rdf:predicate v:hasFormulationComponent ;
+      rdf:object ?method ; prov:wasDerivedFrom ?witness .
+    ?witness rdf:object ?mathmoddb ; prov:wasDerivedFrom ?projection .
+    ?projection rdf:subject ?method ; rdf:object ?mathmoddb .
+  }
+}
+ORDER BY ?task ?method

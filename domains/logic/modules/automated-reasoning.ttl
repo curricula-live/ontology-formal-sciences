@@ -125,3 +125,11 @@ c:factorization-of-clauses a skos:Concept ; skos:prefLabel "Clause factoring"@en
 c:propositional-resolution-certificate a skos:Concept ; skos:prefLabel "Propositional resolution certificate"@en ;
     skos:inScheme scheme:logic ; skos:broader c:proof-certificate ;
     skos:definition "A finite sequence or directed acyclic graph of resolution derivations from input clauses to the empty clause, certifying their joint unsatisfiability."@en .
+
+c:proof-assistant a skos:Concept ; skos:prefLabel "Proof assistant"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "A system that lets authors construct formal statements and proofs with machine-checked inference."@en .
+
+c:type-theoretic-proof-assistant a skos:Concept ; skos:prefLabel "Type-theoretic proof assistant"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-assistant ;
+    skos:definition "A proof assistant in which a kernel checks proof terms according to a formal dependent type theory."@en .

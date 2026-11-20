@@ -17,6 +17,9 @@ Run `python -m pipeline.competency` from the checkout after building the release
 | source-discretization | The plate-with-hole elasticity model links to its weak form and discretized weak model. Both links expose the MathModDB property and the common source digest. |
 | stato-opencs-reference-law | The OpenCS Welch test maps to a canonical subject whose Student t reference link comes from the pinned STATO subclass restriction. |
 | theory-combination-assumptions | The standard Nelson–Oppen framework uses disjoint signatures and stable infiniteness as explicit assumptions. |
+| finite-element-endpoint-resolution | The MathModDB plate discretization task uses the existing OntoMathPro finite element method subject. The evidence exposes both native IRIs. |
+| poisson-optimization-bridge | The MathModDB likelihood-maximizing task links its mathematical formulation to the canonical statistical Poisson log-likelihood. |
+| system-f-evidence | The OpenCS System F topic resolves to the canonical calculus, which carries a source-cited strong normalization property. |
 | verification | Automata-theoretic LTL model checking uses a Büchi automaton. |
 | information-measures | Six pairs connect a measure to its statistical ingredient, including conditional entropy to conditional distribution and mutual information to both joint distribution and product of marginals. |
 | numerical-assumptions | The conjugate-gradient method assumes symmetric positive definiteness in its standard real linear-system guarantee. |

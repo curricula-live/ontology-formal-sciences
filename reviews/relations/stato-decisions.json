@@ -144,6 +144,18 @@
         "output",
         "0000144",
         "The source refers to the best linear unbiased estimator for a parameter in its applicable linear model."
+      ],
+      [
+        "0000175",
+        "output",
+        "0000196",
+        "The method explicitly outputs a confidence interval, an interval estimate with a defined model and coverage convention."
+      ],
+      [
+        "0000571",
+        "output",
+        "0000565",
+        "The PLS regression fit yields coefficients for its prediction equation within its model context."
       ]
     ],
     "rejected": [
@@ -200,6 +212,12 @@
         "output",
         "0000069",
         "Degrees of freedom are part of a test's reference setup, not a statistical estimate returned by the test."
+      ],
+      [
+        "0000571",
+        "output",
+        "0000569",
+        "A latent component score is a computed coordinate of an observation, not the parameter estimate covered by the output projection."
       ]
     ]
   },

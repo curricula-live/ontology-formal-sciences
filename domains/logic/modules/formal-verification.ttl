@@ -42,3 +42,15 @@ c:smt-bounded-model-checking a skos:Concept ;
     skos:prefLabel "SMT-based bounded model checking"@en ;
     skos:inScheme scheme:logic ; skos:broader c:model-checking ;
     skos:definition "Search for a counterexample up to a chosen bound by querying satisfiability of an unrolled transition formula in one or more background theories."@en .
+
+c:proof-obligation a skos:Concept ; skos:prefLabel "Proof obligation"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification ;
+    skos:definition "A proposition whose proof is required to establish a specified verification condition in a formal development."@en .
+
+c:galois-based-abstract-interpretation a skos:Concept ; skos:prefLabel "Galois-connection-based abstract interpretation"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification ;
+    skos:definition "Sound approximation of a concrete program semantics in an abstract domain related to the concrete domain by a Galois connection."@en .
+
+c:abstract-transfer-function a skos:Concept ; skos:prefLabel "Abstract transfer function"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification ;
+    skos:definition "A map of abstract program states that soundly approximates the effect of a concrete program operation."@en .

@@ -1,5 +1,5 @@
 {
-  "eligible": 93,
+  "eligible": 92,
   "exclusions": {},
   "identities": {
     "https://portal.mardi4nfdi.de/entity/Q6534338": "mathmoddb-q6534338",
@@ -82,7 +82,6 @@
     "https://portal.mardi4nfdi.de/entity/Q6821444": "mathmoddb-q6821444",
     "https://portal.mardi4nfdi.de/entity/Q6821445": "mathmoddb-q6821445",
     "https://portal.mardi4nfdi.de/entity/Q6821446": "mathmoddb-q6821446",
-    "https://portal.mardi4nfdi.de/entity/Q6822086": "mathmoddb-q6822086",
     "https://portal.mardi4nfdi.de/entity/Q6822087": "mathmoddb-q6822087",
     "https://portal.mardi4nfdi.de/entity/Q6822089": "mathmoddb-q6822089",
     "https://portal.mardi4nfdi.de/entity/Q6822090": "mathmoddb-q6822090",
@@ -98,7 +97,7 @@
   },
   "license": "CC-BY-4.0",
   "modules": {
-    "domains/mathematics/modules/batches/mathmoddb-mathematical-models.ttl": "e3a63e46b0298b84a9e80cfff8f6a1a2e7a2dd0e2d6e899ae382c177dfbd550f"
+    "domains/mathematics/modules/batches/mathmoddb-mathematical-models.ttl": "e72448a2d49691f935636866c7398fe4eb9bf6ba83fe20c50038fb6dbdf02833"
   },
   "pending": 0,
   "policy": "Reviewed MathModDB subject slice for numerical mathematics and model reduction.",

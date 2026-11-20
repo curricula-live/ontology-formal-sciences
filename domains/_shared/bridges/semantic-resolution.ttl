@@ -1,0 +1,6 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+
+c:coinduction v:uses c:greatest-fixed-point .
+c:galois-based-abstract-interpretation v:uses c:galois-connection .
+c:galois-based-abstract-interpretation v:uses c:least-fixed-point .

@@ -40,6 +40,19 @@ def test_published_competencies():
         (str(C["ctl-state-labeling-algorithm"]), str(C["power-set"])),
     }
     assert all(row["reference"] for row in result["branching-time-verification"])
+    assert pairs("finite-element-endpoint-resolution", "task", "method") == {
+        (str(C["mathmoddb-q6775615"]), str(C["ontomath-pro-e3187"]))
+    }
+    resolved, = result["finite-element-endpoint-resolution"]
+    assert resolved["mathmoddb"].endswith("/Q6775613")
+    assert resolved["ontomath"].endswith("#E3187")
+    assert pairs("poisson-optimization-bridge", "task", "likelihood") == {
+        (str(C["mathmoddb-q6684606"]), str(C["poisson-log-likelihood"]))
+    }
+    assert pairs("system-f-evidence", "system", "property") == {
+        (str(C["system-f"]), str(C["strong-normalization"]))
+    }
+
     assert pairs("source-discretization", "weak", "discrete") == {
         (str(C["mathmoddb-q6822179"]), str(C["mathmoddb-q6775736"]))
     }
@@ -73,7 +86,7 @@ def test_every_new_scientific_claim_has_a_citation_and_no_implicit_inverse():
     cited = {(C[s], V[p], C[o]) for s, p, o, _ in read(ROOT / "reviews/approved/citations.json")}
     claims = Graph()
     for path in (ROOT / "domains").rglob("*.ttl"):
-        if path.name in {"scientific-methods.ttl", "foundations.ttl", "advanced-methods.ttl"}:
+        if path.name in {"scientific-methods.ttl", "foundations.ttl", "advanced-methods.ttl", "semantic-resolution.ttl"}:
             claims.parse(path)
     directional = {triple for triple in claims if triple[1] != SKOS.broader}
     assert directional and directional <= cited

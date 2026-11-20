@@ -99,6 +99,11 @@ def test_scoped_projection_reuses_existing_subject_and_preserves_original_role()
     cross = (C["mathmoddb-q6684606"], V.hasFormulationComponent, C["poisson-log-likelihood"])
     assert cross in canonical
     assert stats["mathmoddb"]["endpoint_resolution"]["reviewed_projections"] == 5
+    assert (C["mathmoddb-q6822086"], RDF.type, SKOS.Concept) not in canonical
+    assert (C["mathmoddb-q6822091"], V.hasFormulationComponent, C["mathmoddb-q6822086"]) not in canonical
+    assert (C["partial-least-squares-regression"], V.producesEstimate, C["stato-0000565"]) in canonical
+    assert (C["partial-least-squares-regression"], V.producesEstimate, C["stato-0000569"]) not in canonical
+
     for source in stats.values():
         assert sum(source["candidate_actions"].values()) == source["extracted"]
     assert stats["mathmoddb"]["candidate_actions"]["exclude_profile_role"] > 0

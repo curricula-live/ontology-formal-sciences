@@ -89,3 +89,39 @@ c:universe-hierarchy a skos:Concept ; skos:prefLabel "Type universe hierarchy"@e
 c:inductive-recursion a skos:Concept ; skos:prefLabel "Structural recursion over an inductive type"@en ;
     skos:inScheme scheme:logic ; skos:broader c:inductive-type ;
     skos:definition "Definition by constructor cases whose recursive calls are on available smaller structural constituents."@en .
+
+c:system-f a skos:Concept ; skos:prefLabel "System F"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "The second-order typed lambda calculus with abstraction and application over both values and types."@en .
+
+c:universal-type a skos:Concept ; skos:prefLabel "Universal type"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "A polymorphic type whose type variable is bound by universal quantification and may be instantiated at a type."@en .
+
+c:type-abstraction a skos:Concept ; skos:prefLabel "Type abstraction"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "A term abstraction that binds a type variable and produces a term at a universal type."@en .
+
+c:type-application a skos:Concept ; skos:prefLabel "Type application"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "Instantiation of a polymorphic term at a type, substituting that type into the quantified result."@en .
+
+c:type-constructor a skos:Concept ; skos:prefLabel "Type constructor"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "An operation on types that forms a new type, such as the constructor for a function or list type."@en .
+
+c:impredicative-polymorphism a skos:Concept ; skos:prefLabel "Impredicative polymorphism"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "Polymorphism whose type quantification ranges over types that may themselves contain quantified types of the same universe."@en .
+
+c:type-erasure a skos:Concept ; skos:prefLabel "Type erasure"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "Removal of type annotations and type-level constructs when their role is confined to static typing."@en .
+
+c:logical-relations a skos:Concept ; skos:prefLabel "Logical relations"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "Relations on typed terms or values defined recursively by type structure to support proofs of semantic properties."@en .
+
+c:relational-parametricity a skos:Concept ; skos:prefLabel "Relational parametricity"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "The uniformity principle that polymorphic terms preserve relations determined by the interpretation of their types."@en .

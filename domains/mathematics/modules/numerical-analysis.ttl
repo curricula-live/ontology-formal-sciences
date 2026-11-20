@@ -40,3 +40,15 @@ c:linear-system-solution a skos:Concept ; skos:prefLabel "Linear system solution
 c:cholesky-factorization a skos:Concept ; skos:prefLabel "Cholesky factorization"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis ;
     skos:definition "A factorization of a positive definite Hermitian matrix as a triangular matrix times its conjugate transpose, with positive diagonal entries."@en .
+
+c:svd-least-squares-method a skos:Concept ; skos:prefLabel "SVD least-squares method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis ;
+    skos:definition "Solve a linear least-squares problem by projecting onto singular vectors and applying inverse nonzero singular values. The exact construction returns the minimum-norm least-squares solution, with numerical rank determined by the implementation."@en .
+
+c:linear-galerkin-finite-element-method a skos:Concept ; skos:prefLabel "Galerkin finite element method for a linear equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ontomath-pro-e3187 ;
+    skos:definition "Discretize a linear weak equation by restricting trial and test functions to finite-dimensional element spaces, producing a linear algebraic system in their basis coordinates."@en .
+
+c:finite-element-stiffness-matrix a skos:Concept ; skos:prefLabel "Finite element stiffness matrix"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-galerkin-finite-element-method ;
+    skos:definition "The matrix whose entries evaluate the weak-form bilinear term on pairs of finite element basis functions."@en .

@@ -242,9 +242,6 @@ c:mathmoddb-q6821445 a skos:Concept ; skos:prefLabel "determine period of a pend
 c:mathmoddb-q6821446 a skos:Concept ; skos:prefLabel "mathematical pendulum period"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
 
-c:mathmoddb-q6822086 a skos:Concept ; skos:prefLabel "mathematical pendulum solution (small angle, damped)"@en ;
-    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
-
 c:mathmoddb-q6822087 a skos:Concept ; skos:prefLabel "mathematical pendulum frequency (small angle, damped)"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
 

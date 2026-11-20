@@ -44,3 +44,15 @@ c:complete-lattice a skos:Concept ; skos:prefLabel "Complete lattice"@en ;
 c:knaster-tarski-fixed-point-theorem a skos:Concept ; skos:prefLabel "Knaster–Tarski fixed-point theorem"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:lattice-order-theory ;
     skos:definition "The fixed points of a monotone self-map of a complete lattice form a complete lattice, with extrema in the original order."@en .
+
+c:galois-connection a skos:Concept ; skos:prefLabel "Galois connection between partially ordered sets"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:partial-order ;
+    skos:definition "A pair of monotone maps between partially ordered sets such that the left map applied to x is below y exactly when x is below the right map applied to y."@en .
+
+c:greatest-fixed-point a skos:Concept ; skos:prefLabel "Greatest fixed point"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:knaster-tarski-fixed-point-theorem ;
+    skos:definition "A fixed point of an order-preserving map that is above every other fixed point in the underlying order."@en .
+
+c:least-fixed-point a skos:Concept ; skos:prefLabel "Least fixed point"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:knaster-tarski-fixed-point-theorem ;
+    skos:definition "A fixed point of an order-preserving map that is below every other fixed point in the underlying order."@en .

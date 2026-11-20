@@ -323,7 +323,7 @@
         "Q6674363",
         "P1674",
         "Q6674362",
-        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+        "The named premise is a spatially uniform gravitational field for this free-fall formulation. The source discussion contrasts this approximation with inverse-square variation."
       ],
       [
         "Q6674365",
@@ -473,7 +473,7 @@
         "Q6821405",
         "P147",
         "Q6821445",
-        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+        "The task computes the period for the model's stated amplitude. The projection gives the task-to-model relation and does not import the source description of parameter dependence."
       ],
       [
         "Q6822091",
@@ -766,12 +766,6 @@
       [
         "Q6822091",
         "P1560",
-        "Q6822086",
-        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
-      ],
-      [
-        "Q6822091",
-        "P1560",
         "Q6822090",
         "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
       ],
@@ -914,6 +908,12 @@
         "P1560",
         "Q6674269",
         "Backward Euler and Verlet are distinct time discretizations. The generic contains annotation supplies no compound-method evidence."
+      ],
+      [
+        "Q6822091",
+        "P1560",
+        "Q6822086",
+        "The record provides placeholder prose. Its decaying cosine uses the undamped frequency, while the model has a damping term. The source does not state the approximation and initial conditions needed to identify a valid solution."
       ]
     ]
   },

@@ -99,3 +99,31 @@ Ontology expressions beyond the registered shapes require a separate
 semantic review. OntoMathPro's universal restrictions remain source
 evidence for review. See the [relationship enrichment guide](relation-enrichment.md)
 for the profiles, review procedure and 20-item sampled audit.
+
+## 0.5.0 development scope
+
+The release inventories 2,875 source candidates and records 173 approved
+source projections and 18 explicit rejections. Of the 2,653 candidates
+with unresolved endpoints in v0.4.0, 81 now have approved canonical
+relations. The reviewed MathModDB cohort adds 49 subjects. Seven scoped
+endpoint projections reuse existing or newly authored subjects across
+MathModDB and STATO, including the OntoMathPro finite element method,
+state-space matrix roles, the Poisson log-likelihood and two statistical
+estimation procedures. The added logic coverage includes System F,
+parametricity, structural induction, proof assistants and abstract
+interpretation.
+
+The endpoint report identifies 745 candidates outside the current
+MathModDB profile by source role and 545 in the two reviewed applied
+contexts. Another 1,168 MathModDB candidates still require domain scope
+review. The decisions also expose pending subject admissions and
+mapping reviews in STATO, plus 71 review-only OntoMathPro universal
+restriction candidates. Prior rejection records and the IDs of all
+2,590 v0.4.0 concepts remain in the release history.
+
+The published graph contains 2,667 concepts, 399 specific scientific
+relations and 389 participating concepts. With only cited or pinned
+scientific edges, 367 concepts participate in 62 components, with 55
+concepts in the largest. The corresponding v0.4.0 sizes were 286, 54
+and 33. See the [semantic audit](semantic-audit-v0.5.md) and the
+[endpoint replay guide](relation-enrichment.md).
