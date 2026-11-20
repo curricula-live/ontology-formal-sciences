@@ -74,6 +74,71 @@
         "arith1:unary_minus"
       ]
     },
+    "calculus1:defint/2": {
+      "rationale": "The source uses interval1:ordered_interval, which the pinned interval1 dictionary does not declare. A corrected interval expression requires a new witness.",
+      "sha256": "c19c72b5b26156d5ccbd4ea6aede68d52bde1db18fb253af635955c6eba4de2e",
+      "state": "rejected"
+    },
+    "calculus1:diff/1": {
+      "law": "derivative-sum-rule",
+      "properties": [
+        "calculus1:diff"
+      ],
+      "rationale": "For two real functions differentiable at x, the derivative of their sum at x is the sum of their derivatives at x.",
+      "sha256": "2d4dca3b4b0c450a7c62e9b308a6f4b22d9afd2839e9c9e7acb5a20529ad7b42",
+      "state": "approved",
+      "uses": [
+        "calculus1:diff",
+        "arith1:plus"
+      ]
+    },
+    "calculus1:diff/2": {
+      "law": "derivative-product-rule",
+      "properties": [
+        "calculus1:diff"
+      ],
+      "rationale": "If f and g are real functions differentiable at x, (fg)'(x) equals f'(x)g(x)+f(x)g'(x).",
+      "sha256": "b7a11dc2422d092ca6c82714874d6888c5028db0dd8f1dfdfa4a76ef4d9b53a6",
+      "state": "approved",
+      "uses": [
+        "calculus1:diff",
+        "arith1:plus",
+        "arith1:times"
+      ]
+    },
+    "calculus1:int/1": {
+      "rationale": "The displayed indefinite-integral expression needs a specified antiderivative choice and differentiability scope. The application syntax also leaves the relation between the derivative operator and its function argument implicit.",
+      "sha256": "8e6770798504eadc24697739feb856b7a5be76243be9caca291bbf26cbba35f5",
+      "state": "rejected"
+    },
+    "calculus1:nthdiff/1": {
+      "law": "derivative-order-zero",
+      "properties": [
+        "calculus1:nthdiff"
+      ],
+      "rationale": "The derivative of order zero is the original function.",
+      "sha256": "d21b118243bb527b883a7d372591820eed6b2775d216b11b4419e2dc63c097f2",
+      "state": "approved",
+      "uses": [
+        "calculus1:nthdiff",
+        "alg1:zero"
+      ]
+    },
+    "calculus1:nthdiff/2": {
+      "law": "derivative-order-recurrence",
+      "properties": [
+        "calculus1:nthdiff"
+      ],
+      "rationale": "For a nonnegative integer n and a function having the needed derivatives, its derivative of order n+1 is the derivative of its order-n derivative.",
+      "sha256": "ed612a3a5acaae5da808d5e63f0ee843fd6ce6fac0e799f76033aa688c850f48",
+      "state": "approved",
+      "uses": [
+        "calculus1:nthdiff",
+        "calculus1:diff",
+        "arith1:plus",
+        "alg1:one"
+      ]
+    },
     "combinat1:Bell/1": {
       "law": "bell-stirling-sum",
       "properties": [
@@ -136,6 +201,68 @@
       "sha256": "be15944ad6f6dbfef08bbbf62caae6362013faacf9a585f375de1ac5c9e5ed6b",
       "state": "rejected"
     },
+    "complex1:argument/1": {
+      "rationale": "A principal argument requires an angular range and a nonzero complex number. The assertion omits both conditions.",
+      "sha256": "eb53f6dd9364d00b5cce46ae49ef6712057155ca1b0d29eb46f95d0a3251d427",
+      "state": "rejected"
+    },
+    "complex1:complex_cartesian/1": {
+      "law": "complex-rectangular-construction",
+      "properties": [
+        "complex1:complex_cartesian"
+      ],
+      "rationale": "For real x and y, constructing the complex number with coordinates x and y gives x+iy.",
+      "sha256": "e98d7c527febeeac7c5463a875659a3b6c8f966f3842bbc8d4a8a47a20b00367",
+      "state": "approved",
+      "uses": [
+        "complex1:complex_cartesian",
+        "nums1:i",
+        "arith1:plus",
+        "arith1:times"
+      ]
+    },
+    "complex1:complex_polar/2": {
+      "law": "complex-polar-rectangular-agreement",
+      "properties": [
+        "complex1:complex_polar"
+      ],
+      "rationale": "For a nonnegative real radius r and real angle θ, the complex number in polar form has rectangular coordinates r cos θ and r sin θ.",
+      "sha256": "82187efcb2023ef5e36668f258a55d2fa7c0c0a988e23a85e3a827e392703d0e",
+      "state": "approved",
+      "uses": [
+        "complex1:complex_polar",
+        "complex1:complex_cartesian",
+        "transc1:sin",
+        "transc1:cos",
+        "arith1:times"
+      ]
+    },
+    "complex1:imaginary/1": {
+      "law": "complex-imaginary-coordinate-projection",
+      "properties": [
+        "complex1:imaginary"
+      ],
+      "rationale": "For real x and y, the imaginary part of x+iy is y.",
+      "sha256": "ad0598d81cc72de9e82845118a0a2de7e86791b7f3293023c89da3e0ec8a3abd",
+      "state": "approved",
+      "uses": [
+        "complex1:imaginary",
+        "complex1:complex_cartesian"
+      ]
+    },
+    "complex1:real/1": {
+      "law": "complex-real-coordinate-projection",
+      "properties": [
+        "complex1:real"
+      ],
+      "rationale": "For real x and y, the real part of x+iy is x.",
+      "sha256": "0432a2083010108d85eec97f62313a57598c47eb5637e76e74d04896f521e233",
+      "state": "approved",
+      "uses": [
+        "complex1:real",
+        "complex1:complex_cartesian"
+      ]
+    },
     "fns1:identity/1": {
       "law": "identity-function-evaluation",
       "properties": [
@@ -164,6 +291,82 @@
       "rationale": "The prose defines range as a containing codomain. The formula places it inside the image, which reverses the documented inclusion.",
       "sha256": "ed113ae6e2241288f8c0e730161fe90f44a99f3dc3da3602c2366ebb1a4cda13",
       "state": "rejected"
+    },
+    "fns2:right_compose/1": {
+      "law": "composition-evaluation-law",
+      "properties": [
+        "fns2:right_compose"
+      ],
+      "rationale": "For composable f and g in diagrammatic order, the expression applies f before g. The same canonical law also has a witness for conventional composition order.",
+      "sha256": "df9b83cecd6c5d3d0cabcee5682c4276426e79cda3d074aaff72d45febb8d347",
+      "state": "approved",
+      "uses": [
+        "fns2:right_compose"
+      ]
+    },
+    "interval1:integer_interval/1": {
+      "rationale": "The expression references relation1:le, which is absent from relation1. Its published non-strict comparison symbol is leq.",
+      "sha256": "c1ad757209e61f72c06e0e990f2a4b05fd299540d921dda30b14e8d126009041",
+      "state": "rejected"
+    },
+    "interval1:interval/1": {
+      "law": "interval-contained-in-closed-hull",
+      "properties": [
+        "interval1:interval"
+      ],
+      "rationale": "Every interval with finite ordered bounds and unspecified endpoint inclusion is contained in the closed interval with those bounds.",
+      "sha256": "43ce5fc0603fa404f21a7aef829e11b54e59fa7e525e52b7c4952353a1261eae",
+      "state": "approved",
+      "uses": [
+        "interval1:interval",
+        "interval1:interval_cc",
+        "set1:subset"
+      ]
+    },
+    "interval1:interval/2": {
+      "law": "interval-contains-open-interior",
+      "properties": [
+        "interval1:interval"
+      ],
+      "rationale": "The open interval with fixed real bounds is contained in the interval with those bounds and unspecified endpoint inclusion.",
+      "sha256": "cf9102439fd092c454e70d4cf347782eb1daa2fccfd48eb162a097f1c2b16593",
+      "state": "approved",
+      "uses": [
+        "interval1:interval",
+        "interval1:interval_oo",
+        "set1:subset"
+      ]
+    },
+    "interval1:interval_cc/1": {
+      "rationale": "The expression references undeclared relation1:le. Closed bounds need a valid non-strict comparison.",
+      "sha256": "d702cfd2becbfba1378d91722fc97798c2cb1550b7f4e5d5ecc990fa4c5764d4",
+      "state": "rejected"
+    },
+    "interval1:interval_co/1": {
+      "rationale": "The closed lower endpoint is encoded with undeclared relation1:le.",
+      "sha256": "4cf49a4ae85e4a2ecc63d556cbf5f4c8e5113c636e05c998c487306922c550ff",
+      "state": "rejected"
+    },
+    "interval1:interval_oc/1": {
+      "rationale": "The closed upper endpoint is encoded with undeclared relation1:le.",
+      "sha256": "9b5ab35ac1e0a3ba7a774812112e2fb8a4992fc30568e79e5b12c95b18587857",
+      "state": "rejected"
+    },
+    "interval1:interval_oo/1": {
+      "law": "open-interval-membership",
+      "properties": [
+        "interval1:interval_oo"
+      ],
+      "rationale": "A point belongs to the open interval with bounds a and b exactly when it is real and satisfies a<x<b.",
+      "sha256": "bbc4a668211051ef24acdfafb0c6c2920bb0644e3869ebd82cec09ea19956743",
+      "state": "approved",
+      "uses": [
+        "set1:in",
+        "logic1:equivalent",
+        "interval1:interval_oo",
+        "relation1:lt",
+        "setname1:R"
+      ]
     },
     "linalg1:vectorproduct/1": {
       "rationale": "The formula uses Boolean conjunction in the position of the numeric vector constructor.",
@@ -303,6 +506,125 @@
         "logic1:not"
       ]
     },
+    "multiset1:emptyset/1": {
+      "law": "multiset-intersection-empty",
+      "properties": [
+        "multiset1:intersect"
+      ],
+      "rationale": "Intersection with the empty multiset is empty, because minimum with zero has zero multiplicity at each element.",
+      "sha256": "fbcc68132347c315b7de2be256617df373511990587945a604a1912e851d5710",
+      "state": "approved",
+      "uses": [
+        "multiset1:intersect",
+        "multiset1:emptyset"
+      ]
+    },
+    "multiset1:emptyset/2": {
+      "law": "additive-multiset-union-empty",
+      "properties": [
+        "multiset1:union"
+      ],
+      "rationale": "Additive union with the empty multiset preserves all multiplicities.",
+      "sha256": "9993a3045f1adec2081a060612e6950b2e21bebe9685188179bd0777e508b807",
+      "state": "approved",
+      "uses": [
+        "multiset1:union",
+        "multiset1:emptyset"
+      ]
+    },
+    "multiset1:in/1": {
+      "law": "multiset-intersection-membership",
+      "properties": [
+        "multiset1:intersect"
+      ],
+      "rationale": "If x occurs in each of two finite multisets, it occurs in their intersection with positive multiplicity.",
+      "sha256": "55e8e0b784d5cc562178dd7ee6763b6640648ce0a66625506fd620dbd4c144a6",
+      "state": "approved",
+      "uses": [
+        "multiset1:in",
+        "multiset1:intersect"
+      ]
+    },
+    "multiset1:intersect/1": {
+      "law": "multiset-intersection-lower-bound",
+      "properties": [
+        "multiset1:intersect"
+      ],
+      "rationale": "The intersection of two multisets is a submultiset of both, since each resulting multiplicity is their minimum.",
+      "sha256": "7e02906f91911010f6f472ae21008eb8d05f6fbbb53e830961d8913ff07357fa",
+      "state": "approved",
+      "uses": [
+        "multiset1:intersect",
+        "multiset1:subset"
+      ]
+    },
+    "multiset1:setdiff/1": {
+      "law": "multiset-difference-submultiset",
+      "properties": [
+        "multiset1:setdiff"
+      ],
+      "rationale": "Truncated subtraction of nonnegative multiplicities leaves a submultiset of the first operand.",
+      "sha256": "807d5f698137cf5ebe9e6aa8f2243f8b0c3905fdfc57d99bf6474e29fcf7df71",
+      "state": "approved",
+      "uses": [
+        "multiset1:setdiff",
+        "multiset1:subset"
+      ]
+    },
+    "multiset1:subset/1": {
+      "law": "submultiset-transitivity",
+      "properties": [
+        "multiset1:subset"
+      ],
+      "rationale": "If A is a submultiset of B and B is a submultiset of C, A is a submultiset of C.",
+      "sha256": "df9e50266a7fb2844d81da0f92e467743eadf3fe7c8e8c57b964243096659594",
+      "state": "approved",
+      "uses": [
+        "multiset1:subset",
+        "logic1:and"
+      ]
+    },
+    "multiset1:union/1": {
+      "law": "additive-multiset-union-upper-bound",
+      "properties": [
+        "multiset1:union"
+      ],
+      "rationale": "Each operand is a submultiset of the additive union of two finite multisets.",
+      "sha256": "d4b270d7aa43895a1cf0d6c370d57a49c35b4cc3d6b3628a9e934493feb8a842",
+      "state": "approved",
+      "uses": [
+        "multiset1:union",
+        "multiset1:subset"
+      ]
+    },
+    "multiset1:union/2": {
+      "law": "additive-multiset-union-distributivity",
+      "properties": [
+        "multiset1:union"
+      ],
+      "rationale": "For finite multisets, adding A to the intersection of B and C equals the intersection of A+B and A+C, by pointwise translation of the minimum.",
+      "sha256": "e4f90daa47fc61d006e8ed6d418c720faa457369c760e90c72d6e235db005076",
+      "state": "approved",
+      "uses": [
+        "multiset1:union",
+        "multiset1:intersect"
+      ]
+    },
+    "nums1:i/1": {
+      "law": "imaginary-unit-square",
+      "properties": [
+        "nums1:i"
+      ],
+      "rationale": "The square of i equals the additive inverse of one.",
+      "sha256": "9511f8ad465077a8df41ebb58241c82203b724dfd849a4de8554087fb73e6f35",
+      "state": "approved",
+      "uses": [
+        "nums1:i",
+        "arith1:power",
+        "arith1:unary_minus",
+        "alg1:one"
+      ]
+    },
     "relation1:eq/1": {
       "law": "relation-transitivity",
       "properties": [
@@ -318,6 +640,148 @@
     "relation1:neq/1": {
       "rationale": "The open expression is not a universally valid negation of the displayed implication for arbitrary values.",
       "sha256": "cc7a60bed82cbaf08eb342814e080ee18c642d69bc52e6bd59347e2f3945d879",
+      "state": "rejected"
+    },
+    "rounding1:ceiling/1": {
+      "law": "ceiling-unit-interval",
+      "properties": [
+        "rounding1:ceiling"
+      ],
+      "rationale": "For real x, ceiling(x)−1 is strictly below x and x is at most ceiling(x).",
+      "sha256": "9e84a5c587c0676cd1f6a24c1a3c88a254d832a0aaa9f71acf86dd3e2a940fa8",
+      "state": "approved",
+      "uses": [
+        "rounding1:ceiling",
+        "arith1:minus",
+        "relation1:lt",
+        "relation1:leq"
+      ]
+    },
+    "rounding1:floor/1": {
+      "law": "floor-unit-interval",
+      "properties": [
+        "rounding1:floor"
+      ],
+      "rationale": "For real x, the floor of x is at most x and x is strictly below floor(x)+1.",
+      "sha256": "b0ccd3237f25a646a5c2c359b9328fa45dc1a98149c48b1e78e459bf5536f247",
+      "state": "approved",
+      "uses": [
+        "rounding1:floor",
+        "arith1:plus",
+        "relation1:lt",
+        "relation1:leq"
+      ]
+    },
+    "rounding1:round/1": {
+      "law": "nearest-integer-error-bound",
+      "properties": [
+        "rounding1:round"
+      ],
+      "rationale": "The nearest-integer rounding of any real input differs from it by at most one half.",
+      "sha256": "eea9a24b96f459726c32979c056cb6aefd8489301af91e9acaac906a6ef66474",
+      "state": "approved",
+      "uses": [
+        "rounding1:round",
+        "arith1:plus",
+        "arith1:minus",
+        "arith1:divide",
+        "relation1:leq"
+      ]
+    },
+    "rounding1:round/2": {
+      "law": "nearest-integer-even-tie",
+      "properties": [
+        "rounding1:round"
+      ],
+      "rationale": "If x is a nonintegral half-integer, ties-to-even rounding gives an integer divisible by two.",
+      "sha256": "3807d2cd75a43653d1ac7443e5324cd520885e3a56476ca6d581345ac51c4261",
+      "state": "approved",
+      "uses": [
+        "rounding1:round",
+        "arith1:times",
+        "arith1:divide",
+        "set1:in"
+      ]
+    },
+    "rounding1:trunc/1": {
+      "law": "nonnegative-truncation-bounds",
+      "properties": [
+        "rounding1:trunc"
+      ],
+      "rationale": "If x is nonnegative, trunc(x) is at most x and x is strictly below trunc(x)+1.",
+      "sha256": "2963078bc2ff2e6eae68dd8374989029fafbb528b595803bc0229bc100492718",
+      "state": "approved",
+      "uses": [
+        "rounding1:trunc",
+        "arith1:plus",
+        "alg1:zero",
+        "relation1:lt",
+        "relation1:leq"
+      ]
+    },
+    "rounding1:trunc/2": {
+      "law": "nonpositive-truncation-bounds",
+      "properties": [
+        "rounding1:trunc"
+      ],
+      "rationale": "If x is nonpositive, trunc(x) is at least x and x is strictly above trunc(x)−1.",
+      "sha256": "1b4fe267818f2abcf78d586d8b9e58f1c0a2cd89e018b514cdcedad23bc506e9",
+      "state": "approved",
+      "uses": [
+        "rounding1:trunc",
+        "arith1:minus",
+        "alg1:zero",
+        "relation1:leq"
+      ]
+    },
+    "s_data1:mean/1": {
+      "rationale": "The formula feeds a list to set cardinality. Mean denominators must count observations with repetitions.",
+      "sha256": "faded46540e586b23bca36972a4a3b2ec61b581160763902fe7587749d3c1729",
+      "state": "rejected"
+    },
+    "s_data1:sdev/1": {
+      "rationale": "The formula uses set cardinality after converting repeated observations to a set. Its n divisor also differs from the n−1 convention for an unbiased sample-variance estimate.",
+      "sha256": "aea5bec0bcce8c142d6cbb61d6fcb41d2248ba4279bdd94d3d08ba645fa98e34",
+      "state": "rejected"
+    },
+    "s_dist1:mean/1": {
+      "law": "density-expectation-integral",
+      "properties": [
+        "s_dist1:mean"
+      ],
+      "rationale": "For a real random variable with density f and finite absolute first moment, expected value is the integral of x f(x) over the real line.",
+      "sha256": "10d6907428f55d1e5ddeec2c24ae7f2bcf5768dc9d0b85cb0738f49344ff404c",
+      "state": "approved",
+      "uses": [
+        "s_dist1:mean",
+        "calculus1:defint",
+        "arith1:times"
+      ]
+    },
+    "s_dist1:moment/1": {
+      "law": "density-moment-integral",
+      "properties": [
+        "s_dist1:moment"
+      ],
+      "rationale": "For a real random variable with density f, real center a, nonnegative integer order n and finite absolute moment about a, the moment is the real-line integral of (x−a)^n f(x).",
+      "sha256": "e1ce2de7dd8beced39eab98893a278fff88c066d6f810134f5f7337465602b87",
+      "state": "approved",
+      "uses": [
+        "s_dist1:moment",
+        "calculus1:defint",
+        "arith1:power",
+        "arith1:minus",
+        "arith1:times"
+      ]
+    },
+    "s_dist1:sdev/1": {
+      "rationale": "The displayed formula omits a square root and applies subtraction to the density-function argument. A standard deviation takes the square root of the centered second moment.",
+      "sha256": "83c8cb118d3562707324989c1e6c115a60a2765adcdef9c495998eabea97835c",
+      "state": "rejected"
+    },
+    "s_dist1:variance/1": {
+      "rationale": "The companion standard-deviation expression lacks the square root and uses the wrong argument role. Squaring that expression cannot validate a variance projection.",
+      "sha256": "c80838588feaf275c28dcfd7caeee170a45ca6e7410086c640ed3f5b3303d7d0",
       "state": "rejected"
     },
     "set1:emptyset/1": {
@@ -378,6 +842,9 @@
       "state": "rejected"
     },
     "set1:prsubset/1": {
+      "guard_properties": [
+        "set1:prsubset"
+      ],
       "law": "proper-subset-characterization",
       "properties": [
         "set1:prsubset"
@@ -440,10 +907,80 @@
         "set1:union",
         "set1:intersect"
       ]
+    },
+    "transc1:cos/2": {
+      "law": "real-cosine-double-angle",
+      "properties": [
+        "transc1:cos"
+      ],
+      "rationale": "For real x, cos(2x) equals cos²(x)−sin²(x).",
+      "sha256": "e5a6cf8ae6e8a4f8fedcde0b1644a688eab40dff8c9bf6f9b78932e9cd17e300",
+      "state": "approved",
+      "uses": [
+        "transc1:cos",
+        "transc1:sin",
+        "arith1:times",
+        "arith1:power",
+        "arith1:minus"
+      ]
+    },
+    "transc1:cos/3": {
+      "law": "real-cosine-evenness",
+      "properties": [
+        "transc1:cos"
+      ],
+      "rationale": "For real x, cos(−x) equals cos(x).",
+      "sha256": "12a2962ceabf7f8d3ea51d36700e5f9c7b27e7589d40be1c3cf0a3ced05685cd",
+      "state": "approved",
+      "uses": [
+        "transc1:cos",
+        "arith1:unary_minus"
+      ]
+    },
+    "transc1:sin/1": {
+      "rationale": "The expression negates the exponential value rather than using the negative imaginary exponent.",
+      "sha256": "026396e17b1c40c59adc0ce9bbb08fb4df09abe95cdcc172b34264f6a0c3bfca",
+      "state": "rejected"
+    },
+    "transc1:sin/2": {
+      "law": "real-sine-addition",
+      "properties": [
+        "transc1:sin"
+      ],
+      "rationale": "For real a and b, sin(a+b) equals sin(a) cos(b) plus cos(a) sin(b).",
+      "sha256": "00a45778ebd5eece113a0b332d51b16a445a839f58118e60211f8b176e86a9f1",
+      "state": "approved",
+      "uses": [
+        "transc1:sin",
+        "transc1:cos",
+        "arith1:plus",
+        "arith1:times"
+      ]
+    },
+    "transc1:sin/3": {
+      "law": "real-sine-oddness",
+      "properties": [
+        "transc1:sin"
+      ],
+      "rationale": "For real x, sin(−x) equals −sin(x).",
+      "sha256": "13d3a48b86f5c17e70db01cbadedd44bc75065b9b2db7dbc4133643c611ca925",
+      "state": "approved",
+      "uses": [
+        "transc1:sin",
+        "arith1:unary_minus"
+      ]
     }
   },
   "sha256": "4bcd5e40a5985f1bd29b0aea8f3bf172ecaf2392be44edf4b7b4eb4756340ac2",
   "symbols": {
+    "alg1:one": {
+      "canonical": "multiplicative-identity",
+      "scope": "The element one satisfying a·1=1·a=a in a unital multiplicative structure."
+    },
+    "alg1:zero": {
+      "canonical": "additive-identity",
+      "scope": "The element zero satisfying a+0=0+a=a in an additive structure."
+    },
     "arith1:divide": {
       "canonical": "scalar-division",
       "scope": "Field division in the nonzero and finite combinatorial scopes."
@@ -456,6 +993,10 @@
       "canonical": "scalar-addition",
       "scope": "Ordinary addition of numeric scalars in the reviewed property."
     },
+    "arith1:power": {
+      "canonical": "integer-power-operation",
+      "scope": "Exponentiation with an integer exponent wherever the resulting expression is defined."
+    },
     "arith1:times": {
       "canonical": "scalar-multiplication",
       "scope": "Ordinary multiplication of numeric scalars in the reviewed property."
@@ -463,6 +1004,18 @@
     "arith1:unary_minus": {
       "canonical": "additive-inverse",
       "scope": "Additive inverse of a scalar under the arithmetic interpretation."
+    },
+    "calculus1:defint": {
+      "canonical": "definite-integral",
+      "scope": "Definite integration over the specified interval."
+    },
+    "calculus1:diff": {
+      "canonical": "derivative",
+      "scope": "Ordinary derivative of a one-variable function."
+    },
+    "calculus1:nthdiff": {
+      "canonical": "iterated-ordinary-derivative",
+      "scope": "Repeated differentiation with respect to the same variable, with order zero equal to the original function."
     },
     "combinat1:Bell": {
       "canonical": "bell-number",
@@ -480,6 +1033,22 @@
       "canonical": "binomial-coefficient",
       "scope": "Counting k-element subsets of an n-element set for integer parameters."
     },
+    "complex1:complex_cartesian": {
+      "canonical": "ontomath-pro-e2127",
+      "scope": "Rectangular construction of complex numbers, scoped to the real and imaginary components of the canonical complex-number topic."
+    },
+    "complex1:complex_polar": {
+      "canonical": "complex-polar-form",
+      "scope": "The representation of a complex number as r exp(iθ) for real θ and nonnegative real r."
+    },
+    "complex1:imaginary": {
+      "canonical": "imaginary-part-of-complex-number",
+      "scope": "The real coefficient y of the imaginary unit in x+iy."
+    },
+    "complex1:real": {
+      "canonical": "real-part-of-complex-number",
+      "scope": "The real coordinate x of a complex number x+iy."
+    },
     "fns1:identity": {
       "canonical": "identity-function",
       "scope": "Identity function on the domain of evaluation."
@@ -488,9 +1057,25 @@
       "canonical": "function-composition",
       "scope": "Left composition for composable functions in the specified order."
     },
+    "fns2:right_compose": {
+      "canonical": "function-composition",
+      "scope": "Diagrammatic notation applying the first argument before the second; the canonical topic covers the mathematical operation."
+    },
     "integer1:factorial": {
       "canonical": "factorial",
       "scope": "Factorial on nonnegative integer arguments."
+    },
+    "interval1:interval": {
+      "canonical": "real-interval-with-unspecified-endpoints",
+      "scope": "An interval between ordered real bounds whose endpoint inclusion is left unspecified."
+    },
+    "interval1:interval_cc": {
+      "canonical": "closed-real-interval",
+      "scope": "The set of real numbers between the stated bounds inclusive."
+    },
+    "interval1:interval_oo": {
+      "canonical": "open-real-interval",
+      "scope": "The set of real numbers strictly between the stated bounds."
     },
     "logic1:and": {
       "canonical": "logical-conjunction",
@@ -528,9 +1113,77 @@
       "canonical": "boolean-exclusive-or",
       "scope": "Boolean parity in the cited binary identities."
     },
+    "multiset1:emptyset": {
+      "canonical": "empty-multiset",
+      "scope": "The multiset in which every element has multiplicity zero."
+    },
+    "multiset1:in": {
+      "canonical": "multiset-membership",
+      "scope": "An element belongs to a multiset when its multiplicity is positive."
+    },
+    "multiset1:intersect": {
+      "canonical": "multiset-intersection",
+      "scope": "The operation taking pointwise minima of multiplicities."
+    },
+    "multiset1:multiset": {
+      "canonical": "multiset",
+      "scope": "A collection assigning a multiplicity to each element. A finite multiset has finite support and nonnegative integer multiplicities."
+    },
+    "multiset1:setdiff": {
+      "canonical": "multiset-difference",
+      "scope": "The operation subtracting the second multiplicity from the first at each element, with the result truncated below at zero."
+    },
+    "multiset1:size": {
+      "canonical": "multiset-cardinality",
+      "scope": "The total count of occurrences in a finite multiset, including repetitions."
+    },
+    "multiset1:subset": {
+      "canonical": "submultiset-relation",
+      "scope": "A is a submultiset of B when every multiplicity in A is at most the corresponding multiplicity in B."
+    },
+    "multiset1:union": {
+      "canonical": "additive-multiset-union",
+      "scope": "The operation taking pointwise sums of multiplicities, also called multiset sum."
+    },
+    "nums1:i": {
+      "canonical": "imaginary-unit",
+      "scope": "The designated complex number i satisfying i squared equals minus one."
+    },
     "relation1:eq": {
       "canonical": "equality-relation",
       "scope": "Mathematical equality of values in the stated expression."
+    },
+    "relation1:leq": {
+      "canonical": "nonstrict-real-order",
+      "scope": "For real arguments a and b, a is less than or equal to b in the usual order."
+    },
+    "relation1:lt": {
+      "canonical": "strict-real-order",
+      "scope": "For real arguments a and b, a is strictly less than b in the usual order."
+    },
+    "rounding1:ceiling": {
+      "canonical": "real-ceiling",
+      "scope": "The least integer greater than or equal to a real input."
+    },
+    "rounding1:floor": {
+      "canonical": "real-floor",
+      "scope": "The greatest integer less than or equal to a real input."
+    },
+    "rounding1:round": {
+      "canonical": "nearest-integer-ties-to-even",
+      "scope": "Choosing an integer closest to a real input and choosing the even integer in a half-integer tie."
+    },
+    "rounding1:trunc": {
+      "canonical": "truncate-toward-zero",
+      "scope": "Rounding a real number toward zero to an integer."
+    },
+    "s_dist1:mean": {
+      "canonical": "expectation-by-density",
+      "scope": "The expected value of a real random variable with a probability density and finite absolute first moment."
+    },
+    "s_dist1:moment": {
+      "canonical": "moment-by-density",
+      "scope": "A finite integer-order moment about a real center of a real random variable that has a probability density."
     },
     "set1:emptyset": {
       "canonical": "empty-set",
@@ -559,6 +1212,22 @@
     "set1:union": {
       "canonical": "set-union",
       "scope": "Union of sets."
+    },
+    "setname1:N": {
+      "canonical": "ontomath-pro-e2119",
+      "scope": "Natural numbers in the OpenMath convention that includes zero."
+    },
+    "setname1:R": {
+      "canonical": "ontomath-pro-e2116",
+      "scope": "Real numbers as elements of the set of reals. This binding preserves the OpenMath set symbol and the OntoMathPro-derived topic."
+    },
+    "transc1:cos": {
+      "canonical": "real-cosine",
+      "scope": "The trigonometric cosine of a real angle in radians."
+    },
+    "transc1:sin": {
+      "canonical": "real-sine",
+      "scope": "The trigonometric sine of a real angle in radians."
     }
   }
 }

@@ -18,8 +18,12 @@ CD = "{http://www.openmath.org/OpenMathCD}"
 OM = "{http://www.openmath.org/OpenMath}"
 SYMBOL_BASE = "http://www.openmath.org/cd/"
 NOTICE = "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d"
-OFFICIAL = {"alg1", "arith1", "fns1", "integer1", "linalg1", "logic1",
-            "quant1", "relation1", "set1", "setname1"}
+OFFICIAL = {
+    "alg1", "arith1", "bigfloat1", "calculus1", "complex1", "fns1", "fns2",
+    "integer1", "interval1", "linalg1", "logic1", "multiset1", "nums1", "quant1",
+    "relation1", "rounding1", "s_data1", "s_dist1", "set1", "setname1", "transc1",
+    "veccalc1",
+}
 DICTIONARIES = {f"cd/Official/{name}.ocd": "official" for name in OFFICIAL} | {
     "cd/experimental/combinat1.ocd": "experimental"
 }
@@ -50,6 +54,29 @@ def shape(fmp):
         return "unsupported"
     operator = expression[0]
     return "/".join([*steps, f"{operator.get('cd')}:{operator.get('name')}"])
+
+
+def symbol_keys(expression):
+    return {f"{ref.get('cd')}:{ref.get('name')}" for ref in expression.iter(OM + "OMS")}
+
+
+def expression_regions(fmp):
+    """Describe top-level implication premises separately from its consequence."""
+    if len(fmp) != 1:
+        return {}
+    expression = fmp[0]
+    if expression.tag == OM + "OMOBJ":
+        if len(expression) != 1:
+            return {}
+        expression = expression[0]
+    while expression.tag == OM + "OMBIND" and len(expression) == 3:
+        expression = expression[2]
+    if (expression.tag == OM + "OMA" and len(expression) == 3 and
+            expression[0].tag == OM + "OMS" and
+            expression[0].get("cd") == "logic1" and expression[0].get("name") == "implies"):
+        return {"guard": sorted(symbol_keys(expression[1])),
+                "body": sorted(symbol_keys(expression[2]))}
+    return {"guard": [], "body": sorted(symbol_keys(expression))}
 
 
 def extract(snapshot, source):
@@ -86,11 +113,12 @@ def extract(snapshot, source):
                 for ordinal, fmp in enumerate(definition.findall(CD + "FMP"), 1):
                     recognized_base = all(element.get("cdbase", SYMBOL_BASE).rstrip("/") + "/" == SYMBOL_BASE
                                           for element in fmp.iter())
-                    symbols = {f"{ref.get('cd')}:{ref.get('name')}" for ref in fmp.iter(OM + "OMS")}
+                    symbols = symbol_keys(fmp)
                     properties[f"{original}/{ordinal}"] = {
                         "sha256": sha256(ET.canonicalize(ET.tostring(fmp, encoding="unicode")).encode()).hexdigest(),
                         "shape": shape(fmp) if recognized_base else "unsupported",
                         "symbols": sorted(symbols) if recognized_base else [],
+                        "regions": expression_regions(fmp) if recognized_base else {},
                     }
     if set(dictionaries) != {PurePosixPath(path).stem for path in DICTIONARIES}:
         raise ValueError("Incomplete reviewed OpenMath dictionary slice")
@@ -138,9 +166,12 @@ def apply_formal_properties(source, graph, provenance):
     counts, edges, laws = Counter(), set(), set()
     for key, entry in evidence["properties"].items():
         review = reviews["decisions"].get(key)
+        unrecognized = set(entry["symbols"]) - evidence["declarations"].keys()
         if review is None:
             if entry["shape"] == "unsupported":
                 counts["unsupported_form"] += 1
+            elif unrecognized:
+                counts["unresolved_native_symbol"] += 1
             elif key.rsplit("/", 1)[0] not in bindings:
                 counts["missing_symbol_binding"] += 1
             else:
@@ -151,7 +182,7 @@ def apply_formal_properties(source, graph, provenance):
         if review["state"] == "rejected":
             counts["rejected"] += 1
             continue
-        if (review["state"] != "approved" or entry["shape"] == "unsupported"
+        if (review["state"] != "approved" or entry["shape"] == "unsupported" or unrecognized
                 or not review["rationale"].strip()):
             raise ValueError(f"Invalid OpenMath statement decision: {key}")
         law = C[review["law"]]
@@ -162,6 +193,10 @@ def apply_formal_properties(source, graph, provenance):
             raise ValueError(f"OpenMath approval has no projected edge: {key}")
         if not (set(uses) | set(properties)) <= (bindings.keys() & set(entry["symbols"])):
             raise ValueError(f"OpenMath projection lacks bound source occurrences: {key}")
+        regions = entry["regions"]
+        guard_only = set(regions.get("guard", ())) - set(regions.get("body", ()))
+        if guard_only.intersection(properties) != set(review.get("guard_properties", ())):
+            raise ValueError(f"OpenMath property target needs explicit guard scope: {key}")
 
         native, _ = key.rsplit("/", 1)
         cd_name = native.split(":")[0]
@@ -177,6 +212,8 @@ def apply_formal_properties(source, graph, provenance):
         provenance.add((evidence_id, DCTERMS.title, Literal(f"{key} ({cd_info['status']})")))
         provenance.add((evidence_id, V.sourceExpressionDigest, Literal(entry["sha256"])))
         provenance.add((evidence_id, V.sourceExpressionShape, Literal(entry["shape"])))
+        for symbol in regions.get("guard", []):
+            provenance.add((evidence_id, V.sourceGuardSymbol, symbol_iri(symbol)))
         provenance.add((evidence_id, DCTERMS.description, Literal(review["rationale"], lang="en")))
         provenance.add((evidence_id, DCTERMS.references, symbol_iri(native)))
         facts = [(law, V.uses, bindings[symbol], symbol) for symbol in uses]

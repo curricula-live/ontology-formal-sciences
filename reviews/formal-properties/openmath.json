@@ -14,12 +14,26 @@
     "arith1:sum": "application",
     "arith1:times": "application",
     "arith1:unary_minus": "application",
+    "bigfloat1:bigfloat": "application",
+    "bigfloat1:bigfloatprec": "application",
+    "calculus1:defint": "application",
+    "calculus1:diff": "application",
+    "calculus1:int": "application",
+    "calculus1:nthdiff": "application",
+    "calculus1:partialdiff": "application",
+    "calculus1:partialdiffdegree": "application",
     "combinat1:Bell": "application",
     "combinat1:Fibonacci": "application",
     "combinat1:Stirling1": "application",
     "combinat1:Stirling2": "application",
     "combinat1:binomial": "application",
     "combinat1:multinomial": "application",
+    "complex1:argument": "application",
+    "complex1:complex_cartesian": "application",
+    "complex1:complex_polar": "application",
+    "complex1:conjugate": "application",
+    "complex1:imaginary": "application",
+    "complex1:real": "application",
     "fns1:domain": "application",
     "fns1:domainofapplication": "application",
     "fns1:identity": "application",
@@ -31,10 +45,21 @@
     "fns1:range": "application",
     "fns1:restriction": "application",
     "fns1:right_inverse": "application",
+    "fns2:apply_to_list": "application",
+    "fns2:kernel": "application",
+    "fns2:predicate_on_list": "application",
+    "fns2:right_compose": "application",
     "integer1:factorial": "application",
     "integer1:factorof": "application",
     "integer1:quotient": "application",
     "integer1:remainder": "application",
+    "interval1:integer_interval": "application",
+    "interval1:interval": "application",
+    "interval1:interval_cc": "application",
+    "interval1:interval_co": "application",
+    "interval1:interval_oc": "application",
+    "interval1:interval_oo": "application",
+    "interval1:oriented_interval": "application",
     "linalg1:determinant": "application",
     "linalg1:matrix_selector": "application",
     "linalg1:outerproduct": "application",
@@ -53,6 +78,28 @@
     "logic1:true": "constant",
     "logic1:xnor": "application",
     "logic1:xor": "application",
+    "multiset1:cartesian_product": "application",
+    "multiset1:emptyset": "constant",
+    "multiset1:in": "application",
+    "multiset1:intersect": "application",
+    "multiset1:multiset": "application",
+    "multiset1:notin": "application",
+    "multiset1:notprsubset": "application",
+    "multiset1:notsubset": "application",
+    "multiset1:prsubset": "application",
+    "multiset1:setdiff": "application",
+    "multiset1:size": "application",
+    "multiset1:subset": "application",
+    "multiset1:union": "application",
+    "nums1:NaN": "constant",
+    "nums1:based_float": "application",
+    "nums1:based_integer": "application",
+    "nums1:e": "constant",
+    "nums1:gamma": "constant",
+    "nums1:i": "constant",
+    "nums1:infinity": "constant",
+    "nums1:pi": "constant",
+    "nums1:rational": "application",
     "quant1:exists": "binder",
     "quant1:forall": "binder",
     "relation1:approx": "application",
@@ -62,6 +109,20 @@
     "relation1:leq": "application",
     "relation1:lt": "application",
     "relation1:neq": "application",
+    "rounding1:ceiling": "application",
+    "rounding1:floor": "application",
+    "rounding1:round": "application",
+    "rounding1:trunc": "application",
+    "s_data1:mean": "application",
+    "s_data1:median": "application",
+    "s_data1:mode": "application",
+    "s_data1:moment": "application",
+    "s_data1:sdev": "application",
+    "s_data1:variance": "application",
+    "s_dist1:mean": "application",
+    "s_dist1:moment": "application",
+    "s_dist1:sdev": "application",
+    "s_dist1:variance": "application",
     "set1:cartesian_product": "application",
     "set1:emptyset": "constant",
     "set1:in": "application",
@@ -82,7 +143,38 @@
     "setname1:P": "constant",
     "setname1:Q": "constant",
     "setname1:R": "constant",
-    "setname1:Z": "constant"
+    "setname1:Z": "constant",
+    "transc1:arccos": "application",
+    "transc1:arccosh": "application",
+    "transc1:arccot": "application",
+    "transc1:arccoth": "application",
+    "transc1:arccsc": "application",
+    "transc1:arccsch": "application",
+    "transc1:arcsec": "application",
+    "transc1:arcsech": "application",
+    "transc1:arcsin": "application",
+    "transc1:arcsinh": "application",
+    "transc1:arctan": "application",
+    "transc1:arctanh": "application",
+    "transc1:cos": "application",
+    "transc1:cosh": "application",
+    "transc1:cot": "application",
+    "transc1:coth": "application",
+    "transc1:csc": "application",
+    "transc1:csch": "application",
+    "transc1:exp": "application",
+    "transc1:ln": "application",
+    "transc1:log": "application",
+    "transc1:sec": "application",
+    "transc1:sech": "application",
+    "transc1:sin": "application",
+    "transc1:sinh": "application",
+    "transc1:tan": "application",
+    "transc1:tanh": "application",
+    "veccalc1:Laplacian": "application",
+    "veccalc1:curl": "application",
+    "veccalc1:divergence": "application",
+    "veccalc1:grad": "application"
   },
   "dictionaries": {
     "alg1": {
@@ -97,11 +189,29 @@
       "sha256": "8dab1c657db03b87da8ed3a139c2490df0e86076ab634c3804b757c5594f6d8a",
       "status": "official"
     },
+    "bigfloat1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/bigfloat1.ocd",
+      "sha256": "064c72c188c0962838ec372bfa2945d955383a07c2ebc53a5433fc0e197f5967",
+      "status": "official"
+    },
+    "calculus1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/calculus1.ocd",
+      "sha256": "bd61e71618800e50935bd4f8503ad3d7bd7f131456854cb5d7cb49fa3df780e7",
+      "status": "official"
+    },
     "combinat1": {
       "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
       "member": "cd/experimental/combinat1.ocd",
       "sha256": "7b985c10e357579e4432cf51da1e838063868d2467fcbd2f9a6d49cb41f896c5",
       "status": "experimental"
+    },
+    "complex1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/complex1.ocd",
+      "sha256": "f3fd7eb99fcea16165a8ef44bf3adf6e14c2e6c462fbfe8cc425291d0ebaba91",
+      "status": "official"
     },
     "fns1": {
       "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
@@ -109,10 +219,22 @@
       "sha256": "9d45eafcb9b527de68dee8f2a129fe8ec71667ef8490fa5e50ddb7eedd3f8c5e",
       "status": "official"
     },
+    "fns2": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/fns2.ocd",
+      "sha256": "c9a64a0848fb8e23f1321b2a9f4fb2a4fb73e3c85a32878267e5cadbaafec286",
+      "status": "official"
+    },
     "integer1": {
       "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
       "member": "cd/Official/integer1.ocd",
       "sha256": "e8844f0415a9078293717f075fa83a06985f0ba7ddca9cd74b1d234ff79d287d",
+      "status": "official"
+    },
+    "interval1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/interval1.ocd",
+      "sha256": "f49fe43b4c1dc79d7972ed6fce79d02437d4920320cbd9faffdf460938717f6a",
       "status": "official"
     },
     "linalg1": {
@@ -127,6 +249,18 @@
       "sha256": "5bd450962d9ee3f867770608ce6f823b0ad705123afb9af5d1950a39a46498cd",
       "status": "official"
     },
+    "multiset1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/multiset1.ocd",
+      "sha256": "b18aadbabc5d83ddb45e948b274b538de2acbcb88c4d9317dacd646c52de3674",
+      "status": "official"
+    },
+    "nums1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/nums1.ocd",
+      "sha256": "691c8ebfaad1375bdd54c6084b223a093782aacc634151bdb49ba70938ddbbe5",
+      "status": "official"
+    },
     "quant1": {
       "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
       "member": "cd/Official/quant1.ocd",
@@ -137,6 +271,24 @@
       "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
       "member": "cd/Official/relation1.ocd",
       "sha256": "1c50e72514373c6d60c3f82c28936670ccb8615e8cf85b40de6ee747487842e6",
+      "status": "official"
+    },
+    "rounding1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/rounding1.ocd",
+      "sha256": "35280066a32b9b527b4940dcf5f726639f197b980a212badce9df4efc237ed6b",
+      "status": "official"
+    },
+    "s_data1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/s_data1.ocd",
+      "sha256": "5992571d7c8942e309a5701aa7ae860c7b13424d51f079867c77adef2aa52cb3",
+      "status": "official"
+    },
+    "s_dist1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/s_dist1.ocd",
+      "sha256": "e44c089199ba5337cda22e933fdf61e3491d5441bcfb09d5e78df0971486b9a6",
       "status": "official"
     },
     "set1": {
@@ -150,10 +302,30 @@
       "member": "cd/Official/setname1.ocd",
       "sha256": "746cc460c6aec8601d72dbfe16b99451dcd24f165b2d9ec4f77b4f391bd54abd",
       "status": "official"
+    },
+    "transc1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/transc1.ocd",
+      "sha256": "75ed9e263f1256e957d56fc30648835d3d0a0c1fc375947b0a2fa1bdf71a177d",
+      "status": "official"
+    },
+    "veccalc1": {
+      "license_notice_sha256": "338d5f720b8b993a44729e4aafb0abc15017dc79488b347e78f3582a2870c98d",
+      "member": "cd/Official/veccalc1.ocd",
+      "sha256": "5a8b5dc4f26b535161cb98a74145f9077a4aaea3abba81643f96c67da187b0c8",
+      "status": "official"
     }
   },
   "properties": {
     "alg1:one/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:times",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "78bdf97805a3a89d2e2745ec95ddcd6a68f16ae2851271d3b2ac66b526d609b8",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -164,6 +336,14 @@
       ]
     },
     "alg1:one/2": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:times",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "be688b036f30bc7771ad6d4bd579aa2db4d1ff8b6924e2a583c10d9abd15c3ee",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -174,6 +354,18 @@
       ]
     },
     "alg1:one/3": {
+      "regions": {
+        "body": [
+          "relation1:eq"
+        ],
+        "guard": [
+          "alg1:one",
+          "logic1:and",
+          "relation1:eq",
+          "set1:in",
+          "setname1:Z"
+        ]
+      },
       "sha256": "e7b7d416ef16ba019e5a358e622ee529ad23f509a6b0ee769f882c292b9cf6d4",
       "shape": "quant1:forall/logic1:implies",
       "symbols": [
@@ -187,6 +379,14 @@
       ]
     },
     "alg1:zero/1": {
+      "regions": {
+        "body": [
+          "alg1:zero",
+          "arith1:plus",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "739aa80134bf091ed673b39a97c1ea719e904ce71a107363a15838a629ff46f0",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -197,6 +397,14 @@
       ]
     },
     "alg1:zero/2": {
+      "regions": {
+        "body": [
+          "alg1:zero",
+          "arith1:times",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "0e94f8761f36ac5b2edbd8d96c0e12cddc65f32483513d87f3e5dddca6d9eb5b",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -207,6 +415,18 @@
       ]
     },
     "alg1:zero/3": {
+      "regions": {
+        "body": [
+          "relation1:eq"
+        ],
+        "guard": [
+          "alg1:zero",
+          "logic1:and",
+          "relation1:eq",
+          "set1:in",
+          "setname1:Z"
+        ]
+      },
       "sha256": "ce3de7a84666c43dc42c8f8914d274d207990d941150356c6b0ccd6f3c56baa5",
       "shape": "quant1:forall/logic1:implies",
       "symbols": [
@@ -220,6 +440,14 @@
       ]
     },
     "arith1:abs/1": {
+      "regions": {
+        "body": [
+          "arith1:abs",
+          "arith1:plus",
+          "relation1:geq"
+        ],
+        "guard": []
+      },
       "sha256": "691b27aa676f2541631b713702adbfbb7ea5117e1b7932f6b91d050a13ca96ca",
       "shape": "quant1:forall/relation1:geq",
       "symbols": [
@@ -230,6 +458,17 @@
       ]
     },
     "arith1:divide/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "relation1:eq"
+        ],
+        "guard": [
+          "alg1:zero",
+          "relation1:neq"
+        ]
+      },
       "sha256": "6011f801486603d647f17794f12c9f4f3db640db9f6993aa2f5d00d69af8fd2f",
       "shape": "quant1:forall/logic1:implies",
       "symbols": [
@@ -243,6 +482,23 @@
       ]
     },
     "arith1:gcd/1": {
+      "regions": {
+        "body": [
+          "arith1:divide",
+          "arith1:gcd",
+          "logic1:and",
+          "logic1:not",
+          "quant1:exists",
+          "relation1:gt",
+          "set1:in",
+          "setname1:Z"
+        ],
+        "guard": [
+          "logic1:and",
+          "set1:in",
+          "setname1:Z"
+        ]
+      },
       "sha256": "919a79d4df3c76567a7e2d53bb3249e10147302b287a1efea2231a822c181848",
       "shape": "quant1:forall/logic1:implies",
       "symbols": [
@@ -259,6 +515,16 @@
       ]
     },
     "arith1:lcm/1": {
+      "regions": {
+        "body": [
+          "arith1:divide",
+          "arith1:gcd",
+          "arith1:lcm",
+          "arith1:times",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "32ed4c11ac57faf4051951d3c685e8ab3090e0ad97cb325001cdaabedd74a722",
       "shape": "relation1:eq",
       "symbols": [
@@ -270,6 +536,22 @@
       ]
     },
     "arith1:lcm/2": {
+      "regions": {
+        "body": [
+          "arith1:lcm",
+          "integer1:factorof",
+          "logic1:and",
+          "logic1:not",
+          "quant1:exists",
+          "relation1:gt",
+          "relation1:lt"
+        ],
+        "guard": [
+          "logic1:and",
+          "set1:in",
+          "setname1:Z"
+        ]
+      },
       "sha256": "51f6308db281b0de7e397bb4604fcf8b2195cc987f0933d070dc71a61a633c72",
       "shape": "quant1:forall/logic1:implies",
       "symbols": [
@@ -287,6 +569,15 @@
       ]
     },
     "arith1:minus/1": {
+      "regions": {
+        "body": [
+          "arith1:minus",
+          "arith1:plus",
+          "arith1:unary_minus",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "de35498a00ab21071f22a21bc40050585f8afa57fe362f1f3d8808d5087a469b",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -298,6 +589,13 @@
       ]
     },
     "arith1:plus/1": {
+      "regions": {
+        "body": [
+          "arith1:plus",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "643a73f20065de03f77597265dbcc2c914bcb821e83eb35ad1d476dda6595e6b",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -307,6 +605,19 @@
       ]
     },
     "arith1:power/1": {
+      "regions": {
+        "body": [
+          "arith1:power",
+          "arith1:times",
+          "relation1:eq",
+          "transc1:exp",
+          "transc1:ln"
+        ],
+        "guard": [
+          "set1:in",
+          "setname1:C"
+        ]
+      },
       "sha256": "8f17ed75ad9689d3fe113caa1b33dc08b1a9b5d04fe495396a5c5da3a1f4db75",
       "shape": "logic1:implies",
       "symbols": [
@@ -321,6 +632,20 @@
       ]
     },
     "arith1:power/2": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:minus",
+          "arith1:power",
+          "arith1:times",
+          "logic1:and",
+          "relation1:eq"
+        ],
+        "guard": [
+          "set1:in",
+          "setname1:Z"
+        ]
+      },
       "sha256": "c00086b533f4abdb77fdf6382b0b981a29cc268bc28c582cf991ac195fe1ea98",
       "shape": "logic1:implies",
       "symbols": [
@@ -336,6 +661,19 @@
       ]
     },
     "arith1:root/1": {
+      "regions": {
+        "body": [
+          "arith1:divide",
+          "arith1:root",
+          "relation1:eq",
+          "transc1:exp",
+          "transc1:ln"
+        ],
+        "guard": [
+          "set1:in",
+          "setname1:C"
+        ]
+      },
       "sha256": "c2f18e300c0d7405d7cb1ea2d76b0918183f04e03112820afd4afa6a6b18a5b2",
       "shape": "logic1:implies",
       "symbols": [
@@ -350,6 +688,14 @@
       ]
     },
     "arith1:root/2": {
+      "regions": {
+        "body": [
+          "arith1:power",
+          "arith1:root",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "388a0055e748475621e3f63ba39aa625ed79eb3e29cd3116f89b272ea2e2b4aa",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -360,6 +706,18 @@
       ]
     },
     "arith1:times/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "alg1:zero",
+          "arith1:minus",
+          "arith1:plus",
+          "arith1:times",
+          "logic1:and",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "67ec079fd9b146a73e29ce1036cfe0f37f93185400a7825d239b1666a15c8639",
       "shape": "quant1:forall/logic1:and",
       "symbols": [
@@ -374,6 +732,14 @@
       ]
     },
     "arith1:times/2": {
+      "regions": {
+        "body": [
+          "arith1:plus",
+          "arith1:times",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "b97dd1bbb54e7fa2c0cf4b7257d1d88fe71f64a1124c02a62173adb9bc2157a7",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -384,6 +750,15 @@
       ]
     },
     "arith1:unary_minus/1": {
+      "regions": {
+        "body": [
+          "alg1:zero",
+          "arith1:plus",
+          "arith1:unary_minus",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "de74d1d20b66439c1b76e21d9739cf0602676aa5ae7312343369f27ac28fa31b",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -394,7 +769,206 @@
         "relation1:eq"
       ]
     },
+    "bigfloat1:bigfloat/1": {
+      "regions": {
+        "body": [
+          "arith1:power",
+          "arith1:times",
+          "bigfloat1:bigfloat",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "82989b41ed8f9d3f2ffbdb4cf2a705169c614b4d9f73cfa74dd4b0641dc3b29e",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:power",
+        "arith1:times",
+        "bigfloat1:bigfloat",
+        "relation1:eq"
+      ]
+    },
+    "bigfloat1:bigfloatprec/1": {
+      "regions": {
+        "body": [
+          "bigfloat1:bigfloat",
+          "bigfloat1:bigfloatprec",
+          "relation1:eq",
+          "rounding1:ceiling",
+          "transc1:log"
+        ],
+        "guard": []
+      },
+      "sha256": "320fee1dab704f4aac2ca58192127c4fcb0e4cd857f79e68901d408bd6fed286",
+      "shape": "relation1:eq",
+      "symbols": [
+        "bigfloat1:bigfloat",
+        "bigfloat1:bigfloatprec",
+        "relation1:eq",
+        "rounding1:ceiling",
+        "transc1:log"
+      ]
+    },
+    "calculus1:defint/1": {
+      "regions": {
+        "body": [
+          "arith1:unary_minus",
+          "calculus1:defint",
+          "fns1:lambda",
+          "interval1:ordered_interval",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "055c1a08d79c126c1650b059e8b05fbee442dd85763e1606944acdf7d6d8ecd0",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "arith1:unary_minus",
+        "calculus1:defint",
+        "fns1:lambda",
+        "interval1:ordered_interval",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "calculus1:defint/2": {
+      "regions": {
+        "body": [
+          "arith1:plus",
+          "calculus1:defint",
+          "fns1:lambda",
+          "interval1:ordered_interval",
+          "relation1:eq"
+        ],
+        "guard": [
+          "logic1:and",
+          "relation1:lt"
+        ]
+      },
+      "sha256": "c19c72b5b26156d5ccbd4ea6aede68d52bde1db18fb253af635955c6eba4de2e",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "arith1:plus",
+        "calculus1:defint",
+        "fns1:lambda",
+        "interval1:ordered_interval",
+        "logic1:and",
+        "logic1:implies",
+        "quant1:forall",
+        "relation1:eq",
+        "relation1:lt"
+      ]
+    },
+    "calculus1:diff/1": {
+      "regions": {
+        "body": [
+          "arith1:plus",
+          "calculus1:diff",
+          "fns1:lambda",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "2d4dca3b4b0c450a7c62e9b308a6f4b22d9afd2839e9c9e7acb5a20529ad7b42",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:plus",
+        "calculus1:diff",
+        "fns1:lambda",
+        "relation1:eq"
+      ]
+    },
+    "calculus1:diff/2": {
+      "regions": {
+        "body": [
+          "arith1:plus",
+          "arith1:times",
+          "calculus1:diff",
+          "fns1:lambda",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "b7a11dc2422d092ca6c82714874d6888c5028db0dd8f1dfdfa4a76ef4d9b53a6",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:plus",
+        "arith1:times",
+        "calculus1:diff",
+        "fns1:lambda",
+        "relation1:eq"
+      ]
+    },
+    "calculus1:int/1": {
+      "regions": {
+        "body": [
+          "calculus1:diff",
+          "calculus1:int",
+          "fns1:lambda",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "8e6770798504eadc24697739feb856b7a5be76243be9caca291bbf26cbba35f5",
+      "shape": "relation1:eq",
+      "symbols": [
+        "calculus1:diff",
+        "calculus1:int",
+        "fns1:lambda",
+        "relation1:eq"
+      ]
+    },
+    "calculus1:nthdiff/1": {
+      "regions": {
+        "body": [
+          "alg1:zero",
+          "calculus1:nthdiff",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "d21b118243bb527b883a7d372591820eed6b2775d216b11b4419e2dc63c097f2",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:zero",
+        "calculus1:nthdiff",
+        "relation1:eq"
+      ]
+    },
+    "calculus1:nthdiff/2": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:plus",
+          "calculus1:diff",
+          "calculus1:nthdiff",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "ed612a3a5acaae5da808d5e63f0ee843fd6ce6fac0e799f76033aa688c850f48",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:plus",
+        "calculus1:diff",
+        "calculus1:nthdiff",
+        "relation1:eq"
+      ]
+    },
     "combinat1:Bell/1": {
+      "regions": {
+        "body": [
+          "alg1:zero",
+          "arith1:sum",
+          "combinat1:Bell",
+          "combinat1:Stirling2",
+          "fns1:lambda",
+          "interval1:integer_interval",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "7446a89346d097ea4aea33dbee324d9eb080383c0050dc7576c0d48155f53972",
       "shape": "relation1:eq",
       "symbols": [
@@ -408,6 +982,18 @@
       ]
     },
     "combinat1:Fibonacci/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "alg1:zero",
+          "arith1:minus",
+          "arith1:plus",
+          "combinat1:Fibonacci",
+          "logic1:and",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "c8f5390d05439301264dec7bdc2242866427c5acd9d75119f85932653b876a90",
       "shape": "logic1:and",
       "symbols": [
@@ -421,6 +1007,25 @@
       ]
     },
     "combinat1:Stirling1/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "alg1:zero",
+          "arith1:minus",
+          "arith1:plus",
+          "arith1:power",
+          "arith1:sum",
+          "arith1:times",
+          "arith1:unary_minus",
+          "combinat1:Stirling1",
+          "combinat1:Stirling2",
+          "combinat1:binomial",
+          "fns1:lambda",
+          "interval1:integer_interval",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "53918eeb012a7cd7b627cbe0c3119bfacd38a41118f74b9efd3715dcbdd97ae1",
       "shape": "relation1:eq",
       "symbols": [
@@ -441,6 +1046,25 @@
       ]
     },
     "combinat1:Stirling2/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "alg1:zero",
+          "arith1:divide",
+          "arith1:minus",
+          "arith1:power",
+          "arith1:sum",
+          "arith1:times",
+          "arith1:unary_minus",
+          "combinat1:Stirling2",
+          "combinat1:binomial",
+          "fns1:lambda",
+          "integer1:factorial",
+          "interval1:integer_interval",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "57e1ce9d921d52e47652886c051e36d5bd4fe07039d8c715c2a58d0a4f3267ea",
       "shape": "relation1:eq",
       "symbols": [
@@ -461,6 +1085,17 @@
       ]
     },
     "combinat1:binomial/1": {
+      "regions": {
+        "body": [
+          "arith1:divide",
+          "arith1:minus",
+          "arith1:times",
+          "combinat1:binomial",
+          "integer1:factorial",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "532611e4e123e8b0a2db67aa1ca269cb318b8d10e34ba98f6b6952bc151016ce",
       "shape": "relation1:eq",
       "symbols": [
@@ -473,6 +1108,22 @@
       ]
     },
     "combinat1:multinomial/1": {
+      "regions": {
+        "body": [
+          "arith1:divide",
+          "arith1:plus",
+          "arith1:times",
+          "combinat1:multinomial",
+          "fns2:apply_to_list",
+          "integer1:factorial",
+          "linalg1:vector_selector",
+          "linalg2:vector",
+          "list2:cons",
+          "logic1:and",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "be15944ad6f6dbfef08bbbf62caae6362013faacf9a585f375de1ac5c9e5ed6b",
       "shape": "logic1:and",
       "symbols": [
@@ -489,7 +1140,248 @@
         "relation1:eq"
       ]
     },
+    "complex1:argument/1": {
+      "regions": {
+        "body": [
+          "complex1:argument",
+          "complex1:complex_polar",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "eb53f6dd9364d00b5cce46ae49ef6712057155ca1b0d29eb46f95d0a3251d427",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "complex1:argument",
+        "complex1:complex_polar",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "complex1:argument/2": {
+      "regions": {
+        "body": [
+          "arith1:divide",
+          "complex1:argument",
+          "complex1:complex_cartesian",
+          "relation1:eq",
+          "transc1:arctan"
+        ],
+        "guard": [
+          "alg1:zero",
+          "relation1:gt"
+        ]
+      },
+      "sha256": "a314ed5a6ed96cae757c2a1bcfa8ecd7dd909502d148305f5c9cf94825248bdf",
+      "shape": "logic1:implies",
+      "symbols": [
+        "alg1:zero",
+        "arith1:divide",
+        "complex1:argument",
+        "complex1:complex_cartesian",
+        "logic1:implies",
+        "relation1:eq",
+        "relation1:gt",
+        "transc1:arctan"
+      ]
+    },
+    "complex1:argument/3": {
+      "regions": {
+        "body": [
+          "complex1:argument",
+          "complex1:complex_cartesian",
+          "relation1:eq",
+          "transc2:arctan"
+        ],
+        "guard": []
+      },
+      "sha256": "ba9dcfbbb63c854d4f4a4006dd71241affb7aecac5e30899344fbcc752f2d7d9",
+      "shape": "relation1:eq",
+      "symbols": [
+        "complex1:argument",
+        "complex1:complex_cartesian",
+        "relation1:eq",
+        "transc2:arctan"
+      ]
+    },
+    "complex1:complex_cartesian/1": {
+      "regions": {
+        "body": [
+          "arith1:plus",
+          "arith1:times",
+          "complex1:complex_cartesian",
+          "nums1:i",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "e98d7c527febeeac7c5463a875659a3b6c8f966f3842bbc8d4a8a47a20b00367",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "arith1:plus",
+        "arith1:times",
+        "complex1:complex_cartesian",
+        "nums1:i",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "complex1:complex_polar/1": {
+      "regions": {
+        "body": [
+          "arith1:times",
+          "complex1:complex_polar",
+          "nums1:i",
+          "relation1:eq",
+          "transc1:exp"
+        ],
+        "guard": []
+      },
+      "sha256": "d5b2677ed60c5aff92a6694f690681b7fd7e68ec02776d2e436b8bf952915ff9",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "arith1:times",
+        "complex1:complex_polar",
+        "nums1:i",
+        "quant1:forall",
+        "relation1:eq",
+        "transc1:exp"
+      ]
+    },
+    "complex1:complex_polar/2": {
+      "regions": {
+        "body": [
+          "complex1:complex_cartesian",
+          "complex1:complex_polar",
+          "relation1:eq"
+        ],
+        "guard": [
+          "arith1:times",
+          "logic1:and",
+          "relation1:eq",
+          "transc1:cos",
+          "transc1:sin"
+        ]
+      },
+      "sha256": "82187efcb2023ef5e36668f258a55d2fa7c0c0a988e23a85e3a827e392703d0e",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "arith1:times",
+        "complex1:complex_cartesian",
+        "complex1:complex_polar",
+        "logic1:and",
+        "logic1:implies",
+        "quant1:forall",
+        "relation1:eq",
+        "transc1:cos",
+        "transc1:sin"
+      ]
+    },
+    "complex1:complex_polar/3": {
+      "regions": {
+        "body": [
+          "arith1:plus",
+          "arith1:times",
+          "complex1:complex_polar",
+          "nums1:pi",
+          "relation1:eq"
+        ],
+        "guard": [
+          "logic1:and",
+          "set1:in",
+          "setname1:R",
+          "setname1:Z"
+        ]
+      },
+      "sha256": "f89ffcb3b310875189b6c11afd558b2e6360d7bf18b871db024263270644bbac",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "arith1:plus",
+        "arith1:times",
+        "complex1:complex_polar",
+        "logic1:and",
+        "logic1:implies",
+        "nums1:pi",
+        "quant1:forall",
+        "relation1:eq",
+        "set1:in",
+        "setname1:R",
+        "setname1:Z"
+      ]
+    },
+    "complex1:conjugate/1": {
+      "regions": {
+        "body": [
+          "arith1:plus",
+          "complex1:conjugate",
+          "set1:in",
+          "setname1:R"
+        ],
+        "guard": [
+          "set1:in",
+          "setname1:C"
+        ]
+      },
+      "sha256": "cc0251334296c7409f7a16fcab16e5ac21a9dd3b6e65f245305c2bc3a6242c92",
+      "shape": "logic1:implies",
+      "symbols": [
+        "arith1:plus",
+        "complex1:conjugate",
+        "logic1:implies",
+        "set1:in",
+        "setname1:C",
+        "setname1:R"
+      ]
+    },
+    "complex1:imaginary/1": {
+      "regions": {
+        "body": [
+          "complex1:complex_cartesian",
+          "complex1:imaginary",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "ad0598d81cc72de9e82845118a0a2de7e86791b7f3293023c89da3e0ec8a3abd",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "complex1:complex_cartesian",
+        "complex1:imaginary",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "complex1:real/1": {
+      "regions": {
+        "body": [
+          "complex1:complex_cartesian",
+          "complex1:real",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "0432a2083010108d85eec97f62313a57598c47eb5637e76e74d04896f521e233",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "complex1:complex_cartesian",
+        "complex1:real",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
     "fns1:domain/1": {
+      "regions": {
+        "body": [
+          "fns1:domain",
+          "fns1:range",
+          "logic1:and",
+          "logic1:equivalent",
+          "quant1:exists",
+          "relation1:eq",
+          "set1:in"
+        ],
+        "guard": []
+      },
       "sha256": "d8199c53cfd24e46de706fd0e7dacdbab86ecc0000f18c290669c0126f2f2e37",
       "shape": "logic1:equivalent",
       "symbols": [
@@ -503,6 +1395,13 @@
       ]
     },
     "fns1:identity/1": {
+      "regions": {
+        "body": [
+          "fns1:identity",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "ce40363229e2e7bab8a7583de35bd2301a5813cb98a6d62b7b8be25dc4c4818e",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -512,6 +1411,16 @@
       ]
     },
     "fns1:image/1": {
+      "regions": {
+        "body": [
+          "fns1:image",
+          "set1:in"
+        ],
+        "guard": [
+          "fns1:domain",
+          "set1:in"
+        ]
+      },
       "sha256": "9aecf7c2c039471f24b26e0d6ae5a62d7c077d7414abe79a7eee8f32d25d8b3d",
       "shape": "logic1:implies",
       "symbols": [
@@ -522,6 +1431,17 @@
       ]
     },
     "fns1:inverse/1": {
+      "regions": {
+        "body": [
+          "fns1:inverse",
+          "relation1:eq"
+        ],
+        "guard": [
+          "logic1:implies",
+          "quant1:forall",
+          "relation1:eq"
+        ]
+      },
       "sha256": "71adf6db26587a87f185d1e914d17777ecf718c86a1c6aa97be1f0d93e5107ae",
       "shape": "logic1:implies",
       "symbols": [
@@ -532,6 +1452,17 @@
       ]
     },
     "fns1:inverse/2": {
+      "regions": {
+        "body": [
+          "fns1:inverse",
+          "relation1:eq"
+        ],
+        "guard": [
+          "fns1:inverse",
+          "quant1:exists",
+          "relation1:eq"
+        ]
+      },
       "sha256": "7866484320a3ee39f7cd0e6ce6d3e4fc3e8fb1f86e98712e6063818b47949556",
       "shape": "logic1:implies",
       "symbols": [
@@ -542,6 +1473,13 @@
       ]
     },
     "fns1:left_compose/1": {
+      "regions": {
+        "body": [
+          "fns1:left_compose",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "b3787a5995fd25d63fbd9788c475778640ee67c3962542b5cc70691cceea2dcf",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -551,6 +1489,14 @@
       ]
     },
     "fns1:range/1": {
+      "regions": {
+        "body": [
+          "fns1:image",
+          "fns1:range",
+          "set1:subset"
+        ],
+        "guard": []
+      },
       "sha256": "ed113ae6e2241288f8c0e730161fe90f44a99f3dc3da3602c2366ebb1a4cda13",
       "shape": "set1:subset",
       "symbols": [
@@ -560,6 +1506,14 @@
       ]
     },
     "fns1:restriction/1": {
+      "regions": {
+        "body": [
+          "fns1:domain",
+          "fns1:restriction",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "c89eac5e4a3b7f895030566495c5e08a5d031a0b765d7a5f216f485f70368a4e",
       "shape": "relation1:eq",
       "symbols": [
@@ -569,6 +1523,14 @@
       ]
     },
     "fns1:restriction/2": {
+      "regions": {
+        "body": [
+          "fns1:domain",
+          "fns1:restriction",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "7009b9d97974aac309e36091520388cb6ec2f73496941848ec34404509d88166",
       "shape": "relation1:eq",
       "symbols": [
@@ -577,7 +1539,113 @@
         "relation1:eq"
       ]
     },
+    "fns2:kernel/1": {
+      "regions": {
+        "body": [
+          "alg1:zero",
+          "relation1:eq"
+        ],
+        "guard": [
+          "fns2:kernel",
+          "set1:in"
+        ]
+      },
+      "sha256": "ddd8ca78a33ffa60c57b0e337f17fc4e826e7f815a214d1e12625366fd7b3367",
+      "shape": "logic1:implies",
+      "symbols": [
+        "alg1:zero",
+        "fns2:kernel",
+        "logic1:implies",
+        "relation1:eq",
+        "set1:in"
+      ]
+    },
+    "fns2:predicate_on_list/1": {
+      "regions": {
+        "body": [
+          "fns2:predicate_on_list",
+          "list2:nil",
+          "logic1:true",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "fd19acc5700e4c61ae30b9c856f55831b2af5d304abea7d04f1052e616b42308",
+      "shape": "relation1:eq",
+      "symbols": [
+        "fns2:predicate_on_list",
+        "list2:nil",
+        "logic1:true",
+        "relation1:eq"
+      ]
+    },
+    "fns2:predicate_on_list/2": {
+      "regions": {
+        "body": [
+          "fns2:predicate_on_list",
+          "list2:append",
+          "list2:nil",
+          "logic1:true",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "d85b5e78aab45b5cb435aa069fe5cfaab350935d5b8aea2a515161407411c10d",
+      "shape": "relation1:eq",
+      "symbols": [
+        "fns2:predicate_on_list",
+        "list2:append",
+        "list2:nil",
+        "logic1:true",
+        "relation1:eq"
+      ]
+    },
+    "fns2:predicate_on_list/3": {
+      "regions": {
+        "body": [
+          "fns2:predicate_on_list",
+          "list2:append",
+          "logic1:and",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "45eccdbf6056c76f747fee91e8e47a30264f316ab2a8bef00c99d4ee080ab232",
+      "shape": "relation1:eq",
+      "symbols": [
+        "fns2:predicate_on_list",
+        "list2:append",
+        "logic1:and",
+        "relation1:eq"
+      ]
+    },
+    "fns2:right_compose/1": {
+      "regions": {
+        "body": [
+          "fns2:right_compose",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "df9b83cecd6c5d3d0cabcee5682c4276426e79cda3d074aaff72d45febb8d347",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "fns2:right_compose",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
     "integer1:factorial/1": {
+      "regions": {
+        "body": [
+          "arith1:product",
+          "fns1:lambda",
+          "integer1:factorial",
+          "interval1:integer_interval",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "9292843e8f2825afb52af41a85b9ba14401afa0d7b3baffba1220a2fd75c733a",
       "shape": "relation1:eq",
       "symbols": [
@@ -589,6 +1657,16 @@
       ]
     },
     "integer1:factorof/1": {
+      "regions": {
+        "body": [
+          "alg1:zero",
+          "integer1:remainder",
+          "relation1:eq"
+        ],
+        "guard": [
+          "integer1:factorof"
+        ]
+      },
       "sha256": "2d934868eaa979b0a62ef6492dd453cd5297984e022a42e1623a1d856b795b24",
       "shape": "logic1:implies",
       "symbols": [
@@ -600,6 +1678,25 @@
       ]
     },
     "integer1:quotient/1": {
+      "regions": {
+        "body": [
+          "alg1:zero",
+          "arith1:abs",
+          "arith1:plus",
+          "arith1:times",
+          "integer1:quotient",
+          "integer1:remainder",
+          "logic1:and",
+          "relation1:eq",
+          "relation1:geq",
+          "relation1:lt"
+        ],
+        "guard": [
+          "logic1:and",
+          "set1:in",
+          "setname1:Z"
+        ]
+      },
       "sha256": "493bab1dc2436e97ca3846731d57433be13beb9ccce1db34df97414be0ab62c5",
       "shape": "quant1:forall/logic1:implies",
       "symbols": [
@@ -620,6 +1717,25 @@
       ]
     },
     "integer1:remainder/1": {
+      "regions": {
+        "body": [
+          "alg1:zero",
+          "arith1:abs",
+          "arith1:plus",
+          "arith1:times",
+          "integer1:quotient",
+          "integer1:remainder",
+          "logic1:and",
+          "relation1:eq",
+          "relation1:geq",
+          "relation1:lt"
+        ],
+        "guard": [
+          "logic1:and",
+          "set1:in",
+          "setname1:Z"
+        ]
+      },
       "sha256": "493bab1dc2436e97ca3846731d57433be13beb9ccce1db34df97414be0ab62c5",
       "shape": "quant1:forall/logic1:implies",
       "symbols": [
@@ -639,7 +1755,176 @@
         "setname1:Z"
       ]
     },
+    "interval1:integer_interval/1": {
+      "regions": {
+        "body": [
+          "interval1:integer_interval",
+          "logic1:and",
+          "logic1:equivalent",
+          "relation1:le",
+          "set1:in",
+          "setname1:Z"
+        ],
+        "guard": []
+      },
+      "sha256": "c1ad757209e61f72c06e0e990f2a4b05fd299540d921dda30b14e8d126009041",
+      "shape": "logic1:equivalent",
+      "symbols": [
+        "interval1:integer_interval",
+        "logic1:and",
+        "logic1:equivalent",
+        "relation1:le",
+        "set1:in",
+        "setname1:Z"
+      ]
+    },
+    "interval1:interval/1": {
+      "regions": {
+        "body": [
+          "interval1:interval",
+          "interval1:interval_cc",
+          "set1:subset"
+        ],
+        "guard": []
+      },
+      "sha256": "43ce5fc0603fa404f21a7aef829e11b54e59fa7e525e52b7c4952353a1261eae",
+      "shape": "set1:subset",
+      "symbols": [
+        "interval1:interval",
+        "interval1:interval_cc",
+        "set1:subset"
+      ]
+    },
+    "interval1:interval/2": {
+      "regions": {
+        "body": [
+          "interval1:interval",
+          "interval1:interval_oo",
+          "set1:subset"
+        ],
+        "guard": []
+      },
+      "sha256": "cf9102439fd092c454e70d4cf347782eb1daa2fccfd48eb162a097f1c2b16593",
+      "shape": "set1:subset",
+      "symbols": [
+        "interval1:interval",
+        "interval1:interval_oo",
+        "set1:subset"
+      ]
+    },
+    "interval1:interval_cc/1": {
+      "regions": {
+        "body": [
+          "interval1:interval_cc",
+          "logic1:and",
+          "logic1:equivalent",
+          "relation1:le",
+          "set1:in",
+          "setname1:R"
+        ],
+        "guard": []
+      },
+      "sha256": "d702cfd2becbfba1378d91722fc97798c2cb1550b7f4e5d5ecc990fa4c5764d4",
+      "shape": "logic1:equivalent",
+      "symbols": [
+        "interval1:interval_cc",
+        "logic1:and",
+        "logic1:equivalent",
+        "relation1:le",
+        "set1:in",
+        "setname1:R"
+      ]
+    },
+    "interval1:interval_co/1": {
+      "regions": {
+        "body": [
+          "interval1:interval_co",
+          "logic1:and",
+          "logic1:equivalent",
+          "relation1:le",
+          "relation1:lt",
+          "set1:in",
+          "setname1:R"
+        ],
+        "guard": []
+      },
+      "sha256": "4cf49a4ae85e4a2ecc63d556cbf5f4c8e5113c636e05c998c487306922c550ff",
+      "shape": "logic1:equivalent",
+      "symbols": [
+        "interval1:interval_co",
+        "logic1:and",
+        "logic1:equivalent",
+        "relation1:le",
+        "relation1:lt",
+        "set1:in",
+        "setname1:R"
+      ]
+    },
+    "interval1:interval_oc/1": {
+      "regions": {
+        "body": [
+          "interval1:interval_oc",
+          "logic1:and",
+          "logic1:equivalent",
+          "relation1:le",
+          "relation1:lt",
+          "set1:in",
+          "setname1:R"
+        ],
+        "guard": []
+      },
+      "sha256": "9b5ab35ac1e0a3ba7a774812112e2fb8a4992fc30568e79e5b12c95b18587857",
+      "shape": "logic1:equivalent",
+      "symbols": [
+        "interval1:interval_oc",
+        "logic1:and",
+        "logic1:equivalent",
+        "relation1:le",
+        "relation1:lt",
+        "set1:in",
+        "setname1:R"
+      ]
+    },
+    "interval1:interval_oo/1": {
+      "regions": {
+        "body": [
+          "interval1:interval_oo",
+          "logic1:and",
+          "logic1:equivalent",
+          "relation1:lt",
+          "set1:in",
+          "setname1:R"
+        ],
+        "guard": []
+      },
+      "sha256": "bbc4a668211051ef24acdfafb0c6c2920bb0644e3869ebd82cec09ea19956743",
+      "shape": "logic1:equivalent",
+      "symbols": [
+        "interval1:interval_oo",
+        "logic1:and",
+        "logic1:equivalent",
+        "relation1:lt",
+        "set1:in",
+        "setname1:R"
+      ]
+    },
     "linalg1:determinant/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "linalg1:determinant",
+          "relation1:eq"
+        ],
+        "guard": [
+          "alg1:one",
+          "alg1:zero",
+          "linalg1:matrix_selector",
+          "logic1:and",
+          "logic1:implies",
+          "relation1:eq",
+          "relation1:neq"
+        ]
+      },
       "sha256": "3569a887716116f4ce6375bd53d4d64dd899d5f5d8323c63709da1dc70c92190",
       "shape": "logic1:implies",
       "symbols": [
@@ -654,6 +1939,16 @@
       ]
     },
     "linalg1:outerproduct/1": {
+      "regions": {
+        "body": [
+          "arith1:times",
+          "linalg1:matrix_selector",
+          "linalg1:outerproduct",
+          "linalg1:vector_selector",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "27956ff699a6f9b25926105098b3b99ea5ec2f43595eb3c357a1c83e148f724e",
       "shape": "relation1:eq",
       "symbols": [
@@ -665,6 +1960,23 @@
       ]
     },
     "linalg1:scalarproduct/1": {
+      "regions": {
+        "body": [
+          "arith1:abs",
+          "arith1:divide",
+          "arith1:minus",
+          "arith1:plus",
+          "arith1:power",
+          "arith1:root",
+          "arith1:times",
+          "linalg1:scalarproduct",
+          "linalg1:vector_selector",
+          "relation1:eq",
+          "transc1:arctan",
+          "transc1:cos"
+        ],
+        "guard": []
+      },
       "sha256": "2afe65324fad511fbd0a5328b2c30d6c5343a034fd2d3779fcf2bd8f95af1b2c",
       "shape": "relation1:eq",
       "symbols": [
@@ -683,6 +1995,17 @@
       ]
     },
     "linalg1:vectorproduct/1": {
+      "regions": {
+        "body": [
+          "arith1:minus",
+          "arith1:times",
+          "linalg1:vector_selector",
+          "linalg1:vectorproduct",
+          "logic1:and",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "64fcd0350ee44bc838f40372e9d5c224324561559d2c63ec1985f55c14c4b063",
       "shape": "relation1:eq",
       "symbols": [
@@ -695,6 +2018,15 @@
       ]
     },
     "logic1:and/1": {
+      "regions": {
+        "body": [
+          "logic1:and",
+          "logic1:false",
+          "logic1:not",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "3ec39787d794051bc13ee3c2e81c764934022d6a5482fcef322f8b63afada61b",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -706,6 +2038,14 @@
       ]
     },
     "logic1:equivalent/1": {
+      "regions": {
+        "body": [
+          "logic1:and",
+          "logic1:equivalent",
+          "logic1:implies"
+        ],
+        "guard": []
+      },
       "sha256": "2380142743a82250076ff3de47a4c560d17f4382612327caeac94a691cd466e0",
       "shape": "logic1:equivalent",
       "symbols": [
@@ -715,6 +2055,15 @@
       ]
     },
     "logic1:false/1": {
+      "regions": {
+        "body": [
+          "logic1:false",
+          "logic1:not",
+          "logic1:true",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "facfb9ab8fdcb91ce2fdd70f3032be790b3531367992bafcf4ed2b6d19fe05cd",
       "shape": "relation1:eq",
       "symbols": [
@@ -725,6 +2074,12 @@
       ]
     },
     "logic1:implies/1": {
+      "regions": {
+        "body": [],
+        "guard": [
+          "logic1:false"
+        ]
+      },
       "sha256": "5154c9b5aa54025d2f6003b7a84a747ec4b452a78a5e20863f5803d2017c7ebe",
       "shape": "quant1:forall/logic1:implies",
       "symbols": [
@@ -734,6 +2089,15 @@
       ]
     },
     "logic1:nand/1": {
+      "regions": {
+        "body": [
+          "logic1:nand",
+          "logic1:not",
+          "logic1:true",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "2fe7ad631d999dac1420241b2792d7d20ac3d53d4e033c2feab1f70ec5e630f2",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -745,6 +2109,15 @@
       ]
     },
     "logic1:nand/2": {
+      "regions": {
+        "body": [
+          "logic1:and",
+          "logic1:nand",
+          "logic1:not",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "c431f327dda11a2502ed23ed9665bc3af19e93898e031fd28eb708711dec42c9",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -756,6 +2129,15 @@
       ]
     },
     "logic1:nor/1": {
+      "regions": {
+        "body": [
+          "logic1:false",
+          "logic1:nor",
+          "logic1:not",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "fb869d41418d7bad2b7b8721712b6c00dc1be77084177227febc55545ce3564e",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -767,6 +2149,15 @@
       ]
     },
     "logic1:nor/2": {
+      "regions": {
+        "body": [
+          "logic1:and",
+          "logic1:nor",
+          "logic1:not",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "530f240227d7b5dbff1273f1d6b2071494ace74297cfb7e5fbba58a7545c79f2",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -778,6 +2169,15 @@
       ]
     },
     "logic1:nor/3": {
+      "regions": {
+        "body": [
+          "logic1:nor",
+          "logic1:not",
+          "logic1:or",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "261268d8cb5803931c4db3857b370309c00828626df4aa5d7de5c36781195c0f",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -789,6 +2189,13 @@
       ]
     },
     "logic1:not/1": {
+      "regions": {
+        "body": [
+          "logic1:not",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "7a36997a1335209515afba7e825d2f0d64defb4a1bc450ebf5a0d3664c89de83",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -798,6 +2205,15 @@
       ]
     },
     "logic1:or/1": {
+      "regions": {
+        "body": [
+          "logic1:not",
+          "logic1:or",
+          "logic1:true",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "d088f1792c7ab4b08e3e69ed5a9ea87a655c843c6b29e9b184a13e2044b64861",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -809,6 +2225,15 @@
       ]
     },
     "logic1:or/2": {
+      "regions": {
+        "body": [
+          "logic1:and",
+          "logic1:not",
+          "logic1:or",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "4c4da67b3fb53f00bcdf4d07ac29c067a7a1180711e1478e829c8f3110549a58",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -820,6 +2245,15 @@
       ]
     },
     "logic1:true/1": {
+      "regions": {
+        "body": [
+          "logic1:false",
+          "logic1:not",
+          "logic1:true",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "ff91ac44a3d8f6dce904485465a70c849daaf04a5c170ab9a7bbd3eb4b6e3dae",
       "shape": "relation1:eq",
       "symbols": [
@@ -830,6 +2264,14 @@
       ]
     },
     "logic1:xnor/1": {
+      "regions": {
+        "body": [
+          "logic1:true",
+          "logic1:xnor",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "dc5fee11f25eed87a15704f39d094e4f7801d656e7ee11bff4e60f64c763992e",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -840,6 +2282,15 @@
       ]
     },
     "logic1:xnor/2": {
+      "regions": {
+        "body": [
+          "logic1:false",
+          "logic1:not",
+          "logic1:xnor",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "da8a90580213e5c9729e23e2f0918a60a368cff6f08abcdaff3999ae231d38ea",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -851,6 +2302,15 @@
       ]
     },
     "logic1:xnor/3": {
+      "regions": {
+        "body": [
+          "logic1:not",
+          "logic1:xnor",
+          "logic1:xor",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "7489d12581b8e04526eae6a17a5776bf66c609d3b8aa61d1eb6e42225821b753",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -862,6 +2322,14 @@
       ]
     },
     "logic1:xor/1": {
+      "regions": {
+        "body": [
+          "logic1:false",
+          "logic1:xor",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "823415afa83ded6ebe9e6d395431283137076d362723ef9253eee777bd1243b3",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -872,6 +2340,15 @@
       ]
     },
     "logic1:xor/2": {
+      "regions": {
+        "body": [
+          "logic1:not",
+          "logic1:true",
+          "logic1:xor",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
       "sha256": "e653aaf506a69f5e1da3c123d0829b2748f030d8589f368cef17018fbba45dfc",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -882,7 +2359,313 @@
         "relation1:eq"
       ]
     },
+    "multiset1:emptyset/1": {
+      "regions": {
+        "body": [
+          "multiset1:emptyset",
+          "multiset1:intersect",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "fbcc68132347c315b7de2be256617df373511990587945a604a1912e851d5710",
+      "shape": "relation1:eq",
+      "symbols": [
+        "multiset1:emptyset",
+        "multiset1:intersect",
+        "relation1:eq"
+      ]
+    },
+    "multiset1:emptyset/2": {
+      "regions": {
+        "body": [
+          "multiset1:emptyset",
+          "multiset1:union",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "9993a3045f1adec2081a060612e6950b2e21bebe9685188179bd0777e508b807",
+      "shape": "relation1:eq",
+      "symbols": [
+        "multiset1:emptyset",
+        "multiset1:union",
+        "relation1:eq"
+      ]
+    },
+    "multiset1:in/1": {
+      "regions": {
+        "body": [
+          "multiset1:in",
+          "multiset1:intersect"
+        ],
+        "guard": [
+          "logic1:and",
+          "multiset1:in"
+        ]
+      },
+      "sha256": "55e8e0b784d5cc562178dd7ee6763b6640648ce0a66625506fd620dbd4c144a6",
+      "shape": "logic1:implies",
+      "symbols": [
+        "logic1:and",
+        "logic1:implies",
+        "multiset1:in",
+        "multiset1:intersect"
+      ]
+    },
+    "multiset1:intersect/1": {
+      "regions": {
+        "body": [
+          "logic1:and",
+          "multiset1:intersect",
+          "multiset1:subset"
+        ],
+        "guard": []
+      },
+      "sha256": "7e02906f91911010f6f472ae21008eb8d05f6fbbb53e830961d8913ff07357fa",
+      "shape": "logic1:and",
+      "symbols": [
+        "logic1:and",
+        "multiset1:intersect",
+        "multiset1:subset"
+      ]
+    },
+    "multiset1:setdiff/1": {
+      "regions": {
+        "body": [
+          "multiset1:setdiff",
+          "multiset1:subset"
+        ],
+        "guard": []
+      },
+      "sha256": "807d5f698137cf5ebe9e6aa8f2243f8b0c3905fdfc57d99bf6474e29fcf7df71",
+      "shape": "multiset1:subset",
+      "symbols": [
+        "multiset1:setdiff",
+        "multiset1:subset"
+      ]
+    },
+    "multiset1:subset/1": {
+      "regions": {
+        "body": [
+          "multiset1:subset"
+        ],
+        "guard": [
+          "logic1:and",
+          "multiset1:subset"
+        ]
+      },
+      "sha256": "df9e50266a7fb2844d81da0f92e467743eadf3fe7c8e8c57b964243096659594",
+      "shape": "logic1:implies",
+      "symbols": [
+        "logic1:and",
+        "logic1:implies",
+        "multiset1:subset"
+      ]
+    },
+    "multiset1:union/1": {
+      "regions": {
+        "body": [
+          "logic1:and",
+          "multiset1:subset",
+          "multiset1:union"
+        ],
+        "guard": []
+      },
+      "sha256": "d4b270d7aa43895a1cf0d6c370d57a49c35b4cc3d6b3628a9e934493feb8a842",
+      "shape": "logic1:and",
+      "symbols": [
+        "logic1:and",
+        "multiset1:subset",
+        "multiset1:union"
+      ]
+    },
+    "multiset1:union/2": {
+      "regions": {
+        "body": [
+          "multiset1:intersect",
+          "multiset1:union",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "e4f90daa47fc61d006e8ed6d418c720faa457369c760e90c72d6e235db005076",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "multiset1:intersect",
+        "multiset1:union",
+        "quant1:forall",
+        "relation1:eq"
+      ]
+    },
+    "nums1:NaN/1": {
+      "regions": {
+        "body": [
+          "nums1:NaN",
+          "relation1:neq"
+        ],
+        "guard": []
+      },
+      "sha256": "2d71c6c28f7d7cee47e56635975fcf7984eca1048b4dfc55e38e0851075be2e0",
+      "shape": "relation1:neq",
+      "symbols": [
+        "nums1:NaN",
+        "relation1:neq"
+      ]
+    },
+    "nums1:e/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "alg1:zero",
+          "arith1:divide",
+          "arith1:sum",
+          "fns1:lambda",
+          "integer1:factorial",
+          "interval1:integer_interval",
+          "nums1:e",
+          "nums1:infinity",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "87e303faaba72835c4f0953ebcc20047101bed255cff3864c67d486b1740985a",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "alg1:zero",
+        "arith1:divide",
+        "arith1:sum",
+        "fns1:lambda",
+        "integer1:factorial",
+        "interval1:integer_interval",
+        "nums1:e",
+        "nums1:infinity",
+        "relation1:eq"
+      ]
+    },
+    "nums1:gamma/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "arith1:minus",
+          "arith1:sum",
+          "fns1:lambda",
+          "interval1:integer_interval",
+          "limit1:below",
+          "limit1:limit",
+          "nums1:gamma",
+          "nums1:infinity",
+          "relation1:eq",
+          "transc1:ln"
+        ],
+        "guard": []
+      },
+      "sha256": "86231bed0607c62fbb5618bbd3dd941136c0325a6214d94b8756631536ba805f",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:divide",
+        "arith1:minus",
+        "arith1:sum",
+        "fns1:lambda",
+        "interval1:integer_interval",
+        "limit1:below",
+        "limit1:limit",
+        "nums1:gamma",
+        "nums1:infinity",
+        "relation1:eq",
+        "transc1:ln"
+      ]
+    },
+    "nums1:i/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:power",
+          "arith1:unary_minus",
+          "nums1:i",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "9511f8ad465077a8df41ebb58241c82203b724dfd849a4de8554087fb73e6f35",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:power",
+        "arith1:unary_minus",
+        "nums1:i",
+        "relation1:eq"
+      ]
+    },
+    "nums1:infinity/1": {
+      "regions": {
+        "body": [
+          "nums1:infinity",
+          "relation1:lt"
+        ],
+        "guard": [
+          "set1:in",
+          "setname1:R"
+        ]
+      },
+      "sha256": "773fffaa52ccb6083551aafced51c27d93c7280a6ad5e6c8c191d3d92008fc1b",
+      "shape": "logic1:implies",
+      "symbols": [
+        "logic1:implies",
+        "nums1:infinity",
+        "relation1:lt",
+        "set1:in",
+        "setname1:R"
+      ]
+    },
+    "nums1:pi/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "alg1:zero",
+          "arith1:divide",
+          "arith1:minus",
+          "arith1:plus",
+          "arith1:sum",
+          "arith1:times",
+          "fns1:lambda",
+          "interval1:integer_interval",
+          "nums1:infinity",
+          "nums1:pi",
+          "relation1:eq"
+        ],
+        "guard": []
+      },
+      "sha256": "1a96a1f6befda8323791a85925ffc81df46d2c0198d4a1bfecf429092616a0c5",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "alg1:zero",
+        "arith1:divide",
+        "arith1:minus",
+        "arith1:plus",
+        "arith1:sum",
+        "arith1:times",
+        "fns1:lambda",
+        "interval1:integer_interval",
+        "nums1:infinity",
+        "nums1:pi",
+        "relation1:eq"
+      ]
+    },
     "relation1:eq/1": {
+      "regions": {
+        "body": [
+          "relation1:eq"
+        ],
+        "guard": [
+          "logic1:and",
+          "relation1:eq"
+        ]
+      },
       "sha256": "45fe557eb95fab0423e50b71a5bc3137fe75c661789d2233a9bfd8742fb234f0",
       "shape": "logic1:implies",
       "symbols": [
@@ -892,6 +2675,15 @@
       ]
     },
     "relation1:geq/1": {
+      "regions": {
+        "body": [
+          "relation1:geq"
+        ],
+        "guard": [
+          "logic1:and",
+          "relation1:geq"
+        ]
+      },
       "sha256": "fe09c8e009e241890fb329b79baed3349ddfdf5b26541b64437d0c84fe7060c2",
       "shape": "logic1:implies",
       "symbols": [
@@ -901,6 +2693,15 @@
       ]
     },
     "relation1:gt/1": {
+      "regions": {
+        "body": [
+          "relation1:gt"
+        ],
+        "guard": [
+          "logic1:and",
+          "relation1:gt"
+        ]
+      },
       "sha256": "e852023c14c261a8ee359e8564c15eff36b5860c99e330f3a25687285c9fcd21",
       "shape": "logic1:implies",
       "symbols": [
@@ -910,6 +2711,15 @@
       ]
     },
     "relation1:leq/1": {
+      "regions": {
+        "body": [
+          "relation1:leq"
+        ],
+        "guard": [
+          "logic1:and",
+          "relation1:leq"
+        ]
+      },
       "sha256": "1886808b5e10896ada7deaf4920d633fa0113acb54a2b272b19b31436a972e13",
       "shape": "logic1:implies",
       "symbols": [
@@ -919,6 +2729,15 @@
       ]
     },
     "relation1:lt/1": {
+      "regions": {
+        "body": [
+          "relation1:lt"
+        ],
+        "guard": [
+          "logic1:and",
+          "relation1:lt"
+        ]
+      },
       "sha256": "5ecd0243786e99b1e067694febe3585a1564abb6cad6d4903a35d524a69a7543",
       "shape": "logic1:implies",
       "symbols": [
@@ -928,6 +2747,15 @@
       ]
     },
     "relation1:neq/1": {
+      "regions": {
+        "body": [
+          "logic1:and",
+          "logic1:implies",
+          "logic1:not",
+          "relation1:neq"
+        ],
+        "guard": []
+      },
       "sha256": "cc7a60bed82cbaf08eb342814e080ee18c642d69bc52e6bd59347e2f3945d879",
       "shape": "logic1:not",
       "symbols": [
@@ -937,7 +2765,358 @@
         "relation1:neq"
       ]
     },
+    "rounding1:ceiling/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:minus",
+          "logic1:and",
+          "relation1:leq",
+          "relation1:lt",
+          "rounding1:ceiling"
+        ],
+        "guard": []
+      },
+      "sha256": "9e84a5c587c0676cd1f6a24c1a3c88a254d832a0aaa9f71acf86dd3e2a940fa8",
+      "shape": "quant1:forall/logic1:and",
+      "symbols": [
+        "alg1:one",
+        "arith1:minus",
+        "logic1:and",
+        "quant1:forall",
+        "relation1:leq",
+        "relation1:lt",
+        "rounding1:ceiling"
+      ]
+    },
+    "rounding1:floor/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:plus",
+          "logic1:and",
+          "relation1:leq",
+          "relation1:lt",
+          "rounding1:floor"
+        ],
+        "guard": []
+      },
+      "sha256": "b0ccd3237f25a646a5c2c359b9328fa45dc1a98149c48b1e78e459bf5536f247",
+      "shape": "quant1:forall/logic1:and",
+      "symbols": [
+        "alg1:one",
+        "arith1:plus",
+        "logic1:and",
+        "quant1:forall",
+        "relation1:leq",
+        "relation1:lt",
+        "rounding1:floor"
+      ]
+    },
+    "rounding1:round/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "arith1:minus",
+          "arith1:plus",
+          "logic1:and",
+          "relation1:geq",
+          "relation1:leq",
+          "rounding1:round"
+        ],
+        "guard": []
+      },
+      "sha256": "eea9a24b96f459726c32979c056cb6aefd8489301af91e9acaac906a6ef66474",
+      "shape": "quant1:forall/logic1:and",
+      "symbols": [
+        "alg1:one",
+        "arith1:divide",
+        "arith1:minus",
+        "arith1:plus",
+        "logic1:and",
+        "quant1:forall",
+        "relation1:geq",
+        "relation1:leq",
+        "rounding1:round"
+      ]
+    },
+    "rounding1:round/2": {
+      "regions": {
+        "body": [
+          "arith1:divide",
+          "rounding1:round",
+          "set1:in",
+          "setname1:Z"
+        ],
+        "guard": [
+          "arith1:times",
+          "logic1:and",
+          "logic1:not",
+          "set1:in",
+          "setname1:Z"
+        ]
+      },
+      "sha256": "3807d2cd75a43653d1ac7443e5324cd520885e3a56476ca6d581345ac51c4261",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "arith1:divide",
+        "arith1:times",
+        "logic1:and",
+        "logic1:implies",
+        "logic1:not",
+        "quant1:forall",
+        "rounding1:round",
+        "set1:in",
+        "setname1:Z"
+      ]
+    },
+    "rounding1:trunc/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:plus",
+          "logic1:and",
+          "relation1:leq",
+          "relation1:lt",
+          "rounding1:trunc"
+        ],
+        "guard": [
+          "alg1:zero",
+          "relation1:geq"
+        ]
+      },
+      "sha256": "2963078bc2ff2e6eae68dd8374989029fafbb528b595803bc0229bc100492718",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "alg1:one",
+        "alg1:zero",
+        "arith1:plus",
+        "logic1:and",
+        "logic1:implies",
+        "quant1:forall",
+        "relation1:geq",
+        "relation1:leq",
+        "relation1:lt",
+        "rounding1:trunc"
+      ]
+    },
+    "rounding1:trunc/2": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:minus",
+          "logic1:and",
+          "relation1:geq",
+          "relation1:gt",
+          "rounding1:trunc"
+        ],
+        "guard": [
+          "alg1:zero",
+          "relation1:leq"
+        ]
+      },
+      "sha256": "1b4fe267818f2abcf78d586d8b9e58f1c0a2cd89e018b514cdcedad23bc506e9",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "alg1:one",
+        "alg1:zero",
+        "arith1:minus",
+        "logic1:and",
+        "logic1:implies",
+        "quant1:forall",
+        "relation1:geq",
+        "relation1:gt",
+        "relation1:leq",
+        "rounding1:trunc"
+      ]
+    },
+    "s_data1:mean/1": {
+      "regions": {
+        "body": [
+          "arith1:divide",
+          "arith1:plus",
+          "fns2:apply_to_list",
+          "relation1:eq",
+          "s_data1:mean",
+          "set1:size"
+        ],
+        "guard": []
+      },
+      "sha256": "faded46540e586b23bca36972a4a3b2ec61b581160763902fe7587749d3c1729",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:divide",
+        "arith1:plus",
+        "fns2:apply_to_list",
+        "relation1:eq",
+        "s_data1:mean",
+        "set1:size"
+      ]
+    },
+    "s_data1:sdev/1": {
+      "regions": {
+        "body": [
+          "arith1:divide",
+          "arith1:minus",
+          "arith1:plus",
+          "arith1:power",
+          "fns1:lambda",
+          "fns2:apply_to_list",
+          "list1:map",
+          "relation1:eq",
+          "s_data1:mean",
+          "s_data1:sdev",
+          "set1:set",
+          "set1:size"
+        ],
+        "guard": []
+      },
+      "sha256": "aea5bec0bcce8c142d6cbb61d6fcb41d2248ba4279bdd94d3d08ba645fa98e34",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:divide",
+        "arith1:minus",
+        "arith1:plus",
+        "arith1:power",
+        "fns1:lambda",
+        "fns2:apply_to_list",
+        "list1:map",
+        "relation1:eq",
+        "s_data1:mean",
+        "s_data1:sdev",
+        "set1:set",
+        "set1:size"
+      ]
+    },
+    "s_data1:variance/1": {
+      "regions": {
+        "body": [
+          "arith1:power",
+          "fns2:apply_to_list",
+          "relation1:eq",
+          "s_data1:sdev",
+          "s_data1:variance"
+        ],
+        "guard": []
+      },
+      "sha256": "0e87ded1ec6877a7e92589b1a4385231f3cf99a4ff7880b9cd11f9bdebac7e24",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:power",
+        "fns2:apply_to_list",
+        "relation1:eq",
+        "s_data1:sdev",
+        "s_data1:variance"
+      ]
+    },
+    "s_dist1:mean/1": {
+      "regions": {
+        "body": [
+          "arith1:times",
+          "arith1:unary_minus",
+          "calculus1:defint",
+          "fns1:lambda",
+          "interval1:interval",
+          "nums1:infinity",
+          "relation1:eq",
+          "s_dist1:mean"
+        ],
+        "guard": []
+      },
+      "sha256": "10d6907428f55d1e5ddeec2c24ae7f2bcf5768dc9d0b85cb0738f49344ff404c",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:times",
+        "arith1:unary_minus",
+        "calculus1:defint",
+        "fns1:lambda",
+        "interval1:interval",
+        "nums1:infinity",
+        "relation1:eq",
+        "s_dist1:mean"
+      ]
+    },
+    "s_dist1:moment/1": {
+      "regions": {
+        "body": [
+          "arith1:minus",
+          "arith1:power",
+          "arith1:times",
+          "arith1:unary_minus",
+          "calculus1:defint",
+          "fns1:lambda",
+          "interval1:interval",
+          "nums1:infinity",
+          "relation1:eq",
+          "s_dist1:moment"
+        ],
+        "guard": []
+      },
+      "sha256": "e1ce2de7dd8beced39eab98893a278fff88c066d6f810134f5f7337465602b87",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:minus",
+        "arith1:power",
+        "arith1:times",
+        "arith1:unary_minus",
+        "calculus1:defint",
+        "fns1:lambda",
+        "interval1:interval",
+        "nums1:infinity",
+        "relation1:eq",
+        "s_dist1:moment"
+      ]
+    },
+    "s_dist1:sdev/1": {
+      "regions": {
+        "body": [
+          "arith1:minus",
+          "arith1:power",
+          "relation1:eq",
+          "s_dist1:mean",
+          "s_dist1:sdev"
+        ],
+        "guard": []
+      },
+      "sha256": "83c8cb118d3562707324989c1e6c115a60a2765adcdef9c495998eabea97835c",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:minus",
+        "arith1:power",
+        "relation1:eq",
+        "s_dist1:mean",
+        "s_dist1:sdev"
+      ]
+    },
+    "s_dist1:variance/1": {
+      "regions": {
+        "body": [
+          "arith1:power",
+          "relation1:eq",
+          "s_dist1:sdev",
+          "s_dist1:variance"
+        ],
+        "guard": []
+      },
+      "sha256": "c80838588feaf275c28dcfd7caeee170a45ca6e7410086c640ed3f5b3303d7d0",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:power",
+        "relation1:eq",
+        "s_dist1:sdev",
+        "s_dist1:variance"
+      ]
+    },
     "set1:emptyset/1": {
+      "regions": {
+        "body": [
+          "relation1:eq",
+          "set1:emptyset",
+          "set1:intersect"
+        ],
+        "guard": []
+      },
       "sha256": "ad85dbf84f6fb9760cec0ae1a7ca869e45baaf10ab2175e3fdc6161094497b8f",
       "shape": "relation1:eq",
       "symbols": [
@@ -947,6 +3126,14 @@
       ]
     },
     "set1:emptyset/2": {
+      "regions": {
+        "body": [
+          "relation1:eq",
+          "set1:emptyset",
+          "set1:union"
+        ],
+        "guard": []
+      },
       "sha256": "1ff8d78b7318620deac0500ed20b2b55e6be314808856f5054abd763b90945f4",
       "shape": "relation1:eq",
       "symbols": [
@@ -956,6 +3143,15 @@
       ]
     },
     "set1:emptyset/3": {
+      "regions": {
+        "body": [
+          "alg1:zero",
+          "relation1:eq",
+          "set1:emptyset",
+          "set1:size"
+        ],
+        "guard": []
+      },
       "sha256": "64e1d59cdaff09004db505768aa436392e4e0cdeeb18aac28141b0f275476ceb",
       "shape": "relation1:eq",
       "symbols": [
@@ -966,6 +3162,16 @@
       ]
     },
     "set1:in/1": {
+      "regions": {
+        "body": [
+          "set1:in",
+          "set1:intersect"
+        ],
+        "guard": [
+          "logic1:and",
+          "set1:in"
+        ]
+      },
       "sha256": "f65b6efc3186e2438c2bfaf9ec48d9357b05f9b313ac2e0ccf35f887729b1ba4",
       "shape": "logic1:implies",
       "symbols": [
@@ -976,6 +3182,14 @@
       ]
     },
     "set1:intersect/1": {
+      "regions": {
+        "body": [
+          "logic1:and",
+          "set1:intersect",
+          "set1:subset"
+        ],
+        "guard": []
+      },
       "sha256": "1a7de16ae6d670a6264617a9701c52af358139b6524ee4b2995a3e2cd8741f9f",
       "shape": "logic1:and",
       "symbols": [
@@ -985,6 +3199,15 @@
       ]
     },
     "set1:notin/1": {
+      "regions": {
+        "body": [
+          "logic1:not",
+          "set1:notin"
+        ],
+        "guard": [
+          "set1:in"
+        ]
+      },
       "sha256": "50b20b1703a7fbc41e06f6ece413234e9db8117a6d67a1a03d6ef10fbc6443ba",
       "shape": "logic1:implies",
       "symbols": [
@@ -995,6 +3218,15 @@
       ]
     },
     "set1:notprsubset/1": {
+      "regions": {
+        "body": [
+          "logic1:not",
+          "set1:prsubset"
+        ],
+        "guard": [
+          "set1:notprsubset"
+        ]
+      },
       "sha256": "efc94053b1d4a1c1ef16c671c1b79b66a652e4bce5e553d612ba5cdafb0a570f",
       "shape": "logic1:implies",
       "symbols": [
@@ -1005,6 +3237,17 @@
       ]
     },
     "set1:notsubset/1": {
+      "regions": {
+        "body": [
+          "logic1:and",
+          "quant1:exists",
+          "set1:in",
+          "set1:notin"
+        ],
+        "guard": [
+          "set1:notsubset"
+        ]
+      },
       "sha256": "9092e8327e0abef9627857f4891481da425432df1cb0c5a239819ab884c22c9d",
       "shape": "logic1:implies",
       "symbols": [
@@ -1017,6 +3260,16 @@
       ]
     },
     "set1:prsubset/1": {
+      "regions": {
+        "body": [
+          "logic1:and",
+          "relation1:neq",
+          "set1:subset"
+        ],
+        "guard": [
+          "set1:prsubset"
+        ]
+      },
       "sha256": "96950844dae63455d623a9ab92a2bc3a25185b6c3c6cb6ea7bbe927c0311b19b",
       "shape": "logic1:implies",
       "symbols": [
@@ -1028,6 +3281,13 @@
       ]
     },
     "set1:setdiff/1": {
+      "regions": {
+        "body": [
+          "set1:setdiff",
+          "set1:subset"
+        ],
+        "guard": []
+      },
       "sha256": "d6c02d2e5622c8d920f040feb6f72a38d05c28dac2f56662652912e4fe4e7759",
       "shape": "set1:subset",
       "symbols": [
@@ -1036,6 +3296,15 @@
       ]
     },
     "set1:subset/1": {
+      "regions": {
+        "body": [
+          "set1:subset"
+        ],
+        "guard": [
+          "logic1:and",
+          "set1:subset"
+        ]
+      },
       "sha256": "9fd582ea7368e3fdd0839fb7ea4be24796d70464ef4629c24fb81d8c3f96ceaf",
       "shape": "logic1:implies",
       "symbols": [
@@ -1045,6 +3314,14 @@
       ]
     },
     "set1:union/1": {
+      "regions": {
+        "body": [
+          "logic1:and",
+          "set1:subset",
+          "set1:union"
+        ],
+        "guard": []
+      },
       "sha256": "ea38b39fc3731b14487d7cafc6095e376a78985be3b21ea42195083475bee522",
       "shape": "logic1:and",
       "symbols": [
@@ -1054,6 +3331,14 @@
       ]
     },
     "set1:union/2": {
+      "regions": {
+        "body": [
+          "relation1:eq",
+          "set1:intersect",
+          "set1:union"
+        ],
+        "guard": []
+      },
       "sha256": "eb04735562cb14d498f04ea0a9e3d86698f0fd329d014d4e288c6ba6d1906dcd",
       "shape": "quant1:forall/relation1:eq",
       "symbols": [
@@ -1064,6 +3349,22 @@
       ]
     },
     "setname1:C/1": {
+      "regions": {
+        "body": [
+          "arith1:plus",
+          "arith1:times",
+          "logic1:and",
+          "nums1:i",
+          "quant1:exists",
+          "relation1:eq",
+          "set1:in",
+          "setname1:R"
+        ],
+        "guard": [
+          "set1:in",
+          "setname1:C"
+        ]
+      },
       "sha256": "8fad0badba15525ec9af28bd0872b5274e1aa61ef8f758dfaf0ea50a99ba0703",
       "shape": "quant1:forall/logic1:implies",
       "symbols": [
@@ -1081,6 +3382,21 @@
       ]
     },
     "setname1:N/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "alg1:zero",
+          "arith1:minus",
+          "logic1:or",
+          "relation1:eq",
+          "set1:in",
+          "setname1:N"
+        ],
+        "guard": [
+          "set1:in",
+          "setname1:N"
+        ]
+      },
       "sha256": "ff80d537acd38acb54d1c1f861a9fd7988f5b13f74c24b2b8d18291783c29f21",
       "shape": "quant1:forall/logic1:implies",
       "symbols": [
@@ -1096,6 +3412,22 @@
       ]
     },
     "setname1:P/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:times",
+          "logic1:and",
+          "logic1:equivalent",
+          "logic1:implies",
+          "logic1:or",
+          "relation1:eq",
+          "relation1:gt",
+          "set1:in",
+          "setname1:N",
+          "setname1:P"
+        ],
+        "guard": []
+      },
       "sha256": "9d48cad6aff93d5eed96789829ff6b5136e226710adfaf0fcb1bfe6e2acbc1b5",
       "shape": "quant1:forall/logic1:equivalent",
       "symbols": [
@@ -1114,6 +3446,22 @@
       ]
     },
     "setname1:Q/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "logic1:and",
+          "quant1:exists",
+          "relation1:eq",
+          "relation1:geq",
+          "set1:in",
+          "setname1:Z"
+        ],
+        "guard": [
+          "set1:in",
+          "setname1:Q"
+        ]
+      },
       "sha256": "bf3ebd593585cd2cdf55fc2086580144bbada36a60532e88703902cf5d0dc608",
       "shape": "quant1:forall/logic1:implies",
       "symbols": [
@@ -1131,6 +3479,21 @@
       ]
     },
     "setname1:Q/2": {
+      "regions": {
+        "body": [
+          "logic1:and",
+          "quant1:exists",
+          "relation1:lt",
+          "set1:in",
+          "setname1:Q"
+        ],
+        "guard": [
+          "logic1:and",
+          "relation1:lt",
+          "set1:in",
+          "setname1:Q"
+        ]
+      },
       "sha256": "99d8d6857bbd155d3813025530755790b2b0c9dd6cdd43ef0fa90a16cb543e37",
       "shape": "quant1:forall/logic1:implies",
       "symbols": [
@@ -1144,6 +3507,26 @@
       ]
     },
     "setname1:R/1": {
+      "regions": {
+        "body": [
+          "logic1:and",
+          "logic1:implies",
+          "quant1:exists",
+          "quant1:forall",
+          "relation1:leq",
+          "set1:in",
+          "setname1:R"
+        ],
+        "guard": [
+          "logic1:and",
+          "quant1:exists",
+          "quant1:forall",
+          "relation1:leq",
+          "set1:in",
+          "set1:subset",
+          "setname1:R"
+        ]
+      },
       "sha256": "e9ed4349ccf247d3de0e2a2408ea7470762680d3febf5b3876caf15393825485",
       "shape": "logic1:implies",
       "symbols": [
@@ -1158,6 +3541,18 @@
       ]
     },
     "setname1:Z/1": {
+      "regions": {
+        "body": [
+          "arith1:unary_minus",
+          "logic1:or",
+          "set1:in",
+          "setname1:N"
+        ],
+        "guard": [
+          "set1:in",
+          "setname1:Z"
+        ]
+      },
       "sha256": "ace8ca1767f0f5733af8d6b8c6500f74f8f549cdde29b916edcb7abb0188e99e",
       "shape": "quant1:forall/logic1:implies",
       "symbols": [
@@ -1168,6 +3563,1152 @@
         "set1:in",
         "setname1:N",
         "setname1:Z"
+      ]
+    },
+    "transc1:arccos/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:minus",
+          "arith1:plus",
+          "arith1:power",
+          "arith1:root",
+          "arith1:times",
+          "arith1:unary_minus",
+          "nums1:i",
+          "relation1:eq",
+          "transc1:arccos",
+          "transc1:ln"
+        ],
+        "guard": []
+      },
+      "sha256": "3d0104ce8a4e6784873666f090438b2685c26615fee853c7ee9e3b3ffcd08eac",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:minus",
+        "arith1:plus",
+        "arith1:power",
+        "arith1:root",
+        "arith1:times",
+        "arith1:unary_minus",
+        "nums1:i",
+        "relation1:eq",
+        "transc1:arccos",
+        "transc1:ln"
+      ]
+    },
+    "transc1:arccos/2": {
+      "regions": {
+        "body": [
+          "relation1:eq",
+          "transc1:arccos",
+          "transc1:cos"
+        ],
+        "guard": [
+          "alg1:zero",
+          "interval1:interval_cc",
+          "nums1:pi",
+          "set1:in"
+        ]
+      },
+      "sha256": "71835aa3745dfe97193e6c8f2890714a42484df19ae16600eccd251e3e4b9411",
+      "shape": "logic1:implies",
+      "symbols": [
+        "alg1:zero",
+        "interval1:interval_cc",
+        "logic1:implies",
+        "nums1:pi",
+        "relation1:eq",
+        "set1:in",
+        "transc1:arccos",
+        "transc1:cos"
+      ]
+    },
+    "transc1:arccosh/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "arith1:minus",
+          "arith1:plus",
+          "arith1:root",
+          "arith1:times",
+          "relation1:eq",
+          "transc1:arccosh",
+          "transc1:ln"
+        ],
+        "guard": []
+      },
+      "sha256": "2e5489a5cab49ed89eff1b561967cfef1cd7b4abf14807bacb840806f9e431fe",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:divide",
+        "arith1:minus",
+        "arith1:plus",
+        "arith1:root",
+        "arith1:times",
+        "relation1:eq",
+        "transc1:arccosh",
+        "transc1:ln"
+      ]
+    },
+    "transc1:arccosh/2": {
+      "regions": {
+        "body": [
+          "arith1:minus",
+          "arith1:times",
+          "nums1:i",
+          "nums1:pi",
+          "relation1:eq",
+          "transc1:arccos",
+          "transc1:arccosh"
+        ],
+        "guard": []
+      },
+      "sha256": "cdd6bc2a424dccddd59194d5e10c82e950d37ba18aa393ee13b82d978e26ce44",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:minus",
+        "arith1:times",
+        "nums1:i",
+        "nums1:pi",
+        "relation1:eq",
+        "transc1:arccos",
+        "transc1:arccosh"
+      ]
+    },
+    "transc1:arccot/1": {
+      "regions": {
+        "body": [
+          "arith1:unary_minus",
+          "relation1:eq",
+          "transc1:arccot"
+        ],
+        "guard": []
+      },
+      "sha256": "246b0b9d0486c256d0b132021cfac464f10eee5286422ee3084688a78534b52c",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:unary_minus",
+        "relation1:eq",
+        "transc1:arccot"
+      ]
+    },
+    "transc1:arccot/2": {
+      "regions": {
+        "body": [
+          "arith1:divide",
+          "arith1:minus",
+          "arith1:plus",
+          "arith1:times",
+          "nums1:i",
+          "relation1:eq",
+          "transc1:arccot",
+          "transc1:ln"
+        ],
+        "guard": []
+      },
+      "sha256": "d004b9d84315b6a994cbc7dfd8e33c4253c5d96a0307fdd35b92417437cd9d08",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:divide",
+        "arith1:minus",
+        "arith1:plus",
+        "arith1:times",
+        "nums1:i",
+        "relation1:eq",
+        "transc1:arccot",
+        "transc1:ln"
+      ]
+    },
+    "transc1:arccoth/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "arith1:minus",
+          "arith1:unary_minus",
+          "relation1:eq",
+          "transc1:arccoth",
+          "transc1:ln"
+        ],
+        "guard": []
+      },
+      "sha256": "33d900f1bf7bd41a276d29ec120f21942d8cf8afe57d3b225f2e7e441a00e50f",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:divide",
+        "arith1:minus",
+        "arith1:unary_minus",
+        "relation1:eq",
+        "transc1:arccoth",
+        "transc1:ln"
+      ]
+    },
+    "transc1:arccoth/2": {
+      "regions": {
+        "body": [
+          "arith1:times",
+          "nums1:i",
+          "relation1:eq",
+          "transc1:arccot",
+          "transc1:arccoth"
+        ],
+        "guard": [
+          "alg1:zero",
+          "relation1:neq"
+        ]
+      },
+      "sha256": "72af59c1d55b78b91962971e5901307805d87c5474d7feabe0649cef58b90b5b",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "alg1:zero",
+        "arith1:times",
+        "logic1:implies",
+        "nums1:i",
+        "quant1:forall",
+        "relation1:eq",
+        "relation1:neq",
+        "transc1:arccot",
+        "transc1:arccoth"
+      ]
+    },
+    "transc1:arccsc/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "arith1:minus",
+          "arith1:plus",
+          "arith1:power",
+          "arith1:root",
+          "arith1:times",
+          "arith1:unary_minus",
+          "nums1:i",
+          "relation1:eq",
+          "transc1:arccsc",
+          "transc1:ln"
+        ],
+        "guard": []
+      },
+      "sha256": "01bda0ed7706f61555d93501f1fa82ede76570964947caf1ea3efea40780e76a",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:divide",
+        "arith1:minus",
+        "arith1:plus",
+        "arith1:power",
+        "arith1:root",
+        "arith1:times",
+        "arith1:unary_minus",
+        "nums1:i",
+        "relation1:eq",
+        "transc1:arccsc",
+        "transc1:ln"
+      ]
+    },
+    "transc1:arccsc/2": {
+      "regions": {
+        "body": [
+          "arith1:times",
+          "nums1:i",
+          "relation1:eq",
+          "transc1:arccsc",
+          "transc1:arccsch"
+        ],
+        "guard": []
+      },
+      "sha256": "a2766149998be1cfbc353fa8c10c8cd920dc31a1a33d84136f9cee32f17257ba",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:times",
+        "nums1:i",
+        "relation1:eq",
+        "transc1:arccsc",
+        "transc1:arccsch"
+      ]
+    },
+    "transc1:arccsc/3": {
+      "regions": {
+        "body": [
+          "arith1:unary_minus",
+          "relation1:eq",
+          "transc1:arccsc"
+        ],
+        "guard": []
+      },
+      "sha256": "7157d82d28ca9bbe50e4bee57511de232200ad707f4e788404306a13beed2745",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:unary_minus",
+        "relation1:eq",
+        "transc1:arccsc"
+      ]
+    },
+    "transc1:arccsch/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "arith1:plus",
+          "arith1:power",
+          "arith1:root",
+          "relation1:eq",
+          "transc1:arccsch",
+          "transc1:ln"
+        ],
+        "guard": []
+      },
+      "sha256": "bafe0c2f740440236f32aa9264023dce897733ff6acbbdb762ea3558a72bc197",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:divide",
+        "arith1:plus",
+        "arith1:power",
+        "arith1:root",
+        "relation1:eq",
+        "transc1:arccsch",
+        "transc1:ln"
+      ]
+    },
+    "transc1:arccsch/2": {
+      "regions": {
+        "body": [
+          "arith1:times",
+          "nums1:i",
+          "relation1:eq",
+          "transc1:arccsc",
+          "transc1:arccsch"
+        ],
+        "guard": []
+      },
+      "sha256": "3377dec9f3ff8e11e4a8700a0fcdc1af7637b1a3d6e000d34c741ea5f8aa5cc4",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:times",
+        "nums1:i",
+        "relation1:eq",
+        "transc1:arccsc",
+        "transc1:arccsch"
+      ]
+    },
+    "transc1:arcsec/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "arith1:minus",
+          "arith1:plus",
+          "arith1:power",
+          "arith1:root",
+          "arith1:times",
+          "arith1:unary_minus",
+          "nums1:i",
+          "relation1:eq",
+          "transc1:arcsec",
+          "transc1:ln"
+        ],
+        "guard": []
+      },
+      "sha256": "b017d128470c2a707cdc3b1e5d122c8bbc129bb3c332d140db04611e0b1ecd19",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:divide",
+        "arith1:minus",
+        "arith1:plus",
+        "arith1:power",
+        "arith1:root",
+        "arith1:times",
+        "arith1:unary_minus",
+        "nums1:i",
+        "relation1:eq",
+        "transc1:arcsec",
+        "transc1:ln"
+      ]
+    },
+    "transc1:arcsec/2": {
+      "regions": {
+        "body": [
+          "arith1:times",
+          "nums1:i",
+          "relation1:eq",
+          "transc1:arcsec",
+          "transc1:arcsech"
+        ],
+        "guard": []
+      },
+      "sha256": "9eb2f9ba7b4b0d8291fc0bb7b5b1ba3d2a4d7e6cd5ccd0a39423dd8b79d3670d",
+      "shape": "quant1:forall/relation1:eq",
+      "symbols": [
+        "arith1:times",
+        "nums1:i",
+        "quant1:forall",
+        "relation1:eq",
+        "transc1:arcsec",
+        "transc1:arcsech"
+      ]
+    },
+    "transc1:arcsech/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "arith1:minus",
+          "arith1:plus",
+          "arith1:root",
+          "arith1:times",
+          "relation1:eq",
+          "transc1:arcsech",
+          "transc1:ln"
+        ],
+        "guard": []
+      },
+      "sha256": "c99251710b325e2818b72fe4c3642437d0869776db26439f9fd3d340630a1ebf",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:divide",
+        "arith1:minus",
+        "arith1:plus",
+        "arith1:root",
+        "arith1:times",
+        "relation1:eq",
+        "transc1:arcsech",
+        "transc1:ln"
+      ]
+    },
+    "transc1:arcsech/2": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "arith1:minus",
+          "arith1:plus",
+          "arith1:power",
+          "nums1:rational",
+          "relation1:eq",
+          "transc1:arcsech",
+          "transc1:ln"
+        ],
+        "guard": [
+          "interval1:interval_oc",
+          "set1:in"
+        ]
+      },
+      "sha256": "cdcf0f1d95c7c3e66d77766409ca3e2066c97833077f445ff0722a47c5b5cc27",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "alg1:one",
+        "arith1:divide",
+        "arith1:minus",
+        "arith1:plus",
+        "arith1:power",
+        "interval1:interval_oc",
+        "logic1:implies",
+        "nums1:rational",
+        "quant1:forall",
+        "relation1:eq",
+        "set1:in",
+        "transc1:arcsech",
+        "transc1:ln"
+      ]
+    },
+    "transc1:arcsin/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:minus",
+          "arith1:plus",
+          "arith1:power",
+          "arith1:root",
+          "arith1:times",
+          "arith1:unary_minus",
+          "nums1:i",
+          "relation1:eq",
+          "transc1:arcsin",
+          "transc1:ln"
+        ],
+        "guard": []
+      },
+      "sha256": "6db7ae609a33cf44ab87191b4f35b086e4c0bbb8160a04a1de30f9550f9b4aec",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:minus",
+        "arith1:plus",
+        "arith1:power",
+        "arith1:root",
+        "arith1:times",
+        "arith1:unary_minus",
+        "nums1:i",
+        "relation1:eq",
+        "transc1:arcsin",
+        "transc1:ln"
+      ]
+    },
+    "transc1:arcsin/2": {
+      "regions": {
+        "body": [
+          "relation1:eq",
+          "transc1:arcsin",
+          "transc1:sin"
+        ],
+        "guard": [
+          "arith1:divide",
+          "arith1:unary_minus",
+          "interval1:interval_cc",
+          "nums1:pi",
+          "set1:in"
+        ]
+      },
+      "sha256": "8fdd386226abbacc3dbf2a51018c4021268a750d489a15ad873b28656f8f6541",
+      "shape": "logic1:implies",
+      "symbols": [
+        "arith1:divide",
+        "arith1:unary_minus",
+        "interval1:interval_cc",
+        "logic1:implies",
+        "nums1:pi",
+        "relation1:eq",
+        "set1:in",
+        "transc1:arcsin",
+        "transc1:sin"
+      ]
+    },
+    "transc1:arcsinh/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:plus",
+          "arith1:power",
+          "arith1:root",
+          "relation1:eq",
+          "transc1:arcsinh",
+          "transc1:ln"
+        ],
+        "guard": []
+      },
+      "sha256": "06fcad093a72676d02529babf591fddd9f90fd99485066df407c547c6076dc8b",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:plus",
+        "arith1:power",
+        "arith1:root",
+        "relation1:eq",
+        "transc1:arcsinh",
+        "transc1:ln"
+      ]
+    },
+    "transc1:arcsinh/2": {
+      "regions": {
+        "body": [
+          "arith1:times",
+          "arith1:unary_minus",
+          "nums1:i",
+          "relation1:eq",
+          "transc1:arcsin",
+          "transc1:arcsinh"
+        ],
+        "guard": []
+      },
+      "sha256": "2c49d40de551128427fc11addb360663317ac2e2df1122b797d08cb7986cc64d",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:times",
+        "arith1:unary_minus",
+        "nums1:i",
+        "relation1:eq",
+        "transc1:arcsin",
+        "transc1:arcsinh"
+      ]
+    },
+    "transc1:arctan/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "arith1:minus",
+          "arith1:plus",
+          "arith1:times",
+          "nums1:i",
+          "relation1:eq",
+          "transc1:arctan",
+          "transc1:ln"
+        ],
+        "guard": []
+      },
+      "sha256": "740b1106cf70a233564410e7ba8bbb4fe3ced4d8ff02fbe020e4ef2b906541f9",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:divide",
+        "arith1:minus",
+        "arith1:plus",
+        "arith1:times",
+        "nums1:i",
+        "relation1:eq",
+        "transc1:arctan",
+        "transc1:ln"
+      ]
+    },
+    "transc1:arctan/2": {
+      "regions": {
+        "body": [
+          "relation1:eq",
+          "transc1:arctan",
+          "transc1:tan"
+        ],
+        "guard": [
+          "arith1:divide",
+          "arith1:unary_minus",
+          "interval1:interval_oo",
+          "nums1:pi",
+          "set1:in"
+        ]
+      },
+      "sha256": "82d1930daec2191c76df9d7f1b6b804a6f4b2dcbb3be364660abe90f42b9b7ca",
+      "shape": "logic1:implies",
+      "symbols": [
+        "arith1:divide",
+        "arith1:unary_minus",
+        "interval1:interval_oo",
+        "logic1:implies",
+        "nums1:pi",
+        "relation1:eq",
+        "set1:in",
+        "transc1:arctan",
+        "transc1:tan"
+      ]
+    },
+    "transc1:arctanh/1": {
+      "regions": {
+        "body": [
+          "arith1:times",
+          "arith1:unary_minus",
+          "nums1:i",
+          "relation1:eq",
+          "transc1:arctan",
+          "transc1:arctanh"
+        ],
+        "guard": []
+      },
+      "sha256": "71802424a3ec63e0cef8c215ddb957631ad2ddabd786aa9990e52db2516e48eb",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:times",
+        "arith1:unary_minus",
+        "nums1:i",
+        "relation1:eq",
+        "transc1:arctan",
+        "transc1:arctanh"
+      ]
+    },
+    "transc1:arctanh/2": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "arith1:minus",
+          "arith1:plus",
+          "arith1:times",
+          "nums1:rational",
+          "relation1:eq",
+          "transc1:arctanh",
+          "transc1:ln"
+        ],
+        "guard": [
+          "alg1:one",
+          "alg1:zero",
+          "arith1:power",
+          "logic1:and",
+          "relation1:leq",
+          "relation1:lt"
+        ]
+      },
+      "sha256": "2271ebb5050b731393d8964e8bcb2ca28eeeb2fc85134014c6f6df6c06353ded",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "alg1:one",
+        "alg1:zero",
+        "arith1:divide",
+        "arith1:minus",
+        "arith1:plus",
+        "arith1:power",
+        "arith1:times",
+        "logic1:and",
+        "logic1:implies",
+        "nums1:rational",
+        "quant1:forall",
+        "relation1:eq",
+        "relation1:leq",
+        "relation1:lt",
+        "transc1:arctanh",
+        "transc1:ln"
+      ]
+    },
+    "transc1:cos/1": {
+      "regions": {
+        "body": [
+          "arith1:divide",
+          "arith1:plus",
+          "arith1:times",
+          "arith1:unary_minus",
+          "nums1:i",
+          "relation1:eq",
+          "transc1:cos",
+          "transc1:exp"
+        ],
+        "guard": []
+      },
+      "sha256": "105b25e076df97b9f612e6d58df4657ee3ec1995805858978e5d395069bbb96a",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:divide",
+        "arith1:plus",
+        "arith1:times",
+        "arith1:unary_minus",
+        "nums1:i",
+        "relation1:eq",
+        "transc1:cos",
+        "transc1:exp"
+      ]
+    },
+    "transc1:cos/2": {
+      "regions": {
+        "body": [
+          "arith1:minus",
+          "arith1:power",
+          "arith1:times",
+          "relation1:eq",
+          "transc1:cos",
+          "transc1:sin"
+        ],
+        "guard": []
+      },
+      "sha256": "e5a6cf8ae6e8a4f8fedcde0b1644a688eab40dff8c9bf6f9b78932e9cd17e300",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:minus",
+        "arith1:power",
+        "arith1:times",
+        "relation1:eq",
+        "transc1:cos",
+        "transc1:sin"
+      ]
+    },
+    "transc1:cos/3": {
+      "regions": {
+        "body": [
+          "arith1:unary_minus",
+          "relation1:eq",
+          "transc1:cos"
+        ],
+        "guard": []
+      },
+      "sha256": "12a2962ceabf7f8d3ea51d36700e5f9c7b27e7589d40be1c3cf0a3ced05685cd",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:unary_minus",
+        "relation1:eq",
+        "transc1:cos"
+      ]
+    },
+    "transc1:cosh/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:plus",
+          "arith1:power",
+          "arith1:times",
+          "arith1:unary_minus",
+          "nums1:e",
+          "nums1:rational",
+          "relation1:eq",
+          "transc1:cosh"
+        ],
+        "guard": []
+      },
+      "sha256": "1ef513de352edc5995475e64a579a08d9c6b4cacd3138b753a34cba8d6bbcdc7",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:plus",
+        "arith1:power",
+        "arith1:times",
+        "arith1:unary_minus",
+        "nums1:e",
+        "nums1:rational",
+        "relation1:eq",
+        "transc1:cosh"
+      ]
+    },
+    "transc1:cot/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "relation1:eq",
+          "transc1:cot",
+          "transc1:tan"
+        ],
+        "guard": []
+      },
+      "sha256": "335c1b6f379892bd822592d4ac65f8d9e86859ed238aa31af6df56ec4da5745a",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:divide",
+        "relation1:eq",
+        "transc1:cot",
+        "transc1:tan"
+      ]
+    },
+    "transc1:coth/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "relation1:eq",
+          "transc1:coth",
+          "transc1:tanh"
+        ],
+        "guard": []
+      },
+      "sha256": "03a6c2b869edde31010df1765667132c20986782b854cce0761112907bf4cd6f",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:divide",
+        "relation1:eq",
+        "transc1:coth",
+        "transc1:tanh"
+      ]
+    },
+    "transc1:csc/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "relation1:eq",
+          "transc1:csc",
+          "transc1:sin"
+        ],
+        "guard": []
+      },
+      "sha256": "3c5f1fcacaa904e963f450941b6b2ba436e71c92493c4ef8e3e182aca95c37f0",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:divide",
+        "relation1:eq",
+        "transc1:csc",
+        "transc1:sin"
+      ]
+    },
+    "transc1:csch/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "relation1:eq",
+          "transc1:csch",
+          "transc1:sinh"
+        ],
+        "guard": []
+      },
+      "sha256": "e1e5140918f654d19109ea91c6fc46ad0e5f1cefbaee2f7ae88e6ede4e983c4e",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:divide",
+        "relation1:eq",
+        "transc1:csch",
+        "transc1:sinh"
+      ]
+    },
+    "transc1:exp/1": {
+      "regions": {
+        "body": [
+          "arith1:plus",
+          "arith1:times",
+          "nums1:i",
+          "nums1:pi",
+          "relation1:eq",
+          "transc1:exp"
+        ],
+        "guard": [
+          "set1:in",
+          "setname1:Z"
+        ]
+      },
+      "sha256": "550a22584cd3f530078093ff76adf472865b1117d264b2f095ff60d773b0a2c5",
+      "shape": "quant1:forall/logic1:implies",
+      "symbols": [
+        "arith1:plus",
+        "arith1:times",
+        "logic1:implies",
+        "nums1:i",
+        "nums1:pi",
+        "quant1:forall",
+        "relation1:eq",
+        "set1:in",
+        "setname1:Z",
+        "transc1:exp"
+      ]
+    },
+    "transc1:ln/1": {
+      "regions": {
+        "body": [
+          "arith1:unary_minus",
+          "complex1:imaginary",
+          "logic1:and",
+          "nums1:pi",
+          "relation1:leq",
+          "relation1:lt",
+          "transc1:ln"
+        ],
+        "guard": []
+      },
+      "sha256": "568f9ff64daa2fa568c75e6f5d824bd06b746b63a1802e70a13765ff93c4ca9f",
+      "shape": "logic1:and",
+      "symbols": [
+        "arith1:unary_minus",
+        "complex1:imaginary",
+        "logic1:and",
+        "nums1:pi",
+        "relation1:leq",
+        "relation1:lt",
+        "transc1:ln"
+      ]
+    },
+    "transc1:log/1": {
+      "regions": {
+        "body": [
+          "relation1:eq",
+          "transc1:log"
+        ],
+        "guard": [
+          "arith1:power",
+          "relation1:eq"
+        ]
+      },
+      "sha256": "279606e993c4fcc8212587b371935705b850c171f4a8aa3310d5ae624bd492e6",
+      "shape": "logic1:implies",
+      "symbols": [
+        "arith1:power",
+        "logic1:implies",
+        "relation1:eq",
+        "transc1:log"
+      ]
+    },
+    "transc1:sec/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "relation1:eq",
+          "transc1:cos",
+          "transc1:sec"
+        ],
+        "guard": []
+      },
+      "sha256": "41b21bd8729cec10643e2cc462c7da1f6e161481acdedee2bf04b4c4a404d050",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:divide",
+        "relation1:eq",
+        "transc1:cos",
+        "transc1:sec"
+      ]
+    },
+    "transc1:sech/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:divide",
+          "relation1:eq",
+          "transc1:cosh",
+          "transc1:sech"
+        ],
+        "guard": []
+      },
+      "sha256": "1f99701f2897e63700f6219177055c4201690e9dc0a28e59ac68efab196c57ef",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:divide",
+        "relation1:eq",
+        "transc1:cosh",
+        "transc1:sech"
+      ]
+    },
+    "transc1:sin/1": {
+      "regions": {
+        "body": [
+          "arith1:divide",
+          "arith1:minus",
+          "arith1:times",
+          "arith1:unary_minus",
+          "nums1:i",
+          "relation1:eq",
+          "transc1:exp",
+          "transc1:sin"
+        ],
+        "guard": []
+      },
+      "sha256": "026396e17b1c40c59adc0ce9bbb08fb4df09abe95cdcc172b34264f6a0c3bfca",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:divide",
+        "arith1:minus",
+        "arith1:times",
+        "arith1:unary_minus",
+        "nums1:i",
+        "relation1:eq",
+        "transc1:exp",
+        "transc1:sin"
+      ]
+    },
+    "transc1:sin/2": {
+      "regions": {
+        "body": [
+          "arith1:plus",
+          "arith1:times",
+          "relation1:eq",
+          "transc1:cos",
+          "transc1:sin"
+        ],
+        "guard": []
+      },
+      "sha256": "00a45778ebd5eece113a0b332d51b16a445a839f58118e60211f8b176e86a9f1",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:plus",
+        "arith1:times",
+        "relation1:eq",
+        "transc1:cos",
+        "transc1:sin"
+      ]
+    },
+    "transc1:sin/3": {
+      "regions": {
+        "body": [
+          "arith1:unary_minus",
+          "relation1:eq",
+          "transc1:sin"
+        ],
+        "guard": []
+      },
+      "sha256": "13d3a48b86f5c17e70db01cbadedd44bc75065b9b2db7dbc4133643c611ca925",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:unary_minus",
+        "relation1:eq",
+        "transc1:sin"
+      ]
+    },
+    "transc1:sinh/1": {
+      "regions": {
+        "body": [
+          "alg1:one",
+          "arith1:minus",
+          "arith1:power",
+          "arith1:times",
+          "arith1:unary_minus",
+          "nums1:e",
+          "nums1:rational",
+          "relation1:eq",
+          "transc1:sinh"
+        ],
+        "guard": []
+      },
+      "sha256": "d10b6741dfa6618d1130b757eab720759b65648e2e75f6547d1cdfc65fdea1f5",
+      "shape": "relation1:eq",
+      "symbols": [
+        "alg1:one",
+        "arith1:minus",
+        "arith1:power",
+        "arith1:times",
+        "arith1:unary_minus",
+        "nums1:e",
+        "nums1:rational",
+        "relation1:eq",
+        "transc1:sinh"
+      ]
+    },
+    "transc1:tan/1": {
+      "regions": {
+        "body": [
+          "arith1:divide",
+          "relation1:eq",
+          "transc1:cos",
+          "transc1:sin",
+          "transc1:tan"
+        ],
+        "guard": []
+      },
+      "sha256": "d4e99110a5ed04420fdb86077d1f43b4ef9694d0e09b6852f95fb98aa7f15c56",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:divide",
+        "relation1:eq",
+        "transc1:cos",
+        "transc1:sin",
+        "transc1:tan"
+      ]
+    },
+    "transc1:tanh/1": {
+      "regions": {
+        "body": [
+          "arith1:divide",
+          "relation1:eq",
+          "transc1:cosh",
+          "transc1:sinh",
+          "transc1:tanh"
+        ],
+        "guard": []
+      },
+      "sha256": "420ea61a69a63bc03ba09e25443cdfb1967437966f774b0c4c3055b6a0b99829",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:divide",
+        "relation1:eq",
+        "transc1:cosh",
+        "transc1:sinh",
+        "transc1:tanh"
+      ]
+    },
+    "veccalc1:curl/1": {
+      "regions": {
+        "body": [
+          "arith1:plus",
+          "calculus1:partialdiff",
+          "linalg1:vectorproduct",
+          "linalg2:vector",
+          "list1:list",
+          "relation1:eq",
+          "veccalc1:curl"
+        ],
+        "guard": []
+      },
+      "sha256": "00f6de5c040794f5e6875672d5809c3a7a639954d5602af98edd351acee2b4d1",
+      "shape": "relation1:eq",
+      "symbols": [
+        "arith1:plus",
+        "calculus1:partialdiff",
+        "linalg1:vectorproduct",
+        "linalg2:vector",
+        "list1:list",
+        "relation1:eq",
+        "veccalc1:curl"
       ]
     }
   },

@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:expectation-by-density a skos:Concept ; skos:prefLabel "Expectation with respect to a density"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:random-variable ;
+    skos:definition "The expected value of a real random variable with a probability density and finite absolute first moment."@en .
+
+c:moment-by-density a skos:Concept ; skos:prefLabel "Moment with respect to a density"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:random-variable ;
+    skos:definition "A finite integer-order moment about a real center of a real random variable that has a probability density."@en .
+
+c:density-expectation-integral a skos:Concept ; skos:prefLabel "Density integral for the expected value"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:random-variable ;
+    skos:definition "For a real random variable with density f and finite absolute first moment, expected value is the integral of x f(x) over the real line."@en .
+
+c:density-moment-integral a skos:Concept ; skos:prefLabel "Density integral for a moment about a center"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:random-variable ;
+    skos:definition "For a real random variable with density f, real center a, nonnegative integer order n and finite absolute moment about a, the moment is the real-line integral of (x−a)^n f(x)."@en .

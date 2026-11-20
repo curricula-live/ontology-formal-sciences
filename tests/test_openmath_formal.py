@@ -20,6 +20,7 @@ def test_formal_shape_retains_a_quantified_guard():
     </FMP>
     """)
     assert openmath.shape(fmp) == "quant1:forall/logic1:implies"
+    assert openmath.expression_regions(fmp) == {"guard": [], "body": []}
 
 
 def test_openmath_statement_provenance_preserves_guard_and_source_symbol():
@@ -32,22 +33,26 @@ def test_openmath_statement_provenance_preserves_guard_and_source_symbol():
     assert len(str(prov.value(witness, V.sourceExpressionDigest))) == 64
     assert prov.value(witness, PROV.hadPrimarySource) == URIRef("http://www.openmath.org/cd/arith1.ocd")
     assert (witness, DCTERMS.references, URIRef("http://www.openmath.org/cd/arith1#divide")) in prov
-    assert report["dispositions"]["rejected"] == 7
+    assert report["dispositions"]["rejected"] >= 7
     assert not list(prov.subjects(DCTERMS.references, URIRef("http://www.openmath.org/cd/set1#notsubset")))
 
 
-@pytest.mark.parametrize("defect", ["license", "unwitnessed-symbol"])
+@pytest.mark.parametrize("defect", ["license", "unwitnessed-symbol", "unreviewed-guard", "unresolved-symbol"])
 def test_review_gate_rejects_drift(tmp_path, monkeypatch, defect):
     evidence = read(openmath.EVIDENCE)
     decisions = read(openmath.DECISIONS)
     if defect == "license":
         evidence["dictionaries"]["logic1"]["license_notice_sha256"] = "incorrect"
-    else:
+    elif defect == "unwitnessed-symbol":
         decisions["decisions"]["logic1:not/1"]["uses"].append("arith1:plus")
+    elif defect == "unreviewed-guard":
+        del decisions["decisions"]["set1:prsubset/1"]["guard_properties"]
+    else:
+        evidence["properties"]["logic1:not/1"]["symbols"].append("missing:unknown")
     monkeypatch.setattr(openmath, "EVIDENCE", tmp_path / "evidence.json")
     monkeypatch.setattr(openmath, "DECISIONS", tmp_path / "reviews.json")
     write(openmath.EVIDENCE, evidence)
     write(openmath.DECISIONS, decisions)
     graph, prov = authored()
-    with pytest.raises(ValueError, match="license witness|bound source occurrences"):
+    with pytest.raises(ValueError, match="license witness|bound source occurrences|explicit guard scope|Invalid OpenMath statement"):
         openmath.apply_formal_properties(registry()["openmath"], graph, prov)
