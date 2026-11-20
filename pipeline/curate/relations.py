@@ -65,6 +65,20 @@ PROFILES = {
     }),
 }
 
+CAUSE_BY_ACTION = {
+    "exclude_reviewed_application": "out_of_scope_source_content",
+    "exclude_profile_role": "unsupported_relation_semantics",
+    "outside_relation_profile": "unsupported_relation_semantics",
+    "resolve_identity_conflict": "ambiguous_identity",
+    "review_mapping": "unreviewed_identity_mapping",
+    "collect_endpoint_evidence": "insufficient_endpoint_evidence",
+    "review_domain_scope": "domain_scope_undetermined",
+    "review_subject_admission": "missing_canonical_subject",
+    "review_relation": "insufficient_relation_evidence",
+    "approved": "approved",
+    "rejected": "editorially_rejected",
+}
+
 
 def extract(store, graph_name, profile):
     """Keep only named local endpoints. Blank-node identifiers stay in staging."""
@@ -280,6 +294,10 @@ def apply_relations(catalog, canonical, mappings, provenance, review_output=None
             report[source_id]["endpoint_resolution"] = endpoints.summary(resolution, edges)
             report[source_id]["endpoint_resolution"]["reviewed_projections"] = len(projections)
             report[source_id]["candidate_actions"] = dict(actions)
+            causes = Counter()
+            for action, count in actions.items():
+                causes[CAUSE_BY_ACTION[action]] += count
+            report[source_id]["candidate_causes"] = dict(causes)
     return report
 
 

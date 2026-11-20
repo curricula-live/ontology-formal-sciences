@@ -28,18 +28,20 @@ def components(concepts, neighbors):
 
 def relation_connectivity(edges, owners, population=None):
     neighbors = defaultdict(set)
-    cross = 0
+    cross = Counter()
     for subject, _, obj in edges:
         neighbors[subject].add(obj)
         neighbors[obj].add(subject)
-        cross += owners[subject] != owners[obj]
+        if owners[subject] != owners[obj]:
+            cross[f"{owners[subject]} -> {owners[obj]}"] += 1
     participating = set(neighbors)
     sizes = components(participating if population is None else population, neighbors)
     return {
         "relations": len(edges),
         "participating_concepts": len(participating),
         "participating_by_scheme": dict(Counter(owners[term] for term in participating)),
-        "cross_domain_relations": cross,
+        "cross_domain_relations": sum(cross.values()),
+        "cross_domain_by_direction": dict(cross),
         "components_with_edges": sum(size > 1 for size in sizes),
         "component_size_histogram": dict(Counter(map(str, sizes))),
         "largest_component": max(sizes, default=0),

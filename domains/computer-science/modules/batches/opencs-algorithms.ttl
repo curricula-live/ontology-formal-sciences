@@ -96,7 +96,7 @@ c:opencs-c16990 a skos:Concept ; skos:prefLabel "C4.5 algorithm"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
 
 c:opencs-c17053 a skos:Concept ; skos:prefLabel "CN2 algorithm"@en ;
-    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+    skos:inScheme scheme:computer-science ; skos:broader c:inductive-rule-learning .
 
 c:opencs-c17406 a skos:Concept ; skos:prefLabel "Hybrid algorithm"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:algorithms .

@@ -917,7 +917,7 @@
   },
   "license": "CC-BY-4.0",
   "modules": {
-    "domains/computer-science/modules/batches/opencs-algorithms.ttl": "1aed4cd3170f80c8825d6ab5abbd2ba550ed3faa58d19f82a95a06884267a7a8",
+    "domains/computer-science/modules/batches/opencs-algorithms.ttl": "5fc562b3b192e2e7f02d5645a010023dea0756918f09c581fff50c94c64253b9",
     "domains/computer-science/modules/batches/opencs-automata-and-languages.ttl": "9115b688345446e6a52edc223853e2b4858f26cab182c96100a8693bbd1e8e4a",
     "domains/computer-science/modules/batches/opencs-coding.ttl": "2740cf000c2e505da97f32dc4d960911e3d8f391551ef84a0e973cec1d433145",
     "domains/computer-science/modules/batches/opencs-complexity.ttl": "19012abd6ad827c6000482d8765a0429d2ac6e4a3d4123de4afe9a3e5bf1b3b9",

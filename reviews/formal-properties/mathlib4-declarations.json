@@ -1,0 +1,168 @@
+{
+  "declarations": [
+    {
+      "claims": [
+        {
+          "rationale": "The two bracketings admit the specified equivalence.",
+          "state": "approved",
+          "triple": [
+            "product-type",
+            "hasProperty",
+            "product-type-reassociation"
+          ]
+        },
+        {
+          "rationale": "The constructed equivalence operates on nested pairs.",
+          "state": "approved",
+          "triple": [
+            "product-type-reassociation",
+            "uses",
+            "product-type"
+          ]
+        }
+      ],
+      "first_line": 116,
+      "last_line": 118,
+      "module": "Mathlib/Logic/Equiv/Prod.lean",
+      "name": "Equiv.prodAssoc",
+      "rationale": "The forward and inverse functions rebracket a triple represented by nested binary products.",
+      "token": "prodAssoc",
+      "witness_sha256": "a2b2bb47a9ce53fd84cd1c1c22cfcdf9d8fb5f11ca7676b6b648671a7ce3903a"
+    },
+    {
+      "claims": [
+        {
+          "rationale": "Binary products differ in order and admit the specified equivalence.",
+          "state": "approved",
+          "triple": [
+            "product-type",
+            "hasProperty",
+            "product-type-swap"
+          ]
+        },
+        {
+          "rationale": "Both the domain and codomain are binary product types.",
+          "state": "approved",
+          "triple": [
+            "product-type-swap",
+            "uses",
+            "product-type"
+          ]
+        },
+        {
+          "rationale": "The declaration constructs an equivalence. It does not identify the two type expressions definitionally.",
+          "state": "rejected",
+          "triple": [
+            "product-type-swap",
+            "hasProperty",
+            "definitional-equality"
+          ]
+        }
+      ],
+      "first_line": 92,
+      "last_line": 94,
+      "module": "Mathlib/Logic/Equiv/Prod.lean",
+      "name": "Equiv.prodComm",
+      "rationale": "The function swaps components in both directions, witnessing equivalence of types.",
+      "token": "prodComm",
+      "witness_sha256": "f2245c54d0a1136aaf38bf3566ef4d91f5dd94bb6f0dc6b6ad31e11a5d126cbf"
+    },
+    {
+      "claims": [
+        {
+          "rationale": "The two reducibility premises imply the composite reducibility in the standard computable setting.",
+          "state": "approved",
+          "triple": [
+            "many-one-reduction",
+            "hasProperty",
+            "many-one-reduction-transitivity"
+          ]
+        },
+        {
+          "rationale": "The transitivity result composes two instances of many-one reducibility.",
+          "state": "approved",
+          "triple": [
+            "many-one-reduction-transitivity",
+            "uses",
+            "many-one-reduction"
+          ]
+        },
+        {
+          "rationale": "The reduction witness in the formal proof is g composed with f.",
+          "state": "approved",
+          "triple": [
+            "many-one-reduction-transitivity",
+            "uses",
+            "function-composition"
+          ]
+        }
+      ],
+      "first_line": 56,
+      "last_line": 60,
+      "module": "Mathlib/Computability/Reduce.lean",
+      "name": "ManyOneReducible.trans",
+      "rationale": "The theorem is scoped to predicates on primitively codable types. The proof composes the two computable translating maps.",
+      "token": "ManyOneReducible.trans",
+      "witness_sha256": "179fbe798801ffe0d1fd686b4d4f28ed71c9a4500bddf8f2ad4b5dddaa9842f3"
+    },
+    {
+      "claims": [
+        {
+          "rationale": "The fixed-point theorem is extensional in the reviewed effective code model.",
+          "state": "approved",
+          "triple": [
+            "effective-program-index-transformation",
+            "hasProperty",
+            "kleene-recursion-theorem"
+          ]
+        },
+        {
+          "rationale": "The equality is between evaluations as partial functions. It provides neither equality of codes nor definitional equality.",
+          "state": "rejected",
+          "triple": [
+            "kleene-recursion-theorem",
+            "hasProperty",
+            "definitional-equality"
+          ]
+        }
+      ],
+      "first_line": 1021,
+      "last_line": 1035,
+      "module": "Mathlib/Computability/PartrecCode.lean",
+      "name": "Nat.Partrec.Code.fixed_point",
+      "rationale": "The declaration proves equality of two partial evaluations for a total computable code transformer.",
+      "token": "fixed_point",
+      "witness_sha256": "1e30cdd0bdf2b43d5625f5e96f7114228175d043256f60c69d5df71bb2f4e56d"
+    },
+    {
+      "claims": [
+        {
+          "rationale": "The two factors and the total count are binomial coefficients in the declared identity.",
+          "state": "approved",
+          "triple": [
+            "vandermonde-convolution",
+            "uses",
+            "binomial-coefficient"
+          ]
+        },
+        {
+          "rationale": "For feasible sample size, dividing the binomial convolution by the total subset count gives one. The declaration supplies the identity and the sampling assumptions are in the canonical normalization subject.",
+          "state": "approved",
+          "triple": [
+            "hypergeometric-normalization",
+            "uses",
+            "vandermonde-convolution"
+          ]
+        }
+      ],
+      "first_line": 28,
+      "last_line": 35,
+      "module": "Mathlib/Data/Nat/Choose/Vandermonde.lean",
+      "name": "Nat.add_choose_eq",
+      "rationale": "The proof over natural arguments uses coefficient multiplication and a finite antidiagonal sum. Its binomial identity also normalizes hypergeometric probability mass, where the denominator is nonzero by the sampling assumptions.",
+      "token": "add_choose_eq",
+      "witness_sha256": "d28efb3137880c8f0e3db34695cde5fcbea5e18dc8251bc8dd6b8d3afb395574"
+    }
+  ],
+  "sha256": "e38cb828c5368d71469540927a0c81ea1faa69f007c9a372926207c8521e82b3"
+}

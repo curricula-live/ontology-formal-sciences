@@ -64,5 +64,16 @@
     "reviewer": "Editorial scope review against pinned source and canonical graph",
     "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
     "source": "ontomath-pro"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/material-implication",
+    "evidence": "<https://w3id.org/ocs/ont/C7823> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C7823> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C10> .\n<https://w3id.org/ocs/ont/C7823> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Material_implication_(rule_of_inference)> .\n<https://w3id.org/ocs/ont/C7823> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Material implication\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C7823",
+    "id": "opencs-v06-review-c7823",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The explicit source reference is to the material-implication rule of inference, whereas the canonical subject is the Boolean truth function. A label match cannot establish equivalence between the rule and the connective.",
+    "reviewer": "v0.6.0 pinned-source editorial audit",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
   }
 ]

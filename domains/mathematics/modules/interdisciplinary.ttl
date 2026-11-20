@@ -1,0 +1,11 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+
+c:vandermonde-convolution a skos:Concept ; skos:prefLabel "Vandermonde's binomial convolution"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:combinatorics ;
+    skos:definition "For nonnegative integer m, n and k, choose(m+n,k) equals the sum of choose(m,i) choose(n,j) over nonnegative i+j=k, with binomial coefficients zero when the lower argument exceeds the upper argument."@en .
+
+c:word-concatenation a skos:Concept ; skos:prefLabel "Concatenation of finite words"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:discrete-mathematics ;
+    skos:definition "The finite word formed by placing the second word's symbols, in order, immediately after the first word's symbols."@en .

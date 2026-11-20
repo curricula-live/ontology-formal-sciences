@@ -12,6 +12,8 @@ from pipeline.align import candidates
 from pipeline.publish import build
 from pipeline.curate.relations import PROFILES, replay as replay_relations
 from pipeline.curate.openmath import replay as replay_openmath
+from pipeline.curate.mathlib_evidence import replay as replay_mathlib
+from pipeline.semantic_audit import AUDITS, replay as replay_semantic_audit
 
 
 def audit(source, offline=False):
@@ -49,6 +51,11 @@ def main():
     formal = subs.add_parser("replay-openmath")
     formal.add_argument("--offline", action="store_true")
     formal.add_argument("--write-evidence", action="store_true")
+    mathlib = subs.add_parser("replay-mathlib")
+    mathlib.add_argument("--offline", action="store_true")
+    semantic = subs.add_parser("replay-semantic-audit")
+    semantic.add_argument("--release", required=True, choices=sorted(p.stem for p in AUDITS.glob("*.json")))
+    semantic.add_argument("--offline", action="store_true")
     for cmd in ("build","validate","stats","reason"):
         subs.add_parser(cmd)
     args = parser.parse_args()
@@ -58,6 +65,10 @@ def main():
             result = list(catalog) if args.view=="list" else {k:s["status"] for k,s in catalog.items()}
         elif args.cmd == "replay-openmath":
             result = replay_openmath(args.offline, args.write_evidence)
+        elif args.cmd == "replay-mathlib":
+            result = replay_mathlib(args.offline)
+        elif args.cmd == "replay-semantic-audit":
+            result = replay_semantic_audit(args.release, args.offline)
         elif hasattr(args,"source"):
             s = catalog[args.source]
             if args.cmd=="fetch":

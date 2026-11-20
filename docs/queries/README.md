@@ -24,6 +24,10 @@ Run `python -m pipeline.competency` from the checkout after building the release
 | information-measures | Six pairs connect a measure to its statistical ingredient, including conditional entropy to conditional distribution and mutual information to both joint distribution and product of marginals. |
 | numerical-assumptions | The conjugate-gradient method assumes symmetric positive definiteness in its standard real linear-system guarantee. |
 | mapping-evidence | Graph theory has reviewed exact matches to CSO graph_theory and OpenCS C14693, each with a source URL and pinned SHA-256. |
-| algorithm-evidence | The 2-SAT implication-graph algorithm uses a directed graph and strongly connected components. Both assertions cite Aspvall, Plass and Tarjan (1979). |
+| algorithm-evidence | The 2-SAT implication-graph algorithm uses a directed graph, strongly connected components and material implication. |
+| binomial-sampling-bridge | Trace binomial and hypergeometric probability mass through binomial coefficients to an OpenMath formula and its expression fingerprint. |
+| hypergeometric-normalization | Follow hypergeometric mass normalization to Vandermonde's identity and its named Lean proof. |
+| ml-schema-evaluation-chain | Trace evaluation output and measure through separate ML-Schema existential witnesses. |
+| many-one-reduction-composition | Connect OpenCS reduction and function composition topics through a named Mathlib declaration, with distinct mapping strengths. |
 
 The source of each algorithm-evidence row is the published article [A linear-time algorithm for testing the truth of certain quantified boolean formulas](https://doi.org/10.1016/0020-0190(79)90002-4). The scientific assertions in these queries describe the scopes in their canonical definitions. In particular, the release associates exact marginal computation with the tree case. Loopy sum-product has different convergence and accuracy properties.

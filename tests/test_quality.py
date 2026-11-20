@@ -48,6 +48,7 @@ def test_connectivity_counts_only_asserted_concept_edges():
 
     graph.add((C.algorithm, V.uses, C.graph))
     result = graph_metrics(graph, prov)
+    assert result["scientific_connectivity"]["cross_domain_by_direction"] == {"computer-science -> mathematics": 1}
     assert result["scientific_connectivity"]["largest_component"] == 3
     assert result["scientific_connectivity"]["evidence_backed"]["largest_component"] == 2
     assert result["scientific_connectivity"]["citation_coverage"] == 0.5

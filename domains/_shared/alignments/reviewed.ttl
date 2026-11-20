@@ -397,3 +397,25 @@
 <https://curricula.live/id/formal-sciences/concept/type-constructor> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C11327> .
 
 <https://curricula.live/id/formal-sciences/concept/type-erasure> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C45767> .
+
+<https://curricula.live/id/formal-sciences/concept/stato-0000628> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C6947> .
+
+<https://curricula.live/id/formal-sciences/concept/many-one-reduction> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C44854> .
+
+<https://curricula.live/id/formal-sciences/concept/post-correspondence-problem> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C29939> .
+
+<https://curricula.live/id/formal-sciences/concept/primitive-recursive-function> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C32546> .
+
+<https://curricula.live/id/formal-sciences/concept/kleene-recursion-theorem> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C15800> .
+
+<https://curricula.live/id/formal-sciences/concept/logical-disjunction> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C11283> .
+
+<https://curricula.live/id/formal-sciences/concept/product-type> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C9985> .
+
+<https://curricula.live/id/formal-sciences/concept/conjunction-introduction> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C16252> .
+
+<https://curricula.live/id/formal-sciences/concept/function-composition> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/ocs/ont/C41482> .
+
+<https://curricula.live/id/formal-sciences/concept/empty-set> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E1171> .
+
+<https://curricula.live/id/formal-sciences/concept/boolean-nand> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/ocs/ont/C14021> .

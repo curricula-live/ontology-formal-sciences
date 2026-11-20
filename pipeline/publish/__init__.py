@@ -8,9 +8,11 @@ from pipeline.curate import authored, reviewed
 from pipeline.curate.batches import verify_batches
 from pipeline.curate.relations import apply_relations
 from pipeline.curate.openmath import apply_formal_properties
+from pipeline.curate.mathlib_evidence import apply_declarations
 from pipeline.validate import check
 from pipeline.reason import reason
 from pipeline.quality import quality
+from pipeline.semantic_audit import release_audit
 
 
 def lines(graph):
@@ -27,6 +29,7 @@ def build(dest=None):
     admissions = verify_batches(sources, graph, prov)
     relation_sources = apply_relations(sources, graph, maps, prov)
     formal_properties = apply_formal_properties(sources['openmath'], graph, prov)
+    declarations = apply_declarations(sources["mathlib4"], graph, prov)
     report = check(graph)
     if not report["conforms"]:
         raise ValueError(report)
@@ -76,6 +79,7 @@ def build(dest=None):
             inventory[source_id]["relations"] = relations
         if formal_properties:
             inventory["openmath"]["formal_properties"] = formal_properties
+        inventory["mathlib4"]["formal_declarations"] = declarations
         config = read(ROOT / "ontology.yaml")
         if config["namespace"] != BASE:
             raise ValueError("Namespace differs from identifier policy")
@@ -84,6 +88,9 @@ def build(dest=None):
                         concepts=len(set(graph.subjects(RDF.type,SKOS.Concept))),predicates=len(set(graph.predicates())),
                         sources=inventory,artifacts={p.name:checksum(p) for p in sorted(out.iterdir())})
         manifest["quality"] = quality(graph, maps, prov, inferred, inventory, report)
+        audit = release_audit(config["version"], graph, sources)
+        if audit:
+            manifest["quality"]["semantic_audit"] = audit
         write(out / "manifest.json",manifest)
         dest.mkdir(exist_ok=True)
         for path in sorted(out.iterdir(),key=lambda p:p.name=="manifest.json"):

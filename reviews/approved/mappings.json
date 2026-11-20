@@ -2407,5 +2407,126 @@
     "reviewer": "Editorial scope review against pinned OpenCS and canonical definitions",
     "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
     "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/stato-0000628",
+    "evidence": "<https://w3id.org/ocs/ont/C6947> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C6947> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C21> .\n<https://w3id.org/ocs/ont/C6947> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C25> .\n<https://w3id.org/ocs/ont/C6947> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C32> .\n<https://w3id.org/ocs/ont/C6947> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/F1_score> .\n<https://w3id.org/ocs/ont/C6947> <http://www.w3.org/2004/02/skos/core#prefLabel> \"F1 score\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C6947",
+    "id": "opencs-v06-review-c6947",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The explicit F1 score identifier agrees with the STATO measure of binary or classwise predictive performance. It does not identify the evaluation procedure or a reported numeric value.",
+    "reviewer": "v0.6.0 pinned-source editorial audit",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/many-one-reduction",
+    "evidence": "<https://w3id.org/ocs/ont/C44854> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C44854> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C36232> .\n<https://w3id.org/ocs/ont/C44854> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C36945> .\n<https://w3id.org/ocs/ont/C44854> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Many-one_reduction> .\n<https://w3id.org/ocs/ont/C44854> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Many-one reduction\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C44854",
+    "id": "opencs-v06-review-c44854",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The reference and computability neighborhood identify decision-predicate reducibility via a computable translation. The pinned Mathlib declaration separately witnesses the formal scope.",
+    "reviewer": "v0.6.0 pinned-source editorial audit",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/post-correspondence-problem",
+    "evidence": "<https://w3id.org/ocs/ont/C29939> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C29939> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C14986> .\n<https://w3id.org/ocs/ont/C29939> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C22100> .\n<https://w3id.org/ocs/ont/C29939> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Post_correspondence_problem> .\n<https://w3id.org/ocs/ont/C29939> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Post correspondence problem\"@en .\n<https://w3id.org/ocs/ont/C29939> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/ocs/ont/C44854> .\n",
+    "external": "https://w3id.org/ocs/ont/C29939",
+    "id": "opencs-v06-review-c29939",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The explicit reference identifies the decision problem about two concatenations of word lists using the same nonempty index sequence. The native neighborhood includes many-one reduction, supporting the computability context without asserting a particular reduction.",
+    "reviewer": "v0.6.0 pinned-source editorial audit",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/primitive-recursive-function",
+    "evidence": "<https://w3id.org/ocs/ont/C32546> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C32546> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C25947> .\n<https://w3id.org/ocs/ont/C32546> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Primitive_recursive_function> .\n<https://w3id.org/ocs/ont/C32546> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Primitive recursive function\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C32546",
+    "id": "opencs-v06-review-c32546",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The explicit identifier and recursive-functions parent agree with the class generated by initial functions, composition and primitive recursion.",
+    "reviewer": "v0.6.0 pinned-source editorial audit",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/kleene-recursion-theorem",
+    "evidence": "<https://w3id.org/ocs/ont/C15800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C15800> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C10917> .\n<https://w3id.org/ocs/ont/C15800> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Kleene's_recursion_theorem> .\n<https://w3id.org/ocs/ont/C15800> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Kleene's recursion theorem\"@en .\n<https://w3id.org/ocs/ont/C15800> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/ocs/ont/C32546> .\n",
+    "external": "https://w3id.org/ocs/ont/C15800",
+    "id": "opencs-v06-review-c15800",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The theorem identifier agrees with the effective program fixed-point result. The Mathlib declaration independently specifies extensional equality of partial evaluations. The native neighborhood includes primitive recursive functions, a neighboring computational notion.",
+    "reviewer": "v0.6.0 pinned-source editorial audit",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/logical-disjunction",
+    "evidence": "<https://w3id.org/ocs/ont/C11283> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C11283> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C19> .\n<https://w3id.org/ocs/ont/C11283> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Logical_disjunction> .\n<https://w3id.org/ocs/ont/C11283> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Logical disjunction\"@en .\n<https://w3id.org/ocs/ont/C11283> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/ocs/ont/C4073> .\n",
+    "external": "https://w3id.org/ocs/ont/C11283",
+    "id": "opencs-v06-review-c11283",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The explicit identifier and logical topic neighborhood identify the disjunction connective. This agrees with the canonical subject and its separate OpenMath Boolean interpretation. The native association to conjunction corroborates the connective interpretation.",
+    "reviewer": "v0.6.0 pinned-source editorial audit",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/product-type",
+    "evidence": "<https://w3id.org/ocs/ont/C9985> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C9985> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C19> .\n<https://w3id.org/ocs/ont/C9985> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Product_type> .\n<https://w3id.org/ocs/ont/C9985> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Product type\"@en .\n<https://w3id.org/ocs/ont/C9985> <http://www.w3.org/2004/02/skos/core#related> <https://w3id.org/ocs/ont/C14151> .\n",
+    "external": "https://w3id.org/ocs/ont/C9985",
+    "id": "opencs-v06-review-c9985",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The source reference identifies the type of pairs in type theory. Set-theoretic Cartesian products and equivalence witnesses have distinct canonical subjects. The native association to the separate Cartesian-product topic supports the neighborhood distinction without deriving any relation between type denotations.",
+    "reviewer": "v0.6.0 pinned-source editorial audit",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/conjunction-introduction",
+    "evidence": "<https://w3id.org/ocs/ont/C16252> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C16252> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C1092> .\n<https://w3id.org/ocs/ont/C16252> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C13855> .\n<https://w3id.org/ocs/ont/C16252> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C4557> .\n<https://w3id.org/ocs/ont/C16252> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C5421> .\n<https://w3id.org/ocs/ont/C16252> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C8510> .\n<https://w3id.org/ocs/ont/C16252> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Conjunction_introduction> .\n<https://w3id.org/ocs/ont/C16252> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Conjunction introduction\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C16252",
+    "id": "opencs-v06-review-c16252",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The source reference identifies the conjunction-introduction inference rule in its formal logic neighborhood. This is a rule subject, distinct from the conjunction connective.",
+    "reviewer": "v0.6.0 pinned-source editorial audit",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/function-composition",
+    "evidence": "<https://w3id.org/ocs/ont/C41482> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C41482> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C31894> .\n<https://w3id.org/ocs/ont/C41482> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Function_composition_(computer_science)> .\n<https://w3id.org/ocs/ont/C41482> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Function composition (computer science)\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C41482",
+    "id": "opencs-v06-review-c41482",
+    "predicate": "http://www.w3.org/2004/02/skos/core#closeMatch",
+    "rationale": "The computing-specific reference shares composition of functions with the mathematical subject but can include programming-language composition idioms.",
+    "reviewer": "v0.6.0 pinned-source editorial audit",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/empty-set",
+    "evidence": "<http://cll.niimm.ksu.ru/ontologies/mathematics#E1171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E1171> <http://www.w3.org/2000/01/rdf-schema#label> \"Empty set\"@en .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E1171> <http://www.w3.org/2000/01/rdf-schema#label> \"пустое множество\"@ru .\n<http://cll.niimm.ksu.ru/ontologies/mathematics#E1171> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cll.niimm.ksu.ru/ontologies/mathematics#E847> .\n",
+    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E1171",
+    "id": "ontomath-pro-v06-review-e1171",
+    "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "rationale": "The bilingual labels and parent Set identify the pertinent OntoMathPro class. The canonical subject denotes the mathematical topic and OpenMath's set1:emptyset is a separate symbol identity.",
+    "reviewer": "v0.6.0 pinned-source editorial audit",
+    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
+    "source": "ontomath-pro"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/boolean-nand",
+    "evidence": "<https://w3id.org/ocs/ont/C14021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C14021> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C11252> .\n<https://w3id.org/ocs/ont/C14021> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C12781> .\n<https://w3id.org/ocs/ont/C14021> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/NAND_logic> .\n<https://w3id.org/ocs/ont/C14021> <http://www.w3.org/2004/02/skos/core#prefLabel> \"NAND logic\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C14021",
+    "id": "opencs-v06-review-c14021",
+    "predicate": "http://www.w3.org/2004/02/skos/core#closeMatch",
+    "rationale": "The source denotes NAND logic in a circuit neighborhood. Its topic can cover gate systems; the canonical topic is scoped to the individual Boolean operation.",
+    "reviewer": "v0.6.0 pinned-source editorial audit",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
   }
 ]

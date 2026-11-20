@@ -30,6 +30,7 @@ The scheduled network audit verifies pinned documents and flags newer repository
 - [Processing scope, licensing and actual ingestion counts](docs/sources.md)
 - [RDF package contract](docs/contract-v1.md)
 - [Editorial policy, provenance, predicates and inference](docs/model.md)
+- [v0.6.0 semantic audit](docs/semantic-audit-v0.6.md)
 - [Continuation and remaining source work](docs/continuation.md)
 
 The daily revision-proposal workflow rotates through fifteen ontology sources and accepts a source ID via manual dispatch. For a local proposal, use a disposable checkout and run `python -m pipeline.refresh SOURCE`. It verifies that the new snapshot parses, generates candidates and opens a draft PR on GitHub when the source bytes change. Sources with reviewed mapping decisions require explicit revision of the affected evidence before rebuilding. GitHub's workflow permission to create pull requests is required for automatic proposals. The read-only weekly audit covers all available sources.

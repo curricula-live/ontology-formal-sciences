@@ -7,3 +7,9 @@ c:differential-equations a skos:Concept ;
     skos:inScheme scheme:mathematics ;
     skos:definition "Equations involving unknown functions and their derivatives."@en ;
     skos:broader c:mathematical-analysis .
+
+c:mathmoddb-q6675406 skos:definition "A mathematical dynamical model of free fall that includes an air-drag term."@en .
+
+c:mathmoddb-q6821441 skos:definition "The computational task of calculating the period in the linearized small-angle model of a mathematical pendulum."@en .
+
+c:mathmoddb-q6821398 skos:definition "A solution of the linearized small-angle pendulum equation, scoped to that mathematical formulation."@en .

@@ -63,3 +63,11 @@ jobs:
           PYTHON
       - name: Replay the reviewed OpenMath dictionaries and expression witnesses
         run: python -m pipeline.cli replay-openmath
+      - name: Replay reviewed Mathlib source declarations
+        run: python -m pipeline.cli replay-mathlib
+      - name: Replay stratified audit batch witnesses
+        run: |
+          release=$(jq -r .version dist/manifest.json)
+          if [[ -f "reviews/quality/$release.json" ]]; then
+            python -m pipeline.cli replay-semantic-audit --release "$release" --offline
+          fi
