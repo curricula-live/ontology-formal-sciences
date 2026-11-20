@@ -9,6 +9,8 @@ RELATIONS = {
     V.hasDiscretization, V.hasWeakFormulation, V.hasApproximation, V.hasModelingAssumption,
     V.appliesToModel, V.usesReferenceDistribution, V.estimates, V.hasFormulationComponent,
     V.isSolutionOf, V.producesEstimate,
+    V.implementsAlgorithm, V.hasEvaluationComponent, V.reportsEvaluationMeasure,
+    V.executesImplementation, V.documentsEvaluationOutput,
 }
 
 

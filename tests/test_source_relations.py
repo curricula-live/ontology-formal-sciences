@@ -126,3 +126,19 @@ def test_lexical_suggestion_remains_pending():
     assert result["0000540"]["state"] == "review_mapping"
     assert result["0000540"]["canonical"] == []
     assert result["0000540"]["suggestions"][0]["label_match"]
+
+
+def test_ml_schema_preserves_workflow_roles_and_existential_evidence():
+    canonical, provenance = authored()
+    catalog = registry()
+    mappings = reviewed(catalog, canonical, provenance)
+    stats = relations.apply_relations(catalog, canonical, mappings, provenance)
+    projection = (C["mls-executable-implementation"], V.implementsAlgorithm, C.algorithm)
+    assert projection in canonical
+    witness, = provenance.objects(relations.statement_for(projection), PROV.wasDerivedFrom)
+    assert provenance.value(witness, RDF.object) == URIRef(relations.MLS + "Algorithm")
+    assert str(provenance.value(witness, DCTERMS.type)) == "subclass-some"
+    assert (C["mls-evaluation-specification"], V.hasEvaluationComponent, C["mls-evaluation-measure"]) in canonical
+    assert (C["mls-run"], V.documentsEvaluationOutput, C["mls-model-evaluation-result"]) in canonical
+    assert stats["ml-schema"]["approved"] == 6
+    assert stats["ml-schema"]["rejected"] == 2

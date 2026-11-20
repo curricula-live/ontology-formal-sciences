@@ -2034,6 +2034,42 @@
 <https://curricula.live/id/formal-sciences/concept/minimum-spanning-tree-problem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Minimum spanning tree problem"@en .
 <https://curricula.live/id/formal-sciences/concept/minimum-spanning-tree-problem> <http://www.w3.org/2004/02/skos/core#related> <https://curricula.live/id/formal-sciences/concept/spanning-tree> .
 <https://curricula.live/id/formal-sciences/concept/minimum-spanning-tree-problem> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/weighted-graph> .
+<https://curricula.live/id/formal-sciences/concept/mls-evaluation-measure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mls-evaluation-measure> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/statistics> .
+<https://curricula.live/id/formal-sciences/concept/mls-evaluation-measure> <http://www.w3.org/2004/02/skos/core#definition> "A rule or metric used to quantify the performance of a learned model, such as predictive accuracy or an F-measure."@en .
+<https://curricula.live/id/formal-sciences/concept/mls-evaluation-measure> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
+<https://curricula.live/id/formal-sciences/concept/mls-evaluation-measure> <http://www.w3.org/2004/02/skos/core#prefLabel> "Machine-learning evaluation measure"@en .
+<https://curricula.live/id/formal-sciences/concept/mls-evaluation-procedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mls-evaluation-procedure> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/statistics> .
+<https://curricula.live/id/formal-sciences/concept/mls-evaluation-procedure> <http://www.w3.org/2004/02/skos/core#definition> "A statistical assessment procedure for measuring the behavior of a trained model, such as a resampling-based procedure."@en .
+<https://curricula.live/id/formal-sciences/concept/mls-evaluation-procedure> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
+<https://curricula.live/id/formal-sciences/concept/mls-evaluation-procedure> <http://www.w3.org/2004/02/skos/core#prefLabel> "Machine-learning evaluation procedure"@en .
+<https://curricula.live/id/formal-sciences/concept/mls-evaluation-specification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mls-evaluation-specification> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/machine-learning> .
+<https://curricula.live/id/formal-sciences/concept/mls-evaluation-specification> <http://www.w3.org/2004/02/skos/core#definition> "A plan specifying which measures and assessment procedures evaluate a learning task."@en .
+<https://curricula.live/id/formal-sciences/concept/mls-evaluation-specification> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
+<https://curricula.live/id/formal-sciences/concept/mls-evaluation-specification> <http://www.w3.org/2004/02/skos/core#prefLabel> "Machine-learning evaluation specification"@en .
+<https://curricula.live/id/formal-sciences/concept/mls-evaluation-specification> <https://curricula.live/id/formal-sciences/vocab/hasEvaluationComponent> <https://curricula.live/id/formal-sciences/concept/mls-evaluation-measure> .
+<https://curricula.live/id/formal-sciences/concept/mls-evaluation-specification> <https://curricula.live/id/formal-sciences/vocab/hasEvaluationComponent> <https://curricula.live/id/formal-sciences/concept/mls-evaluation-procedure> .
+<https://curricula.live/id/formal-sciences/concept/mls-executable-implementation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mls-executable-implementation> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/machine-learning> .
+<https://curricula.live/id/formal-sciences/concept/mls-executable-implementation> <http://www.w3.org/2004/02/skos/core#definition> "An executable implementation of an algorithm or workflow in the ML-Schema setting, with its own software version."@en .
+<https://curricula.live/id/formal-sciences/concept/mls-executable-implementation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
+<https://curricula.live/id/formal-sciences/concept/mls-executable-implementation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Executable machine-learning implementation"@en .
+<https://curricula.live/id/formal-sciences/concept/mls-executable-implementation> <https://curricula.live/id/formal-sciences/vocab/implementsAlgorithm> <https://curricula.live/id/formal-sciences/concept/algorithm> .
+<https://curricula.live/id/formal-sciences/concept/mls-model-evaluation-result> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mls-model-evaluation-result> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/statistics> .
+<https://curricula.live/id/formal-sciences/concept/mls-model-evaluation-result> <http://www.w3.org/2004/02/skos/core#definition> "A reported value of a specified performance measure for a model evaluation, with the definition of that measure kept separate."@en .
+<https://curricula.live/id/formal-sciences/concept/mls-model-evaluation-result> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
+<https://curricula.live/id/formal-sciences/concept/mls-model-evaluation-result> <http://www.w3.org/2004/02/skos/core#prefLabel> "Machine-learning model evaluation result"@en .
+<https://curricula.live/id/formal-sciences/concept/mls-model-evaluation-result> <https://curricula.live/id/formal-sciences/vocab/reportsEvaluationMeasure> <https://curricula.live/id/formal-sciences/concept/mls-evaluation-measure> .
+<https://curricula.live/id/formal-sciences/concept/mls-run> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/mls-run> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/machine-learning> .
+<https://curricula.live/id/formal-sciences/concept/mls-run> <http://www.w3.org/2004/02/skos/core#definition> "An execution of a versioned implementation in the ML-Schema model, with recorded inputs or outputs when available."@en .
+<https://curricula.live/id/formal-sciences/concept/mls-run> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
+<https://curricula.live/id/formal-sciences/concept/mls-run> <http://www.w3.org/2004/02/skos/core#prefLabel> "Machine-learning implementation run"@en .
+<https://curricula.live/id/formal-sciences/concept/mls-run> <https://curricula.live/id/formal-sciences/vocab/documentsEvaluationOutput> <https://curricula.live/id/formal-sciences/concept/mls-model-evaluation-result> .
+<https://curricula.live/id/formal-sciences/concept/mls-run> <https://curricula.live/id/formal-sciences/vocab/executesImplementation> <https://curricula.live/id/formal-sciences/concept/mls-executable-implementation> .
 <https://curricula.live/id/formal-sciences/concept/modal-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/modal-logic> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/logic> .
 <https://curricula.live/id/formal-sciences/concept/modal-logic> <http://www.w3.org/2004/02/skos/core#definition> "A family of logics with operators that express modes of truth such as necessity and possibility."@en .
@@ -11814,11 +11850,21 @@
 <https://curricula.live/id/formal-sciences/vocab/computes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/computes> <http://www.w3.org/2000/01/rdf-schema#label> "computes"@en .
 <https://curricula.live/id/formal-sciences/vocab/computes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/documentsEvaluationOutput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://curricula.live/id/formal-sciences/vocab/documentsEvaluationOutput> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies an evaluation output kind in the source run schema. It scopes the documented workflow rather than guaranteeing completion of every real execution."@en .
+<https://curricula.live/id/formal-sciences/vocab/documentsEvaluationOutput> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/documentsEvaluationOutput> <http://www.w3.org/2000/01/rdf-schema#label> "documents evaluation output"@en .
+<https://curricula.live/id/formal-sciences/vocab/documentsEvaluationOutput> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/estimates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://curricula.live/id/formal-sciences/vocab/estimates> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an estimator to the quantity targeted under the estimator's stated model."@en .
 <https://curricula.live/id/formal-sciences/vocab/estimates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/estimates> <http://www.w3.org/2000/01/rdf-schema#label> "estimates"@en .
 <https://curricula.live/id/formal-sciences/vocab/estimates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/executesImplementation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://curricula.live/id/formal-sciences/vocab/executesImplementation> <http://www.w3.org/2000/01/rdf-schema#comment> "A run subject describes execution of an implementation in the source workflow."@en .
+<https://curricula.live/id/formal-sciences/vocab/executesImplementation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/executesImplementation> <http://www.w3.org/2000/01/rdf-schema#label> "executes implementation"@en .
+<https://curricula.live/id/formal-sciences/vocab/executesImplementation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/guarantees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://curricula.live/id/formal-sciences/vocab/guarantees> <http://www.w3.org/2000/01/rdf-schema#comment> "From a method to a property guaranteed of its output or of the relationship between its input and output under its stated conditions."@en .
 <https://curricula.live/id/formal-sciences/vocab/guarantees> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -11834,6 +11880,11 @@
 <https://curricula.live/id/formal-sciences/vocab/hasDiscretization> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/hasDiscretization> <http://www.w3.org/2000/01/rdf-schema#label> "has discretization"@en .
 <https://curricula.live/id/formal-sciences/vocab/hasDiscretization> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/hasEvaluationComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://curricula.live/id/formal-sciences/vocab/hasEvaluationComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "An evaluation specification includes a documented measure or assessment procedure."@en .
+<https://curricula.live/id/formal-sciences/vocab/hasEvaluationComponent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/hasEvaluationComponent> <http://www.w3.org/2000/01/rdf-schema#label> "has evaluation component"@en .
+<https://curricula.live/id/formal-sciences/vocab/hasEvaluationComponent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a documented mathematical model or task formulation to an equation, submodel or discretization it includes in the recorded context."@en .
 <https://curricula.live/id/formal-sciences/vocab/hasFormulationComponent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -11854,6 +11905,11 @@
 <https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation> <http://www.w3.org/2000/01/rdf-schema#label> "has weak formulation"@en .
 <https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/implementsAlgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://curricula.live/id/formal-sciences/vocab/implementsAlgorithm> <http://www.w3.org/2000/01/rdf-schema#comment> "A scoped relation from an executable implementation subject to the abstract algorithm it realizes in the documented model."@en .
+<https://curricula.live/id/formal-sciences/vocab/implementsAlgorithm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/implementsAlgorithm> <http://www.w3.org/2000/01/rdf-schema#label> "implements algorithm"@en .
+<https://curricula.live/id/formal-sciences/vocab/implementsAlgorithm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/isSolutionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://curricula.live/id/formal-sciences/vocab/isSolutionOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a documented solution to the mathematical model it satisfies in the recorded formulation and conditions."@en .
 <https://curricula.live/id/formal-sciences/vocab/isSolutionOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -11869,6 +11925,11 @@
 <https://curricula.live/id/formal-sciences/vocab/recognizesExactly> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/recognizesExactly> <http://www.w3.org/2000/01/rdf-schema#label> "recognizes exactly"@en .
 <https://curricula.live/id/formal-sciences/vocab/recognizesExactly> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/reportsEvaluationMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://curricula.live/id/formal-sciences/vocab/reportsEvaluationMeasure> <http://www.w3.org/2000/01/rdf-schema#comment> "An evaluation result reports a value under the specified performance measure."@en .
+<https://curricula.live/id/formal-sciences/vocab/reportsEvaluationMeasure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/reportsEvaluationMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "reports evaluation measure"@en .
+<https://curricula.live/id/formal-sciences/vocab/reportsEvaluationMeasure> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/represents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://curricula.live/id/formal-sciences/vocab/represents> <http://www.w3.org/2000/01/rdf-schema#comment> "From a representation to a structure or family of structures it can encode. Multiple representations may encode the same structure."@en .
 <https://curricula.live/id/formal-sciences/vocab/represents> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .

@@ -65,6 +65,7 @@ def collect(store, graph_name, source_id, namespace, edges):
     graph = NamedNode(graph_name)
     definition_properties = {
         "mathmoddb": ("https://schema.org/description",),
+        "ml-schema": ("http://purl.org/dc/terms/description",),
         "stato": ("http://purl.obolibrary.org/obo/IAO_0000115",),
         "ontomath-pro": (str(SKOS.definition),),
     }[source_id]
@@ -156,8 +157,9 @@ def canonical_names(graph):
 
 
 def compatibility(source, role, graph, candidate):
-    domain = {"mathmoddb": "mathematics", "stato": "statistics", "ontomath-pro": "mathematics"}[source]
-    scope = (candidate, SKOS.inScheme, D[domain]) in graph
+    domains = {"mathmoddb": ("mathematics",), "stato": ("statistics",),
+               "ontomath-pro": ("mathematics",), "ml-schema": ("computer-science", "statistics")}[source]
+    scope = any((candidate, SKOS.inScheme, D[domain]) in graph for domain in domains)
     ancestors = {str(parent).removeprefix(str(C))
                  for parent in graph.transitive_objects(candidate, SKOS.broader)}
     role_hint = bool(ancestors.intersection(ROLE_HEADS[role])) if role in ROLE_HEADS else None

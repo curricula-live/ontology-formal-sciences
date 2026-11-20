@@ -70,3 +70,23 @@ v:isSolutionOf a rdf:Property ; rdfs:label "is solution of"@en ;
 v:producesEstimate a rdf:Property ; rdfs:label "produces estimate"@en ;
     rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
     rdfs:comment "Links a statistical estimation procedure to the type of estimate it returns in its applicable setting."@en .
+
+v:implementsAlgorithm a rdf:Property ; rdfs:label "implements algorithm"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "A scoped relation from an executable implementation subject to the abstract algorithm it realizes in the documented model."@en .
+
+v:hasEvaluationComponent a rdf:Property ; rdfs:label "has evaluation component"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "An evaluation specification includes a documented measure or assessment procedure."@en .
+
+v:reportsEvaluationMeasure a rdf:Property ; rdfs:label "reports evaluation measure"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "An evaluation result reports a value under the specified performance measure."@en .
+
+v:executesImplementation a rdf:Property ; rdfs:label "executes implementation"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "A run subject describes execution of an implementation in the source workflow."@en .
+
+v:documentsEvaluationOutput a rdf:Property ; rdfs:label "documents evaluation output"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Identifies an evaluation output kind in the source run schema. It scopes the documented workflow rather than guaranteeing completion of every real execution."@en .

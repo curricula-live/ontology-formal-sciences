@@ -1,0 +1,22 @@
+{
+  "eligible": 6,
+  "exclusions": {},
+  "identities": {
+    "http://www.w3.org/ns/mls#EvaluationMeasure": "mls-evaluation-measure",
+    "http://www.w3.org/ns/mls#EvaluationProcedure": "mls-evaluation-procedure",
+    "http://www.w3.org/ns/mls#EvaluationSpecification": "mls-evaluation-specification",
+    "http://www.w3.org/ns/mls#Implementation": "mls-executable-implementation",
+    "http://www.w3.org/ns/mls#ModelEvaluation": "mls-model-evaluation-result",
+    "http://www.w3.org/ns/mls#Run": "mls-run"
+  },
+  "license": "CC-BY-4.0",
+  "modules": {
+    "domains/computer-science/modules/batches/ml-schema-evaluation.ttl": "353146cf0ea7bbee006f0c10aa1dddc08b456f69c61dcfd3a633a132d8c08ae0",
+    "domains/statistics/modules/batches/ml-schema-evaluation.ttl": "3caa6c2a866e359ab6ab2cbbd24a37c6a219e630d2a1ce336a6a4322859e8557"
+  },
+  "pending": 0,
+  "policy": "Reviewed ML-Schema core subjects for implementation and evaluation. Each description is pinned to its class.",
+  "revision": "4e1d90292509ed2a2ec52efc955e40e17fa92281",
+  "sha256": "5eb9572cde53e362f74113b9292f07a9d9ad115d811341489fa00dba4dd0f35e",
+  "source": "ml-schema"
+}

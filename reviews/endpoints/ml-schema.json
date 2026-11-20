@@ -1,0 +1,358 @@
+{
+  "edges_sha256": "77f742043b3388777e65da08f473f90eaff562f2e9e73d500e0d9f8d27a0e2f3",
+  "entities": {
+    "Algorithm": {
+      "definition_terms": [
+        "005cef244b8c1536",
+        "35390f5453e810b6",
+        "b1eb2ec8ac9f31ff",
+        "da31012c40330e7e"
+      ],
+      "labels": [],
+      "parents": [
+        "InformationEntity"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "EvaluationMeasure": {
+      "definition_terms": [
+        "0ebb429fa86d481c",
+        "14b9005e4f90ef7e",
+        "1501661682797862",
+        "19ed40bf62c399b8",
+        "430b9f564f71e52a",
+        "4a1898716ef67796",
+        "5879092f86c5e019",
+        "827bc7822c67c782",
+        "9372c470eeadd5ec",
+        "c0020d8b8ea084bd",
+        "c590b3c924c35c2f",
+        "e0cb800a5ccda4cb"
+      ],
+      "labels": [],
+      "parents": [
+        "InformationEntity"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "EvaluationProcedure": {
+      "definition_terms": [
+        "10aca1d8b724381a",
+        "6cbdfcf83679e694",
+        "762069bc07a6e1b5",
+        "7692c3ad3540bb80",
+        "8edcc26c0f6c7256",
+        "98c41dcd20b86b86",
+        "af193190b8d3cd14",
+        "b3986952b145da5f",
+        "bc020a35b7f9cb13",
+        "c590b3c924c35c2f",
+        "e3442078e8b7683b",
+        "edd95740e339e6aa"
+      ],
+      "labels": [],
+      "parents": [
+        "InformationEntity"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "EvaluationSpecification": {
+      "definition_terms": [
+        "0487c249731a7d90",
+        "0ebb429fa86d481c",
+        "14b9005e4f90ef7e",
+        "1501661682797862",
+        "19ed40bf62c399b8",
+        "4a1898716ef67796",
+        "5c4c3b7c774e4169",
+        "83ae2f5a38db4ea1",
+        "c0020d8b8ea084bd",
+        "efe77b201dc216c0"
+      ],
+      "labels": [],
+      "parents": [
+        "InformationEntity"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "Experiment": {
+      "definition_terms": [
+        "1f64fff08d787e73",
+        "a530c507fd893f52",
+        "fa7496e4ae840306"
+      ],
+      "labels": [],
+      "parents": [
+        "Process"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "HyperParameter": {
+      "definition_terms": [
+        "24a9245816c98477",
+        "6390361dfdff141a",
+        "6db7d803e74f1ffa",
+        "6ee0eb490ff83210",
+        "9fff2d310ad659f6",
+        "a402c4336ebfd782",
+        "a81319083525816d",
+        "b4928806aa4c0c1f",
+        "da31012c40330e7e",
+        "e5bade0e979cb8cf",
+        "ea103d6cb5c3fb3d"
+      ],
+      "labels": [],
+      "parents": [
+        "InformationEntity"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "HyperParameterSetting": {
+      "definition_terms": [
+        "6db7d803e74f1ffa",
+        "6ee0eb490ff83210",
+        "7de5428d88c8a115",
+        "85574fa07dae3213",
+        "a402c4336ebfd782",
+        "a81319083525816d",
+        "ab7469d107f623b6",
+        "bca3685fea8acd4e",
+        "cd42404d52ad55cc",
+        "da31012c40330e7e",
+        "ea103d6cb5c3fb3d"
+      ],
+      "labels": [],
+      "parents": [
+        "InformationEntity"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "Implementation": {
+      "definition_terms": [
+        "21a0270b7f66a1e4",
+        "28e5c066055aeb3d",
+        "51f8b4c96c696d1f",
+        "8098a1d643564bcc",
+        "a29c2123a01df1d0",
+        "b1eb2ec8ac9f31ff",
+        "b4928806aa4c0c1f",
+        "b718f1354f724731",
+        "bc020a35b7f9cb13",
+        "da31012c40330e7e",
+        "da7f739f62719846",
+        "edd95740e339e6aa"
+      ],
+      "labels": [],
+      "parents": [
+        "InformationEntity"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "Model": {
+      "definition_terms": [
+        "0707dd59ef2267a7",
+        "151e58a831306903",
+        "1754dbdddb7f54db",
+        "193c45b5281908d2",
+        "1b001706a418bdfc",
+        "1c0300028e1960d4",
+        "1fd38d5cbd2a997b",
+        "20202235c399832a",
+        "23d5e1e004ec63f2",
+        "25bf8e1a2393f110",
+        "2a6d20857db7731d",
+        "2acb87c6ce1617ec",
+        "3a6eb0790f39ac87",
+        "3eb74861c9d79379",
+        "50d858e0985ecc7f",
+        "5697abca7a318e68",
+        "5d5766cf2d787016",
+        "61c1c8cded1d1a29",
+        "6389dc45d0523df1",
+        "6b847a0ed0b2c484",
+        "6ee0eb490ff83210",
+        "73f80633a12775cf",
+        "78f9ac018e554365",
+        "796c985cc82da7e0",
+        "7b508dace774f8ad",
+        "8001c27439650c5c",
+        "87b04e58961f9a99",
+        "89445ea08b55421f",
+        "8ccf2f9e9cc41e7a",
+        "8e9afe9d1df3927e",
+        "8edcc26c0f6c7256",
+        "9150c74c5f92d51a",
+        "9372c470eeadd5ec",
+        "9f584196e7fe6de8",
+        "9fdbb1a32f3ad216",
+        "a402c4336ebfd782",
+        "a5c935d142e9fa6e",
+        "b0ad6bc193119775",
+        "b1eb2ec8ac9f31ff",
+        "b229003f1ecb0c22",
+        "bb8c8605c55dcc2d",
+        "bec1687971e36be5",
+        "c2a5ac3a8c0223f3",
+        "c2fb788c7deedbea",
+        "c3a3091b9d32267d",
+        "c590b3c924c35c2f",
+        "c697d2981bf41656",
+        "c96c6d5be8d08a12",
+        "d413f65286221536",
+        "d9298a10d1b07358",
+        "da31012c40330e7e",
+        "e0ee8bb50685e05f",
+        "e60854b862f4123f",
+        "ef7d009c7e812da1",
+        "f6a214f7a5fcda0c",
+        "f83f07be16e27018"
+      ],
+      "labels": [],
+      "parents": [
+        "InformationEntity"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "ModelEvaluation": {
+      "definition_terms": [
+        "1501661682797862",
+        "4a1898716ef67796",
+        "4c84c5386dd50cc9",
+        "59d59b1c416ed97e",
+        "7de5428d88c8a115",
+        "83ae2f5a38db4ea1",
+        "cd42404d52ad55cc",
+        "ea103d6cb5c3fb3d",
+        "ec72b9566a9c3501",
+        "efe77b201dc216c0"
+      ],
+      "labels": [],
+      "parents": [
+        "InformationEntity"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "Run": {
+      "definition_terms": [
+        "2430e09ec2ec2845",
+        "251fecd592e56e6c",
+        "336074805fc85398",
+        "361e48d0308f20e3",
+        "5d28a90f4498a814",
+        "7b508dace774f8ad",
+        "9150c74c5f92d51a",
+        "9f584196e7fe6de8",
+        "a402c4336ebfd782",
+        "aa97302150fce811",
+        "acba25512100f80b",
+        "bc020a35b7f9cb13",
+        "cced28c6dc3f99c2",
+        "da31012c40330e7e"
+      ],
+      "labels": [],
+      "parents": [
+        "Process"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "Software": {
+      "definition_terms": [
+        "10fd874b68dad080",
+        "2eaa6c981568da77",
+        "3316348dbadfb7b1",
+        "35390f5453e810b6",
+        "6842ca7df10554ec",
+        "6c621d1a05138a78",
+        "73f80633a12775cf",
+        "81b06df4303e6581",
+        "85574fa07dae3213",
+        "87b04e58961f9a99",
+        "8c5967fd8486f344",
+        "94fe812e9549a33e",
+        "aa97302150fce811",
+        "ba5285161ba6eed0",
+        "bbc5e661e106c6dc",
+        "c064fbca9d9de8dd",
+        "caf9f906b16a91cb",
+        "d6447e23d6652bd9",
+        "de38e0881e31dde6",
+        "f0619d180ad3b0a9",
+        "f106376011688eda",
+        "fdebae303877a399"
+      ],
+      "labels": [],
+      "parents": [
+        "InformationEntity"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "Study": {
+      "definition_terms": [
+        "0b27c158feb36ab1",
+        "0c24734d7bf5954f",
+        "0c87ed818fb90f3f",
+        "0feae16d55365acf",
+        "1f64fff08d787e73",
+        "2272bea616a05ae1",
+        "3a6eb0790f39ac87",
+        "3d7db37d08f9140f",
+        "4c6a4839f83d20d2",
+        "54b759dba2ded093",
+        "6d38f6d6072843ee",
+        "7beb7f4a57251263",
+        "9f584196e7fe6de8",
+        "9f86d081884c7d65",
+        "a6b46dd0d1ae5e86",
+        "c099142bc3186ded",
+        "ea103d6cb5c3fb3d",
+        "f44e85c4b8ea2add",
+        "fa7496e4ae840306"
+      ],
+      "labels": [],
+      "parents": [
+        "Process"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    }
+  },
+  "sha256": "5eb9572cde53e362f74113b9292f07a9d9ad115d811341489fa00dba4dd0f35e"
+}

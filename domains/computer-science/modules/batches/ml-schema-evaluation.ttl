@@ -1,0 +1,15 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:mls-executable-implementation a skos:Concept ; skos:prefLabel "Executable machine-learning implementation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning ;
+    skos:definition "An executable implementation of an algorithm or workflow in the ML-Schema setting, with its own software version."@en .
+
+c:mls-evaluation-specification a skos:Concept ; skos:prefLabel "Machine-learning evaluation specification"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning ;
+    skos:definition "A plan specifying which measures and assessment procedures evaluate a learning task."@en .
+
+c:mls-run a skos:Concept ; skos:prefLabel "Machine-learning implementation run"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning ;
+    skos:definition "An execution of a versioned implementation in the ML-Schema model, with recorded inputs or outputs when available."@en .

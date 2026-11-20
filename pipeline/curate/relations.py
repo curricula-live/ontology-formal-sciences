@@ -35,7 +35,15 @@ class Profile:
 MARDI = "https://portal.mardi4nfdi.de/entity/"
 ONTO = "http://cll.niimm.ksu.ru/ontologies/mathematics#"
 OBO = "http://purl.obolibrary.org/obo/"
+MLS = "http://www.w3.org/ns/mls#"
 PROFILES = {
+    "ml-schema": Profile(MLS, r"[A-Za-z]+", "CC-BY-4.0", "subclass-some", {
+        "implements": Rule(MLS + "implements", "implementsAlgorithm"),
+        "part": Rule(MLS + "hasPart", "hasEvaluationComponent"),
+        "specifies": Rule(MLS + "specifiedBy", "reportsEvaluationMeasure"),
+        "executes": Rule(MLS + "executes", "executesImplementation"),
+        "output": Rule(MLS + "hasOutput", "documentsEvaluationOutput"),
+    }),
     "mathmoddb": Profile(MARDI, r"Q[0-9]+", "CC-BY-4.0", "direct", {
         "P147": Rule(MARDI + "P147", "appliesToModel", reverse=True),
         "P1560": Rule(MARDI + "P1560", "hasFormulationComponent"),
