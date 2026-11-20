@@ -1,19 +1,19 @@
 {
   "artifacts": {
-    "formal-sciences.nq": "c01b50e43ecd87695d194f6314f699820fd1093db4f2fe2ef1e14cb8f7daf8b6",
-    "formal-sciences.trig": "43e0c1c7b391d4f899eb042e5dd9d10288327ff424c6cc472fc161e089de2337",
-    "formal-sciences.ttl": "80a91ae2f1573c8b1d631254bb7de3549199b1ada3f28c9038373e6f765b14ac",
+    "formal-sciences.nq": "3584042688fef451584d4e977ffd46e38e6dd8530a20a8455e08485855e91985",
+    "formal-sciences.trig": "c57e7dd3cfe6667b0402fca238e04d9a2be7ac1abc0500e7e187b5d8b6e2a50b",
+    "formal-sciences.ttl": "2e5c35caa1e42cfa283e77a90bb48f24a72770b66be02fb876c0f3e5c254e23a",
     "source-alignments.trig": "7bc4c31a1659b15f09a7a029c359ae9641b75632e459db77cac98226cf3534bc",
     "validation-report.json": "53d08d3d3ba0eb867f1671cd1ae50c0254b5122d63db5c5d209e180c92008116"
   },
-  "concepts": 2432,
+  "concepts": 2450,
   "conforms": true,
   "contract": "curricula.rdf-release/v1",
   "counts": {
     "alignments": 173,
-    "asserted": 10074,
-    "inferred": 2581,
-    "provenance": 6959
+    "asserted": 10173,
+    "inferred": 2599,
+    "provenance": 7027
   },
   "namespace": "https://curricula.live/id/formal-sciences/",
   "predicates": 19,
@@ -58,6 +58,7 @@
       "logic/modules/domain.ttl": 1,
       "logic/modules/formal-semantics.ttl": 5,
       "logic/modules/formal-verification.ttl": 9,
+      "logic/modules/modal-and-temporal-logic.ttl": 18,
       "logic/modules/model-theory.ttl": 5,
       "logic/modules/predicate-logic.ttl": 5,
       "logic/modules/proof-theory.ttl": 6,
@@ -114,7 +115,7 @@
     },
     "concepts_by_scheme": {
       "computer-science": 1026,
-      "logic": 60,
+      "logic": 78,
       "mathematics": 873,
       "statistics": 473
     },
@@ -270,7 +271,7 @@
         "eligible": 1024,
         "identities": 908,
         "new_concepts": 908,
-        "pending": 112,
+        "pending": 114,
         "rejected": 0
       },
       "openmath": {
@@ -399,17 +400,17 @@
       "https://curricula.live/id/formal-sciences/vocab/represents": 1,
       "https://curricula.live/id/formal-sciences/vocab/requiresAssumption": 2,
       "https://curricula.live/id/formal-sciences/vocab/solves": 1,
-      "https://curricula.live/id/formal-sciences/vocab/uses": 29
+      "https://curricula.live/id/formal-sciences/vocab/uses": 30
     },
-    "cross_domain_relations": 54,
-    "inferred_triples": 2581,
+    "cross_domain_relations": 55,
+    "inferred_triples": 2599,
     "isolated_concepts": 0,
-    "largest_component": 2432,
-    "pending_mapping_pairs": 233,
+    "largest_component": 2450,
+    "pending_mapping_pairs": 235,
     "pending_nonconcept_pairs": 3,
     "rejected_mappings": 2,
     "relation_counts": {
-      "http://www.w3.org/2004/02/skos/core#broader": 2548,
+      "http://www.w3.org/2004/02/skos/core#broader": 2566,
       "http://www.w3.org/2004/02/skos/core#related": 33,
       "https://curricula.live/id/formal-sciences/vocab/computes": 1,
       "https://curricula.live/id/formal-sciences/vocab/guarantees": 1,
@@ -417,8 +418,8 @@
       "https://curricula.live/id/formal-sciences/vocab/recognizesExactly": 2,
       "https://curricula.live/id/formal-sciences/vocab/represents": 3,
       "https://curricula.live/id/formal-sciences/vocab/requiresAssumption": 3,
-      "https://curricula.live/id/formal-sciences/vocab/solves": 10,
-      "https://curricula.live/id/formal-sciences/vocab/uses": 63
+      "https://curricula.live/id/formal-sciences/vocab/solves": 11,
+      "https://curricula.live/id/formal-sciences/vocab/uses": 70
     },
     "sources_with_mapping_disabled": [
       "acm-ccs",
@@ -717,7 +718,7 @@
         "registry_sha256": "cf9407ad62ab1c9b8cfe64080950f8f199a41b2debc4d3cb2b7c71ae74566e8b"
       },
       "attribution": "OpenCS contributors",
-      "candidate_pairs": 1131,
+      "candidate_pairs": 1133,
       "license": "CC-BY-4.0",
       "normalized_label_keys": 45918,
       "revision": "0.4.0",

@@ -10,6 +10,7 @@ Run `python -m pipeline.competency` from the checkout after building the release
 | linear-regression | Ordinary least squares and the QR least-squares method solve the linear least-squares problem. The numerical method uses QR factorization. |
 | factor-inference | Sum-product on a tree factor graph computes variable marginal distributions for a normalizable probability model. |
 | languages | Finite automata recognize exactly the regular languages. Nondeterministic pushdown automata recognize exactly the context-free languages. |
+| branching-time-verification | CTL state labeling uses fixed-point iteration, with a reference to Clarke, Grumberg and Peled's Model Checking. |
 | verification | Automata-theoretic LTL model checking uses a Büchi automaton. |
 | information-measures | Six pairs connect a measure to its statistical ingredient, including conditional entropy to conditional distribution and mutual information to both joint distribution and product of marginals. |
 | numerical-assumptions | The conjugate-gradient method assumes symmetric positive definiteness in its standard real linear-system guarantee. |

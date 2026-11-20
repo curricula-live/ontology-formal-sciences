@@ -35,6 +35,10 @@ def test_published_competencies():
         str(C["strongly-connected-component"]), str(C["directed-graph"])
     }
     assert all(len(row["digest"]) == 64 for row in result["mapping-evidence"])
+    assert pairs("branching-time-verification", "method", "technique") == {
+        (str(C["ctl-state-labeling-algorithm"]), str(C["fixed-point"]))
+    }
+    assert all(row["reference"] for row in result["branching-time-verification"])
 
 
 def test_every_new_scientific_claim_has_a_citation_and_no_implicit_inverse():

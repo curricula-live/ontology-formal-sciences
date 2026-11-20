@@ -137,6 +137,12 @@
 <https://curricula.live/id/formal-sciences/concept/bipartite-graph> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/graph-theory> .
 <https://curricula.live/id/formal-sciences/concept/bipartite-graph> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/bipartite-graph> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bipartite graph"@en .
+<https://curricula.live/id/formal-sciences/concept/bisimulation-modal-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/bisimulation-modal-logic> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/modal-logic> .
+<https://curricula.live/id/formal-sciences/concept/bisimulation-modal-logic> <http://www.w3.org/2004/02/skos/core#definition> "A relation matching worlds with the same atomic valuation and matching each successor of a related world with a related successor on the other side, in both directions."@en .
+<https://curricula.live/id/formal-sciences/concept/bisimulation-modal-logic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/bisimulation-modal-logic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bisimulation of Kripke models"@en .
+<https://curricula.live/id/formal-sciences/concept/bisimulation-modal-logic> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/kripke-model> .
 <https://curricula.live/id/formal-sciences/concept/boolean-algebra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/boolean-algebra> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/discrete-mathematics> .
 <https://curricula.live/id/formal-sciences/concept/boolean-algebra> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
@@ -155,6 +161,11 @@
 <https://curricula.live/id/formal-sciences/concept/branch-prediction> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-architecture> .
 <https://curricula.live/id/formal-sciences/concept/branch-prediction> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/branch-prediction> <http://www.w3.org/2004/02/skos/core#prefLabel> "Branch prediction"@en .
+<https://curricula.live/id/formal-sciences/concept/branching-time-temporal-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/branching-time-temporal-logic> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/formal-verification> .
+<https://curricula.live/id/formal-sciences/concept/branching-time-temporal-logic> <http://www.w3.org/2004/02/skos/core#definition> "A family of temporal logics interpreted over alternative possible futures from a given state."@en .
+<https://curricula.live/id/formal-sciences/concept/branching-time-temporal-logic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/branching-time-temporal-logic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Branching-time temporal logic"@en .
 <https://curricula.live/id/formal-sciences/concept/breadth-first-search> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/breadth-first-search> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/breadth-first-search> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/graph-algorithm> .
@@ -217,6 +228,13 @@
 <https://curricula.live/id/formal-sciences/concept/computably-enumerable-set> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computability-theory> .
 <https://curricula.live/id/formal-sciences/concept/computably-enumerable-set> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/computably-enumerable-set> <http://www.w3.org/2004/02/skos/core#prefLabel> "Computably enumerable set"@en .
+<https://curricula.live/id/formal-sciences/concept/computation-tree-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/computation-tree-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "CTL"@en .
+<https://curricula.live/id/formal-sciences/concept/computation-tree-logic> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/branching-time-temporal-logic> .
+<https://curricula.live/id/formal-sciences/concept/computation-tree-logic> <http://www.w3.org/2004/02/skos/core#definition> "A branching-time logic where a path quantifier binds each temporal operator and formulas are evaluated at states."@en .
+<https://curricula.live/id/formal-sciences/concept/computation-tree-logic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/computation-tree-logic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Computation tree logic"@en .
+<https://curricula.live/id/formal-sciences/concept/computation-tree-logic> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/path-quantifier> .
 <https://curricula.live/id/formal-sciences/concept/computational-complexity-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/computational-complexity-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/computational-complexity-theory> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -332,6 +350,24 @@
 <https://curricula.live/id/formal-sciences/concept/cryptography> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/cryptography> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/cryptography> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cryptography"@en .
+<https://curricula.live/id/formal-sciences/concept/ctl-model-checking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/ctl-model-checking> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/model-checking> .
+<https://curricula.live/id/formal-sciences/concept/ctl-model-checking> <http://www.w3.org/2004/02/skos/core#definition> "Determining whether a designated state of a Kripke structure satisfies a given computation tree logic formula."@en .
+<https://curricula.live/id/formal-sciences/concept/ctl-model-checking> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/ctl-model-checking> <http://www.w3.org/2004/02/skos/core#prefLabel> "CTL model checking"@en .
+<https://curricula.live/id/formal-sciences/concept/ctl-model-checking> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/computation-tree-logic> .
+<https://curricula.live/id/formal-sciences/concept/ctl-star> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/ctl-star> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/branching-time-temporal-logic> .
+<https://curricula.live/id/formal-sciences/concept/ctl-star> <http://www.w3.org/2004/02/skos/core#definition> "A branching-time logic with distinct state and path formulas, allowing Boolean combinations of temporal path properties within a path quantifier."@en .
+<https://curricula.live/id/formal-sciences/concept/ctl-star> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/ctl-star> <http://www.w3.org/2004/02/skos/core#prefLabel> "CTL*"@en .
+<https://curricula.live/id/formal-sciences/concept/ctl-state-labeling-algorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/ctl-state-labeling-algorithm> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/automated-reasoning> .
+<https://curricula.live/id/formal-sciences/concept/ctl-state-labeling-algorithm> <http://www.w3.org/2004/02/skos/core#definition> "A bottom-up CTL model-checking method that builds the set of satisfying states for each subformula, using finite-set fixed points for temporal operators with unbounded time."@en .
+<https://curricula.live/id/formal-sciences/concept/ctl-state-labeling-algorithm> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/ctl-state-labeling-algorithm> <http://www.w3.org/2004/02/skos/core#prefLabel> "CTL state-labeling algorithm"@en .
+<https://curricula.live/id/formal-sciences/concept/ctl-state-labeling-algorithm> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/ctl-model-checking> .
+<https://curricula.live/id/formal-sciences/concept/ctl-state-labeling-algorithm> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/fixed-point> .
 <https://curricula.live/id/formal-sciences/concept/cumulative-distribution-function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/cumulative-distribution-function> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/probability-distributions> .
 <https://curricula.live/id/formal-sciences/concept/cumulative-distribution-function> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -744,6 +780,17 @@
 <https://curricula.live/id/formal-sciences/concept/knowledge-representation> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/artificial-intelligence> .
 <https://curricula.live/id/formal-sciences/concept/knowledge-representation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/knowledge-representation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Knowledge representation"@en .
+<https://curricula.live/id/formal-sciences/concept/kripke-frame> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/kripke-frame> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/modal-logic> .
+<https://curricula.live/id/formal-sciences/concept/kripke-frame> <http://www.w3.org/2004/02/skos/core#definition> "For basic modal logic, a nonempty set of worlds with a binary accessibility relation on those worlds."@en .
+<https://curricula.live/id/formal-sciences/concept/kripke-frame> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/kripke-frame> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kripke frame"@en .
+<https://curricula.live/id/formal-sciences/concept/kripke-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/kripke-model> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/modal-logic> .
+<https://curricula.live/id/formal-sciences/concept/kripke-model> <http://www.w3.org/2004/02/skos/core#definition> "For basic modal logic, a Kripke frame equipped with a valuation specifying the worlds where each propositional atom holds."@en .
+<https://curricula.live/id/formal-sciences/concept/kripke-model> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/kripke-model> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kripke model"@en .
+<https://curricula.live/id/formal-sciences/concept/kripke-model> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/kripke-frame> .
 <https://curricula.live/id/formal-sciences/concept/kruskal-s-algorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/kruskal-s-algorithm> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/kruskal-s-algorithm> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/graph-algorithm> .
@@ -916,6 +963,48 @@
 <https://curricula.live/id/formal-sciences/concept/minimum-spanning-tree-problem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Minimum spanning tree problem"@en .
 <https://curricula.live/id/formal-sciences/concept/minimum-spanning-tree-problem> <http://www.w3.org/2004/02/skos/core#related> <https://curricula.live/id/formal-sciences/concept/spanning-tree> .
 <https://curricula.live/id/formal-sciences/concept/minimum-spanning-tree-problem> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/weighted-graph> .
+<https://curricula.live/id/formal-sciences/concept/modal-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/modal-logic> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/logic> .
+<https://curricula.live/id/formal-sciences/concept/modal-logic> <http://www.w3.org/2004/02/skos/core#definition> "A family of logics with operators that express modes of truth such as necessity and possibility."@en .
+<https://curricula.live/id/formal-sciences/concept/modal-logic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/modal-logic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Modal logic"@en .
+<https://curricula.live/id/formal-sciences/concept/modal-necessitation-rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/modal-necessitation-rule> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/inference-rule> .
+<https://curricula.live/id/formal-sciences/concept/modal-necessitation-rule> <http://www.w3.org/2004/02/skos/core#definition> "The inference rule that licenses deriving necessity of a theorem. In a normal modal logic the premise is a theorem without undischarged assumptions."@en .
+<https://curricula.live/id/formal-sciences/concept/modal-necessitation-rule> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/modal-necessitation-rule> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rule of necessitation"@en .
+<https://curricula.live/id/formal-sciences/concept/modal-necessity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/modal-necessity> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/modal-logic> .
+<https://curricula.live/id/formal-sciences/concept/modal-necessity> <http://www.w3.org/2004/02/skos/core#definition> "In Kripke semantics, necessity of a formula at a world means that the formula holds at every world accessible from it."@en .
+<https://curricula.live/id/formal-sciences/concept/modal-necessity> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/modal-necessity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Modal necessity"@en .
+<https://curricula.live/id/formal-sciences/concept/modal-necessity> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/kripke-frame> .
+<https://curricula.live/id/formal-sciences/concept/modal-possibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/modal-possibility> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/modal-logic> .
+<https://curricula.live/id/formal-sciences/concept/modal-possibility> <http://www.w3.org/2004/02/skos/core#definition> "In Kripke semantics, possibility of a formula at a world means that the formula holds at some world accessible from it."@en .
+<https://curricula.live/id/formal-sciences/concept/modal-possibility> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/modal-possibility> <http://www.w3.org/2004/02/skos/core#prefLabel> "Modal possibility"@en .
+<https://curricula.live/id/formal-sciences/concept/modal-possibility> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/kripke-frame> .
+<https://curricula.live/id/formal-sciences/concept/modal-system-k> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/modal-system-k> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/normal-modal-logic> .
+<https://curricula.live/id/formal-sciences/concept/modal-system-k> <http://www.w3.org/2004/02/skos/core#definition> "The minimal normal propositional modal logic, sound and complete for all Kripke frames."@en .
+<https://curricula.live/id/formal-sciences/concept/modal-system-k> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/modal-system-k> <http://www.w3.org/2004/02/skos/core#prefLabel> "Modal system K"@en .
+<https://curricula.live/id/formal-sciences/concept/modal-system-s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/modal-system-s4> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/normal-modal-logic> .
+<https://curricula.live/id/formal-sciences/concept/modal-system-s4> <http://www.w3.org/2004/02/skos/core#definition> "The normal modal logic extending T with the axiom that necessity implies iterated necessity, sound and complete for reflexive transitive frames."@en .
+<https://curricula.live/id/formal-sciences/concept/modal-system-s4> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/modal-system-s4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Modal system S4"@en .
+<https://curricula.live/id/formal-sciences/concept/modal-system-s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/modal-system-s5> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/normal-modal-logic> .
+<https://curricula.live/id/formal-sciences/concept/modal-system-s5> <http://www.w3.org/2004/02/skos/core#definition> "The normal propositional modal logic sound and complete for frames whose accessibility relation is an equivalence relation."@en .
+<https://curricula.live/id/formal-sciences/concept/modal-system-s5> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/modal-system-s5> <http://www.w3.org/2004/02/skos/core#prefLabel> "Modal system S5"@en .
+<https://curricula.live/id/formal-sciences/concept/modal-system-t> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/modal-system-t> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/normal-modal-logic> .
+<https://curricula.live/id/formal-sciences/concept/modal-system-t> <http://www.w3.org/2004/02/skos/core#definition> "The normal modal logic extending K with the axiom that necessity implies truth, sound and complete for reflexive Kripke frames."@en .
+<https://curricula.live/id/formal-sciences/concept/modal-system-t> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/modal-system-t> <http://www.w3.org/2004/02/skos/core#prefLabel> "Modal system T"@en .
 <https://curricula.live/id/formal-sciences/concept/model-checking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/model-checking> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/formal-verification> .
 <https://curricula.live/id/formal-sciences/concept/model-checking> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
@@ -997,6 +1086,11 @@
 <https://curricula.live/id/formal-sciences/concept/normal-equations> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/normal-equations> <http://www.w3.org/2004/02/skos/core#prefLabel> "Normal equations"@en .
 <https://curricula.live/id/formal-sciences/concept/normal-equations> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/design-matrix> .
+<https://curricula.live/id/formal-sciences/concept/normal-modal-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/normal-modal-logic> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/modal-logic> .
+<https://curricula.live/id/formal-sciences/concept/normal-modal-logic> <http://www.w3.org/2004/02/skos/core#definition> "A modal logic extending classical propositional logic with the distribution axiom for necessity and closed under modus ponens, uniform substitution and necessitation."@en .
+<https://curricula.live/id/formal-sciences/concept/normal-modal-logic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/normal-modal-logic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Normal modal logic"@en .
 <https://curricula.live/id/formal-sciences/concept/np-completeness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/np-completeness> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computational-complexity-theory> .
 <https://curricula.live/id/formal-sciences/concept/np-completeness> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -8256,6 +8350,11 @@
 <https://curricula.live/id/formal-sciences/concept/path-graph-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/graph-theory> .
 <https://curricula.live/id/formal-sciences/concept/path-graph-theory> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/path-graph-theory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Path (graph theory)"@en .
+<https://curricula.live/id/formal-sciences/concept/path-quantifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/path-quantifier> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/branching-time-temporal-logic> .
+<https://curricula.live/id/formal-sciences/concept/path-quantifier> <http://www.w3.org/2004/02/skos/core#definition> "An operator selecting universal or existential quantification over computation paths starting at the current state."@en .
+<https://curricula.live/id/formal-sciences/concept/path-quantifier> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/path-quantifier> <http://www.w3.org/2004/02/skos/core#prefLabel> "Path quantifier"@en .
 <https://curricula.live/id/formal-sciences/concept/permutation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/permutation> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/combinatorics> .
 <https://curricula.live/id/formal-sciences/concept/permutation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
@@ -10475,6 +10574,12 @@
 <https://curricula.live/id/formal-sciences/assertion/3d7f06500774bcbd2f347ac2f094fbea759cb94bad3bfdc5ffa9aab7e82bb7c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <https://curricula.live/id/formal-sciences/concept/two-sat-implication-graph-algorithm> .
 <https://curricula.live/id/formal-sciences/assertion/3d7f06500774bcbd2f347ac2f094fbea759cb94bad3bfdc5ffa9aab7e82bb7c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
 <https://curricula.live/id/formal-sciences/assertion/3d7f06500774bcbd2f347ac2f094fbea759cb94bad3bfdc5ffa9aab7e82bb7c2> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/links/scientific-methods.ttl> .
+<https://curricula.live/id/formal-sciences/assertion/40d1fd49357a5cd2030c91c1103cfdbc0c82e8ac90793985fabfe3ef47057b3f> <http://purl.org/dc/terms/source> <https://mitpress.mit.edu/9780262032704/model-checking/> .
+<https://curricula.live/id/formal-sciences/assertion/40d1fd49357a5cd2030c91c1103cfdbc0c82e8ac90793985fabfe3ef47057b3f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://curricula.live/id/formal-sciences/concept/computation-tree-logic> .
+<https://curricula.live/id/formal-sciences/assertion/40d1fd49357a5cd2030c91c1103cfdbc0c82e8ac90793985fabfe3ef47057b3f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://curricula.live/id/formal-sciences/vocab/uses> .
+<https://curricula.live/id/formal-sciences/assertion/40d1fd49357a5cd2030c91c1103cfdbc0c82e8ac90793985fabfe3ef47057b3f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <https://curricula.live/id/formal-sciences/concept/ctl-model-checking> .
+<https://curricula.live/id/formal-sciences/assertion/40d1fd49357a5cd2030c91c1103cfdbc0c82e8ac90793985fabfe3ef47057b3f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<https://curricula.live/id/formal-sciences/assertion/40d1fd49357a5cd2030c91c1103cfdbc0c82e8ac90793985fabfe3ef47057b3f> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/links/scientific-methods.ttl> .
 <https://curricula.live/id/formal-sciences/assertion/423e57bbc53ee0ce0b81931765a9758ea098010a89fd53955fea1b133a7e66c6> <http://purl.org/dc/terms/source> <https://doi.org/10.1109/18.910572> .
 <https://curricula.live/id/formal-sciences/assertion/423e57bbc53ee0ce0b81931765a9758ea098010a89fd53955fea1b133a7e66c6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://curricula.live/id/formal-sciences/concept/factor-graph> .
 <https://curricula.live/id/formal-sciences/assertion/423e57bbc53ee0ce0b81931765a9758ea098010a89fd53955fea1b133a7e66c6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://curricula.live/id/formal-sciences/vocab/uses> .
@@ -10528,6 +10633,12 @@
 <https://curricula.live/id/formal-sciences/assertion/56d8428b863010a2ca9ff121adeeec74325e2087ab7d4634e5a8bcf774616c99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <https://curricula.live/id/formal-sciences/concept/hoare-logic> .
 <https://curricula.live/id/formal-sciences/assertion/56d8428b863010a2ca9ff121adeeec74325e2087ab7d4634e5a8bcf774616c99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
 <https://curricula.live/id/formal-sciences/assertion/56d8428b863010a2ca9ff121adeeec74325e2087ab7d4634e5a8bcf774616c99> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/links/relations.ttl> .
+<https://curricula.live/id/formal-sciences/assertion/57822cd18214b4d495fefaeea604c1082155e550618cd172b7ce4a8417becbc6> <http://purl.org/dc/terms/source> <https://mitpress.mit.edu/9780262032704/model-checking/> .
+<https://curricula.live/id/formal-sciences/assertion/57822cd18214b4d495fefaeea604c1082155e550618cd172b7ce4a8417becbc6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://curricula.live/id/formal-sciences/concept/fixed-point> .
+<https://curricula.live/id/formal-sciences/assertion/57822cd18214b4d495fefaeea604c1082155e550618cd172b7ce4a8417becbc6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://curricula.live/id/formal-sciences/vocab/uses> .
+<https://curricula.live/id/formal-sciences/assertion/57822cd18214b4d495fefaeea604c1082155e550618cd172b7ce4a8417becbc6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <https://curricula.live/id/formal-sciences/concept/ctl-state-labeling-algorithm> .
+<https://curricula.live/id/formal-sciences/assertion/57822cd18214b4d495fefaeea604c1082155e550618cd172b7ce4a8417becbc6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<https://curricula.live/id/formal-sciences/assertion/57822cd18214b4d495fefaeea604c1082155e550618cd172b7ce4a8417becbc6> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/_shared/bridges/scientific-methods.ttl> .
 <https://curricula.live/id/formal-sciences/assertion/57d2cd792d88df9ed0f5acdfe130f451990979560da8715a04ac2b518102bdd1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://curricula.live/id/formal-sciences/concept/graph-graph-theory> .
 <https://curricula.live/id/formal-sciences/assertion/57d2cd792d88df9ed0f5acdfe130f451990979560da8715a04ac2b518102bdd1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://curricula.live/id/formal-sciences/vocab/uses> .
 <https://curricula.live/id/formal-sciences/assertion/57d2cd792d88df9ed0f5acdfe130f451990979560da8715a04ac2b518102bdd1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <https://curricula.live/id/formal-sciences/concept/probabilistic-graphical-model> .
@@ -10609,6 +10720,12 @@
 <https://curricula.live/id/formal-sciences/assertion/6ff143cac11465e73ff1a93f192d534b355199f87a6eb1134e2141d8a2b44878> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <https://curricula.live/id/formal-sciences/concept/minimum-spanning-tree-problem> .
 <https://curricula.live/id/formal-sciences/assertion/6ff143cac11465e73ff1a93f192d534b355199f87a6eb1134e2141d8a2b44878> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
 <https://curricula.live/id/formal-sciences/assertion/6ff143cac11465e73ff1a93f192d534b355199f87a6eb1134e2141d8a2b44878> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/_shared/bridges/formal-sciences.ttl> .
+<https://curricula.live/id/formal-sciences/assertion/7051e4346b5830b2173474971b9c6c385b11603c78f1947f372f224747a5c7c2> <http://purl.org/dc/terms/source> <https://mitpress.mit.edu/9780262032704/model-checking/> .
+<https://curricula.live/id/formal-sciences/assertion/7051e4346b5830b2173474971b9c6c385b11603c78f1947f372f224747a5c7c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://curricula.live/id/formal-sciences/concept/path-quantifier> .
+<https://curricula.live/id/formal-sciences/assertion/7051e4346b5830b2173474971b9c6c385b11603c78f1947f372f224747a5c7c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://curricula.live/id/formal-sciences/vocab/uses> .
+<https://curricula.live/id/formal-sciences/assertion/7051e4346b5830b2173474971b9c6c385b11603c78f1947f372f224747a5c7c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <https://curricula.live/id/formal-sciences/concept/computation-tree-logic> .
+<https://curricula.live/id/formal-sciences/assertion/7051e4346b5830b2173474971b9c6c385b11603c78f1947f372f224747a5c7c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<https://curricula.live/id/formal-sciences/assertion/7051e4346b5830b2173474971b9c6c385b11603c78f1947f372f224747a5c7c2> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/links/scientific-methods.ttl> .
 <https://curricula.live/id/formal-sciences/assertion/70acbd212cca6f55a1f798d99bd108d08b2693d76af5f7738b786e471c0b8f22> <http://purl.org/dc/terms/source> <https://doi.org/10.1002/047174882X> .
 <https://curricula.live/id/formal-sciences/assertion/70acbd212cca6f55a1f798d99bd108d08b2693d76af5f7738b786e471c0b8f22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://curricula.live/id/formal-sciences/concept/expected-value> .
 <https://curricula.live/id/formal-sciences/assertion/70acbd212cca6f55a1f798d99bd108d08b2693d76af5f7738b786e471c0b8f22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://curricula.live/id/formal-sciences/vocab/uses> .
@@ -10642,6 +10759,12 @@
 <https://curricula.live/id/formal-sciences/assertion/7872d18a19ecd87b13add204a72ad1fc82328a6ccff45da8198c2e3c088e3fd5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <https://curricula.live/id/formal-sciences/concept/edge-relaxation> .
 <https://curricula.live/id/formal-sciences/assertion/7872d18a19ecd87b13add204a72ad1fc82328a6ccff45da8198c2e3c088e3fd5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
 <https://curricula.live/id/formal-sciences/assertion/7872d18a19ecd87b13add204a72ad1fc82328a6ccff45da8198c2e3c088e3fd5> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/_shared/bridges/scientific-methods.ttl> .
+<https://curricula.live/id/formal-sciences/assertion/7b226e685a184e59e0f021319ab7beca06b65bdbda94b010cab5a988bac2f625> <http://purl.org/dc/terms/source> <https://mitpress.mit.edu/9780262032704/model-checking/> .
+<https://curricula.live/id/formal-sciences/assertion/7b226e685a184e59e0f021319ab7beca06b65bdbda94b010cab5a988bac2f625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://curricula.live/id/formal-sciences/concept/ctl-model-checking> .
+<https://curricula.live/id/formal-sciences/assertion/7b226e685a184e59e0f021319ab7beca06b65bdbda94b010cab5a988bac2f625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://curricula.live/id/formal-sciences/vocab/solves> .
+<https://curricula.live/id/formal-sciences/assertion/7b226e685a184e59e0f021319ab7beca06b65bdbda94b010cab5a988bac2f625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <https://curricula.live/id/formal-sciences/concept/ctl-state-labeling-algorithm> .
+<https://curricula.live/id/formal-sciences/assertion/7b226e685a184e59e0f021319ab7beca06b65bdbda94b010cab5a988bac2f625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<https://curricula.live/id/formal-sciences/assertion/7b226e685a184e59e0f021319ab7beca06b65bdbda94b010cab5a988bac2f625> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/links/scientific-methods.ttl> .
 <https://curricula.live/id/formal-sciences/assertion/8072c3699d847a1cfd2cc425547938c59f3f6e2e61a37e3dae269999ed5cd683> <http://purl.org/dc/terms/source> <https://algs4.cs.princeton.edu/lectures/> .
 <https://curricula.live/id/formal-sciences/assertion/8072c3699d847a1cfd2cc425547938c59f3f6e2e61a37e3dae269999ed5cd683> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://curricula.live/id/formal-sciences/concept/maximum-flow-problem> .
 <https://curricula.live/id/formal-sciences/assertion/8072c3699d847a1cfd2cc425547938c59f3f6e2e61a37e3dae269999ed5cd683> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://curricula.live/id/formal-sciences/vocab/solves> .
@@ -10821,6 +10944,12 @@
 <https://curricula.live/id/formal-sciences/assertion/bb443b99325588cde2f5bc3a8a37eedc0137b84b584bb851124da6c7f5fdd613> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <https://curricula.live/id/formal-sciences/concept/adjacency-list> .
 <https://curricula.live/id/formal-sciences/assertion/bb443b99325588cde2f5bc3a8a37eedc0137b84b584bb851124da6c7f5fdd613> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
 <https://curricula.live/id/formal-sciences/assertion/bb443b99325588cde2f5bc3a8a37eedc0137b84b584bb851124da6c7f5fdd613> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/mathematics/links/scientific-methods.ttl> .
+<https://curricula.live/id/formal-sciences/assertion/bd0933b768c82af371a4c85029824834ad143641a687fc629af36bcc64936cb6> <http://purl.org/dc/terms/source> <https://plato.stanford.edu/entries/logic-modal/> .
+<https://curricula.live/id/formal-sciences/assertion/bd0933b768c82af371a4c85029824834ad143641a687fc629af36bcc64936cb6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://curricula.live/id/formal-sciences/concept/kripke-frame> .
+<https://curricula.live/id/formal-sciences/assertion/bd0933b768c82af371a4c85029824834ad143641a687fc629af36bcc64936cb6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://curricula.live/id/formal-sciences/vocab/uses> .
+<https://curricula.live/id/formal-sciences/assertion/bd0933b768c82af371a4c85029824834ad143641a687fc629af36bcc64936cb6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <https://curricula.live/id/formal-sciences/concept/modal-possibility> .
+<https://curricula.live/id/formal-sciences/assertion/bd0933b768c82af371a4c85029824834ad143641a687fc629af36bcc64936cb6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<https://curricula.live/id/formal-sciences/assertion/bd0933b768c82af371a4c85029824834ad143641a687fc629af36bcc64936cb6> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/links/scientific-methods.ttl> .
 <https://curricula.live/id/formal-sciences/assertion/bd1f13d2b4c3c1b1f7ac43f65110dd41caf993c9df495ec5d1f60ea4ef0303b7> <http://purl.org/dc/terms/source> <https://doi.org/10.1201/b16018> .
 <https://curricula.live/id/formal-sciences/assertion/bd1f13d2b4c3c1b1f7ac43f65110dd41caf993c9df495ec5d1f60ea4ef0303b7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://curricula.live/id/formal-sciences/concept/markov-chain> .
 <https://curricula.live/id/formal-sciences/assertion/bd1f13d2b4c3c1b1f7ac43f65110dd41caf993c9df495ec5d1f60ea4ef0303b7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://curricula.live/id/formal-sciences/vocab/uses> .
@@ -10978,12 +11107,24 @@
 <https://curricula.live/id/formal-sciences/assertion/e60ee059d1cb8d3dd293f6a2e440e450b7a6f00b60006015a9df3c9bdfdb51af> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <https://curricula.live/id/formal-sciences/concept/maximum-a-posteriori-estimation> .
 <https://curricula.live/id/formal-sciences/assertion/e60ee059d1cb8d3dd293f6a2e440e450b7a6f00b60006015a9df3c9bdfdb51af> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
 <https://curricula.live/id/formal-sciences/assertion/e60ee059d1cb8d3dd293f6a2e440e450b7a6f00b60006015a9df3c9bdfdb51af> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/statistics/links/relations.ttl> .
+<https://curricula.live/id/formal-sciences/assertion/e6d703be1009ec25877766da16c010a33e8869dc59489d5c5e51d2d7d8c2b072> <http://purl.org/dc/terms/source> <https://plato.stanford.edu/entries/logic-modal/> .
+<https://curricula.live/id/formal-sciences/assertion/e6d703be1009ec25877766da16c010a33e8869dc59489d5c5e51d2d7d8c2b072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://curricula.live/id/formal-sciences/concept/kripke-frame> .
+<https://curricula.live/id/formal-sciences/assertion/e6d703be1009ec25877766da16c010a33e8869dc59489d5c5e51d2d7d8c2b072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://curricula.live/id/formal-sciences/vocab/uses> .
+<https://curricula.live/id/formal-sciences/assertion/e6d703be1009ec25877766da16c010a33e8869dc59489d5c5e51d2d7d8c2b072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <https://curricula.live/id/formal-sciences/concept/kripke-model> .
+<https://curricula.live/id/formal-sciences/assertion/e6d703be1009ec25877766da16c010a33e8869dc59489d5c5e51d2d7d8c2b072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<https://curricula.live/id/formal-sciences/assertion/e6d703be1009ec25877766da16c010a33e8869dc59489d5c5e51d2d7d8c2b072> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/links/scientific-methods.ttl> .
 <https://curricula.live/id/formal-sciences/assertion/ea426a929d5a0d6418352fd7b4563c90724ee26445b25ff35d6ac6006e46e10d> <http://purl.org/dc/terms/source> <https://algs4.cs.princeton.edu/41graph/> .
 <https://curricula.live/id/formal-sciences/assertion/ea426a929d5a0d6418352fd7b4563c90724ee26445b25ff35d6ac6006e46e10d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://curricula.live/id/formal-sciences/concept/graph-vertex> .
 <https://curricula.live/id/formal-sciences/assertion/ea426a929d5a0d6418352fd7b4563c90724ee26445b25ff35d6ac6006e46e10d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://curricula.live/id/formal-sciences/vocab/uses> .
 <https://curricula.live/id/formal-sciences/assertion/ea426a929d5a0d6418352fd7b4563c90724ee26445b25ff35d6ac6006e46e10d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <https://curricula.live/id/formal-sciences/concept/breadth-first-search> .
 <https://curricula.live/id/formal-sciences/assertion/ea426a929d5a0d6418352fd7b4563c90724ee26445b25ff35d6ac6006e46e10d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
 <https://curricula.live/id/formal-sciences/assertion/ea426a929d5a0d6418352fd7b4563c90724ee26445b25ff35d6ac6006e46e10d> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/_shared/bridges/scientific-methods.ttl> .
+<https://curricula.live/id/formal-sciences/assertion/edcc148e28bc3fe87921a003f7a7affe991757fd0b1f656ae9f35839a248c013> <http://purl.org/dc/terms/source> <https://plato.stanford.edu/entries/logic-modal/> .
+<https://curricula.live/id/formal-sciences/assertion/edcc148e28bc3fe87921a003f7a7affe991757fd0b1f656ae9f35839a248c013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://curricula.live/id/formal-sciences/concept/kripke-frame> .
+<https://curricula.live/id/formal-sciences/assertion/edcc148e28bc3fe87921a003f7a7affe991757fd0b1f656ae9f35839a248c013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://curricula.live/id/formal-sciences/vocab/uses> .
+<https://curricula.live/id/formal-sciences/assertion/edcc148e28bc3fe87921a003f7a7affe991757fd0b1f656ae9f35839a248c013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <https://curricula.live/id/formal-sciences/concept/modal-necessity> .
+<https://curricula.live/id/formal-sciences/assertion/edcc148e28bc3fe87921a003f7a7affe991757fd0b1f656ae9f35839a248c013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<https://curricula.live/id/formal-sciences/assertion/edcc148e28bc3fe87921a003f7a7affe991757fd0b1f656ae9f35839a248c013> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/links/scientific-methods.ttl> .
 <https://curricula.live/id/formal-sciences/assertion/eec0da87974afa65e662a8cdb043e1c87e136d2d43a0dc354a42424c151a6d1d> <http://purl.org/dc/terms/source> <https://algs4.cs.princeton.edu/44sp/> .
 <https://curricula.live/id/formal-sciences/assertion/eec0da87974afa65e662a8cdb043e1c87e136d2d43a0dc354a42424c151a6d1d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://curricula.live/id/formal-sciences/concept/shortest-path-problem> .
 <https://curricula.live/id/formal-sciences/assertion/eec0da87974afa65e662a8cdb043e1c87e136d2d43a0dc354a42424c151a6d1d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://curricula.live/id/formal-sciences/vocab/solves> .
@@ -11042,6 +11183,12 @@
 <https://curricula.live/id/formal-sciences/assertion/fd000bda3c28475c1a66a91e6fdbbe40348f14dc4f419f6eaeef2bbbce2da16e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <https://curricula.live/id/formal-sciences/concept/graph-algorithm> .
 <https://curricula.live/id/formal-sciences/assertion/fd000bda3c28475c1a66a91e6fdbbe40348f14dc4f419f6eaeef2bbbce2da16e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
 <https://curricula.live/id/formal-sciences/assertion/fd000bda3c28475c1a66a91e6fdbbe40348f14dc4f419f6eaeef2bbbce2da16e> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/_shared/bridges/formal-sciences.ttl> .
+<https://curricula.live/id/formal-sciences/assertion/fdc06b238a58507713e66a32371e36e5d345f713bea17ca375059106ce43cc3c> <http://purl.org/dc/terms/source> <https://doi.org/10.1017/CBO9781107050884> .
+<https://curricula.live/id/formal-sciences/assertion/fdc06b238a58507713e66a32371e36e5d345f713bea17ca375059106ce43cc3c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://curricula.live/id/formal-sciences/concept/kripke-model> .
+<https://curricula.live/id/formal-sciences/assertion/fdc06b238a58507713e66a32371e36e5d345f713bea17ca375059106ce43cc3c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://curricula.live/id/formal-sciences/vocab/uses> .
+<https://curricula.live/id/formal-sciences/assertion/fdc06b238a58507713e66a32371e36e5d345f713bea17ca375059106ce43cc3c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <https://curricula.live/id/formal-sciences/concept/bisimulation-modal-logic> .
+<https://curricula.live/id/formal-sciences/assertion/fdc06b238a58507713e66a32371e36e5d345f713bea17ca375059106ce43cc3c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<https://curricula.live/id/formal-sciences/assertion/fdc06b238a58507713e66a32371e36e5d345f713bea17ca375059106ce43cc3c> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/links/scientific-methods.ttl> .
 <https://curricula.live/id/formal-sciences/assertion/fec8ef7feca00f2cb7defc9896cf1eb33be03101d67dd7589dcaa402ca801ace> <http://purl.org/dc/terms/source> <https://algs4.cs.princeton.edu/44sp/> .
 <https://curricula.live/id/formal-sciences/assertion/fec8ef7feca00f2cb7defc9896cf1eb33be03101d67dd7589dcaa402ca801ace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://curricula.live/id/formal-sciences/concept/edge-relaxation> .
 <https://curricula.live/id/formal-sciences/assertion/fec8ef7feca00f2cb7defc9896cf1eb33be03101d67dd7589dcaa402ca801ace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://curricula.live/id/formal-sciences/vocab/uses> .
@@ -11078,10 +11225,12 @@
 <https://curricula.live/id/formal-sciences/concept/binary-search> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/algorithms.ttl> .
 <https://curricula.live/id/formal-sciences/concept/binomial-coefficient> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/mathematics/modules/combinatorics.ttl> .
 <https://curricula.live/id/formal-sciences/concept/bipartite-graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/mathematics/modules/graph-theory.ttl> .
+<https://curricula.live/id/formal-sciences/concept/bisimulation-modal-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
 <https://curricula.live/id/formal-sciences/concept/boolean-algebra> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/mathematics/modules/discrete-mathematics.ttl> .
 <https://curricula.live/id/formal-sciences/concept/boolean-formula> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/propositional-logic.ttl> .
 <https://curricula.live/id/formal-sciences/concept/boolean-satisfiability> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/boolean-satisfiability.ttl> .
 <https://curricula.live/id/formal-sciences/concept/branch-prediction> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/computer-architecture.ttl> .
+<https://curricula.live/id/formal-sciences/concept/branching-time-temporal-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
 <https://curricula.live/id/formal-sciences/concept/breadth-first-search> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/algorithms.ttl> .
 <https://curricula.live/id/formal-sciences/concept/buchi-automaton> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/automata-theory.ttl> .
 <https://curricula.live/id/formal-sciences/concept/cache-memory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/computer-architecture.ttl> .
@@ -11096,6 +11245,7 @@
 <https://curricula.live/id/formal-sciences/concept/compactness-topology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/mathematics/modules/topology.ttl> .
 <https://curricula.live/id/formal-sciences/concept/computability-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/computability-theory.ttl> .
 <https://curricula.live/id/formal-sciences/concept/computably-enumerable-set> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/computability-theory.ttl> .
+<https://curricula.live/id/formal-sciences/concept/computation-tree-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
 <https://curricula.live/id/formal-sciences/concept/computational-complexity-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/computational-complexity-theory.ttl> .
 <https://curricula.live/id/formal-sciences/concept/computational-problem> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/foundations-of-computing.ttl> .
 <https://curricula.live/id/formal-sciences/concept/computer-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/computer-architecture.ttl> .
@@ -11123,6 +11273,9 @@
 <https://curricula.live/id/formal-sciences/concept/covariance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/statistics/modules/random-variables.ttl> .
 <https://curricula.live/id/formal-sciences/concept/cryptographic-hash-function> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/cryptography.ttl> .
 <https://curricula.live/id/formal-sciences/concept/cryptography> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/cryptography.ttl> .
+<https://curricula.live/id/formal-sciences/concept/ctl-model-checking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
+<https://curricula.live/id/formal-sciences/concept/ctl-star> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
+<https://curricula.live/id/formal-sciences/concept/ctl-state-labeling-algorithm> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
 <https://curricula.live/id/formal-sciences/concept/cumulative-distribution-function> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/statistics/modules/probability-distributions.ttl> .
 <https://curricula.live/id/formal-sciences/concept/curry-howard-correspondence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/type-theory.ttl> .
 <https://curricula.live/id/formal-sciences/concept/cut-elimination> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/proof-theory.ttl> .
@@ -11217,6 +11370,8 @@
 <https://curricula.live/id/formal-sciences/concept/joint-distribution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/statistics/modules/probability-theory.ttl> .
 <https://curricula.live/id/formal-sciences/concept/kernel-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/machine-learning.ttl> .
 <https://curricula.live/id/formal-sciences/concept/knowledge-representation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/artificial-intelligence.ttl> .
+<https://curricula.live/id/formal-sciences/concept/kripke-frame> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
+<https://curricula.live/id/formal-sciences/concept/kripke-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
 <https://curricula.live/id/formal-sciences/concept/kruskal-s-algorithm> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/algorithms.ttl> .
 <https://curricula.live/id/formal-sciences/concept/kullback-leibler-divergence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/information-theory.ttl> .
 <https://curricula.live/id/formal-sciences/concept/lambda-calculus> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/programming-languages.ttl> .
@@ -11254,6 +11409,14 @@
 <https://curricula.live/id/formal-sciences/concept/method-of-moments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/statistics/modules/statistical-estimation.ttl> .
 <https://curricula.live/id/formal-sciences/concept/metric-space> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/mathematics/modules/mathematical-analysis.ttl> .
 <https://curricula.live/id/formal-sciences/concept/minimum-spanning-tree-problem> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/algorithms.ttl> .
+<https://curricula.live/id/formal-sciences/concept/modal-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
+<https://curricula.live/id/formal-sciences/concept/modal-necessitation-rule> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
+<https://curricula.live/id/formal-sciences/concept/modal-necessity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
+<https://curricula.live/id/formal-sciences/concept/modal-possibility> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
+<https://curricula.live/id/formal-sciences/concept/modal-system-k> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
+<https://curricula.live/id/formal-sciences/concept/modal-system-s4> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
+<https://curricula.live/id/formal-sciences/concept/modal-system-s5> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
+<https://curricula.live/id/formal-sciences/concept/modal-system-t> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
 <https://curricula.live/id/formal-sciences/concept/model-checking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/formal-verification.ttl> .
 <https://curricula.live/id/formal-sciences/concept/model-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/model-theory.ttl> .
 <https://curricula.live/id/formal-sciences/concept/modular-arithmetic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/mathematics/modules/number-theory.ttl> .
@@ -11272,6 +11435,7 @@
 <https://curricula.live/id/formal-sciences/concept/normal-distribution> <http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/STATO_0000227> .
 <https://curricula.live/id/formal-sciences/concept/normal-distribution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/statistics/modules/probability-distributions.ttl> .
 <https://curricula.live/id/formal-sciences/concept/normal-equations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/mathematics/modules/numerical-analysis.ttl> .
+<https://curricula.live/id/formal-sciences/concept/normal-modal-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
 <https://curricula.live/id/formal-sciences/concept/np-completeness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/computer-science/modules/computational-complexity-theory.ttl> .
 <https://curricula.live/id/formal-sciences/concept/null-hypothesis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/statistics/modules/hypothesis-testing.ttl> .
 <https://curricula.live/id/formal-sciences/concept/number-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/mathematics/modules/number-theory.ttl> .
@@ -14840,6 +15004,7 @@
 <https://curricula.live/id/formal-sciences/concept/partial-derivative> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/mathematics/modules/calculus.ttl> .
 <https://curricula.live/id/formal-sciences/concept/partial-order> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/mathematics/modules/discrete-mathematics.ttl> .
 <https://curricula.live/id/formal-sciences/concept/path-graph-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/mathematics/modules/graph-theory.ttl> .
+<https://curricula.live/id/formal-sciences/concept/path-quantifier> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> .
 <https://curricula.live/id/formal-sciences/concept/permutation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/mathematics/modules/combinatorics.ttl> .
 <https://curricula.live/id/formal-sciences/concept/poisson-distribution> <http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/STATO_0000051> .
 <https://curricula.live/id/formal-sciences/concept/poisson-distribution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/module/statistics/modules/probability-distributions.ttl> .
@@ -15592,7 +15757,7 @@
 <https://curricula.live/id/formal-sciences/graph/inferred> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://curricula.live/id/formal-sciences/graph/asserted> .
 <https://curricula.live/id/formal-sciences/module/_shared/bridges/formal-sciences.ttl> <http://purl.org/dc/terms/identifier> "a7f2829fa332af022d6d01cfc8e9ef4da358119b3b25a676ab34d7ad62c68707" .
 <https://curricula.live/id/formal-sciences/module/_shared/bridges/formal-sciences.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
-<https://curricula.live/id/formal-sciences/module/_shared/bridges/scientific-methods.ttl> <http://purl.org/dc/terms/identifier> "7504739841dd82984e773cf8e7ecd6c218c16bd8a4dddd5627eadd731f046edd" .
+<https://curricula.live/id/formal-sciences/module/_shared/bridges/scientific-methods.ttl> <http://purl.org/dc/terms/identifier> "53f8b61eff71d9d7b14fa364f8a1957866ffdd24d89f83ae5c8d35839f283fab" .
 <https://curricula.live/id/formal-sciences/module/_shared/bridges/scientific-methods.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://curricula.live/id/formal-sciences/module/_shared/vocabulary/relations.ttl> <http://purl.org/dc/terms/identifier> "ff520df38f4d5335b79976815944c8bf1994e5bbe0ee4cd0014e7f57dd3b3499" .
 <https://curricula.live/id/formal-sciences/module/_shared/vocabulary/relations.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
@@ -15677,7 +15842,7 @@
 <https://curricula.live/id/formal-sciences/module/computer-science/modules/software-engineering.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://curricula.live/id/formal-sciences/module/logic/links/relations.ttl> <http://purl.org/dc/terms/identifier> "84451d4cd95f18982f14cb80a66436e1b07348c0743d3341130325bbf27667fe" .
 <https://curricula.live/id/formal-sciences/module/logic/links/relations.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
-<https://curricula.live/id/formal-sciences/module/logic/links/scientific-methods.ttl> <http://purl.org/dc/terms/identifier> "d9cd9925a78b39f866ef6d6ac055dcbbd5052ebe14e83df223edb4c45555fc8a" .
+<https://curricula.live/id/formal-sciences/module/logic/links/scientific-methods.ttl> <http://purl.org/dc/terms/identifier> "9d51bf3a75848a13773e3494e4b9db48d6a1f310c4d7481bfa539f2ecbe97759" .
 <https://curricula.live/id/formal-sciences/module/logic/links/scientific-methods.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://curricula.live/id/formal-sciences/module/logic/modules/automated-reasoning.ttl> <http://purl.org/dc/terms/identifier> "6356266f4fe1686d58f030c9510ead4dc0445b447646bdc672f8a3c1d9948d07" .
 <https://curricula.live/id/formal-sciences/module/logic/modules/automated-reasoning.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
@@ -15689,6 +15854,8 @@
 <https://curricula.live/id/formal-sciences/module/logic/modules/formal-semantics.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://curricula.live/id/formal-sciences/module/logic/modules/formal-verification.ttl> <http://purl.org/dc/terms/identifier> "e1b472ad5d3615b1312e85bd033ae5ace18e3d1328d217d21437d69b2604ef0b" .
 <https://curricula.live/id/formal-sciences/module/logic/modules/formal-verification.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> <http://purl.org/dc/terms/identifier> "d3be04f19b3b6a07ab5066a395baa1ed1ccdd8da93f3118882de0f392b39e7de" .
+<https://curricula.live/id/formal-sciences/module/logic/modules/modal-and-temporal-logic.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://curricula.live/id/formal-sciences/module/logic/modules/model-theory.ttl> <http://purl.org/dc/terms/identifier> "410903691789d32621cc5828e4fb5ad2fc3c797a3fe0fee889bdf564296735f7" .
 <https://curricula.live/id/formal-sciences/module/logic/modules/model-theory.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://curricula.live/id/formal-sciences/module/logic/modules/predicate-logic.ttl> <http://purl.org/dc/terms/identifier> "ebd63851b255f65f32a686b83312bb5e53bdec26e2672ac7667629376f2756bd" .
@@ -17555,6 +17722,7 @@
 <https://curricula.live/id/formal-sciences/concept/automata-theory> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/nondeterministic-pushdown-automaton> .
 <https://curricula.live/id/formal-sciences/concept/automata-theory> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/pushdown-automaton> .
 <https://curricula.live/id/formal-sciences/concept/automata-theory> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/regular-language> .
+<https://curricula.live/id/formal-sciences/concept/automated-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/ctl-state-labeling-algorithm> .
 <https://curricula.live/id/formal-sciences/concept/automated-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/resolution-logic> .
 <https://curricula.live/id/formal-sciences/concept/automated-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/term-rewriting> .
 <https://curricula.live/id/formal-sciences/concept/automated-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/theorem-prover> .
@@ -17581,6 +17749,9 @@
 <https://curricula.live/id/formal-sciences/concept/boolean-satisfiability> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/two-satisfiability> .
 <https://curricula.live/id/formal-sciences/concept/boolean-satisfiability> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/unit-propagation> .
 <https://curricula.live/id/formal-sciences/concept/boolean-satisfiability> <http://www.w3.org/2004/02/skos/core#related> <https://curricula.live/id/formal-sciences/concept/cook-levin-theorem> .
+<https://curricula.live/id/formal-sciences/concept/branching-time-temporal-logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/computation-tree-logic> .
+<https://curricula.live/id/formal-sciences/concept/branching-time-temporal-logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/ctl-star> .
+<https://curricula.live/id/formal-sciences/concept/branching-time-temporal-logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/path-quantifier> .
 <https://curricula.live/id/formal-sciences/concept/calculus> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/chain-rule> .
 <https://curricula.live/id/formal-sciences/concept/calculus> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/definite-integral> .
 <https://curricula.live/id/formal-sciences/concept/calculus> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/derivative> .
@@ -18075,6 +18246,7 @@
 <https://curricula.live/id/formal-sciences/concept/formal-semantics> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/fixed-point-semantics> .
 <https://curricula.live/id/formal-sciences/concept/formal-semantics> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/semantic-entailment> .
 <https://curricula.live/id/formal-sciences/concept/formal-verification> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/automata-theoretic-ltl-model-checking> .
+<https://curricula.live/id/formal-sciences/concept/formal-verification> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/branching-time-temporal-logic> .
 <https://curricula.live/id/formal-sciences/concept/formal-verification> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/hoare-logic> .
 <https://curricula.live/id/formal-sciences/concept/formal-verification> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/linear-temporal-logic> .
 <https://curricula.live/id/formal-sciences/concept/formal-verification> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/loop-invariant> .
@@ -18505,6 +18677,7 @@
 <https://curricula.live/id/formal-sciences/concept/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/stato-0000641> .
 <https://curricula.live/id/formal-sciences/concept/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/stato-0000644> .
 <https://curricula.live/id/formal-sciences/concept/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/type-i-error> .
+<https://curricula.live/id/formal-sciences/concept/inference-rule> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/modal-necessitation-rule> .
 <https://curricula.live/id/formal-sciences/concept/information-theory> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/channel-capacity> .
 <https://curricula.live/id/formal-sciences/concept/information-theory> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/conditional-entropy> .
 <https://curricula.live/id/formal-sciences/concept/information-theory> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/conditional-mutual-information> .
@@ -18602,6 +18775,7 @@
 <https://curricula.live/id/formal-sciences/concept/logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/boolean-satisfiability> .
 <https://curricula.live/id/formal-sciences/concept/logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/formal-semantics> .
 <https://curricula.live/id/formal-sciences/concept/logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/formal-verification> .
+<https://curricula.live/id/formal-sciences/concept/logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/modal-logic> .
 <https://curricula.live/id/formal-sciences/concept/logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/model-theory> .
 <https://curricula.live/id/formal-sciences/concept/logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/predicate-logic> .
 <https://curricula.live/id/formal-sciences/concept/logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/proof-theory> .
@@ -18890,7 +19064,14 @@
 <https://curricula.live/id/formal-sciences/concept/mathematics> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/topology> .
 <https://curricula.live/id/formal-sciences/concept/matrix-factorization> <http://www.w3.org/2004/02/skos/core#related> <https://curricula.live/id/formal-sciences/concept/linear-regression> .
 <https://curricula.live/id/formal-sciences/concept/maximum-likelihood-estimation> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/stato-0000427> .
+<https://curricula.live/id/formal-sciences/concept/modal-logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/bisimulation-modal-logic> .
+<https://curricula.live/id/formal-sciences/concept/modal-logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/kripke-frame> .
+<https://curricula.live/id/formal-sciences/concept/modal-logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/kripke-model> .
+<https://curricula.live/id/formal-sciences/concept/modal-logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/modal-necessity> .
+<https://curricula.live/id/formal-sciences/concept/modal-logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/modal-possibility> .
+<https://curricula.live/id/formal-sciences/concept/modal-logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/normal-modal-logic> .
 <https://curricula.live/id/formal-sciences/concept/model-checking> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/automata-theoretic-ltl-model-checking> .
+<https://curricula.live/id/formal-sciences/concept/model-checking> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/ctl-model-checking> .
 <https://curricula.live/id/formal-sciences/concept/model-checking> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/symbolic-model-checking> .
 <https://curricula.live/id/formal-sciences/concept/model-theory> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/elementary-equivalence> .
 <https://curricula.live/id/formal-sciences/concept/model-theory> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/first-order-theory> .
@@ -18901,6 +19082,10 @@
 <https://curricula.live/id/formal-sciences/concept/multivariate-statistics> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/multivariate-normal-distribution> .
 <https://curricula.live/id/formal-sciences/concept/multivariate-statistics> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/principal-component-analysis> .
 <https://curricula.live/id/formal-sciences/concept/normal-distribution> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/stato-0000180> .
+<https://curricula.live/id/formal-sciences/concept/normal-modal-logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/modal-system-k> .
+<https://curricula.live/id/formal-sciences/concept/normal-modal-logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/modal-system-s4> .
+<https://curricula.live/id/formal-sciences/concept/normal-modal-logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/modal-system-s5> .
+<https://curricula.live/id/formal-sciences/concept/normal-modal-logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/modal-system-t> .
 <https://curricula.live/id/formal-sciences/concept/np-completeness> <http://www.w3.org/2004/02/skos/core#related> <https://curricula.live/id/formal-sciences/concept/boolean-satisfiability> .
 <https://curricula.live/id/formal-sciences/concept/np-completeness> <http://www.w3.org/2004/02/skos/core#related> <https://curricula.live/id/formal-sciences/concept/cook-levin-theorem> .
 <https://curricula.live/id/formal-sciences/concept/number-theory> <http://www.w3.org/2004/02/skos/core#narrower> <https://curricula.live/id/formal-sciences/concept/divisibility> .

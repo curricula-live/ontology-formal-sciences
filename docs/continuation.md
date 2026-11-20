@@ -17,14 +17,14 @@ Three checksum-pinned batches add 2,091 new canonical headings. OpenCS
 contributes 908, OntoMathPro 867 and STATO 316. STATO also reuses 17
 existing canonical IRIs. The modules record editorial subject hierarchies
 and leave source-specific OWL modeling in staging. The release connects all
-2,432 concepts in one weakly connected component, with 54 explicit
+2,450 concepts in one weakly connected component, with 55 explicit
 cross-domain edges. See the manifest for the complete measured distribution
 and the competency queries for concrete relationship evidence.
 
 The context-sensitive OpenCS admission policy covers selected computing
 families. OntoMathPro covers a reviewed English subset. STATO covers
 selected native statistical classes. Expansion remains uneven across domains,
-particularly logic. Pending candidates require source scope and sense review.
+particularly logic. The logic extension adds modal systems, Kripke semantics and branching-time verification. Pending candidates require source scope and sense review.
 ACM CCS publication rights, DMOP acquisition and the unrecovered historical
 snapshots remain open. Formal theorem extraction from Lean still requires
 elaboration, and the Mathlib adapter currently indexes module dependencies.

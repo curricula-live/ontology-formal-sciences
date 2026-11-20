@@ -1365,6 +1365,21 @@
     "state": "pending"
   },
   {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/normal-modal-logic",
+    "external": "https://w3id.org/ocs/ont/C42906",
+    "label": "normal modal logic",
+    "labels": [
+      {
+        "key": "normal modal logic",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e1522",
     "external": "https://w3id.org/ocs/ont/C42915",
     "label": "daubechies wavelet",
@@ -1401,6 +1416,21 @@
     "labels": [
       {
         "key": "spline wavelet",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/kripke-frame",
+    "external": "https://w3id.org/ocs/ont/C45022",
+    "label": "kripke frame",
+    "labels": [
+      {
+        "key": "kripke frame",
         "language": "en"
       }
     ],

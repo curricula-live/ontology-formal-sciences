@@ -27,3 +27,5 @@ c:qr-least-squares-method v:uses c:design-matrix .
 c:normal-equations v:uses c:design-matrix .
 c:conditional-mutual-information v:uses c:conditional-distribution .
 c:bellman-ford-algorithm v:requiresAssumption c:no-reachable-negative-cycle .
+
+c:ctl-state-labeling-algorithm v:uses c:fixed-point .
