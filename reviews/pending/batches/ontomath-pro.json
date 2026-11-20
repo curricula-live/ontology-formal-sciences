@@ -6,22 +6,6 @@
     "label": "Prime number",
     "upstream_candidates": []
   },
-  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2419": {
-    "canonical_candidates": [
-      "https://curricula.live/id/formal-sciences/concept/conditional-probability"
-    ],
-    "label": "Conditional probability",
-    "upstream_candidates": []
-  },
-  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2434": {
-    "canonical_candidates": [
-      "https://curricula.live/id/formal-sciences/concept/stato-0000291"
-    ],
-    "label": "Quantile",
-    "upstream_candidates": [
-      "http://purl.obolibrary.org/obo/STATO_0000291"
-    ]
-  },
   "http://cll.niimm.ksu.ru/ontologies/mathematics#E2435": {
     "canonical_candidates": [
       "https://curricula.live/id/formal-sciences/concept/stato-0000152"
@@ -54,15 +38,6 @@
     "label": "Laplace distribution",
     "upstream_candidates": []
   },
-  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2497": {
-    "canonical_candidates": [
-      "https://curricula.live/id/formal-sciences/concept/stato-0000177"
-    ],
-    "label": "Beta distribution",
-    "upstream_candidates": [
-      "http://purl.obolibrary.org/obo/STATO_0000177"
-    ]
-  },
   "http://cll.niimm.ksu.ru/ontologies/mathematics#E2498": {
     "canonical_candidates": [
       "https://curricula.live/id/formal-sciences/concept/stato-0000276"
@@ -77,15 +52,6 @@
     "label": "Probability distribution",
     "upstream_candidates": [
       "http://purl.obolibrary.org/obo/STATO_0000225"
-    ]
-  },
-  "http://cll.niimm.ksu.ru/ontologies/mathematics#E2503": {
-    "canonical_candidates": [
-      "https://curricula.live/id/formal-sciences/concept/stato-0000268"
-    ],
-    "label": "Gamma distribution",
-    "upstream_candidates": [
-      "http://purl.obolibrary.org/obo/STATO_0000268"
     ]
   },
   "http://cll.niimm.ksu.ru/ontologies/mathematics#E2504": {
@@ -235,12 +201,5 @@
     "upstream_candidates": [
       "http://purl.obolibrary.org/obo/STATO_0000057"
     ]
-  },
-  "http://cll.niimm.ksu.ru/ontologies/mathematics#E750": {
-    "canonical_candidates": [
-      "https://curricula.live/id/formal-sciences/concept/conjugate-gradient-method"
-    ],
-    "label": "Conjugate gradient method",
-    "upstream_candidates": []
   }
 }

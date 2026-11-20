@@ -32,3 +32,13 @@ c:linear-temporal-logic a skos:Concept ; skos:prefLabel "Linear temporal logic"@
 c:automata-theoretic-ltl-model-checking a skos:Concept ; skos:prefLabel "Automata-theoretic LTL model checking"@en ;
     skos:inScheme scheme:logic ; skos:broader c:formal-verification ;
     skos:definition "A verification method that searches for an execution satisfying the negation of a linear temporal specification using an automaton on infinite words."@en .
+
+c:sat-bounded-model-checking a skos:Concept ;
+    skos:prefLabel "SAT-based bounded model checking"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:model-checking ;
+    skos:definition "Encode the presence of a counterexample trace up to a chosen bound as a Boolean satisfiability problem for a finite-state system."@en .
+
+c:smt-bounded-model-checking a skos:Concept ;
+    skos:prefLabel "SMT-based bounded model checking"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:model-checking ;
+    skos:definition "Search for a counterexample up to a chosen bound by querying satisfiability of an unrolled transition formula in one or more background theories."@en .

@@ -15,21 +15,6 @@
     "state": "pending"
   },
   {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/propositional-logic",
-    "external": "https://w3id.org/ocs/ont/C10825",
-    "labels": [],
-    "references": [
-      {
-        "predicate": "http://www.w3.org/2004/02/skos/core#closeMatch",
-        "reference": "http://dbpedia.org/resource/Propositional_calculus",
-        "review": "cso-propositional-logic"
-      }
-    ],
-    "rule": "shared-reference",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e1729",
     "external": "https://w3id.org/ocs/ont/C11285",
     "label": "hessian matrix",
@@ -270,6 +255,21 @@
     "state": "pending"
   },
   {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/congruence-closure",
+    "external": "https://w3id.org/ocs/ont/C15542",
+    "label": "congruence closure",
+    "labels": [
+      {
+        "key": "congruence closure",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/stato-0000304",
     "external": "https://w3id.org/ocs/ont/C15792",
     "label": "welch's t-test",
@@ -345,36 +345,6 @@
     "state": "pending"
   },
   {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/strongly-connected-component",
-    "external": "https://w3id.org/ocs/ont/C17700",
-    "label": "strongly connected component",
-    "labels": [
-      {
-        "key": "strongly connected component",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/context-free-language",
-    "external": "https://w3id.org/ocs/ont/C17732",
-    "label": "context-free language",
-    "labels": [
-      {
-        "key": "context-free language",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e3264",
     "external": "https://w3id.org/ocs/ont/C18613",
     "label": "modulus of continuity",
@@ -411,21 +381,6 @@
     "labels": [
       {
         "key": "compact operator",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/bipartite-graph",
-    "external": "https://w3id.org/ocs/ont/C19336",
-    "label": "bipartite graph",
-    "labels": [
-      {
-        "key": "bipartite graph",
         "language": "en"
       }
     ],
@@ -585,21 +540,6 @@
     "state": "pending"
   },
   {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/backpropagation",
-    "external": "https://w3id.org/ocs/ont/C22089",
-    "label": "backpropagation",
-    "labels": [
-      {
-        "key": "backpropagation",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/software-testing",
     "external": "https://w3id.org/ocs/ont/C22180",
     "label": "software testing",
@@ -645,12 +585,12 @@
     "state": "pending"
   },
   {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/markov-chain-monte-carlo",
-    "external": "https://w3id.org/ocs/ont/C23865",
-    "label": "markov chain monte carlo",
+    "canonical": "https://curricula.live/id/formal-sciences/concept/stato-0000524",
+    "external": "https://w3id.org/ocs/ont/C24024",
+    "label": "matthews correlation coefficient",
     "labels": [
       {
-        "key": "markov chain monte carlo",
+        "key": "matthews correlation coefficient",
         "language": "en"
       }
     ],
@@ -660,12 +600,12 @@
     "state": "pending"
   },
   {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/stato-0000524",
-    "external": "https://w3id.org/ocs/ont/C24024",
-    "label": "matthews correlation coefficient",
+    "canonical": "https://curricula.live/id/formal-sciences/concept/critical-pair",
+    "external": "https://w3id.org/ocs/ont/C24197",
+    "label": "critical pair",
     "labels": [
       {
-        "key": "matthews correlation coefficient",
+        "key": "critical pair",
         "language": "en"
       }
     ],
@@ -690,57 +630,12 @@
     "state": "pending"
   },
   {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/kernel-method",
-    "external": "https://w3id.org/ocs/ont/C25040",
-    "label": "kernel method",
-    "labels": [
-      {
-        "key": "kernel method",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e1674",
     "external": "https://w3id.org/ocs/ont/C26141",
     "label": "parametric estimation",
     "labels": [
       {
         "key": "parametric estimation",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/factor-graph",
-    "external": "https://w3id.org/ocs/ont/C26265",
-    "label": "factor graph",
-    "labels": [
-      {
-        "key": "factor graph",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/sequent-calculus",
-    "external": "https://w3id.org/ocs/ont/C26635",
-    "label": "sequent calculus",
-    "labels": [
-      {
-        "key": "sequent calculus",
         "language": "en"
       }
     ],
@@ -801,21 +696,6 @@
     "labels": [
       {
         "key": "maximum a posteriori estimation",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/spanning-tree",
-    "external": "https://w3id.org/ocs/ont/C26989",
-    "label": "spanning tree",
-    "labels": [
-      {
-        "key": "spanning tree",
         "language": "en"
       }
     ],
@@ -915,36 +795,6 @@
     "state": "pending"
   },
   {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/adjacency-matrix",
-    "external": "https://w3id.org/ocs/ont/C30245",
-    "label": "adjacency matrix",
-    "labels": [
-      {
-        "key": "adjacency matrix",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/topological-sorting",
-    "external": "https://w3id.org/ocs/ont/C30307",
-    "label": "topological sorting",
-    "labels": [
-      {
-        "key": "topological sorting",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/predicate-logic",
     "external": "https://w3id.org/ocs/ont/C30651",
     "label": "predicate logic",
@@ -981,21 +831,6 @@
     "labels": [
       {
         "key": "bias of an estimator",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/buchi-automaton",
-    "external": "https://w3id.org/ocs/ont/C31113",
-    "label": "büchi automaton",
-    "labels": [
-      {
-        "key": "büchi automaton",
         "language": "en"
       }
     ],
@@ -1215,6 +1050,21 @@
     "state": "pending"
   },
   {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/cut-rule",
+    "external": "https://w3id.org/ocs/ont/C36180",
+    "label": "cut rule",
+    "labels": [
+      {
+        "key": "cut rule",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e3191",
     "external": "https://w3id.org/ocs/ont/C36808",
     "label": "operator norm",
@@ -1260,21 +1110,6 @@
     "state": "pending"
   },
   {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/graph-coloring",
-    "external": "https://w3id.org/ocs/ont/C37036",
-    "label": "graph coloring",
-    "labels": [
-      {
-        "key": "graph coloring",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/stato-0000080",
     "external": "https://w3id.org/ocs/ont/C37039",
     "label": "brown–forsythe test",
@@ -1290,57 +1125,12 @@
     "state": "pending"
   },
   {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/graph-theory",
-    "external": "https://w3id.org/ocs/ont/C37707",
-    "labels": [],
-    "references": [
-      {
-        "predicate": "http://www.w3.org/2004/02/skos/core#closeMatch",
-        "reference": "http://dbpedia.org/resource/Graph_theory",
-        "review": "cso-graph-theory"
-      }
-    ],
-    "rule": "shared-reference",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e1529",
     "external": "https://w3id.org/ocs/ont/C38730",
     "label": "gabor wavelet",
     "labels": [
       {
         "key": "gabor wavelet",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/cook-levin-theorem",
-    "external": "https://w3id.org/ocs/ont/C38867",
-    "label": "cook–levin theorem",
-    "labels": [
-      {
-        "key": "cook–levin theorem",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/two-satisfiability",
-    "external": "https://w3id.org/ocs/ont/C39136",
-    "label": "2-satisfiability",
-    "labels": [
-      {
-        "key": "2-satisfiability",
         "language": "en"
       }
     ],
@@ -1365,12 +1155,12 @@
     "state": "pending"
   },
   {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/normal-modal-logic",
-    "external": "https://w3id.org/ocs/ont/C42906",
-    "label": "normal modal logic",
+    "canonical": "https://curricula.live/id/formal-sciences/concept/sequent",
+    "external": "https://w3id.org/ocs/ont/C429",
+    "label": "sequent",
     "labels": [
       {
-        "key": "normal modal logic",
+        "key": "sequent",
         "language": "en"
       }
     ],
@@ -1425,21 +1215,6 @@
     "state": "pending"
   },
   {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/kripke-frame",
-    "external": "https://w3id.org/ocs/ont/C45022",
-    "label": "kripke frame",
-    "labels": [
-      {
-        "key": "kripke frame",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e2532",
     "external": "https://w3id.org/ocs/ont/C45117",
     "label": "chi distribution",
@@ -1470,12 +1245,27 @@
     "state": "pending"
   },
   {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/linear-temporal-logic",
-    "external": "https://w3id.org/ocs/ont/C5459",
-    "label": "linear temporal logic",
+    "canonical": "https://curricula.live/id/formal-sciences/concept/rewriting-newman-lemma",
+    "external": "https://w3id.org/ocs/ont/C4834",
+    "label": "newman's lemma",
     "labels": [
       {
-        "key": "linear temporal logic",
+        "key": "newman's lemma",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/satisfiability-modulo-theories",
+    "external": "https://w3id.org/ocs/ont/C5561",
+    "label": "satisfiability modulo theories",
+    "labels": [
+      {
+        "key": "satisfiability modulo theories",
         "language": "en"
       }
     ],
@@ -1551,6 +1341,21 @@
     "labels": [
       {
         "key": "statistical model",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/inductive-type",
+    "external": "https://w3id.org/ocs/ont/C6603",
+    "label": "inductive type",
+    "labels": [
+      {
+        "key": "inductive type",
         "language": "en"
       }
     ],
@@ -1650,6 +1455,21 @@
     "state": "pending"
   },
   {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/chinese-remainder-theorem",
+    "external": "https://w3id.org/ocs/ont/C8789",
+    "label": "chinese remainder theorem",
+    "labels": [
+      {
+        "key": "chinese remainder theorem",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "state": "pending"
+  },
+  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e2653",
     "external": "https://w3id.org/ocs/ont/C9246",
     "label": "elementary event",
@@ -1691,21 +1511,6 @@
     ],
     "references": [],
     "rule": "normalized-label",
-    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/boolean-satisfiability",
-    "external": "https://w3id.org/ocs/ont/C9450",
-    "labels": [],
-    "references": [
-      {
-        "predicate": "http://www.w3.org/2004/02/skos/core#closeMatch",
-        "reference": "http://dbpedia.org/resource/Boolean_satisfiability_problem",
-        "review": "cso-boolean-satisfiability"
-      }
-    ],
-    "rule": "shared-reference",
     "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
     "state": "pending"
   }

@@ -17,3 +17,19 @@ c:first-order-theory a skos:Concept ; skos:prefLabel "First-order theory"@en ;
 
 c:satisfaction-relation a skos:Concept ; skos:prefLabel "Satisfaction relation"@en ;
     skos:inScheme scheme:logic ; skos:broader c:model-theory .
+
+c:first-order-compactness-theorem a skos:Concept ; skos:prefLabel "Compactness theorem for first-order logic"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:model-theory ;
+    skos:definition "A set of first-order sentences has a model whenever every finite subset has a model."@en .
+
+c:elementary-embedding a skos:Concept ; skos:prefLabel "Elementary embedding"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:model-theory ;
+    skos:definition "An embedding preserving satisfaction of all first-order formulas with parameters from the domain structure."@en .
+
+c:ultraproduct a skos:Concept ; skos:prefLabel "Ultraproduct"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:model-theory ;
+    skos:definition "A quotient of the product of structures in a fixed signature by equivalence of coordinate tuples on an index set belonging to an ultrafilter."@en .
+
+c:los-theorem a skos:Concept ; skos:prefLabel "Łoś's theorem"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:model-theory ;
+    skos:definition "A first-order formula holds of a tuple in an ultraproduct exactly when the coordinates satisfying it form a set in the defining ultrafilter."@en .

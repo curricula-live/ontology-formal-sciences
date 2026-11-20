@@ -39,13 +39,28 @@ def test_published_competencies():
         (str(C["ctl-state-labeling-algorithm"]), str(C["fixed-point"]))
     }
     assert all(row["reference"] for row in result["branching-time-verification"])
+    assert pairs("ground-euf-reasoning", "method", "structure") == {
+        (str(C["congruence-closure-decision-procedure"]), str(C["disjoint-set-data-structure"]))
+    }
+    assert pairs("finite-field-factorization", "method", "assumption") == {
+        (str(C["opencs-c39942"]), str(C["square-free-polynomial"]))
+    }
+    assert pairs("finite-field-factorization", "method", "output") == {
+        (str(C["opencs-c39942"]), str(C["irreducible-polynomial"]))
+    }
+    assert {
+        str(C["number-theory"]), str(C["numerical-analysis"]),
+        str(C["conditional-probability"]), str(C["random-walk"]), str(C["regression-analysis"]),
+    } <= {row["concept"] for row in result["cso-ontomath-reconciliation"]}
+
 
 
 def test_every_new_scientific_claim_has_a_citation_and_no_implicit_inverse():
     cited = {(C[s], V[p], C[o]) for s, p, o, _ in read(ROOT / "reviews/approved/citations.json")}
     claims = Graph()
-    for path in (ROOT / "domains").rglob("scientific-methods.ttl"):
-        claims.parse(path)
+    for path in (ROOT / "domains").rglob("*.ttl"):
+        if path.name in {"scientific-methods.ttl", "foundations.ttl"}:
+            claims.parse(path)
     directional = {triple for triple in claims if triple[1] != SKOS.broader}
     assert directional and directional <= cited
     assert not any(predicate in set(claims.predicates()) - {SKOS.broader}

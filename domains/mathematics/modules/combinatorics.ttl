@@ -17,3 +17,19 @@ c:generating-function a skos:Concept ; skos:prefLabel "Generating function"@en ;
 
 c:inclusion-exclusion-principle a skos:Concept ; skos:prefLabel "Inclusion-exclusion principle"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:combinatorics .
+
+c:ordinary-generating-function a skos:Concept ; skos:prefLabel "Ordinary generating function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:generating-function ;
+    skos:definition "The formal power series whose coefficient of x to degree n is the n-th term of the sequence."@en .
+
+c:exponential-generating-function a skos:Concept ; skos:prefLabel "Exponential generating function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:generating-function ;
+    skos:definition "The formal power series whose coefficient of x to degree n is the n-th term of the sequence divided by n factorial."@en .
+
+c:linear-recurrence a skos:Concept ; skos:prefLabel "Linear recurrence relation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:combinatorics ;
+    skos:definition "A relation expressing a later term of a sequence as a linear combination of earlier terms, possibly with an inhomogeneous term."@en .
+
+c:generating-function-recurrence-method a skos:Concept ; skos:prefLabel "Generating-function method for linear recurrences"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:combinatorics ;
+    skos:definition "For linear recurrences with constant coefficients, encode the recurrence and initial conditions as a formal power-series equation and recover sequence terms as coefficients."@en .

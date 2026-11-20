@@ -305,3 +305,69 @@
 <https://curricula.live/id/formal-sciences/concept/kullback-leibler-divergence> skos:exactMatch <https://w3id.org/ocs/ont/C10767> .
 
 <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e626> skos:exactMatch <https://w3id.org/ocs/ont/C12155> .
+
+<https://curricula.live/id/formal-sciences/concept/sequent-calculus> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C26635> .
+
+<https://curricula.live/id/formal-sciences/concept/normal-modal-logic> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C42906> .
+
+<https://curricula.live/id/formal-sciences/concept/kripke-frame> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C45022> .
+
+<https://curricula.live/id/formal-sciences/concept/linear-temporal-logic> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C5459> .
+
+<https://curricula.live/id/formal-sciences/concept/backpropagation> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C22089> .
+
+<https://curricula.live/id/formal-sciences/concept/strongly-connected-component> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C17700> .
+
+<https://curricula.live/id/formal-sciences/concept/context-free-language> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C17732> .
+
+<https://curricula.live/id/formal-sciences/concept/bipartite-graph> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C19336> .
+
+<https://curricula.live/id/formal-sciences/concept/factor-graph> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C26265> .
+
+<https://curricula.live/id/formal-sciences/concept/spanning-tree> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C26989> .
+
+<https://curricula.live/id/formal-sciences/concept/adjacency-matrix> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C30245> .
+
+<https://curricula.live/id/formal-sciences/concept/topological-sorting> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C30307> .
+
+<https://curricula.live/id/formal-sciences/concept/graph-coloring> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C37036> .
+
+<https://curricula.live/id/formal-sciences/concept/buchi-automaton> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C31113> .
+
+<https://curricula.live/id/formal-sciences/concept/propositional-logic> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C10825> .
+
+<https://curricula.live/id/formal-sciences/concept/boolean-satisfiability> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C9450> .
+
+<https://curricula.live/id/formal-sciences/concept/cook-levin-theorem> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C38867> .
+
+<https://curricula.live/id/formal-sciences/concept/two-satisfiability> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C39136> .
+
+<https://curricula.live/id/formal-sciences/concept/kernel-method> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C25040> .
+
+<https://curricula.live/id/formal-sciences/concept/markov-chain-monte-carlo> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C23865> .
+
+<https://curricula.live/id/formal-sciences/concept/algebra> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E2> .
+
+<https://curricula.live/id/formal-sciences/concept/number-theory> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E24> .
+
+<https://curricula.live/id/formal-sciences/concept/topology> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E25> .
+
+<https://curricula.live/id/formal-sciences/concept/numerical-analysis> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E33> .
+
+<https://curricula.live/id/formal-sciences/concept/conditional-probability> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E2419> .
+
+<https://curricula.live/id/formal-sciences/concept/random-walk> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E2643> .
+
+<https://curricula.live/id/formal-sciences/concept/regression-analysis> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E833> .
+
+<https://curricula.live/id/formal-sciences/concept/conjugate-gradient-method> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E750> .
+
+<https://curricula.live/id/formal-sciences/concept/covariance-matrix> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E1706> .
+
+<https://curricula.live/id/formal-sciences/concept/stato-0000291> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E2434> .
+
+<https://curricula.live/id/formal-sciences/concept/stato-0000177> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E2497> .
+
+<https://curricula.live/id/formal-sciences/concept/stato-0000268> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E2503> .
+
+<https://curricula.live/id/formal-sciences/concept/covariance> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E2582> .

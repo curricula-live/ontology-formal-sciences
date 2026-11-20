@@ -2,7 +2,7 @@
   "eligible": 1024,
   "exclusions": {
     "ambiguous subject or scope": 35,
-    "existing individual review": 25,
+    "existing individual review": 28,
     "outside reviewed subject scope": 35
   },
   "identities": {
@@ -930,7 +930,7 @@
     "domains/computer-science/modules/batches/opencs-programming-languages.ttl": "35b1c8472965f61c216ebfb787e8513dea8aea0777b4119f048dbfd86de0d87c",
     "domains/computer-science/modules/batches/opencs-software-engineering.ttl": "81887c2eb5d5b5c2552843028b5c00a8b206bfb6c67677fe0c2b50182b75a8b9"
   },
-  "pending": 21,
+  "pending": 18,
   "policy": "OpenCS subject-family admission v1. Reviewed naming families, taxonomic scope and concordant topic referents. See sources/opencs/admission-policy.json and admission-witnesses.tsv.",
   "revision": "0.4.0",
   "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",

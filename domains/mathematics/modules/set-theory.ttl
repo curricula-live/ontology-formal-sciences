@@ -24,3 +24,11 @@ c:set-intersection a skos:Concept ; skos:prefLabel "Set intersection"@en ;
 c:function a skos:Concept ; skos:prefLabel "Function (mathematics)"@en ;
     skos:definition "A mapping that assigns exactly one output to each element of its domain."@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:set-theory .
+
+c:ultrafilter a skos:Concept ; skos:prefLabel "Ultrafilter"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "A maximal proper filter of subsets of a set. For each subset, exactly one of it and its complement belongs to the filter."@en .
+
+c:set-partition a skos:Concept ; skos:prefLabel "Partition of a set"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "A family of pairwise disjoint nonempty subsets whose union is the original set."@en .

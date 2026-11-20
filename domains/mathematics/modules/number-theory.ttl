@@ -20,3 +20,23 @@ c:greatest-common-divisor a skos:Concept ; skos:prefLabel "Greatest common divis
 
 c:modular-exponentiation a skos:Concept ; skos:prefLabel "Modular exponentiation"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:number-theory .
+
+c:bezout-identity a skos:Concept ; skos:prefLabel "Bézout identity"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:greatest-common-divisor ;
+    skos:definition "For integers not both zero, the positive greatest common divisor can be expressed as an integer linear combination of the inputs."@en .
+
+c:bezout-coefficients a skos:Concept ; skos:prefLabel "Bézout coefficients"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:bezout-identity ;
+    skos:definition "Integer coefficients in a linear combination of the inputs that equals their greatest common divisor."@en .
+
+c:chinese-remainder-theorem a skos:Concept ; skos:prefLabel "Chinese remainder theorem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:modular-arithmetic ;
+    skos:definition "For pairwise coprime positive integer moduli, any system specifying one residue per modulus has a unique solution modulo their product."@en .
+
+c:pairwise-coprime-moduli a skos:Concept ; skos:prefLabel "Pairwise coprime moduli"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:modular-arithmetic ;
+    skos:definition "Positive integer moduli for which every pair of distinct moduli has greatest common divisor one."@en .
+
+c:chinese-remainder-construction a skos:Concept ; skos:prefLabel "Chinese remainder construction"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:modular-arithmetic ;
+    skos:definition "Constructs a solution of simultaneous congruences for pairwise coprime moduli using modular inverses derived from Bézout coefficients."@en .

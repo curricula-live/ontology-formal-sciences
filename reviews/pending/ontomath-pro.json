@@ -150,27 +150,12 @@
     "state": "pending"
   },
   {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/covariance-matrix",
-    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E1706",
-    "label": "covariance matrix",
+    "canonical": "https://curricula.live/id/formal-sciences/concept/betti-number",
+    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2113",
+    "label": "betti number",
     "labels": [
       {
-        "key": "covariance matrix",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/algebra",
-    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2",
-    "label": "algebra",
-    "labels": [
-      {
-        "key": "algebra",
+        "key": "betti number",
         "language": "en"
       }
     ],
@@ -216,51 +201,6 @@
     "labels": [
       {
         "key": "algorithm",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/number-theory",
-    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E24",
-    "label": "number theory",
-    "labels": [
-      {
-        "key": "number theory",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/conditional-probability",
-    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2419",
-    "label": "conditional probability",
-    "labels": [
-      {
-        "key": "conditional probability",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/stato-0000291",
-    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2434",
-    "label": "quantile",
-    "labels": [
-      {
-        "key": "quantile",
         "language": "en"
       }
     ],
@@ -330,57 +270,12 @@
     "state": "pending"
   },
   {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/stato-0000177",
-    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2497",
-    "label": "beta distribution",
-    "labels": [
-      {
-        "key": "beta distribution",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
-    "state": "pending"
-  },
-  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/stato-0000276",
     "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2498",
     "label": "binomial distribution",
     "labels": [
       {
         "key": "binomial distribution",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/topology",
-    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E25",
-    "label": "topology",
-    "labels": [
-      {
-        "key": "topology",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/stato-0000268",
-    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2503",
-    "label": "gamma distribution",
-    "labels": [
-      {
-        "key": "gamma distribution",
         "language": "en"
       }
     ],
@@ -555,57 +450,12 @@
     "state": "pending"
   },
   {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/covariance",
-    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2582",
-    "label": "covariance",
-    "labels": [
-      {
-        "key": "covariance",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
-    "state": "pending"
-  },
-  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/stato-0000565",
     "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2602",
     "label": "regression coefficient",
     "labels": [
       {
         "key": "regression coefficient",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/covariance",
-    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2617",
-    "label": "covariance",
-    "labels": [
-      {
-        "key": "covariance",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/covariance",
-    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2621",
-    "label": "covariance",
-    "labels": [
-      {
-        "key": "covariance",
         "language": "en"
       }
     ],
@@ -666,21 +516,6 @@
     "labels": [
       {
         "key": "poisson process",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/random-walk",
-    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2643",
-    "label": "random walk",
-    "labels": [
-      {
-        "key": "random walk",
         "language": "en"
       }
     ],
@@ -840,21 +675,6 @@
     "state": "pending"
   },
   {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/numerical-analysis",
-    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E33",
-    "label": "numerical analysis",
-    "labels": [
-      {
-        "key": "numerical analysis",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
-    "state": "pending"
-  },
-  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e276",
     "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E3309",
     "label": "covering",
@@ -900,57 +720,12 @@
     "state": "pending"
   },
   {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/conjugate-gradient-method",
-    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E750",
-    "label": "conjugate gradient method",
-    "labels": [
-      {
-        "key": "conjugate gradient method",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/regression-analysis",
-    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E833",
-    "label": "regression analysis",
-    "labels": [
-      {
-        "key": "regression analysis",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
-    "state": "pending"
-  },
-  {
     "canonical": "https://curricula.live/id/formal-sciences/concept/set",
     "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E847",
     "label": "set",
     "labels": [
       {
         "key": "set",
-        "language": "en"
-      }
-    ],
-    "references": [],
-    "rule": "normalized-label",
-    "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
-    "state": "pending"
-  },
-  {
-    "canonical": "https://curricula.live/id/formal-sciences/concept/algebra",
-    "external": "http://cll.niimm.ksu.ru/ontologies/mathematics#E850",
-    "label": "algebra",
-    "labels": [
-      {
-        "key": "algebra",
         "language": "en"
       }
     ],

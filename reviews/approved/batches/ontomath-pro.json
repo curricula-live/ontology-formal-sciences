@@ -1,7 +1,7 @@
 {
   "eligible": 904,
   "exclusions": {
-    "existing individual review": 7,
+    "existing individual review": 12,
     "native classes outside reviewed scope": 2545
   },
   "identities": {
@@ -893,7 +893,7 @@
     "domains/statistics/modules/batches/ontomath-pro-probability-theory.ttl": "f88f78710c6916c3b987afe63c666e7dd1ed62e34484f45fcacfb9224a7d33d2",
     "domains/statistics/modules/batches/ontomath-pro-statistical-estimation.ttl": "e29a851c280ce8d5be8358e5b0b4b5f7921ea0e7c032900647e36ff0d1da5c25"
   },
-  "pending": 30,
+  "pending": 25,
   "policy": "Project reviewed English OWL class names into editorial subject collections. See sources/ontomath-pro/scope.tsv.",
   "revision": "ebb4083adec275e079bb6210df24cfcd11d2767c",
   "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",

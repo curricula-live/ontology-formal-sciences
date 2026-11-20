@@ -20,3 +20,23 @@ c:group-homomorphism a skos:Concept ; skos:prefLabel "Group homomorphism"@en ;
 
 c:monoid a skos:Concept ; skos:prefLabel "Monoid"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:polynomial-ring a skos:Concept ; skos:prefLabel "Polynomial ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring ;
+    skos:definition "A ring obtained by forming polynomials over a coefficient ring using formal indeterminates, with polynomial addition and multiplication."@en .
+
+c:finite-field a skos:Concept ; skos:prefLabel "Finite field"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "A field with finitely many elements, necessarily a prime-power number of elements."@en .
+
+c:irreducible-polynomial a skos:Concept ; skos:prefLabel "Irreducible polynomial over a field"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:polynomial-ring ;
+    skos:definition "A nonconstant polynomial over a field that cannot be written as a product of two polynomials of smaller positive degree."@en .
+
+c:square-free-polynomial a skos:Concept ; skos:prefLabel "Square-free polynomial"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:polynomial-ring ;
+    skos:definition "A polynomial with no repeated irreducible factor over the coefficient field."@en .
+
+c:equal-degree-polynomial-factorization a skos:Concept ; skos:prefLabel "Equal-degree finite-field polynomial factorization"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:polynomial-ring ;
+    skos:definition "Splitting a square-free polynomial over a finite field into irreducible factors when all its irreducible factors have the same known degree."@en .

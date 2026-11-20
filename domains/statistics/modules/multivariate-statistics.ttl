@@ -17,3 +17,8 @@ c:multivariate-normal-distribution a skos:Concept ; skos:prefLabel "Multivariate
 
 c:factor-analysis a skos:Concept ; skos:prefLabel "Factor analysis"@en ;
     skos:inScheme scheme:statistics ; skos:broader c:multivariate-statistics .
+
+c:covariance-eigendecomposition-pca a skos:Concept ;
+    skos:prefLabel "Covariance eigendecomposition for PCA"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:principal-component-analysis ;
+    skos:definition "For centered data, obtain principal directions by ordering the eigenvectors of the sample covariance matrix by their eigenvalues. Repeated eigenvalues determine subspaces with nonunique bases."@en .

@@ -17,3 +17,47 @@ c:curry-howard-correspondence a skos:Concept ; skos:prefLabel "Curry-Howard corr
 
 c:typing-judgment a skos:Concept ; skos:prefLabel "Typing judgment"@en ;
     skos:inScheme scheme:logic ; skos:broader c:type-theory .
+
+c:typing-context a skos:Concept ; skos:prefLabel "Typing context"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "A collection of assumptions assigning types to free variables used to form a typing judgment."@en .
+
+c:capture-avoiding-substitution a skos:Concept ; skos:prefLabel "Capture-avoiding substitution"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:simply-typed-lambda-calculus ;
+    skos:definition "Replacement of free occurrences of a variable by a term with bound variables renamed as needed to preserve free occurrences."@en .
+
+c:beta-reduction a skos:Concept ; skos:prefLabel "Beta reduction"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:simply-typed-lambda-calculus ;
+    skos:definition "Reduction of an application of a lambda abstraction to an argument by capture-avoiding substitution into the body."@en .
+
+c:type-preservation a skos:Concept ; skos:prefLabel "Type preservation"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "In a typed calculus, evaluation of a well-typed term by one step preserves its type in the same context."@en .
+
+c:type-progress a skos:Concept ; skos:prefLabel "Progress (type safety)"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "In a suitable evaluation semantics, a closed well-typed term is a value or has a next evaluation step."@en .
+
+c:stlc-type-safety a skos:Concept ; skos:prefLabel "Type safety of simply typed lambda calculus"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:simply-typed-lambda-calculus ;
+    skos:definition "For standard evaluation of closed well-typed simply typed terms, progress and preservation exclude stuck non-values."@en .
+
+c:dependent-function-type a skos:Concept ; skos:prefLabel "Dependent function type"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:dependent-type ;
+    skos:definition "A function type whose result type may depend on the input value."@en .
+
+c:dependent-pair-type a skos:Concept ; skos:prefLabel "Dependent pair type"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:dependent-type ;
+    skos:definition "A pair type whose second component type may depend on the value of the first component."@en .
+
+c:inductive-type a skos:Concept ; skos:prefLabel "Inductive type"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "A type specified by constructors together with rules for reasoning by induction and defining functions by recursion over their results."@en .
+
+c:inductive-eliminator a skos:Concept ; skos:prefLabel "Inductive eliminator"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:inductive-type ;
+    skos:definition "An operation defining a result on values of an inductive type by supplying a case for each constructor and recursion or induction hypotheses where provided."@en .
+
+c:principal-type-scheme a skos:Concept ; skos:prefLabel "Principal type scheme"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "For the given typing context, a scheme from which every assignable type of the expression can be obtained by instantiation."@en .

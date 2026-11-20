@@ -11,6 +11,9 @@ Run `python -m pipeline.competency` from the checkout after building the release
 | factor-inference | Sum-product on a tree factor graph computes variable marginal distributions for a normalizable probability model. |
 | languages | Finite automata recognize exactly the regular languages. Nondeterministic pushdown automata recognize exactly the context-free languages. |
 | branching-time-verification | CTL state labeling uses fixed-point iteration, with a reference to Clarke, Grumberg and Peled's Model Checking. |
+| ground-euf-reasoning | The congruence-closure decision procedure uses a disjoint-set data structure for the ground equality fragment. |
+| finite-field-factorization | The OpenCS Cantor–Zassenhaus subject connects to square-free inputs and irreducible factors in equal-degree finite-field factorization. |
+| cso-ontomath-reconciliation | Shared canonical targets connect approved CSO topic mappings and OntoMathPro class references for number theory, numerical analysis, conditional probability, random walks and regression analysis. |
 | verification | Automata-theoretic LTL model checking uses a Büchi automaton. |
 | information-measures | Six pairs connect a measure to its statistical ingredient, including conditional entropy to conditional distribution and mutual information to both joint distribution and product of marginals. |
 | numerical-assumptions | The conjugate-gradient method assumes symmetric positive definiteness in its standard real linear-system guarantee. |

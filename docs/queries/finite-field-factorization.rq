@@ -1,0 +1,16 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+SELECT ?method ?assumption ?output ?source
+WHERE {
+  GRAPH g:asserted {
+    ?method v:solves c:equal-degree-polynomial-factorization ;
+            v:requiresAssumption ?assumption ;
+            v:uses c:finite-field ;
+            v:computes ?output .
+  }
+  GRAPH g:provenance { ?method dct:source ?source }
+}
+ORDER BY ?method ?assumption ?output ?source

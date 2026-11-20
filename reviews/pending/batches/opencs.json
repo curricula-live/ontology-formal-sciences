@@ -41,25 +41,11 @@
       "https://w3id.org/ocs/ont/C1134"
     ]
   },
-  "https://w3id.org/ocs/ont/C22089": {
-    "canonical_candidates": [
-      "https://curricula.live/id/formal-sciences/concept/backpropagation"
-    ],
-    "label": "Backpropagation",
-    "upstream_candidates": []
-  },
   "https://w3id.org/ocs/ont/C23247": {
     "canonical_candidates": [
       "https://curricula.live/id/formal-sciences/concept/graph-graph-theory"
     ],
     "label": "Graph (abstract data type)",
-    "upstream_candidates": []
-  },
-  "https://w3id.org/ocs/ont/C25040": {
-    "canonical_candidates": [
-      "https://curricula.live/id/formal-sciences/concept/kernel-method"
-    ],
-    "label": "Kernel method",
     "upstream_candidates": []
   },
   "https://w3id.org/ocs/ont/C25960": {
@@ -74,13 +60,6 @@
       "https://curricula.live/id/formal-sciences/concept/conditional-mutual-information"
     ],
     "label": "Conditional mutual information",
-    "upstream_candidates": []
-  },
-  "https://w3id.org/ocs/ont/C31113": {
-    "canonical_candidates": [
-      "https://curricula.live/id/formal-sciences/concept/buchi-automaton"
-    ],
-    "label": "Büchi automaton",
     "upstream_candidates": []
   },
   "https://w3id.org/ocs/ont/C31203": {

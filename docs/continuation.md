@@ -40,3 +40,33 @@ trips. Staging and the independent package verifier use disk-backed stores.
 Use `python -m pipeline.benchmark build` and
 `python -m pipeline.benchmark parse --source opencs` on Linux to measure
 local build and parse costs. The latter requires a local verified snapshot.
+
+## 0.3.0 development scope
+
+This stage adds 63 authored subjects across logic, mathematics, computer
+science and statistics. Logic grows from 78 to 115 concepts. The new
+modules cover SMT, equality reasoning, rewrite systems, proof theory,
+type safety, dependent types and model theory. Mathematical coverage
+includes polynomial factorization, elementary number theory,
+generating functions and algebraic topology. The RDF reuses the OpenCS
+Cantor–Zassenhaus subject and the OntoMathPro fundamental-group subject.
+
+Across the full release, specific scientific predicates connect 200
+concepts through 159 assertions, with 56 crossing a scheme boundary.
+The baseline is 117 concepts, 95 assertions and 37 cross-scheme assertions
+under the same definition. The largest scientific component has 21
+concepts in both versions. The full SKOS graph remains connected.
+See the manifest for predicate counts, citation coverage and the number
+of concepts outside the scientific subgraph.
+
+The audit of v0.2.0 records 30 judgments from the pinned source batches.
+It led to three scope corrections with stable IRIs and flagged three
+topics for further review. The reconciliation pass approves 20 OpenCS
+topic matches and 13 OntoMathPro class references. It rejects four
+candidate pairs involving mismatched scope or bilingual ambiguity.
+The CSO reconciliations reuse previously approved decisions and the
+matching OntoMathPro references. The historical CSO snapshot remains
+unavailable through the local cloud proxy.
+
+- [Batch audit and sampling procedure](semantic-audit-v0.2.md)
+- [SPARQL queries and observed results](queries/README.md)

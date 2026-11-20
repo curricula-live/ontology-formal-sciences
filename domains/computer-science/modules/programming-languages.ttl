@@ -17,3 +17,8 @@ c:lexical-scope a skos:Concept ; skos:prefLabel "Lexical scope"@en ;
 
 c:operational-semantics a skos:Concept ; skos:prefLabel "Operational semantics"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:hindley-milner-algorithm-w a skos:Concept ;
+    skos:prefLabel "Hindley–Milner Algorithm W"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:type-inference ;
+    skos:definition "Infer a most general type for expressions in the Hindley–Milner language by combining recursive inference, unification, and generalization at let bindings."@en .

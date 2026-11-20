@@ -24,3 +24,10 @@ the source entity that supports the topic. Approved SKOS mapping triples
 retain their own review provenance. The manifest's quality object reports
 coverage and distinguishes pending mapping pairs from pending admission
 entities.
+
+The manifest reports `quality.scientific_connectivity` over asserted
+concept-to-concept edges with project scientific predicates. It counts
+the endpoints, weak components, cross-scheme edges and edges backed by
+statement citations. SKOS hierarchy and generic associations contribute
+to the full graph metrics separately. Consumers can compare both views
+to track the depth and reach of scientific assertions.

@@ -20,3 +20,23 @@ c:inference-rule a skos:Concept ; skos:prefLabel "Inference rule"@en ;
 
 c:resolution-refutation a skos:Concept ; skos:prefLabel "Resolution refutation"@en ;
     skos:inScheme scheme:logic ; skos:broader c:proof-theory .
+
+c:sequent a skos:Concept ; skos:prefLabel "Sequent"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:sequent-calculus ;
+    skos:definition "A judgment relating an antecedent context of formulas to a succedent context of formulas in a sequent calculus."@en .
+
+c:cut-rule a skos:Concept ; skos:prefLabel "Cut rule"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:sequent-calculus ;
+    skos:definition "The rule composing two derivations through a formula appearing in the succedent of one and the antecedent of the other."@en .
+
+c:subformula-property a skos:Concept ; skos:prefLabel "Subformula property"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory ;
+    skos:definition "The property that every formula in a derivation belongs to the set of subformulas of its concluding sequent, with quantifier instances accounted for in first-order formulations."@en .
+
+c:intuitionistic-propositional-logic a skos:Concept ; skos:prefLabel "Intuitionistic propositional logic"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "A propositional logic whose derivations follow constructive rules and in which excluded middle is not a general theorem."@en .
+
+c:natural-deduction-normalization a skos:Concept ; skos:prefLabel "Normalisation of intuitionistic natural deduction"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:natural-deduction ;
+    skos:definition "Elimination of introduction followed immediately by matching elimination detours, together with required commuting conversions."@en .
