@@ -2264,5 +2264,49 @@
     "reviewer": "Editorial scope review against pinned source and canonical graph",
     "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
     "source": "ontomath-pro"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/stato-0000086",
+    "evidence": "<https://w3id.org/ocs/ont/C15258> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/F-test> .\n<https://w3id.org/ocs/ont/C15258> <http://www.w3.org/2004/02/skos/core#prefLabel> \"F-test\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C15258",
+    "id": "opencs-v04-review-c15258",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The OpenCS reference describes tests calibrated with the F family, matching the STATO subject scope.",
+    "reviewer": "Editorial cross-source review against pinned source evidence",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/stato-0000304",
+    "evidence": "<https://w3id.org/ocs/ont/C15792> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Welch's_t_test> .\n<https://w3id.org/ocs/ont/C15792> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Welch's t-test\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C15792",
+    "id": "opencs-v04-review-c15792",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "The named test and its reference identify Welch's unequal-variance two-sample test.",
+    "reviewer": "Editorial cross-source review against pinned source evidence",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/stato-0000132",
+    "evidence": "<https://w3id.org/ocs/ont/C36011> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Hotelling's_T-squared_distribution> .\n<https://w3id.org/ocs/ont/C36011> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Hotelling's T-squared distribution\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C36011",
+    "id": "opencs-v04-review-c36011",
+    "predicate": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "rationale": "Both subjects denote the Hotelling T-squared reference distribution and retain its multivariate scope.",
+    "reviewer": "Editorial cross-source review against pinned source evidence",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674141",
+    "evidence": "<https://w3id.org/ocs/ont/C35657> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Lyapunov_equation> .\n<https://w3id.org/ocs/ont/C35657> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Lyapunov equation\"@en .\n",
+    "external": "https://w3id.org/ocs/ont/C35657",
+    "id": "opencs-v04-review-c35657",
+    "predicate": "http://www.w3.org/2004/02/skos/core#closeMatch",
+    "rationale": "The MathModDB formulation documents continuous-time stability analysis. The OpenCS topic has a broader Lyapunov-equation scope.",
+    "reviewer": "Editorial cross-source review against pinned source evidence",
+    "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs"
   }
 ]

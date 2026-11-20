@@ -10,10 +10,13 @@ Run `python -m pipeline.competency` from the checkout after building the release
 | linear-regression | Ordinary least squares and the QR least-squares method solve the linear least-squares problem. The numerical method uses QR factorization. |
 | factor-inference | Sum-product on a tree factor graph computes variable marginal distributions for a normalizable probability model. |
 | languages | Finite automata recognize exactly the regular languages. Nondeterministic pushdown automata recognize exactly the context-free languages. |
-| branching-time-verification | CTL state labeling uses fixed-point iteration, with a reference to Clarke, Grumberg and Peled's Model Checking. |
+| branching-time-verification | CTL state labeling uses fixed-point iteration over sets of states, with a reference to Clarke, Grumberg and Peled's Model Checking. |
 | ground-euf-reasoning | The congruence-closure decision procedure uses a disjoint-set data structure for the ground equality fragment. |
 | finite-field-factorization | The OpenCS Cantor–Zassenhaus subject connects to square-free inputs and irreducible factors in equal-degree finite-field factorization. |
 | cso-ontomath-reconciliation | Shared canonical targets connect approved CSO topic mappings and OntoMathPro class references for number theory, numerical analysis, conditional probability, random walks and regression analysis. |
+| source-discretization | The plate-with-hole elasticity model links to its weak form and discretized weak model. Both links expose the MathModDB property and the common source digest. |
+| stato-opencs-reference-law | The OpenCS Welch test maps to a canonical subject whose Student t reference link comes from the pinned STATO subclass restriction. |
+| theory-combination-assumptions | The standard Nelson–Oppen framework uses disjoint signatures and stable infiniteness as explicit assumptions. |
 | verification | Automata-theoretic LTL model checking uses a Büchi automaton. |
 | information-measures | Six pairs connect a measure to its statistical ingredient, including conditional entropy to conditional distribution and mutual information to both joint distribution and product of marginals. |
 | numerical-assumptions | The conjugate-gradient method assumes symmetric positive definiteness in its standard real linear-system guarantee. |

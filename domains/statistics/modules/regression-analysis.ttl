@@ -34,3 +34,7 @@ c:ridge-regression a skos:Concept ; skos:prefLabel "Ridge regression"@en ;
 c:least-squares-residual a skos:Concept ; skos:prefLabel "Linear least-squares residual"@en ;
     skos:inScheme scheme:statistics ; skos:broader c:regression-analysis ;
     skos:definition "The difference between the response vector and the fitted vector in a linear least-squares problem."@en .
+
+c:ols-coefficient-t-test a skos:Concept ; skos:prefLabel "Ordinary least squares coefficient t-test"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:hypothesis-testing ;
+    skos:definition "Test a coefficient of a full-rank linear regression by dividing its estimated deviation from the null value by its estimated standard error. With independent homoscedastic normal errors the statistic has a Student t null distribution with residual degrees of freedom."@en .

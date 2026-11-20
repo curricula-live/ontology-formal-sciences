@@ -70,3 +70,32 @@ unavailable through the local cloud proxy.
 
 - [Batch audit and sampling procedure](semantic-audit-v0.2.md)
 - [SPARQL queries and observed results](queries/README.md)
+
+## 0.4.0 development scope
+
+Source relationship profiles retain 2,819 candidate triples or named
+restriction witnesses. The canonical graph uses 51 MathModDB and 21
+STATO assertions after review. Eleven explicit rejections preserve
+source IDs and decision rationales. MathModDB contributes 43 new
+canonical subjects covering mathematical models and numerical methods.
+The science extensions add 23 logic subjects, including theory
+combination, proof terms, normalization and type-theoretic proof
+checking. The mathematical extensions cover lattice fixed points,
+linear arithmetic and linear-system model reduction.
+
+The release contains 2,590 canonical concepts. The specific-relation
+subgraph has 274 edges touching 308 concepts, with a largest component
+of 36. The evidence-backed view has 254 edges touching 286 concepts,
+with a largest component of 33. Applying the same metric to v0.3.0
+gives 139 edges touching 178 concepts and a largest component of 12.
+The evidence view includes pinned source witnesses and published
+statement citations. The three new competency queries verify these
+joins across the asserted, alignments and provenance graphs.
+
+Only a subset of extracted source endpoints has reviewed canonical
+identity. MathModDB contributes most of the unresolved candidates,
+including applied topics and notation beyond this formal-sciences slice.
+Ontology expressions beyond the registered shapes require a separate
+semantic review. OntoMathPro's universal restrictions remain source
+evidence for review. See the [relationship enrichment guide](relation-enrichment.md)
+for the profiles, review procedure and 20-item sampled audit.

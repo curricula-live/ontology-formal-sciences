@@ -40,3 +40,23 @@ c:intuitionistic-propositional-logic a skos:Concept ; skos:prefLabel "Intuitioni
 c:natural-deduction-normalization a skos:Concept ; skos:prefLabel "Normalisation of intuitionistic natural deduction"@en ;
     skos:inScheme scheme:logic ; skos:broader c:natural-deduction ;
     skos:definition "Elimination of introduction followed immediately by matching elimination detours, together with required commuting conversions."@en .
+
+c:formal-derivation a skos:Concept ; skos:prefLabel "Formal derivation"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory ;
+    skos:definition "A finite proof tree whose leaves are assumptions or axioms and whose internal steps follow specified inference rules."@en .
+
+c:proof-term a skos:Concept ; skos:prefLabel "Proof term"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory ;
+    skos:definition "A term encoding a derivation by the inference and term-formation rules of a propositions-as-types system."@en .
+
+c:propositional-semantic-tableau a skos:Concept ; skos:prefLabel "Propositional semantic tableau"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory ;
+    skos:definition "A branching search for a satisfying assignment that decomposes propositional formulas and detects inconsistent branches."@en .
+
+c:tableau-closure a skos:Concept ; skos:prefLabel "Tableau branch closure"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-semantic-tableau ;
+    skos:definition "The closure of a branch on encountering a propositional atom and its negation on that branch."@en .
+
+c:first-order-tableau a skos:Concept ; skos:prefLabel "First-order tableau"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory ;
+    skos:definition "A tableau calculus with quantifier rules that introduce terms or instantiate formulas under the calculus's side conditions."@en .

@@ -61,3 +61,31 @@ c:inductive-eliminator a skos:Concept ; skos:prefLabel "Inductive eliminator"@en
 c:principal-type-scheme a skos:Concept ; skos:prefLabel "Principal type scheme"@en ;
     skos:inScheme scheme:logic ; skos:broader c:type-theory ;
     skos:definition "For the given typing context, a scheme from which every assignable type of the expression can be obtained by instantiation."@en .
+
+c:definitional-equality a skos:Concept ; skos:prefLabel "Definitional equality"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "An equality judgment accepted by the conversion rules of the type system, often by computation and unfolding."@en .
+
+c:propositional-equality a skos:Concept ; skos:prefLabel "Propositional equality in type theory"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "An equality expressed as a type or proposition whose inhabitants provide proofs under the equality rules."@en .
+
+c:type-conversion-rule a skos:Concept ; skos:prefLabel "Type conversion rule"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:typing-judgment ;
+    skos:definition "A rule allowing a term of one type to be used at a definitionally equal type."@en .
+
+c:type-theoretic-proof-kernel a skos:Concept ; skos:prefLabel "Type-theoretic proof kernel"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-checker ;
+    skos:definition "The trusted checker validating formal proof terms using the typing and definitional equality rules of a logical framework."@en .
+
+c:strong-normalization a skos:Concept ; skos:prefLabel "Strong normalization"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "Every sequence of reductions starting from the given well-formed term eventually terminates."@en .
+
+c:universe-hierarchy a skos:Concept ; skos:prefLabel "Type universe hierarchy"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "A stratification of types into universes where the type of a universe belongs to a higher universe."@en .
+
+c:inductive-recursion a skos:Concept ; skos:prefLabel "Structural recursion over an inductive type"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:inductive-type ;
+    skos:definition "Definition by constructor cases whose recursive calls are on available smaller structural constituents."@en .

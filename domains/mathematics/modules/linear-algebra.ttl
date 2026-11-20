@@ -48,3 +48,15 @@ c:euclidean-norm a skos:Concept ; skos:prefLabel "Euclidean norm"@en ;
 c:orthonormal-basis a skos:Concept ; skos:prefLabel "Orthonormal basis"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra ;
     skos:definition "A basis of pairwise orthogonal unit vectors in an inner product space."@en .
+
+c:fourier-motzkin-elimination a skos:Concept ; skos:prefLabel "Fourier–Motzkin elimination"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra ;
+    skos:definition "Eliminate variables from linear inequalities by combining their implied lower and upper bounds to obtain inequalities in the remaining variables."@en .
+
+c:state-transition-matrix a skos:Concept ; skos:prefLabel "State transition matrix"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra ;
+    skos:definition "A matrix that maps an initial state to the state at a specified later time in a linear homogeneous system."@en .
+
+c:matrix-exponential a skos:Concept ; skos:prefLabel "Matrix exponential"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra ;
+    skos:definition "The matrix function defined for a square matrix by the absolutely convergent power series for the scalar exponential with matrix powers in place of scalar powers."@en .

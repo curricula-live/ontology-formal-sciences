@@ -79,6 +79,8 @@ def prepare(id):
     affected=[d["id"] for state in ("approved","rejected") for d in read(ROOT/"reviews"/state/"mappings.json") if d["source"]==id]
     if (ROOT / "reviews/approved/batches" / f"{id}.json").exists():
         affected.append("batch/" + id)
+    if (ROOT / "reviews/relations" / f"{id}.json").exists():
+        affected.append("relations/" + id)
     if not affected:
         build()
     return dict(status="review-required",source=id,old=source["sha256"],new=digest,

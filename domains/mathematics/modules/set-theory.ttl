@@ -32,3 +32,15 @@ c:ultrafilter a skos:Concept ; skos:prefLabel "Ultrafilter"@en ;
 c:set-partition a skos:Concept ; skos:prefLabel "Partition of a set"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
     skos:definition "A family of pairwise disjoint nonempty subsets whose union is the original set."@en .
+
+c:monotone-map a skos:Concept ; skos:prefLabel "Monotone map of partially ordered sets"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:partial-order ;
+    skos:definition "A map preserving the order relation between comparable elements."@en .
+
+c:complete-lattice a skos:Concept ; skos:prefLabel "Complete lattice"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:lattice-order-theory ;
+    skos:definition "A partially ordered set in which every subset has both a supremum and an infimum."@en .
+
+c:knaster-tarski-fixed-point-theorem a skos:Concept ; skos:prefLabel "Knaster–Tarski fixed-point theorem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:lattice-order-theory ;
+    skos:definition "The fixed points of a monotone self-map of a complete lattice form a complete lattice, with extrema in the original order."@en .

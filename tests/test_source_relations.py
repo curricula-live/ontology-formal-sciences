@@ -66,3 +66,18 @@ def test_review_gate_rejects_revision_and_ambiguous_identity(tmp_path, monkeypat
     write(evidence, record)
     with pytest.raises(ValueError, match="rights or revision"):
         relations.apply_relations(catalog, canonical, mappings, Graph())
+
+
+def test_universal_restriction_cannot_be_promoted_by_an_approval(tmp_path, monkeypatch):
+    canonical, provenance = authored()
+    catalog = registry()
+    mappings = reviewed(catalog, canonical, provenance)
+    monkeypatch.setattr(relations, "LEDGERS", tmp_path)
+    name = "ontomath-pro"
+    evidence = read(ROOT / f"reviews/relations/{name}.json")
+    write(tmp_path / f"{name}.json", evidence)
+    approval = {key: evidence[key] for key in ("sha256", "profile_sha256")}
+    approval["decisions"] = {"approved": [["E285", "P1", "E1030", "Test invalid promotion"]]}
+    write(tmp_path / f"{name}-decisions.json", approval)
+    with pytest.raises(ValueError, match="No sound relation projection"):
+        relations.apply_relations(catalog, canonical, mappings, Graph())

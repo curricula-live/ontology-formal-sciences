@@ -1,0 +1,14 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+
+c:complete-lattice v:uses c:partial-order .
+c:knaster-tarski-fixed-point-theorem v:uses c:complete-lattice .
+c:knaster-tarski-fixed-point-theorem v:uses c:monotone-map .
+c:knaster-tarski-fixed-point-theorem v:uses c:fixed-point .
+c:continuous-linear-state-propagation v:uses c:mathmoddb-q6675333 .
+c:continuous-linear-state-propagation v:computes c:state-transition-matrix .
+c:square-root-balanced-truncation v:appliesToModel c:mathmoddb-q6675333 .
+c:square-root-balanced-truncation v:uses c:mathmoddb-q6674141 .
+c:square-root-balanced-truncation v:uses c:singular-value-decomposition .
+c:continuous-linear-state-propagation v:uses c:matrix-exponential .
+c:square-root-balanced-truncation v:uses c:cholesky-factorization .

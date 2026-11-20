@@ -267,6 +267,12 @@
 <https://curricula.live/id/formal-sciences/concept/compactness-topology> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/topology> .
 <https://curricula.live/id/formal-sciences/concept/compactness-topology> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/compactness-topology> <http://www.w3.org/2004/02/skos/core#prefLabel> "Compactness (topology)"@en .
+<https://curricula.live/id/formal-sciences/concept/complete-lattice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/complete-lattice> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/lattice-order-theory> .
+<https://curricula.live/id/formal-sciences/concept/complete-lattice> <http://www.w3.org/2004/02/skos/core#definition> "A partially ordered set in which every subset has both a supremum and an infimum."@en .
+<https://curricula.live/id/formal-sciences/concept/complete-lattice> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/complete-lattice> <http://www.w3.org/2004/02/skos/core#prefLabel> "Complete lattice"@en .
+<https://curricula.live/id/formal-sciences/concept/complete-lattice> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/partial-order> .
 <https://curricula.live/id/formal-sciences/concept/computability-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/computability-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/computability-theory> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -380,6 +386,14 @@
 <https://curricula.live/id/formal-sciences/concept/continuity> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/mathematical-analysis> .
 <https://curricula.live/id/formal-sciences/concept/continuity> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/continuity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Continuity"@en .
+<https://curricula.live/id/formal-sciences/concept/continuous-linear-state-propagation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/continuous-linear-state-propagation> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/continuous-linear-state-propagation> <http://www.w3.org/2004/02/skos/core#definition> "The homogeneous state evolution from time zero to time t for a constant system matrix, given by the matrix exponential at time t applied to the initial state."@en .
+<https://curricula.live/id/formal-sciences/concept/continuous-linear-state-propagation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/continuous-linear-state-propagation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Continuous-time LTI state propagation"@en .
+<https://curricula.live/id/formal-sciences/concept/continuous-linear-state-propagation> <https://curricula.live/id/formal-sciences/vocab/computes> <https://curricula.live/id/formal-sciences/concept/state-transition-matrix> .
+<https://curricula.live/id/formal-sciences/concept/continuous-linear-state-propagation> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675333> .
+<https://curricula.live/id/formal-sciences/concept/continuous-linear-state-propagation> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/matrix-exponential> .
 <https://curricula.live/id/formal-sciences/concept/control-systems-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/control-systems-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/differential-equations> .
 <https://curricula.live/id/formal-sciences/concept/control-systems-theory> <http://www.w3.org/2004/02/skos/core#definition> "The mathematical study of dynamical systems with inputs, including their stability, feedback and the design of inputs to reach specified objectives."@en .
@@ -448,6 +462,7 @@
 <https://curricula.live/id/formal-sciences/concept/ctl-state-labeling-algorithm> <http://www.w3.org/2004/02/skos/core#prefLabel> "CTL state-labeling algorithm"@en .
 <https://curricula.live/id/formal-sciences/concept/ctl-state-labeling-algorithm> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/ctl-model-checking> .
 <https://curricula.live/id/formal-sciences/concept/ctl-state-labeling-algorithm> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/fixed-point> .
+<https://curricula.live/id/formal-sciences/concept/ctl-state-labeling-algorithm> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/power-set> .
 <https://curricula.live/id/formal-sciences/concept/cumulative-distribution-function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/cumulative-distribution-function> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/probability-distributions> .
 <https://curricula.live/id/formal-sciences/concept/cumulative-distribution-function> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -456,6 +471,7 @@
 <https://curricula.live/id/formal-sciences/concept/curry-howard-correspondence> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/type-theory> .
 <https://curricula.live/id/formal-sciences/concept/curry-howard-correspondence> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
 <https://curricula.live/id/formal-sciences/concept/curry-howard-correspondence> <http://www.w3.org/2004/02/skos/core#prefLabel> "Curry-Howard correspondence"@en .
+<https://curricula.live/id/formal-sciences/concept/curry-howard-correspondence> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/proof-term> .
 <https://curricula.live/id/formal-sciences/concept/cut-elimination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/cut-elimination> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/proof-theory> .
 <https://curricula.live/id/formal-sciences/concept/cut-elimination> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
@@ -492,6 +508,11 @@
 <https://curricula.live/id/formal-sciences/concept/definite-integral> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/calculus> .
 <https://curricula.live/id/formal-sciences/concept/definite-integral> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/definite-integral> <http://www.w3.org/2004/02/skos/core#prefLabel> "Definite integral"@en .
+<https://curricula.live/id/formal-sciences/concept/definitional-equality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/definitional-equality> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/type-theory> .
+<https://curricula.live/id/formal-sciences/concept/definitional-equality> <http://www.w3.org/2004/02/skos/core#definition> "An equality judgment accepted by the conversion rules of the type system, often by computation and unfolding."@en .
+<https://curricula.live/id/formal-sciences/concept/definitional-equality> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/definitional-equality> <http://www.w3.org/2004/02/skos/core#prefLabel> "Definitional equality"@en .
 <https://curricula.live/id/formal-sciences/concept/denotational-semantics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/denotational-semantics> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/formal-semantics> .
 <https://curricula.live/id/formal-sciences/concept/denotational-semantics> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
@@ -567,6 +588,11 @@
 <https://curricula.live/id/formal-sciences/concept/disjoint-set-data-structure> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/disjoint-set-data-structure> <http://www.w3.org/2004/02/skos/core#prefLabel> "Disjoint-set data structure"@en .
 <https://curricula.live/id/formal-sciences/concept/disjoint-set-data-structure> <https://curricula.live/id/formal-sciences/vocab/represents> <https://curricula.live/id/formal-sciences/concept/set-partition> .
+<https://curricula.live/id/formal-sciences/concept/disjoint-theory-signatures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/disjoint-theory-signatures> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/satisfiability-modulo-theories> .
+<https://curricula.live/id/formal-sciences/concept/disjoint-theory-signatures> <http://www.w3.org/2004/02/skos/core#definition> "A condition in theory combination in which component signatures share no nonlogical symbols."@en .
+<https://curricula.live/id/formal-sciences/concept/disjoint-theory-signatures> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/disjoint-theory-signatures> <http://www.w3.org/2004/02/skos/core#prefLabel> "Disjoint theory signatures"@en .
 <https://curricula.live/id/formal-sciences/concept/distributed-computing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/distributed-computing> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/distributed-computing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -700,6 +726,12 @@
 <https://curricula.live/id/formal-sciences/concept/factor-graph> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/factor-graph> <http://www.w3.org/2004/02/skos/core#prefLabel> "Factor graph"@en .
 <https://curricula.live/id/formal-sciences/concept/factor-graph> <https://curricula.live/id/formal-sciences/vocab/represents> <https://curricula.live/id/formal-sciences/concept/joint-distribution> .
+<https://curricula.live/id/formal-sciences/concept/factorization-of-clauses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/factorization-of-clauses> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/resolution-logic> .
+<https://curricula.live/id/formal-sciences/concept/factorization-of-clauses> <http://www.w3.org/2004/02/skos/core#definition> "A rule that unifies two literals of the same polarity in a clause and retains one copy under the unifying substitution."@en .
+<https://curricula.live/id/formal-sciences/concept/factorization-of-clauses> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/factorization-of-clauses> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clause factoring"@en .
+<https://curricula.live/id/formal-sciences/concept/factorization-of-clauses> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/most-general-unifier> .
 <https://curricula.live/id/formal-sciences/concept/field-algebra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/field-algebra> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algebra> .
 <https://curricula.live/id/formal-sciences/concept/field-algebra> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
@@ -724,6 +756,19 @@
 <https://curricula.live/id/formal-sciences/concept/first-order-logic> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/predicate-logic> .
 <https://curricula.live/id/formal-sciences/concept/first-order-logic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
 <https://curricula.live/id/formal-sciences/concept/first-order-logic> <http://www.w3.org/2004/02/skos/core#prefLabel> "First-order logic"@en .
+<https://curricula.live/id/formal-sciences/concept/first-order-saturation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/first-order-saturation> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/automated-reasoning> .
+<https://curricula.live/id/formal-sciences/concept/first-order-saturation> <http://www.w3.org/2004/02/skos/core#definition> "A proof-search approach that iteratively derives consequences of a clause set under a chosen calculus, subject to its redundancy criteria."@en .
+<https://curricula.live/id/formal-sciences/concept/first-order-saturation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/first-order-saturation> <http://www.w3.org/2004/02/skos/core#prefLabel> "First-order saturation"@en .
+<https://curricula.live/id/formal-sciences/concept/first-order-saturation> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/resolution-logic> .
+<https://curricula.live/id/formal-sciences/concept/first-order-tableau> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/first-order-tableau> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/proof-theory> .
+<https://curricula.live/id/formal-sciences/concept/first-order-tableau> <http://www.w3.org/2004/02/skos/core#definition> "A tableau calculus with quantifier rules that introduce terms or instantiate formulas under the calculus's side conditions."@en .
+<https://curricula.live/id/formal-sciences/concept/first-order-tableau> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/first-order-tableau> <http://www.w3.org/2004/02/skos/core#prefLabel> "First-order tableau"@en .
+<https://curricula.live/id/formal-sciences/concept/first-order-tableau> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/existential-quantification> .
+<https://curricula.live/id/formal-sciences/concept/first-order-tableau> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/universal-quantification> .
 <https://curricula.live/id/formal-sciences/concept/first-order-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/first-order-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/model-theory> .
 <https://curricula.live/id/formal-sciences/concept/first-order-theory> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
@@ -742,6 +787,11 @@
 <https://curricula.live/id/formal-sciences/concept/ford-fulkerson-method> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/ford-fulkerson-method> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ford–Fulkerson method"@en .
 <https://curricula.live/id/formal-sciences/concept/ford-fulkerson-method> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/maximum-flow-problem> .
+<https://curricula.live/id/formal-sciences/concept/formal-derivation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/formal-derivation> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/proof-theory> .
+<https://curricula.live/id/formal-sciences/concept/formal-derivation> <http://www.w3.org/2004/02/skos/core#definition> "A finite proof tree whose leaves are assumptions or axioms and whose internal steps follow specified inference rules."@en .
+<https://curricula.live/id/formal-sciences/concept/formal-derivation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/formal-derivation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Formal derivation"@en .
 <https://curricula.live/id/formal-sciences/concept/formal-semantics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/formal-semantics> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/logic> .
 <https://curricula.live/id/formal-sciences/concept/formal-semantics> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
@@ -764,6 +814,12 @@
 <https://curricula.live/id/formal-sciences/concept/foundations-of-computing> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/foundations-of-computing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/foundations-of-computing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Foundations of computing"@en .
+<https://curricula.live/id/formal-sciences/concept/fourier-motzkin-elimination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/fourier-motzkin-elimination> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/linear-algebra> .
+<https://curricula.live/id/formal-sciences/concept/fourier-motzkin-elimination> <http://www.w3.org/2004/02/skos/core#definition> "Eliminate variables from linear inequalities by combining their implied lower and upper bounds to obtain inequalities in the remaining variables."@en .
+<https://curricula.live/id/formal-sciences/concept/fourier-motzkin-elimination> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/fourier-motzkin-elimination> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fourier–Motzkin elimination"@en .
+<https://curricula.live/id/formal-sciences/concept/fourier-motzkin-elimination> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/linear-rational-conjunction-feasibility> .
 <https://curricula.live/id/formal-sciences/concept/free-variable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/free-variable> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/predicate-logic> .
 <https://curricula.live/id/formal-sciences/concept/free-variable> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
@@ -921,6 +977,12 @@
 <https://curricula.live/id/formal-sciences/concept/inductive-eliminator> <http://www.w3.org/2004/02/skos/core#definition> "An operation defining a result on values of an inductive type by supplying a case for each constructor and recursion or induction hypotheses where provided."@en .
 <https://curricula.live/id/formal-sciences/concept/inductive-eliminator> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
 <https://curricula.live/id/formal-sciences/concept/inductive-eliminator> <http://www.w3.org/2004/02/skos/core#prefLabel> "Inductive eliminator"@en .
+<https://curricula.live/id/formal-sciences/concept/inductive-recursion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/inductive-recursion> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/inductive-type> .
+<https://curricula.live/id/formal-sciences/concept/inductive-recursion> <http://www.w3.org/2004/02/skos/core#definition> "Definition by constructor cases whose recursive calls are on available smaller structural constituents."@en .
+<https://curricula.live/id/formal-sciences/concept/inductive-recursion> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/inductive-recursion> <http://www.w3.org/2004/02/skos/core#prefLabel> "Structural recursion over an inductive type"@en .
+<https://curricula.live/id/formal-sciences/concept/inductive-recursion> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/inductive-eliminator> .
 <https://curricula.live/id/formal-sciences/concept/inductive-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/inductive-type> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/type-theory> .
 <https://curricula.live/id/formal-sciences/concept/inductive-type> <http://www.w3.org/2004/02/skos/core#definition> "A type specified by constructors together with rules for reasoning by induction and defining functions by recursion over their results."@en .
@@ -965,6 +1027,14 @@
 <https://curricula.live/id/formal-sciences/concept/kernel-method> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/machine-learning> .
 <https://curricula.live/id/formal-sciences/concept/kernel-method> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/kernel-method> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kernel method"@en .
+<https://curricula.live/id/formal-sciences/concept/knaster-tarski-fixed-point-theorem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/knaster-tarski-fixed-point-theorem> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/lattice-order-theory> .
+<https://curricula.live/id/formal-sciences/concept/knaster-tarski-fixed-point-theorem> <http://www.w3.org/2004/02/skos/core#definition> "The fixed points of a monotone self-map of a complete lattice form a complete lattice, with extrema in the original order."@en .
+<https://curricula.live/id/formal-sciences/concept/knaster-tarski-fixed-point-theorem> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/knaster-tarski-fixed-point-theorem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Knaster–Tarski fixed-point theorem"@en .
+<https://curricula.live/id/formal-sciences/concept/knaster-tarski-fixed-point-theorem> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/complete-lattice> .
+<https://curricula.live/id/formal-sciences/concept/knaster-tarski-fixed-point-theorem> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/fixed-point> .
+<https://curricula.live/id/formal-sciences/concept/knaster-tarski-fixed-point-theorem> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/monotone-map> .
 <https://curricula.live/id/formal-sciences/concept/knowledge-representation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/knowledge-representation> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/artificial-intelligence> .
 <https://curricula.live/id/formal-sciences/concept/knowledge-representation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -1027,6 +1097,11 @@
 <https://curricula.live/id/formal-sciences/concept/linear-least-squares-problem> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/linear-least-squares-problem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Linear least-squares problem"@en .
 <https://curricula.live/id/formal-sciences/concept/linear-least-squares-problem> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/euclidean-norm> .
+<https://curricula.live/id/formal-sciences/concept/linear-rational-conjunction-feasibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/linear-rational-conjunction-feasibility> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/quantifier-free-linear-rational-arithmetic> .
+<https://curricula.live/id/formal-sciences/concept/linear-rational-conjunction-feasibility> <http://www.w3.org/2004/02/skos/core#definition> "The existence of a rational assignment satisfying all inequalities in a finite conjunction of linear rational inequalities."@en .
+<https://curricula.live/id/formal-sciences/concept/linear-rational-conjunction-feasibility> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/linear-rational-conjunction-feasibility> <http://www.w3.org/2004/02/skos/core#prefLabel> "Feasibility of conjunctive rational linear inequalities"@en .
 <https://curricula.live/id/formal-sciences/concept/linear-recurrence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/linear-recurrence> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/combinatorics> .
 <https://curricula.live/id/formal-sciences/concept/linear-recurrence> <http://www.w3.org/2004/02/skos/core#definition> "A relation expressing a later term of a sequence as a linear combination of earlier terms, possibly with an inhomogeneous term."@en .
@@ -1348,6 +1423,11 @@
 <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6823151> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/differential-equations> .
 <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6823151> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6823151> <http://www.w3.org/2004/02/skos/core#prefLabel> "continuity equation: weak formulation"@en .
+<https://curricula.live/id/formal-sciences/concept/matrix-exponential> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/matrix-exponential> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/linear-algebra> .
+<https://curricula.live/id/formal-sciences/concept/matrix-exponential> <http://www.w3.org/2004/02/skos/core#definition> "The matrix function defined for a square matrix by the absolutely convergent power series for the scalar exponential with matrix powers in place of scalar powers."@en .
+<https://curricula.live/id/formal-sciences/concept/matrix-exponential> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/matrix-exponential> <http://www.w3.org/2004/02/skos/core#prefLabel> "Matrix exponential"@en .
 <https://curricula.live/id/formal-sciences/concept/matrix-factorization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/matrix-factorization> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/linear-algebra> .
 <https://curricula.live/id/formal-sciences/concept/matrix-factorization> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
@@ -1453,6 +1533,11 @@
 <https://curricula.live/id/formal-sciences/concept/monoid> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algebra> .
 <https://curricula.live/id/formal-sciences/concept/monoid> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/monoid> <http://www.w3.org/2004/02/skos/core#prefLabel> "Monoid"@en .
+<https://curricula.live/id/formal-sciences/concept/monotone-map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/monotone-map> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/partial-order> .
+<https://curricula.live/id/formal-sciences/concept/monotone-map> <http://www.w3.org/2004/02/skos/core#definition> "A map preserving the order relation between comparable elements."@en .
+<https://curricula.live/id/formal-sciences/concept/monotone-map> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/monotone-map> <http://www.w3.org/2004/02/skos/core#prefLabel> "Monotone map of partially ordered sets"@en .
 <https://curricula.live/id/formal-sciences/concept/most-general-unifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/most-general-unifier> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/unification> .
 <https://curricula.live/id/formal-sciences/concept/most-general-unifier> <http://www.w3.org/2004/02/skos/core#definition> "A unifying substitution through which every other unifying substitution factors by further substitution."@en .
@@ -1488,6 +1573,15 @@
 <https://curricula.live/id/formal-sciences/concept/natural-deduction> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/proof-theory> .
 <https://curricula.live/id/formal-sciences/concept/natural-deduction> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
 <https://curricula.live/id/formal-sciences/concept/natural-deduction> <http://www.w3.org/2004/02/skos/core#prefLabel> "Natural deduction"@en .
+<https://curricula.live/id/formal-sciences/concept/nelson-oppen-combination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/nelson-oppen-combination> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/theory-solver> .
+<https://curricula.live/id/formal-sciences/concept/nelson-oppen-combination> <http://www.w3.org/2004/02/skos/core#definition> "A framework that combines satisfiability procedures for component theories by exchanging equalities on shared variables after purification."@en .
+<https://curricula.live/id/formal-sciences/concept/nelson-oppen-combination> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/nelson-oppen-combination> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nelson–Oppen theory combination"@en .
+<https://curricula.live/id/formal-sciences/concept/nelson-oppen-combination> <https://curricula.live/id/formal-sciences/vocab/requiresAssumption> <https://curricula.live/id/formal-sciences/concept/disjoint-theory-signatures> .
+<https://curricula.live/id/formal-sciences/concept/nelson-oppen-combination> <https://curricula.live/id/formal-sciences/vocab/requiresAssumption> <https://curricula.live/id/formal-sciences/concept/stable-infiniteness> .
+<https://curricula.live/id/formal-sciences/concept/nelson-oppen-combination> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/theory-purification> .
+<https://curricula.live/id/formal-sciences/concept/nelson-oppen-combination> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/theory-solver> .
 <https://curricula.live/id/formal-sciences/concept/network-topology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/network-topology> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-networks> .
 <https://curricula.live/id/formal-sciences/concept/network-topology> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -1551,6 +1645,13 @@
 <https://curricula.live/id/formal-sciences/concept/numerical-integration> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/numerical-analysis> .
 <https://curricula.live/id/formal-sciences/concept/numerical-integration> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/numerical-integration> <http://www.w3.org/2004/02/skos/core#prefLabel> "Numerical integration"@en .
+<https://curricula.live/id/formal-sciences/concept/ols-coefficient-t-test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/ols-coefficient-t-test> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/hypothesis-testing> .
+<https://curricula.live/id/formal-sciences/concept/ols-coefficient-t-test> <http://www.w3.org/2004/02/skos/core#definition> "Test a coefficient of a full-rank linear regression by dividing its estimated deviation from the null value by its estimated standard error. With independent homoscedastic normal errors the statistic has a Student t null distribution with residual degrees of freedom."@en .
+<https://curricula.live/id/formal-sciences/concept/ols-coefficient-t-test> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
+<https://curricula.live/id/formal-sciences/concept/ols-coefficient-t-test> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ordinary least squares coefficient t-test"@en .
+<https://curricula.live/id/formal-sciences/concept/ols-coefficient-t-test> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/ordinary-least-squares> .
+<https://curricula.live/id/formal-sciences/concept/ols-coefficient-t-test> <https://curricula.live/id/formal-sciences/vocab/usesReferenceDistribution> <https://curricula.live/id/formal-sciences/concept/stato-0000059> .
 <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e1000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e1000> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algebra> .
 <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e1000> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
@@ -8914,6 +9015,23 @@
 <https://curricula.live/id/formal-sciences/concept/programming-languages> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/programming-languages> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/programming-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Programming languages"@en .
+<https://curricula.live/id/formal-sciences/concept/proof-certificate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/proof-certificate> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/automated-reasoning> .
+<https://curricula.live/id/formal-sciences/concept/proof-certificate> <http://www.w3.org/2004/02/skos/core#definition> "A finite artifact containing evidence that a checker can validate against a specified correctness claim."@en .
+<https://curricula.live/id/formal-sciences/concept/proof-certificate> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/proof-certificate> <http://www.w3.org/2004/02/skos/core#prefLabel> "Proof certificate"@en .
+<https://curricula.live/id/formal-sciences/concept/proof-checker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/proof-checker> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/automated-reasoning> .
+<https://curricula.live/id/formal-sciences/concept/proof-checker> <http://www.w3.org/2004/02/skos/core#definition> "A procedure validating a proof or certificate against the inference rules of a formal system."@en .
+<https://curricula.live/id/formal-sciences/concept/proof-checker> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/proof-checker> <http://www.w3.org/2004/02/skos/core#prefLabel> "Proof checker"@en .
+<https://curricula.live/id/formal-sciences/concept/proof-checker> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/proof-certificate> .
+<https://curricula.live/id/formal-sciences/concept/proof-term> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/proof-term> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/proof-theory> .
+<https://curricula.live/id/formal-sciences/concept/proof-term> <http://www.w3.org/2004/02/skos/core#definition> "A term encoding a derivation by the inference and term-formation rules of a propositions-as-types system."@en .
+<https://curricula.live/id/formal-sciences/concept/proof-term> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/proof-term> <http://www.w3.org/2004/02/skos/core#prefLabel> "Proof term"@en .
+<https://curricula.live/id/formal-sciences/concept/proof-term> <https://curricula.live/id/formal-sciences/vocab/represents> <https://curricula.live/id/formal-sciences/concept/formal-derivation> .
 <https://curricula.live/id/formal-sciences/concept/proof-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/proof-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/logic> .
 <https://curricula.live/id/formal-sciences/concept/proof-theory> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
@@ -8924,10 +9042,32 @@
 <https://curricula.live/id/formal-sciences/concept/propositional-abstraction> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
 <https://curricula.live/id/formal-sciences/concept/propositional-abstraction> <http://www.w3.org/2004/02/skos/core#prefLabel> "Propositional abstraction of theory atoms"@en .
 <https://curricula.live/id/formal-sciences/concept/propositional-abstraction> <https://curricula.live/id/formal-sciences/vocab/computes> <https://curricula.live/id/formal-sciences/concept/boolean-formula> .
+<https://curricula.live/id/formal-sciences/concept/propositional-equality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/propositional-equality> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/type-theory> .
+<https://curricula.live/id/formal-sciences/concept/propositional-equality> <http://www.w3.org/2004/02/skos/core#definition> "An equality expressed as a type or proposition whose inhabitants provide proofs under the equality rules."@en .
+<https://curricula.live/id/formal-sciences/concept/propositional-equality> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/propositional-equality> <http://www.w3.org/2004/02/skos/core#prefLabel> "Propositional equality in type theory"@en .
+<https://curricula.live/id/formal-sciences/concept/propositional-equality> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/dependent-type> .
 <https://curricula.live/id/formal-sciences/concept/propositional-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/propositional-logic> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/logic> .
 <https://curricula.live/id/formal-sciences/concept/propositional-logic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
 <https://curricula.live/id/formal-sciences/concept/propositional-logic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Propositional logic"@en .
+<https://curricula.live/id/formal-sciences/concept/propositional-resolution-certificate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/propositional-resolution-certificate> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/proof-certificate> .
+<https://curricula.live/id/formal-sciences/concept/propositional-resolution-certificate> <http://www.w3.org/2004/02/skos/core#definition> "A finite sequence or directed acyclic graph of resolution derivations from input clauses to the empty clause, certifying their joint unsatisfiability."@en .
+<https://curricula.live/id/formal-sciences/concept/propositional-resolution-certificate> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/propositional-resolution-certificate> <http://www.w3.org/2004/02/skos/core#prefLabel> "Propositional resolution certificate"@en .
+<https://curricula.live/id/formal-sciences/concept/propositional-resolution-certificate> <https://curricula.live/id/formal-sciences/vocab/represents> <https://curricula.live/id/formal-sciences/concept/formal-derivation> .
+<https://curricula.live/id/formal-sciences/concept/propositional-resolution-certificate> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/conjunctive-normal-form> .
+<https://curricula.live/id/formal-sciences/concept/propositional-resolution-certificate> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/directed-acyclic-graph> .
+<https://curricula.live/id/formal-sciences/concept/propositional-resolution-certificate> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/resolution-logic> .
+<https://curricula.live/id/formal-sciences/concept/propositional-semantic-tableau> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/propositional-semantic-tableau> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/proof-theory> .
+<https://curricula.live/id/formal-sciences/concept/propositional-semantic-tableau> <http://www.w3.org/2004/02/skos/core#definition> "A branching search for a satisfying assignment that decomposes propositional formulas and detects inconsistent branches."@en .
+<https://curricula.live/id/formal-sciences/concept/propositional-semantic-tableau> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/propositional-semantic-tableau> <http://www.w3.org/2004/02/skos/core#prefLabel> "Propositional semantic tableau"@en .
+<https://curricula.live/id/formal-sciences/concept/propositional-semantic-tableau> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/boolean-satisfiability> .
+<https://curricula.live/id/formal-sciences/concept/propositional-semantic-tableau> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/tableau-closure> .
 <https://curricula.live/id/formal-sciences/concept/propositional-variable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/propositional-variable> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/propositional-logic> .
 <https://curricula.live/id/formal-sciences/concept/propositional-variable> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
@@ -8957,6 +9097,11 @@
 <https://curricula.live/id/formal-sciences/concept/quadratic-form> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/linear-algebra> .
 <https://curricula.live/id/formal-sciences/concept/quadratic-form> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/quadratic-form> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quadratic form"@en .
+<https://curricula.live/id/formal-sciences/concept/quantifier-free-linear-rational-arithmetic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/quantifier-free-linear-rational-arithmetic> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/satisfiability-modulo-theories> .
+<https://curricula.live/id/formal-sciences/concept/quantifier-free-linear-rational-arithmetic> <http://www.w3.org/2004/02/skos/core#definition> "Satisfiability of Boolean combinations of linear rational constraints over variables ranging over the rationals."@en .
+<https://curricula.live/id/formal-sciences/concept/quantifier-free-linear-rational-arithmetic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/quantifier-free-linear-rational-arithmetic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quantifier-free linear rational arithmetic"@en .
 <https://curricula.live/id/formal-sciences/concept/query-optimization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/query-optimization> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/databases> .
 <https://curricula.live/id/formal-sciences/concept/query-optimization> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -9151,6 +9296,7 @@
 <https://curricula.live/id/formal-sciences/concept/simply-typed-lambda-calculus> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
 <https://curricula.live/id/formal-sciences/concept/simply-typed-lambda-calculus> <http://www.w3.org/2004/02/skos/core#prefLabel> "Simply typed lambda calculus"@en .
 <https://curricula.live/id/formal-sciences/concept/simply-typed-lambda-calculus> <https://curricula.live/id/formal-sciences/vocab/hasProperty> <https://curricula.live/id/formal-sciences/concept/stlc-type-safety> .
+<https://curricula.live/id/formal-sciences/concept/simply-typed-lambda-calculus> <https://curricula.live/id/formal-sciences/vocab/hasProperty> <https://curricula.live/id/formal-sciences/concept/strong-normalization> .
 <https://curricula.live/id/formal-sciences/concept/simply-typed-lambda-calculus> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/beta-reduction> .
 <https://curricula.live/id/formal-sciences/concept/simply-typed-lambda-calculus> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/typing-context> .
 <https://curricula.live/id/formal-sciences/concept/singular-value-decomposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -9192,6 +9338,20 @@
 <https://curricula.live/id/formal-sciences/concept/square-free-polynomial> <http://www.w3.org/2004/02/skos/core#definition> "A polynomial with no repeated irreducible factor over the coefficient field."@en .
 <https://curricula.live/id/formal-sciences/concept/square-free-polynomial> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/square-free-polynomial> <http://www.w3.org/2004/02/skos/core#prefLabel> "Square-free polynomial"@en .
+<https://curricula.live/id/formal-sciences/concept/square-root-balanced-truncation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/square-root-balanced-truncation> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/control-systems-theory> .
+<https://curricula.live/id/formal-sciences/concept/square-root-balanced-truncation> <http://www.w3.org/2004/02/skos/core#definition> "For a stable continuous-time linear system, use factors of the controllability and observability Gramians and their singular-value decomposition to form balanced reduced coordinates."@en .
+<https://curricula.live/id/formal-sciences/concept/square-root-balanced-truncation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/square-root-balanced-truncation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Square-root balanced truncation"@en .
+<https://curricula.live/id/formal-sciences/concept/square-root-balanced-truncation> <https://curricula.live/id/formal-sciences/vocab/appliesToModel> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675333> .
+<https://curricula.live/id/formal-sciences/concept/square-root-balanced-truncation> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/cholesky-factorization> .
+<https://curricula.live/id/formal-sciences/concept/square-root-balanced-truncation> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674141> .
+<https://curricula.live/id/formal-sciences/concept/square-root-balanced-truncation> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/singular-value-decomposition> .
+<https://curricula.live/id/formal-sciences/concept/stable-infiniteness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/stable-infiniteness> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/satisfiability-modulo-theories> .
+<https://curricula.live/id/formal-sciences/concept/stable-infiniteness> <http://www.w3.org/2004/02/skos/core#definition> "Every satisfiable quantifier-free formula over the theory has an infinite model satisfying that theory."@en .
+<https://curricula.live/id/formal-sciences/concept/stable-infiniteness> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/stable-infiniteness> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stable infiniteness"@en .
 <https://curricula.live/id/formal-sciences/concept/stack-data-structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/stack-data-structure> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/data-structures> .
 <https://curricula.live/id/formal-sciences/concept/stack-data-structure> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -9200,6 +9360,11 @@
 <https://curricula.live/id/formal-sciences/concept/state-machine-replication> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/distributed-computing> .
 <https://curricula.live/id/formal-sciences/concept/state-machine-replication> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/state-machine-replication> <http://www.w3.org/2004/02/skos/core#prefLabel> "State machine replication"@en .
+<https://curricula.live/id/formal-sciences/concept/state-transition-matrix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/state-transition-matrix> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/linear-algebra> .
+<https://curricula.live/id/formal-sciences/concept/state-transition-matrix> <http://www.w3.org/2004/02/skos/core#definition> "A matrix that maps an initial state to the state at a specified later time in a linear homogeneous system."@en .
+<https://curricula.live/id/formal-sciences/concept/state-transition-matrix> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/state-transition-matrix> <http://www.w3.org/2004/02/skos/core#prefLabel> "State transition matrix"@en .
 <https://curricula.live/id/formal-sciences/concept/static-program-analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/static-program-analysis> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/software-engineering> .
 <https://curricula.live/id/formal-sciences/concept/static-program-analysis> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -10532,6 +10697,11 @@
 <https://curricula.live/id/formal-sciences/concept/stochastic-processes> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stochastic-processes> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/stochastic-processes> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stochastic processes"@en .
+<https://curricula.live/id/formal-sciences/concept/strong-normalization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/strong-normalization> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/type-theory> .
+<https://curricula.live/id/formal-sciences/concept/strong-normalization> <http://www.w3.org/2004/02/skos/core#definition> "Every sequence of reductions starting from the given well-formed term eventually terminates."@en .
+<https://curricula.live/id/formal-sciences/concept/strong-normalization> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/strong-normalization> <http://www.w3.org/2004/02/skos/core#prefLabel> "Strong normalization"@en .
 <https://curricula.live/id/formal-sciences/concept/strongly-connected-component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/strongly-connected-component> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/graph-theory> .
 <https://curricula.live/id/formal-sciences/concept/strongly-connected-component> <http://www.w3.org/2004/02/skos/core#definition> "A maximal set of vertices of a directed graph in which each pair is mutually reachable."@en .
@@ -10565,6 +10735,13 @@
 <https://curricula.live/id/formal-sciences/concept/support-vector-machine> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/support-vector-machine> <http://www.w3.org/2004/02/skos/core#prefLabel> "Support vector machine"@en .
 <https://curricula.live/id/formal-sciences/concept/support-vector-machine> <http://www.w3.org/2004/02/skos/core#related> <https://curricula.live/id/formal-sciences/concept/kernel-method> .
+<https://curricula.live/id/formal-sciences/concept/svd-principal-component-analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/svd-principal-component-analysis> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/principal-component-analysis> .
+<https://curricula.live/id/formal-sciences/concept/svd-principal-component-analysis> <http://www.w3.org/2004/02/skos/core#definition> "From a singular value decomposition of the centered data matrix, take the right singular vectors as principal directions. Their squared singular values divided by the sample-size scaling give the covariance eigenvalues."@en .
+<https://curricula.live/id/formal-sciences/concept/svd-principal-component-analysis> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
+<https://curricula.live/id/formal-sciences/concept/svd-principal-component-analysis> <http://www.w3.org/2004/02/skos/core#prefLabel> "SVD computation of PCA"@en .
+<https://curricula.live/id/formal-sciences/concept/svd-principal-component-analysis> <https://curricula.live/id/formal-sciences/vocab/computes> <https://curricula.live/id/formal-sciences/concept/eigenvector> .
+<https://curricula.live/id/formal-sciences/concept/svd-principal-component-analysis> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/singular-value-decomposition> .
 <https://curricula.live/id/formal-sciences/concept/symbolic-model-checking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/symbolic-model-checking> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/formal-verification> .
 <https://curricula.live/id/formal-sciences/concept/symbolic-model-checking> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/model-checking> .
@@ -10576,6 +10753,12 @@
 <https://curricula.live/id/formal-sciences/concept/symmetric-positive-definiteness> <http://www.w3.org/2004/02/skos/core#definition> "The property of a real matrix being symmetric and having a strictly positive quadratic form on every nonzero vector."@en .
 <https://curricula.live/id/formal-sciences/concept/symmetric-positive-definiteness> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/symmetric-positive-definiteness> <http://www.w3.org/2004/02/skos/core#prefLabel> "Symmetric positive definiteness"@en .
+<https://curricula.live/id/formal-sciences/concept/tableau-closure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/tableau-closure> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/propositional-semantic-tableau> .
+<https://curricula.live/id/formal-sciences/concept/tableau-closure> <http://www.w3.org/2004/02/skos/core#definition> "The closure of a branch on encountering a propositional atom and its negation on that branch."@en .
+<https://curricula.live/id/formal-sciences/concept/tableau-closure> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/tableau-closure> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tableau branch closure"@en .
+<https://curricula.live/id/formal-sciences/concept/tableau-closure> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/literal-propositional-logic> .
 <https://curricula.live/id/formal-sciences/concept/term-rewriting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/term-rewriting> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/automated-reasoning> .
 <https://curricula.live/id/formal-sciences/concept/term-rewriting> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
@@ -10584,6 +10767,11 @@
 <https://curricula.live/id/formal-sciences/concept/theorem-prover> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/automated-reasoning> .
 <https://curricula.live/id/formal-sciences/concept/theorem-prover> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
 <https://curricula.live/id/formal-sciences/concept/theorem-prover> <http://www.w3.org/2004/02/skos/core#prefLabel> "Theorem prover"@en .
+<https://curricula.live/id/formal-sciences/concept/theory-purification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/theory-purification> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/satisfiability-modulo-theories> .
+<https://curricula.live/id/formal-sciences/concept/theory-purification> <http://www.w3.org/2004/02/skos/core#definition> "Replace subterms drawn from other theories by fresh variables with defining equalities, obtaining constraints owned by individual theories."@en .
+<https://curricula.live/id/formal-sciences/concept/theory-purification> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/theory-purification> <http://www.w3.org/2004/02/skos/core#prefLabel> "Theory purification"@en .
 <https://curricula.live/id/formal-sciences/concept/theory-solver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/theory-solver> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/automated-reasoning> .
 <https://curricula.live/id/formal-sciences/concept/theory-solver> <http://www.w3.org/2004/02/skos/core#definition> "A decision procedure that checks the consistency of a conjunction of literals in a specified background theory."@en .
@@ -10656,6 +10844,13 @@
 <https://curricula.live/id/formal-sciences/concept/two-satisfiability> <http://www.w3.org/2004/02/skos/core#definition> "The decision problem of whether a conjunction of clauses with at most two literals per clause admits a satisfying assignment."@en .
 <https://curricula.live/id/formal-sciences/concept/two-satisfiability> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
 <https://curricula.live/id/formal-sciences/concept/two-satisfiability> <http://www.w3.org/2004/02/skos/core#prefLabel> "2-satisfiability"@en .
+<https://curricula.live/id/formal-sciences/concept/type-conversion-rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/type-conversion-rule> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/typing-judgment> .
+<https://curricula.live/id/formal-sciences/concept/type-conversion-rule> <http://www.w3.org/2004/02/skos/core#definition> "A rule allowing a term of one type to be used at a definitionally equal type."@en .
+<https://curricula.live/id/formal-sciences/concept/type-conversion-rule> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/type-conversion-rule> <http://www.w3.org/2004/02/skos/core#prefLabel> "Type conversion rule"@en .
+<https://curricula.live/id/formal-sciences/concept/type-conversion-rule> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/beta-reduction> .
+<https://curricula.live/id/formal-sciences/concept/type-conversion-rule> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/definitional-equality> .
 <https://curricula.live/id/formal-sciences/concept/type-i-error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/type-i-error> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/hypothesis-testing> .
 <https://curricula.live/id/formal-sciences/concept/type-i-error> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
@@ -10676,6 +10871,14 @@
 <https://curricula.live/id/formal-sciences/concept/type-progress> <http://www.w3.org/2004/02/skos/core#definition> "In a suitable evaluation semantics, a closed well-typed term is a value or has a next evaluation step."@en .
 <https://curricula.live/id/formal-sciences/concept/type-progress> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
 <https://curricula.live/id/formal-sciences/concept/type-progress> <http://www.w3.org/2004/02/skos/core#prefLabel> "Progress (type safety)"@en .
+<https://curricula.live/id/formal-sciences/concept/type-theoretic-proof-kernel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/type-theoretic-proof-kernel> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/proof-checker> .
+<https://curricula.live/id/formal-sciences/concept/type-theoretic-proof-kernel> <http://www.w3.org/2004/02/skos/core#definition> "The trusted checker validating formal proof terms using the typing and definitional equality rules of a logical framework."@en .
+<https://curricula.live/id/formal-sciences/concept/type-theoretic-proof-kernel> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/type-theoretic-proof-kernel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Type-theoretic proof kernel"@en .
+<https://curricula.live/id/formal-sciences/concept/type-theoretic-proof-kernel> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/definitional-equality> .
+<https://curricula.live/id/formal-sciences/concept/type-theoretic-proof-kernel> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/proof-term> .
+<https://curricula.live/id/formal-sciences/concept/type-theoretic-proof-kernel> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/typing-judgment> .
 <https://curricula.live/id/formal-sciences/concept/type-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/type-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/logic> .
 <https://curricula.live/id/formal-sciences/concept/type-theory> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
@@ -10721,6 +10924,11 @@
 <https://curricula.live/id/formal-sciences/concept/universal-quantification> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/predicate-logic> .
 <https://curricula.live/id/formal-sciences/concept/universal-quantification> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
 <https://curricula.live/id/formal-sciences/concept/universal-quantification> <http://www.w3.org/2004/02/skos/core#prefLabel> "Universal quantification"@en .
+<https://curricula.live/id/formal-sciences/concept/universe-hierarchy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/universe-hierarchy> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/type-theory> .
+<https://curricula.live/id/formal-sciences/concept/universe-hierarchy> <http://www.w3.org/2004/02/skos/core#definition> "A stratification of types into universes where the type of a universe belongs to a higher universe."@en .
+<https://curricula.live/id/formal-sciences/concept/universe-hierarchy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
+<https://curricula.live/id/formal-sciences/concept/universe-hierarchy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Type universe hierarchy"@en .
 <https://curricula.live/id/formal-sciences/concept/variance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/variance> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/random-variable> .
 <https://curricula.live/id/formal-sciences/concept/variance> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .

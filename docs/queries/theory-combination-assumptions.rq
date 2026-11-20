@@ -1,0 +1,16 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+SELECT ?assumption ?reference
+WHERE {
+  GRAPH g:asserted { c:nelson-oppen-combination v:requiresAssumption ?assumption }
+  GRAPH g:provenance {
+    ?statement rdf:subject c:nelson-oppen-combination ;
+      rdf:predicate v:requiresAssumption ; rdf:object ?assumption ;
+      dct:source ?reference .
+  }
+}
+ORDER BY ?assumption

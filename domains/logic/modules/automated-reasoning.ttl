@@ -81,3 +81,47 @@ c:most-general-unifier a skos:Concept ; skos:prefLabel "Most general unifier"@en
 c:propositional-abstraction a skos:Concept ; skos:prefLabel "Propositional abstraction of theory atoms"@en ;
     skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
     skos:definition "Replacing each distinct theory atom with a propositional variable to retain the Boolean structure of the formula."@en .
+
+c:nelson-oppen-combination a skos:Concept ; skos:prefLabel "Nelson–Oppen theory combination"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:theory-solver ;
+    skos:definition "A framework that combines satisfiability procedures for component theories by exchanging equalities on shared variables after purification."@en .
+
+c:disjoint-theory-signatures a skos:Concept ; skos:prefLabel "Disjoint theory signatures"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:satisfiability-modulo-theories ;
+    skos:definition "A condition in theory combination in which component signatures share no nonlogical symbols."@en .
+
+c:stable-infiniteness a skos:Concept ; skos:prefLabel "Stable infiniteness"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:satisfiability-modulo-theories ;
+    skos:definition "Every satisfiable quantifier-free formula over the theory has an infinite model satisfying that theory."@en .
+
+c:theory-purification a skos:Concept ; skos:prefLabel "Theory purification"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:satisfiability-modulo-theories ;
+    skos:definition "Replace subterms drawn from other theories by fresh variables with defining equalities, obtaining constraints owned by individual theories."@en .
+
+c:quantifier-free-linear-rational-arithmetic a skos:Concept ; skos:prefLabel "Quantifier-free linear rational arithmetic"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:satisfiability-modulo-theories ;
+    skos:definition "Satisfiability of Boolean combinations of linear rational constraints over variables ranging over the rationals."@en .
+
+c:linear-rational-conjunction-feasibility a skos:Concept ; skos:prefLabel "Feasibility of conjunctive rational linear inequalities"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:quantifier-free-linear-rational-arithmetic ;
+    skos:definition "The existence of a rational assignment satisfying all inequalities in a finite conjunction of linear rational inequalities."@en .
+
+c:proof-certificate a skos:Concept ; skos:prefLabel "Proof certificate"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "A finite artifact containing evidence that a checker can validate against a specified correctness claim."@en .
+
+c:proof-checker a skos:Concept ; skos:prefLabel "Proof checker"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "A procedure validating a proof or certificate against the inference rules of a formal system."@en .
+
+c:first-order-saturation a skos:Concept ; skos:prefLabel "First-order saturation"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "A proof-search approach that iteratively derives consequences of a clause set under a chosen calculus, subject to its redundancy criteria."@en .
+
+c:factorization-of-clauses a skos:Concept ; skos:prefLabel "Clause factoring"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:resolution-logic ;
+    skos:definition "A rule that unifies two literals of the same polarity in a clause and retains one copy under the unifying substitution."@en .
+
+c:propositional-resolution-certificate a skos:Concept ; skos:prefLabel "Propositional resolution certificate"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-certificate ;
+    skos:definition "A finite sequence or directed acyclic graph of resolution derivations from input clauses to the empty clause, certifying their joint unsatisfiability."@en .

@@ -371,3 +371,11 @@
 <https://curricula.live/id/formal-sciences/concept/stato-0000268> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E2503> .
 
 <https://curricula.live/id/formal-sciences/concept/covariance> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cll.niimm.ksu.ru/ontologies/mathematics#E2582> .
+
+<https://curricula.live/id/formal-sciences/concept/stato-0000086> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C15258> .
+
+<https://curricula.live/id/formal-sciences/concept/stato-0000304> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C15792> .
+
+<https://curricula.live/id/formal-sciences/concept/stato-0000132> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/ocs/ont/C36011> .
+
+<https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674141> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/ocs/ont/C35657> .

@@ -36,9 +36,23 @@ def test_published_competencies():
     }
     assert all(len(row["digest"]) == 64 for row in result["mapping-evidence"])
     assert pairs("branching-time-verification", "method", "technique") == {
-        (str(C["ctl-state-labeling-algorithm"]), str(C["fixed-point"]))
+        (str(C["ctl-state-labeling-algorithm"]), str(C["fixed-point"])),
+        (str(C["ctl-state-labeling-algorithm"]), str(C["power-set"])),
     }
     assert all(row["reference"] for row in result["branching-time-verification"])
+    assert pairs("source-discretization", "weak", "discrete") == {
+        (str(C["mathmoddb-q6822179"]), str(C["mathmoddb-q6775736"]))
+    }
+    assert {row["weakSourcePredicate"].rsplit("/", 1)[-1] for row in result["source-discretization"]} == {"P1736"}
+    assert {row["discreteSourcePredicate"].rsplit("/", 1)[-1] for row in result["source-discretization"]} == {"P1656"}
+    assert pairs("stato-opencs-reference-law", "test", "distribution") == {
+        (str(C["stato-0000304"]), str(C["stato-0000059"]))
+    }
+    assert {row["axiom"] for row in result["stato-opencs-reference-law"]} == {"subclass-some"}
+    assert {row["assumption"] for row in result["theory-combination-assumptions"]} == {
+        str(C["disjoint-theory-signatures"]), str(C["stable-infiniteness"]),
+    }
+
     assert pairs("ground-euf-reasoning", "method", "structure") == {
         (str(C["congruence-closure-decision-procedure"]), str(C["disjoint-set-data-structure"]))
     }
@@ -59,7 +73,7 @@ def test_every_new_scientific_claim_has_a_citation_and_no_implicit_inverse():
     cited = {(C[s], V[p], C[o]) for s, p, o, _ in read(ROOT / "reviews/approved/citations.json")}
     claims = Graph()
     for path in (ROOT / "domains").rglob("*.ttl"):
-        if path.name in {"scientific-methods.ttl", "foundations.ttl"}:
+        if path.name in {"scientific-methods.ttl", "foundations.ttl", "advanced-methods.ttl"}:
             claims.parse(path)
     directional = {triple for triple in claims if triple[1] != SKOS.broader}
     assert directional and directional <= cited

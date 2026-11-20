@@ -31,3 +31,12 @@ the endpoints, weak components, cross-scheme edges and edges backed by
 statement citations. SKOS hierarchy and generic associations contribute
 to the full graph metrics separately. Consumers can compare both views
 to track the depth and reach of scientific assertions.
+
+Source-derived scientific statements carry a provenance witness with
+the original endpoint IRIs, source predicate, axiom shape, snapshot
+digest and review rationale. The witness is linked from the canonical
+statement using `prov:wasDerivedFrom`. Its RDF reification terms identify
+the source expression under the recorded axiom shape. The manifest
+includes extracted, approved, rejected, pending, unresolved and
+ambiguous source counts. The scientific connectivity report includes
+an evidence-backed subgraph and per-source distinct edge counts.

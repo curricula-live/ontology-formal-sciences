@@ -53,6 +53,11 @@ jobs:
         env:
           ROBOT_JAR: ${{ runner.temp }}/robot.jar
         run: |
-          for source in mathmoddb stato ontomath-pro; do
-            python -m pipeline.cli replay-relations --source "$source"
-          done
+          python - <<'PYTHON'
+          import json, subprocess, sys
+          with open("dist/manifest.json") as handle:
+              inventory = json.load(handle)["sources"]
+          for source, record in sorted(inventory.items()):
+              if record.get("relations"):
+                  subprocess.run([sys.executable, "-m", "pipeline.cli", "replay-relations", "--source", source], check=True)
+          PYTHON
