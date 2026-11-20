@@ -63,7 +63,7 @@ the pinned archive returned HTTP 403 in the release workspace. Mathlib module
 imports remain source dependencies in staging.
 
 The manifest reports candidate causes by source. A missing canonical subject,
-a conflicting identity, unreviewed mapping, weak evidence, an unsupported
-relation or source content outside the profile require different review
-actions. The selected-source assessments separately record licensing and
-dictionary scope limits.
+a conflicting identity, an unreviewed mapping, weak evidence, or an
+unsupported relation form requires a different review action. The report
+counts excluded endpoint roles separately from unsupported relation semantics.
+The selected-source assessments record licensing and dictionary scope limits.

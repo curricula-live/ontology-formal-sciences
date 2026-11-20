@@ -67,7 +67,7 @@ PROFILES = {
 
 CAUSE_BY_ACTION = {
     "exclude_reviewed_application": "out_of_scope_source_content",
-    "exclude_profile_role": "unsupported_relation_semantics",
+    "exclude_profile_role": "out_of_scope_endpoint_role",
     "outside_relation_profile": "unsupported_relation_semantics",
     "resolve_identity_conflict": "ambiguous_identity",
     "review_mapping": "unreviewed_identity_mapping",

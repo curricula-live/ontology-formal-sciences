@@ -951,9 +951,9 @@
           "approved": 147,
           "domain_scope_undetermined": 1168,
           "editorially_rejected": 5,
+          "out_of_scope_endpoint_role": 745,
           "out_of_scope_source_content": 545,
-          "unreviewed_identity_mapping": 1,
-          "unsupported_relation_semantics": 745
+          "unreviewed_identity_mapping": 1
         },
         "endpoint_resolution": {
           "by_state": {

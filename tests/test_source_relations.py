@@ -107,6 +107,12 @@ def test_scoped_projection_reuses_existing_subject_and_preserves_original_role()
     for source in stats.values():
         assert sum(source["candidate_actions"].values()) == source["extracted"]
     assert stats["mathmoddb"]["candidate_actions"]["exclude_profile_role"] > 0
+    assert stats["mathmoddb"]["candidate_causes"]["out_of_scope_endpoint_role"] == (
+        stats["mathmoddb"]["candidate_actions"]["exclude_profile_role"]
+    )
+    assert stats["ontomath-pro"]["candidate_causes"]["unsupported_relation_semantics"] == (
+        stats["ontomath-pro"]["candidate_actions"]["outside_relation_profile"]
+    )
     assert stats["mathmoddb"]["candidate_actions"]["exclude_reviewed_application"] > 0
     assert stats["ontomath-pro"]["candidate_actions"]["outside_relation_profile"] == 71
 
