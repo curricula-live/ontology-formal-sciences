@@ -1,0 +1,15 @@
+{
+  "allow_mapping": false,
+  "attribution": "CLLKazan/OntoMathEdu",
+  "bytes": 597906,
+  "format": "manchester",
+  "homepage": "https://github.com/CLLKazan/OntoMathEdu",
+  "id": "ontomath-edu",
+  "license": "unverified",
+  "revision": "fd39c2fa5aebdfba07f09f4829f49cc95cd70246",
+  "scope": "complete Manchester document; 16 named-operand DisjointUnionOf frames translated to RDF lists",
+  "sha256": "ea619ad644de79ac379b853b8cf636f6c4daec5258a726bd82402ffe97a56081",
+  "status": "staged",
+  "url": "https://raw.githubusercontent.com/CLLKazan/OntoMathEdu/fd39c2fa5aebdfba07f09f4829f49cc95cd70246/ontomathedu.omn",
+  "validation_query": "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX skos: <http://www.w3.org/2004/02/skos/core#> PREFIX owl: <http://www.w3.org/2002/07/owl#> PREFIX dct: <http://purl.org/dc/terms/> ASK { GRAPH ?g { ?c owl:disjointUnionOf ?list . ?list rdf:first ?member } }"
+}

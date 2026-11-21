@@ -1,0 +1,7 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:experimental-design a skos:Concept ; skos:prefLabel "Experimental design"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistics ;
+    skos:definition "The planning of interventions, allocation and data collection to estimate effects and support valid statistical inference."@en .

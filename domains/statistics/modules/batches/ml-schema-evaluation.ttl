@@ -1,0 +1,15 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:mls-evaluation-procedure a skos:Concept ; skos:prefLabel "Machine-learning evaluation procedure"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistics ;
+    skos:definition "A statistical assessment procedure for measuring the behavior of a trained model, such as a resampling-based procedure."@en .
+
+c:mls-evaluation-measure a skos:Concept ; skos:prefLabel "Machine-learning evaluation measure"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistics ;
+    skos:definition "A rule or metric used to quantify the performance of a learned model, such as predictive accuracy or an F-measure."@en .
+
+c:mls-model-evaluation-result a skos:Concept ; skos:prefLabel "Machine-learning model evaluation result"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistics ;
+    skos:definition "A reported value of a specified performance measure for a model evaluation, with the definition of that measure kept separate."@en .

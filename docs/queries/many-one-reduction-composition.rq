@@ -1,0 +1,22 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT ?reduction ?composition ?topic ?declaration
+WHERE {
+  GRAPH g:alignments { ?reduction skos:exactMatch <https://w3id.org/ocs/ont/C44854> }
+  GRAPH g:asserted {
+    ?reduction v:hasProperty ?composition .
+    ?composition v:uses ?topic .
+  }
+  GRAPH g:alignments { ?topic skos:closeMatch <https://w3id.org/ocs/ont/C41482> }
+  GRAPH g:provenance {
+    ?claim rdf:subject ?composition ; rdf:predicate v:uses ;
+      rdf:object ?topic ; prov:wasDerivedFrom ?evidence .
+    ?evidence dct:type "Lean declaration" ; dct:title ?declaration .
+  }
+}

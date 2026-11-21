@@ -1,0 +1,49 @@
+{
+  "fixtures": {
+    "Inspect.lean": "05548ae6227405b68a2b233d8c492555fb8dfa1ebf7d406710dad3e44cca2b23",
+    "Probe.lean": "01c338afe12023b1dc0460f230ff390c36626dfe480b00be8ab2510aa3f45645"
+  },
+  "proofs": [
+    {
+      "declaration": "FormalSciences.booleanDeMorgan",
+      "direct_proof_constants": [
+        "Bool",
+        "Bool.not_and"
+      ],
+      "direct_type_constants": [
+        "Bool",
+        "Bool.and",
+        "Bool.not",
+        "Bool.or",
+        "Eq"
+      ],
+      "elaborated_type": "∀ (x y : Bool), (!(x && y)) = (!x || !y)",
+      "transitive_axioms": []
+    },
+    {
+      "declaration": "FormalSciences.wordAppendAssoc",
+      "direct_proof_constants": [
+        "List",
+        "List.append_assoc"
+      ],
+      "direct_type_constants": [
+        "Eq",
+        "HAppend.hAppend",
+        "List",
+        "List.instAppend",
+        "instHAppendOfAppend"
+      ],
+      "elaborated_type": "∀ {α : Type} (x y z : List α), x ++ y ++ z = x ++ (y ++ z)",
+      "transitive_axioms": [
+        "propext"
+      ]
+    }
+  ],
+  "scope": "locally compiled fixtures importing Lean core",
+  "toolchain": {
+    "commit": "611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+    "linux_x86_64_archive_sha256": "2b7ab1ed8b92d2e6abfaf41344823b510064dbc9c0260cac73eb496ab2dea6eb",
+    "url": "https://github.com/leanprover/lean4/releases/download/v4.36.0/lean-4.36.0-linux.tar.zst",
+    "version": "4.36.0"
+  }
+}

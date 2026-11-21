@@ -1,0 +1,11 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+
+c:multiset-multiplicity a skos:Concept ; skos:prefLabel "Multiplicity in a multiset"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:multiset ;
+    skos:definition "The count of occurrences of an element in a finite multiset."@en .
+
+c:complex-plane a skos:Concept ; skos:prefLabel "Complex plane"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry ;
+    skos:definition "The real coordinate plane representing each complex number by the ordered pair of its real and imaginary parts."@en .

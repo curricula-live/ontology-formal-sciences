@@ -1,0 +1,545 @@
+{
+  "snapshot": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+  "families": {
+    "algorithms": {
+      "scope": [
+        "C10",
+        "C16028",
+        "C12780",
+        "C12295"
+      ],
+      "labels": "\\b(algorithm|sort|search algorithm|scheduling|tree traversal|graph traversal|pathfinding|heuristic)($| \\(computer science\\)$)",
+      "broader": "algorithms"
+    },
+    "automata-and-languages": {
+      "scope": [
+        "C19560",
+        "C26158",
+        "C29",
+        "C10",
+        "C19"
+      ],
+      "labels": "\\b(automaton|automata|turing machine|rewriting system|parser|parsing|formal language|formal grammar|free grammar|attribute grammar|regular grammar|categorial grammar|sensitive grammar|stochastic grammar|generating grammar|tree grammar|definite clause grammar|pushdown machine|grammatical inference)$",
+      "broader": "foundations-of-computing"
+    },
+    "complexity": {
+      "scope": [
+        "C3678",
+        "C29",
+        "C10"
+      ],
+      "labels": "\\b(complexity|complexity class|completeness|hardness|space hierarchy theorem|time hierarchy theorem|NP-complete|PSPACE-complete|P-complete|NP-hard)$|\\(complexity\\)$",
+      "broader": "computational-complexity-theory"
+    },
+    "data-structures": {
+      "scope": [
+        "C5722",
+        "C2050",
+        "C8565",
+        "C10",
+        "C19",
+        "C6"
+      ],
+      "labels": "\\b(heap|search tree|suffix tree|segment tree|binary tree|range tree|fenwick tree|quad\\s?tree|rope \\(data structure\\)|digital tree|hash table|hashing|linked list|priority queue|data structure|decision diagram|associative array|suffix array|bit array|search trie|trie)$|\\((?:data structures?|abstract data type)\\)$",
+      "broader": "data-structures"
+    },
+    "machine-learning": {
+      "scope": [
+        "C25",
+        "C11030",
+        "C9022",
+        "C8",
+        "C21",
+        "C13"
+      ],
+      "labels": "\\b(deep learning|machine learning|reinforcement learning|supervised learning|active learning|statistical learning|classification|classifier|perceptron|decision tree|neural network|neural networks|autoencoder|boosting|backpropagation|support vector machine|kernel method|feature extraction|feature selection|dimensionality reduction|feature learning|ensemble learning|metric learning|transfer learning|clustering)$|\\(machine learning\\)$",
+      "broader": "machine-learning"
+    },
+    "coding": {
+      "scope": [
+        "C5816",
+        "C27316",
+        "C4644",
+        "C10",
+        "C26",
+        "C3"
+      ],
+      "labels": "\\b(coding|source codeword|channel capacity|entropy rate|mutual information|lossless compression|data compression|error correction|prefix code|convolutional code|linear code|block code|redundancy check|erasure code|arithmetic code|binary code|channel code|cyclic code|channel coding|entropy encoding)$|\\(information theory\\)$",
+      "broader": "information-theory"
+    },
+    "networking": {
+      "scope": [
+        "C26",
+        "C26066",
+        "C3233",
+        "C30",
+        "C3"
+      ],
+      "labels": "\\b(protocol|packet switching|packet scheduling|packet loss|packet forwarding|network topology|subnet|flow control|multicast|congestion control|admission control|traffic shaping|packet filtering|network routing|load balancing|ethernet|computer network|wireless network|sensor network|peer-to-peer network|overlay network|area network)$|\\((?:computer networking|networking)\\)$",
+      "broader": "computer-networks"
+    },
+    "programming-languages": {
+      "scope": [
+        "C19",
+        "C4321",
+        "C7465",
+        "C6255",
+        "C8564",
+        "C45777"
+      ],
+      "labels": "\\b(programming language|programming paradigm|functional programming|logic programming|structured programming|concurrent programming|imperative programming|generic programming|declarative programming|compiler|compilation|type system|type inference|type safety|type checking|data type|evaluation strategy|interpreter|abstract syntax tree|call stack|intermediate representation|lambda calculus|continuation|static analysis|program analysis|operational semantics|denotational semantics|abstract interpretation)$|\\((?:programming language|programming|computer programming|object-oriented programming|functional programming|compiler)\\)$",
+      "broader": "programming-languages"
+    },
+    "data-management": {
+      "scope": [
+        "C6",
+        "C18405",
+        "C13744"
+      ],
+      "labels": "\\b(relational database|distributed database|object database|graph database|in-memory database|temporal database|spatial database|data model|data modeling|data modelling|entity.relationship model|database model|database management system|relational algebra|normal form|transaction processing|database management|database normalization|query processing|query optimization|database transaction|relational calculus|data warehouse|database index)$|\\((?:database|database systems|relational algebra)\\)$",
+      "broader": "databases"
+    },
+    "operating-systems": {
+      "scope": [
+        "C9",
+        "C7476",
+        "C25960"
+      ],
+      "labels": "\\b(file system|memory management|memory allocation|page table|virtual memory|demand paging|copy-on-write|context switch|interrupt handler|kernel space|kernel thread|process scheduling|deadlock|semaphore|priority inversion)$|\\((?:operating systems?|file system)\\)$",
+      "broader": "operating-systems"
+    },
+    "software-engineering": {
+      "scope": [
+        "C28",
+        "C22180",
+        "C19"
+      ],
+      "labels": "\\b(software testing|integration testing|unit testing|regression testing|acceptance testing|mutation testing|coverage testing|test coverage|software development|formal verification|model checking|software maintenance|software design|design pattern|software metric|software architecture|requirements engineering)$|\\((?:software engineering|software development|design pattern)\\)$",
+      "broader": "software-engineering"
+    },
+    "distributed-computing": {
+      "scope": [
+        "C30",
+        "C27"
+      ],
+      "labels": "\\b(distributed computing|parallel computing|distributed algorithm|consistency model|eventual consistency|causal consistency|distributed consensus|Byzantine fault tolerance|distributed transaction|distributed system|distributed memory|message passing|data parallelism|task parallelism|cache coherence|mutual exclusion|atomic broadcast|barrier synchronization|parallelism)$|\\((?:parallel computing|distributed computing)\\)$",
+      "broader": "distributed-computing"
+    }
+  },
+  "exclude": {
+    "C14654": "outside reviewed subject scope",
+    "C20988": "outside reviewed subject scope",
+    "C27865": "outside reviewed subject scope",
+    "C29764": "outside reviewed subject scope",
+    "C32163": "outside reviewed subject scope",
+    "C34907": "outside reviewed subject scope",
+    "C35724": "outside reviewed subject scope",
+    "C21619": "outside reviewed subject scope",
+    "C45792": "outside reviewed subject scope",
+    "C2648": "outside reviewed subject scope",
+    "C16478": "outside reviewed subject scope",
+    "C25559": "outside reviewed subject scope",
+    "C13634": "outside reviewed subject scope",
+    "C7057": "outside reviewed subject scope",
+    "C32304": "outside reviewed subject scope",
+    "C13132": "outside reviewed subject scope",
+    "C38284": "outside reviewed subject scope",
+    "C43180": "outside reviewed subject scope",
+    "C41354": "outside reviewed subject scope",
+    "C14120": "outside reviewed subject scope",
+    "C426": "outside reviewed subject scope",
+    "C17904": "outside reviewed subject scope",
+    "C38157": "outside reviewed subject scope",
+    "C45667": "outside reviewed subject scope",
+    "C5050": "outside reviewed subject scope",
+    "C37012": "outside reviewed subject scope",
+    "C25614": "outside reviewed subject scope",
+    "C2380": "outside reviewed subject scope",
+    "C40630": "outside reviewed subject scope",
+    "C42095": "outside reviewed subject scope",
+    "C44866": "outside reviewed subject scope",
+    "C40922": "outside reviewed subject scope",
+    "C41895": "outside reviewed subject scope",
+    "C38525": "outside reviewed subject scope",
+    "C42251": "outside reviewed subject scope",
+    "C11025": "ambiguous subject or scope",
+    "C12170": "ambiguous subject or scope",
+    "C21015": "ambiguous subject or scope",
+    "C22614": "ambiguous subject or scope",
+    "C7407": "ambiguous subject or scope",
+    "C7614": "ambiguous subject or scope",
+    "C44173": "ambiguous subject or scope",
+    "C17331": "ambiguous subject or scope",
+    "C3191": "ambiguous subject or scope",
+    "C9746": "ambiguous subject or scope",
+    "C27545": "ambiguous subject or scope",
+    "C10066": "ambiguous subject or scope",
+    "C29187": "ambiguous subject or scope",
+    "C8360": "ambiguous subject or scope",
+    "C12834": "ambiguous subject or scope",
+    "C18755": "ambiguous subject or scope",
+    "C12479": "ambiguous subject or scope",
+    "C39450": "ambiguous subject or scope",
+    "C17311": "ambiguous subject or scope",
+    "C15893": "ambiguous subject or scope",
+    "C41647": "ambiguous subject or scope",
+    "C44379": "ambiguous subject or scope",
+    "C44959": "ambiguous subject or scope",
+    "C35113": "ambiguous subject or scope",
+    "C24721": "ambiguous subject or scope",
+    "C18243": "ambiguous subject or scope",
+    "C21676": "ambiguous subject or scope",
+    "C33161": "ambiguous subject or scope",
+    "C12532": "ambiguous subject or scope",
+    "C28010": "ambiguous subject or scope",
+    "C39336": "ambiguous subject or scope",
+    "C33603": "ambiguous subject or scope",
+    "C43461": "ambiguous subject or scope",
+    "C9557": "ambiguous subject or scope",
+    "C7116": "ambiguous subject or scope"
+  },
+  "review_candidates": {
+    "C14255": "binary-search",
+    "C39895": "ford-fulkerson-method",
+    "C546": "shannon-entropy"
+  },
+  "direct_broader": {
+    "C9022": [
+      "C13943",
+      "C14221",
+      "C17261",
+      "C18805",
+      "C19939",
+      "C20126",
+      "C21723",
+      "C24068",
+      "C25201"
+    ],
+    "C490": [
+      "C18745",
+      "C20373",
+      "C23919",
+      "C25027",
+      "C27546",
+      "C28190",
+      "C29125"
+    ],
+    "C12099": [
+      "C14185",
+      "C14248",
+      "C18975",
+      "C21398",
+      "C22974",
+      "C24961",
+      "C25081",
+      "C26036",
+      "C27087"
+    ],
+    "C4321": [
+      "C15309",
+      "C17667",
+      "C21201"
+    ],
+    "C35138": [
+      "C44441"
+    ],
+    "C16028": [
+      "C30034",
+      "C32507",
+      "C32980",
+      "C33039",
+      "C35199",
+      "C36074"
+    ],
+    "C30921": [
+      "C40905",
+      "C42877",
+      "C45431"
+    ],
+    "C28080": [
+      "C30119",
+      "C33203",
+      "C37447"
+    ],
+    "C8564": [
+      "C17875",
+      "C19459",
+      "C28579"
+    ],
+    "C14921": [
+      "C30267",
+      "C32353",
+      "C34299",
+      "C35458"
+    ],
+    "C8751": [
+      "C23909"
+    ],
+    "C36500": [
+      "C39078",
+      "C40535",
+      "C41312"
+    ],
+    "C15728": [
+      "C35075"
+    ],
+    "C3391": [
+      "C14160",
+      "C17580"
+    ],
+    "C35394": [
+      "C44420",
+      "C45360"
+    ],
+    "C23567": [
+      "C29568",
+      "C31379",
+      "C32582"
+    ],
+    "C122": [
+      "C18975"
+    ],
+    "C23863": [
+      "C34501"
+    ],
+    "C8565": [
+      "C14269"
+    ],
+    "C13744": [
+      "C28349"
+    ],
+    "C9556": [
+      "C18328"
+    ],
+    "C9931": [
+      "C21314",
+      "C23895"
+    ],
+    "C10219": [
+      "C26258"
+    ],
+    "C19305": [
+      "C30059"
+    ],
+    "C198": [
+      "C17915"
+    ],
+    "C36671": [
+      "C44610"
+    ],
+    "C18626": [
+      "C32290"
+    ],
+    "C15611": [
+      "C32110"
+    ],
+    "C22245": [
+      "C34501"
+    ],
+    "C9538": [
+      "C20003"
+    ],
+    "C27386": [
+      "C34481"
+    ],
+    "C7476": [
+      "C27721"
+    ],
+    "C424": [
+      "C24136"
+    ],
+    "C1491": [
+      "C24153"
+    ],
+    "C7465": [
+      "C28950"
+    ],
+    "C21929": [
+      "C29726"
+    ],
+    "C2885": [
+      "C18860"
+    ],
+    "C36074": [
+      "C41288"
+    ],
+    "C32507": [
+      "C44526"
+    ]
+  },
+  "editorial_broader": {
+    "C29123": "distributed-computing",
+    "C17053": "inductive-rule-learning",
+    "C44766": "opencs-c2801"
+  },
+  "reviewed_topics": {
+    "C11287": {
+      "anchor": "http://dbpedia.org/resource/Church–Kleene_ordinal",
+      "broader": "set-theory",
+      "family": "logic-and-foundations",
+      "label": "Church–Kleene ordinal",
+      "native_parent": "C19",
+      "scope": "The least nonrecursive ordinal, equivalently the supremum of the order types of computable well-orderings of the natural numbers."
+    },
+    "C11706": {
+      "anchor": "http://dbpedia.org/resource/Kleene_algebra",
+      "broader": "algebra",
+      "family": "logic-and-foundations",
+      "label": "Kleene algebra",
+      "native_parent": "C10",
+      "scope": "An idempotent semiring equipped with a star operation satisfying star-unfolding and induction axioms."
+    },
+    "C17709": {
+      "anchor": "http://dbpedia.org/resource/Skolem_normal_form",
+      "broader": "automated-reasoning",
+      "family": "logic-and-foundations",
+      "label": "Skolem normal form",
+      "native_parent": "C2418",
+      "scope": "A first-order formula with existential quantifiers eliminated using fresh Skolem functions or constants, leaving a universal quantifier prefix, in the usual satisfiability-preserving transformation."
+    },
+    "C18045": {
+      "anchor": "http://dbpedia.org/resource/Explicit_substitution",
+      "broader": "type-theory",
+      "family": "logic-and-foundations",
+      "label": "Explicit substitution",
+      "native_parent": "C1631",
+      "scope": "The treatment of substitutions as syntactic constructs with their own rules for propagation or evaluation."
+    },
+    "C18772": {
+      "anchor": "http://dbpedia.org/resource/Intuitionistic_type_theory",
+      "broader": "type-theory",
+      "family": "logic-and-foundations",
+      "label": "Intuitionistic type theory",
+      "native_parent": "C10498",
+      "scope": "An intuitionistic dependent type theory in which types may depend on terms and propositions admit a types-as-proofs interpretation."
+    },
+    "C22977": {
+      "anchor": "http://dbpedia.org/resource/Kleene_star",
+      "broader": "automata-theory",
+      "family": "logic-and-foundations",
+      "label": "Kleene star",
+      "native_parent": "C12099",
+      "scope": "On a language L, the language of concatenations of finitely many words in L, including the empty concatenation."
+    },
+    "C24201": {
+      "anchor": "http://dbpedia.org/resource/Gödel_numbering",
+      "broader": "proof-theory",
+      "family": "logic-and-foundations",
+      "label": "Gödel numbering",
+      "native_parent": "C2089",
+      "scope": "An effective encoding of syntactic objects such as formulas and derivations by natural numbers."
+    },
+    "C24869": {
+      "anchor": "http://dbpedia.org/resource/Herbrand's_theorem",
+      "broader": "automated-reasoning",
+      "family": "logic-and-foundations",
+      "label": "Herbrand's theorem",
+      "native_parent": "C4756",
+      "scope": "For an unsatisfiable first-order clause set, there is an unsatisfiable finite set of its ground instances over the Herbrand universe, with a fresh constant available if needed."
+    },
+    "C39446": {
+      "anchor": "http://dbpedia.org/resource/Robinson_arithmetic",
+      "broader": "first-order-logic",
+      "family": "logic-and-foundations",
+      "label": "Robinson arithmetic",
+      "native_parent": "C32774",
+      "scope": "A finitely axiomatized arithmetic theory in the language of zero, successor, addition and multiplication, with no induction schema."
+    },
+    "C4049": {
+      "anchor": "http://dbpedia.org/resource/Structural_rule",
+      "broader": "sequent-calculus",
+      "family": "logic-and-foundations",
+      "label": "Structural rule",
+      "native_parent": "C10",
+      "scope": "A proof rule governing the organization or number of assumptions, for example exchange, weakening, or contraction."
+    },
+    "C41499": {
+      "anchor": "http://dbpedia.org/resource/Prenex_normal_form",
+      "broader": "first-order-logic",
+      "family": "logic-and-foundations",
+      "label": "Prenex normal form",
+      "native_parent": "C30651",
+      "scope": "The form of a first-order formula consisting of a quantifier prefix followed by a quantifier-free matrix."
+    },
+    "C42139": {
+      "anchor": "http://dbpedia.org/resource/Diagonal_lemma",
+      "broader": "proof-theory",
+      "family": "logic-and-foundations",
+      "label": "Diagonal lemma",
+      "native_parent": "C36232",
+      "scope": "For a one-variable arithmetical formula, an effective diagonal construction obtains a sentence that an appropriate arithmetic theory proves equivalent to the formula applied to its own Gödel number."
+    },
+    "C43008": {
+      "anchor": "http://dbpedia.org/resource/Proof_by_contradiction",
+      "broader": "proof-theory",
+      "family": "logic-and-foundations",
+      "label": "Proof by contradiction",
+      "native_parent": "C29546",
+      "scope": "A proof principle that obtains a proposition by deducing a contradiction from its negation in classical logic."
+    },
+    "C43294": {
+      "anchor": "http://dbpedia.org/resource/Rice's_theorem",
+      "broader": "computability-theory",
+      "family": "logic-and-foundations",
+      "label": "Rice's theorem",
+      "native_parent": "C36232",
+      "scope": "Every nontrivial extensional property of partial computable functions has an undecidable index set in a standard effective enumeration."
+    },
+    "C44107": {
+      "anchor": "http://dbpedia.org/resource/Turing_jump",
+      "broader": "computability-theory",
+      "family": "logic-and-foundations",
+      "label": "Turing jump",
+      "native_parent": "C31124",
+      "scope": "The relative halting problem for oracle computations in a given set, whose Turing degree strictly exceeds that of the oracle set."
+    },
+    "C44728": {
+      "anchor": "http://dbpedia.org/resource/Herbrand_interpretation",
+      "broader": "model-theory",
+      "family": "logic-and-foundations",
+      "label": "Herbrand interpretation",
+      "native_parent": "C30367",
+      "scope": "A first-order interpretation over the Herbrand universe whose constants and function symbols have their canonical term interpretations."
+    },
+    "C44999": {
+      "anchor": "http://dbpedia.org/resource/Church–Rosser_theorem",
+      "broader": "proof-theory",
+      "family": "logic-and-foundations",
+      "label": "Church–Rosser theorem",
+      "native_parent": "C36417",
+      "scope": "For beta reduction in the untyped lambda calculus, terms reachable by conversion admit a common beta reduct."
+    },
+    "C45880": {
+      "anchor": "http://dbpedia.org/resource/Post's_theorem",
+      "broader": "computability-theory",
+      "family": "logic-and-foundations",
+      "label": "Post's theorem",
+      "native_parent": "C31124",
+      "scope": "The characterization of finite levels of the arithmetical hierarchy in terms of computability and enumerability relative to finite Turing jumps."
+    },
+    "C5714": {
+      "anchor": "http://dbpedia.org/resource/Intuitionistic_logic",
+      "broader": "proof-theory",
+      "family": "logic-and-foundations",
+      "label": "Intuitionistic logic",
+      "native_parent": "C10",
+      "scope": "A logic of constructive proofs in which a proof of arbitrary excluded middle is unavailable."
+    },
+    "C7574": {
+      "anchor": "http://dbpedia.org/resource/Kleene's_T_predicate",
+      "broader": "computability-theory",
+      "family": "logic-and-foundations",
+      "label": "Kleene's T predicate",
+      "native_parent": "C19",
+      "scope": "A primitive recursive relation witnessing that a code records a terminating computation for the given program and input."
+    },
+    "C8914": {
+      "anchor": "http://dbpedia.org/resource/Kleene–Rosser_paradox",
+      "broader": "proof-theory",
+      "family": "logic-and-foundations",
+      "label": "Kleene–Rosser paradox",
+      "native_parent": "C19",
+      "scope": "An inconsistency of specific unrestricted systems combining lambda abstraction and strong principles of logic."
+    }
+  }
+}

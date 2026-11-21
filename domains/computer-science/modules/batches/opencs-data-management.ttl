@@ -1,0 +1,105 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:opencs-c10444 a skos:Concept ; skos:prefLabel "Relational database"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c12694 a skos:Concept ; skos:prefLabel "Data warehouse"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c13744 a skos:Concept ; skos:prefLabel "Data model"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c15510 a skos:Concept ; skos:prefLabel "Sixth normal form"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c15611 a skos:Concept ; skos:prefLabel "Transaction processing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c16874 a skos:Concept ; skos:prefLabel "Relational database management system"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c17593 a skos:Concept ; skos:prefLabel "Relation (database)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c18405 a skos:Concept ; skos:prefLabel "Database model"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c2414 a skos:Concept ; skos:prefLabel "Data modeling"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c27386 a skos:Concept ; skos:prefLabel "Entity–relationship model"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c28349 a skos:Concept ; skos:prefLabel "Logical data model"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases, c:opencs-c13744 .
+
+c:opencs-c30273 a skos:Concept ; skos:prefLabel "Isolation (database systems)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c32110 a skos:Concept ; skos:prefLabel "Online transaction processing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases, c:opencs-c15611 .
+
+c:opencs-c32747 a skos:Concept ; skos:prefLabel "Third normal form"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c34481 a skos:Concept ; skos:prefLabel "Enhanced entity–relationship model"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases, c:opencs-c27386 .
+
+c:opencs-c35394 a skos:Concept ; skos:prefLabel "Relational calculus"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c36084 a skos:Concept ; skos:prefLabel "Object-relational database"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c36811 a skos:Concept ; skos:prefLabel "First normal form"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c38035 a skos:Concept ; skos:prefLabel "Extreme Transaction Processing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c38096 a skos:Concept ; skos:prefLabel "Fifth normal form"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c3812 a skos:Concept ; skos:prefLabel "In-memory database"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c3934 a skos:Concept ; skos:prefLabel "Table (database)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c39542 a skos:Concept ; skos:prefLabel "Projection (relational algebra)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c40657 a skos:Concept ; skos:prefLabel "Boyce–Codd normal form"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c41160 a skos:Concept ; skos:prefLabel "Second normal form"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c41258 a skos:Concept ; skos:prefLabel "Fourth normal form"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c44420 a skos:Concept ; skos:prefLabel "Tuple relational calculus"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases, c:opencs-c35394 .
+
+c:opencs-c45000 a skos:Concept ; skos:prefLabel "Consistency (database systems)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c45343 a skos:Concept ; skos:prefLabel "Physical data model"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c45360 a skos:Concept ; skos:prefLabel "Domain relational calculus"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases, c:opencs-c35394 .
+
+c:opencs-c8327 a skos:Concept ; skos:prefLabel "Distributed database"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c84 a skos:Concept ; skos:prefLabel "Hierarchical database model"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c9773 a skos:Concept ; skos:prefLabel "Temporal database"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:opencs-c9846 a skos:Concept ; skos:prefLabel "Map database management"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .

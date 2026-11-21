@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:hypothesis-testing a skos:Concept ; skos:prefLabel "Hypothesis testing"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistics .
+
+c:null-hypothesis a skos:Concept ; skos:prefLabel "Null hypothesis"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:hypothesis-testing .
+
+c:p-value a skos:Concept ; skos:prefLabel "P-value"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:hypothesis-testing .
+
+c:statistical-power a skos:Concept ; skos:prefLabel "Statistical power"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:hypothesis-testing .
+
+c:type-i-error a skos:Concept ; skos:prefLabel "Type I error"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:hypothesis-testing .

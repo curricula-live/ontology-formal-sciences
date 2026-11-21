@@ -1,0 +1,227 @@
+[
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/algorithm",
+    "external": "http://purl.obolibrary.org/obo/IAO_0000064",
+    "label": "algorithm",
+    "labels": [
+      {
+        "key": "algorithm",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/p-value",
+    "external": "http://purl.obolibrary.org/obo/OBI_0000175",
+    "label": "p-value",
+    "labels": [
+      {
+        "key": "p-value",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/opencs-c26767",
+    "external": "http://purl.obolibrary.org/obo/OBI_0200041",
+    "label": "k-means clustering",
+    "labels": [
+      {
+        "key": "k-means clustering",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/opencs-c29024",
+    "external": "http://purl.obolibrary.org/obo/OBI_0200042",
+    "label": "hierarchical clustering",
+    "labels": [
+      {
+        "key": "hierarchical clustering",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/opencs-c9538",
+    "external": "http://purl.obolibrary.org/obo/OBI_0200050",
+    "label": "dimensionality reduction",
+    "labels": [
+      {
+        "key": "dimensionality reduction",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e84",
+    "external": "http://purl.obolibrary.org/obo/STATO_0000015",
+    "label": "cylindrical coordinate system",
+    "labels": [
+      {
+        "key": "cylindrical coordinate system",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/opencs-c28516",
+    "external": "http://purl.obolibrary.org/obo/STATO_0000031",
+    "label": "binary classification",
+    "labels": [
+      {
+        "key": "binary classification",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/null-hypothesis",
+    "external": "http://purl.obolibrary.org/obo/STATO_0000057",
+    "label": "null hypothesis",
+    "labels": [
+      {
+        "key": "null hypothesis",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/cartesian-product",
+    "external": "http://purl.obolibrary.org/obo/STATO_0000192",
+    "label": "cartesian product",
+    "labels": [
+      {
+        "key": "cartesian product",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/random-variable",
+    "external": "http://purl.obolibrary.org/obo/STATO_0000221",
+    "label": "random variable",
+    "labels": [
+      {
+        "key": "random variable",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/design-matrix",
+    "external": "http://purl.obolibrary.org/obo/STATO_0000289",
+    "label": "design matrix",
+    "labels": [
+      {
+        "key": "design matrix",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/covariance-matrix",
+    "external": "http://purl.obolibrary.org/obo/STATO_0000525",
+    "label": "covariance matrix",
+    "labels": [
+      {
+        "key": "covariance matrix",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/factor-analysis",
+    "external": "http://purl.obolibrary.org/obo/STATO_0000567",
+    "label": "factor analysis",
+    "labels": [
+      {
+        "key": "factor analysis",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/singular-value-decomposition",
+    "external": "http://purl.obolibrary.org/obo/STATO_0000581",
+    "label": "singular value decomposition",
+    "labels": [
+      {
+        "key": "singular value decomposition",
+        "language": ""
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/matrix",
+    "external": "http://purl.obolibrary.org/obo/STATO_0000642",
+    "label": "matrix",
+    "labels": [
+      {
+        "key": "matrix",
+        "language": ""
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578",
+    "state": "pending"
+  }
+]

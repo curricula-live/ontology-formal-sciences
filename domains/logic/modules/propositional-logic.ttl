@@ -1,0 +1,110 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:propositional-logic a skos:Concept ; skos:prefLabel "Propositional logic"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:logic .
+
+c:propositional-variable a skos:Concept ; skos:prefLabel "Propositional variable"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic .
+
+c:truth-assignment a skos:Concept ; skos:prefLabel "Truth assignment"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic .
+
+c:conjunctive-normal-form a skos:Concept ; skos:prefLabel "Conjunctive normal form"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic .
+
+c:logical-conjunction a skos:Concept ; skos:prefLabel "Logical conjunction"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic .
+
+c:boolean-formula a skos:Concept ; skos:prefLabel "Boolean formula"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic .
+
+c:equisatisfiability a skos:Concept ; skos:prefLabel "Equisatisfiability"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "Two formulas are equisatisfiable when one has a satisfying assignment exactly when the other does. Their assignments and free variables can differ."@en .
+
+c:tseitin-transformation a skos:Concept ; skos:prefLabel "Tseitin transformation"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "An encoding of a propositional formula into an equisatisfiable conjunction of clauses using auxiliary variables for subformulas."@en .
+
+c:literal-propositional-logic a skos:Concept ; skos:prefLabel "Propositional literal"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "A propositional variable or its negation."@en .
+
+c:unit-clause a skos:Concept ; skos:prefLabel "Unit clause"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "A clause consisting of a single literal."@en .
+
+c:logical-negation a skos:Concept ; skos:prefLabel "Logical negation"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "The Boolean connective that exchanges truth and falsity."@en .
+
+c:logical-disjunction a skos:Concept ; skos:prefLabel "Logical disjunction"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "Inclusive Boolean disjunction is true when at least one operand is true."@en .
+
+c:material-implication a skos:Concept ; skos:prefLabel "Material implication"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "The Boolean connective that is false exactly when its antecedent is true and its consequent is false."@en .
+
+c:boolean-biconditional a skos:Concept ; skos:prefLabel "Boolean biconditional"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "The binary Boolean connective that is true exactly when the operands have the same truth value."@en .
+
+c:boolean-nand a skos:Concept ; skos:prefLabel "Boolean NAND"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "Negation of a conjunction of Boolean inputs."@en .
+
+c:boolean-nor a skos:Concept ; skos:prefLabel "Boolean NOR"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "Negation of a disjunction of Boolean inputs."@en .
+
+c:boolean-exclusive-or a skos:Concept ; skos:prefLabel "Boolean exclusive or"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "The Boolean parity connective, true for an odd number of true operands."@en .
+
+c:boolean-xnor a skos:Concept ; skos:prefLabel "Boolean XNOR"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "The complement of Boolean exclusive or, true for an even number of true operands."@en .
+
+c:boolean-double-negation-law a skos:Concept ; skos:prefLabel "Boolean double-negation law"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "Applying Boolean negation twice returns the original truth value."@en .
+
+c:material-biconditional-identity a skos:Concept ; skos:prefLabel "Biconditional as two material implications"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "The biconditional of two Boolean formulas equals the conjunction of each implication to the other."@en .
+
+c:boolean-noncontradiction a skos:Concept ; skos:prefLabel "Boolean noncontradiction law"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "The conjunction of a Boolean value and its negation is false."@en .
+
+c:boolean-excluded-middle a skos:Concept ; skos:prefLabel "Boolean law of excluded middle"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "The inclusive disjunction of a Boolean value and its negation is true."@en .
+
+c:de-morgan-conjunction-law a skos:Concept ; skos:prefLabel "De Morgan law for conjunction"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "The negation of a conjunction equals the disjunction of the two negated operands in Boolean logic."@en .
+
+c:nand-definition-identity a skos:Concept ; skos:prefLabel "NAND as negated conjunction"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "Binary NAND of two Boolean operands equals negation of their conjunction."@en .
+
+c:nor-definition-identity a skos:Concept ; skos:prefLabel "NOR as negated disjunction"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "Binary NOR of two Boolean operands equals negation of their disjunction."@en .
+
+c:xor-self-cancellation a skos:Concept ; skos:prefLabel "Exclusive-or self-cancellation"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "Exclusive or of a Boolean value with itself is false."@en .
+
+c:xor-complement-identity a skos:Concept ; skos:prefLabel "Exclusive or of complementary operands"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "Exclusive or of a Boolean value and its negation is true."@en .
+
+c:xnor-complement-of-xor a skos:Concept ; skos:prefLabel "XNOR as negated exclusive or"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "Binary XNOR equals the negation of binary exclusive or."@en .

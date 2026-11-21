@@ -1,0 +1,657 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:ontomath-pro-e4 a skos:Concept ; skos:prefLabel "Analytical geometry"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e5 a skos:Concept ; skos:prefLabel "Affine geometry"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e6 a skos:Concept ; skos:prefLabel "Affine differential geometry"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e7 a skos:Concept ; skos:prefLabel "Intrinsic geometry"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e8 a skos:Concept ; skos:prefLabel "Differential geometry"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e11 a skos:Concept ; skos:prefLabel "Riemannian geometry"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e12 a skos:Concept ; skos:prefLabel "Symplectic geometry"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e14 a skos:Concept ; skos:prefLabel "Metric geometry"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e15 a skos:Concept ; skos:prefLabel "Projective geometry"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e16 a skos:Concept ; skos:prefLabel "Fractal geometry"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e35 a skos:Concept ; skos:prefLabel "Geometric object"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e39 a skos:Concept ; skos:prefLabel "Christoffel symbol"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e54 a skos:Concept ; skos:prefLabel "Holonomic basis"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e57 a skos:Concept ; skos:prefLabel "Affine frame"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e58 a skos:Concept ; skos:prefLabel "Conformal frame"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e59 a skos:Concept ; skos:prefLabel "Locally geodesic frame"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e61 a skos:Concept ; skos:prefLabel "Orthonormal frame"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e63 a skos:Concept ; skos:prefLabel "Lie algebroid"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e65 a skos:Concept ; skos:prefLabel "Topological groupoid"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e66 a skos:Concept ; skos:prefLabel "Etale groupoid"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e68 a skos:Concept ; skos:prefLabel "Barycentric coordinates"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e69 a skos:Concept ; skos:prefLabel "Cartesian plane"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e71 a skos:Concept ; skos:prefLabel "Plucker coordinate"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e74 a skos:Concept ; skos:prefLabel "Curvilinear coordinate"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e76 a skos:Concept ; skos:prefLabel "Origin of coordinates"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e78 a skos:Concept ; skos:prefLabel "Polar coordinates"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e79 a skos:Concept ; skos:prefLabel "Projective coordinates"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e84 a skos:Concept ; skos:prefLabel "Cylindrical coordinate system"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e86 a skos:Concept ; skos:prefLabel "Curve"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e87 a skos:Concept ; skos:prefLabel "Analytic curve"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e88 a skos:Concept ; skos:prefLabel "Asymptote"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e89 a skos:Concept ; skos:prefLabel "Asymptotic curve"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e90 a skos:Concept ; skos:prefLabel "Boundary curve"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e91 a skos:Concept ; skos:prefLabel "Arc"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e92 a skos:Concept ; skos:prefLabel "Arc of circle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e93 a skos:Concept ; skos:prefLabel "Simple arc"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e94 a skos:Concept ; skos:prefLabel "Isolated Jordan curve"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e99 a skos:Concept ; skos:prefLabel "Nonrectifiable curve"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e100 a skos:Concept ; skos:prefLabel "Envelope"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e101 a skos:Concept ; skos:prefLabel "Planar curve"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e102 a skos:Concept ; skos:prefLabel "Conic section"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e103 a skos:Concept ; skos:prefLabel "Hyperbola"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e104 a skos:Concept ; skos:prefLabel "Directrix"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e107 a skos:Concept ; skos:prefLabel "Parabola"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e108 a skos:Concept ; skos:prefLabel "Ellipse"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e109 a skos:Concept ; skos:prefLabel "Circle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e110 a skos:Concept ; skos:prefLabel "Quadric"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e111 a skos:Concept ; skos:prefLabel "Involute"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e112 a skos:Concept ; skos:prefLabel "Evolute"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e113 a skos:Concept ; skos:prefLabel "Simple curve"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e114 a skos:Concept ; skos:prefLabel "Space curve"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e115 a skos:Concept ; skos:prefLabel "Spinor"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e118 a skos:Concept ; skos:prefLabel "Weyl spinor"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e119 a skos:Concept ; skos:prefLabel "Dirac spinor"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e129 a skos:Concept ; skos:prefLabel "Holonomy group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e135 a skos:Concept ; skos:prefLabel "Transition function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e141 a skos:Concept ; skos:prefLabel "Differential form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e142 a skos:Concept ; skos:prefLabel "Holomorphic differential form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e143 a skos:Concept ; skos:prefLabel "Pfaff differential form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e146 a skos:Concept ; skos:prefLabel "Induced differential form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e149 a skos:Concept ; skos:prefLabel "Symplectic form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e150 a skos:Concept ; skos:prefLabel "Volume form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e151 a skos:Concept ; skos:prefLabel "Even differential form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e159 a skos:Concept ; skos:prefLabel "Genus"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e160 a skos:Concept ; skos:prefLabel "Characteristic class"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e163 a skos:Concept ; skos:prefLabel "Chern class"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e164 a skos:Concept ; skos:prefLabel "Euler class"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e168 a skos:Concept ; skos:prefLabel "De Rham complex"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e186 a skos:Concept ; skos:prefLabel "Integrable distribution"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e187 a skos:Concept ; skos:prefLabel "Integral submanifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e188 a skos:Concept ; skos:prefLabel "Foliation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e195 a skos:Concept ; skos:prefLabel "Kronecker foliation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e196 a skos:Concept ; skos:prefLabel "Riemannian foliation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e197 a skos:Concept ; skos:prefLabel "Ehresmann connection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e198 a skos:Concept ; skos:prefLabel "Monge-Ampere foliation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e207 a skos:Concept ; skos:prefLabel "Nonholonomic distribution"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e214 a skos:Concept ; skos:prefLabel "Autoparallel submanifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e215 a skos:Concept ; skos:prefLabel "Affine submanifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e224 a skos:Concept ; skos:prefLabel "Normal connection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e225 a skos:Concept ; skos:prefLabel "Projective connection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e228 a skos:Concept ; skos:prefLabel "Levi-Civita connection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e229 a skos:Concept ; skos:prefLabel "Symmetric connection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e231 a skos:Concept ; skos:prefLabel "Fiber bundle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e232 a skos:Concept ; skos:prefLabel "Locally trivial fiber bundle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e233 a skos:Concept ; skos:prefLabel "Principal bundle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e234 a skos:Concept ; skos:prefLabel "Associated bundle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e237 a skos:Concept ; skos:prefLabel "Differentiable bundle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e238 a skos:Concept ; skos:prefLabel "Base of fiber bundle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e242 a skos:Concept ; skos:prefLabel "Projective bundle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e244 a skos:Concept ; skos:prefLabel "Hopf bundle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e248 a skos:Concept ; skos:prefLabel "Killing equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e249 a skos:Concept ; skos:prefLabel "Hamiltonian vector field"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e250 a skos:Concept ; skos:prefLabel "Lagrangian submanifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e251 a skos:Concept ; skos:prefLabel "Holomorphic vector field"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e254 a skos:Concept ; skos:prefLabel "Tensor field"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e262 a skos:Concept ; skos:prefLabel "Tangent space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e264 a skos:Concept ; skos:prefLabel "Cotangent space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e268 a skos:Concept ; skos:prefLabel "Direct sum of vector bundle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e270 a skos:Concept ; skos:prefLabel "Bundle of frames"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e272 a skos:Concept ; skos:prefLabel "Conjugate bundle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e276 a skos:Concept ; skos:prefLabel "Covering"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e279 a skos:Concept ; skos:prefLabel "Universal cover"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e280 a skos:Concept ; skos:prefLabel "Pullback bundle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e283 a skos:Concept ; skos:prefLabel "Total space of bundle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e285 a skos:Concept ; skos:prefLabel "Symplectic structure"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e287 a skos:Concept ; skos:prefLabel "Pasch axiom"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e292 a skos:Concept ; skos:prefLabel "Equiaffine structure"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e293 a skos:Concept ; skos:prefLabel "Point"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e294 a skos:Concept ; skos:prefLabel "Point at infinity"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e300 a skos:Concept ; skos:prefLabel "Isolated point"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e311 a skos:Concept ; skos:prefLabel "Saddle point"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e324 a skos:Concept ; skos:prefLabel "Point of flattening"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e330 a skos:Concept ; skos:prefLabel "Elliptic point"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e928 a skos:Concept ; skos:prefLabel "Manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e929 a skos:Concept ; skos:prefLabel "Algebraic variety"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e930 a skos:Concept ; skos:prefLabel "Hyperplane"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e931 a skos:Concept ; skos:prefLabel "Affine hyperplane"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e932 a skos:Concept ; skos:prefLabel "Projective hyperplane"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e933 a skos:Concept ; skos:prefLabel "Stiefel manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e935 a skos:Concept ; skos:prefLabel "Jet bundle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e936 a skos:Concept ; skos:prefLabel "Manifold with boundary"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e937 a skos:Concept ; skos:prefLabel "Orbifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e938 a skos:Concept ; skos:prefLabel "Surface"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e939 a skos:Concept ; skos:prefLabel "Totally geodesic surface"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e940 a skos:Concept ; skos:prefLabel "Hypersurface"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e941 a skos:Concept ; skos:prefLabel "Superquadric"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e945 a skos:Concept ; skos:prefLabel "Sphere"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e946 a skos:Concept ; skos:prefLabel "Ruled surface"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e947 a skos:Concept ; skos:prefLabel "Helicoid"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e948 a skos:Concept ; skos:prefLabel "Hyperbolic paraboloid"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e949 a skos:Concept ; skos:prefLabel "Hyperboloid of one sheet"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e951 a skos:Concept ; skos:prefLabel "Minimal surface"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e952 a skos:Concept ; skos:prefLabel "Surface of revolution"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e954 a skos:Concept ; skos:prefLabel "Hyperboloid"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e956 a skos:Concept ; skos:prefLabel "Cone"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e957 a skos:Concept ; skos:prefLabel "Asymptotic cone"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e959 a skos:Concept ; skos:prefLabel "Paraboloid"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e960 a skos:Concept ; skos:prefLabel "Cylinder"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e961 a skos:Concept ; skos:prefLabel "Hyperbolic cylinder"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e963 a skos:Concept ; skos:prefLabel "Elliptical cylinder"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e964 a skos:Concept ; skos:prefLabel "Ellipsoid"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e965 a skos:Concept ; skos:prefLabel "Riemannian surface"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e969 a skos:Concept ; skos:prefLabel "Submanifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e970 a skos:Concept ; skos:prefLabel "CR submanifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e972 a skos:Concept ; skos:prefLabel "Totally geodesic submanifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e974 a skos:Concept ; skos:prefLabel "Minimal submanifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e975 a skos:Concept ; skos:prefLabel "Regular submanifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e976 a skos:Concept ; skos:prefLabel "Germ of submanifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e977 a skos:Concept ; skos:prefLabel "Tubular neighbourhood"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e978 a skos:Concept ; skos:prefLabel "Topological manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e981 a skos:Concept ; skos:prefLabel "Analytic manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e982 a skos:Concept ; skos:prefLabel "Lie group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e999 a skos:Concept ; skos:prefLabel "Differential invariant"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1009 a skos:Concept ; skos:prefLabel "Invariant manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1010 a skos:Concept ; skos:prefLabel "Contact manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1012 a skos:Concept ; skos:prefLabel "Grassmann manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1013 a skos:Concept ; skos:prefLabel "Hopf manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1017 a skos:Concept ; skos:prefLabel "Orientable manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1018 a skos:Concept ; skos:prefLabel "Almost complex manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1019 a skos:Concept ; skos:prefLabel "Complex manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1020 a skos:Concept ; skos:prefLabel "Pseudo-Riemannian manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1021 a skos:Concept ; skos:prefLabel "Poisson manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1022 a skos:Concept ; skos:prefLabel "Riemannian manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1024 a skos:Concept ; skos:prefLabel "Einstein manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1027 a skos:Concept ; skos:prefLabel "Flat manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1030 a skos:Concept ; skos:prefLabel "Symplectic manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1031 a skos:Concept ; skos:prefLabel "Spin manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1032 a skos:Concept ; skos:prefLabel "Finsler manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1033 a skos:Concept ; skos:prefLabel "Varifold of dimensionality 2"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1034 a skos:Concept ; skos:prefLabel "Klein bottle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1035 a skos:Concept ; skos:prefLabel "Mobius band"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1036 a skos:Concept ; skos:prefLabel "Torus"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1038 a skos:Concept ; skos:prefLabel "Quotient manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1089 a skos:Concept ; skos:prefLabel "Euclidean space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1092 a skos:Concept ; skos:prefLabel "Affine model of pseudo-Euclidean geometry"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1094 a skos:Concept ; skos:prefLabel "Lobachevsky plane"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1095 a skos:Concept ; skos:prefLabel "Minkowski space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1096 a skos:Concept ; skos:prefLabel "Symplectic space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1097 a skos:Concept ; skos:prefLabel "Isotropic subspace"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1098 a skos:Concept ; skos:prefLabel "Lagrangian subspace"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1108 a skos:Concept ; skos:prefLabel "Geodesic metric space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1109 a skos:Concept ; skos:prefLabel "Gromov boundary"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1112 a skos:Concept ; skos:prefLabel "Hadamard space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1116 a skos:Concept ; skos:prefLabel "Space of constant curvature"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1117 a skos:Concept ; skos:prefLabel "Surface of constant curvature"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1118 a skos:Concept ; skos:prefLabel "De Sitter space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1119 a skos:Concept ; skos:prefLabel "Proper metric space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1122 a skos:Concept ; skos:prefLabel "Homogeneous space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1125 a skos:Concept ; skos:prefLabel "Projective space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1126 a skos:Concept ; skos:prefLabel "Projective plane"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1127 a skos:Concept ; skos:prefLabel "Projective line"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1713 a skos:Concept ; skos:prefLabel "Second fundamental form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1714 a skos:Concept ; skos:prefLabel "Contact form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1715 a skos:Concept ; skos:prefLabel "First fundamental form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1718 a skos:Concept ; skos:prefLabel "Left-invariant tensor"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1722 a skos:Concept ; skos:prefLabel "Weingarten tensor"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1723 a skos:Concept ; skos:prefLabel "Killing tensor"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1725 a skos:Concept ; skos:prefLabel "Nijenhuis tensor"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1726 a skos:Concept ; skos:prefLabel "The Poisson tensor"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1727 a skos:Concept ; skos:prefLabel "Ricci tensor"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1734 a skos:Concept ; skos:prefLabel "Weyl tensor"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1735 a skos:Concept ; skos:prefLabel "Sectional curvature"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1738 a skos:Concept ; skos:prefLabel "Killing form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1739 a skos:Concept ; skos:prefLabel "Curvature form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1740 a skos:Concept ; skos:prefLabel "Connection form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1873 a skos:Concept ; skos:prefLabel "Poincar Hopf theorem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e1880 a skos:Concept ; skos:prefLabel "Yamabe conjecture"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e2789 a skos:Concept ; skos:prefLabel "Chern connection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e3141 a skos:Concept ; skos:prefLabel "Algebraic curve"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e3142 a skos:Concept ; skos:prefLabel "Algebraic geometry"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e3148 a skos:Concept ; skos:prefLabel "Rational curve"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e3157 a skos:Concept ; skos:prefLabel "Maurer–Cartan form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e3162 a skos:Concept ; skos:prefLabel "Isotropic frame"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e3222 a skos:Concept ; skos:prefLabel "Gauss Codazzi equations"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e3227 a skos:Concept ; skos:prefLabel "Moving frame"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e3228 a skos:Concept ; skos:prefLabel "Focal manifold"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e3230 a skos:Concept ; skos:prefLabel "Metric tensor"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .
+
+c:ontomath-pro-e3234 a skos:Concept ; skos:prefLabel "Poisson structure"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:geometry .

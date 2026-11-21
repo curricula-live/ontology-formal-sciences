@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:databases a skos:Concept ; skos:prefLabel "Databases"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-science .
+
+c:relational-algebra a skos:Concept ; skos:prefLabel "Relational algebra"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:database-transaction a skos:Concept ; skos:prefLabel "Database transaction"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:functional-dependency a skos:Concept ; skos:prefLabel "Functional dependency"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .
+
+c:query-optimization a skos:Concept ; skos:prefLabel "Query optimization"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases .

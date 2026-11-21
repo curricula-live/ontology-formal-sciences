@@ -1,0 +1,31 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+
+c:product-type a skos:Concept ; skos:prefLabel "Product type"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "A type whose canonical values pair a value of the first component type with a value of the second, with eliminators for the components in the standard product calculus."@en .
+
+c:product-type-swap a skos:Concept ; skos:prefLabel "Product type equivalence by swapping components"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "The structural equivalence A × B ≃ B × A whose forward and inverse functions both swap the components of a pair."@en .
+
+c:product-type-reassociation a skos:Concept ; skos:prefLabel "Product type equivalence by reassociation"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "The structural equivalence (A × B) × C ≃ A × (B × C) given by rebracketing nested pairs in mutually inverse directions."@en .
+
+c:conjunction-product-interpretation a skos:Concept ; skos:prefLabel "Conjunction as a product of proof types"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory ;
+    skos:definition "Under the intuitionistic propositions-as-types interpretation, the pair constructor introduces a proof of conjunction and the two projections eliminate it."@en .
+
+c:set-based-product-type-interpretation a skos:Concept ; skos:prefLabel "Set-based interpretation of binary product types"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "In the set interpretation of the simply typed calculus, a binary product type denotes the Cartesian product of its component denotations. Pairing and the projections have their ordinary set-theoretic meanings."@en .
+
+c:conjunction-introduction a skos:Concept ; skos:prefLabel "Conjunction introduction"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:natural-deduction ;
+    skos:definition "The inference rule deriving the conjunction of two propositions from derivations of each proposition under the same assumptions in ordinary natural deduction."@en .
+
+c:propositional-resolution-soundness a skos:Concept ; skos:prefLabel "Soundness of propositional resolution"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory ;
+    skos:definition "From clauses A or p and B or not p, resolution derives A or B. For any valuation satisfying both premises, the truth value of the pivot p forces the non-pivot disjunction of at least one premise to hold."@en .

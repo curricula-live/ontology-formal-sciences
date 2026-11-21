@@ -1,0 +1,125 @@
+# Selected and adapted from STATO 1.5 by ISA-tools/STATO, CC BY 3.0.
+# See sources/stato/README.md for license, authorship and the pinned revision.
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:stato-0000502 a skos:Concept ;
+    skos:prefLabel "Statistical sampling"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:statistics .
+
+c:stato-0000503 a skos:Concept ;
+    skos:prefLabel "Simple random sampling"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000502 .
+
+c:stato-0000504 a skos:Concept ;
+    skos:prefLabel "Line intercept sampling"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000502 .
+
+c:stato-0000505 a skos:Concept ;
+    skos:prefLabel "Quadrat sampling"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000502 .
+
+c:stato-0000506 a skos:Concept ;
+    skos:prefLabel "Cluster sampling"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000502 .
+
+c:stato-0000507 a skos:Concept ;
+    skos:prefLabel "Probability-proportional-to-size sampling"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000502 .
+
+c:stato-0000508 a skos:Concept ;
+    skos:prefLabel "Stratified sampling"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000502 .
+
+c:stato-0000509 a skos:Concept ;
+    skos:prefLabel "Systematic sampling"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000502 .
+
+c:stato-0000510 a skos:Concept ;
+    skos:prefLabel "Quota sampling"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000502 .
+
+c:stato-0000511 a skos:Concept ;
+    skos:prefLabel "Panel sampling"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000502 .
+
+c:stato-0000512 a skos:Concept ;
+    skos:prefLabel "Chain-referral sampling"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000502 .
+
+c:stato-0000513 a skos:Concept ;
+    skos:prefLabel "Voluntary sampling"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000502 .
+
+c:stato-0000514 a skos:Concept ;
+    skos:prefLabel "Convenience sampling"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000502 .
+
+c:stato-0000515 a skos:Concept ;
+    skos:prefLabel "Brewer sampling"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000502 .
+
+c:stato-0000516 a skos:Concept ;
+    skos:prefLabel "Minimax sampling (class imbalance)"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000502 .
+
+c:stato-0000518 a skos:Concept ;
+    skos:prefLabel "Data imputation"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:statistics .
+
+c:stato-0000519 a skos:Concept ;
+    skos:prefLabel "Last observation carried forward data imputation"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000518 .
+
+c:stato-0000520 a skos:Concept ;
+    skos:prefLabel "Regression data imputation"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000518 .
+
+c:stato-0000521 a skos:Concept ;
+    skos:prefLabel "Substitution by the mean data imputation"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000518 .
+
+c:stato-0000522 a skos:Concept ;
+    skos:prefLabel "Multivariate imputation with chained equations"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000518 .
+
+c:stato-0000523 a skos:Concept ;
+    skos:prefLabel "K-nearest neighbour data imputation"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000518 .
+
+c:stato-0000535 a skos:Concept ;
+    skos:prefLabel "Sampling from a probability distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:probability-theory .
+
+c:stato-0000537 a skos:Concept ;
+    skos:prefLabel "Metropolis–Hastings sampling"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:markov-chain-monte-carlo, c:stato-0000535 .
+
+c:stato-0000548 a skos:Concept ;
+    skos:prefLabel "Bootstrap estimation of a sampling distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:statistical-estimation .

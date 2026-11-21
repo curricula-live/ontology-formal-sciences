@@ -1,0 +1,108 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:opencs-c12014 a skos:Concept ; skos:prefLabel "Shannon–Fano–Elias coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c12485 a skos:Concept ; skos:prefLabel "Cyclic redundancy check"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c17433 a skos:Concept ; skos:prefLabel "Speech coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c18626 a skos:Concept ; skos:prefLabel "Block code"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c18790 a skos:Concept ; skos:prefLabel "Pointwise mutual information"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c19877 a skos:Concept ; skos:prefLabel "Convolutional code"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c21929 a skos:Concept ; skos:prefLabel "Forward error correction"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c28293 a skos:Concept ; skos:prefLabel "Predictive coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c29726 a skos:Concept ; skos:prefLabel "FX.25 Forward Error Correction"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory, c:opencs-c21929 .
+
+c:opencs-c30690 a skos:Concept ; skos:prefLabel "Sub-band coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c31114 a skos:Concept ; skos:prefLabel "Advanced Audio Coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c31517 a skos:Concept ; skos:prefLabel "Scalable Video Coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c31750 a skos:Concept ; skos:prefLabel "Redundancy (information theory)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c32125 a skos:Concept ; skos:prefLabel "Multiview Video Coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c32290 a skos:Concept ; skos:prefLabel "Space–time block code"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory, c:opencs-c18626 .
+
+c:opencs-c33220 a skos:Concept ; skos:prefLabel "Entropy rate"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c33800 a skos:Concept ; skos:prefLabel "Adjusted mutual information"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c33935 a skos:Concept ; skos:prefLabel "Longitudinal redundancy check"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c34010 a skos:Concept ; skos:prefLabel "Joint source and channel coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c34164 a skos:Concept ; skos:prefLabel "Multivariate mutual information"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c35138 a skos:Concept ; skos:prefLabel "Linear code"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c36139 a skos:Concept ; skos:prefLabel "High-Efficiency Advanced Audio Coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c36671 a skos:Concept ; skos:prefLabel "Linear predictive coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c36912 a skos:Concept ; skos:prefLabel "Transform coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c37364 a skos:Concept ; skos:prefLabel "Harmonic Vector Excitation Coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c37983 a skos:Concept ; skos:prefLabel "Reconfigurable video coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c39005 a skos:Concept ; skos:prefLabel "Stereoscopic Video Coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c39572 a skos:Concept ; skos:prefLabel "Prefix code"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c40214 a skos:Concept ; skos:prefLabel "Dirty paper coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c40267 a skos:Concept ; skos:prefLabel "Reed–Solomon error correction"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c40373 a skos:Concept ; skos:prefLabel "Quantum convolutional code"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c44441 a skos:Concept ; skos:prefLabel "Cyclic code"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory, c:opencs-c35138 .
+
+c:opencs-c44610 a skos:Concept ; skos:prefLabel "Adaptive predictive coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory, c:opencs-c36671 .
+
+c:opencs-c44774 a skos:Concept ; skos:prefLabel "Audio Lossless Coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .
+
+c:opencs-c529 a skos:Concept ; skos:prefLabel "Warped linear predictive coding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:information-theory .

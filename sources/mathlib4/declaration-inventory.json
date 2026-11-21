@@ -1,0 +1,240 @@
+{
+  "by_family": {
+    "Algebra": {
+      "abbrev": 755,
+      "def": 4972,
+      "lemma": 11867,
+      "modules": 1405,
+      "theorem": 18390
+    },
+    "AlgebraicGeometry": {
+      "abbrev": 93,
+      "def": 773,
+      "lemma": 2543,
+      "modules": 141,
+      "theorem": 668
+    },
+    "AlgebraicTopology": {
+      "abbrev": 212,
+      "def": 935,
+      "lemma": 1522,
+      "modules": 167,
+      "theorem": 372
+    },
+    "Analysis": {
+      "abbrev": 154,
+      "def": 1695,
+      "lemma": 5907,
+      "modules": 819,
+      "theorem": 17924
+    },
+    "Basic": {
+      "abbrev": 23,
+      "def": 138,
+      "lemma": 696,
+      "modules": 52,
+      "theorem": 1468
+    },
+    "CategoryTheory": {
+      "abbrev": 959,
+      "def": 7308,
+      "lemma": 7724,
+      "modules": 1140,
+      "theorem": 5129
+    },
+    "Combinatorics": {
+      "abbrev": 86,
+      "def": 754,
+      "lemma": 2915,
+      "modules": 192,
+      "theorem": 3230
+    },
+    "Computability": {
+      "abbrev": 10,
+      "def": 270,
+      "lemma": 209,
+      "modules": 29,
+      "theorem": 963
+    },
+    "Condensed": {
+      "abbrev": 52,
+      "def": 137,
+      "lemma": 78,
+      "modules": 32,
+      "theorem": 10
+    },
+    "Control": {
+      "abbrev": 24,
+      "def": 125,
+      "lemma": 3,
+      "modules": 25,
+      "theorem": 208
+    },
+    "Data": {
+      "abbrev": 57,
+      "def": 2165,
+      "lemma": 3340,
+      "modules": 663,
+      "theorem": 14092
+    },
+    "Deprecated": {
+      "modules": 1
+    },
+    "Dynamics": {
+      "def": 57,
+      "lemma": 188,
+      "modules": 37,
+      "theorem": 568
+    },
+    "FieldTheory": {
+      "abbrev": 23,
+      "def": 303,
+      "lemma": 274,
+      "modules": 87,
+      "theorem": 1972
+    },
+    "Geometry": {
+      "abbrev": 41,
+      "def": 553,
+      "lemma": 1887,
+      "modules": 170,
+      "theorem": 3043
+    },
+    "GroupTheory": {
+      "abbrev": 44,
+      "def": 704,
+      "lemma": 679,
+      "modules": 173,
+      "theorem": 3646
+    },
+    "InformationTheory": {
+      "def": 10,
+      "lemma": 77,
+      "modules": 9,
+      "theorem": 62
+    },
+    "Init": {
+      "modules": 1
+    },
+    "Lean": {
+      "abbrev": 4,
+      "def": 219,
+      "modules": 35,
+      "theorem": 7
+    },
+    "LinearAlgebra": {
+      "abbrev": 123,
+      "def": 1532,
+      "lemma": 2579,
+      "modules": 392,
+      "theorem": 7486
+    },
+    "Logic": {
+      "abbrev": 17,
+      "def": 426,
+      "lemma": 243,
+      "modules": 47,
+      "theorem": 1188
+    },
+    "MeasureTheory": {
+      "abbrev": 9,
+      "def": 617,
+      "lemma": 2140,
+      "modules": 342,
+      "theorem": 7819
+    },
+    "ModelTheory": {
+      "abbrev": 26,
+      "def": 284,
+      "lemma": 79,
+      "modules": 34,
+      "theorem": 945
+    },
+    "NumberTheory": {
+      "abbrev": 85,
+      "def": 791,
+      "lemma": 2292,
+      "modules": 255,
+      "theorem": 3695
+    },
+    "Order": {
+      "abbrev": 189,
+      "def": 1205,
+      "lemma": 2969,
+      "modules": 335,
+      "theorem": 8770
+    },
+    "Probability": {
+      "abbrev": 4,
+      "def": 234,
+      "lemma": 2129,
+      "modules": 141,
+      "theorem": 1362
+    },
+    "RepresentationTheory": {
+      "abbrev": 155,
+      "def": 392,
+      "lemma": 685,
+      "modules": 45,
+      "theorem": 307
+    },
+    "RingTheory": {
+      "abbrev": 204,
+      "def": 2093,
+      "lemma": 4388,
+      "modules": 735,
+      "theorem": 10222
+    },
+    "SetTheory": {
+      "abbrev": 13,
+      "def": 204,
+      "lemma": 309,
+      "modules": 57,
+      "theorem": 2423
+    },
+    "Tactic": {
+      "abbrev": 88,
+      "def": 2434,
+      "lemma": 185,
+      "modules": 423,
+      "opaque": 3,
+      "theorem": 1221
+    },
+    "Testing": {
+      "def": 11,
+      "modules": 3,
+      "theorem": 7
+    },
+    "Topology": {
+      "abbrev": 268,
+      "def": 2465,
+      "lemma": 4136,
+      "modules": 708,
+      "theorem": 13466
+    },
+    "Util": {
+      "abbrev": 3,
+      "def": 162,
+      "modules": 33,
+      "opaque": 1,
+      "theorem": 1
+    }
+  },
+  "by_kind": {
+    "abbrev": 3721,
+    "def": 33968,
+    "lemma": 62043,
+    "opaque": 4,
+    "skipped_headers": 1,
+    "theorem": 130664
+  },
+  "elaborated_signatures": 0,
+  "index_sha256": "c954b9f4f804dee74dd3602f9df31fdd01994f027ee98a4a054463686332c70b",
+  "kernel_proof_dependencies": 0,
+  "modules": 8728,
+  "profile": "lean-textual-headers-v1",
+  "records": 230400,
+  "revision": "35f494609c32653bae53eb33f0cf2d899808909a",
+  "sha256": "e38cb828c5368d71469540927a0c81ea1faa69f007c9a372926207c8521e82b3",
+  "source": "mathlib4"
+}

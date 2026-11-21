@@ -1,0 +1,35 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+
+c:fixed-input-halting a skos:Concept ; skos:prefLabel "Fixed-input halting problem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:halting-problem ;
+    skos:definition "Fix a natural number n. Given a program code, determine whether its partial computation halts on n."@en .
+
+c:fixed-input-halting-undecidability a skos:Concept ; skos:prefLabel "Undecidability of fixed-input halting"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computability-theory ;
+    skos:definition "For every fixed input n, the property that an arbitrary partial-recursive program halts on n is undecidable."@en .
+
+c:fixed-input-halting-enumerability a skos:Concept ; skos:prefLabel "Computable enumerability of fixed-input halting"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computability-theory ;
+    skos:definition "For every fixed input n, the set of program codes that halt on n is computably enumerable."@en .
+
+c:rice-fixed-point-proof a skos:Concept ; skos:prefLabel "Fixed-point proof of Rice's theorem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computability-theory ;
+    skos:definition "Use a computable test for a proposed nontrivial extensional property to build a contrary program and obtain a contradiction at an extensional fixed point."@en .
+
+c:dfa-concatenation-evaluation a skos:Concept ; skos:prefLabel "DFA evaluation of concatenated words"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:automata-theory ;
+    skos:definition "Starting in state q, evaluate the first word to reach a state, then evaluate the second word starting from that state. The result equals evaluation of their concatenation from q."@en .
+
+c:kleene-star-membership-law a skos:Concept ; skos:prefLabel "Membership in a language's Kleene star"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:automata-theory ;
+    skos:definition "A word belongs to the Kleene star of L exactly when it is the concatenation of a finite list of words of L, allowing the empty list."@en .
+
+c:regular-expression-star-semantics a skos:Concept ; skos:prefLabel "Language semantics of regular-expression star"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:automata-theory ;
+    skos:definition "The language denoted by P* is the Kleene star of the language denoted by P."@en .
+
+c:fixed-input-halting-rice-proof a skos:Concept ; skos:prefLabel "Proof of fixed-input halting undecidability via Rice's theorem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computability-theory ;
+    skos:definition "Apply Rice's theorem to the extensional property that a partial function has the fixed input in its domain."@en .

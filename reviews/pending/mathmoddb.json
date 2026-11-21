@@ -1,0 +1,422 @@
+[
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/statistics",
+    "external": "https://portal.mardi4nfdi.de/entity/Q57236",
+    "label": "statistics",
+    "labels": [
+      {
+        "key": "statistics",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e1711",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6673702",
+    "label": "position vector",
+    "labels": [
+      {
+        "key": "position vector",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e2127",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6673708",
+    "label": "complex number",
+    "labels": [
+      {
+        "key": "complex number",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e2116",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6673717",
+    "label": "real number",
+    "labels": [
+      {
+        "key": "real number",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/variance",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6673721",
+    "label": "variance",
+    "labels": [
+      {
+        "key": "variance",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e2114",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6673726",
+    "label": "number",
+    "labels": [
+      {
+        "key": "number",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/adjacency-matrix",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6673734",
+    "label": "adjacency matrix",
+    "labels": [
+      {
+        "key": "adjacency matrix",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e2277",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6673833",
+    "label": "boolean ring",
+    "labels": [
+      {
+        "key": "boolean ring",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e2243",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6674012",
+    "label": "ideal",
+    "labels": [
+      {
+        "key": "ideal",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e1647",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6674037",
+    "label": "likelihood function",
+    "labels": [
+      {
+        "key": "likelihood function",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/power-set",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6674093",
+    "label": "power set",
+    "labels": [
+      {
+        "key": "power set",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/poisson-distribution",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6674104",
+    "label": "poisson distribution",
+    "labels": [
+      {
+        "key": "poisson distribution",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e617",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6674351",
+    "label": "euler method",
+    "labels": [
+      {
+        "key": "euler method",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/poisson-log-likelihood",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6674483",
+    "label": "poisson log-likelihood",
+    "labels": [
+      {
+        "key": "poisson log-likelihood",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/opencs-c9022",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6675321",
+    "label": "artificial neural network",
+    "labels": [
+      {
+        "key": "artificial neural network",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/opencs-c17261",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6675322",
+    "label": "recurrent neural network",
+    "labels": [
+      {
+        "key": "recurrent neural network",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/opencs-c21723",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6675404",
+    "label": "feedforward neural network",
+    "labels": [
+      {
+        "key": "feedforward neural network",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/maximum-likelihood-estimation",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6684607",
+    "label": "maximum likelihood estimation",
+    "labels": [
+      {
+        "key": "maximum likelihood estimation",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/stationary-distribution",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6775374",
+    "label": "stationary distribution",
+    "labels": [
+      {
+        "key": "stationary distribution",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/random-variable",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6775415",
+    "label": "random variable",
+    "labels": [
+      {
+        "key": "random variable",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/covariance",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6775416",
+    "label": "covariance",
+    "labels": [
+      {
+        "key": "covariance",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/bayesian-statistics",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6775506",
+    "label": "bayesian statistics",
+    "labels": [
+      {
+        "key": "bayesian statistics",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e3187",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6775613",
+    "label": "finite element method",
+    "labels": [
+      {
+        "key": "finite element method",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674283",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6775660",
+    "label": "continuity equation",
+    "labels": [
+      {
+        "key": "continuity equation",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e1929",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6775663",
+    "label": "poisson's equation",
+    "labels": [
+      {
+        "key": "poisson's equation",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e1135",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6775749",
+    "label": "probability space",
+    "labels": [
+      {
+        "key": "probability space",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/sample-space",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6775750",
+    "label": "sample space",
+    "labels": [
+      {
+        "key": "sample space",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  },
+  {
+    "canonical": "https://curricula.live/id/formal-sciences/concept/probability-measure",
+    "external": "https://portal.mardi4nfdi.de/entity/Q6775752",
+    "label": "probability measure",
+    "labels": [
+      {
+        "key": "probability measure",
+        "language": "en"
+      }
+    ],
+    "references": [],
+    "rule": "normalized-label",
+    "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+    "state": "pending"
+  }
+]

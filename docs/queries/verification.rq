@@ -1,0 +1,11 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX s: <https://curricula.live/id/formal-sciences/scheme/>
+
+# Which verification methods use a machine from the computer-science scheme?
+SELECT ?method ?machine FROM g:asserted WHERE {
+  ?method skos:broader+ c:model-checking ; v:uses ?machine .
+  ?machine skos:inScheme s:computer-science .
+} ORDER BY ?method ?machine

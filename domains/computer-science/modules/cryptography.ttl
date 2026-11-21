@@ -1,0 +1,22 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:cryptography a skos:Concept ; skos:prefLabel "Cryptography"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-science .
+
+c:public-key-cryptography a skos:Concept ; skos:prefLabel "Public-key cryptography"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:cryptography .
+
+c:cryptographic-hash-function a skos:Concept ; skos:prefLabel "Cryptographic hash function"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:cryptography .
+
+c:digital-signature a skos:Concept ; skos:prefLabel "Digital signature"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:cryptography .
+
+c:zero-knowledge-proof a skos:Concept ; skos:prefLabel "Zero-knowledge proof"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:cryptography .
+
+c:rsa-cryptosystem a skos:Concept ; skos:prefLabel "RSA cryptosystem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:cryptography .

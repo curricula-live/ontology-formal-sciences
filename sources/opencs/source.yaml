@@ -1,0 +1,19 @@
+{
+  "allow_mapping": true,
+  "attribution": "OpenCS contributors",
+  "bytes": 62881387,
+  "format": "nt",
+  "homepage": "https://opencs-ontology.github.io/",
+  "id": "opencs",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "mirrors": [
+    "https://raw.githubusercontent.com/opencs-ontology/opencs-ontology.github.io/cd71da5305062c5f578c212432c028203d7709f1/releases/stable/opencs.nt"
+  ],
+  "revision": "0.4.0",
+  "scope": "full stable N-Triples release, content pinned",
+  "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+  "status": "aligned",
+  "url": "https://opencs-ontology.github.io/releases/stable/opencs.nt",
+  "validation_query": "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX skos: <http://www.w3.org/2004/02/skos/core#> PREFIX owl: <http://www.w3.org/2002/07/owl#> PREFIX dct: <http://purl.org/dc/terms/> ASK { GRAPH ?g { <https://w3id.org/ocs/ont/C14693> skos:closeMatch <http://dbpedia.org/resource/Graph_theory> } }"
+}

@@ -1,0 +1,15 @@
+{
+  "allow_mapping": false,
+  "attribution": "W3C",
+  "bytes": 52899,
+  "format": "turtle",
+  "homepage": "https://www.w3.org/ns/shacl.ttl",
+  "id": "shacl",
+  "license": "reference only",
+  "revision": "content digest",
+  "scope": "vocabulary dependency",
+  "sha256": "0e5d8aea0eab98a072d4a02faaee1ee914ec99eab2ca473429726faed4a13f69",
+  "status": "staged",
+  "url": "https://www.w3.org/ns/shacl.ttl",
+  "validation_query": "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX skos: <http://www.w3.org/2004/02/skos/core#> PREFIX owl: <http://www.w3.org/2002/07/owl#> PREFIX dct: <http://purl.org/dc/terms/> ASK { GRAPH ?g { <http://www.w3.org/ns/shacl#NodeShape> a rdfs:Class } }"
+}

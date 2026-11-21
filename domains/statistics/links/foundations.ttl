@@ -1,0 +1,5 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+
+c:stato-0000529 v:uses c:stato-0000059 .
+c:covariance-eigendecomposition-pca v:uses c:covariance-matrix .

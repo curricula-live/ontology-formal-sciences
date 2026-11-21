@@ -1,0 +1,25 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+SELECT ?weak ?discrete ?weakSourcePredicate ?discreteSourcePredicate ?digest
+WHERE {
+  GRAPH g:asserted {
+    c:mathmoddb-q6775296 v:hasWeakFormulation ?weak .
+    ?weak v:hasDiscretization ?discrete .
+  }
+  GRAPH g:provenance {
+    ?weakStatement rdf:subject c:mathmoddb-q6775296 ;
+      rdf:predicate v:hasWeakFormulation ; rdf:object ?weak ;
+      prov:wasDerivedFrom ?weakEvidence .
+    ?discreteStatement rdf:subject ?weak ;
+      rdf:predicate v:hasDiscretization ; rdf:object ?discrete ;
+      prov:wasDerivedFrom ?discreteEvidence .
+    ?weakEvidence rdf:predicate ?weakSourcePredicate ; dct:identifier ?digest .
+    ?discreteEvidence rdf:predicate ?discreteSourcePredicate ; dct:identifier ?digest .
+  }
+}
+ORDER BY ?weak ?discrete

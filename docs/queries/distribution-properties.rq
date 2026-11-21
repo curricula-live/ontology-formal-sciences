@@ -1,0 +1,9 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# Which probability distributions possess the memoryless property?
+SELECT ?distribution FROM g:asserted WHERE {
+  ?distribution skos:broader+ c:probability-distributions ; v:hasProperty c:memorylessness .
+} ORDER BY ?distribution

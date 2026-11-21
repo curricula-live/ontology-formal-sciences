@@ -1,0 +1,183 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:ontomath-pro-e354 a skos:Concept ; skos:prefLabel "Goursat problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e355 a skos:Concept ; skos:prefLabel "Goursat-Darboux problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e356 a skos:Concept ; skos:prefLabel "Darboux problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e357 a skos:Concept ; skos:prefLabel "Dirichlet problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e358 a skos:Concept ; skos:prefLabel "Dirichlet spectral problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e359 a skos:Concept ; skos:prefLabel "Cauchy problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e361 a skos:Concept ; skos:prefLabel "Cauchy-Dirichlet problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e362 a skos:Concept ; skos:prefLabel "Neumann problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e364 a skos:Concept ; skos:prefLabel "Stefan problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e370 a skos:Concept ; skos:prefLabel "Variational problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e374 a skos:Concept ; skos:prefLabel "Stiff problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e376 a skos:Concept ; skos:prefLabel "Boundary value problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e377 a skos:Concept ; skos:prefLabel "Hilbert boundary value problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e378 a skos:Concept ; skos:prefLabel "Carleman boundary value problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e381 a skos:Concept ; skos:prefLabel "Elliptic boundary value problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e394 a skos:Concept ; skos:prefLabel "Inverse problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e406 a skos:Concept ; skos:prefLabel "Free boundary problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e407 a skos:Concept ; skos:prefLabel "Adjoint problem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e466 a skos:Concept ; skos:prefLabel "Riemann method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e476 a skos:Concept ; skos:prefLabel "Method of boundary integral equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e490 a skos:Concept ; skos:prefLabel "Spectral method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e493 a skos:Concept ; skos:prefLabel "Method of averaging"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1158 a skos:Concept ; skos:prefLabel "Phase space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1893 a skos:Concept ; skos:prefLabel "Partial differential equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1894 a skos:Concept ; skos:prefLabel "Differential equation of hyperbolic type"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1896 a skos:Concept ; skos:prefLabel "Linear differential equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1897 a skos:Concept ; skos:prefLabel "Ordinary differential equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1898 a skos:Concept ; skos:prefLabel "Parabolic differential equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1901 a skos:Concept ; skos:prefLabel "Differential equation with constant coefficients"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1903 a skos:Concept ; skos:prefLabel "Differential equation of elliptic type"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1920 a skos:Concept ; skos:prefLabel "Euler-Lagrange equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1923 a skos:Concept ; skos:prefLabel "Wiener-Hopf equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1924 a skos:Concept ; skos:prefLabel "Helmholtz equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1925 a skos:Concept ; skos:prefLabel "Dirac equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1927 a skos:Concept ; skos:prefLabel "Laplace equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1928 a skos:Concept ; skos:prefLabel "Navier-Stokes equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1929 a skos:Concept ; skos:prefLabel "Poisson's equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1930 a skos:Concept ; skos:prefLabel "Diffusion equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1934 a skos:Concept ; skos:prefLabel "Maxwell equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e1970 a skos:Concept ; skos:prefLabel "Boundary condition"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2085 a skos:Concept ; skos:prefLabel "Laplace invariant"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2703 a skos:Concept ; skos:prefLabel "Initial data"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2712 a skos:Concept ; skos:prefLabel "Differential games"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2744 a skos:Concept ; skos:prefLabel "The Pontryagin maximum principle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2767 a skos:Concept ; skos:prefLabel "Asymptotically stable solution"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2770 a skos:Concept ; skos:prefLabel "Solution of differential equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2772 a skos:Concept ; skos:prefLabel "Classical solution"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2775 a skos:Concept ; skos:prefLabel "Generalized solution"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2776 a skos:Concept ; skos:prefLabel "Periodic solution"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2781 a skos:Concept ; skos:prefLabel "Strong solution"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2782 a skos:Concept ; skos:prefLabel "Stable solution"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2783 a skos:Concept ; skos:prefLabel "Exponentially stable solution"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2807 a skos:Concept ; skos:prefLabel "Hybrid system"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2808 a skos:Concept ; skos:prefLabel "Hyperbolic system"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2811 a skos:Concept ; skos:prefLabel "Dynamical system"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2814 a skos:Concept ; skos:prefLabel "Autonomous differential equation system"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2818 a skos:Concept ; skos:prefLabel "Linear hyperbolic system"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e2833 a skos:Concept ; skos:prefLabel "Pfaff system of equations"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e3182 a skos:Concept ; skos:prefLabel "Equation of evolution"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .
+
+c:ontomath-pro-e3434 a skos:Concept ; skos:prefLabel "Mathieu equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations .

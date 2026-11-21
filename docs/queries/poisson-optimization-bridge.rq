@@ -1,0 +1,21 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX d: <https://curricula.live/id/formal-sciences/scheme/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT ?task ?likelihood ?sourceFormula
+WHERE {
+  GRAPH g:asserted {
+    ?task skos:inScheme d:mathematics ; v:hasFormulationComponent ?likelihood .
+    ?likelihood skos:inScheme d:statistics .
+  }
+  GRAPH g:provenance {
+    ?statement rdf:subject ?task ; rdf:predicate v:hasFormulationComponent ;
+      rdf:object ?likelihood ; prov:wasDerivedFrom ?witness .
+    ?witness rdf:object ?sourceFormula .
+  }
+}
+ORDER BY ?task

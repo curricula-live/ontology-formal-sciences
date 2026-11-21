@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:predicate-logic a skos:Concept ; skos:prefLabel "Predicate logic"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:logic .
+
+c:first-order-logic a skos:Concept ; skos:prefLabel "First-order logic"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:predicate-logic .
+
+c:universal-quantification a skos:Concept ; skos:prefLabel "Universal quantification"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:predicate-logic .
+
+c:existential-quantification a skos:Concept ; skos:prefLabel "Existential quantification"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:predicate-logic .
+
+c:free-variable a skos:Concept ; skos:prefLabel "Free variable"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:predicate-logic .

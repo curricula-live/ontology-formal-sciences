@@ -1,0 +1,8 @@
+{
+  "http://purl.obolibrary.org/obo/STATO_0000321": "The source classifies all nonparametric distributions as symmetric.",
+  "http://purl.obolibrary.org/obo/STATO_0000333": "The upstream definition describes a density estimation method, while the label denotes a distribution.",
+  "http://purl.obolibrary.org/obo/STATO_0000402": "Review overlap with the existing expected-value topic and the deterministic finite-population interpretation.",
+  "http://purl.obolibrary.org/obo/STATO_0000437": "The label denotes an estimator while the source defines an estimate. Review the two meanings before admitting.",
+  "http://purl.obolibrary.org/obo/STATO_0000492": "Check whether this is an application-specific procedure or the general Bayesian lasso.",
+  "http://purl.obolibrary.org/obo/STATO_0000624": "Disambiguate the Gini coefficient from the Gini impurity measure."
+}

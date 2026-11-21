@@ -1,0 +1,15 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:bayesian-network v:uses c:conditional-probability .
+c:linear-regression skos:related c:least-squares .
+c:bayesian-network skos:broader c:probabilistic-graphical-model .
+c:probabilistic-graphical-model v:represents c:joint-distribution .
+c:maximum-a-posteriori-estimation v:uses c:posterior-distribution .
+c:maximum-a-posteriori-estimation skos:broader c:statistical-estimation .
+c:markov-chain skos:related c:transition-matrix .
+c:bias-of-an-estimator v:uses c:expected-value .
+c:bayes-theorem v:uses c:conditional-probability .
+c:posterior-distribution skos:related c:bayes-theorem .

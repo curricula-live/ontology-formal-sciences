@@ -1,0 +1,30 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:statistical-estimation a skos:Concept ; skos:prefLabel "Statistical estimation"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistics .
+
+c:estimator a skos:Concept ; skos:prefLabel "Estimator"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:maximum-likelihood-estimation a skos:Concept ; skos:prefLabel "Maximum likelihood estimation"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:method-of-moments a skos:Concept ; skos:prefLabel "Method of moments"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:confidence-interval a skos:Concept ; skos:prefLabel "Confidence interval"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:bias-of-an-estimator a skos:Concept ; skos:prefLabel "Bias of an estimator"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:poisson-log-likelihood a skos:Concept ; skos:prefLabel "Poisson log-likelihood"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation ;
+    skos:definition "The log of the likelihood function under a Poisson count model. For independent observations the log-likelihood is the sum of their Poisson log mass functions evaluated at the observed counts."@en .
+
+c:confidence-interval-construction a skos:Concept ; skos:prefLabel "Confidence interval construction"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation ;
+    skos:definition "An interval estimation procedure with a stated repeated-sampling coverage for the target parameter under its model and sampling assumptions."@en .

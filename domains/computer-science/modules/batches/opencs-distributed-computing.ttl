@@ -1,0 +1,36 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:opencs-c1491 a skos:Concept ; skos:prefLabel "Consistency model"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:distributed-computing .
+
+c:opencs-c24153 a skos:Concept ; skos:prefLabel "Eventual consistency"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:distributed-computing, c:opencs-c1491 .
+
+c:opencs-c26124 a skos:Concept ; skos:prefLabel "Distributed memory"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:distributed-computing .
+
+c:opencs-c26338 a skos:Concept ; skos:prefLabel "Stub (distributed computing)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:distributed-computing .
+
+c:opencs-c26617 a skos:Concept ; skos:prefLabel "Byzantine fault tolerance"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:distributed-computing .
+
+c:opencs-c29483 a skos:Concept ; skos:prefLabel "Explicit parallelism"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:distributed-computing .
+
+c:opencs-c3981 a skos:Concept ; skos:prefLabel "Task parallelism"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:distributed-computing .
+
+c:opencs-c42759 a skos:Concept ; skos:prefLabel "Cache coherence"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:distributed-computing .
+
+c:opencs-c43725 a skos:Concept ; skos:prefLabel "Memory-level parallelism"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:distributed-computing .
+
+c:opencs-c5279 a skos:Concept ; skos:prefLabel "Message passing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:distributed-computing .
+
+c:opencs-c9872 a skos:Concept ; skos:prefLabel "Data parallelism"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:distributed-computing .

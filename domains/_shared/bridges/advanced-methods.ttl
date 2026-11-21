@@ -1,0 +1,8 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+
+c:fourier-motzkin-elimination v:solves c:linear-rational-conjunction-feasibility .
+c:ctl-state-labeling-algorithm v:uses c:power-set .
+c:svd-principal-component-analysis v:uses c:singular-value-decomposition .
+c:svd-principal-component-analysis v:computes c:eigenvector .
+c:propositional-resolution-certificate v:uses c:directed-acyclic-graph .

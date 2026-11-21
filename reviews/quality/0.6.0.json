@@ -1,0 +1,499 @@
+{
+  "batch_baseline": "cbdf2c4de01f561a0af7e9be0a6db4e8d1fe577a",
+  "batch_selection": "Four minted identities per source, ordered by SHA-256 of the UTF-8 string 0.6.0-strata followed by NUL and the upstream IRI.",
+  "cases": [
+    {
+      "canonical": "opencs-c18328",
+      "key": "https://w3id.org/ocs/ont/C18328",
+      "label_witness": [
+        "<https://w3id.org/ocs/ont/C18328> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Knuth–Morris–Pratt algorithm\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The source denotes the named pattern matching algorithm. Its string-searching parent is appropriate.",
+      "source": "opencs",
+      "verdict": "retained"
+    },
+    {
+      "broader": "inductive-rule-learning",
+      "canonical": "opencs-c17053",
+      "key": "https://w3id.org/ocs/ont/C17053",
+      "label_witness": [
+        "<https://w3id.org/ocs/ont/C17053> <http://www.w3.org/2004/02/skos/core#prefLabel> \"CN2 algorithm\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The native Rule induction parent identifies supervised rule learning. The canonical broader topic now names inductive rule learning.",
+      "source": "opencs",
+      "verdict": "corrected"
+    },
+    {
+      "canonical": "opencs-c5860",
+      "key": "https://w3id.org/ocs/ont/C5860",
+      "label_witness": [
+        "<https://w3id.org/ocs/ont/C5860> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Sweep line algorithm\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The source denotes the family of sweep-line algorithms rather than a geometric line or a single algorithm.",
+      "source": "opencs",
+      "verdict": "retained"
+    },
+    {
+      "canonical": "opencs-c34400",
+      "key": "https://w3id.org/ocs/ont/C34400",
+      "label_witness": [
+        "<https://w3id.org/ocs/ont/C34400> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Kahan summation algorithm\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The source identifies compensated summation by the Kahan algorithm. The admitted subject denotes the algorithm.",
+      "source": "opencs",
+      "verdict": "retained"
+    },
+    {
+      "canonical": "ontomath-pro-e1125",
+      "key": "http://cll.niimm.ksu.ru/ontologies/mathematics#E1125",
+      "label_witness": [
+        "<http://cll.niimm.ksu.ru/ontologies/mathematics#E1125> <http://www.w3.org/2000/01/rdf-schema#label> \"Projective space\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The bilingual class labels and geometry parent support projective space as a mathematical subject.",
+      "source": "ontomath-pro",
+      "verdict": "retained"
+    },
+    {
+      "canonical": "ontomath-pro-e308",
+      "key": "http://cll.niimm.ksu.ru/ontologies/mathematics#E308",
+      "label_witness": [
+        "<http://cll.niimm.ksu.ru/ontologies/mathematics#E308> <http://www.w3.org/2000/01/rdf-schema#label> \"Essential singularity\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The singularity superclass and labels support the mathematical analysis topic of essential singularities.",
+      "source": "ontomath-pro",
+      "verdict": "retained"
+    },
+    {
+      "canonical": "ontomath-pro-e1673",
+      "key": "http://cll.niimm.ksu.ru/ontologies/mathematics#E1673",
+      "label_witness": [
+        "<http://cll.niimm.ksu.ru/ontologies/mathematics#E1673> <http://www.w3.org/2000/01/rdf-schema#label> \"Non-parametric estimation\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The class identifies non-parametric estimation. The statistics scheme and statistical estimation parent match.",
+      "source": "ontomath-pro",
+      "verdict": "retained"
+    },
+    {
+      "canonical": "ontomath-pro-e2491",
+      "key": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2491",
+      "label_witness": [
+        "<http://cll.niimm.ksu.ru/ontologies/mathematics#E2491> <http://www.w3.org/2000/01/rdf-schema#label> \"Erlang distribution\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The explicit Erlang distribution identity belongs to probability distributions in the statistics scheme.",
+      "source": "ontomath-pro",
+      "verdict": "retained"
+    },
+    {
+      "canonical": "stato-0000644",
+      "key": "http://purl.obolibrary.org/obo/STATO_0000644",
+      "label_witness": [
+        "<http://purl.obolibrary.org/obo/STATO_0000644> <http://www.w3.org/2000/01/rdf-schema#label> \"sign test\" ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The test is a statistical procedure, corroborated by its class context.",
+      "source": "stato",
+      "verdict": "retained"
+    },
+    {
+      "canonical": "stato-0000304",
+      "key": "http://purl.obolibrary.org/obo/STATO_0000304",
+      "label_witness": [
+        "<http://purl.obolibrary.org/obo/STATO_0000304> <http://www.w3.org/2000/01/rdf-schema#label> \"two sample t-test with unequal variance\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The source calls this a two-sample t-test with unequal variance. The canonical label Welch's t-test preserves that scope.",
+      "source": "stato",
+      "verdict": "retained"
+    },
+    {
+      "canonical": "stato-0000079",
+      "key": "http://purl.obolibrary.org/obo/STATO_0000079",
+      "label_witness": [
+        "<http://purl.obolibrary.org/obo/STATO_0000079> <http://www.w3.org/2000/01/rdf-schema#label> \"Barlett's test\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The source spelling Barlett is corrected in the canonical label. Class context selects the equal-variances test.",
+      "source": "stato",
+      "verdict": "retained"
+    },
+    {
+      "canonical": "stato-0000187",
+      "key": "http://purl.obolibrary.org/obo/STATO_0000187",
+      "label_witness": [
+        "<http://purl.obolibrary.org/obo/STATO_0000187> <http://www.w3.org/2000/01/rdf-schema#label> \"Tukey HSD for Post-Hoc Analysis\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The source label explicitly identifies Tukey HSD for post-hoc analysis. The canonical subject is the test procedure.",
+      "source": "stato",
+      "verdict": "retained"
+    },
+    {
+      "canonical": "mathmoddb-q6675406",
+      "key": "https://portal.mardi4nfdi.de/entity/Q6675406",
+      "label_witness": [
+        "<https://portal.mardi4nfdi.de/entity/Q6675406> <http://www.w3.org/2000/01/rdf-schema#label> \"free fall model (air drag)\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The source records a mathematical dynamical model. The definition now makes explicit that the canonical subject is the drag-inclusive formulation.",
+      "requires_definition": true,
+      "source": "mathmoddb",
+      "verdict": "corrected"
+    },
+    {
+      "canonical": "mathmoddb-q6821441",
+      "key": "https://portal.mardi4nfdi.de/entity/Q6821441",
+      "label_witness": [
+        "<https://portal.mardi4nfdi.de/entity/Q6821441> <http://www.w3.org/2000/01/rdf-schema#label> \"determine period of a pendulum (small angle)\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The source role is a computational task. The definition now specifies the linearized small-angle period calculation.",
+      "requires_definition": true,
+      "source": "mathmoddb",
+      "verdict": "corrected"
+    },
+    {
+      "canonical": "mathmoddb-q6684551",
+      "key": "https://portal.mardi4nfdi.de/entity/Q6684551",
+      "label_witness": [
+        "<https://portal.mardi4nfdi.de/entity/Q6684551> <http://www.w3.org/2000/01/rdf-schema#label> \"balanced truncation (linear)\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The source task includes state-space equations and has scoped linear balanced truncation roles. Its mathematical model-reduction admission is appropriate.",
+      "source": "mathmoddb",
+      "verdict": "retained"
+    },
+    {
+      "canonical": "mathmoddb-q6821398",
+      "key": "https://portal.mardi4nfdi.de/entity/Q6821398",
+      "label_witness": [
+        "<https://portal.mardi4nfdi.de/entity/Q6821398> <http://www.w3.org/2000/01/rdf-schema#label> \"mathematical pendulum solution (small angle)\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The source role denotes a solution of a particular formulation. The definition now scopes that solution to the linearized small-angle equation.",
+      "requires_definition": true,
+      "source": "mathmoddb",
+      "verdict": "corrected"
+    },
+    {
+      "key": "logic1:nand/2",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The expression defines NAND as negated conjunction. It supports the named Boolean property with exact connective roles.",
+      "scheme": "logic",
+      "source": "openmath",
+      "verdict": "retained"
+    },
+    {
+      "key": "set1:intersect/1",
+      "method": "formal_property",
+      "predicate": "uses",
+      "rationale": "The subset consequence and intersection occurrence occur in a conditional set-theoretic statement.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "retained"
+    },
+    {
+      "key": "combinat1:binomial/1",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "Factorial formula scoped to natural n and k with k at most n. The mathematical range is explicit in the canonical claim.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "retained"
+    },
+    {
+      "key": "arith1:divide/1",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "A nonzero scalar condition is needed and present in the canonical statement.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "retained"
+    },
+    {
+      "key": "fns1:range/1",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The formal witness swaps the membership and function-output roles relative to the source prose.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "withheld"
+    },
+    {
+      "key": "set1:notsubset/1",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The witness direction is reversed for the complement of subset.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "withheld"
+    },
+    {
+      "key": "arith1:lcm/1",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The statement omits conditions needed for signs and zero inputs under the standard nonnegative LCM convention.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "withheld"
+    },
+    {
+      "key": "arith1:power/2",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The free arguments do not carry the full exponent and base scope necessary for the recurrence.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "withheld"
+    },
+    {
+      "key": "linalg1:vectorproduct/1",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The alleged numeric vector body uses a Boolean conjunction.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "withheld"
+    },
+    {
+      "key": "relation1:neq/1",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The formula requires a constrained equality interpretation that the canonical relation profile cannot establish.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "withheld"
+    },
+    {
+      "key": "combinat1:multinomial/1",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The experimental formula has inconsistent variable use.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "withheld"
+    },
+    {
+      "key": [
+        "ModelEvaluation",
+        "specifies",
+        "EvaluationMeasure"
+      ],
+      "method": "relation_projection",
+      "predicate": "reportsEvaluationMeasure",
+      "rationale": "The existential source restriction ties a result role to a defined measure. It does not conflate the metric and the value.",
+      "scheme": "statistics",
+      "source": "ml-schema",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "HyperParameterSetting",
+        "specifies",
+        "HyperParameter"
+      ],
+      "method": "relation_projection",
+      "predicate": "reportsEvaluationMeasure",
+      "rationale": "The same OWL property conveys a different source role for hyperparameters.",
+      "scheme": "computer-science",
+      "source": "ml-schema",
+      "verdict": "withheld"
+    },
+    {
+      "key": [
+        "Run",
+        "output",
+        "Model"
+      ],
+      "method": "relation_projection",
+      "predicate": "documentsEvaluationOutput",
+      "rationale": "A trained model is not an evaluation result.",
+      "scheme": "computer-science",
+      "source": "ml-schema",
+      "verdict": "withheld"
+    },
+    {
+      "key": [
+        "0000304",
+        "input",
+        "0000059"
+      ],
+      "method": "relation_projection",
+      "predicate": "usesReferenceDistribution",
+      "rationale": "The input restriction supports using the approximate t reference under the Welch test's standard conditions.",
+      "scheme": "statistics",
+      "source": "stato",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "Q6775745",
+        "P1692",
+        "Q6675406"
+      ],
+      "method": "relation_projection",
+      "predicate": "isSolutionOf",
+      "rationale": "The solution witness and scoped drag-inclusive model agree. The canonical target denotes a formulation.",
+      "scheme": "mathematics",
+      "source": "mathmoddb",
+      "verdict": "retained"
+    },
+    {
+      "key": "opencs-v06-review-c6947",
+      "method": "mapping",
+      "predicate": "exactMatch",
+      "rationale": "The OpenCS explicit reference denotes the STATO F1 measure. It excludes the evaluation procedure and an individual score value.",
+      "scheme": "statistics",
+      "source": "opencs",
+      "verdict": "retained"
+    },
+    {
+      "key": "opencs-v06-review-c7823",
+      "method": "mapping",
+      "predicate": "exactMatch",
+      "rationale": "The rule-of-inference reference contradicts an exact label match to the Boolean implication connective.",
+      "scheme": "logic",
+      "source": "opencs",
+      "verdict": "withheld"
+    },
+    {
+      "key": "ontomath-pro-v06-review-e1171",
+      "method": "mapping",
+      "predicate": "seeAlso",
+      "rationale": "The OWL class has a suitable set superclass and bilingual label. A reference preserves its distinction from the canonical topic and the OpenMath symbol.",
+      "scheme": "mathematics",
+      "source": "ontomath-pro",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "Equiv.prodComm",
+        "product-type",
+        "hasProperty",
+        "product-type-swap"
+      ],
+      "method": "formal_declaration",
+      "predicate": "hasProperty",
+      "rationale": "The paired swap functions certify equivalence of ordered products. An identification by definitional equality is explicitly rejected.",
+      "scheme": "logic",
+      "source": "mathlib4",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "Nat.Partrec.Code.fixed_point",
+        "effective-program-index-transformation",
+        "hasProperty",
+        "kleene-recursion-theorem"
+      ],
+      "method": "formal_declaration",
+      "predicate": "hasProperty",
+      "rationale": "The witness equates evaluated partial functions, and the review rejects equality of program codes.",
+      "scheme": "computer-science",
+      "source": "mathlib4",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "Nat.add_choose_eq",
+        "hypergeometric-normalization",
+        "uses",
+        "vandermonde-convolution"
+      ],
+      "method": "formal_declaration",
+      "predicate": "uses",
+      "rationale": "The exact natural-number identity normalizes valid hypergeometric mass under its scoped support conditions.",
+      "scheme": "statistics",
+      "source": "mathlib4",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "Equiv.prodComm",
+        "product-type-swap",
+        "hasProperty",
+        "definitional-equality"
+      ],
+      "method": "formal_declaration",
+      "predicate": "hasProperty",
+      "rationale": "The source asserts equivalence via swap. Definitional identity of the two type expressions would require a different witness.",
+      "scheme": "logic",
+      "source": "mathlib4",
+      "verdict": "withheld"
+    },
+    {
+      "key": [
+        "Nat.Partrec.Code.fixed_point",
+        "kleene-recursion-theorem",
+        "hasProperty",
+        "definitional-equality"
+      ],
+      "method": "formal_declaration",
+      "predicate": "hasProperty",
+      "rationale": "The source proves equality of evaluated partial functions. Equality of the code expressions would require a different witness.",
+      "scheme": "computer-science",
+      "source": "mathlib4",
+      "verdict": "withheld"
+    }
+  ],
+  "selection_limit": "The batch sample is small and the targeted review deliberately includes ambiguity and scope risks. Counts do not estimate an error rate.",
+  "source_assessments": {
+    "cso": {
+      "cause": "insufficient_local_evidence",
+      "counts": {},
+      "explanation": "Existing pinned topic mappings remain under evidence CI. The snapshot fetch returned HTTP 403 in the release workspace so no new CSO relation projection was reviewed locally.",
+      "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc"
+    },
+    "mathlib4": {
+      "cause": "unsupported_relation_semantics",
+      "counts": {},
+      "explanation": "Lean module imports are source dependency metadata. Only explicitly reviewed declarations contribute scientific claims.",
+      "sha256": "e38cb828c5368d71469540927a0c81ea1faa69f007c9a372926207c8521e82b3"
+    },
+    "ontomath-edu": {
+      "cause": "licensing_restriction",
+      "counts": {
+        "owl:disjointUnionOf": 16,
+        "owl:disjointWith": 1,
+        "owl:someValuesFrom": 207
+      },
+      "explanation": "Pinned OWL axioms remain in staging. The license is unverified and the mathematical-object/formula partition must be preserved before any scoped projection.",
+      "sha256": "ea619ad644de79ac379b853b8cf636f6c4daec5258a726bd82402ffe97a56081"
+    },
+    "ontomath-pro": {
+      "cause": "unsupported_relation_semantics",
+      "counts": {
+        "owl:allValuesFrom": 1137,
+        "owl:disjointWith": 3,
+        "rdfs:subClassOf": 3627
+      },
+      "explanation": "The existing named restriction profile retains reviewed range constraints. Those universal constraints leave existence unspecified.",
+      "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f"
+    },
+    "opencs": {
+      "cause": "unsupported_relation_semantics",
+      "counts": {
+        "skos:broader": 72849,
+        "skos:closeMatch": 26245,
+        "skos:related": 347114
+      },
+      "explanation": "The native links are taxonomy, topical associations, and mapping references. Reviewed neighboring topics corroborate identities; the generic links do not establish an algorithmic or mathematical predicate.",
+      "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5"
+    },
+    "openmath": {
+      "cause": "unreviewed_dictionary_scope",
+      "counts": {},
+      "explanation": "The release covers reviewed FMPs and symbol bindings in the selected dictionaries. Other files require checks of their license notices, semantics, and symbol bindings.",
+      "sha256": "4bcd5e40a5985f1bd29b0aea8f3bf172ecaf2392be44edf4b7b4eb4756340ac2"
+    }
+  },
+  "version": "0.6.0"
+}

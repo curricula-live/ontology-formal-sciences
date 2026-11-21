@@ -1,0 +1,106 @@
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+v:uses a rdf:Property ; rdfs:label "uses"@en ; rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+ rdfs:comment "From a method or scientific construct to a mathematical or computational ingredient employed in its scoped description. Directional; no closure rule."@en .
+v:containsSymbol a rdf:Property ; rdfs:label "contains symbol"@en ; rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+ rdfs:comment "From a formula subject to a canonical operator or symbol witnessed in a particular source expression. This records expression syntax."@en .
+v:invokesAlgorithm a rdf:Property ; rdfs:label "invokes algorithm"@en ; rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+ rdfs:comment "From a scoped algorithm or implementation to the algorithm it calls or runs as a subroutine."@en .
+v:requiresPremise a rdf:Property ; rdfs:label "requires premise"@en ; rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+ rdfs:comment "From a formal result to a hypothesis of the stated result or its claimed guarantee."@en .
+v:analyzes a rdf:Property ; rdfs:label "analyzes"@en ; rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+ rdfs:comment "From a scoped analysis procedure to the structure, property or behavior under examination."@en .
+v:supportsOperation a rdf:Property ; rdfs:label "supports operation"@en ; rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+ rdfs:comment "From a data structure, index or representation to an operation it provides under its documented scope."@en .
+v:hasInputStructure a rdf:Property ; rdfs:label "has input structure"@en ; rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+ rdfs:comment "From a specified computational problem to the mathematical structure of an input instance."@en .
+v:proves a rdf:Property ; rdfs:label "proves"@en ; rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+ rdfs:comment "From a scoped proof subject to the mathematical statement it establishes. Its witnesses document the proof and the conditions of the statement."@en .
+v:solves a rdf:Property ; rdfs:label "solves"@en ; rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+ rdfs:comment "From an algorithm to the problem it solves under its applicability conditions. Does not imply every instance satisfies those conditions."@en .
+
+v:hasProperty a rdf:Property ; rdfs:label "has property"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "From a scientific subject to a property established for its stated scope. A topical assertion about that subject does not propagate to narrower SKOS concepts."@en .
+
+v:requiresAssumption a rdf:Property ; rdfs:label "requires assumption"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "From a method to an input condition assumed in the stated standard application or guarantee. A violation removes that guarantee and need not make every run fail."@en .
+
+v:represents a rdf:Property ; rdfs:label "represents"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "From a representation to a structure or family of structures it can encode. Multiple representations may encode the same structure."@en .
+
+v:recognizesExactly a rdf:Property ; rdfs:label "recognizes exactly"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "From a machine model to the family consisting of the languages recognized by machines of that model. Each machine recognizes an individual language. The assertion has no symmetry or transitive closure."@en .
+
+v:computes a rdf:Property ; rdfs:label "computes"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "From a method to the type of quantity or mathematical result it computes under the applicability conditions in its definition."@en .
+
+v:guarantees a rdf:Property ; rdfs:label "guarantees"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "From a method or formal result to a property it establishes under its stated hypotheses or applicability conditions."@en .
+
+v:hasDiscretization a rdf:Property ; rdfs:label "has discretization"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links a mathematical equation or model to a documented discretized formulation or applicable discretization scheme. The link applies in the recorded source context."@en .
+
+v:hasWeakFormulation a rdf:Property ; rdfs:label "has weak formulation"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links a documented model or equation to a weak formulation using test functions over the applicable model domain."@en .
+
+v:hasApproximation a rdf:Property ; rdfs:label "has approximation"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links a mathematical formulation to an explicitly documented approximation in its source context."@en .
+
+v:hasModelingAssumption a rdf:Property ; rdfs:label "has modeling assumption"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links a documented formulation to an assumption of its particular modeling or analysis context."@en .
+
+v:appliesToModel a rdf:Property ; rdfs:label "applies to model"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "A source-documented application of a task or method to a model. Applicability is scoped to the documented case."@en .
+
+v:usesReferenceDistribution a rdf:Property ; rdfs:label "uses reference distribution"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links a testing procedure to the distribution used to assess its statistic under the applicable null and sampling conditions. The reference law may be exact, conditional or asymptotic."@en .
+
+v:estimates a rdf:Property ; rdfs:label "estimates"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links an estimator to the quantity targeted under the estimator's stated model."@en .
+
+v:hasFormulationComponent a rdf:Property ; rdfs:label "has formulation component"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links a documented mathematical model or task formulation to an equation, submodel or discretization it includes in the recorded context."@en .
+
+v:isSolutionOf a rdf:Property ; rdfs:label "is solution of"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links a documented solution to the mathematical model it satisfies in the recorded formulation and conditions."@en .
+
+v:producesEstimate a rdf:Property ; rdfs:label "produces estimate"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Links a statistical estimation procedure to the type of estimate it returns in its applicable setting."@en .
+
+v:implementsAlgorithm a rdf:Property ; rdfs:label "implements algorithm"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "A scoped relation from an executable implementation subject to the abstract algorithm it realizes in the documented model."@en .
+
+v:hasEvaluationComponent a rdf:Property ; rdfs:label "has evaluation component"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "An evaluation specification includes a documented measure or assessment procedure."@en .
+
+v:reportsEvaluationMeasure a rdf:Property ; rdfs:label "reports evaluation measure"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "An evaluation result reports a value under the specified performance measure."@en .
+
+v:executesImplementation a rdf:Property ; rdfs:label "executes implementation"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "A run subject describes execution of an implementation in the source workflow."@en .
+
+v:documentsEvaluationOutput a rdf:Property ; rdfs:label "documents evaluation output"@en ;
+    rdfs:domain skos:Concept ; rdfs:range skos:Concept ;
+    rdfs:comment "Identifies an evaluation output kind in the source run schema. It scopes the documented workflow rather than guaranteeing completion of every real execution."@en .

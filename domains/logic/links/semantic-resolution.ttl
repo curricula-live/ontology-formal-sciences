@@ -1,0 +1,17 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+
+c:system-f v:uses c:universal-type .
+c:system-f v:uses c:type-abstraction .
+c:system-f v:uses c:type-application .
+c:system-f v:uses c:impredicative-polymorphism .
+c:system-f v:hasProperty c:strong-normalization .
+c:system-f v:uses c:typing-judgment .
+c:type-application v:uses c:universal-type .
+c:relational-parametricity v:uses c:logical-relations .
+c:relational-parametricity v:uses c:universal-type .
+c:structural-induction v:uses c:inductive-type .
+c:type-theoretic-proof-assistant v:uses c:type-theoretic-proof-kernel .
+c:type-theoretic-proof-assistant v:uses c:proof-term .
+c:galois-based-abstract-interpretation v:uses c:abstract-transfer-function .
+c:conflict-driven-clause-learning v:uses c:conjunctive-normal-form .

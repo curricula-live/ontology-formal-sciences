@@ -1,0 +1,65 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:graph-theory a skos:Concept ; skos:prefLabel "Graph theory"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematics .
+
+c:graph-graph-theory a skos:Concept ; skos:prefLabel "Graph (graph theory)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:directed-graph a skos:Concept ; skos:prefLabel "Directed graph"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:directed-acyclic-graph a skos:Concept ; skos:prefLabel "Directed acyclic graph"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:weighted-graph a skos:Concept ; skos:prefLabel "Weighted graph"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:path-graph-theory a skos:Concept ; skos:prefLabel "Path (graph theory)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:tree-graph-theory a skos:Concept ; skos:prefLabel "Tree (graph theory)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:directed-acyclic-graph skos:definition "A directed graph that contains no directed cycle."@en .
+
+c:adjacency-matrix a skos:Concept ; skos:prefLabel "Adjacency matrix"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:adjacency-list a skos:Concept ; skos:prefLabel "Adjacency list"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:graph-laplacian a skos:Concept ; skos:prefLabel "Graph Laplacian"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:bipartite-graph a skos:Concept ; skos:prefLabel "Bipartite graph"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:spanning-tree a skos:Concept ; skos:prefLabel "Spanning tree"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:graph-coloring a skos:Concept ; skos:prefLabel "Graph coloring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory .
+
+c:nonnegative-edge-weights a skos:Concept ; skos:prefLabel "Nonnegative edge weights"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory ;
+    skos:definition "An edge-weight function whose value on each edge is at least zero."@en .
+
+c:graph-edge a skos:Concept ; skos:prefLabel "Graph edge"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory ;
+    skos:definition "An incidence between vertices of a graph, with order significant in a directed graph."@en .
+
+c:graph-vertex a skos:Concept ; skos:prefLabel "Graph vertex"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory ;
+    skos:definition "An element of the vertex set of a graph."@en .
+
+c:strongly-connected-component a skos:Concept ; skos:prefLabel "Strongly connected component"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:graph-theory ;
+    skos:definition "A maximal set of vertices of a directed graph in which each pair is mutually reachable."@en .
+
+c:no-reachable-negative-cycle a skos:Concept ; skos:prefLabel "Absence of reachable negative-weight cycles"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:weighted-graph ;
+    skos:definition "For a weighted directed graph with a specified source, no directed cycle that can be reached from that source has negative total weight."@en .

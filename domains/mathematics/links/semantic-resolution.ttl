@@ -1,0 +1,10 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+
+c:greatest-fixed-point v:uses c:partial-order .
+c:least-fixed-point v:uses c:partial-order .
+c:galois-connection v:uses c:partial-order .
+c:svd-least-squares-method v:solves c:linear-least-squares-problem .
+c:svd-least-squares-method v:uses c:singular-value-decomposition .
+c:svd-least-squares-method v:uses c:euclidean-norm .
+c:linear-galerkin-finite-element-method v:computes c:finite-element-stiffness-matrix .

@@ -1,0 +1,128 @@
+{
+  "https://w3id.org/ocs/ont/C1134": {
+    "canonical_candidates": [],
+    "label": "Heuristic",
+    "upstream_candidates": [
+      "https://w3id.org/ocs/ont/C18302"
+    ]
+  },
+  "https://w3id.org/ocs/ont/C14255": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/binary-search"
+    ],
+    "label": "Binary search algorithm",
+    "upstream_candidates": []
+  },
+  "https://w3id.org/ocs/ont/C15477": {
+    "canonical_candidates": [],
+    "label": "Lustre (file system)",
+    "upstream_candidates": [
+      "https://w3id.org/ocs/ont/C16482"
+    ]
+  },
+  "https://w3id.org/ocs/ont/C16482": {
+    "canonical_candidates": [],
+    "label": "Lustre (programming language)",
+    "upstream_candidates": [
+      "https://w3id.org/ocs/ont/C15477"
+    ]
+  },
+  "https://w3id.org/ocs/ont/C17158": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/bellman-ford-algorithm"
+    ],
+    "label": "Bellman–Ford algorithm",
+    "upstream_candidates": []
+  },
+  "https://w3id.org/ocs/ont/C18302": {
+    "canonical_candidates": [],
+    "label": "Heuristic (computer science)",
+    "upstream_candidates": [
+      "https://w3id.org/ocs/ont/C1134"
+    ]
+  },
+  "https://w3id.org/ocs/ont/C23247": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/graph-graph-theory"
+    ],
+    "label": "Graph (abstract data type)",
+    "upstream_candidates": []
+  },
+  "https://w3id.org/ocs/ont/C25960": {
+    "canonical_candidates": [],
+    "label": "Memory management",
+    "upstream_candidates": [
+      "https://w3id.org/ocs/ont/C44741"
+    ]
+  },
+  "https://w3id.org/ocs/ont/C26690": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/conditional-mutual-information"
+    ],
+    "label": "Conditional mutual information",
+    "upstream_candidates": []
+  },
+  "https://w3id.org/ocs/ont/C31203": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/set"
+    ],
+    "label": "Set (abstract data type)",
+    "upstream_candidates": []
+  },
+  "https://w3id.org/ocs/ont/C33274": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/kruskal-s-algorithm"
+    ],
+    "label": "Kruskal's algorithm",
+    "upstream_candidates": []
+  },
+  "https://w3id.org/ocs/ont/C3913": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/stack-data-structure"
+    ],
+    "label": "Stack (abstract data type)",
+    "upstream_candidates": []
+  },
+  "https://w3id.org/ocs/ont/C39895": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/ford-fulkerson-method"
+    ],
+    "label": "Ford–Fulkerson algorithm",
+    "upstream_candidates": []
+  },
+  "https://w3id.org/ocs/ont/C44741": {
+    "canonical_candidates": [],
+    "label": "Memory management (operating systems)",
+    "upstream_candidates": [
+      "https://w3id.org/ocs/ont/C25960"
+    ]
+  },
+  "https://w3id.org/ocs/ont/C546": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/shannon-entropy"
+    ],
+    "label": "Entropy (information theory)",
+    "upstream_candidates": []
+  },
+  "https://w3id.org/ocs/ont/C5722": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/data-structures"
+    ],
+    "label": "Data structure",
+    "upstream_candidates": []
+  },
+  "https://w3id.org/ocs/ont/C8452": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/tree-graph-theory"
+    ],
+    "label": "Tree (data structure)",
+    "upstream_candidates": []
+  },
+  "https://w3id.org/ocs/ont/C9393": {
+    "canonical_candidates": [
+      "https://curricula.live/id/formal-sciences/concept/binary-decision-diagram"
+    ],
+    "label": "Binary decision diagram",
+    "upstream_candidates": []
+  }
+}

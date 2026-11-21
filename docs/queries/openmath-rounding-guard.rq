@@ -1,0 +1,18 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+SELECT ?law ?guardSymbol ?shape
+WHERE {
+  VALUES ?law { c:nearest-integer-even-tie }
+  GRAPH g:asserted { c:nearest-integer-ties-to-even v:hasProperty ?law }
+  GRAPH g:provenance {
+    ?claim rdf:subject c:nearest-integer-ties-to-even ; rdf:predicate v:hasProperty ;
+      rdf:object ?law ; prov:wasDerivedFrom ?witness .
+    ?witness dct:type "OpenMath formal mathematical property" ;
+      v:sourceGuardSymbol ?guardSymbol ; v:sourceExpressionShape ?shape .
+  }
+}
+ORDER BY ?guardSymbol

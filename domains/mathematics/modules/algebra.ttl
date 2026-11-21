@@ -1,0 +1,82 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:algebra a skos:Concept ; skos:prefLabel "Algebra"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematics .
+
+c:group a skos:Concept ; skos:prefLabel "Group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:ring a skos:Concept ; skos:prefLabel "Ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:field-algebra a skos:Concept ; skos:prefLabel "Field (algebra)"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:group-homomorphism a skos:Concept ; skos:prefLabel "Group homomorphism"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:monoid a skos:Concept ; skos:prefLabel "Monoid"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra .
+
+c:polynomial-ring a skos:Concept ; skos:prefLabel "Polynomial ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:ring ;
+    skos:definition "A ring obtained by forming polynomials over a coefficient ring using formal indeterminates, with polynomial addition and multiplication."@en .
+
+c:finite-field a skos:Concept ; skos:prefLabel "Finite field"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "A field with finitely many elements, necessarily a prime-power number of elements."@en .
+
+c:irreducible-polynomial a skos:Concept ; skos:prefLabel "Irreducible polynomial over a field"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:polynomial-ring ;
+    skos:definition "A nonconstant polynomial over a field that cannot be written as a product of two polynomials of smaller positive degree."@en .
+
+c:square-free-polynomial a skos:Concept ; skos:prefLabel "Square-free polynomial"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:polynomial-ring ;
+    skos:definition "A polynomial with no repeated irreducible factor over the coefficient field."@en .
+
+c:equal-degree-polynomial-factorization a skos:Concept ; skos:prefLabel "Equal-degree finite-field polynomial factorization"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:polynomial-ring ;
+    skos:definition "Splitting a square-free polynomial over a finite field into irreducible factors when all its irreducible factors have the same known degree."@en .
+
+c:scalar-addition a skos:Concept ; skos:prefLabel "Scalar addition"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "Addition of scalars in the ordinary numeric setting."@en .
+
+c:scalar-multiplication a skos:Concept ; skos:prefLabel "Scalar multiplication of numbers"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "Multiplication of two scalar numbers, with both operands taken in the same numeric arithmetic."@en .
+
+c:scalar-subtraction a skos:Concept ; skos:prefLabel "Scalar subtraction"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "Addition of the first number to the additive inverse of the second."@en .
+
+c:scalar-division a skos:Concept ; skos:prefLabel "Scalar division"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "Division of a number by a nonzero scalar in a field, defined using the multiplicative inverse."@en .
+
+c:additive-inverse a skos:Concept ; skos:prefLabel "Additive inverse"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "The element whose sum with the given element is zero."@en .
+
+c:scalar-addition-commutativity a skos:Concept ; skos:prefLabel "Commutativity of scalar addition"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "Interchanging two scalar operands leaves their sum unchanged."@en .
+
+c:scalar-additive-inverse-law a skos:Concept ; skos:prefLabel "Additive inverse law for scalars"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "A scalar added to its additive inverse yields zero."@en .
+
+c:scalar-subtraction-identity a skos:Concept ; skos:prefLabel "Scalar subtraction as addition of an inverse"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "Subtracting the second scalar is equivalent to adding its additive inverse."@en .
+
+c:scalar-left-distributivity a skos:Concept ; skos:prefLabel "Left distributivity of scalar multiplication"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "Multiplying a scalar by the sum of two scalars equals the sum of the corresponding two products."@en .
+
+c:nonzero-scalar-self-division a skos:Concept ; skos:prefLabel "Nonzero scalar self-division law"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "A scalar divided by itself equals one if the scalar is nonzero and the operation is defined in its field."@en .

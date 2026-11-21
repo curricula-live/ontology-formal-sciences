@@ -1,0 +1,27 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:control-systems-theory a skos:Concept ; skos:prefLabel "Control systems theory"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:differential-equations ;
+    skos:definition "The mathematical study of dynamical systems with inputs, including their stability, feedback and the design of inputs to reach specified objectives."@en .
+
+c:continuous-linear-state-propagation a skos:Concept ; skos:prefLabel "Continuous-time LTI state propagation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory ;
+    skos:definition "The homogeneous state evolution from time zero to time t for a constant system matrix, given by the matrix exponential at time t applied to the initial state."@en .
+
+c:square-root-balanced-truncation a skos:Concept ; skos:prefLabel "Square-root balanced truncation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory ;
+    skos:definition "For a stable continuous-time linear system, use factors of the controllability and observability Gramians and their singular-value decomposition to form balanced reduced coordinates."@en .
+
+c:state-space-state-matrix a skos:Concept ; skos:prefLabel "State matrix of a control system"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory ;
+    skos:definition "The matrix of coefficients of the homogeneous state term in a linear state equation."@en .
+
+c:state-space-input-matrix a skos:Concept ; skos:prefLabel "Input matrix of a control system"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory ;
+    skos:definition "The matrix mapping the external input to its additive contribution to the state equation in a linear state-space model."@en .
+
+c:state-space-output-matrix a skos:Concept ; skos:prefLabel "Output matrix of a control system"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:control-systems-theory ;
+    skos:definition "The matrix mapping the internal state to its contribution to the output equation in a linear state-space model."@en .

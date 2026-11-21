@@ -1,0 +1,13 @@
+{
+  "allow_mapping": false,
+  "attribution": "e-LICO",
+  "blocker": "curl: (22) The requested URL returned error: 504\ncurl: (22) The requested URL returned error: 504\ncurl: (22) The requested URL returned error: 504\n",
+  "format": "xml",
+  "homepage": "https://bioportal.bioontology.org/ontologies/DMOP",
+  "id": "dmop",
+  "license": "unverified",
+  "revision": "content digest",
+  "scope": "DMOP ontology",
+  "status": "failed",
+  "url": "https://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl"
+}

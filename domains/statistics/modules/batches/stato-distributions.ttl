@@ -1,0 +1,165 @@
+# Selected and adapted from STATO 1.5 by ISA-tools/STATO, CC BY 3.0.
+# See sources/stato/README.md for license, authorship and the pinned revision.
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:stato-0000017 a skos:Concept ;
+    skos:prefLabel "Wilks' lambda distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:probability-distributions .
+
+c:stato-0000023 a skos:Concept ;
+    skos:prefLabel "Studentized range distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000067 .
+
+c:stato-0000059 a skos:Concept ;
+    skos:prefLabel "Student's t distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000067, c:stato-0000329 .
+
+c:stato-0000060 a skos:Concept ;
+    skos:prefLabel "Hypergeometric distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000117 .
+
+c:stato-0000067 a skos:Concept ;
+    skos:prefLabel "Continuous probability distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:probability-distributions .
+
+c:stato-0000103 a skos:Concept ;
+    skos:prefLabel "Multinomial distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000117 .
+
+c:stato-0000117 a skos:Concept ;
+    skos:prefLabel "Discrete probability distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:probability-distributions .
+
+c:stato-0000132 a skos:Concept ;
+    skos:prefLabel "Hotelling's T-squared distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:probability-distributions .
+
+c:stato-0000177 a skos:Concept ;
+    skos:prefLabel "Beta distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000067 .
+
+c:stato-0000180 a skos:Concept ;
+    skos:prefLabel "Standard normal distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:normal-distribution .
+
+c:stato-0000204 a skos:Concept ;
+    skos:prefLabel "F-distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000067 .
+
+c:stato-0000229 a skos:Concept ;
+    skos:prefLabel "Chi-square distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000067 .
+
+c:stato-0000268 a skos:Concept ;
+    skos:prefLabel "Gamma distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000067 .
+
+c:stato-0000276 a skos:Concept ;
+    skos:prefLabel "Binomial distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000117 .
+
+c:stato-0000283 a skos:Concept ;
+    skos:prefLabel "Negative binomial distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000117 .
+
+c:stato-0000329 a skos:Concept ;
+    skos:prefLabel "Symmetric distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:probability-distributions .
+
+c:stato-0000330 a skos:Concept ;
+    skos:prefLabel "Empirical distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:probability-distributions .
+
+c:stato-0000331 a skos:Concept ;
+    skos:prefLabel "Histogram distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:probability-distributions .
+
+c:stato-0000332 a skos:Concept ;
+    skos:prefLabel "Smooth kernel distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:probability-distributions .
+
+c:stato-0000334 a skos:Concept ;
+    skos:prefLabel "Mixture distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:probability-distributions .
+
+c:stato-0000388 a skos:Concept ;
+    skos:prefLabel "Alpha distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000067 .
+
+c:stato-0000389 a skos:Concept ;
+    skos:prefLabel "Power law distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:probability-distributions .
+
+c:stato-0000392 a skos:Concept ;
+    skos:prefLabel "Pareto type-I probability distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000067 .
+
+c:stato-0000393 a skos:Concept ;
+    skos:prefLabel "Pareto type-II probability distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000067 .
+
+c:stato-0000394 a skos:Concept ;
+    skos:prefLabel "Pareto type-III probability distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000067 .
+
+c:stato-0000395 a skos:Concept ;
+    skos:prefLabel "Pareto type-IV probability distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000067 .
+
+c:stato-0000438 a skos:Concept ;
+    skos:prefLabel "Log-normal distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000067 .
+
+c:stato-0000501 a skos:Concept ;
+    skos:prefLabel "Weibull probability distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000067 .
+
+c:stato-0000529 a skos:Concept ;
+    skos:prefLabel "Location-scale t distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:probability-distributions .
+
+c:stato-0000538 a skos:Concept ;
+    skos:prefLabel "Continuous multivariate probability distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000067 .
+
+c:stato-0000539 a skos:Concept ;
+    skos:prefLabel "Discrete multivariate probability distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000117 .
+
+c:stato-0000547 a skos:Concept ;
+    skos:prefLabel "Laplace distribution"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000067, c:stato-0000329 .

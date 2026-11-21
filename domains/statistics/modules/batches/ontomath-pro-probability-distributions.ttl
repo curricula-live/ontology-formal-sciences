@@ -1,0 +1,57 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:ontomath-pro-e2479 a skos:Concept ; skos:prefLabel "Maxwell distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:ontomath-pro-e2486 a skos:Concept ; skos:prefLabel "Pareto distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:ontomath-pro-e2487 a skos:Concept ; skos:prefLabel "Rayleigh distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:ontomath-pro-e2488 a skos:Concept ; skos:prefLabel "Student distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:ontomath-pro-e2489 a skos:Concept ; skos:prefLabel "Wishart distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:ontomath-pro-e2491 a skos:Concept ; skos:prefLabel "Erlang distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:ontomath-pro-e2492 a skos:Concept ; skos:prefLabel "Absolutely continuous distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:ontomath-pro-e2493 a skos:Concept ; skos:prefLabel "Arcsin distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:ontomath-pro-e2502 a skos:Concept ; skos:prefLabel "Sampling distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:ontomath-pro-e2507 a skos:Concept ; skos:prefLabel "Discrete distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:ontomath-pro-e2509 a skos:Concept ; skos:prefLabel "Multivariate distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:ontomath-pro-e2512 a skos:Concept ; skos:prefLabel "Multimodal distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:ontomath-pro-e2516 a skos:Concept ; skos:prefLabel "Spherical normal distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:ontomath-pro-e2522 a skos:Concept ; skos:prefLabel "Uniform distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:ontomath-pro-e2526 a skos:Concept ; skos:prefLabel "Joint distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:ontomath-pro-e2529 a skos:Concept ; skos:prefLabel "Unimodal distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:ontomath-pro-e2530 a skos:Concept ; skos:prefLabel "Truncated distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:ontomath-pro-e2532 a skos:Concept ; skos:prefLabel "Chi distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .

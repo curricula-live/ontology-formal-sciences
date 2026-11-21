@@ -1,0 +1,3 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+c:ambiguous a skos:Concept ; skos:prefLabel "Ring"@en, "Field"@en .

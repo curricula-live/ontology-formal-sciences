@@ -1,0 +1,32 @@
+{
+  "anchor_dispositions": {},
+  "by_predicate": {
+    "named_disjoint_classes": {
+      "candidate_causes": {
+        "one_canonical_subject": 3
+      },
+      "predicate": "http://www.w3.org/2002/07/owl#disjointWith"
+    },
+    "named_subclass": {
+      "candidate_causes": {
+        "needs_scoped_endpoint_review": 316,
+        "neither_endpoint_admitted": 2251,
+        "one_canonical_subject": 744,
+        "two_canonical_subjects": 304,
+        "unresolved_with_negative_history": 12
+      },
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+    }
+  },
+  "context_sha256": "1cead0b5a8c45f5b4a29cd523efb7702aecbc4be34f5bed4ce57a23fb5eb7abc",
+  "owl_restriction_inventory": {
+    "all_values_from": 1137,
+    "has_value": 0,
+    "some_values_from": 0
+  },
+  "profile": "source-neighborhood-review-v1",
+  "revision": "ebb4083adec275e079bb6210df24cfcd11d2767c",
+  "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
+  "shared_dbpedia_anchor_candidates": [],
+  "source": "ontomath-pro"
+}

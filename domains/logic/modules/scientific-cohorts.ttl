@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+
+c:boolean-truth-value a skos:Concept ; skos:prefLabel "Boolean truth value"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:propositional-logic ;
+    skos:definition "One of the two values true and false in Boolean semantics."@en .
+
+c:skolemization a skos:Concept ; skos:prefLabel "Skolemization"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "Eliminate existential quantifiers in a first-order formula by fresh Skolem functions of the relevant universal variables. The resulting sentence is equisatisfiable in an expanded signature."@en .
+
+c:herbrand-term-universe a skos:Concept ; skos:prefLabel "Herbrand universe"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:model-theory ;
+    skos:definition "The collection of variable-free terms over a first-order signature, using a fresh constant if needed to make the collection nonempty."@en .
+
+c:ground-instance a skos:Concept ; skos:prefLabel "Ground instance of a formula"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:predicate-logic ;
+    skos:definition "A formula obtained by substituting variable-free terms for its free variables."@en .

@@ -1,0 +1,35 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+
+c:many-one-reduction a skos:Concept ; skos:prefLabel "Many-one reduction"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computability-theory ;
+    skos:definition "A total computable map f reducing a decision predicate A to B, such that A(x) holds exactly when B(f(x)) holds."@en .
+
+c:many-one-reduction-transitivity a skos:Concept ; skos:prefLabel "Transitivity of many-one reduction"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computability-theory ;
+    skos:definition "A many-one reduction from A to B and one from B to C compose to give a many-one reduction from A to C."@en .
+
+c:post-correspondence-problem a skos:Concept ; skos:prefLabel "Post correspondence problem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computability-theory ;
+    skos:definition "Given finitely many pairs of words over a finite alphabet, decide whether a nonempty sequence of pair indices, with repetition allowed, makes the two concatenations identical."@en .
+
+c:kleene-recursion-theorem a skos:Concept ; skos:prefLabel "Kleene's recursion theorem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computability-theory ;
+    skos:definition "In an acceptable effective numbering of programs for partial computable functions, every total computable transformation of program indices has an index at which the original and transformed programs compute the same partial function."@en .
+
+c:nand-gate-synthesis a skos:Concept ; skos:prefLabel "Synthesis of Boolean operations with NAND gates"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-architecture ;
+    skos:definition "Construct Boolean negation by joining a NAND gate's inputs, conjunction by negating NAND, and disjunction by applying NAND to complemented inputs."@en .
+
+c:inductive-rule-learning a skos:Concept ; skos:prefLabel "Inductive rule learning"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning ;
+    skos:definition "Learning a collection of predictive rules from labeled training examples."@en .
+
+c:primitive-recursive-function a skos:Concept ; skos:prefLabel "Primitive recursive function"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computability-theory ;
+    skos:definition "A total natural-number function obtained from zero, successor and projections by finitely many uses of composition and primitive recursion."@en .
+
+c:effective-program-index-transformation a skos:Concept ; skos:prefLabel "Effective program index transformation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computability-theory ;
+    skos:definition "A total computable function taking program indices to program indices in a fixed acceptable effective numbering of the partial computable functions."@en .

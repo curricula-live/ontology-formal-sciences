@@ -1,0 +1,62 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:linear-algebra a skos:Concept ; skos:prefLabel "Linear algebra"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematics .
+
+c:vector-space a skos:Concept ; skos:prefLabel "Vector space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:matrix a skos:Concept ; skos:prefLabel "Matrix"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:eigenvalue a skos:Concept ; skos:prefLabel "Eigenvalue"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:singular-value-decomposition a skos:Concept ; skos:prefLabel "Singular value decomposition"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:inner-product a skos:Concept ; skos:prefLabel "Inner product"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:eigenvector a skos:Concept ; skos:prefLabel "Eigenvector"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:orthogonal-projection a skos:Concept ; skos:prefLabel "Orthogonal projection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:quadratic-form a skos:Concept ; skos:prefLabel "Quadratic form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:matrix-factorization a skos:Concept ; skos:prefLabel "Matrix factorization"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:qr-factorization a skos:Concept ; skos:prefLabel "QR factorization"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra ;
+    skos:definition "A matrix factorization into a factor with orthonormal columns and an upper triangular or upper trapezoidal factor."@en .
+
+c:symmetric-positive-definiteness a skos:Concept ; skos:prefLabel "Symmetric positive definiteness"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra ;
+    skos:definition "The property of a real matrix being symmetric and having a strictly positive quadratic form on every nonzero vector."@en .
+
+c:euclidean-norm a skos:Concept ; skos:prefLabel "Euclidean norm"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra ;
+    skos:definition "The square root of the sum of the squared coordinates of a real vector in an orthonormal basis."@en .
+
+c:orthonormal-basis a skos:Concept ; skos:prefLabel "Orthonormal basis"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra ;
+    skos:definition "A basis of pairwise orthogonal unit vectors in an inner product space."@en .
+
+c:fourier-motzkin-elimination a skos:Concept ; skos:prefLabel "Fourier–Motzkin elimination"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra ;
+    skos:definition "Eliminate variables from linear inequalities by combining their implied lower and upper bounds to obtain inequalities in the remaining variables."@en .
+
+c:state-transition-matrix a skos:Concept ; skos:prefLabel "State transition matrix"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra ;
+    skos:definition "A matrix that maps an initial state to the state at a specified later time in a linear homogeneous system."@en .
+
+c:matrix-exponential a skos:Concept ; skos:prefLabel "Matrix exponential"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra ;
+    skos:definition "The matrix function defined for a square matrix by the absolutely convergent power series for the scalar exponential with matrix powers in place of scalar powers."@en .

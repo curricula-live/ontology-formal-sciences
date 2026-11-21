@@ -1,0 +1,942 @@
+{
+  "baseline_comparison": {
+    "dataset_sha256": "a577a315dc1a67b671c9f76339d21537c27d09f15178dae7eb4cad294414fe43",
+    "evidence_backed_cross_domain_using_current_roles": 72,
+    "evidence_backed_using_current_roles": 510,
+    "existing_computer_science_concepts": 1051,
+    "existing_computer_science_participating_after": 118,
+    "existing_computer_science_participating_before": 61,
+    "former_scientific_total": 702,
+    "largest_evidence_backed_component_using_current_roles": 65,
+    "scientific_total_using_current_roles": 528,
+    "version": "0.7.0"
+  },
+  "cases": [
+    {
+      "key": "calculus1:diff/2",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The derivative property requires differentiability of both factors at the point; operator occurrences are separate.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "retained"
+    },
+    {
+      "key": "rounding1:round/2",
+      "method": "formal_property",
+      "predicate": "containsSymbol",
+      "rationale": "The record preserves the half-integer guard and the native occurrence of integer membership.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "retained"
+    },
+    {
+      "key": "s_dist1:moment/1",
+      "method": "formal_property",
+      "predicate": "containsSymbol",
+      "rationale": "The scope requires a finite moment. Integral and product operators are expression references.",
+      "scheme": "statistics",
+      "source": "openmath",
+      "verdict": "retained"
+    },
+    {
+      "key": "s_data1:sdev/1",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The formula collapses repeated observations by counting a set. The denominator is unsuitable for the named sample quantity.",
+      "scheme": "statistics",
+      "source": "openmath",
+      "verdict": "withheld"
+    },
+    {
+      "key": "calculus1:defint/2",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The formula references an interval symbol absent from its native dictionary.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "withheld"
+    },
+    {
+      "key": "set1:prsubset/1",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The property target occurs in the premise. The taxonomy and formula directions remain explicit.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "Implementation",
+        "implements",
+        "Algorithm"
+      ],
+      "method": "relation_projection",
+      "predicate": "implementsAlgorithm",
+      "rationale": "An executable implementation realizes an abstract algorithm. The source existential is typed and separately recorded.",
+      "scheme": "computer-science",
+      "source": "ml-schema",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "Run",
+        "executes",
+        "Implementation"
+      ],
+      "method": "relation_projection",
+      "predicate": "executesImplementation",
+      "rationale": "An execution run refers to its executable implementation. It has a different subject role from the algorithm itself.",
+      "scheme": "computer-science",
+      "source": "ml-schema",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "HyperParameterSetting",
+        "specifies",
+        "HyperParameter"
+      ],
+      "method": "relation_projection",
+      "predicate": "reportsEvaluationMeasure",
+      "rationale": "A parameter setting supplies the wrong filler type for a reported measure.",
+      "scheme": "computer-science",
+      "source": "ml-schema",
+      "verdict": "withheld"
+    },
+    {
+      "key": [
+        "Run",
+        "output",
+        "Model"
+      ],
+      "method": "relation_projection",
+      "predicate": "documentsEvaluationOutput",
+      "rationale": "A trained model and its evaluation result have distinct source-native output roles.",
+      "scheme": "computer-science",
+      "source": "ml-schema",
+      "verdict": "withheld"
+    },
+    {
+      "key": [
+        "0000440",
+        "input",
+        "0000227"
+      ],
+      "method": "relation_projection",
+      "predicate": "usesReferenceDistribution",
+      "rationale": "The normal law concerns observations under the Dixon test model. Its spacing ratio has a different reference law.",
+      "scheme": "statistics",
+      "source": "stato",
+      "verdict": "withheld"
+    },
+    {
+      "key": [
+        "ComputablePred.rice",
+        "rice-fixed-point-proof",
+        "proves",
+        "opencs-c43294"
+      ],
+      "method": "formal_declaration",
+      "predicate": "proves",
+      "rationale": "The pinned named proof is textual evidence of the scoped result. Kernel evidence from the separate Lean fixture has a different provenance type.",
+      "scheme": "computer-science",
+      "source": "mathlib4",
+      "verdict": "retained"
+    },
+    {
+      "key": "opencs-v06-review-c7823",
+      "method": "mapping",
+      "predicate": "exactMatch",
+      "rationale": "The explicit source referent denotes an inference rule. Equivalence to the Boolean implication connective remains unsupported.",
+      "scheme": "logic",
+      "source": "opencs",
+      "verdict": "withheld"
+    },
+    {
+      "broader": "opencs-c2801",
+      "canonical": "opencs-c44766",
+      "key": "https://w3id.org/ocs/ont/C44766",
+      "label_witness": [
+        "<https://w3id.org/ocs/ont/C44766> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Feature hashing\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The native concept denotes learned-feature encoding. The old parent Data structures captured the name of the technique rather than its scientific role. The canonical parent is Feature extraction.",
+      "source": "opencs",
+      "verdict": "corrected"
+    }
+  ],
+  "selection_limit": "Hash-ranked baseline and new-passage samples and separate targeted cases support qualitative review. Targeted outcomes do not estimate a graph-wide error rate.",
+  "source_assessments": {
+    "cso": {
+      "cause": "offline_source_unavailable",
+      "explanation": "Fetching the pinned CSO release locally returned HTTP 403. Reconciliation uses previously verified source mapping witnesses.",
+      "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc"
+    },
+    "mathlib4": {
+      "cause": "library_objects_unavailable",
+      "explanation": "The pinned Lean toolchain compiled two local fixtures. The Mathlib object cache returned HTTP 403. Mathlib module imports, textual headers and passages retain distinct evidence classifications.",
+      "sha256": "e38cb828c5368d71469540927a0c81ea1faa69f007c9a372926207c8521e82b3"
+    },
+    "ontomath-pro": {
+      "cause": "owl_universal_scope",
+      "explanation": "OWL named class identity and universal restrictions remain distinct from scientific dependencies and existential witnesses.",
+      "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f"
+    },
+    "opencs": {
+      "cause": "topical_semantics",
+      "explanation": "OpenCS supplies verified native labels, parent paths and explicit referents for identity review. Its topical associations do not prove implementation, complexity, or dependency.",
+      "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5"
+    },
+    "openmath": {
+      "cause": "expression_and_property_separation",
+      "explanation": "All 230 prior edges were classified by their published source role. The 167 operator occurrences are retained as containsSymbol with archived uses interpretations. The 63 scoped property assertions remain scientific.",
+      "sha256": "4bcd5e40a5985f1bd29b0aea8f3bf172ecaf2392be44edf4b7b4eb4756340ac2"
+    }
+  },
+  "stratified_sample": {
+    "baseline": "ed04aa8c2a39ddc89203c3905381a88d489733dc",
+    "passages": [
+      {
+        "corpus": "algs4",
+        "first": 42,
+        "judgment": "The passage names the ternary search trie as a string-keyed table; a string-keyed dictionary is the represented abstract type.",
+        "last": 55,
+        "outcome": "retained",
+        "path": "src/main/java/edu/princeton/cs/algs4/TST.java",
+        "population": 46,
+        "triple": [
+          "opencs-c35996",
+          "represents",
+          "string-keyed-dictionary"
+        ]
+      },
+      {
+        "corpus": "cpalgs",
+        "first": 7,
+        "judgment": "The named extended Euclidean algorithm explicitly returns the gcd with two integer coefficients.",
+        "last": 25,
+        "outcome": "retained",
+        "path": "src/algebra/extended-euclid-algorithm.md",
+        "population": 28,
+        "triple": [
+          "opencs-c41652",
+          "computes",
+          "greatest-common-divisor"
+        ]
+      },
+      {
+        "corpus": "go",
+        "first": 5,
+        "judgment": "The package declaration and pinned API name the signature standard. The audited claim concerns signature output under the standard's scope.",
+        "last": 18,
+        "outcome": "retained",
+        "path": "src/crypto/ecdsa/ecdsa.go",
+        "population": 5,
+        "triple": [
+          "ecdsa-digital-signature",
+          "computes",
+          "digital-signature"
+        ]
+      },
+      {
+        "corpus": "llvm",
+        "first": 60,
+        "judgment": "The passage defines the alias-analysis questions about memory objects. It supports the analyzes role, with results scoped to the modeled memory locations.",
+        "last": 86,
+        "outcome": "retained",
+        "path": "llvm/docs/AliasAnalysis.rst",
+        "population": 11,
+        "triple": [
+          "llvm-alias-analysis",
+          "analyzes",
+          "pointer-aliasing"
+        ]
+      },
+      {
+        "corpus": "mathlib4",
+        "first": 348,
+        "judgment": "The DFA embedding proof is one direction of the finite NFA recognition argument. The sibling subset-construction witness supplies the other direction.",
+        "last": 354,
+        "outcome": "retained",
+        "path": "Mathlib/Computability/NFA.lean",
+        "population": 6,
+        "triple": [
+          "opencs-c30272",
+          "recognizesExactly",
+          "regular-language"
+        ]
+      },
+      {
+        "corpus": "postgres",
+        "first": 481,
+        "judgment": "The replay verifies the extended range containing the first-query snapshot behavior. The claim is specific to PostgreSQL's repeatable-read implementation.",
+        "last": 518,
+        "outcome": "retained",
+        "path": "doc/src/sgml/mvcc.sgml",
+        "population": 11,
+        "triple": [
+          "postgres-repeatable-read",
+          "uses",
+          "transaction-visibility-snapshot"
+        ]
+      },
+      {
+        "corpus": "raft",
+        "first": 201,
+        "judgment": "The specification describes sending term-tagged prefix and entry information from leader to follower. It supports the replicated-log dependency at the model level.",
+        "last": 227,
+        "outcome": "retained",
+        "path": "raft.tla",
+        "population": 5,
+        "triple": [
+          "raft-consensus",
+          "uses",
+          "raft-replicated-log"
+        ]
+      },
+      {
+        "corpus": "sklearn",
+        "first": 9,
+        "judgment": "The guide describes fitted decision rules as a tree; the training procedure and trained decision tree are distinct.",
+        "last": 27,
+        "outcome": "retained",
+        "path": "doc/modules/tree.rst",
+        "population": 28,
+        "triple": [
+          "decision-tree-learning",
+          "computes",
+          "opencs-c7652"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "evidence_family": "editorial-citation",
+        "judgment": "The expected log-likelihood-ratio form is scoped to the referenced measures and their relevant support. The conceptual quantity depends on expectation.",
+        "outcome": "retained",
+        "population": 50,
+        "scheme": "computer-science",
+        "triple": [
+          "kullback-leibler-divergence",
+          "uses",
+          "expected-value"
+        ]
+      },
+      {
+        "evidence_family": "editorial-citation",
+        "judgment": "The chain rule is a mathematical dependency of the differentiation method, not an occurrence in an operator tree.",
+        "outcome": "retained",
+        "population": 50,
+        "scheme": "computer-science",
+        "triple": [
+          "forward-mode-automatic-differentiation",
+          "uses",
+          "chain-rule"
+        ]
+      },
+      {
+        "evidence_family": "mathlib4",
+        "judgment": "The textual DFA evaluation theorem equates a concatenated input with evaluation from an intermediate state.",
+        "outcome": "retained",
+        "population": 15,
+        "scheme": "computer-science",
+        "triple": [
+          "opencs-c21398",
+          "hasProperty",
+          "dfa-concatenation-evaluation"
+        ]
+      },
+      {
+        "evidence_family": "mathlib4",
+        "judgment": "The theorem interprets syntax by the Kleene closure operation on a language. This is a semantic interpretation of the operator.",
+        "outcome": "retained",
+        "population": 15,
+        "scheme": "computer-science",
+        "triple": [
+          "regular-expression-star-semantics",
+          "uses",
+          "opencs-c22977"
+        ]
+      },
+      {
+        "evidence_family": "ml-schema",
+        "judgment": "The source existential determines the modeled evaluation-output kind; it leaves actual run completion to the workflow.",
+        "outcome": "retained",
+        "population": 5,
+        "scheme": "computer-science",
+        "triple": [
+          "mls-run",
+          "documentsEvaluationOutput",
+          "mls-model-evaluation-result"
+        ]
+      },
+      {
+        "evidence_family": "ml-schema",
+        "judgment": "The specification has a distinct assessment-procedure role, backed by its named existential restriction.",
+        "outcome": "retained",
+        "population": 5,
+        "scheme": "computer-science",
+        "triple": [
+          "mls-evaluation-specification",
+          "hasEvaluationComponent",
+          "mls-evaluation-procedure"
+        ]
+      },
+      {
+        "evidence_family": "unattributed",
+        "judgment": "The documented BFS queue initialization and enqueue operation support the FIFO dependence. The baseline release had no citation for this edge.",
+        "outcome": "evidence_added",
+        "population": 7,
+        "scheme": "computer-science",
+        "triple": [
+          "breadth-first-search",
+          "uses",
+          "queue"
+        ]
+      },
+      {
+        "evidence_family": "unattributed",
+        "judgment": "The weighted graph is the input instance structure of the minimum spanning tree problem. A reviewed Kruskal passage corroborates the problem scope.",
+        "outcome": "corrected",
+        "population": 7,
+        "replacement": [
+          "minimum-spanning-tree-problem",
+          "hasInputStructure",
+          "weighted-graph"
+        ],
+        "scheme": "computer-science",
+        "triple": [
+          "minimum-spanning-tree-problem",
+          "uses",
+          "weighted-graph"
+        ]
+      },
+      {
+        "evidence_family": "editorial-citation",
+        "judgment": "Definitional constraints of the Tseitin transformation use a biconditional to bind each auxiliary variable to its subformula.",
+        "outcome": "retained",
+        "population": 117,
+        "scheme": "logic",
+        "triple": [
+          "tseitin-transformation",
+          "uses",
+          "boolean-biconditional"
+        ]
+      },
+      {
+        "evidence_family": "editorial-citation",
+        "judgment": "Local confluence is a premise of the stated theorem, together with termination.",
+        "outcome": "corrected",
+        "population": 117,
+        "replacement": [
+          "rewriting-newman-lemma",
+          "requiresPremise",
+          "rewriting-local-confluence"
+        ],
+        "scheme": "logic",
+        "triple": [
+          "rewriting-newman-lemma",
+          "requiresAssumption",
+          "rewriting-local-confluence"
+        ]
+      },
+      {
+        "evidence_family": "mathlib4",
+        "judgment": "The stated reassociation equivalence operates on nested product types. The input and output types remain distinct.",
+        "outcome": "retained",
+        "population": 4,
+        "scheme": "logic",
+        "triple": [
+          "product-type-reassociation",
+          "uses",
+          "product-type"
+        ]
+      },
+      {
+        "evidence_family": "mathlib4",
+        "judgment": "The Mathlib excerpt constructs a product-type equivalence with mutually inverse rebracketings.",
+        "outcome": "retained",
+        "population": 4,
+        "scheme": "logic",
+        "triple": [
+          "product-type",
+          "hasProperty",
+          "product-type-reassociation"
+        ]
+      },
+      {
+        "evidence_family": "openmath",
+        "judgment": "Negation occurs in the Boolean equation. The archived edge attributed a scientific use to formula syntax.",
+        "outcome": "corrected",
+        "population": 33,
+        "replacement": [
+          "de-morgan-conjunction-law",
+          "containsSymbol",
+          "logical-negation"
+        ],
+        "scheme": "logic",
+        "triple": [
+          "de-morgan-conjunction-law",
+          "uses",
+          "logical-negation"
+        ]
+      },
+      {
+        "evidence_family": "openmath",
+        "judgment": "Disjunction occurs in the excluded-middle equation. The Boolean property witness remains valid.",
+        "outcome": "corrected",
+        "population": 33,
+        "replacement": [
+          "boolean-excluded-middle",
+          "containsSymbol",
+          "logical-disjunction"
+        ],
+        "scheme": "logic",
+        "triple": [
+          "boolean-excluded-middle",
+          "uses",
+          "logical-disjunction"
+        ]
+      },
+      {
+        "evidence_family": "unattributed",
+        "judgment": "The relation is appropriate to fixed-point semantics in its scoped interpretation. The baseline graph supplies no citation for the specific edge.",
+        "outcome": "evidence_gap",
+        "population": 3,
+        "scheme": "logic",
+        "triple": [
+          "fixed-point-semantics",
+          "uses",
+          "fixed-point"
+        ]
+      },
+      {
+        "evidence_family": "unattributed",
+        "judgment": "Resolution refutations are derivations in the named inference system. The particular assertion is still a legacy citation gap.",
+        "outcome": "evidence_gap",
+        "population": 3,
+        "scheme": "logic",
+        "triple": [
+          "resolution-refutation",
+          "uses",
+          "resolution-logic"
+        ]
+      },
+      {
+        "evidence_family": "editorial-citation",
+        "judgment": "The chain complex construction starts from the simplices and face operators of a simplicial complex.",
+        "outcome": "retained",
+        "population": 39,
+        "scheme": "mathematics",
+        "triple": [
+          "simplicial-chain-complex",
+          "uses",
+          "ontomath-pro-e170"
+        ]
+      },
+      {
+        "evidence_family": "editorial-citation",
+        "judgment": "The generating-function construction applies to the stated constant-coefficient recurrence with supplied initial conditions.",
+        "outcome": "retained",
+        "population": 39,
+        "scheme": "mathematics",
+        "triple": [
+          "generating-function-recurrence-method",
+          "solves",
+          "linear-recurrence"
+        ]
+      },
+      {
+        "evidence_family": "mathlib4",
+        "judgment": "Binomial coefficients occur in the identity itself. The formal coefficient argument and statement syntax are separate evidence.",
+        "outcome": "corrected",
+        "population": 3,
+        "replacement": [
+          "vandermonde-convolution",
+          "containsSymbol",
+          "binomial-coefficient"
+        ],
+        "scheme": "mathematics",
+        "triple": [
+          "vandermonde-convolution",
+          "uses",
+          "binomial-coefficient"
+        ]
+      },
+      {
+        "evidence_family": "mathlib4",
+        "judgment": "The explicit complex-number equivalence maps each number to two real coordinates and back.",
+        "outcome": "retained",
+        "population": 3,
+        "scheme": "mathematics",
+        "triple": [
+          "complex-plane",
+          "represents",
+          "ontomath-pro-e2127"
+        ]
+      },
+      {
+        "evidence_family": "mathmoddb",
+        "judgment": "The pinned MathModDB witness identifies the original bilinear input equation in this particular approximation task.",
+        "outcome": "retained",
+        "population": 147,
+        "scheme": "mathematics",
+        "triple": [
+          "mathmoddb-q6684558",
+          "hasFormulationComponent",
+          "mathmoddb-q6674142"
+        ]
+      },
+      {
+        "evidence_family": "mathmoddb",
+        "judgment": "The two formulations retain the same plate-with-hole geometry and the named discretization role.",
+        "outcome": "retained",
+        "population": 147,
+        "scheme": "mathematics",
+        "triple": [
+          "mathmoddb-q6822179",
+          "hasDiscretization",
+          "mathmoddb-q6775736"
+        ]
+      },
+      {
+        "evidence_family": "openmath",
+        "judgment": "The expression states submultiset transitivity for the reviewed multiplicity order.",
+        "outcome": "retained",
+        "population": 186,
+        "scheme": "mathematics",
+        "triple": [
+          "submultiset-relation",
+          "hasProperty",
+          "submultiset-transitivity"
+        ]
+      },
+      {
+        "evidence_family": "openmath",
+        "judgment": "The source implication supplies transitivity of subset inclusion. The canonical relation is a property scoped to that relation.",
+        "outcome": "retained",
+        "population": 186,
+        "scheme": "mathematics",
+        "triple": [
+          "subset-relation",
+          "hasProperty",
+          "relation-transitivity"
+        ]
+      },
+      {
+        "evidence_family": "unattributed",
+        "judgment": "The inner product is mathematically relevant to the conjugate-gradient recurrence; the baseline edge lacks a scope-specific witness.",
+        "outcome": "evidence_gap",
+        "population": 4,
+        "scheme": "mathematics",
+        "triple": [
+          "conjugate-gradient-method",
+          "uses",
+          "inner-product"
+        ]
+      },
+      {
+        "evidence_family": "unattributed",
+        "judgment": "The original relation named the class of the matrix. Class membership is now recorded as a hierarchy, while graph representation retains its existing independent evidence.",
+        "outcome": "corrected",
+        "population": 4,
+        "replacement": [
+          "adjacency-matrix",
+          "skos:broader",
+          "matrix"
+        ],
+        "scheme": "mathematics",
+        "triple": [
+          "adjacency-matrix",
+          "uses",
+          "matrix"
+        ]
+      },
+      {
+        "evidence_family": "editorial-citation",
+        "judgment": "The binomial coefficient is a syntactic operand of the probability-mass formula, under the finite sampling scope.",
+        "outcome": "corrected",
+        "population": 31,
+        "replacement": [
+          "hypergeometric-mass-formula",
+          "containsSymbol",
+          "binomial-coefficient"
+        ],
+        "scheme": "statistics",
+        "triple": [
+          "hypergeometric-mass-formula",
+          "uses",
+          "binomial-coefficient"
+        ]
+      },
+      {
+        "evidence_family": "editorial-citation",
+        "judgment": "Ordinary least squares minimizes the squared residual over its linear model. Coefficient uniqueness can require full rank without being needed for the existence of minimizers.",
+        "outcome": "retained",
+        "population": 31,
+        "scheme": "statistics",
+        "triple": [
+          "ordinary-least-squares",
+          "solves",
+          "linear-least-squares-problem"
+        ]
+      },
+      {
+        "evidence_family": "mathlib4",
+        "judgment": "The pinned historical declaration represents the Bernoulli law on Boolean outcomes, with mass p on true.",
+        "outcome": "retained",
+        "population": 6,
+        "scheme": "statistics",
+        "triple": [
+          "boolean-bernoulli-representation",
+          "represents",
+          "bernoulli-distribution"
+        ]
+      },
+      {
+        "evidence_family": "mathlib4",
+        "judgment": "Boolean values are the chosen outcome space of the representation, rather than code syntax within an expression.",
+        "outcome": "retained",
+        "population": 6,
+        "scheme": "statistics",
+        "triple": [
+          "boolean-bernoulli-representation",
+          "uses",
+          "boolean-truth-value"
+        ]
+      },
+      {
+        "evidence_family": "ml-schema",
+        "judgment": "The source result reports the value of a distinct evaluation measure, via the modeled existential restriction.",
+        "outcome": "retained",
+        "population": 1,
+        "scheme": "statistics",
+        "triple": [
+          "mls-model-evaluation-result",
+          "reportsEvaluationMeasure",
+          "mls-evaluation-measure"
+        ]
+      },
+      {
+        "evidence_family": "openmath",
+        "judgment": "The integrator occurs in the density expression. The finite absolute first-moment requirement is already explicit in the formula scope.",
+        "outcome": "corrected",
+        "population": 10,
+        "replacement": [
+          "density-expectation-integral",
+          "containsSymbol",
+          "definite-integral"
+        ],
+        "scheme": "statistics",
+        "triple": [
+          "density-expectation-integral",
+          "uses",
+          "definite-integral"
+        ]
+      },
+      {
+        "evidence_family": "openmath",
+        "judgment": "Scalar multiplication occurs inside the density moment formula, whose stated finite-moment and order conditions remain attached.",
+        "outcome": "corrected",
+        "population": 10,
+        "replacement": [
+          "density-moment-integral",
+          "containsSymbol",
+          "scalar-multiplication"
+        ],
+        "scheme": "statistics",
+        "triple": [
+          "density-moment-integral",
+          "uses",
+          "scalar-multiplication"
+        ]
+      },
+      {
+        "evidence_family": "stato",
+        "judgment": "The source ratio-statistic test uses an approximate t reference law with Welch–Satterthwaite degrees of freedom.",
+        "outcome": "retained",
+        "population": 35,
+        "scheme": "statistics",
+        "triple": [
+          "stato-0000304",
+          "usesReferenceDistribution",
+          "stato-0000059"
+        ]
+      },
+      {
+        "evidence_family": "stato",
+        "judgment": "The source output kind names an estimate of a model parameter, with estimator and quantity separate.",
+        "outcome": "retained",
+        "population": 35,
+        "scheme": "statistics",
+        "triple": [
+          "stato-0000119",
+          "producesEstimate",
+          "stato-0000144"
+        ]
+      },
+      {
+        "evidence_family": "unattributed",
+        "judgment": "The ratio version of Bayes' theorem needs positive conditioning probabilities. The baseline generic dependency alone does not encode these conditions or their source.",
+        "outcome": "assumption_gap",
+        "population": 6,
+        "scheme": "statistics",
+        "triple": [
+          "bayes-theorem",
+          "uses",
+          "conditional-probability"
+        ]
+      },
+      {
+        "evidence_family": "unattributed",
+        "judgment": "Posterior maximization is the defining criterion of the method, with existence and choice of maximizer scoped. The legacy relationship lacks a citation.",
+        "outcome": "evidence_gap",
+        "population": 6,
+        "scheme": "statistics",
+        "triple": [
+          "maximum-a-posteriori-estimation",
+          "uses",
+          "posterior-distribution"
+        ]
+      }
+    ],
+    "seed": "ontology-formal-sciences:v0.8.0:ed04aa8c2a39ddc89203c3905381a88d489733dc",
+    "topics": [
+      {
+        "admission": "authored",
+        "canonical": "database-transaction",
+        "judgment": "A database transaction groups database operations under transaction semantics. Its database ownership is appropriate.",
+        "outcome": "retained",
+        "population": 133,
+        "scheme": "computer-science"
+      },
+      {
+        "admission": "ml-schema",
+        "canonical": "mls-run",
+        "judgment": "The role refers to an execution run, a distinct entity from its implementation or result.",
+        "outcome": "retained",
+        "population": 3,
+        "scheme": "computer-science"
+      },
+      {
+        "admission": "ontomath-pro",
+        "canonical": "ontomath-pro-e2394",
+        "judgment": "The class's native scope concerns recursively decidable membership. The canonical subject belongs to computability.",
+        "outcome": "retained",
+        "population": 2,
+        "scheme": "computer-science"
+      },
+      {
+        "admission": "opencs",
+        "canonical": "opencs-c32956",
+        "judgment": "The native referent is the Time Stamp Protocol, a network protocol, rather than a clock synchronization concept.",
+        "outcome": "retained",
+        "population": 913,
+        "scheme": "computer-science"
+      },
+      {
+        "admission": "authored",
+        "canonical": "modal-system-s4",
+        "judgment": "S4 is a normal modal logic with the usual reflexive and transitive frame semantics.",
+        "outcome": "retained",
+        "population": 183,
+        "scheme": "logic"
+      },
+      {
+        "admission": "opencs",
+        "canonical": "opencs-c41499",
+        "judgment": "The reviewed topic denotes quantifiers followed by a quantifier-free first-order matrix.",
+        "outcome": "retained",
+        "population": 14,
+        "scheme": "logic"
+      },
+      {
+        "admission": "authored",
+        "canonical": "real-floor",
+        "judgment": "The scoped function returns the greatest integer not greater than its real input.",
+        "outcome": "retained",
+        "population": 241,
+        "scheme": "mathematics"
+      },
+      {
+        "admission": "mathmoddb",
+        "canonical": "mathmoddb-q6822164",
+        "definition_added": true,
+        "judgment": "The label scopes the topic to the small-angle, damped and driven mathematical model. The published definition now makes that scope explicit.",
+        "outcome": "scope_corrected",
+        "population": 92,
+        "scheme": "mathematics"
+      },
+      {
+        "admission": "ontomath-pro",
+        "canonical": "ontomath-pro-e2221",
+        "judgment": "The bilingual label and group parent identify a native OWL class. The exact mathematical convention for reduced group needs a narrower definition.",
+        "outcome": "identity_review",
+        "population": 773,
+        "scheme": "mathematics"
+      },
+      {
+        "admission": "opencs",
+        "canonical": "opencs-c11287",
+        "judgment": "The topic denotes the least nonrecursive ordinal and is correctly owned by set theory with a computability interpretation.",
+        "outcome": "retained",
+        "population": 2,
+        "scheme": "mathematics"
+      },
+      {
+        "admission": "authored",
+        "canonical": "markov-chain",
+        "judgment": "The current-state conditional transition law defines Markov behavior, matching stochastic-process ownership.",
+        "outcome": "retained",
+        "population": 82,
+        "scheme": "statistics"
+      },
+      {
+        "admission": "ml-schema",
+        "canonical": "mls-evaluation-procedure",
+        "judgment": "The admitted assessment procedure is a statistical role, distinct from a software run or a recorded metric value.",
+        "outcome": "retained",
+        "population": 3,
+        "scheme": "statistics"
+      },
+      {
+        "admission": "ontomath-pro",
+        "canonical": "ontomath-pro-e2532",
+        "judgment": "The source English and Russian names identify the chi distribution and its distribution parent, separately from chi-square.",
+        "outcome": "retained",
+        "population": 92,
+        "scheme": "statistics"
+      },
+      {
+        "admission": "stato",
+        "canonical": "stato-0000641",
+        "judgment": "The native statistical method is a nonparametric rank test related to blocked or repeated measurements.",
+        "outcome": "retained",
+        "population": 316,
+        "scheme": "statistics"
+      }
+    ]
+  },
+  "unresolved_identities": [
+    {
+      "canonical": [
+        "a-star-search",
+        "opencs-c3339"
+      ],
+      "judgment": "The explicit A* referent and existing authored A-star search heading suggest duplicate topic identity. Published IRIs stay stable while the correspondence remains under review.",
+      "native": "https://w3id.org/ocs/ont/C3339",
+      "source": "opencs"
+    },
+    {
+      "canonical": [
+        "ontomath-pro-e2221"
+      ],
+      "judgment": "The original reduced-group class has matching bilingual labels and a group superclass. Precise scope depends on the upstream convention, so no stronger identity projection was approved.",
+      "native": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2221",
+      "source": "ontomath-pro"
+    }
+  ],
+  "version": "0.8.0"
+}

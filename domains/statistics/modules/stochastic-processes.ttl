@@ -1,0 +1,31 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:stochastic-processes a skos:Concept ; skos:prefLabel "Stochastic processes"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistics .
+
+c:markov-chain a skos:Concept ; skos:prefLabel "Markov chain"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:stochastic-processes .
+
+c:random-walk a skos:Concept ; skos:prefLabel "Random walk"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:stochastic-processes .
+
+c:poisson-process a skos:Concept ; skos:prefLabel "Poisson process"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:stochastic-processes .
+
+c:martingale a skos:Concept ; skos:prefLabel "Martingale"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:stochastic-processes .
+
+c:transition-matrix a skos:Concept ; skos:prefLabel "Transition matrix"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:stochastic-processes .
+
+c:markov-chain-monte-carlo a skos:Concept ; skos:prefLabel "Markov chain Monte Carlo"@en ;
+    skos:altLabel "MCMC"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:stochastic-processes ;
+    skos:definition "Methods for sampling via a Markov chain constructed to have a designated target distribution as a stationary distribution."@en .
+
+c:stationary-distribution a skos:Concept ; skos:prefLabel "Stationary distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:stochastic-processes ;
+    skos:definition "A probability distribution invariant under a Markov transition kernel."@en .

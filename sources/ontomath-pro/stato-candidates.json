@@ -1,0 +1,98 @@
+{
+  "E1703": [
+    "http://purl.obolibrary.org/obo/STATO_0000642"
+  ],
+  "E1706": [
+    "http://purl.obolibrary.org/obo/STATO_0000525"
+  ],
+  "E2434": [
+    "http://purl.obolibrary.org/obo/STATO_0000291"
+  ],
+  "E2435": [
+    "http://purl.obolibrary.org/obo/STATO_0000152"
+  ],
+  "E2446": [
+    "http://purl.obolibrary.org/obo/STATO_0000234"
+  ],
+  "E2451": [
+    "http://purl.obolibrary.org/obo/STATO_0000237"
+  ],
+  "E2455": [
+    "http://purl.obolibrary.org/obo/STATO_0000409"
+  ],
+  "E2497": [
+    "http://purl.obolibrary.org/obo/STATO_0000177"
+  ],
+  "E2498": [
+    "http://purl.obolibrary.org/obo/STATO_0000276"
+  ],
+  "E2499": [
+    "http://purl.obolibrary.org/obo/STATO_0000225"
+  ],
+  "E2503": [
+    "http://purl.obolibrary.org/obo/STATO_0000268"
+  ],
+  "E2504": [
+    "http://purl.obolibrary.org/obo/STATO_0000145"
+  ],
+  "E2514": [
+    "http://purl.obolibrary.org/obo/STATO_0000227"
+  ],
+  "E2517": [
+    "http://purl.obolibrary.org/obo/STATO_0000283"
+  ],
+  "E2518": [
+    "http://purl.obolibrary.org/obo/STATO_0000160"
+  ],
+  "E2521": [
+    "http://purl.obolibrary.org/obo/STATO_0000051"
+  ],
+  "E2544": [
+    "http://purl.obolibrary.org/obo/STATO_0000221"
+  ],
+  "E2572": [
+    "http://purl.obolibrary.org/obo/STATO_0000292"
+  ],
+  "E2574": [
+    "http://purl.obolibrary.org/obo/STATO_0000650"
+  ],
+  "E2582": [
+    "http://purl.obolibrary.org/obo/STATO_0000301"
+  ],
+  "E2602": [
+    "http://purl.obolibrary.org/obo/STATO_0000565"
+  ],
+  "E2617": [
+    "http://purl.obolibrary.org/obo/STATO_0000301"
+  ],
+  "E2621": [
+    "http://purl.obolibrary.org/obo/STATO_0000301"
+  ],
+  "E2632": [
+    "http://purl.obolibrary.org/obo/STATO_0000401"
+  ],
+  "E2636": [
+    "http://purl.obolibrary.org/obo/STATO_0000237"
+  ],
+  "E2656": [
+    "http://purl.obolibrary.org/obo/STATO_0000039"
+  ],
+  "E2660": [
+    "http://purl.obolibrary.org/obo/STATO_0000107"
+  ],
+  "E2662": [
+    "http://purl.obolibrary.org/obo/STATO_0000390"
+  ],
+  "E2666": [
+    "http://purl.obolibrary.org/obo/STATO_0000140"
+  ],
+  "E2673": [
+    "http://purl.obolibrary.org/obo/STATO_0000561"
+  ],
+  "E2674": [
+    "http://purl.obolibrary.org/obo/STATO_0000561"
+  ],
+  "E338": [
+    "http://purl.obolibrary.org/obo/STATO_0000057"
+  ]
+}

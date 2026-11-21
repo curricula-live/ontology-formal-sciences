@@ -1,0 +1,5 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+
+c:ols-coefficient-t-test v:uses c:ordinary-least-squares .
+c:ols-coefficient-t-test v:usesReferenceDistribution c:stato-0000059 .

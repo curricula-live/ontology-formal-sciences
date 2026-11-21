@@ -1,0 +1,12 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+
+c:stato-0000060 v:hasProperty c:hypergeometric-mass-formula .
+c:stato-0000276 v:hasProperty c:binomial-mass-formula .
+c:stato-0000060 v:hasProperty c:hypergeometric-normalization .
+c:hypergeometric-mass-formula v:uses c:ontomath-pro-e867 .
+c:stato-0000628 v:hasProperty c:binary-f1-harmonic-mean .
+c:binary-f1-harmonic-mean v:containsSymbol c:stato-0000416 .
+c:binary-f1-harmonic-mean v:containsSymbol c:stato-0000233 .
+c:binary-f1-evaluation v:computes c:stato-0000628 .

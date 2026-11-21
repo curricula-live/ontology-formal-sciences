@@ -1,0 +1,23 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+
+c:hypergeometric-mass-formula a skos:Concept ; skos:prefLabel "Hypergeometric probability mass formula"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions ;
+    skos:definition "In a uniform sample of size n without replacement from m successes and N−m failures, the probability of k successes is choose(m,k) choose(N−m,n−k) divided by choose(N,n). Here 0 ≤ n ≤ N, 0 ≤ m ≤ N and max(0,n−(N−m)) ≤ k ≤ min(n,m); the mass is zero outside the support."@en .
+
+c:binomial-mass-formula a skos:Concept ; skos:prefLabel "Binomial probability mass formula"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions ;
+    skos:definition "For n independent Bernoulli trials with common success probability p in [0,1], the probability of k successes is choose(n,k) p to the k times (1−p) to the (n−k), for 0 ≤ k ≤ n, with endpoint probabilities interpreted by continuity."@en .
+
+c:hypergeometric-normalization a skos:Concept ; skos:prefLabel "Vandermonde normalization of hypergeometric mass"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions ;
+    skos:definition "For a valid uniform sample without replacement, sum the count of subsets with exactly k successes over all feasible k. Vandermonde's identity gives the total number choose(N,n) of subsets of size n, so the masses sum to one."@en .
+
+c:binary-f1-harmonic-mean a skos:Concept ; skos:prefLabel "Binary F1 harmonic-mean formula"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation ;
+    skos:definition "When precision and recall for the positive class are both defined and their sum is positive, binary F1 is twice their product divided by their sum."@en .
+
+c:binary-f1-evaluation a skos:Concept ; skos:prefLabel "Binary F1 evaluation procedure"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:mls-evaluation-procedure ;
+    skos:definition "Given predictions and reference labels with a designated positive class, compute binary F1 from true positives, false positives and false negatives. The denominator is positive, or the procedure states a convention for a zero denominator."@en .

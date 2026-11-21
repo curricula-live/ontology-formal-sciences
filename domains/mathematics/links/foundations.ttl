@@ -1,0 +1,14 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+
+c:equal-degree-polynomial-factorization v:uses c:polynomial-ring .
+c:chinese-remainder-construction v:requiresAssumption c:pairwise-coprime-moduli .
+c:chinese-remainder-construction v:uses c:bezout-coefficients .
+c:ontomath-pro-e290 v:uses c:based-loop .
+c:ontomath-pro-e290 v:uses c:loop-homotopy .
+c:simplicial-chain-complex v:uses c:ontomath-pro-e170 .
+c:simplicial-chain-complex v:uses c:simplicial-boundary-map .
+c:simplicial-homology v:uses c:simplicial-chain-complex .
+c:euler-characteristic v:uses c:betti-number .
+c:generating-function-recurrence-method v:uses c:ordinary-generating-function .
+c:generating-function-recurrence-method v:solves c:linear-recurrence .
