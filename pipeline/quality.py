@@ -7,7 +7,13 @@ from pathlib import Path
 from rdflib import RDF, SKOS, URIRef
 from rdflib.namespace import DCTERMS, PROV
 
-from pipeline.common import BASE, ROOT, V, read, registry
+from pipeline.common import BASE, C, ROOT, V, read, registry
+
+CS_FAMILIES = (
+    "algorithms", "data-structures", "computational-complexity-theory", "automata-theory",
+    "computability-theory", "programming-languages", "databases", "distributed-computing",
+    "artificial-intelligence", "machine-learning", "information-theory", "cryptography", "software-engineering",
+)
 
 
 def components(concepts, neighbors):
@@ -68,7 +74,8 @@ def graph_metrics(graph, prov):
 
     full = relation_connectivity(asserted, owners, concepts)
     hierarchy = {triple for triple in asserted if triple[1] == SKOS.broader}
-    specific = {triple for triple in asserted if str(triple[1]).startswith(str(V))}
+    expression_edges = {triple for triple in asserted if triple[1] == V.containsSymbol}
+    specific = {triple for triple in asserted if str(triple[1]).startswith(str(V))} - expression_edges
     cited, source_edges, type_edges = set(), defaultdict(set), defaultdict(set)
     for statement in prov.subjects(DCTERMS.source):
         triple = tuple(prov.value(statement, prop) for prop in (RDF.subject, RDF.predicate, RDF.object))
@@ -91,6 +98,17 @@ def graph_metrics(graph, prov):
     evidence_backed = relation_connectivity(cited, owners)
     predicates = Counter(str(triple[1]) for triple in specific)
     evidenced_predicates = Counter(str(triple[1]) for triple in cited)
+    participants = {term for s, _, o in specific for term in (s, o)}
+    cited_participants = {term for s, _, o in cited for term in (s, o)}
+    cs_families = {}
+    for family in CS_FAMILIES:
+        members = {term for term in graph.transitive_subjects(SKOS.broader, C[family])
+                   if owners.get(term) == "computer-science"}
+        if members:
+            cs_families[family] = {
+                "canonical": len(members), "participating": len(members & participants),
+                "evidence_backed_participating": len(members & cited_participants),
+            }
     science.update({
         "relations_by_predicate": dict(predicates),
         "evidence_backed_by_predicate": {key: evidenced_predicates[key] for key in predicates},
@@ -124,6 +142,8 @@ def graph_metrics(graph, prov):
         "largest_component": full["largest_component"],
         "isolated_concepts": full["component_size_histogram"].get("1", 0),
         "taxonomic_connectivity": relation_connectivity(hierarchy, owners, concepts),
+        "expression_connectivity": relation_connectivity(expression_edges, owners),
+        "computer_science_by_topic_family": cs_families,
         "scientific_connectivity": science,
     }
 

@@ -163,7 +163,7 @@ def apply_formal_properties(source, graph, provenance):
     provenance.add((source_entity, RDF.type, PROV.Entity))
     provenance.add((source_entity, DCTERMS.rights, Literal("Derived representation of selected OpenMath Content Dictionaries under their embedded derivative-work terms. The OpenMath Society and dictionary authors are credited. Published assertions refer to the original dictionaries.")))
     provenance.add((source_entity, PROV.hadPrimarySource, URIRef(source["url"])))
-    counts, edges, laws = Counter(), set(), set()
+    counts, edges, laws, migrated = Counter(), set(), set(), set()
     for key, entry in evidence["properties"].items():
         review = reviews["decisions"].get(key)
         unrecognized = set(entry["symbols"]) - evidence["declarations"].keys()
@@ -216,7 +216,7 @@ def apply_formal_properties(source, graph, provenance):
             provenance.add((evidence_id, V.sourceGuardSymbol, symbol_iri(symbol)))
         provenance.add((evidence_id, DCTERMS.description, Literal(review["rationale"], lang="en")))
         provenance.add((evidence_id, DCTERMS.references, symbol_iri(native)))
-        facts = [(law, V.uses, bindings[symbol], symbol) for symbol in uses]
+        facts = [(law, V.containsSymbol, bindings[symbol], symbol) for symbol in uses]
         facts.extend((bindings[symbol], V.hasProperty, law, symbol) for symbol in properties)
         for left, predicate, right, symbol in facts:
             triple = left, predicate, right
@@ -230,6 +230,17 @@ def apply_formal_properties(source, graph, provenance):
             for field, value in zip((RDF.subject, RDF.predicate, RDF.object), triple):
                 provenance.add((statement, field, value))
             provenance.add((evidence_id, DCTERMS.references, symbol_iri(symbol)))
+            if predicate == V.containsSymbol:
+                former_triple = left, V.uses, right
+                former = statement_for(former_triple)
+                migrated.add(former_triple)
+                provenance.add((statement, PROV.wasRevisionOf, former))
+                provenance.add((former, RDF.type, RDF.Statement))
+                provenance.add((former, DCTERMS.type, Literal("superseded interpretation")))
+                provenance.add((former, DCTERMS.source, document))
+                provenance.add((former, PROV.wasDerivedFrom, evidence_id))
+                for field, value in zip((RDF.subject, RDF.predicate, RDF.object), former_triple):
+                    provenance.add((former, field, value))
             edges.add(triple)
         laws.add(law)
         counts["approved"] += 1
@@ -238,6 +249,8 @@ def apply_formal_properties(source, graph, provenance):
     return {
         "properties": len(evidence["properties"]), "dictionaries": len(evidence["dictionaries"]),
         "symbols_bound": len(bindings), "canonical_laws": len(laws), "canonical_relations": len(edges),
+        "scientific_property_relations": sum(p == V.hasProperty for _, p, _ in edges),
+        "expression_symbol_relations": len(migrated),
         "dispositions": dict(counts), "evidence_sha256": checksum(EVIDENCE),
         "review_sha256": checksum(DECISIONS),
     }

@@ -48,3 +48,20 @@ integrals. The reasons for withholding statements include undeclared
 symbol spellings, a sample formula that loses multiplicity, and a
 distribution expression that omits the square root. The archive and
 decision ledger retain these original identifiers.
+
+## v0.8.0 semantic roles
+
+The v0.7.0 OpenMath projection has 230 distinct edges. The current release
+retains 63 scoped property assertions and migrates 167 expression
+occurrences to `v:containsSymbol`. The historical `v:uses` statements are
+preserved in provenance, where each replacement links to its former
+interpretation with `prov:wasRevisionOf`. Both interpretations retain
+the same native expression evidence and fingerprint.
+
+Symbol occurrences describe syntax and retain guard evidence. The
+scientific connectivity report excludes these edges and reports them in
+the expression graph statistics. A query can still intentionally cross
+from a formula subject to its symbols, as the binomial sampling query
+demonstrates. The separate property assertions express scoped mathematical
+facts, including hypotheses recorded for differentiability, distribution
+moments and domain restrictions.

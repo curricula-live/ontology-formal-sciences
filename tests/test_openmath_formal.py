@@ -34,6 +34,12 @@ def test_openmath_statement_provenance_preserves_guard_and_source_symbol():
     assert prov.value(witness, PROV.hadPrimarySource) == URIRef("http://www.openmath.org/cd/arith1.ocd")
     assert (witness, DCTERMS.references, URIRef("http://www.openmath.org/cd/arith1#divide")) in prov
     assert report["dispositions"]["rejected"] >= 7
+    assert report["expression_symbol_relations"] == 167
+    assert report["scientific_property_relations"] == 63
+    expression = C["nonzero-scalar-self-division"], V.containsSymbol, C["scalar-division"]
+    former = C["nonzero-scalar-self-division"], V.uses, C["scalar-division"]
+    assert expression in graph and former not in graph
+    assert (statement_for(expression), PROV.wasRevisionOf, statement_for(former)) in prov
     assert not list(prov.subjects(DCTERMS.references, URIRef("http://www.openmath.org/cd/set1#notsubset")))
 
 
