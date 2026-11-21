@@ -1,0 +1,307 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:sorting-problem a skos:Concept ; skos:prefLabel "Sorting problem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms ;
+    skos:definition "Given a finite sequence of comparable records and an ordering on their keys, produce a permutation arranged by that ordering."@en .
+
+c:stable-sort-order a skos:Concept ; skos:prefLabel "Preservation of tie order in sorting"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms ;
+    skos:definition "Records whose keys compare equal keep their relative input order in the output."@en .
+
+c:substring-search-problem a skos:Concept ; skos:prefLabel "Exact substring search problem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms ;
+    skos:definition "Given a pattern and a text over an alphabet, locate an occurrence of the pattern or determine that it is absent."@en .
+
+c:scc-decomposition-problem a skos:Concept ; skos:prefLabel "Strongly connected component decomposition problem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms ;
+    skos:definition "Partition the vertices of a directed graph into maximal sets of mutually reachable vertices."@en .
+
+c:maximum-bipartite-matching-problem a skos:Concept ; skos:prefLabel "Maximum bipartite matching problem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms ;
+    skos:definition "Find a maximum-cardinality matching in a bipartite graph."@en .
+
+c:range-sum-query a skos:Concept ; skos:prefLabel "Range sum query"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures ;
+    skos:definition "Given a numeric indexed sequence and a valid interval of indices, return the sum of the entries in the interval."@en .
+
+c:rank-in-ordered-set a skos:Concept ; skos:prefLabel "Rank query in an ordered key set"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures ;
+    skos:definition "Return the number of stored keys strictly less than the query key."@en .
+
+c:string-keyed-dictionary a skos:Concept ; skos:prefLabel "String-keyed dictionary"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures ;
+    skos:definition "An associative data type with strings as keys and lookup, insertion and deletion operations."@en .
+
+c:ordered-dictionary a skos:Concept ; skos:prefLabel "Ordered dictionary"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures ;
+    skos:definition "An associative data type whose total key order supports order-sensitive queries as well as lookup."@en .
+
+c:all-pairs-shortest-paths a skos:Concept ; skos:prefLabel "All-pairs shortest path problem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms ;
+    skos:definition "Find shortest-path distances between all ordered vertex pairs, where finite distances require absence of relevant negative cycles."@en .
+
+c:princeton-dijkstra-implementation a skos:Concept ; skos:prefLabel "Princeton indexed-priority-queue Dijkstra implementation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms ;
+    skos:definition "The Java Algorithms, fourth edition, implementation of single-source Dijkstra using an indexed minimum priority queue."@en .
+
+c:indexed-min-priority-queue a skos:Concept ; skos:prefLabel "Indexed minimum priority queue"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:priority-queue ;
+    skos:definition "A minimum priority queue with integer handles, including key updates for an existing handle."@en .
+
+c:princeton-nfa-regex-matcher a skos:Concept ; skos:prefLabel "Princeton NFA regular expression matcher"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:automata-theory ;
+    skos:definition "A Java matcher for the implementation's supported regular-expression syntax, using epsilon transitions and reachability."@en .
+
+c:basic-string-regular-expression a skos:Concept ; skos:prefLabel "Regular expression over an alphabet"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:automata-theory ;
+    skos:definition "An expression denoting a regular language via symbols, union, concatenation and finite iteration."@en .
+
+c:lexicographic-key-order a skos:Concept ; skos:prefLabel "Lexicographic order on strings"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures ;
+    skos:definition "Compare strings by the first differing symbol, with a proper prefix preceding its extensions."@en .
+
+c:supervised-classification-problem a skos:Concept ; skos:prefLabel "Supervised classification problem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning ;
+    skos:definition "Use labeled training observations to learn a rule that assigns a class label to new observations."@en .
+
+c:within-cluster-squared-distance a skos:Concept ; skos:prefLabel "Within-cluster sum of squares"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning ;
+    skos:definition "Sum, over clusters, of squared Euclidean distances from assigned observations to the cluster center."@en .
+
+c:data-clustering-problem a skos:Concept ; skos:prefLabel "Data clustering problem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning ;
+    skos:definition "Partition or otherwise group observations according to a stated similarity or objective without supplied class labels."@en .
+
+c:agglomerative-linkage a skos:Concept ; skos:prefLabel "Agglomerative linkage criterion"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning ;
+    skos:definition "A rule giving the dissimilarity between two clusters during bottom-up hierarchical clustering."@en .
+
+c:binary-hypothesis-classifier a skos:Concept ; skos:prefLabel "Binary classifier"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning ;
+    skos:definition "A classifier choosing between two class labels."@en .
+
+c:margin-maximization a skos:Concept ; skos:prefLabel "Maximum-margin classification objective"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning ;
+    skos:definition "The objective of separating classes while maximizing a geometric margin, subject to the chosen hard- or soft-margin constraints."@en .
+
+c:unweighted-shortest-paths a skos:Concept ; skos:prefLabel "Single-source unweighted shortest path problem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms ;
+    skos:definition "Find paths with a minimum number of edges from a source vertex to each reachable vertex."@en .
+
+c:integer-factor-search a skos:Concept ; skos:prefLabel "Nontrivial integer factor search"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms ;
+    skos:definition "For a composite positive integer, find a divisor strictly between one and the integer."@en .
+
+c:linear-congruence-inversion a skos:Concept ; skos:prefLabel "Modular multiplicative inverse computation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms ;
+    skos:definition "For a residue coprime to a modulus greater than one, find the residue whose product with it is one modulo the modulus."@en .
+
+c:substring-indexing-query a skos:Concept ; skos:prefLabel "Substring occurrence query on indexed text"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures ;
+    skos:definition "Given a query pattern and an index for a fixed text, determine whether the pattern occurs, or locate its occurrences."@en .
+
+c:suffix-language-of-a-string a skos:Concept ; skos:prefLabel "Suffix language of a fixed string"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:automata-theory ;
+    skos:definition "The finite language consisting of all suffixes of a fixed string, including the empty suffix under the usual convention."@en .
+
+c:extended-gcd-modular-inverse a skos:Concept ; skos:prefLabel "Modular inversion by extended Euclid"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms ;
+    skos:definition "Compute a Bézout coefficient for a residue and a coprime modulus, then reduce that coefficient modulo the modulus."@en .
+
+c:depth-first-topological-sort a skos:Concept ; skos:prefLabel "Depth-first topological sorting"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms ;
+    skos:definition "On a directed acyclic graph, order vertices by reverse finishing time in a depth-first traversal."@en .
+
+c:nearest-neighbor-query a skos:Concept ; skos:prefLabel "Nearest neighbor query"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures ;
+    skos:definition "Find data items with least dissimilarity to a query point under a specified distance measure."@en .
+
+c:bagging-resampled-ensemble a skos:Concept ; skos:prefLabel "Bootstrap-aggregated predictor"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning ;
+    skos:definition "Fit predictors to independent bootstrap samples of the training data and aggregate their predictions."@en .
+
+c:normalized-graph-spectral-embedding a skos:Concept ; skos:prefLabel "Normalized graph spectral embedding"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning ;
+    skos:definition "Represent graph vertices by coordinates from a low-dimensional eigenspace of an appropriate normalized graph Laplacian."@en .
+
+c:sparse-feature-vector a skos:Concept ; skos:prefLabel "Sparse feature vector"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning ;
+    skos:definition "A feature vector represented by its dimensionality and its nonzero feature values with their indices."@en .
+
+c:kernel-support-vector-machine a skos:Concept ; skos:prefLabel "Kernel support vector machine"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:support-vector-machine ;
+    skos:definition "A support vector method using a positive-semidefinite kernel to evaluate feature-space inner products without explicitly storing the feature map."@en .
+
+c:perceptron-binary-training a skos:Concept ; skos:prefLabel "Binary perceptron training procedure"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning ;
+    skos:definition "Fit a linear classification rule through updates on incorrectly classified labeled observations."@en .
+
+c:multilayer-perceptron-gradient-training a skos:Concept ; skos:prefLabel "Gradient training for a multilayer perceptron"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning ;
+    skos:definition "Fit the network parameters by computing loss gradients through the layered model and applying the chosen optimizer."@en .
+
+c:kmeans-global-optimality a skos:Concept ; skos:prefLabel "Global optimality of a k-means partition"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:machine-learning ;
+    skos:definition "The within-cluster squared-error objective attains its minimum among all partitions with the stated number of centers."@en .
+
+c:database-equality-lookup a skos:Concept ; skos:prefLabel "Equality lookup on an indexed key"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases ;
+    skos:definition "Find table entries whose indexed key is equal to a specified value."@en .
+
+c:database-range-lookup a skos:Concept ; skos:prefLabel "Range lookup on an ordered key"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases ;
+    skos:definition "Find table entries whose indexed key lies in the specified ordered range."@en .
+
+c:postgres-btree-index a skos:Concept ; skos:prefLabel "PostgreSQL B-tree index"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases ;
+    skos:definition "An ordered PostgreSQL index access method supporting ordered retrieval and appropriate equality and range conditions."@en .
+
+c:postgres-hash-index a skos:Concept ; skos:prefLabel "PostgreSQL hash index"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases ;
+    skos:definition "A PostgreSQL hash access method for equality conditions on applicable indexed keys."@en .
+
+c:postgres-query-planner a skos:Concept ; skos:prefLabel "PostgreSQL cost-based query planner"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:query-optimization ;
+    skos:definition "The documented planner estimates costs using data statistics and compares plans for a relational query."@en .
+
+c:optimizer-cardinality-estimate a skos:Concept ; skos:prefLabel "Query-plan cardinality estimate"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases ;
+    skos:definition "An estimate of the number of rows produced by a specified query operation or intermediate plan."@en .
+
+c:postgres-repeatable-read a skos:Concept ; skos:prefLabel "PostgreSQL repeatable-read isolation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases ;
+    skos:definition "PostgreSQL transaction isolation using a snapshot from the first non-control statement, with concurrent update behavior defined in its manual."@en .
+
+c:transaction-visibility-snapshot a skos:Concept ; skos:prefLabel "Transaction visibility snapshot"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases ;
+    skos:definition "The snapshot defining which row versions can be seen by a query within its transaction isolation context."@en .
+
+c:postgres-mvcc a skos:Concept ; skos:prefLabel "PostgreSQL multiversion concurrency control"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases ;
+    skos:definition "The PostgreSQL scheme that presents transactions with snapshots over row versions to manage concurrent access."@en .
+
+c:write-ahead-log a skos:Concept ; skos:prefLabel "Write-ahead log"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:databases ;
+    skos:definition "A sequence of recovery records persisted before the associated data updates are made durable."@en .
+
+c:postgres-log-shipping-replication a skos:Concept ; skos:prefLabel "PostgreSQL write-ahead-log shipping"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:distributed-computing ;
+    skos:definition "Replay write-ahead log records from a primary database on a standby to replicate changes."@en .
+
+c:llvm-ir a skos:Concept ; skos:prefLabel "LLVM intermediate representation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages ;
+    skos:definition "LLVM's typed intermediate representation of programs using static single assignment form."@en .
+
+c:static-single-assignment-form a skos:Concept ; skos:prefLabel "Static single assignment form"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages ;
+    skos:definition "An intermediate representation in which each named value has one definition, with joins represented by an explicit value-selection construct."@en .
+
+c:program-control-flow-graph a skos:Concept ; skos:prefLabel "Program control-flow graph"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering ;
+    skos:definition "A directed representation of possible transfers of control between program locations or basic blocks."@en .
+
+c:basic-block-transfer a skos:Concept ; skos:prefLabel "Control transfer between basic blocks"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages ;
+    skos:definition "Transfer of execution from one basic block to another according to a function's terminators."@en .
+
+c:llvm-cfg-printer a skos:Concept ; skos:prefLabel "LLVM control-flow graph printer"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:static-program-analysis ;
+    skos:definition "The LLVM analysis pass that emits a graphical representation of a function's control flow."@en .
+
+c:llvm-loop-invariant-code-motion a skos:Concept ; skos:prefLabel "LLVM loop-invariant code motion"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages ;
+    skos:definition "The LLVM pass moving eligible computations or memory accesses out of a loop under its invariance and safety conditions."@en .
+
+c:llvm-alias-analysis a skos:Concept ; skos:prefLabel "LLVM pointer alias analysis"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:static-program-analysis ;
+    skos:definition "LLVM's analysis interface for possible overlap between memory locations."@en .
+
+c:pointer-aliasing a skos:Concept ; skos:prefLabel "Pointer aliasing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages ;
+    skos:definition "The possibility that two memory references overlap or refer to the same storage."@en .
+
+c:llvm-memory-dependence-analysis a skos:Concept ; skos:prefLabel "LLVM memory dependence analysis"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:static-program-analysis ;
+    skos:definition "The LLVM analysis querying which prior memory operations may define or clobber a later operation."@en .
+
+c:program-memory-dependence a skos:Concept ; skos:prefLabel "Dependence between program memory operations"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages ;
+    skos:definition "An ordering relation between potentially conflicting memory operations on overlapping storage."@en .
+
+c:llvm-dead-code-elimination a skos:Concept ; skos:prefLabel "LLVM dead-code elimination"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages ;
+    skos:definition "The LLVM transformation deleting instructions that are dead according to its use and side-effect analysis."@en .
+
+c:unused-side-effect-free-llvm-instruction a skos:Concept ; skos:prefLabel "Removable unused LLVM instruction"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages ;
+    skos:definition "An unused LLVM instruction with no observable side effect and for which removal preserves the program's semantics."@en .
+
+c:optimizing-llvm-pass-pipeline a skos:Concept ; skos:prefLabel "LLVM optimizing pass pipeline"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages ;
+    skos:definition "The compiler framework for sequencing LLVM analysis and transformation passes."@en .
+
+c:raft-consensus a skos:Concept ; skos:prefLabel "Raft consensus algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:distributed-consensus ;
+    skos:definition "A leader-based consensus algorithm that replicates log entries using terms, election votes and majority confirmation."@en .
+
+c:raft-tla-specification a skos:Concept ; skos:prefLabel "Raft TLA+ specification"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-specification ;
+    skos:definition "Diego Ongaro's state-transition specification of Raft message, log and leadership behavior."@en .
+
+c:raft-replicated-log a skos:Concept ; skos:prefLabel "Raft replicated log"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:state-machine-replication ;
+    skos:definition "An ordered sequence of term-tagged client entries maintained by the Raft servers."@en .
+
+c:raft-majority-quorum a skos:Concept ; skos:prefLabel "Raft majority quorum"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:distributed-consensus ;
+    skos:definition "A set containing strictly more than half of the voters in the fixed configuration described by the specification."@en .
+
+c:hmac-message-authentication a skos:Concept ; skos:prefLabel "HMAC message authentication"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:cryptography ;
+    skos:definition "Message authentication by a keyed construction built from a cryptographic hash function."@en .
+
+c:message-authentication-code a skos:Concept ; skos:prefLabel "Message authentication code"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:cryptography ;
+    skos:definition "A tag computed from a message and a shared key to permit an authenticity check."@en .
+
+c:ecdsa-digital-signature a skos:Concept ; skos:prefLabel "Elliptic Curve Digital Signature Algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:cryptography ;
+    skos:definition "The elliptic-curve digital-signature scheme defined by the applicable standard."@en .
+
+c:sha256-hash a skos:Concept ; skos:prefLabel "SHA-256 hash algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:cryptographic-hash-function ;
+    skos:definition "A standardized fixed-output cryptographic hash function with a 256-bit digest."@en .
+
+c:go-sha256-implementation a skos:Concept ; skos:prefLabel "Go SHA-256 implementation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:cryptography ;
+    skos:definition "The Go standard-library implementation of the SHA-256 digest specification."@en .
+
+c:nfa-subset-construction a skos:Concept ; skos:prefLabel "Subset construction for nondeterministic automata"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:automata-theory ;
+    skos:definition "Construct a deterministic automaton whose states are subsets of the original automaton's finite state set."@en .
+
+c:nfa-dfa-language-preservation a skos:Concept ; skos:prefLabel "Language preservation under subset construction"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:automata-theory ;
+    skos:definition "For each finite NFA, its subset-construction DFA recognizes the same language."@en .
+
+c:quadratic-comparison-bound a skos:Concept ; skos:prefLabel "Quadratic comparison count"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory ;
+    skos:definition "The number of comparisons is bounded above and below by constant multiples of n squared in the indicated worst-case regime."@en .
+
+c:cubic-vertex-time a skos:Concept ; skos:prefLabel "Cubic time in the vertex count"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computational-complexity-theory ;
+    skos:definition "The implementation performs worst-case work bounded by a constant multiple of the cube of the vertex count under constant-time operations."@en .
+
+c:pca-dimensionality-reduction a skos:Concept ; skos:prefLabel "Principal-component dimensionality reduction"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:opencs-c9538 ;
+    skos:definition "Project observations onto a selected subset of their principal components."@en .
+
+c:dijkstra-all-pairs-repeated a skos:Concept ; skos:prefLabel "All-pairs shortest paths by repeated Dijkstra"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms ;
+    skos:definition "For an edge-weighted digraph with nonnegative weights, run single-source Dijkstra from each vertex."@en .
+
+c:functional-gradient-step a skos:Concept ; skos:prefLabel "Gradient step in function space"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:gradient-descent ;
+    skos:definition "A stagewise change to a prediction function in a direction chosen using the derivative of its loss."@en .

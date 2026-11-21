@@ -34,3 +34,23 @@ the inventory. Add `--export .cache/mathlib-declarations.jsonl` for a
 local searchable index. Reviewed canonical claims use separate declaration
 ranges. A small set of source spellings is replayed within those reviewed
 proof fragments and published as textual proof references.
+
+## Kernel probe in v0.8.0
+
+A separate probe compiles two local theorem fixtures against Lean 4.36.0.
+The toolchain archive SHA-256 and commit are recorded in the probe
+ledger. The extractor reads the checked environment and exports the
+pretty-printed elaborated type, direct constants from the type, direct
+constants from the proof term, and transitive axioms. It rejects a
+dependency on `sorryAx`. The Boolean fixture adds separate provenance to
+the existing De Morgan property.
+
+```sh
+python -m pipeline.cli replay-lean-probe --lean /path/to/pinned/lean
+```
+
+This probe covers the local fixtures and imported Lean core declarations.
+Mathlib source-module imports, parsed source headers, and reviewed
+Mathlib declaration passages remain separate evidence categories. A
+request for the Mathlib compiled-object cache returned HTTP 403 in the
+release workspace. [Toolchain and probe report](../../reviews/formal-properties/lean-kernel-probe.json)

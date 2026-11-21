@@ -9,8 +9,8 @@ c:congruence-closure-decision-procedure v:uses c:equality-uninterpreted-function
 c:congruence-closure-decision-procedure v:computes c:congruence-closure .
 c:resolution-logic v:uses c:most-general-unifier .
 c:critical-pair v:uses c:most-general-unifier .
-c:rewriting-newman-lemma v:requiresAssumption c:rewriting-termination .
-c:rewriting-newman-lemma v:requiresAssumption c:rewriting-local-confluence .
+c:rewriting-newman-lemma v:requiresPremise c:rewriting-termination .
+c:rewriting-newman-lemma v:requiresPremise c:rewriting-local-confluence .
 c:cut-elimination v:uses c:sequent-calculus .
 c:cut-elimination v:uses c:cut-rule .
 c:cut-rule v:uses c:sequent .

@@ -2,4 +2,4 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
 
-c:vandermonde-convolution v:uses c:binomial-coefficient .
+c:vandermonde-convolution v:containsSymbol c:binomial-coefficient .

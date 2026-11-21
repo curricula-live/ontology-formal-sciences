@@ -151,3 +151,42 @@ Every scientific edge can contribute once to each applicable evidence-type
 or source cohort. The full scientific and evidence-backed views deduplicate
 the edges. The manifest includes per-predicate evidence counts, participation
 by scheme and evidence-backed component-size distributions.
+
+## v0.8.0 primary computing passages
+
+The evidence ledger combines immutable repository revisions, whole-file
+SHA-256 values, exact line ranges and passage hashes. Each judgment names
+the canonical subject and target, gives the scientific scope and retains
+its approval or rejection. The file and license notice remain available
+at the cited revision. The public package contains source anchors and
+reviewed scientific descriptions. Source code and prose from the upstream
+passages stay in the local content-addressed replay cache.
+
+```sh
+python -m pipeline.cli replay-cs-evidence
+python -m pipeline.cli replay-cs-evidence --offline
+```
+
+The cohorts cover algorithms and data structures, complexity bounds,
+formal languages, numerical and statistical learning, program analysis,
+database methods, distributed agreement, and information security
+primitives. OpenCS identities come from the pinned subject registry and
+individual evidence. CSO equivalents come from previously audited source
+witnesses. Topic neighbors guide review. Each scientific claim has its
+own passage, even when both endpoints are linked by the original topic
+hierarchy.
+
+| Relation role | Example |
+| --- | --- |
+| `containsSymbol` | An OpenMath expression contains scalar multiplication. |
+| `uses` | Dijkstra's indexed-queue implementation uses an indexed priority queue. |
+| `invokesAlgorithm` | DPLL invokes unit propagation. |
+| `requiresPremise` | Knaster–Tarski requires a complete lattice and a monotone self-map. |
+| `hasModelingAssumption` | Naive Bayes assumes conditional feature independence given the class. |
+| `implementsAlgorithm` and `executesImplementation` | The first connects executable method and abstract algorithm. The second connects a workflow run to its executable implementation. |
+| `analyzes` | LLVM alias analysis examines possible overlap of memory locations. |
+| `supportsOperation` | PostgreSQL's B-tree access method supports range comparisons on ordered indexed keys. |
+
+The manifest reports expression connectivity separately. Its computing
+family counts use memberships under selected domain headings and may overlap.
+Specific scientific counts use only the canonical scientific assertions.

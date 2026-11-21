@@ -1,0 +1,151 @@
+{
+  "algs4": {
+    "attribution": "Robert Sedgewick and Kevin Wayne, Algorithms, fourth edition",
+    "files": {
+      "LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+      "src/main/java/edu/princeton/cs/algs4/AmericanFlag.java": "433418bb2949ac3e5ee457899e4d968500afd18453a81e38607c967ec5df182a",
+      "src/main/java/edu/princeton/cs/algs4/BST.java": "d2d5193e59970c44356c9d0516bcc2d9c057559798f59486b45cf1edb8cc1b3f",
+      "src/main/java/edu/princeton/cs/algs4/BellmanFordSP.java": "4c549c1d856e32ca539ecbfe41b53461b87d2e8552b3225664ee50da1900b3d6",
+      "src/main/java/edu/princeton/cs/algs4/BinarySearch.java": "c352c2c02e5fc5b1bd5eb378fece23e0ddce7c6b3310eebf956d279fd47da477",
+      "src/main/java/edu/princeton/cs/algs4/BoruvkaMST.java": "2e2ee919422df478c5229c15b9ea9cff0b4baca3223810309fee8c76187865fe",
+      "src/main/java/edu/princeton/cs/algs4/BoyerMoore.java": "cf776f2aa94c5a0a4cb3bbe3a5766b78c57e97d8e520c57a8e625c980ef913a1",
+      "src/main/java/edu/princeton/cs/algs4/BreadthFirstDirectedPaths.java": "2c0c2d06afc99ddba43580ae929e22f0e8c478226ea9e8dc7282a2fdd92c8d5b",
+      "src/main/java/edu/princeton/cs/algs4/DijkstraAllPairsSP.java": "524dbac47ca23653b05233742e457e4fee66cae60e41393476ae035e43a06c12",
+      "src/main/java/edu/princeton/cs/algs4/DijkstraSP.java": "35eeeb48becc1bbecfb9b48b5b4ba0539581a0d6bb02b79a35c56bee0f09ee73",
+      "src/main/java/edu/princeton/cs/algs4/FenwickTree.java": "3b70e056773bcb5721066c41505d9d7e6af28dcb7ff4b93a7dc98ed4db26f648",
+      "src/main/java/edu/princeton/cs/algs4/FloydWarshall.java": "cc4f7a0b6b179303ae5db4beb32f5773d278a5fa21929d274269926fbe60d0dd",
+      "src/main/java/edu/princeton/cs/algs4/FordFulkerson.java": "32e693437261622c4e2def8076c4698baae4042411313a19267d688def7ef60f",
+      "src/main/java/edu/princeton/cs/algs4/GabowSCC.java": "2d7b939afd06025a81d4199f33da54220300d97c3a5642d743987fc65aa6be32",
+      "src/main/java/edu/princeton/cs/algs4/HopcroftKarp.java": "2b426292c9d4429a5c4292d6cdb5f51da301569154343c500c978babefacd438",
+      "src/main/java/edu/princeton/cs/algs4/Huffman.java": "f1005a06f339f1057920a1232b5dcb65674de2d27b92e93e31a67d3d6baf24db",
+      "src/main/java/edu/princeton/cs/algs4/IndexMinPQ.java": "527f24763bbf20a875e607253b24d23aab80b9dc31b2762de05561faaf7653f6",
+      "src/main/java/edu/princeton/cs/algs4/Insertion.java": "8875dac623a70197f23744baad7e677f3522ebb50fef7b3cb834ac692f0d2c12",
+      "src/main/java/edu/princeton/cs/algs4/KMP.java": "cc30688099d7a430a2ee936958ac0286c4056b1dce06d2664987cf3e5a76a381",
+      "src/main/java/edu/princeton/cs/algs4/KruskalMST.java": "d6fa1ee1362217b4caf57ff7e6d043cdd32b4e69edc85a28b997703451932742",
+      "src/main/java/edu/princeton/cs/algs4/LSD.java": "65e795b8415ba6cd33620b678d35906a3fd93a545236a545de3f456495105eee",
+      "src/main/java/edu/princeton/cs/algs4/Merge.java": "7aeaca1216a8101c72134f187de3ca3c04c4f82250c24e39c31a3799cdd4e3fe",
+      "src/main/java/edu/princeton/cs/algs4/MinPQ.java": "db3b987cc31e230e6c4343a3019cbd1607c8284ea07839d0af174639f8030b1f",
+      "src/main/java/edu/princeton/cs/algs4/NFA.java": "d0bc697223f34d9040e0d84866ffbcc2d359229ce07921354c543045e608ef00",
+      "src/main/java/edu/princeton/cs/algs4/PrimMST.java": "8aa08661bafb6b1b45799a947ea604b97cab27b9bdeec7fcb14805b665c158ac",
+      "src/main/java/edu/princeton/cs/algs4/RabinKarp.java": "accbc4223a2f976318d1ccfe2e0e40622f75cdd23c2d458f627b43e7eea44788",
+      "src/main/java/edu/princeton/cs/algs4/RedBlackBST.java": "276012f111f45154b856ef1b077f63bf953744d387c9e933566f722973ccdcd3",
+      "src/main/java/edu/princeton/cs/algs4/Selection.java": "ed40a8a4982e8e26427a1d3d464233f9cc308f2cad958b0c2692703141f3cbaf",
+      "src/main/java/edu/princeton/cs/algs4/TST.java": "75efe233d8104e768ed570f675192fb78afa447762ecd20bc6d00fad657779eb",
+      "src/main/java/edu/princeton/cs/algs4/TarjanSCC.java": "42c543302dde1e66f403b5c42958a1d0411cde00d5a93c152e1abc442671a6f3",
+      "src/main/java/edu/princeton/cs/algs4/TrieST.java": "e93bb19cc3474b3050415dee1c6fef364adaad4d567bac27d05d44f9589f9384"
+    },
+    "license_path": "LICENSE",
+    "repository": "kevin-wayne/algs4",
+    "revision": "7bb62c32f03fec900f0cc796a548ab992feffe4e",
+    "rights": "GPL-3.0 source; algorithm facts and passage fingerprints"
+  },
+  "cpalgs": {
+    "attribution": "Algorithms for Competitive Programming contributors",
+    "files": {
+      "LICENSE": "bae5ccc863235f984a52c07d011e48a86c0c12f923be2dedd8624c7abdc22c6c",
+      "src/algebra/extended-euclid-algorithm.md": "fe35da26490ce4125611f7a964cc786ddd1de8fd54e911a37db2bf330679f772",
+      "src/algebra/factorization.md": "f38798102b637455b99e61e1d9bcde15bf7a8d2686ed5402b1bee172c9b19be3",
+      "src/algebra/module-inverse.md": "3a65093ef05a086fa9b52601fbc6017ddd6765c7acf129022b54938cd910ad4f",
+      "src/data_structures/disjoint_set_union.md": "66276bff9758574588d97926c3e15d72b2d2b816efc9e2585197c0e10bf7ab27",
+      "src/data_structures/segment_tree.md": "8fe853c35bfebc348d140d6fe8571712af75a1bbd96b0a87332633f508d826aa",
+      "src/graph/2SAT.md": "f76cd2b9de2c2cc2722f706a0bf440e5b4a125927efa7689b0e6bdf77547a37a",
+      "src/graph/bellman_ford.md": "2e6c2557d32e12072152cc8b93468066d959be0d662c493a77399057944d29dd",
+      "src/graph/dinic.md": "5f0b60f22161f8c13475ff4a17277bbe4938e647d638ee07feec4bc92e61741f",
+      "src/graph/edmonds_karp.md": "72b09fb4bc68b065d9b1052e9518ca8ed2cd8f2f5044ef47ae4da8385f5c461b",
+      "src/graph/kuhn_maximum_bipartite_matching.md": "10446c13f311d5accf9b2cf986f7c121b002c3e0f32bdf5dc411f6d9f963fb8d",
+      "src/graph/mst_kruskal_with_dsu.md": "53383362270eba1adc5ef53b10d31ea818d310686f937612326b37562e44a6e3",
+      "src/graph/mst_prim.md": "dd2610a096174f753abbe208ba7e33e25d72db69d87efe352b110eb105514bbf",
+      "src/graph/strongly-connected-components.md": "aa436123f19cd85053fd02bab2d08a750d6097fbbe622781af73d363ccded56a",
+      "src/graph/topological-sort.md": "1a77f0a8b2e2ca7998da4bfb0252564b9f8af7d2aa41d18873ca136474743d22",
+      "src/string/prefix-function.md": "df056c4a7c3b46d7aaaba17d7a9c3367cffd3f4841f1d0db0a512791933251c1",
+      "src/string/suffix-array.md": "a6bdc7d560e1c41cfe74351e78b2cd73564eef2e0fae784c6a64ecdfc730b034",
+      "src/string/suffix-automaton.md": "6a2640372afc19e1853017ceebcb8ceca99d1cc819987f35efc416c0406baa59"
+    },
+    "license_path": "LICENSE",
+    "repository": "cp-algorithms/cp-algorithms",
+    "revision": "9392ad98aabadd2bc2feab65b91881918dfe560e",
+    "rights": "CC-BY-SA-4.0"
+  },
+  "go": {
+    "attribution": "The Go Authors",
+    "files": {
+      "LICENSE": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "src/crypto/ecdsa/ecdsa.go": "59762b66c9f6893648ce2407a30e124590e8419cadd8a6d48961bc13490bcc7f",
+      "src/crypto/hmac/hmac.go": "14415e61cdbfadae7b7ad0fb40308cfdb747d2671a6e82a2e6c509073c246fb1",
+      "src/crypto/internal/fips140/rsa/rsa.go": "e217becaad834f1d382d032a4f7b027d428a8584604623c413a869917b717e0b",
+      "src/crypto/sha256/sha256.go": "34c5c7e8408022e7b8fd570453aebe6a95607761c14fbae61f465f9ba6328da9"
+    },
+    "license_path": "LICENSE",
+    "repository": "golang/go",
+    "revision": "7f36edc26d4e3becb6d9c9008ff00f260bb19055",
+    "rights": "BSD-3-Clause"
+  },
+  "llvm": {
+    "attribution": "LLVM Project contributors",
+    "files": {
+      "LICENSE.TXT": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee",
+      "llvm/docs/AliasAnalysis.rst": "155904f52cbcd608be03f93a320da0d58e026843d053a0677444fe8223cfd678",
+      "llvm/docs/LangRef.rst": "7a25359817edc9738ff0694ab566df87a47692448cce1eb80866ff598f1c025f",
+      "llvm/docs/Passes.rst": "870a44473bbb076b5c23f0b23811e5acd1bf860728101ab700945d5495b10979"
+    },
+    "license_path": "LICENSE.TXT",
+    "repository": "llvm/llvm-project",
+    "revision": "87f0227cb60147a26a1eeb4fb06e3b505e9c7261",
+    "rights": "Apache-2.0 WITH LLVM-exception"
+  },
+  "mathlib4": {
+    "attribution": "The mathlib community",
+    "files": {
+      "LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "Mathlib/Computability/NFA.lean": "e9adad07dc55a7f0902bb3b3c946fa9bf4946cb157edeb5eb4de1038b47dbd9d"
+    },
+    "license_path": "LICENSE",
+    "repository": "leanprover-community/mathlib4",
+    "revision": "35f494609c32653bae53eb33f0cf2d899808909a",
+    "rights": "Apache-2.0"
+  },
+  "postgres": {
+    "attribution": "PostgreSQL Global Development Group",
+    "files": {
+      "COPYRIGHT": "e3822c4797fadcab31a3fc73f75c28ac20c73d72b565da91e9974cf9398ef4d2",
+      "doc/src/sgml/high-availability.sgml": "c793877faff046c419aef213ae148238f3e21ea81b0a2d8bbb4648bb0bf1d4b3",
+      "doc/src/sgml/indices.sgml": "9c7cde42046310cb942190d3b73c24bcf886d755f5415119554c247f52de307b",
+      "doc/src/sgml/mvcc.sgml": "b0dafb2a3fd2d9204deb075ed2cb2d74b6496523bb5d4867a2f4a3d9758a6314",
+      "doc/src/sgml/perform.sgml": "f174f56a473afdf17d4297fda681952bd1cac37e9fb4830fc3e6352890432dba"
+    },
+    "license_path": "COPYRIGHT",
+    "repository": "postgres/postgres",
+    "revision": "f8554dee417ffc4540c94cf357f7bf7d4b6e5d80",
+    "rights": "PostgreSQL License"
+  },
+  "raft": {
+    "attribution": "Diego Ongaro, Raft TLA+ specification",
+    "files": {
+      "raft.tla": "2cf54dbedc5d81f3b108596a24644279a3bbc94cc0980108ee51590c7461cc3b"
+    },
+    "license_path": "raft.tla",
+    "repository": "ongardie/raft.tla",
+    "revision": "6ecbdbcf1bcde2910367cdfd67f31b0bae447ddd",
+    "rights": "CC-BY-4.0 (embedded source notice)"
+  },
+  "sklearn": {
+    "attribution": "The scikit-learn developers",
+    "files": {
+      "COPYING": "75684d16f4662ab842ed5af9482ac01939aee83c8243d89993616d959d3053f8",
+      "doc/modules/clustering.rst": "c7537ec4ac5aa11b0563fdcfd96634fa404abac43aa13be092130db87ede8eb8",
+      "doc/modules/decomposition.rst": "9513eded4e40057ac998fc70440d68ee3262af8a564e0c1f04b097182aba3072",
+      "doc/modules/ensemble.rst": "ef2a89d06ed930538909d080cc4015539dedd65a68f60de5e096bde62a884470",
+      "doc/modules/feature_extraction.rst": "dbd56d28a985ee7bb003a2be835dc3f31be5f359d907ddd89b7090b841db41ac",
+      "doc/modules/linear_model.rst": "ceb4e1245313ff74ef16a674c9bbea901ca162b49ef16ad5661b9802a1e4d33b",
+      "doc/modules/naive_bayes.rst": "b89f7aa11764360690e7611170e2f46264bc9faa826de618de5f74ef8a2e7ae1",
+      "doc/modules/neighbors.rst": "b4487cc4e487844883197558c5aa155fc3930014a7dab84d428395f57f41e514",
+      "doc/modules/neural_networks_supervised.rst": "0c497ead0b69885e2573906d9042aac8372c91e1f14b3728bfee13980580e184",
+      "doc/modules/svm.rst": "c67cc2353a92624c036561424a2bfd1945020b0a9172a0c15e5c0047cd7af686",
+      "doc/modules/tree.rst": "1851790f78abc86ebfb062184602e9a023fa85e44e09acbe5ac7021f8fbaa80b"
+    },
+    "license_path": "COPYING",
+    "repository": "scikit-learn/scikit-learn",
+    "revision": "25dee604bae18205b01548348388baf7a1cdfe0e",
+    "rights": "BSD-3-Clause"
+  }
+}

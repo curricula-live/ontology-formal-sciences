@@ -150,7 +150,7 @@ c:opencs-c44390 a skos:Concept ; skos:prefLabel "HAT-trie"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
 
 c:opencs-c44766 a skos:Concept ; skos:prefLabel "Feature hashing"@en ;
-    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+    skos:inScheme scheme:computer-science ; skos:broader c:opencs-c2801 .
 
 c:opencs-c45081 a skos:Concept ; skos:prefLabel "Hash trie"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:data-structures .

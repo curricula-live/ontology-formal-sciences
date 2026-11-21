@@ -52,3 +52,5 @@ c:edge-relaxation a skos:Concept ; skos:prefLabel "Edge relaxation"@en ;
     skos:definition "A shortest-path update that compares the current distance estimate with the estimate obtained by extending a path across one edge."@en .
 
 c:bellman-ford-algorithm skos:definition "A single-source algorithm that relaxes edges to obtain finite shortest-path distances to reachable vertices when no negative-weight cycle is reachable from the source. An additional relaxation pass can detect such a cycle."@en .
+
+c:minimum-spanning-tree-problem skos:definition "Find a spanning tree of minimum total weight in a connected, weighted, undirected graph."@en .

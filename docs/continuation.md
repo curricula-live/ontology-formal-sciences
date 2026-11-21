@@ -179,3 +179,33 @@ The local manifest also records source-specific gaps.
 - Finish source acquisitions and rights verification for OntoMathEdu,
   ACM CCS and DMOP. Retain quantified OWL meaning and native identifiers
   in source review. Continue benchmark work before million-triple releases.
+
+## 0.8.0 completed scope
+
+Primary passage review connects algorithms, mathematical structures and
+scoped software artifacts using eight pinned source corpora. Computer
+science participation increased from 61 of 1,051 subjects to 192 of
+1,127. Within the existing 1,051-subject cohort, 118 now participate.
+The OpenCS classification for feature hashing was corrected with its
+native identity and canonical IRI preserved.
+
+The release has 653 specific scientific assertions, including 639 with
+evidence. With current relation roles, the v0.7.0 comparison population
+has 528 scientific assertions. Formula occurrences now form a separate
+relation layer. Provenance preserves the 167 superseded OpenMath
+interpretations and the other editorial relation corrections. The
+largest evidence-backed component has 69 nodes. With the current relation
+roles applied to both versions, evidenced cross-scheme edges increased
+from 72 to 91.
+
+The stratified review covers all four domains and several evidence and
+admission methods. A pinned Lean prototype separates elaborated types
+from actual proof-term references for two local theorem fixtures.
+[Mathlib scope](../sources/mathlib4/README.md) · [v0.8.0 audit](semantic-audit-v0.8.md)
+
+Of the 1,127 computing subjects, 935 still lack specific scientific
+relations. Compilation, distributed systems, and software-engineering
+topics remain priorities for precise source-backed coverage. The CSO
+snapshot and Mathlib compiled-object cache remain blocked locally.
+The layered scientific metrics and separate formula counts support
+coverage comparisons across future releases.

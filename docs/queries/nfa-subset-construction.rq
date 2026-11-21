@@ -1,0 +1,21 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT ?nfa ?dfa ?structure ?guarantee ?source
+WHERE {
+  VALUES ?structure { c:power-set }
+  GRAPH g:asserted {
+    c:nfa-subset-construction v:uses ?nfa, ?structure ;
+      v:computes ?dfa ; v:guarantees ?guarantee .
+    ?nfa v:recognizesExactly c:regular-language .
+  }
+  GRAPH g:provenance {
+    ?proof rdf:subject c:nfa-subset-construction ; rdf:predicate v:guarantees ;
+      rdf:object ?guarantee ; dct:source ?source .
+  }
+  FILTER (?nfa != ?structure)
+}

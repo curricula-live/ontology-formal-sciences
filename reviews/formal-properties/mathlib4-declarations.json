@@ -141,7 +141,7 @@
           "state": "approved",
           "triple": [
             "vandermonde-convolution",
-            "uses",
+            "containsSymbol",
             "binomial-coefficient"
           ]
         },

@@ -63,6 +63,8 @@ jobs:
           PYTHON
       - name: Replay the reviewed OpenMath dictionaries and expression witnesses
         run: python -m pipeline.cli replay-openmath
+      - name: Replay primary computer-science passages
+        run: python -m pipeline.cli replay-cs-evidence
       - name: Replay native topic neighborhoods and shared anchors
         run: |
           for source in opencs ontomath-pro; do

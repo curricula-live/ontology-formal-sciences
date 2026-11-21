@@ -10,7 +10,7 @@ WHERE {
   VALUES ?distribution { c:stato-0000060 c:stato-0000276 }
   GRAPH g:asserted {
     ?distribution v:hasProperty ?mass .
-    ?mass v:uses ?coefficient .
+    ?mass v:containsSymbol ?coefficient .
     ?coefficient v:hasProperty ?identity .
   }
   GRAPH g:provenance {

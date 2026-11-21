@@ -4,6 +4,6 @@ PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
 
 # Which unit-propagating algorithms solve a problem classified as NP-complete?
 SELECT ?algorithm ?problem FROM g:asserted WHERE {
-  ?algorithm v:uses c:unit-propagation ; v:solves ?problem .
+  ?algorithm v:invokesAlgorithm c:unit-propagation ; v:solves ?problem .
   ?problem v:hasProperty c:np-completeness .
 } ORDER BY ?algorithm

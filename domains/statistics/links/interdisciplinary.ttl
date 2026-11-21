@@ -7,6 +7,6 @@ c:stato-0000276 v:hasProperty c:binomial-mass-formula .
 c:stato-0000060 v:hasProperty c:hypergeometric-normalization .
 c:hypergeometric-mass-formula v:uses c:ontomath-pro-e867 .
 c:stato-0000628 v:hasProperty c:binary-f1-harmonic-mean .
-c:binary-f1-harmonic-mean v:uses c:stato-0000416 .
-c:binary-f1-harmonic-mean v:uses c:stato-0000233 .
+c:binary-f1-harmonic-mean v:containsSymbol c:stato-0000416 .
+c:binary-f1-harmonic-mean v:containsSymbol c:stato-0000233 .
 c:binary-f1-evaluation v:computes c:stato-0000628 .

@@ -9,6 +9,9 @@ from pipeline.curate.batches import verify_batches
 from pipeline.curate.relations import apply_relations
 from pipeline.curate.openmath import apply_formal_properties
 from pipeline.curate.mathlib_evidence import apply_declarations
+from pipeline.curate.cs_evidence import apply_reviewed_claims
+from pipeline.curate.revisions import apply_revisions
+from pipeline.lean_probe import apply_kernel_probe
 from pipeline.curate.neighborhoods import release_summaries as neighborhood_summaries
 from pipeline.parse.lean_index import release_summary as mathlib_index_summary
 from pipeline.validate import check
@@ -31,7 +34,10 @@ def build(dest=None):
     admissions = verify_batches(sources, graph, prov)
     relation_sources = apply_relations(sources, graph, maps, prov)
     formal_properties = apply_formal_properties(sources['openmath'], graph, prov)
+    primary_claims = apply_reviewed_claims(graph, prov)
     declarations = apply_declarations(sources["mathlib4"], graph, prov)
+    revisions = apply_revisions(graph, prov)
+    kernel_probe = apply_kernel_probe(graph, prov)
     report = check(graph)
     if not report["conforms"]:
         raise ValueError(report)
@@ -93,7 +99,10 @@ def build(dest=None):
                         concepts=len(set(graph.subjects(RDF.type,SKOS.Concept))),predicates=len(set(graph.predicates())),
                         sources=inventory,artifacts={p.name:checksum(p) for p in sorted(out.iterdir())})
         manifest["quality"] = quality(graph, maps, prov, inferred, inventory, report)
-        audit = release_audit(config["version"], graph, sources)
+        manifest["quality"]["computer_science_evidence"] = primary_claims
+        manifest["quality"]["relation_revisions"] = revisions
+        manifest["quality"]["lean_kernel_probe"] = kernel_probe
+        audit = release_audit(config["version"], graph, sources, prov)
         if audit:
             manifest["quality"]["semantic_audit"] = audit
         write(out / "manifest.json",manifest)

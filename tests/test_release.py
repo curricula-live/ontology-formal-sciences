@@ -176,7 +176,7 @@ def test_every_admitted_concept_is_connected(canonical):
 
 
 def test_sat_competency(canonical):
-    assert set(canonical.subjects(V.solves,C["boolean-satisfiability"])) & set(canonical.subjects(V.uses,C["unit-propagation"]))=={C["dpll-algorithm"],C["conflict-driven-clause-learning"]}
+    assert set(canonical.subjects(V.solves,C["boolean-satisfiability"])) & set(canonical.subjects(V.invokesAlgorithm,C["unit-propagation"]))=={C["dpll-algorithm"],C["conflict-driven-clause-learning"]}
 
 
 def test_immutable_review_ids():

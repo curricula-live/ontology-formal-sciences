@@ -125,6 +125,32 @@ def test_published_competencies():
     }
     assert {row["nativePredicate"] for row in welch_roles} == {"http://purl.obolibrary.org/obo/OBI_0000293"}
     assert {row["axiom"] for row in welch_roles} == {"subclass-some"}
+    shortest, = result["dijkstra-implementation-and-assumption"]
+    assert shortest["algorithm"] == str(C["dijkstra-s-algorithm"])
+    assert shortest["queue"] == str(C["indexed-min-priority-queue"])
+    assert shortest["condition"] == str(C["nonnegative-edge-weights"])
+    spectral, = result["spectral-clustering-mathematics"]
+    assert spectral["matrix"] == str(C["graph-laplacian"])
+    assert "/blob/25dee604bae18205b01548348388baf7a1cdfe0e/" in spectral["source"]
+    nfa, = result["nfa-subset-construction"]
+    assert nfa["nfa"] == str(C["opencs-c30272"])
+    assert nfa["dfa"] == str(C["opencs-c21398"])
+    bayes, = result["naive-bayes-feature-independence"]
+    assert bayes["assumption"] == str(C["conditional-feature-independence"])
+    assert bayes["rule"] == str(C["bayes-theorem"])
+    assert str(C["pointer-aliasing"]) in {row["property"] for row in result["compiler-alias-analysis"]}
+    assert pairs("postgres-index-operations", "index", "operation") == {
+        (str(C["postgres-btree-index"]), str(C["database-equality-lookup"])),
+        (str(C["postgres-btree-index"]), str(C["database-range-lookup"])),
+        (str(C["postgres-hash-index"]), str(C["database-equality-lookup"])),
+    }
+    fixture = result["lean-boolean-property-evidence"]
+    assert {row["proofConstant"] for row in fixture} == {"Bool", "Bool.not_and"}
+    assert {row["declaration"] for row in fixture} == {"FormalSciences.booleanDeMorgan"}
+    assert {row["premise"] for row in result["fixed-point-theorem-premises"]} == {
+        str(C["complete-lattice"]), str(C["monotone-map"]),
+    }
+    assert {row["formerPredicate"] for row in result["fixed-point-theorem-premises"]} == {str(V.uses)}
 
 
 def test_every_new_scientific_claim_has_a_citation_and_no_implicit_inverse():

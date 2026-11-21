@@ -1,0 +1,19 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT ?expression ?declaration ?proofConstant
+WHERE {
+  GRAPH g:asserted { c:logical-negation v:hasProperty c:de-morgan-conjunction-law }
+  GRAPH g:provenance {
+    ?statement rdf:subject c:logical-negation ; rdf:predicate v:hasProperty ;
+      rdf:object c:de-morgan-conjunction-law ; prov:wasDerivedFrom ?formula, ?fixture .
+    ?formula dct:type "OpenMath formal mathematical property" ; v:sourceExpressionDigest ?expression .
+    ?fixture dct:type "kernel-checked Lean fixture" ; dct:title ?declaration ;
+      v:sourceDirectProofConstant ?proofConstant .
+  }
+}
+ORDER BY ?proofConstant

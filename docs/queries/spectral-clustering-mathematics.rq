@@ -1,0 +1,18 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT ?embedding ?matrix ?source
+WHERE {
+  GRAPH g:asserted {
+    c:opencs-c29574 v:uses ?embedding .
+    ?embedding v:uses ?matrix .
+  }
+  GRAPH g:provenance {
+    c:opencs-c29574 dct:source <https://w3id.org/ocs/ont/C29574> .
+    ?claim rdf:subject ?embedding ; rdf:predicate v:uses ; rdf:object ?matrix ; dct:source ?source .
+  }
+}

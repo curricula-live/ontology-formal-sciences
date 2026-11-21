@@ -2,14 +2,69 @@
 from collections import Counter
 
 from rdflib import RDF, SKOS
+from rdflib.namespace import DCTERMS, PROV
 
-from pipeline.common import BASE, C, ROOT, checksum, read, registry
+from pipeline.common import BASE, C, D, ROOT, V, checksum, read, registry
+from pipeline.curate.relations import statement_for
 from pipeline.parse import ingest, staged
 
 AUDITS = ROOT / "reviews/quality"
 
 
-def release_audit(version, graph, sources):
+def canonical_triple(keys):
+    subject, predicate, obj = keys
+    return C[subject], SKOS.broader if predicate == "skos:broader" else V[predicate], C[obj]
+
+
+def summarize_sample(sample, graph, provenance):
+    from pipeline.curate.cs_evidence import DECISIONS
+    from pipeline.semantic_sampling import BASELINE, SEED
+
+    if sample["baseline"] != BASELINE or sample["seed"] != SEED:
+        raise ValueError("Semantic audit sampling design changed")
+    observations, predicates, schemes = Counter(), Counter(), Counter()
+    for row in sample["relations"]:
+        old = canonical_triple(row["triple"])
+        current = canonical_triple(row.get("replacement", row["triple"]))
+        if (current not in graph or graph.value(old[0], SKOS.inScheme) != D[row["scheme"]]
+                or not row["judgment"].strip()):
+            raise ValueError(f"Sampled relationship cannot be verified: {row['triple']}")
+        if old != current and (old in graph or (statement_for(current), PROV.wasRevisionOf,
+                                               statement_for(old)) not in provenance):
+            raise ValueError(f"Sampled correction lacks its retired interpretation: {row['triple']}")
+        if row["outcome"] == "evidence_added" and not provenance.value(statement_for(current), DCTERMS.source):
+            raise ValueError(f"Sampled new evidence is absent: {row['triple']}")
+        schemes[row["scheme"]] += 1
+        predicates[row["triple"][1]] += 1
+        observations[row["outcome"]] += 1
+    for row in sample["topics"]:
+        subject = C[row["canonical"]]
+        if ((subject, RDF.type, SKOS.Concept) not in graph or graph.value(subject, SKOS.inScheme) != D[row["scheme"]]
+                or not row["judgment"].strip()):
+            raise ValueError(f"Sampled canonical topic cannot be verified: {row['canonical']}")
+        if row.get("definition_added") and not graph.value(subject, SKOS.definition):
+            raise ValueError(f"Sampled scope correction is absent: {row['canonical']}")
+        observations[row["outcome"]] += 1
+    reviewed_passages = {
+        (r["corpus"], r["path"], r["first"], r["last"], tuple(j["triple"]))
+        for r in read(DECISIONS) for j in r["judgments"] if j["state"] == "approved"
+    }
+    for row in sample["passages"]:
+        key = (row["corpus"], row["path"], row["first"], row["last"], tuple(row["triple"]))
+        if key not in reviewed_passages or canonical_triple(row["triple"]) not in graph or not row["judgment"].strip():
+            raise ValueError(f"Sampled passage cannot be verified: {key}")
+        observations[row["outcome"]] += 1
+    return {
+        "baseline": sample["baseline"], "seed": sample["seed"],
+        "baseline_relation_sample": len(sample["relations"]),
+        "baseline_topic_sample": len(sample["topics"]),
+        "new_passage_sample": len(sample["passages"]),
+        "outcomes": dict(observations), "baseline_relations_by_scheme": dict(schemes),
+        "baseline_relations_by_predicate": dict(predicates),
+    }
+
+
+def release_audit(version, graph, sources, provenance=None):
     path = AUDITS / f"{version}.json"
     if not path.is_file():
         return None
@@ -80,7 +135,7 @@ def release_audit(version, graph, sources):
     for source, assessment in audit["source_assessments"].items():
         if sources[source]["sha256"] != assessment["sha256"]:
             raise ValueError(f"Source assessment requires review: {source}")
-    return dict(
+    result = dict(
         record=str(path.relative_to(ROOT)), sha256=checksum(path), cases=len(unique),
         verdicts=dict(counts), by_method=dict(methods), batch_sample_by_scheme=dict(batch_domains),
         by_scheme=dict(domains),
@@ -88,9 +143,16 @@ def release_audit(version, graph, sources):
         selection_limit=audit["selection_limit"], source_assessments=audit["source_assessments"],
         corrected_subjects=[str(C[row["canonical"]]) for row in audit["cases"] if row["verdict"] == "corrected"],
     )
+    if "stratified_sample" in audit:
+        result["stratified_sample"] = summarize_sample(audit["stratified_sample"], graph, provenance)
+    if "unresolved_identities" in audit:
+        result["unresolved_identities"] = len(audit["unresolved_identities"])
+    if "baseline_comparison" in audit:
+        result["baseline_comparison"] = audit["baseline_comparison"]
+    return result
 
 
-def replay(version, offline=False):
+def replay(version, offline=False, baseline=None):
     """Verify sampled labels against the same original named graphs as batch admission."""
     audit = read(AUDITS / f"{version}.json")
     sources = registry()
@@ -108,4 +170,22 @@ def replay(version, offline=False):
             if not bool(store.query(f"ASK {{ GRAPH <{graph}> {{ {witness} }} }}")):
                 raise ValueError(f"Semantic audit label witness changed: {row['key']}")
             verified += 1
-    return {"audit": version, "source_families": len(by_source), "verified_batch_witnesses": verified}
+    report = {"audit": version, "source_families": len(by_source), "verified_batch_witnesses": verified}
+    if baseline is not None:
+        from pipeline.semantic_sampling import select
+
+        sample = audit["stratified_sample"]
+        if checksum(baseline) != audit["baseline_comparison"]["dataset_sha256"]:
+            raise ValueError("Stratified audit baseline checksum differs")
+        for kind, selected in select(baseline).items():
+            stored = sample[kind]
+            if isinstance(selected, list):
+                if len(stored) != len(selected) or any(
+                    any(expected.get(key) != value for key, value in row.items())
+                    for row, expected in zip(selected, stored)
+                ):
+                    raise ValueError(f"Stratified audit selection differs: {kind}")
+                report[f"verified_sampled_{kind}"] = len(selected)
+            elif selected != stored:
+                raise ValueError(f"Stratified audit selection differs: {kind}")
+    return report

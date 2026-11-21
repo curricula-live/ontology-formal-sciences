@@ -1,0 +1,17 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT ?assumption ?rule ?source
+WHERE {
+  GRAPH g:asserted {
+    c:opencs-c6021 v:hasModelingAssumption ?assumption ; v:uses ?rule .
+  }
+  GRAPH g:provenance {
+    ?claim rdf:subject c:opencs-c6021 ; rdf:predicate v:hasModelingAssumption ;
+      rdf:object ?assumption ; dct:source ?source .
+  }
+}

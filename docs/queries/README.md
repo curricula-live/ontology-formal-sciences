@@ -35,5 +35,13 @@ Run `python -m pipeline.competency` from the checkout after building the release
 | openmath-rounding-guard | Inspect the native guard symbols of the half-integer ties-to-even rule. |
 | ontomath-complex-coordinates | Join an OntoMathPro class reference and a source-backed complex coordinate equivalence. |
 | welch-test-input-roles | Distinguish Welch's statistic and reference distribution while retaining their shared native input predicate. |
+| dijkstra-implementation-and-assumption | Join the Princeton executable, its indexed queue, and the abstract algorithm's edge-weight condition. |
+| spectral-clustering-mathematics | Join the admitted OpenCS clustering topic to its normalized graph embedding and Laplacian. |
+| nfa-subset-construction | Follow an NFA through the power-set construction to the DFA and its language guarantee. |
+| naive-bayes-feature-independence | Find the conditional independence assumption and probability rule used in Naive Bayes. |
+| compiler-alias-analysis | Trace the LLVM loop transformation to alias analysis and the property under analysis. |
+| postgres-index-operations | Compare supported equality and range operations for specific PostgreSQL index access methods. |
+| lean-boolean-property-evidence | Find OpenMath and checked local Lean evidence for the same Boolean property. |
+| fixed-point-theorem-premises | Find the hypotheses and guarantee of Knaster–Tarski and the archived prior predicates. |
 
 The source of each algorithm-evidence row is the published article [A linear-time algorithm for testing the truth of certain quantified boolean formulas](https://doi.org/10.1016/0020-0190(79)90002-4). The scientific assertions in these queries describe the scopes in their canonical definitions. In particular, the release associates exact marginal computation with the tree case. Loopy sum-product has different convergence and accuracy properties.

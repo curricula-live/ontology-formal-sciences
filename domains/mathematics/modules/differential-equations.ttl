@@ -13,3 +13,5 @@ c:mathmoddb-q6675406 skos:definition "A mathematical dynamical model of free fal
 c:mathmoddb-q6821441 skos:definition "The computational task of calculating the period in the linearized small-angle model of a mathematical pendulum."@en .
 
 c:mathmoddb-q6821398 skos:definition "A solution of the linearized small-angle pendulum equation, scoped to that mathematical formulation."@en .
+
+c:mathmoddb-q6822164 skos:definition "The linearized small-angle mathematical pendulum equation with damping and external driving, scoped to that differential-equation model."@en .

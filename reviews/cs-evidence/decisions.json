@@ -1,0 +1,2261 @@
+[
+  {
+    "corpus": "algs4",
+    "first": 9,
+    "judgments": [
+      {
+        "scope": "This in-place method sorts supported keys by distributing them into radix buckets.",
+        "state": "approved",
+        "triple": [
+          "opencs-c41288",
+          "solves",
+          "sorting-problem"
+        ]
+      }
+    ],
+    "last": 44,
+    "path": "src/main/java/edu/princeton/cs/algs4/AmericanFlag.java",
+    "sha256": "782b0ec0927c91b623106ee7cdb3315491af45c51883249fe2d8c40d237edaa2"
+  },
+  {
+    "corpus": "algs4",
+    "first": 31,
+    "judgments": [
+      {
+        "scope": "The documented search-tree representation stores ordered keys with associated values.",
+        "state": "approved",
+        "triple": [
+          "binary-search-tree",
+          "represents",
+          "ordered-dictionary"
+        ]
+      },
+      {
+        "scope": "Subtree size metadata supports the rank operation in the documented augmented binary search tree.",
+        "state": "approved",
+        "triple": [
+          "binary-search-tree",
+          "supportsOperation",
+          "rank-in-ordered-set"
+        ]
+      }
+    ],
+    "last": 61,
+    "path": "src/main/java/edu/princeton/cs/algs4/BST.java",
+    "sha256": "15b76064a92468c830aedc488ae06428e7977e3436102243f455b7d99429b946"
+  },
+  {
+    "corpus": "algs4",
+    "first": 35,
+    "judgments": [
+      {
+        "scope": "The reviewed queue-based algorithm computes finite paths with absence of reachable negative cycles, or reports a reachable negative cycle.",
+        "state": "approved",
+        "triple": [
+          "bellman-ford-algorithm",
+          "solves",
+          "shortest-path-problem"
+        ]
+      }
+    ],
+    "last": 56,
+    "path": "src/main/java/edu/princeton/cs/algs4/BellmanFordSP.java",
+    "sha256": "5b73c4e0a35c52d1d66d2bc24b4add277a8fdd0ec7ec0f49d76530168fcac224"
+  },
+  {
+    "corpus": "algs4",
+    "first": 31,
+    "judgments": [
+      {
+        "scope": "The witness requires its integer inputs to be sorted; lexicographic ordering of strings is a different assumption.",
+        "state": "rejected",
+        "triple": [
+          "binary-search",
+          "requiresAssumption",
+          "lexicographic-key-order"
+        ]
+      }
+    ],
+    "last": 48,
+    "path": "src/main/java/edu/princeton/cs/algs4/BinarySearch.java",
+    "sha256": "d74dc04c2dbd8b2fc033bf23e0a96e9a15f8e0b50c9bc0e341ddcb80b1389609"
+  },
+  {
+    "corpus": "algs4",
+    "first": 28,
+    "judgments": [
+      {
+        "scope": "The method returns a minimum spanning tree for a connected edge-weighted graph. The library also documents the forest case.",
+        "state": "approved",
+        "triple": [
+          "opencs-c38457",
+          "solves",
+          "minimum-spanning-tree-problem"
+        ]
+      }
+    ],
+    "last": 46,
+    "path": "src/main/java/edu/princeton/cs/algs4/BoruvkaMST.java",
+    "sha256": "d089ce51788a2a213e87cc4d42af7f78fc54dd3602632bac26eddabc11035a30"
+  },
+  {
+    "corpus": "algs4",
+    "first": 36,
+    "judgments": [
+      {
+        "scope": "The reviewed pattern matcher locates an occurrence in the text; the evidence applies to the explicitly documented variant.",
+        "state": "approved",
+        "triple": [
+          "opencs-c39969",
+          "solves",
+          "substring-search-problem"
+        ]
+      }
+    ],
+    "last": 53,
+    "path": "src/main/java/edu/princeton/cs/algs4/BoyerMoore.java",
+    "sha256": "2800834f5478b6406333ab38e630826f3082eb48a85c7e1562d5a4cd832f1670"
+  },
+  {
+    "corpus": "algs4",
+    "first": 32,
+    "judgments": [
+      {
+        "scope": "Layer order yields shortest directed paths measured by number of edges.",
+        "state": "approved",
+        "triple": [
+          "breadth-first-search",
+          "solves",
+          "unweighted-shortest-paths"
+        ]
+      }
+    ],
+    "last": 49,
+    "path": "src/main/java/edu/princeton/cs/algs4/BreadthFirstDirectedPaths.java",
+    "sha256": "8916013bfa2cda696d01f7a1e8d33f4fdebfbd17b7eeb37b4107363aba030e04"
+  },
+  {
+    "corpus": "algs4",
+    "first": 94,
+    "judgments": [
+      {
+        "scope": "The documented traversal puts the source in a FIFO queue and enqueues each vertex when first discovered.",
+        "state": "approved",
+        "triple": [
+          "breadth-first-search",
+          "uses",
+          "queue"
+        ]
+      }
+    ],
+    "last": 108,
+    "path": "src/main/java/edu/princeton/cs/algs4/BreadthFirstDirectedPaths.java",
+    "sha256": "b40ae95a201476e2fcc81e24891e45ec057f7cffeb77fbcc20450f2207803b90"
+  },
+  {
+    "corpus": "algs4",
+    "first": 20,
+    "judgments": [
+      {
+        "scope": "The studied nonnegative-weight method runs the single-source algorithm once per source vertex.",
+        "state": "approved",
+        "triple": [
+          "dijkstra-all-pairs-repeated",
+          "invokesAlgorithm",
+          "dijkstra-s-algorithm"
+        ]
+      }
+    ],
+    "last": 37,
+    "path": "src/main/java/edu/princeton/cs/algs4/DijkstraAllPairsSP.java",
+    "sha256": "01373d1b41177daecb11c922d45cd5be85ea4bb9599b9a33b60160ac26c347b3"
+  },
+  {
+    "corpus": "algs4",
+    "first": 40,
+    "judgments": [
+      {
+        "scope": "The executable Java implementation realizes Dijkstra on the stated nonnegative edge-weighted digraph.",
+        "state": "approved",
+        "triple": [
+          "princeton-dijkstra-implementation",
+          "implementsAlgorithm",
+          "dijkstra-s-algorithm"
+        ]
+      },
+      {
+        "scope": "The implementation uses an indexed binary heap to select the least tentative distance.",
+        "state": "approved",
+        "triple": [
+          "princeton-dijkstra-implementation",
+          "uses",
+          "indexed-min-priority-queue"
+        ]
+      }
+    ],
+    "last": 69,
+    "path": "src/main/java/edu/princeton/cs/algs4/DijkstraSP.java",
+    "sha256": "ffaa8912c13f57d5cca8bb85adb6d580ca3dc418f632274fa36d91ec267b65c2"
+  },
+  {
+    "corpus": "algs4",
+    "first": 5,
+    "judgments": [
+      {
+        "scope": "The binary indexed tree supports sums of a contiguous range by differences of prefix counts.",
+        "state": "approved",
+        "triple": [
+          "opencs-c28884",
+          "supportsOperation",
+          "range-sum-query"
+        ]
+      }
+    ],
+    "last": 23,
+    "path": "src/main/java/edu/princeton/cs/algs4/FenwickTree.java",
+    "sha256": "402ac6566de710147d31f60e59598bd6773ac7f69b878ea240ac9d4f28b86b0d"
+  },
+  {
+    "corpus": "algs4",
+    "first": 22,
+    "judgments": [
+      {
+        "scope": "The shortest-path solution applies where relevant negative cycles are absent; detection of a cycle is a separate outcome.",
+        "state": "approved",
+        "triple": [
+          "opencs-c41938",
+          "solves",
+          "all-pairs-shortest-paths"
+        ]
+      },
+      {
+        "scope": "The recurrence operates on weighted directed edges and distances.",
+        "state": "approved",
+        "triple": [
+          "opencs-c41938",
+          "uses",
+          "weighted-graph"
+        ]
+      },
+      {
+        "scope": "The intermediate-vertex recurrence stores and reuses shorter subproblem distances.",
+        "state": "approved",
+        "triple": [
+          "opencs-c41938",
+          "uses",
+          "dynamic-programming"
+        ]
+      }
+    ],
+    "last": 41,
+    "path": "src/main/java/edu/princeton/cs/algs4/FloydWarshall.java",
+    "sha256": "43af8697f4c7c53ed701980d16b3271b631c7385aa43640412a422bbda99064c"
+  },
+  {
+    "corpus": "algs4",
+    "first": 29,
+    "judgments": [
+      {
+        "scope": "The triple loop gives the documented cubic vertex bound, with unit-cost arithmetic on edge weights.",
+        "state": "approved",
+        "triple": [
+          "opencs-c41938",
+          "hasProperty",
+          "cubic-vertex-time"
+        ]
+      }
+    ],
+    "last": 41,
+    "path": "src/main/java/edu/princeton/cs/algs4/FloydWarshall.java",
+    "sha256": "6ac2fbb268a89b35651223e10eabf25dc877e1ba4ff7b23ba3d6f0d59e053615"
+  },
+  {
+    "corpus": "algs4",
+    "first": 88,
+    "judgments": [
+      {
+        "scope": "The implementation extends the allowed set of intermediate vertices in an outer iteration.",
+        "state": "approved",
+        "triple": [
+          "opencs-c41938",
+          "uses",
+          "dynamic-programming"
+        ]
+      }
+    ],
+    "last": 100,
+    "path": "src/main/java/edu/princeton/cs/algs4/FloydWarshall.java",
+    "sha256": "5de5c1701b73988c32352ce530e367fad6e295677b2d1294c28a22d4b396cd1a"
+  },
+  {
+    "corpus": "algs4",
+    "first": 15,
+    "judgments": [
+      {
+        "scope": "This library selects augmenting paths by breadth-first search. That choice is specific to the shortest-augmenting-path variant.",
+        "state": "rejected",
+        "triple": [
+          "ford-fulkerson-method",
+          "invokesAlgorithm",
+          "breadth-first-search"
+        ]
+      }
+    ],
+    "last": 40,
+    "path": "src/main/java/edu/princeton/cs/algs4/FordFulkerson.java",
+    "sha256": "bc74707c21c406d883c0a14de5f9c704e241995c0e47e4513c34391df8a8e45e"
+  },
+  {
+    "corpus": "algs4",
+    "first": 26,
+    "judgments": [
+      {
+        "scope": "Gabow’s path-based method computes strongly connected components of a digraph.",
+        "state": "approved",
+        "triple": [
+          "opencs-c40824",
+          "solves",
+          "scc-decomposition-problem"
+        ]
+      },
+      {
+        "scope": "The implementation maintains two stacks during depth-first search.",
+        "state": "approved",
+        "triple": [
+          "opencs-c40824",
+          "uses",
+          "stack-data-structure"
+        ]
+      }
+    ],
+    "last": 50,
+    "path": "src/main/java/edu/princeton/cs/algs4/GabowSCC.java",
+    "sha256": "9a48addb17dd5ffe11c604161c70316ca40133e5a994dfd255d88af9b94bac25"
+  },
+  {
+    "corpus": "algs4",
+    "first": 17,
+    "judgments": [
+      {
+        "scope": "The procedure finds a maximum matching, with a minimum vertex cover also available in the implementation.",
+        "state": "approved",
+        "triple": [
+          "opencs-c37941",
+          "solves",
+          "maximum-bipartite-matching-problem"
+        ]
+      },
+      {
+        "scope": "The layered variant begins phases by searching shortest alternating augmenting paths by breadth-first search.",
+        "state": "approved",
+        "triple": [
+          "opencs-c37941",
+          "invokesAlgorithm",
+          "breadth-first-search"
+        ]
+      }
+    ],
+    "last": 39,
+    "path": "src/main/java/edu/princeton/cs/algs4/HopcroftKarp.java",
+    "sha256": "ebc7067e743f31025a0b47ff67a8f6445249869430ec7ac1e19c9837f1e766e9"
+  },
+  {
+    "corpus": "algs4",
+    "first": 26,
+    "judgments": [
+      {
+        "scope": "Huffman coding outputs a prefix code; the implementation encodes characters from a trie.",
+        "state": "approved",
+        "triple": [
+          "huffman-coding",
+          "computes",
+          "opencs-c39572"
+        ]
+      }
+    ],
+    "last": 43,
+    "path": "src/main/java/edu/princeton/cs/algs4/Huffman.java",
+    "sha256": "e8ce4b10d148532a73a4ede4443decccd7ac02319a550973e72bc9d2d33d9352"
+  },
+  {
+    "corpus": "algs4",
+    "first": 120,
+    "judgments": [
+      {
+        "scope": "The documented implementation repeatedly extracts the two least-weight nodes while constructing the coding tree.",
+        "state": "approved",
+        "triple": [
+          "huffman-coding",
+          "uses",
+          "priority-queue"
+        ]
+      }
+    ],
+    "last": 142,
+    "path": "src/main/java/edu/princeton/cs/algs4/Huffman.java",
+    "sha256": "181a027b726e99730f629740e35c7a51d5107c3b7614c732c83d3d4a3220c5ef"
+  },
+  {
+    "corpus": "algs4",
+    "first": 16,
+    "judgments": [
+      {
+        "scope": "The Princeton indexed queue uses a binary heap; this is its evidenced implementation strategy.",
+        "state": "approved",
+        "triple": [
+          "indexed-min-priority-queue",
+          "uses",
+          "binary-heap"
+        ]
+      }
+    ],
+    "last": 32,
+    "path": "src/main/java/edu/princeton/cs/algs4/IndexMinPQ.java",
+    "sha256": "65915b2d674a1678be19c3bf8e012399ecf8bf6a565cba8a950bb9f25bfb7240"
+  },
+  {
+    "corpus": "algs4",
+    "first": 29,
+    "judgments": [
+      {
+        "scope": "The comparison procedure orders a finite array by its key comparator.",
+        "state": "approved",
+        "triple": [
+          "opencs-c35199",
+          "solves",
+          "sorting-problem"
+        ]
+      },
+      {
+        "scope": "The documented standard implementation preserves equal-key order.",
+        "state": "approved",
+        "triple": [
+          "opencs-c35199",
+          "guarantees",
+          "stable-sort-order"
+        ]
+      }
+    ],
+    "last": 43,
+    "path": "src/main/java/edu/princeton/cs/algs4/Insertion.java",
+    "sha256": "e17a8027e2515c99a23398fb95903085a84a9c321e0ff98f3a7529c822296e04"
+  },
+  {
+    "corpus": "algs4",
+    "first": 32,
+    "judgments": [
+      {
+        "scope": "For reverse-ordered distinct inputs the documented insertion procedure has quadratic comparison cost.",
+        "state": "approved",
+        "triple": [
+          "opencs-c35199",
+          "hasProperty",
+          "quadratic-comparison-bound"
+        ]
+      }
+    ],
+    "last": 44,
+    "path": "src/main/java/edu/princeton/cs/algs4/Insertion.java",
+    "sha256": "2c4a6940d1582af55c10d11ebc6d184ea5c2319ed084a7276ff1c0b7455dd2c2"
+  },
+  {
+    "corpus": "algs4",
+    "first": 35,
+    "judgments": [
+      {
+        "scope": "The reviewed pattern matcher locates an occurrence in the text; the evidence applies to the explicitly documented variant.",
+        "state": "approved",
+        "triple": [
+          "opencs-c18328",
+          "solves",
+          "substring-search-problem"
+        ]
+      }
+    ],
+    "last": 52,
+    "path": "src/main/java/edu/princeton/cs/algs4/KMP.java",
+    "sha256": "f636bf4a4b5a9d2eec00ec100d9dd36fc618612aefa17e01779d9d6a73821ff9"
+  },
+  {
+    "corpus": "algs4",
+    "first": 43,
+    "judgments": [
+      {
+        "scope": "The problem is defined on a connected edge-weighted graph. The forest output is a separate scope for disconnected input.",
+        "state": "approved",
+        "triple": [
+          "minimum-spanning-tree-problem",
+          "hasInputStructure",
+          "weighted-graph"
+        ]
+      }
+    ],
+    "last": 56,
+    "path": "src/main/java/edu/princeton/cs/algs4/KruskalMST.java",
+    "sha256": "e6f9f6304125042739e6b8308f7ab4e5c77b6d5de26ccbe9f1139ef3a956e81a"
+  },
+  {
+    "corpus": "algs4",
+    "first": 43,
+    "judgments": [
+      {
+        "scope": "The method returns a minimum spanning tree for a connected edge-weighted graph. The library also documents the forest case.",
+        "state": "approved",
+        "triple": [
+          "kruskal-s-algorithm",
+          "solves",
+          "minimum-spanning-tree-problem"
+        ]
+      }
+    ],
+    "last": 61,
+    "path": "src/main/java/edu/princeton/cs/algs4/KruskalMST.java",
+    "sha256": "6e4958fae5f1ab810c2e392f54c9e8b09433ac584bf99428765f209981498350"
+  },
+  {
+    "corpus": "algs4",
+    "first": 33,
+    "judgments": [
+      {
+        "scope": "In the fixed-width LSD variant, digit passes produce lexicographic key order.",
+        "state": "approved",
+        "triple": [
+          "opencs-c36074",
+          "solves",
+          "sorting-problem"
+        ]
+      }
+    ],
+    "last": 47,
+    "path": "src/main/java/edu/princeton/cs/algs4/LSD.java",
+    "sha256": "8b4b8288a160398b3282154fd5be9aab987aed7c36a5bdae160bac406be041b2"
+  },
+  {
+    "corpus": "algs4",
+    "first": 27,
+    "judgments": [
+      {
+        "scope": "The comparison procedure orders a finite array by its key comparator.",
+        "state": "approved",
+        "triple": [
+          "opencs-c32507",
+          "solves",
+          "sorting-problem"
+        ]
+      },
+      {
+        "scope": "The documented standard implementation preserves equal-key order.",
+        "state": "approved",
+        "triple": [
+          "opencs-c32507",
+          "guarantees",
+          "stable-sort-order"
+        ]
+      }
+    ],
+    "last": 41,
+    "path": "src/main/java/edu/princeton/cs/algs4/Merge.java",
+    "sha256": "fd33621be465d3eced71c1fc3397694aaa4088981f320849038e43f0997f24ed"
+  },
+  {
+    "corpus": "algs4",
+    "first": 27,
+    "judgments": [
+      {
+        "scope": "A minimum-oriented heap represents a priority queue with minimum extraction.",
+        "state": "approved",
+        "triple": [
+          "binary-heap",
+          "represents",
+          "priority-queue"
+        ]
+      }
+    ],
+    "last": 45,
+    "path": "src/main/java/edu/princeton/cs/algs4/MinPQ.java",
+    "sha256": "48a96679180471791599ad0d7d48361543c06f4f4b7d86fb5fc6b2ed02ae88af"
+  },
+  {
+    "corpus": "algs4",
+    "first": 31,
+    "judgments": [
+      {
+        "scope": "The matcher builds a nondeterministic finite automaton for its supported regular-expression syntax.",
+        "state": "approved",
+        "triple": [
+          "princeton-nfa-regex-matcher",
+          "uses",
+          "opencs-c30272"
+        ]
+      },
+      {
+        "scope": "The input expression must be in the implementation's supported alphabet and syntax.",
+        "state": "approved",
+        "triple": [
+          "princeton-nfa-regex-matcher",
+          "uses",
+          "basic-string-regular-expression"
+        ]
+      }
+    ],
+    "last": 52,
+    "path": "src/main/java/edu/princeton/cs/algs4/NFA.java",
+    "sha256": "dfbd7b42b3cc1275c01ec42641d86b635d95c334fb5d5d052b7c9e9a2329d1a2"
+  },
+  {
+    "corpus": "algs4",
+    "first": 43,
+    "judgments": [
+      {
+        "scope": "The method returns a minimum spanning tree for a connected edge-weighted graph. The library also documents the forest case.",
+        "state": "approved",
+        "triple": [
+          "opencs-c43738",
+          "solves",
+          "minimum-spanning-tree-problem"
+        ]
+      }
+    ],
+    "last": 61,
+    "path": "src/main/java/edu/princeton/cs/algs4/PrimMST.java",
+    "sha256": "a877e95e540a46bc60791936493b6b0f8c682c17e662426850c00dec3977f56e"
+  },
+  {
+    "corpus": "algs4",
+    "first": 51,
+    "judgments": [
+      {
+        "scope": "The documented eager variant maintains the cheapest attachment to the partial tree in an indexed priority queue.",
+        "state": "approved",
+        "triple": [
+          "opencs-c43738",
+          "uses",
+          "priority-queue"
+        ]
+      }
+    ],
+    "last": 71,
+    "path": "src/main/java/edu/princeton/cs/algs4/PrimMST.java",
+    "sha256": "9c71d26f10599457b8147eb3c060b33fe7cb6d9dda05d3ec937b6f90e2597682"
+  },
+  {
+    "corpus": "algs4",
+    "first": 40,
+    "judgments": [
+      {
+        "scope": "The reviewed pattern matcher locates an occurrence in the text; the evidence applies to the explicitly documented variant.",
+        "state": "approved",
+        "triple": [
+          "opencs-c38917",
+          "solves",
+          "substring-search-problem"
+        ]
+      }
+    ],
+    "last": 57,
+    "path": "src/main/java/edu/princeton/cs/algs4/RabinKarp.java",
+    "sha256": "726611ca119f2ff47368ced44e1ea1b3fcc692535acc9af0a9a82b82787aff63"
+  },
+  {
+    "corpus": "algs4",
+    "first": 7,
+    "judgments": [
+      {
+        "scope": "The documented left-leaning red-black variant implements an ordered symbol-table representation.",
+        "state": "approved",
+        "triple": [
+          "opencs-c36112",
+          "represents",
+          "ordered-dictionary"
+        ]
+      }
+    ],
+    "last": 22,
+    "path": "src/main/java/edu/princeton/cs/algs4/RedBlackBST.java",
+    "sha256": "50f3862e3f2804d816e7cd2b0099a63a88a51c850bbbe577f13277e4c3f71638"
+  },
+  {
+    "corpus": "algs4",
+    "first": 29,
+    "judgments": [
+      {
+        "scope": "The comparison procedure orders a finite array by its key comparator.",
+        "state": "approved",
+        "triple": [
+          "opencs-c41255",
+          "solves",
+          "sorting-problem"
+        ]
+      },
+      {
+        "scope": "The ordinary swap-based implementation can change the relative order of two equal keys.",
+        "state": "rejected",
+        "triple": [
+          "opencs-c41255",
+          "guarantees",
+          "stable-sort-order"
+        ]
+      }
+    ],
+    "last": 43,
+    "path": "src/main/java/edu/princeton/cs/algs4/Selection.java",
+    "sha256": "1b630bf691b89a60431fe36780bd970b861ed8fb4c932e52cf17abd01f2c03db"
+  },
+  {
+    "corpus": "algs4",
+    "first": 31,
+    "judgments": [
+      {
+        "scope": "The comparison count in the documented full scan per position is asymptotic to n squared divided by two.",
+        "state": "approved",
+        "triple": [
+          "opencs-c41255",
+          "hasProperty",
+          "quadratic-comparison-bound"
+        ]
+      }
+    ],
+    "last": 38,
+    "path": "src/main/java/edu/princeton/cs/algs4/Selection.java",
+    "sha256": "8647786ec6731d9d71610bf3237a241b914ff47d2fec833a7637b73539614452"
+  },
+  {
+    "corpus": "algs4",
+    "first": 42,
+    "judgments": [
+      {
+        "scope": "The ternary search trie stores string keys with associated values.",
+        "state": "approved",
+        "triple": [
+          "opencs-c35996",
+          "represents",
+          "string-keyed-dictionary"
+        ]
+      }
+    ],
+    "last": 55,
+    "path": "src/main/java/edu/princeton/cs/algs4/TST.java",
+    "sha256": "c85d8d6c692aa65399ff070f1382729adfe1cd34dcac0e2b4019529f505a0822"
+  },
+  {
+    "corpus": "algs4",
+    "first": 27,
+    "judgments": [
+      {
+        "scope": "The class partitions a digraph into strongly connected components.",
+        "state": "approved",
+        "triple": [
+          "opencs-c34708",
+          "solves",
+          "scc-decomposition-problem"
+        ]
+      },
+      {
+        "scope": "The stated method uses depth-first search to build the component decomposition.",
+        "state": "approved",
+        "triple": [
+          "opencs-c34708",
+          "invokesAlgorithm",
+          "depth-first-search"
+        ]
+      }
+    ],
+    "last": 46,
+    "path": "src/main/java/edu/princeton/cs/algs4/TarjanSCC.java",
+    "sha256": "e3573f9d778a7fde2f58a49b4cfb8dcf0b30cbdfdae7d1a94412ac08c2f35292"
+  },
+  {
+    "corpus": "algs4",
+    "first": 24,
+    "judgments": [
+      {
+        "scope": "The trie indexes a string-keyed dictionary by successive symbols.",
+        "state": "approved",
+        "triple": [
+          "opencs-c8522",
+          "represents",
+          "string-keyed-dictionary"
+        ]
+      }
+    ],
+    "last": 38,
+    "path": "src/main/java/edu/princeton/cs/algs4/TrieST.java",
+    "sha256": "2a19aa70a30ccf46d09167452d7615bb66a897ae600cfaeeff7ce59900b41ba1"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 7,
+    "judgments": [
+      {
+        "scope": "The extended algorithm computes the gcd along with Bézout coefficients.",
+        "state": "approved",
+        "triple": [
+          "opencs-c41652",
+          "computes",
+          "greatest-common-divisor"
+        ]
+      },
+      {
+        "scope": "The computed coefficients express the gcd as an integer linear combination of the inputs.",
+        "state": "approved",
+        "triple": [
+          "opencs-c41652",
+          "computes",
+          "bezout-coefficients"
+        ]
+      }
+    ],
+    "last": 25,
+    "path": "src/algebra/extended-euclid-algorithm.md",
+    "sha256": "4211c75ddc7bf7a43c2b32faa3d9fb660a20baebdd89531a0cb6711dd8075db5"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 160,
+    "judgments": [
+      {
+        "scope": "The procedure can expose a nontrivial divisor when a suitable prime factor has sufficiently smooth p−1 and the gcd is nontrivial.",
+        "state": "approved",
+        "triple": [
+          "opencs-c4466",
+          "solves",
+          "integer-factor-search"
+        ]
+      },
+      {
+        "scope": "The method computes a gcd of a constructed residue minus one and the composite input.",
+        "state": "approved",
+        "triple": [
+          "opencs-c4466",
+          "computes",
+          "greatest-common-divisor"
+        ]
+      }
+    ],
+    "last": 181,
+    "path": "src/algebra/factorization.md",
+    "sha256": "d2331fbec8afbac4585ae49cc7712d245b1d35012d16d2855d4a466325467c36"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 232,
+    "judgments": [
+      {
+        "scope": "The probabilistic factor method searches for collisions modulo a prime divisor and can restart if it only obtains a trivial gcd.",
+        "state": "approved",
+        "triple": [
+          "opencs-c3144",
+          "solves",
+          "integer-factor-search"
+        ]
+      },
+      {
+        "scope": "The iterates operate on residue classes modulo the integer being factored.",
+        "state": "approved",
+        "triple": [
+          "opencs-c3144",
+          "uses",
+          "modular-arithmetic"
+        ]
+      }
+    ],
+    "last": 265,
+    "path": "src/algebra/factorization.md",
+    "sha256": "8853bba4f882f75e5188044a4bb89c14a2eae53d84dca47d0487165ed43113fa"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 24,
+    "judgments": [
+      {
+        "scope": "The modular-inversion method uses extended Euclid and normalizes a Bézout coefficient modulo the modulus.",
+        "state": "approved",
+        "triple": [
+          "extended-gcd-modular-inverse",
+          "solves",
+          "linear-congruence-inversion"
+        ]
+      },
+      {
+        "scope": "The computation explicitly calls the extended Euclidean algorithm on the value and modulus.",
+        "state": "approved",
+        "triple": [
+          "extended-gcd-modular-inverse",
+          "invokesAlgorithm",
+          "opencs-c41652"
+        ]
+      },
+      {
+        "scope": "Bézout's identity supplies a multiplicative inverse exactly when the gcd of the residue and modulus is one.",
+        "state": "approved",
+        "triple": [
+          "extended-gcd-modular-inverse",
+          "requiresAssumption",
+          "coprime-residue-modulus"
+        ]
+      }
+    ],
+    "last": 50,
+    "path": "src/algebra/module-inverse.md",
+    "sha256": "92d8e5c80d94a6b1574eba43953d42f5bd794870241a2b2ac6727529dbc5a6e1"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 7,
+    "judgments": [
+      {
+        "scope": "The abstract disjoint-set structure tracks a partition of its elements and supports joining blocks.",
+        "state": "approved",
+        "triple": [
+          "disjoint-set-data-structure",
+          "represents",
+          "set-partition"
+        ]
+      }
+    ],
+    "last": 33,
+    "path": "src/data_structures/disjoint_set_union.md",
+    "sha256": "94efc898a168471f103143548d0d37662586eda3911883a9f03e79deec8db201"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 58,
+    "judgments": [
+      {
+        "scope": "The usual one-dimensional representation is a binary tree splitting recursively into consecutive subintervals.",
+        "state": "approved",
+        "triple": [
+          "opencs-c34223",
+          "uses",
+          "opencs-c8565"
+        ]
+      }
+    ],
+    "last": 71,
+    "path": "src/data_structures/segment_tree.md",
+    "sha256": "2d3f59a4feafdce3b648147b53405f7a0ffccee182a9c51013139bee05bc2833"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 81,
+    "judgments": [
+      {
+        "scope": "A sum-augmented segment tree covers a requested interval with node intervals and adds their aggregates.",
+        "state": "approved",
+        "triple": [
+          "opencs-c34223",
+          "supportsOperation",
+          "range-sum-query"
+        ]
+      }
+    ],
+    "last": 99,
+    "path": "src/data_structures/segment_tree.md",
+    "sha256": "d1513cdfb8f75d9dbe8def125388cc2ee492c1c4de654e8e032a8b8cba5b6ed2"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 53,
+    "judgments": [
+      {
+        "scope": "The algorithm checks each variable and its negation against the same SCC condition, then chooses a satisfying assignment in the feasible case.",
+        "state": "approved",
+        "triple": [
+          "two-sat-implication-graph-algorithm",
+          "solves",
+          "two-satisfiability"
+        ]
+      },
+      {
+        "scope": "The source performs an SCC computation; the generic reduction may choose different SCC algorithms, and this source does not invoke Tarjan specifically.",
+        "state": "rejected",
+        "triple": [
+          "two-sat-implication-graph-algorithm",
+          "invokesAlgorithm",
+          "opencs-c34708"
+        ]
+      }
+    ],
+    "last": 78,
+    "path": "src/graph/2SAT.md",
+    "sha256": "85a58a23f13f546c713b4d243966b317e7399412cd0ced69b65d5dfcdcad7612"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 208,
+    "judgments": [
+      {
+        "scope": "The queue-based relaxation method computes finite single-source shortest paths with no reachable negative cycle.",
+        "state": "approved",
+        "triple": [
+          "opencs-c32449",
+          "solves",
+          "shortest-path-problem"
+        ]
+      },
+      {
+        "scope": "This assumption scopes the finite-distance guarantee. The documented cycle check handles the alternate outcome.",
+        "state": "approved",
+        "triple": [
+          "opencs-c32449",
+          "requiresAssumption",
+          "no-reachable-negative-cycle"
+        ]
+      },
+      {
+        "scope": "A queue stores vertices whose distance improved and whose outgoing edges need reconsideration.",
+        "state": "approved",
+        "triple": [
+          "opencs-c32449",
+          "uses",
+          "queue"
+        ]
+      },
+      {
+        "scope": "The algorithm changes the order of relaxation directly. The source does not invoke a separate Bellman–Ford call.",
+        "state": "rejected",
+        "triple": [
+          "opencs-c32449",
+          "invokesAlgorithm",
+          "bellman-ford-algorithm"
+        ]
+      }
+    ],
+    "last": 234,
+    "path": "src/graph/bellman_ford.md",
+    "sha256": "ef4d6b51310d91f52ff46b44260057d2a0a05b96e8855bfa44be934eb36457c1"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 13,
+    "judgments": [
+      {
+        "scope": "The procedure builds layered residual networks and blocking flows until there is no augmenting path.",
+        "state": "approved",
+        "triple": [
+          "opencs-c43466",
+          "solves",
+          "maximum-flow-problem"
+        ]
+      },
+      {
+        "scope": "Each layered residual network only includes edges to the next distance layer, which are acyclic.",
+        "state": "approved",
+        "triple": [
+          "opencs-c43466",
+          "uses",
+          "directed-acyclic-graph"
+        ]
+      }
+    ],
+    "last": 44,
+    "path": "src/graph/dinic.md",
+    "sha256": "cf966b5b68dd7ed3d2ed94067efef266044fa806dd1779f36ecd986097f2f284"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 62,
+    "judgments": [
+      {
+        "scope": "For integral capacities, each augmentation raises the flow by an integer amount and the procedure terminates. The source distinguishes termination for other capacity domains.",
+        "state": "approved",
+        "triple": [
+          "ford-fulkerson-method",
+          "solves",
+          "maximum-flow-problem"
+        ]
+      }
+    ],
+    "last": 92,
+    "path": "src/graph/edmonds_karp.md",
+    "sha256": "f9cf377f6b6de6b13f6e53f98b2bd64f2d3b41396179da67f6371edbd0fbf066"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 7,
+    "judgments": [
+      {
+        "scope": "The optimization problem is scoped to a graph with a two-part vertex set.",
+        "state": "approved",
+        "triple": [
+          "opencs-c37941",
+          "requiresAssumption",
+          "bipartite-graph"
+        ]
+      }
+    ],
+    "last": 33,
+    "path": "src/graph/kuhn_maximum_bipartite_matching.md",
+    "sha256": "6582de1a8e2622bf2e881629d6cc6beaf462ce6c236f57fa28d0039bcef496cd"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 13,
+    "judgments": [
+      {
+        "scope": "The disjoint-set variant tests whether endpoints already belong to a common component before admitting an edge.",
+        "state": "approved",
+        "triple": [
+          "kruskal-s-algorithm",
+          "uses",
+          "disjoint-set-data-structure"
+        ]
+      }
+    ],
+    "last": 31,
+    "path": "src/graph/mst_kruskal_with_dsu.md",
+    "sha256": "5f66f070a9a6878a96467a0e2b2460477574230ffd1e374a245503ee90691ad1"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 34,
+    "judgments": [
+      {
+        "scope": "Prim extends a partial tree by a minimum-weight crossing edge.",
+        "state": "approved",
+        "triple": [
+          "opencs-c43738",
+          "uses",
+          "weighted-graph"
+        ]
+      }
+    ],
+    "last": 59,
+    "path": "src/graph/mst_prim.md",
+    "sha256": "e61ec2daf0d25d7ad8f43a944547dcf172e9b523635451e10b65256eeac7929b"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 39,
+    "judgments": [
+      {
+        "scope": "Kosaraju’s two-pass search and the path-based Gabow method are distinct. This passage alone does not establish Gabow's procedure.",
+        "state": "rejected",
+        "triple": [
+          "opencs-c40824",
+          "invokesAlgorithm",
+          "depth-first-search"
+        ]
+      }
+    ],
+    "last": 70,
+    "path": "src/graph/strongly-connected-components.md",
+    "sha256": "20a45a4b2b8fca46f6d31197f3f7139c43f7808d20d2438cbab9c06b63d1c659"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 7,
+    "judgments": [
+      {
+        "scope": "A total vertex ordering respecting all directed edges exists exactly when the finite directed graph is acyclic.",
+        "state": "approved",
+        "triple": [
+          "topological-sorting",
+          "requiresAssumption",
+          "directed-acyclic-graph"
+        ]
+      },
+      {
+        "scope": "The reviewed DFS variant places vertices in reverse finish-time order.",
+        "state": "approved",
+        "triple": [
+          "depth-first-topological-sort",
+          "invokesAlgorithm",
+          "depth-first-search"
+        ]
+      }
+    ],
+    "last": 28,
+    "path": "src/graph/topological-sort.md",
+    "sha256": "1d3319f030498cb1ca1e26661fd3f14266463dc04976fd0ea0dee09520aab95a"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 144,
+    "judgments": [
+      {
+        "scope": "The exact substring is the goal, not an ingredient of the algorithm.",
+        "state": "rejected",
+        "triple": [
+          "opencs-c18328",
+          "uses",
+          "substring-search-problem"
+        ]
+      },
+      {
+        "scope": "Prefix lengths let the matcher find occurrences without restarting on mismatches.",
+        "state": "approved",
+        "triple": [
+          "opencs-c18328",
+          "solves",
+          "substring-search-problem"
+        ]
+      }
+    ],
+    "last": 177,
+    "path": "src/string/prefix-function.md",
+    "sha256": "886e8f21bb5b9365a12e5fee71bb5f8e8c7f2585eb7282ac5d3d06bec3a65ddd"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 226,
+    "judgments": [
+      {
+        "scope": "Suffix order supports finding occurrences via binary searches in the sorted suffixes.",
+        "state": "approved",
+        "triple": [
+          "opencs-c25543",
+          "supportsOperation",
+          "substring-indexing-query"
+        ]
+      }
+    ],
+    "last": 239,
+    "path": "src/string/suffix-array.md",
+    "sha256": "521160eb08f3cb40e4e8a0862d40994d1d0fc74f21d19151deee7230d8bb92b9"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 21,
+    "judgments": [
+      {
+        "scope": "The minimal deterministic automaton represents the set of suffixes via terminal states; paths without testing terminal status cover substrings.",
+        "state": "approved",
+        "triple": [
+          "opencs-c26036",
+          "represents",
+          "suffix-language-of-a-string"
+        ]
+      }
+    ],
+    "last": 36,
+    "path": "src/string/suffix-automaton.md",
+    "sha256": "4fa91453fca77a50f1b9b2d16e2efa72322f4d39807d00f2ffeb8ca59728edb6"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 37,
+    "judgments": [
+      {
+        "scope": "Starting at the initial state and following a substring yields a path exactly for substrings of the indexed string.",
+        "state": "approved",
+        "triple": [
+          "opencs-c26036",
+          "supportsOperation",
+          "substring-indexing-query"
+        ]
+      }
+    ],
+    "last": 54,
+    "path": "src/string/suffix-automaton.md",
+    "sha256": "453513aef8c557da3aec208f62d942b0e350b91439d454cd2bed92609d97a589"
+  },
+  {
+    "corpus": "go",
+    "first": 5,
+    "judgments": [
+      {
+        "scope": "The named standard method produces digital signatures over a message digest in its applicable curve and key scope.",
+        "state": "approved",
+        "triple": [
+          "ecdsa-digital-signature",
+          "computes",
+          "digital-signature"
+        ]
+      }
+    ],
+    "last": 18,
+    "path": "src/crypto/ecdsa/ecdsa.go",
+    "sha256": "4f9c476e1e50f6755be17d80fc30f7e976589d0f8672ad72f65589b744cacf49"
+  },
+  {
+    "corpus": "go",
+    "first": 33,
+    "judgments": [
+      {
+        "scope": "The reviewed HMAC construction uses an underlying cryptographic hash with a shared secret key.",
+        "state": "approved",
+        "triple": [
+          "hmac-message-authentication",
+          "uses",
+          "cryptographic-hash-function"
+        ]
+      },
+      {
+        "scope": "The source describes keyed message authentication by comparing authentication tags.",
+        "state": "approved",
+        "triple": [
+          "hmac-message-authentication",
+          "computes",
+          "message-authentication-code"
+        ]
+      }
+    ],
+    "last": 48,
+    "path": "src/crypto/hmac/hmac.go",
+    "sha256": "ea407bb956d8e6825982f347d12ab277b33e678b32342f7de9152dcd5c379aa1"
+  },
+  {
+    "corpus": "go",
+    "first": 432,
+    "judgments": [
+      {
+        "scope": "The reviewed private transform raises the message representative to a private exponent modulo n or its factors.",
+        "state": "approved",
+        "triple": [
+          "rsa-cryptosystem",
+          "uses",
+          "modular-exponentiation"
+        ]
+      }
+    ],
+    "last": 448,
+    "path": "src/crypto/internal/fips140/rsa/rsa.go",
+    "sha256": "562b2eb3821edb42c291fb6617c32f4df50a85c18b8eaa75035871898bd54ebb"
+  },
+  {
+    "corpus": "go",
+    "first": 5,
+    "judgments": [
+      {
+        "scope": "The package explicitly implements the SHA-256 hash algorithm.",
+        "state": "approved",
+        "triple": [
+          "go-sha256-implementation",
+          "implementsAlgorithm",
+          "sha256-hash"
+        ]
+      }
+    ],
+    "last": 22,
+    "path": "src/crypto/sha256/sha256.go",
+    "sha256": "2142976739f693a0c16ed93ba26e8edea2b5f0169b565bc1509997080e21e74b"
+  },
+  {
+    "corpus": "llvm",
+    "first": 60,
+    "judgments": [
+      {
+        "scope": "The analysis answers may-, must- and no-alias queries for specified memory locations.",
+        "state": "approved",
+        "triple": [
+          "llvm-alias-analysis",
+          "analyzes",
+          "pointer-aliasing"
+        ]
+      },
+      {
+        "scope": "The documented interface compares program memory locations described by pointer operands and sizes.",
+        "state": "approved",
+        "triple": [
+          "llvm-alias-analysis",
+          "analyzes",
+          "opencs-c794"
+        ]
+      }
+    ],
+    "last": 86,
+    "path": "llvm/docs/AliasAnalysis.rst",
+    "sha256": "dc0dce2d45d5953e412e81b7da7fcdc857d8445bf8631a4a2b10a926152a2e80"
+  },
+  {
+    "corpus": "llvm",
+    "first": 13,
+    "judgments": [
+      {
+        "scope": "The LLVM IR is explicitly described as SSA-based.",
+        "state": "approved",
+        "triple": [
+          "llvm-ir",
+          "uses",
+          "static-single-assignment-form"
+        ]
+      }
+    ],
+    "last": 24,
+    "path": "llvm/docs/LangRef.rst",
+    "sha256": "9f1f73deefd370c251d446e642ba954d9f09d339adab4f73c4693041a2b59f7c"
+  },
+  {
+    "corpus": "llvm",
+    "first": 18,
+    "judgments": [
+      {
+        "scope": "LLVM analysis passes compute information consumed by transformations.",
+        "state": "approved",
+        "triple": [
+          "optimizing-llvm-pass-pipeline",
+          "uses",
+          "static-program-analysis"
+        ]
+      },
+      {
+        "scope": "The LLVM example documents use of static analyses during optimization; the claim is scoped to analysis-driven optimizing compilation.",
+        "state": "approved",
+        "triple": [
+          "opencs-c21201",
+          "uses",
+          "static-program-analysis"
+        ]
+      }
+    ],
+    "last": 44,
+    "path": "llvm/docs/Passes.rst",
+    "sha256": "d18ebde1bb4e920dd1208f76204136f6afd28dc11ca9b00910ad67b10d8f6404"
+  },
+  {
+    "corpus": "llvm",
+    "first": 85,
+    "judgments": [
+      {
+        "scope": "The LLVM analysis emits the graph of basic blocks and branch edges.",
+        "state": "approved",
+        "triple": [
+          "llvm-cfg-printer",
+          "computes",
+          "program-control-flow-graph"
+        ]
+      },
+      {
+        "scope": "Edges encode the control transfer relation over the represented function's blocks.",
+        "state": "approved",
+        "triple": [
+          "program-control-flow-graph",
+          "represents",
+          "basic-block-transfer"
+        ]
+      }
+    ],
+    "last": 98,
+    "path": "llvm/docs/Passes.rst",
+    "sha256": "329728f10dcb7d36cecaf9b549b8662f85a702f45f31e0ecf2d9b24dfe11aef2"
+  },
+  {
+    "corpus": "llvm",
+    "first": 195,
+    "judgments": [
+      {
+        "scope": "The pass determines which previous operations a memory operation depends on.",
+        "state": "approved",
+        "triple": [
+          "llvm-memory-dependence-analysis",
+          "analyzes",
+          "program-memory-dependence"
+        ]
+      },
+      {
+        "scope": "The documented memory-dependence query uses alias analysis.",
+        "state": "approved",
+        "triple": [
+          "llvm-memory-dependence-analysis",
+          "uses",
+          "llvm-alias-analysis"
+        ]
+      }
+    ],
+    "last": 212,
+    "path": "llvm/docs/Passes.rst",
+    "sha256": "1da735348a354988afed5cccd846e9f513fc61a9bbc3a4444f884f6285cc0958"
+  },
+  {
+    "corpus": "llvm",
+    "first": 361,
+    "judgments": [
+      {
+        "scope": "The transformation walks instructions to detect those that become removable as their uses are deleted.",
+        "state": "approved",
+        "triple": [
+          "llvm-dead-code-elimination",
+          "analyzes",
+          "unused-side-effect-free-llvm-instruction"
+        ]
+      }
+    ],
+    "last": 385,
+    "path": "llvm/docs/Passes.rst",
+    "sha256": "75062c8d82cbcd129772c7c655739460ff6765c17395b9495729519ff9a3094a"
+  },
+  {
+    "corpus": "llvm",
+    "first": 619,
+    "judgments": [
+      {
+        "scope": "Alias information supports the pass's validity conditions for hoisting memory operations and promoting memory to SSA registers.",
+        "state": "approved",
+        "triple": [
+          "llvm-loop-invariant-code-motion",
+          "uses",
+          "llvm-alias-analysis"
+        ]
+      }
+    ],
+    "last": 635,
+    "path": "llvm/docs/Passes.rst",
+    "sha256": "464a8aaa44e8f41bbe15ca97e59cfe801d64cf09da0583217a0ebe20da7037a7"
+  },
+  {
+    "corpus": "mathlib4",
+    "first": 304,
+    "judgments": [
+      {
+        "scope": "Subset construction supplies the inclusion into DFA-recognizable languages for finite source states. The reverse inclusion uses the separately cited DFA embedding.",
+        "state": "approved",
+        "triple": [
+          "opencs-c30272",
+          "recognizesExactly",
+          "regular-language"
+        ]
+      }
+    ],
+    "last": 311,
+    "path": "Mathlib/Computability/NFA.lean",
+    "sha256": "32566486808d07debe3992a4eae8d3ae27b4c50d29ca0dd28c070e013bfc515a"
+  },
+  {
+    "corpus": "mathlib4",
+    "first": 306,
+    "judgments": [
+      {
+        "scope": "Each deterministic transition starts from a subset of the input nondeterministic state type.",
+        "state": "approved",
+        "triple": [
+          "nfa-subset-construction",
+          "uses",
+          "opencs-c30272"
+        ]
+      },
+      {
+        "scope": "The new state type consists of subsets of the original state type.",
+        "state": "approved",
+        "triple": [
+          "nfa-subset-construction",
+          "uses",
+          "power-set"
+        ]
+      },
+      {
+        "scope": "The construction outputs a deterministic automaton on sets of input states.",
+        "state": "approved",
+        "triple": [
+          "nfa-subset-construction",
+          "computes",
+          "opencs-c21398"
+        ]
+      },
+      {
+        "scope": "The named theorem in the excerpt states equality of the accepted languages. This source witness is textual.",
+        "state": "approved",
+        "triple": [
+          "nfa-subset-construction",
+          "guarantees",
+          "nfa-dfa-language-preservation"
+        ]
+      }
+    ],
+    "last": 322,
+    "path": "Mathlib/Computability/NFA.lean",
+    "sha256": "efea05dc4e8c588b48b1cf013bab9f65d4d2e1480ce669884ac3b07b93809f7a"
+  },
+  {
+    "corpus": "mathlib4",
+    "first": 348,
+    "judgments": [
+      {
+        "scope": "The named equality certifies the reverse inclusion used in the finite-state recognition characterization, alongside subset construction. This is cited as a textual declaration.",
+        "state": "approved",
+        "triple": [
+          "opencs-c30272",
+          "recognizesExactly",
+          "regular-language"
+        ]
+      }
+    ],
+    "last": 354,
+    "path": "Mathlib/Computability/NFA.lean",
+    "sha256": "0e5afc2b3f1f4e9256054011e7b26bf111225369407789812f3eca943fc4626e"
+  },
+  {
+    "corpus": "postgres",
+    "first": 141,
+    "judgments": [
+      {
+        "scope": "The standby receives and replays the WAL sequence from the primary.",
+        "state": "approved",
+        "triple": [
+          "postgres-log-shipping-replication",
+          "uses",
+          "write-ahead-log"
+        ]
+      },
+      {
+        "scope": "The documented method transmits records between distinct database servers.",
+        "state": "approved",
+        "triple": [
+          "postgres-log-shipping-replication",
+          "uses",
+          "opencs-c5279"
+        ]
+      }
+    ],
+    "last": 163,
+    "path": "doc/src/sgml/high-availability.sgml",
+    "sha256": "1c6fdc3fb25038eccf3eb948c4bf02e63adff684b8537bef2020e7287428849d"
+  },
+  {
+    "corpus": "postgres",
+    "first": 181,
+    "judgments": [
+      {
+        "scope": "The index can support comparison of an indexed key for equality using its operator class.",
+        "state": "approved",
+        "triple": [
+          "postgres-btree-index",
+          "supportsOperation",
+          "database-equality-lookup"
+        ]
+      },
+      {
+        "scope": "The index uses sorted keys so supported range comparisons can be resolved by an ordered scan.",
+        "state": "approved",
+        "triple": [
+          "postgres-btree-index",
+          "supportsOperation",
+          "database-range-lookup"
+        ]
+      }
+    ],
+    "last": 198,
+    "path": "doc/src/sgml/indices.sgml",
+    "sha256": "1c695df069a07ff4909cbb2d17d2924db8700ca09c43c246aee0bcc537d8411e"
+  },
+  {
+    "corpus": "postgres",
+    "first": 233,
+    "judgments": [
+      {
+        "scope": "The documented index handles simple equality comparisons.",
+        "state": "approved",
+        "triple": [
+          "postgres-hash-index",
+          "supportsOperation",
+          "database-equality-lookup"
+        ]
+      },
+      {
+        "scope": "The hash access method in this source supports equality rather than ordered ranges.",
+        "state": "rejected",
+        "triple": [
+          "postgres-hash-index",
+          "supportsOperation",
+          "database-range-lookup"
+        ]
+      }
+    ],
+    "last": 247,
+    "path": "doc/src/sgml/indices.sgml",
+    "sha256": "abc07fc7024342d8d4b6aad35cf0eb6d2b0b19f546f08086ddef287bdf06b437"
+  },
+  {
+    "corpus": "postgres",
+    "first": 24,
+    "judgments": [
+      {
+        "scope": "A statement or transaction sees a consistent view of row versions based on its visibility snapshot.",
+        "state": "approved",
+        "triple": [
+          "postgres-mvcc",
+          "uses",
+          "transaction-visibility-snapshot"
+        ]
+      },
+      {
+        "scope": "Visibility is determined in its PostgreSQL transaction context.",
+        "state": "approved",
+        "triple": [
+          "postgres-mvcc",
+          "uses",
+          "database-transaction"
+        ]
+      }
+    ],
+    "last": 60,
+    "path": "doc/src/sgml/mvcc.sgml",
+    "sha256": "f8d0071b88750bcd02e030a5c60310c6e8b020e921b6227e868566cf53e85fb6"
+  },
+  {
+    "corpus": "postgres",
+    "first": 481,
+    "judgments": [
+      {
+        "scope": "Subsequent queries in the transaction use the first snapshot under the documented repeatable-read rules.",
+        "state": "approved",
+        "triple": [
+          "postgres-repeatable-read",
+          "uses",
+          "transaction-visibility-snapshot"
+        ]
+      },
+      {
+        "scope": "This is a concrete implementation of repeatable-read transaction isolation; isolation is its scoped behavioral property.",
+        "state": "approved",
+        "triple": [
+          "postgres-repeatable-read",
+          "hasProperty",
+          "opencs-c30273"
+        ]
+      }
+    ],
+    "last": 518,
+    "path": "doc/src/sgml/mvcc.sgml",
+    "sha256": "874fd65f89fc5c077c66c2c0700ff62ce3a18d143c096e05c13742f171f0c06c"
+  },
+  {
+    "corpus": "postgres",
+    "first": 104,
+    "judgments": [
+      {
+        "scope": "The estimated rows and costs describe each plan node rather than execution measurements.",
+        "state": "approved",
+        "triple": [
+          "postgres-query-planner",
+          "estimates",
+          "optimizer-cardinality-estimate"
+        ]
+      }
+    ],
+    "last": 137,
+    "path": "doc/src/sgml/perform.sgml",
+    "sha256": "aa635757b2de007a98036932784c9724d565030f7ab58a1c6a2d0649dde717bb"
+  },
+  {
+    "corpus": "postgres",
+    "first": 120,
+    "judgments": [
+      {
+        "scope": "The row estimate is for the output of a plan node after its filters.",
+        "state": "approved",
+        "triple": [
+          "postgres-query-planner",
+          "estimates",
+          "optimizer-cardinality-estimate"
+        ]
+      }
+    ],
+    "last": 137,
+    "path": "doc/src/sgml/perform.sgml",
+    "sha256": "f25a863ebc91417c86aea64b598678fc01dd1d54ad65cf6985ab62386705f10a"
+  },
+  {
+    "corpus": "raft",
+    "first": 2,
+    "judgments": [
+      {
+        "scope": "The source explicitly models Raft rather than executing the consensus protocol.",
+        "state": "approved",
+        "triple": [
+          "raft-tla-specification",
+          "represents",
+          "raft-consensus"
+        ]
+      },
+      {
+        "scope": "The artifact specifies state transitions; the cited header establishes a specification role rather than a deployed implementation.",
+        "state": "rejected",
+        "triple": [
+          "raft-tla-specification",
+          "implementsAlgorithm",
+          "raft-consensus"
+        ]
+      },
+      {
+        "scope": "The fixed-configuration Raft specification models leader-based agreement on committed log entries.",
+        "state": "approved",
+        "triple": [
+          "raft-consensus",
+          "solves",
+          "distributed-consensus"
+        ]
+      }
+    ],
+    "last": 9,
+    "path": "raft.tla",
+    "sha256": "eab95af7bff4a035ea1b527520ef3bc6998e3ae10e4353565323825efa94c5ce"
+  },
+  {
+    "corpus": "raft",
+    "first": 201,
+    "judgments": [
+      {
+        "scope": "The leader transmits term-tagged log entries and prefix consistency information to followers.",
+        "state": "approved",
+        "triple": [
+          "raft-consensus",
+          "uses",
+          "raft-replicated-log"
+        ]
+      },
+      {
+        "scope": "The protocol communicates by vote and replication messages between servers.",
+        "state": "approved",
+        "triple": [
+          "raft-consensus",
+          "uses",
+          "opencs-c5279"
+        ]
+      }
+    ],
+    "last": 227,
+    "path": "raft.tla",
+    "sha256": "69ec8909c5ddee0cf455edaf4ebb3c3911503038e5f23d93d02b3cc59fccab48"
+  },
+  {
+    "corpus": "raft",
+    "first": 255,
+    "judgments": [
+      {
+        "scope": "The leader advances commitment using the set of replicas with sufficient match indices and the current-term condition.",
+        "state": "approved",
+        "triple": [
+          "raft-consensus",
+          "uses",
+          "raft-majority-quorum"
+        ]
+      }
+    ],
+    "last": 283,
+    "path": "raft.tla",
+    "sha256": "21cd99a4a8316b174c0f62af2cf2a15a22eb884594ae4baf7f4adacd84786b4f"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 154,
+    "judgments": [
+      {
+        "scope": "The objective is the sum of squared Euclidean distances to assigned cluster centers.",
+        "state": "approved",
+        "triple": [
+          "opencs-c26767",
+          "uses",
+          "within-cluster-squared-distance"
+        ]
+      },
+      {
+        "scope": "The Lloyd objective and assignment rule use squared Euclidean distance to a centroid.",
+        "state": "approved",
+        "triple": [
+          "opencs-c26767",
+          "uses",
+          "euclidean-distance"
+        ]
+      }
+    ],
+    "last": 178,
+    "path": "doc/modules/clustering.rst",
+    "sha256": "eb4db03612628b19296a3a58aba02f869a05eeeb79c45cc7141d12e239642f74"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 223,
+    "judgments": [
+      {
+        "scope": "Dependence on initialization allows local minima; the customary algorithm has no global-optimum guarantee.",
+        "state": "rejected",
+        "triple": [
+          "opencs-c26767",
+          "guarantees",
+          "kmeans-global-optimality"
+        ]
+      }
+    ],
+    "last": 231,
+    "path": "doc/modules/clustering.rst",
+    "sha256": "9762ede482b1e6feac54a93b009b24c3fcb13c5b0ddb8752ee659bf1abe13bd5"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 485,
+    "judgments": [
+      {
+        "scope": "The reviewed normalized clustering method constructs a low-dimensional graph embedding.",
+        "state": "approved",
+        "triple": [
+          "opencs-c29574",
+          "uses",
+          "normalized-graph-spectral-embedding"
+        ]
+      },
+      {
+        "scope": "The embedding is obtained from the normalized affinity-graph Laplacian.",
+        "state": "approved",
+        "triple": [
+          "normalized-graph-spectral-embedding",
+          "uses",
+          "graph-laplacian"
+        ]
+      },
+      {
+        "scope": "A graph-affinity structure supplies the basis of the documented clustering procedure.",
+        "state": "approved",
+        "triple": [
+          "opencs-c29574",
+          "solves",
+          "data-clustering-problem"
+        ]
+      }
+    ],
+    "last": 528,
+    "path": "doc/modules/clustering.rst",
+    "sha256": "7edaecefabcca103886ee96ea94e9b2b1fa34f86a067662f84d24c6a1974a9b2"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 630,
+    "judgments": [
+      {
+        "scope": "Single linkage chooses the minimum pairwise dissimilarity between clusters.",
+        "state": "approved",
+        "triple": [
+          "opencs-c38396",
+          "uses",
+          "agglomerative-linkage"
+        ]
+      },
+      {
+        "scope": "Complete linkage uses the maximum cross-cluster pairwise dissimilarity.",
+        "state": "approved",
+        "triple": [
+          "opencs-c38397",
+          "uses",
+          "agglomerative-linkage"
+        ]
+      },
+      {
+        "scope": "The bottom-up variant builds nested clusters by repeatedly merging observations or clusters.",
+        "state": "approved",
+        "triple": [
+          "opencs-c29024",
+          "solves",
+          "data-clustering-problem"
+        ]
+      }
+    ],
+    "last": 687,
+    "path": "doc/modules/clustering.rst",
+    "sha256": "ad0af39c2318708e10f27823094af029f90002799f93c48024ef2d13f9205b28"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 20,
+    "judgments": [
+      {
+        "scope": "The source motivates the ordered components by the amount of variance explained along each direction.",
+        "state": "approved",
+        "triple": [
+          "pca-dimensionality-reduction",
+          "uses",
+          "principal-component-analysis"
+        ]
+      },
+      {
+        "scope": "The reviewed computation decomposes the centered data matrix using singular vectors.",
+        "state": "approved",
+        "triple": [
+          "principal-component-analysis",
+          "uses",
+          "singular-value-decomposition"
+        ]
+      }
+    ],
+    "last": 44,
+    "path": "doc/modules/decomposition.rst",
+    "sha256": "10a03f754dd135ff0b000c21c58d458271074434bac7f1cccce37b63997b73b0"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 646,
+    "judgments": [
+      {
+        "scope": "The regression-tree boosting derivation takes stagewise steps in function space along a loss gradient.",
+        "state": "approved",
+        "triple": [
+          "opencs-c24136",
+          "uses",
+          "functional-gradient-step"
+        ]
+      }
+    ],
+    "last": 707,
+    "path": "doc/modules/ensemble.rst",
+    "sha256": "012abf9e756eb3cd12684308e90b02ad4f6b63d342d661064e25aac473049189"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 1251,
+    "judgments": [
+      {
+        "scope": "The training procedure draws random samples with replacement before aggregating base estimators.",
+        "state": "approved",
+        "triple": [
+          "bagging-resampled-ensemble",
+          "uses",
+          "bootstrap-resampling"
+        ]
+      },
+      {
+        "scope": "Bagging is a scoped ensemble construction, not an ingredient of every ensemble method.",
+        "state": "rejected",
+        "triple": [
+          "opencs-c610",
+          "uses",
+          "bagging-resampled-ensemble"
+        ]
+      }
+    ],
+    "last": 1294,
+    "path": "doc/modules/ensemble.rst",
+    "sha256": "93b21a704ac9a4f7316406e9057a09ed9697aaaaf5613b4e5b0d6ffe9ec36d04"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 125,
+    "judgments": [
+      {
+        "scope": "The hashing trick maps feature names into a fixed number of feature indices and returns a sparse encoding.",
+        "state": "approved",
+        "triple": [
+          "opencs-c44766",
+          "computes",
+          "sparse-feature-vector"
+        ]
+      },
+      {
+        "scope": "The witness maps keys by a hash function without storing the feature-to-index dictionary.",
+        "state": "rejected",
+        "triple": [
+          "opencs-c44766",
+          "uses",
+          "hash-table"
+        ]
+      }
+    ],
+    "last": 158,
+    "path": "doc/modules/feature_extraction.rst",
+    "sha256": "2395d7cacb940894213025f8d44540d3568a3c1e43a73e2fef9d36a34b321c9c"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 1335,
+    "judgments": [
+      {
+        "scope": "The supervised online update trains the linear perceptron classifier.",
+        "state": "approved",
+        "triple": [
+          "perceptron-binary-training",
+          "appliesToModel",
+          "opencs-c25201"
+        ]
+      },
+      {
+        "scope": "In its binary form the method learns a linear decision score and predicts one of two labels.",
+        "state": "approved",
+        "triple": [
+          "perceptron-binary-training",
+          "computes",
+          "binary-hypothesis-classifier"
+        ]
+      }
+    ],
+    "last": 1359,
+    "path": "doc/modules/linear_model.rst",
+    "sha256": "494f6c05107034fe83c53177ff3b235538e55ffc54cd1568d59d47cb3dfbcf75"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 10,
+    "judgments": [
+      {
+        "scope": "The naive likelihood factorization assumes conditional independence of features given the class.",
+        "state": "approved",
+        "triple": [
+          "opencs-c6021",
+          "hasModelingAssumption",
+          "conditional-feature-independence"
+        ]
+      },
+      {
+        "scope": "The predicted class is selected using relative posterior scores from the prior and class-conditional feature likelihoods.",
+        "state": "approved",
+        "triple": [
+          "opencs-c6021",
+          "uses",
+          "bayes-theorem"
+        ]
+      },
+      {
+        "scope": "The model predicts the class with maximum posterior score in the reviewed supervised classification scope.",
+        "state": "approved",
+        "triple": [
+          "opencs-c6021",
+          "solves",
+          "supervised-classification-problem"
+        ]
+      }
+    ],
+    "last": 53,
+    "path": "doc/modules/naive_bayes.rst",
+    "sha256": "1a800222c172565b6b679bea34079471cf5f7b8d223d51b5b5ab51ba2b954f47"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 18,
+    "judgments": [
+      {
+        "scope": "Nearest-neighbor search queries a set for data points close to an input point.",
+        "state": "approved",
+        "triple": [
+          "opencs-c16606",
+          "solves",
+          "nearest-neighbor-query"
+        ]
+      },
+      {
+        "scope": "The prediction method uses a finite number of neighbors selected by a distance rule.",
+        "state": "approved",
+        "triple": [
+          "opencs-c3512",
+          "uses",
+          "nearest-neighbor-query"
+        ]
+      }
+    ],
+    "last": 36,
+    "path": "doc/modules/neighbors.rst",
+    "sha256": "b57b04ba2f32d8e5cef54e4402dd3ef3b9b5120c825bb0e60deb60d491ff82c9"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 155,
+    "judgments": [
+      {
+        "scope": "The classification variant votes over labels of the nearest training neighbors.",
+        "state": "approved",
+        "triple": [
+          "opencs-c3512",
+          "solves",
+          "supervised-classification-problem"
+        ]
+      }
+    ],
+    "last": 167,
+    "path": "doc/modules/neighbors.rst",
+    "sha256": "aaa0e09ff448fae34d66d8e3878d9a204cd55c7d91800a0b8d3d22f16d604c6c"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 81,
+    "judgments": [
+      {
+        "scope": "Backpropagation computes the loss gradient for the layered feed-forward model.",
+        "state": "approved",
+        "triple": [
+          "multilayer-perceptron-gradient-training",
+          "appliesToModel",
+          "opencs-c14221"
+        ]
+      },
+      {
+        "scope": "Backpropagated derivatives supply the gradients for a separate optimizer.",
+        "state": "approved",
+        "triple": [
+          "multilayer-perceptron-gradient-training",
+          "uses",
+          "backpropagation"
+        ]
+      }
+    ],
+    "last": 109,
+    "path": "doc/modules/neural_networks_supervised.rst",
+    "sha256": "a2bb1b9edbf3183f32d06cf1fec5d502f66792d2cdd563ac95c2a06ac5929e89"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 28,
+    "judgments": [
+      {
+        "scope": "The decision function combines evaluations of the kernel against support vectors.",
+        "state": "approved",
+        "triple": [
+          "kernel-support-vector-machine",
+          "uses",
+          "kernel-method"
+        ]
+      }
+    ],
+    "last": 62,
+    "path": "doc/modules/svm.rst",
+    "sha256": "45d98aee02cf4745daf33f87904cdd53f7ff97b4f7d6e5877ce76cf017b88374"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 473,
+    "judgments": [
+      {
+        "scope": "The kernel computes feature-space similarities used by the decision function.",
+        "state": "approved",
+        "triple": [
+          "kernel-support-vector-machine",
+          "uses",
+          "kernel-method"
+        ]
+      }
+    ],
+    "last": 497,
+    "path": "doc/modules/svm.rst",
+    "sha256": "8f3ccd7f2f4b9a26798f7605bf156b425916fe7526ae3cd85943398dd19a8dfb"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 626,
+    "judgments": [
+      {
+        "scope": "The described binary soft-margin training criterion balances the separating margin against slack penalties.",
+        "state": "approved",
+        "triple": [
+          "support-vector-machine",
+          "uses",
+          "margin-maximization"
+        ]
+      }
+    ],
+    "last": 654,
+    "path": "doc/modules/svm.rst",
+    "sha256": "1596d9687f8b7b728e317fbe0c03f9503b385b05e30a7295e5709f80c66124b3"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 9,
+    "judgments": [
+      {
+        "scope": "The learning procedure fits a tree of decision rules inferred from feature values.",
+        "state": "approved",
+        "triple": [
+          "decision-tree-learning",
+          "computes",
+          "opencs-c7652"
+        ]
+      },
+      {
+        "scope": "The classifier variant predicts a class using decision rules learned from labeled observations.",
+        "state": "approved",
+        "triple": [
+          "decision-tree-learning",
+          "solves",
+          "supervised-classification-problem"
+        ]
+      }
+    ],
+    "last": 27,
+    "path": "doc/modules/tree.rst",
+    "sha256": "f1343d55c70e87a8be76449a132ef54a9cb6518327f425ae51227fea5c8f6562"
+  }
+]

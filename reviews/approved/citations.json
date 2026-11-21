@@ -157,13 +157,13 @@
   ],
   [
     "dpll-algorithm",
-    "uses",
+    "invokesAlgorithm",
     "unit-propagation",
     "https://doi.org/10.3233/FAIA336"
   ],
   [
     "conflict-driven-clause-learning",
-    "uses",
+    "invokesAlgorithm",
     "unit-propagation",
     "https://doi.org/10.3233/FAIA336"
   ],
@@ -505,13 +505,13 @@
   ],
   [
     "rewriting-newman-lemma",
-    "requiresAssumption",
+    "requiresPremise",
     "rewriting-termination",
     "https://www21.in.tum.de/~nipkow/TRaAT/"
   ],
   [
     "rewriting-newman-lemma",
-    "requiresAssumption",
+    "requiresPremise",
     "rewriting-local-confluence",
     "https://www21.in.tum.de/~nipkow/TRaAT/"
   ],
@@ -973,19 +973,19 @@
   ],
   [
     "knaster-tarski-fixed-point-theorem",
-    "uses",
+    "requiresPremise",
     "complete-lattice",
     "https://doi.org/10.2140/pjm.1955.5.285"
   ],
   [
     "knaster-tarski-fixed-point-theorem",
-    "uses",
+    "requiresPremise",
     "monotone-map",
     "https://doi.org/10.2140/pjm.1955.5.285"
   ],
   [
     "knaster-tarski-fixed-point-theorem",
-    "uses",
+    "guarantees",
     "fixed-point",
     "https://doi.org/10.2140/pjm.1955.5.285"
   ],
@@ -1267,13 +1267,13 @@
   ],
   [
     "binary-f1-harmonic-mean",
-    "uses",
+    "containsSymbol",
     "stato-0000416",
     "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html"
   ],
   [
     "binary-f1-harmonic-mean",
-    "uses",
+    "containsSymbol",
     "stato-0000233",
     "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html"
   ],
@@ -1351,19 +1351,19 @@
   ],
   [
     "vandermonde-convolution",
-    "uses",
+    "containsSymbol",
     "binomial-coefficient",
     "https://github.com/leanprover-community/mathlib4/blob/35f494609c32653bae53eb33f0cf2d899808909a/Mathlib/Data/Nat/Choose/Vandermonde.lean#L25-L35"
   ],
   [
     "hypergeometric-mass-formula",
-    "uses",
+    "containsSymbol",
     "binomial-coefficient",
     "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/Hypergeometric.html"
   ],
   [
     "binomial-mass-formula",
-    "uses",
+    "containsSymbol",
     "binomial-coefficient",
     "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/Binomial.html"
   ],
@@ -1582,5 +1582,11 @@
     "represents",
     "ontomath-pro-e2127",
     "https://github.com/leanprover-community/mathlib4/blob/35f494609c32653bae53eb33f0cf2d899808909a/Mathlib/Basic/Complex/Basic.lean#L52-L54"
+  ],
+  [
+    "probabilistic-graphical-model",
+    "represents",
+    "joint-distribution",
+    "https://mitpress.mit.edu/9780262013192/probabilistic-graphical-models/"
   ]
 ]

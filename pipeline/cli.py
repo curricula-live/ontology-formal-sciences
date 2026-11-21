@@ -16,6 +16,8 @@ from pipeline.curate.openmath import replay as replay_openmath
 from pipeline.curate.mathlib_evidence import replay as replay_mathlib
 from pipeline.parse import lean_index
 from pipeline.curate import neighborhoods
+from pipeline.curate import cs_evidence
+from pipeline import lean_probe
 from pipeline.semantic_audit import AUDITS, replay as replay_semantic_audit
 
 
@@ -60,6 +62,11 @@ def main():
     mathlib_index.add_argument("--offline", action="store_true")
     mathlib_index.add_argument("--write-evidence", action="store_true")
     mathlib_index.add_argument("--export", type=Path)
+    primary = subs.add_parser("replay-cs-evidence")
+    primary.add_argument("--offline", action="store_true")
+    kernel = subs.add_parser("replay-lean-probe")
+    kernel.add_argument("--lean", required=True, type=Path)
+    kernel.add_argument("--write-evidence", action="store_true")
     native = subs.add_parser("replay-neighborhood")
     native.add_argument("--source", required=True, choices=sorted(neighborhoods.PROFILES))
     native.add_argument("--offline", action="store_true")
@@ -67,6 +74,7 @@ def main():
     semantic = subs.add_parser("replay-semantic-audit")
     semantic.add_argument("--release", required=True, choices=sorted(p.stem for p in AUDITS.glob("*.json")))
     semantic.add_argument("--offline", action="store_true")
+    semantic.add_argument("--baseline", type=Path)
     for cmd in ("build","validate","stats","reason"):
         subs.add_parser(cmd)
     args = parser.parse_args()
@@ -78,13 +86,17 @@ def main():
             result = replay_openmath(args.offline, args.write_evidence)
         elif args.cmd == "replay-mathlib":
             result = replay_mathlib(args.offline)
+        elif args.cmd == "replay-cs-evidence":
+            result = cs_evidence.replay(args.offline)
+        elif args.cmd == "replay-lean-probe":
+            result = lean_probe.replay(args.lean, args.write_evidence)
         elif args.cmd == "replay-mathlib-index":
             if args.export is not None and args.write_evidence:
                 parser.error("--export requires an existing verified inventory")
             result = (lean_index.export(args.export, args.offline) if args.export is not None
                       else lean_index.replay(args.offline, args.write_evidence))
         elif args.cmd == "replay-semantic-audit":
-            result = replay_semantic_audit(args.release, args.offline)
+            result = replay_semantic_audit(args.release, args.offline, args.baseline)
         elif hasattr(args,"source"):
             s = catalog[args.source]
             if args.cmd=="fetch":

@@ -15,7 +15,7 @@ c:principal-component-analysis skos:related c:singular-value-decomposition .
 c:shannon-entropy v:uses c:probability-distributions .
 c:markov-chain skos:related c:directed-graph .
 c:gradient-descent v:uses c:derivative .
-c:minimum-spanning-tree-problem v:uses c:weighted-graph .
+c:minimum-spanning-tree-problem v:hasInputStructure c:weighted-graph .
 c:minimum-spanning-tree-problem skos:related c:spanning-tree .
 c:topological-sorting v:uses c:directed-acyclic-graph .
 c:maximum-flow-problem skos:related c:directed-graph .
