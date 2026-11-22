@@ -1,0 +1,473 @@
+{
+  "batch_admissions": {
+    "mathmoddb": {
+      "eligible": 92,
+      "exclusions": {},
+      "identities": 92,
+      "new_concepts": 92,
+      "pending": 0,
+      "policy": "Reviewed MathModDB subject slice for numerical mathematics and model reduction.",
+      "registry_sha256": "4b49ce05ac38d7ab08acdb3fa8a370614c283bdf3fb6919a0e79065b3597fa6b"
+    },
+    "ml-schema": {
+      "eligible": 6,
+      "exclusions": {},
+      "identities": 6,
+      "new_concepts": 6,
+      "pending": 0,
+      "policy": "Reviewed ML-Schema core subjects for implementation and evaluation. Each description is pinned to its class.",
+      "registry_sha256": "31951b9d3a4a0a8efe957d8bbaf62fa4f244de751e961945905abb90be434bc3"
+    },
+    "ontomath-pro": {
+      "eligible": 904,
+      "exclusions": {
+        "existing individual review": 12,
+        "native classes outside reviewed scope": 2545
+      },
+      "identities": 867,
+      "new_concepts": 867,
+      "pending": 25,
+      "policy": "Project reviewed English OWL class names into editorial subject collections. See sources/ontomath-pro/scope.tsv.",
+      "registry_sha256": "9a1aadb8fa0230f084d5089966eb1f10f712561d3070e955d0997716624996a7"
+    },
+    "opencs": {
+      "eligible": 1045,
+      "exclusions": {
+        "ambiguous subject or scope": 35,
+        "existing individual review": 28,
+        "outside reviewed subject scope": 35
+      },
+      "identities": 929,
+      "new_concepts": 929,
+      "pending": 18,
+      "policy": "OpenCS subject-family admission v1. Reviewed naming families, taxonomic scope and concordant topic referents. See sources/opencs/admission-policy.json and admission-witnesses.tsv.",
+      "registry_sha256": "2bed64b85dd491ee5686762ce5ed613f871de9ab0b0c47fbb7d5b9f9dd26dcea"
+    },
+    "stato": {
+      "eligible": 339,
+      "exclusions": {
+        "application-specific topic or specialized source sense": 51,
+        "native class outside the selected families": 238,
+        "particular interval level already represented by the generic topic": 6
+      },
+      "identities": 333,
+      "new_concepts": 316,
+      "pending": 6,
+      "policy": "Native STATO statistical subjects, reviewed class families and hierarchy exceptions",
+      "registry_sha256": "87a7efc8214fd4f78b066700af8fa1237aedc01c7e16358ebf29272100bbe487"
+    }
+  },
+  "domains": {
+    "computer-science": {
+      "canonical_subjects": 1135,
+      "direct_branches": {
+        "algorithms": {
+          "label": "Algorithms",
+          "members_including_branch": 265
+        },
+        "artificial-intelligence": {
+          "label": "Artificial intelligence",
+          "members_including_branch": 9
+        },
+        "automata-theory": {
+          "label": "Automata theory",
+          "members_including_branch": 18
+        },
+        "computability-theory": {
+          "label": "Computability theory",
+          "members_including_branch": 22
+        },
+        "computational-complexity-theory": {
+          "label": "Computational complexity theory",
+          "members_including_branch": 33
+        },
+        "computer-architecture": {
+          "label": "Computer architecture",
+          "members_including_branch": 6
+        },
+        "computer-networks": {
+          "label": "Computer networks",
+          "members_including_branch": 205
+        },
+        "cryptography": {
+          "label": "Cryptography",
+          "members_including_branch": 11
+        },
+        "data-structures": {
+          "label": "Data structures",
+          "members_including_branch": 80
+        },
+        "databases": {
+          "label": "Databases",
+          "members_including_branch": 49
+        },
+        "distributed-computing": {
+          "label": "Distributed computing",
+          "members_including_branch": 21
+        },
+        "foundations-of-computing": {
+          "label": "Foundations of computing",
+          "members_including_branch": 84
+        },
+        "information-theory": {
+          "label": "Information theory",
+          "members_including_branch": 45
+        },
+        "machine-learning": {
+          "label": "Machine learning",
+          "members_including_branch": 106
+        },
+        "operating-systems": {
+          "label": "Operating systems",
+          "members_including_branch": 26
+        },
+        "programming-languages": {
+          "label": "Programming languages",
+          "members_including_branch": 113
+        },
+        "software-engineering": {
+          "label": "Software engineering",
+          "members_including_branch": 41
+        }
+      },
+      "minimum_same_scheme_taxonomic_depth": {
+        "0": 1,
+        "1": 17,
+        "2": 1096,
+        "3": 21
+      },
+      "reviewed_roles": {
+        "Algorithm": 4,
+        "Assumption": 2,
+        "Implementation": 1,
+        "Method": 4,
+        "Problem": 1,
+        "Property": 3,
+        "Result": 1,
+        "Structure": 2
+      },
+      "unclassified": 1124,
+      "unreachable_from_owner_root": 0,
+      "with_definition": 125
+    },
+    "logic": {
+      "canonical_subjects": 197,
+      "direct_branches": {
+        "automated-reasoning": {
+          "label": "Automated reasoning",
+          "members_including_branch": 38
+        },
+        "boolean-satisfiability": {
+          "label": "Boolean satisfiability",
+          "members_including_branch": 8
+        },
+        "formal-semantics": {
+          "label": "Formal semantics",
+          "members_including_branch": 5
+        },
+        "formal-verification": {
+          "label": "Formal verification",
+          "members_including_branch": 19
+        },
+        "modal-logic": {
+          "label": "Modal logic",
+          "members_including_branch": 11
+        },
+        "model-theory": {
+          "label": "Model theory",
+          "members_including_branch": 11
+        },
+        "predicate-logic": {
+          "label": "Predicate logic",
+          "members_including_branch": 9
+        },
+        "proof-theory": {
+          "label": "Proof theory",
+          "members_including_branch": 28
+        },
+        "propositional-logic": {
+          "label": "Propositional logic",
+          "members_including_branch": 30
+        },
+        "type-theory": {
+          "label": "Type theory",
+          "members_including_branch": 37
+        }
+      },
+      "minimum_same_scheme_taxonomic_depth": {
+        "0": 1,
+        "1": 10,
+        "2": 139,
+        "3": 46,
+        "4": 1
+      },
+      "reviewed_roles": {
+        "Method": 1,
+        "Structure": 1
+      },
+      "unclassified": 195,
+      "unreachable_from_owner_root": 0,
+      "with_definition": 149
+    },
+    "mathematics": {
+      "canonical_subjects": 1112,
+      "direct_branches": {
+        "algebra": {
+          "label": "Algebra",
+          "members_including_branch": 203
+        },
+        "calculus": {
+          "label": "Calculus",
+          "members_including_branch": 14
+        },
+        "combinatorics": {
+          "label": "Combinatorics",
+          "members_including_branch": 18
+        },
+        "discrete-mathematics": {
+          "label": "Discrete mathematics",
+          "members_including_branch": 29
+        },
+        "geometry": {
+          "label": "Geometry",
+          "members_including_branch": 224
+        },
+        "graph-theory": {
+          "label": "Graph theory",
+          "members_including_branch": 20
+        },
+        "linear-algebra": {
+          "label": "Linear algebra",
+          "members_including_branch": 49
+        },
+        "mathematical-analysis": {
+          "label": "Mathematical analysis",
+          "members_including_branch": 332
+        },
+        "mathematical-foundations": {
+          "label": "Mathematical foundations",
+          "members_including_branch": 7
+        },
+        "number-theory": {
+          "label": "Number theory",
+          "members_including_branch": 27
+        },
+        "numerical-analysis": {
+          "label": "Numerical analysis",
+          "members_including_branch": 126
+        },
+        "set-theory": {
+          "label": "Set theory",
+          "members_including_branch": 33
+        },
+        "topology": {
+          "label": "Topology",
+          "members_including_branch": 31
+        }
+      },
+      "minimum_same_scheme_taxonomic_depth": {
+        "0": 1,
+        "1": 13,
+        "2": 835,
+        "3": 228,
+        "4": 35
+      },
+      "reviewed_roles": {
+        "Problem": 1,
+        "Result": 1,
+        "Structure": 2
+      },
+      "unclassified": 1108,
+      "unreachable_from_owner_root": 0,
+      "with_definition": 168
+    },
+    "statistics": {
+      "canonical_subjects": 496,
+      "direct_branches": {
+        "bayesian-statistics": {
+          "label": "Bayesian statistics",
+          "members_including_branch": 10
+        },
+        "experimental-design": {
+          "label": "Experimental design",
+          "members_including_branch": 16
+        },
+        "hypothesis-testing": {
+          "label": "Hypothesis testing",
+          "members_including_branch": 73
+        },
+        "mls-evaluation-measure": {
+          "label": "Machine-learning evaluation measure",
+          "members_including_branch": 1
+        },
+        "mls-evaluation-procedure": {
+          "label": "Machine-learning evaluation procedure",
+          "members_including_branch": 2
+        },
+        "mls-model-evaluation-result": {
+          "label": "Machine-learning model evaluation result",
+          "members_including_branch": 1
+        },
+        "multivariate-statistics": {
+          "label": "Multivariate statistics",
+          "members_including_branch": 7
+        },
+        "probability-distributions": {
+          "label": "Probability distributions",
+          "members_including_branch": 64
+        },
+        "probability-theory": {
+          "label": "Probability theory",
+          "members_including_branch": 82
+        },
+        "regression-analysis": {
+          "label": "Regression analysis",
+          "members_including_branch": 11
+        },
+        "statistical-estimation": {
+          "label": "Statistical estimation",
+          "members_including_branch": 29
+        },
+        "stato-0000039": {
+          "label": "Statistic",
+          "members_including_branch": 138
+        },
+        "stato-0000107": {
+          "label": "Statistical model",
+          "members_including_branch": 32
+        },
+        "stato-0000328": {
+          "label": "Statistical model selection",
+          "members_including_branch": 2
+        },
+        "stato-0000502": {
+          "label": "Statistical sampling",
+          "members_including_branch": 15
+        },
+        "stato-0000518": {
+          "label": "Data imputation",
+          "members_including_branch": 6
+        },
+        "stochastic-processes": {
+          "label": "Stochastic processes",
+          "members_including_branch": 10
+        }
+      },
+      "minimum_same_scheme_taxonomic_depth": {
+        "0": 1,
+        "1": 17,
+        "2": 266,
+        "3": 155,
+        "4": 51,
+        "5": 5,
+        "6": 1
+      },
+      "reviewed_roles": {
+        "Assumption": 1,
+        "Property": 1,
+        "Result": 1
+      },
+      "unclassified": 494,
+      "unreachable_from_owner_root": 0,
+      "with_definition": 41
+    }
+  },
+  "limits": [
+    "Direct taxonomic branches may overlap. Minimum path depth describes editorial organization, not formal granularity.",
+    "Concepts range from subject areas to individual results, algorithms and representations. Counts do not establish breadth or correctness.",
+    "Graphs of source axioms, indices or bibliography do not provide a denominator for canonical coverage.",
+    "Connected components measure edge participation. They do not measure scientific importance, scope fidelity or overall completeness.",
+    "Role counts apply only to the explicitly reviewed subset. Missing types are unresolved."
+  ],
+  "manifest_sha256": "06ea2b984dd414568fb5a925eb0fadb720ebdd46c044711fd514c623aceabfd3",
+  "mapping_dispositions": {
+    "approved_mappings": 234,
+    "batch_pending_entities": 49,
+    "pending_mapping_pairs": 232,
+    "pending_nonconcept_pairs": 3,
+    "rejected_mappings": 7
+  },
+  "reference_frames": {
+    "acm-ccs": {
+      "interpretation": "Computing classification reference. Permission remains unresolved.",
+      "rights": "permission unresolved",
+      "snapshot_scope": "2012 Computing Classification System",
+      "staged_triples": 0
+    },
+    "cso": {
+      "interpretation": "Computing research topic reference. Reviewed mappings are narrower than its staged corpus.",
+      "rights": "CC-BY-4.0",
+      "snapshot_scope": "full N-Triples release",
+      "staged_triples": 166518
+    },
+    "mathlib4": {
+      "interpretation": "Formal declarations and module index provide a granularity reference. Textual declarations differ from checked proofs.",
+      "rights": "Apache-2.0",
+      "snapshot_scope": "Complete Mathlib source archive. Stage module names and direct local Mathlib import declarations.",
+      "staged_triples": 32592
+    },
+    "msc2020": {
+      "interpretation": "Mathematics classification reference only. Noncommercial share-alike scope excludes a default source-content import.",
+      "rights": "CC-BY-NC-SA",
+      "snapshot_scope": "suggestion 4 edition",
+      "staged_triples": 48524
+    },
+    "ontomath-edu": {
+      "interpretation": "Educational ontology and native axiom scope. A staged class is not a canonical concept.",
+      "rights": "unverified",
+      "snapshot_scope": "complete Manchester document; 16 named-operand DisjointUnionOf frames translated to RDF lists",
+      "staged_triples": 7867
+    },
+    "ontomath-pro": {
+      "interpretation": "Mathematics class hierarchy. Class depth and canonical topic depth have different meanings.",
+      "rights": "Apache-2.0",
+      "snapshot_scope": "full Manchester ontology; OWLAPI conversion",
+      "staged_triples": 21731
+    },
+    "opencs": {
+      "interpretation": "Computing and selected formal topics. Reviewed admission families limit the published scope.",
+      "rights": "CC-BY-4.0",
+      "snapshot_scope": "full stable N-Triples release, content pinned",
+      "staged_triples": 538056
+    },
+    "stato": {
+      "interpretation": "Statistics vocabulary. Native labels and axioms are reviewed separately from imports.",
+      "rights": "CC-BY-3.0 (embedded imports have separate notices)",
+      "snapshot_scope": "1.5 release ontology",
+      "staged_triples": 20288
+    },
+    "tptp": {
+      "interpretation": "Logic/formal reasoning reference with a narrow staged example.",
+      "rights": "unverified",
+      "snapshot_scope": "PUZ001-1 problem; inventory annotated CNF formula names and roles only",
+      "staged_triples": 12
+    }
+  },
+  "scientific_connectivity_profile": {
+    "cited_relations": 691,
+    "coverage_by_scheme": {
+      "computer-science": {
+        "canonical": 1135,
+        "evidence_backed_participating": 232,
+        "participating": 234
+      },
+      "logic": {
+        "canonical": 197,
+        "evidence_backed_participating": 144,
+        "participating": 145
+      },
+      "mathematics": {
+        "canonical": 1112,
+        "evidence_backed_participating": 269,
+        "participating": 269
+      },
+      "statistics": {
+        "canonical": 496,
+        "evidence_backed_participating": 97,
+        "participating": 98
+      }
+    },
+    "cross_domain_relations": 104,
+    "relations": 697
+  }
+}

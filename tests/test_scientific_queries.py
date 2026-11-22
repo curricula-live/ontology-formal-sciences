@@ -203,7 +203,7 @@ def test_published_predicate_roles_and_superseded_assertions():
         assert (C[subject], predicate, C[target]) in graph
         assert (C[subject], V.uses, C[target]) not in graph
     assert (C["opencs-c42922"], V.recognizesExactly, C["context-free-language"]) not in graph
-    for matrix in (C["adjacency-matrix"], C["graph-laplacian"]):
+    for matrix in (C["adjacency-matrix"], C["graph-laplacian"], C["transition-matrix"]):
         assert (matrix, SKOS.broader, C.matrix) in graph
         assert (matrix, V.uses, C.matrix) not in graph
     assert (C["opencs-c24725"], V.requiresAssumption, C["ontomath-pro-e1729"]) not in graph

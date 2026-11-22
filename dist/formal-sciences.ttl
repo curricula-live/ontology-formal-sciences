@@ -13037,10 +13037,10 @@
 <https://curricula.live/id/formal-sciences/concept/transaction-visibility-snapshot> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/transaction-visibility-snapshot> <http://www.w3.org/2004/02/skos/core#prefLabel> "Transaction visibility snapshot"@en .
 <https://curricula.live/id/formal-sciences/concept/transition-matrix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/transition-matrix> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/matrix> .
 <https://curricula.live/id/formal-sciences/concept/transition-matrix> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/stochastic-processes> .
 <https://curricula.live/id/formal-sciences/concept/transition-matrix> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/transition-matrix> <http://www.w3.org/2004/02/skos/core#prefLabel> "Transition matrix"@en .
-<https://curricula.live/id/formal-sciences/concept/transition-matrix> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/matrix> .
 <https://curricula.live/id/formal-sciences/concept/tree-graph-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/tree-graph-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/graph-graph-theory> .
 <https://curricula.live/id/formal-sciences/concept/tree-graph-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/graph-theory> .

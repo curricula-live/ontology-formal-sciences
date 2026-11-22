@@ -22,6 +22,14 @@ jobs:
           python -m pipeline.cli build
           python -m pipeline.package_check dist
           test -z "$(git status --porcelain --untracked-files=all -- dist)"
+      - name: Check the pinned successor and regenerate reviewer evidence
+        run: |
+          baseline=$(jq -r .baseline.commit reviews/quality/rc-v1-plan.json)
+          git fetch --no-tags --depth=1 origin "$baseline"
+          mkdir "$RUNNER_TEMP/predecessor"
+          git archive "$baseline" dist | tar -x -C "$RUNNER_TEMP/predecessor"
+          python -m pipeline.rc_review --predecessor "$RUNNER_TEMP/predecessor/dist" --output "$RUNNER_TEMP/review"
+          diff -ru reviews/quality/rc-v1 "$RUNNER_TEMP/review"
       - uses: actions/upload-artifact@v4
         with:
           name: formal-sciences-rdf-v1

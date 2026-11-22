@@ -21,7 +21,10 @@ jobs:
           git merge-base --is-ancestor HEAD origin/main
           python - <<'PY'
           import json,os
-          version=json.load(open("ontology.yaml"))["version"]
+          config=json.load(open("ontology.yaml"))
+          version=config["version"]
+          if int(version.split(".")[0]) >= 1:
+              assert config.get("release",{}).get("status")=="stable", "Candidate packages cannot be published"
           assert os.environ["GITHUB_REF_NAME"]=="v"+version, "Tag does not match ontology version"
           PY
       - run: pip install -r requirements.lock

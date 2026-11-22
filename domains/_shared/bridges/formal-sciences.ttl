@@ -20,7 +20,7 @@ c:minimum-spanning-tree-problem skos:related c:spanning-tree .
 c:maximum-flow-problem skos:related c:directed-graph .
 c:adjacency-list skos:related c:data-structures .
 c:probabilistic-graphical-model v:uses c:graph-graph-theory .
-c:transition-matrix v:uses c:matrix .
+c:transition-matrix skos:broader c:matrix .
 c:least-squares skos:related c:orthogonal-projection .
 c:principal-component-analysis skos:related c:eigenvector .
 c:backpropagation v:uses c:chain-rule .

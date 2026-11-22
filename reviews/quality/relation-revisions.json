@@ -263,5 +263,25 @@
       "directed-acyclic-graph"
     ],
     "sources": []
+  },
+  {
+    "former": [
+      "transition-matrix",
+      "uses",
+      "matrix"
+    ],
+    "former_modules": {
+      "_shared/bridges/formal-sciences.ttl": "0f7b91a3fa5937134d96876760b0efa7e0175eddaf4f0d66d410e4f4eca3a22a"
+    },
+    "rationale": "The stochastic-process subject denotes a matrix whose entries encode transitions. Its mathematical carrier is a kind of matrix, and its concept does not depend on a separate matrix operand. Publish the topical classification with the earlier interpretation in provenance.",
+    "replacement": [
+      "transition-matrix",
+      "skos:broader",
+      "matrix"
+    ],
+    "replacement_sources": [
+      "https://github.com/networkx/networkx/blob/4fa222d2fb157e1b7f8c753c9f92e5907d1ddeb4/networkx/algorithms/link_analysis/pagerank_alg.py#L220-L223"
+    ],
+    "sources": []
   }
 ]

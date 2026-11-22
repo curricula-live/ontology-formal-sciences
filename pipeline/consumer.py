@@ -57,13 +57,15 @@ def successor_changes(before, after):
                            for revision in revisions)):
             raise ValueError(f"Asserted statement removed without an archived revision: {retired}")
     for triple in old_prov:
-        subject, predicate, _ = triple
-        # A module resource describes the current source file. Statement and source witnesses
-        # are retained independently of a changed module file checksum.
-        if triple not in new_prov and not (
-            predicate == DCTERMS.identifier and str(subject).startswith(BASE + "module/")
-        ):
-            raise ValueError(f"Historical provenance removed: {subject}")
+        if triple in new_prov:
+            continue
+        subject, predicate, value = triple
+        # A changed module may publish its current digest alongside the immutable old version.
+        if (predicate == DCTERMS.identifier and str(subject).startswith(BASE + "module/")
+                and any((snapshot, DCTERMS.identifier, value) in new_prov
+                        for snapshot in new_prov.subjects(PROV.specializationOf, subject))):
+            continue
+        raise ValueError(f"Historical provenance removed: {subject}")
     return {name: {"added": len(set(after.graph(G[name])) - set(before.graph(G[name]))),
                    "removed": len(set(before.graph(G[name])) - set(after.graph(G[name])))}
             for name in ("asserted", "alignments", "inferred", "provenance")}
