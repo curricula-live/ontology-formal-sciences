@@ -61,7 +61,7 @@ def test_inference_isolation(canonical):
 def test_sparql(canonical):
     rows = {tuple(map(str,row)) for row in canonical.query((ROOT/"docs/cross-domain.rq").read_text())}
     assert ("Bayesian network","Directed acyclic graph") in rows
-    assert ("Gradient descent","Derivative") in rows
+    assert ("Gradient descent","Gradient") in rows
 
 
 def test_build_reproducibility(tmp_path):
