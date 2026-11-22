@@ -1,10 +1,10 @@
 """Bind editorial audit findings to current identities and pinned review records."""
 from collections import Counter
 
-from rdflib import RDF, SKOS
+from rdflib import Dataset, RDF, SKOS
 from rdflib.namespace import DCTERMS, PROV
 
-from pipeline.common import BASE, C, D, ROOT, V, checksum, read, registry
+from pipeline.common import BASE, C, D, G, ROOT, V, checksum, read, registry
 from pipeline.curate.relations import statement_for
 from pipeline.parse import ingest, staged
 
@@ -16,11 +16,11 @@ def canonical_triple(keys):
     return C[subject], SKOS.broader if predicate == "skos:broader" else V[predicate], C[obj]
 
 
-def summarize_sample(sample, graph, provenance):
+def summarize_sample(sample, version, graph, provenance, mappings):
     from pipeline.curate.cs_evidence import DECISIONS
-    from pipeline.semantic_sampling import BASELINE, SEED
+    from pipeline.semantic_sampling import design
 
-    if sample["baseline"] != BASELINE or sample["seed"] != SEED:
+    if (sample["baseline"], sample["seed"]) != design(version):
         raise ValueError("Semantic audit sampling design changed")
     observations, predicates, schemes = Counter(), Counter(), Counter()
     for row in sample["relations"]:
@@ -54,11 +54,16 @@ def summarize_sample(sample, graph, provenance):
         if key not in reviewed_passages or canonical_triple(row["triple"]) not in graph or not row["judgment"].strip():
             raise ValueError(f"Sampled passage cannot be verified: {key}")
         observations[row["outcome"]] += 1
+    for row in sample.get("mappings", ()):
+        if mappings.get((row["source"], row["id"])) != row["state"] or not row["judgment"].strip():
+            raise ValueError(f"Sampled mapping cannot be verified: {row['id']}")
+        observations[row["outcome"]] += 1
     return {
         "baseline": sample["baseline"], "seed": sample["seed"],
         "baseline_relation_sample": len(sample["relations"]),
         "baseline_topic_sample": len(sample["topics"]),
         "new_passage_sample": len(sample["passages"]),
+        "mapping_sample": len(sample.get("mappings", ())),
         "outcomes": dict(observations), "baseline_relations_by_scheme": dict(schemes),
         "baseline_relations_by_predicate": dict(predicates),
     }
@@ -144,9 +149,28 @@ def release_audit(version, graph, sources, provenance=None):
         corrected_subjects=[str(C[row["canonical"]]) for row in audit["cases"] if row["verdict"] == "corrected"],
     )
     if "stratified_sample" in audit:
-        result["stratified_sample"] = summarize_sample(audit["stratified_sample"], graph, provenance)
+        result["stratified_sample"] = summarize_sample(audit["stratified_sample"], version, graph, provenance, mappings)
     if "unresolved_identities" in audit:
         result["unresolved_identities"] = len(audit["unresolved_identities"])
+    if "targeted_passages" in audit:
+        from pipeline.curate.cs_evidence import DECISIONS
+
+        rejected = {
+            (row["corpus"], row["path"], row["first"], row["last"], tuple(decision["triple"]))
+            for row in read(DECISIONS) for decision in row["judgments"] if decision["state"] == "rejected"
+        }
+        for row in audit["targeted_passages"]:
+            key = row["corpus"], row["path"], row["first"], row["last"], tuple(row["triple"])
+            if key not in rejected or canonical_triple(row["triple"]) in graph or not row["judgment"].strip():
+                raise ValueError(f"Targeted passage exclusion cannot be verified: {key}")
+        result["targeted_passage_exclusions"] = len(audit["targeted_passages"])
+    if "legacy_citation_gaps" in audit:
+        closed = audit["legacy_citation_gaps"]
+        for keys in closed:
+            triple = canonical_triple(keys)
+            if triple not in graph or not provenance.value(statement_for(triple), DCTERMS.source):
+                raise ValueError(f"Legacy citation gap is still open: {keys}")
+        result["closed_legacy_citation_gaps"] = len(closed)
     if "baseline_comparison" in audit:
         result["baseline_comparison"] = audit["baseline_comparison"]
     return result
@@ -172,12 +196,12 @@ def replay(version, offline=False, baseline=None):
             verified += 1
     report = {"audit": version, "source_families": len(by_source), "verified_batch_witnesses": verified}
     if baseline is not None:
-        from pipeline.semantic_sampling import select
+        from pipeline.semantic_sampling import compare_participation, select
 
         sample = audit["stratified_sample"]
         if checksum(baseline) != audit["baseline_comparison"]["dataset_sha256"]:
             raise ValueError("Stratified audit baseline checksum differs")
-        for kind, selected in select(baseline).items():
+        for kind, selected in select(baseline, version).items():
             stored = sample[kind]
             if isinstance(selected, list):
                 if len(stored) != len(selected) or any(
@@ -188,4 +212,11 @@ def replay(version, offline=False, baseline=None):
                 report[f"verified_sampled_{kind}"] = len(selected)
             elif selected != stored:
                 raise ValueError(f"Stratified audit selection differs: {kind}")
+        if expected := audit["baseline_comparison"].get("participation"):
+            previous, current = Dataset(), Dataset()
+            previous.parse(baseline, format="nquads")
+            current.parse(ROOT / "dist/formal-sciences.nq", format="nquads")
+            if compare_participation(previous.graph(G.asserted), current.graph(G.asserted)) != expected:
+                raise ValueError("Baseline-cohort participation comparison differs")
+            report["verified_participation_comparison"] = True
     return report

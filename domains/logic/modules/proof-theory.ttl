@@ -19,7 +19,8 @@ c:inference-rule a skos:Concept ; skos:prefLabel "Inference rule"@en ;
     skos:inScheme scheme:logic ; skos:broader c:proof-theory .
 
 c:resolution-refutation a skos:Concept ; skos:prefLabel "Resolution refutation"@en ;
-    skos:inScheme scheme:logic ; skos:broader c:proof-theory .
+    skos:inScheme scheme:logic ; skos:broader c:proof-theory ;
+    skos:definition "A refutation of a clause set that derives the empty clause using resolution with the rules appropriate to the scoped clause language."@en .
 
 c:sequent a skos:Concept ; skos:prefLabel "Sequent"@en ;
     skos:inScheme scheme:logic ; skos:broader c:sequent-calculus ;

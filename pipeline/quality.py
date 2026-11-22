@@ -4,7 +4,7 @@ import json
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from rdflib import RDF, SKOS, URIRef
+from rdflib import Literal, OWL, RDF, SKOS, URIRef
 from rdflib.namespace import DCTERMS, PROV
 
 from pipeline.common import BASE, C, ROOT, V, read, registry
@@ -72,18 +72,26 @@ def graph_metrics(graph, prov):
         if owners[subject] != owners[obj]:
             cross_domain[str(predicate)] += 1
 
-    full = relation_connectivity(asserted, owners, concepts)
+    full = relation_connectivity({triple for triple in asserted if triple[1] != DCTERMS.isReplacedBy},
+                                 owners, concepts)
     hierarchy = {triple for triple in asserted if triple[1] == SKOS.broader}
     expression_edges = {triple for triple in asserted if triple[1] == V.containsSymbol}
     specific = {triple for triple in asserted if str(triple[1]).startswith(str(V))} - expression_edges
     cited, source_edges, type_edges = set(), defaultdict(set), defaultdict(set)
-    for statement in prov.subjects(DCTERMS.source):
+    passage_modes = defaultdict(set)
+    for statement in set(prov.subjects(DCTERMS.source)):
         triple = tuple(prov.value(statement, prop) for prop in (RDF.subject, RDF.predicate, RDF.object))
         if triple not in specific:
             continue
         cited.add(triple)
         witness_references = set()
-        for witness in prov.objects(statement, PROV.wasDerivedFrom):
+        witnesses = set(prov.objects(statement, PROV.wasDerivedFrom))
+        for review in prov.subjects(DCTERMS.subject, statement):
+            mode = prov.value(review, DCTERMS.type)
+            witness = prov.value(review, PROV.wasDerivedFrom)
+            if mode and witness in witnesses:
+                passage_modes[str(mode)].add(triple)
+        for witness in witnesses:
             source = prov.value(witness, DCTERMS.isPartOf)
             if source is not None:
                 source_edges[str(source).removeprefix(BASE + "source/")].add(triple)
@@ -126,6 +134,10 @@ def graph_metrics(graph, prov):
         "evidence_by_type": {name: relation_connectivity(triples, owners) |
                              {"by_predicate": dict(Counter(str(triple[1]) for triple in triples))}
                              for name, triples in type_edges.items()},
+        "reviewed_passage_evidence_modes": {
+            name: relation_connectivity(triples, owners)
+            for name, triples in passage_modes.items()
+        },
         "pinned_source_contributions": {
             name: relation_connectivity(triples, owners) |
             {"by_predicate": dict(Counter(str(triple[1]) for triple in triples))}
@@ -134,6 +146,7 @@ def graph_metrics(graph, prov):
     })
     return {
         "concepts_by_scheme": dict(total_by_scheme),
+        "deprecated_canonical_concepts": sum((term, OWL.deprecated, Literal(True)) in graph for term in concepts),
         "concepts_by_owning_module": dict(modules),
         "relation_counts": dict(relations),
         "cross_domain_relation_counts": dict(cross_domain),

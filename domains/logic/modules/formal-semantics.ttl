@@ -13,7 +13,8 @@ c:axiomatic-semantics a skos:Concept ; skos:prefLabel "Axiomatic semantics"@en ;
     skos:inScheme scheme:logic ; skos:broader c:formal-semantics .
 
 c:fixed-point-semantics a skos:Concept ; skos:prefLabel "Fixed-point semantics"@en ;
-    skos:inScheme scheme:logic ; skos:broader c:formal-semantics .
+    skos:inScheme scheme:logic ; skos:broader c:formal-semantics ;
+    skos:definition "An interpretation of recursion or iteration as a fixed point of a semantic functional. Where an ordered-domain construction supplies a least fixed point, it selects the least solution in that order."@en .
 
 c:semantic-entailment a skos:Concept ; skos:prefLabel "Semantic entailment"@en ;
     skos:inScheme scheme:logic ; skos:broader c:formal-semantics .

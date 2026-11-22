@@ -30,6 +30,8 @@ The scheduled network audit verifies pinned documents and flags newer repository
 - [Processing scope, licensing and actual ingestion counts](docs/sources.md)
 - [RDF package contract](docs/contract-v1.md)
 - [Editorial policy, provenance, predicates and inference](docs/model.md)
+- [v0.9.0 semantic audit](docs/semantic-audit-v0.9.md)
+- [Canonical identity migrations](docs/canonical-identities.md)
 - [v0.8.0 semantic audit](docs/semantic-audit-v0.8.md)
 - [v0.7.0 semantic audit](docs/semantic-audit-v0.7.md)
 - [v0.6.0 semantic audit](docs/semantic-audit-v0.6.md)

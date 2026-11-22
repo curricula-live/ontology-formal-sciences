@@ -45,3 +45,11 @@ Run `python -m pipeline.competency` from the checkout after building the release
 | fixed-point-theorem-premises | Find the hypotheses and guarantee of Knaster–Tarski and the archived prior predicates. |
 
 The source of each algorithm-evidence row is the published article [A linear-time algorithm for testing the truth of certain quantified boolean formulas](https://doi.org/10.1016/0020-0190(79)90002-4). The scientific assertions in these queries describe the scopes in their canonical definitions. In particular, the release associates exact marginal computation with the tree case. Loopy sum-product has different convergence and accuracy properties.
+
+The v0.9.0 queries exercise A* identity resolution and applicability,
+the bipartite input of the assignment problem, the elementary Bayes
+premise with its evidence mode, and the subroutine documented for X-fast
+trie lookup within a Y-fast trie. The stochastic-grammar query joins a
+computing subject to the distribution over rules for one nonterminal.
+A queried path joins explicit claims at
+their stated scope. It supplies no transitive dependency or assumption rule.

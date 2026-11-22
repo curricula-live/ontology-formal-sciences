@@ -1,0 +1,4 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:ontomath-pro-e2563 skos:definition "A random variable considered as a member of a specified independent family. Independence is a property of the family or joint law."@en .

@@ -249,5 +249,19 @@
       "matrix"
     ],
     "sources": []
+  },
+  {
+    "former": [
+      "topological-sorting",
+      "uses",
+      "directed-acyclic-graph"
+    ],
+    "rationale": "Acyclicity is a condition for a topological ordering of the input directed graph. NetworkX documents this condition and raises an exception when the graph has a directed cycle.",
+    "replacement": [
+      "topological-sorting",
+      "requiresAssumption",
+      "directed-acyclic-graph"
+    ],
+    "sources": []
   }
 ]

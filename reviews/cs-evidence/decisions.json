@@ -2257,5 +2257,1155 @@
     "last": 27,
     "path": "doc/modules/tree.rst",
     "sha256": "f1343d55c70e87a8be76449a132ef54a9cb6518327f425ae51227fea5c8f6562"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 9,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "The Hungarian method computes an optimal cost assignment for the weighted bipartite model.",
+        "state": "approved",
+        "triple": [
+          "opencs-c24154",
+          "solves",
+          "assignment-problem"
+        ]
+      }
+    ],
+    "last": 40,
+    "path": "src/graph/hungarian-algorithm.md",
+    "sha256": "41138c263fe95a135f8a703f574bb4ee934f2e9286b78d0e84f6c6c6ec70d19f"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 9,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "Task-to-worker edges form the bipartite assignment instance.",
+        "state": "approved",
+        "triple": [
+          "assignment-problem",
+          "hasInputStructure",
+          "bipartite-graph"
+        ]
+      }
+    ],
+    "last": 38,
+    "path": "src/graph/hungarian-algorithm.md",
+    "sha256": "3fef0e568dc7ec10e1f0cdafe193d7e47a8aaeaad2815ec092b8c185aebc3cbb"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 13,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "A suffix array orders suffixes lexicographically and stores their starting indices.",
+        "state": "approved",
+        "triple": [
+          "opencs-c25543",
+          "uses",
+          "lexicographic-key-order"
+        ]
+      }
+    ],
+    "last": 38,
+    "path": "src/string/suffix-array.md",
+    "sha256": "d43b0592ff2add6a990577f23cb1c55c194d73e91bcd95a92cb23283c92feb6b"
+  },
+  {
+    "corpus": "cpalgs",
+    "first": 21,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "For a fixed finite string, the partial deterministic automaton's accepting language is exactly the set of its suffixes.",
+        "state": "approved",
+        "triple": [
+          "opencs-c26036",
+          "represents",
+          "suffix-language-of-a-string"
+        ]
+      },
+      {
+        "evidence_mode": "source statement",
+        "scope": "For a finite input string, the minimized partial transition graph is acyclic. A completion with an explicit rejecting sink changes that graph convention.",
+        "state": "approved",
+        "triple": [
+          "opencs-c26036",
+          "uses",
+          "directed-acyclic-graph"
+        ]
+      }
+    ],
+    "last": 44,
+    "path": "src/string/suffix-automaton.md",
+    "sha256": "021cd26d811915d6db4c71209412019f5af2ef4c792a31f13dae1a2069f23660"
+  },
+  {
+    "corpus": "cpython",
+    "first": 92,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "Python's regression tests exercise code behavior to detect breakage. The canonical relation refers to regression testing's role, without implying all defects are regressions.",
+        "state": "approved",
+        "triple": [
+          "opencs-c18415",
+          "analyzes",
+          "behavioral-regression"
+        ]
+      }
+    ],
+    "last": 112,
+    "path": "Doc/library/test.rst",
+    "sha256": "181075267280947b50fed3a8793e575a7df2edee00f15c363c8fdb050ef6670f"
+  },
+  {
+    "corpus": "cpython",
+    "first": 135,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "A Python function closure binds non-global free names through their lexically enclosing function scopes. This is an editorial projection from the Python specification.",
+        "state": "approved",
+        "triple": [
+          "opencs-c12108",
+          "uses",
+          "lexical-scope"
+        ]
+      },
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "Python resolves names using statically nested scopes, with the documented class, global and nonlocal rules.",
+        "state": "approved",
+        "triple": [
+          "opencs-c11128",
+          "uses",
+          "lexical-scope"
+        ]
+      }
+    ],
+    "last": 157,
+    "path": "Doc/reference/executionmodel.rst",
+    "sha256": "3d63e095593980049cdab1d03a9d8a5d7159de70e6ec119cb0c95f1751de2c7c"
+  },
+  {
+    "corpus": "groupcache",
+    "first": 53,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "In the documented clockwise hash-ring variant with distinct fixed token positions, adding tokens changes only keys in the intervals transferred to those tokens. The source supplies successor lookup; locality is derived editorially.",
+        "state": "approved",
+        "triple": [
+          "opencs-c39385",
+          "hasProperty",
+          "hash-ring-local-remapping"
+        ]
+      }
+    ],
+    "last": 81,
+    "path": "consistenthash/consistenthash.go",
+    "sha256": "4eedc1da516087e339d0702ad7537a283cd896f83018668d12823c48d1ae8bc5"
+  },
+  {
+    "corpus": "lean4",
+    "first": 15,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "formal source statement",
+        "scope": "Lean's while loop encoding gives a concrete instance of fixed-point semantics by taking the order-theoretic least fixed point of the repeat body's functional.",
+        "state": "approved",
+        "triple": [
+          "fixed-point-semantics",
+          "uses",
+          "fixed-point"
+        ]
+      }
+    ],
+    "last": 35,
+    "path": "src/Init/Internal/Order/While.lean",
+    "sha256": "cb32914a0218b55ade82224472b78af208e78f421f59cd19bf8f94aad7a1c010"
+  },
+  {
+    "corpus": "mathlib4",
+    "first": 264,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "For the ordinary ratio formulation with both conditional probabilities defined, both conditioning events must be positive. The Lean library's totalized conditional measure has separate conventions at zero.",
+        "state": "approved",
+        "triple": [
+          "bayes-theorem",
+          "requiresPremise",
+          "positive-bayes-conditioning-probabilities"
+        ]
+      },
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "Mathlib states the reverse event conditional in terms of the forward conditional and event probabilities. The scope here is the elementary event formulation.",
+        "state": "approved",
+        "triple": [
+          "bayes-theorem",
+          "uses",
+          "conditional-probability"
+        ]
+      }
+    ],
+    "last": 291,
+    "path": "Mathlib/Probability/ConditionalProbability.lean",
+    "sha256": "fc7413cbbc0df5e38699bf339a4054ed8d145479158c0e60c2c665e76b88edd4"
+  },
+  {
+    "corpus": "networkx",
+    "first": 167,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "The statistic counts the proportion of shortest paths through an edge for each connected pair. Computing distance values alone is insufficient.",
+        "state": "approved",
+        "triple": [
+          "edge-betweenness-centrality",
+          "uses",
+          "shortest-path-multiplicity"
+        ]
+      }
+    ],
+    "last": 186,
+    "path": "networkx/algorithms/centrality/betweenness.py",
+    "sha256": "ba501318e0bae77e8fc44401aeed8b61a7ddcc4538034aa23b7f90a197d980e1"
+  },
+  {
+    "corpus": "networkx",
+    "first": 130,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "implementation observation",
+        "scope": "The standard edge-betweenness variant recomputes edge scores before choosing a removal. NetworkX also allows a different edge-selection function.",
+        "state": "approved",
+        "triple": [
+          "opencs-c40335",
+          "uses",
+          "edge-betweenness-centrality"
+        ]
+      }
+    ],
+    "last": 149,
+    "path": "networkx/algorithms/community/centrality.py",
+    "sha256": "fb2986fd66c009abdf1099012c25adb3bbcc058892c17766ec53e8c586be990c"
+  },
+  {
+    "corpus": "networkx",
+    "first": 245,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "A directed graph admits a topological ordering exactly when it has no directed cycle. The input condition replaces the previous generic uses predicate.",
+        "state": "approved",
+        "triple": [
+          "topological-sorting",
+          "requiresAssumption",
+          "directed-acyclic-graph"
+        ]
+      }
+    ],
+    "last": 275,
+    "path": "networkx/algorithms/dag.py",
+    "sha256": "3cbb401d9b3b8f2cbd71cd25ed5b2e6d693f853f5a5bfe9d22c4246c37574da3"
+  },
+  {
+    "corpus": "networkx",
+    "first": 14,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "This projection assumes nonnegative weights, a fixed admissible heuristic with zero estimate at the target, and reopening on improved cost. The source documents possible suboptimality for overestimating heuristics.",
+        "state": "approved",
+        "triple": [
+          "a-star-search",
+          "solves",
+          "shortest-path-problem"
+        ]
+      },
+      {
+        "evidence_mode": "source statement",
+        "scope": "Non-overestimation is the heuristic condition for the standard shortest-path guarantee under the documented search scope.",
+        "state": "approved",
+        "triple": [
+          "a-star-search",
+          "requiresAssumption",
+          "admissible-search-heuristic"
+        ]
+      }
+    ],
+    "last": 41,
+    "path": "networkx/algorithms/shortest_paths/astar.py",
+    "sha256": "dfa72859fc594c8c087d0129f0cc5637141b782febd674f4d4f6538c32e26877"
+  },
+  {
+    "corpus": "networkx",
+    "first": 114,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "implementation observation",
+        "scope": "The documented heap-based implementation orders frontier entries by cost so far plus estimated remaining cost.",
+        "state": "approved",
+        "triple": [
+          "a-star-search",
+          "uses",
+          "priority-queue"
+        ]
+      }
+    ],
+    "last": 177,
+    "path": "networkx/algorithms/shortest_paths/astar.py",
+    "sha256": "993bc54edc308bc745d2d79004ad2f4c05f3ce7f7130fd60f9fcc5b044bb64a9"
+  },
+  {
+    "corpus": "nltk",
+    "first": 1191,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "For each nonterminal with productions, the probabilities of alternative rules sum to one, a discrete distribution over that nonterminal's alternatives.",
+        "state": "approved",
+        "triple": [
+          "opencs-c43547",
+          "uses",
+          "stato-0000117"
+        ]
+      }
+    ],
+    "last": 1219,
+    "path": "nltk/grammar.py",
+    "sha256": "c9a3e95cda28f847ccdff1464d7cd853bbd1159723b21b276d6f6c6a5db34796"
+  },
+  {
+    "corpus": "nltk",
+    "first": 82,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "implementation observation",
+        "scope": "The resolution prover repeatedly resolves clauses and returns a refutation on deriving the empty clause.",
+        "state": "approved",
+        "triple": [
+          "resolution-refutation",
+          "uses",
+          "resolution-logic"
+        ]
+      }
+    ],
+    "last": 108,
+    "path": "nltk/inference/resolution.py",
+    "sha256": "ac4b9c688751d87087cc53bfbc0e5912943df04f49b50fde7bf8f419d1b42c63"
+  },
+  {
+    "corpus": "ods",
+    "first": 178,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "The X-fast trie keeps a hash table of occupied prefixes for each depth.",
+        "state": "approved",
+        "triple": [
+          "opencs-c40594",
+          "uses",
+          "hash-table"
+        ]
+      },
+      {
+        "evidence_mode": "source statement",
+        "scope": "The search over prefix lengths tests existence in per-level hash tables to locate the longest present query prefix.",
+        "state": "approved",
+        "triple": [
+          "opencs-c40594",
+          "invokesAlgorithm",
+          "binary-search"
+        ]
+      }
+    ],
+    "last": 252,
+    "path": "latex/integers.tex",
+    "sha256": "0623190b98c6c53bb59a682ea8c5d8176807407bd1436d3d7ca322283091766c"
+  },
+  {
+    "corpus": "ods",
+    "first": 297,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "The X-fast trie stores sampled representatives used to find the bucket to search.",
+        "state": "approved",
+        "triple": [
+          "opencs-c45644",
+          "uses",
+          "opencs-c40594"
+        ]
+      },
+      {
+        "evidence_mode": "source statement",
+        "scope": "The reviewed Y-fast structure stores each subset in an ordered treap, a randomized binary search tree.",
+        "state": "approved",
+        "triple": [
+          "opencs-c45644",
+          "uses",
+          "binary-search-tree"
+        ]
+      }
+    ],
+    "last": 320,
+    "path": "latex/integers.tex",
+    "sha256": "fd94b511b99313d13c97fb7813cdb6fcb1a06ff010f282ca6fa6ed13b31f4ae9"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 35,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "This correspondence concerns the languages accepted by deterministic pushdown automata using the final-state convention.",
+        "state": "approved",
+        "triple": [
+          "opencs-c42922",
+          "recognizesExactly",
+          "deterministic-context-free-language"
+        ]
+      }
+    ],
+    "last": 45,
+    "path": "AV/PIFLA/PDA/DPDAFS.js",
+    "sha256": "eb067f09e204841f9099e5ba8016aa6747ba46db3d6e00574210a1ddbfc94750"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 17,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "The source distinguishes deterministic and nondeterministic power. The former is strictly less expressive under final-state acceptance.",
+        "state": "rejected",
+        "triple": [
+          "opencs-c42922",
+          "recognizesExactly",
+          "context-free-language"
+        ]
+      }
+    ],
+    "last": 54,
+    "path": "AV/PIFLA/PDA/NCFLProofFS.js",
+    "sha256": "1aae8d30c735cc7d6f4838a2475290183f78fee35a45d61e49bf0f228710efb1"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 215,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "In open addressing, the second hash supplies the probe step used to visit alternative slots in the table.",
+        "state": "approved",
+        "triple": [
+          "opencs-c31455",
+          "uses",
+          "hash-table"
+        ]
+      }
+    ],
+    "last": 258,
+    "path": "RST/en/Hashing/HashCImproved.rst",
+    "sha256": "7f89e4eef38ff54764af534537aa273fbfb577026641415fdb062e251fd7fc80"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 41,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "The hash-table representation implements keyed dictionary lookup, insertion and deletion, corresponding to the associative array abstraction.",
+        "state": "approved",
+        "triple": [
+          "hash-table",
+          "represents",
+          "opencs-c8022"
+        ]
+      }
+    ],
+    "last": 66,
+    "path": "RST/en/Hashing/HashIntro.rst",
+    "sha256": "d7bec4f664906f1b188c3e527016b9e3b049930f4cf10861748ae76533323e05"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 51,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "The language of a CFG consists of terminal strings derivable from its start variable.",
+        "state": "approved",
+        "triple": [
+          "context-free-grammar",
+          "represents",
+          "context-free-language"
+        ]
+      }
+    ],
+    "last": 83,
+    "path": "RST/en/PIFLA/CFG1.rst",
+    "sha256": "24cbcf4e230903759f413c2b55af389907201a28976b87d246ed39f47273fa87"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 53,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "A pushdown automaton augments finite state with stack-based storage for its transitions.",
+        "state": "approved",
+        "triple": [
+          "pushdown-automaton",
+          "uses",
+          "stack-data-structure"
+        ]
+      }
+    ],
+    "last": 73,
+    "path": "RST/en/PIFLA/PDA.rst",
+    "sha256": "808011d4a5902f0ce100d7a8a622947c92a233adbc020bf48dc7ab2cc437c650"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 24,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "The NPDA theorem is two-sided. The deterministic variant has a smaller acceptance family.",
+        "state": "approved",
+        "triple": [
+          "nondeterministic-pushdown-automaton",
+          "recognizesExactly",
+          "context-free-language"
+        ]
+      }
+    ],
+    "last": 57,
+    "path": "RST/en/PIFLA/PDACFL.rst",
+    "sha256": "db3d6ea2403452b08c7b3cfd9e822ba3f60fa05b82794d6e475a7cfdf505ce58"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 37,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "The deterministic finite automaton accepts exactly the regular languages as a family.",
+        "state": "approved",
+        "triple": [
+          "opencs-c21398",
+          "recognizesExactly",
+          "regular-language"
+        ]
+      },
+      {
+        "evidence_mode": "source statement",
+        "scope": "The nondeterministic finite automaton accepts exactly the regular languages as a family.",
+        "state": "approved",
+        "triple": [
+          "opencs-c30272",
+          "recognizesExactly",
+          "regular-language"
+        ]
+      }
+    ],
+    "last": 60,
+    "path": "RST/en/PIFLA/RegularGrammars.rst",
+    "sha256": "0e589e1eae7eb733a7dacd06a07e45c041ad072ef91bc3f8657150d3713f0a6f"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 59,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "Ordinary binary key lookup assumes the input is sorted under the same comparison used by the search.",
+        "state": "approved",
+        "triple": [
+          "binary-search",
+          "requiresAssumption",
+          "sorted-search-input"
+        ]
+      }
+    ],
+    "last": 97,
+    "path": "RST/en/Searching/BinarySearch.rst",
+    "sha256": "643f91e377128534a25fd97365ce37b39022f4d0d360ca791c0f1322796644e1"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 37,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "A bounded integer-domain one-bin-per-key implementation outputs the keys in bin order, the pigeonhole formulation.",
+        "state": "approved",
+        "triple": [
+          "opencs-c41436",
+          "solves",
+          "sorting-problem"
+        ]
+      }
+    ],
+    "last": 60,
+    "path": "RST/en/Sorting/BinSort.rst",
+    "sha256": "cd327be2060651f349fec31c1a96809f35f35e72fe68d7c99c230388eff67bb0"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 77,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "In the bounded discrete-key variant, keys select ordered buckets and output is obtained by visiting the buckets in order.",
+        "state": "approved",
+        "triple": [
+          "opencs-c42589",
+          "solves",
+          "sorting-problem"
+        ]
+      }
+    ],
+    "last": 98,
+    "path": "RST/en/Sorting/BinSort.rst",
+    "sha256": "7fc0bad6771bbe8276db7179c3329aa4a0fcf17359074801bb6ba7d8d1c2e9f3"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 42,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "Adjacent inversions are removed until keys are in sorted order.",
+        "state": "approved",
+        "triple": [
+          "opencs-c33039",
+          "solves",
+          "sorting-problem"
+        ]
+      }
+    ],
+    "last": 73,
+    "path": "RST/en/Sorting/BubbleSort.rst",
+    "sha256": "703fb0b859508da0331810086f871b6628ed7996bd74d284593ead63f3354ae7"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 55,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "The classical adjacent-swap sequence uses quadratic comparisons in the worst case under distinct reversed keys.",
+        "state": "approved",
+        "triple": [
+          "opencs-c33039",
+          "hasProperty",
+          "quadratic-comparison-bound"
+        ]
+      }
+    ],
+    "last": 76,
+    "path": "RST/en/Sorting/BubbleSort.rst",
+    "sha256": "a4472173effbc2b19b976b0eed3182e931f95afc79ab3180d1529fb08d2061b3"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 38,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "The documented insertion algorithm establishes a stronger sorted-prefix invariant after each insertion.",
+        "state": "approved",
+        "triple": [
+          "opencs-c35199",
+          "solves",
+          "sorting-problem"
+        ]
+      }
+    ],
+    "last": 76,
+    "path": "RST/en/Sorting/InsertionSort.rst",
+    "sha256": "9cb0be19b7e032c5360e8f36b00a13f9c2a3db337277f117d744988b35336f0b"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 60,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "The merge-sort recurrence combines its recursively sorted subarrays using a merge procedure.",
+        "state": "approved",
+        "triple": [
+          "opencs-c32507",
+          "invokesAlgorithm",
+          "opencs-c33859"
+        ]
+      },
+      {
+        "evidence_mode": "source statement",
+        "scope": "Each input run is already sorted under the merger's comparator.",
+        "state": "approved",
+        "triple": [
+          "opencs-c33859",
+          "requiresAssumption",
+          "sorted-search-input"
+        ]
+      }
+    ],
+    "last": 81,
+    "path": "RST/en/Sorting/Mergesort.rst",
+    "sha256": "cbb3ca030fb4fccae5997097075b34cd1558608309321d11129f09e53506a15d"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 88,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "The stable array-based least-significant-digit version counts each digit, converts counts to output positions, and scatters records in input order. A counting-sort pass is a scoped implementation choice.",
+        "state": "approved",
+        "triple": [
+          "opencs-c36074",
+          "invokesAlgorithm",
+          "opencs-c42816"
+        ]
+      }
+    ],
+    "last": 136,
+    "path": "RST/en/Sorting/RadixSort.rst",
+    "sha256": "2d72cd3a706564b823a6cf8f7ee28d9f719ffb12286739eb1e3387f7f5d0aa69"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 39,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "The documented selection algorithm repeatedly locates and places a remaining extreme element.",
+        "state": "approved",
+        "triple": [
+          "opencs-c41255",
+          "solves",
+          "sorting-problem"
+        ]
+      }
+    ],
+    "last": 70,
+    "path": "RST/en/Sorting/SelectionSort.rst",
+    "sha256": "4bca9e5c882bf964e9636eb7cfa113f674655151019aa2f80c4fd9b65b479c25"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 94,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "The proof counts comparisons between keys. Inspecting digits as integers is outside that comparison-only model.",
+        "state": "rejected",
+        "triple": [
+          "opencs-c36074",
+          "hasProperty",
+          "comparison-sorting-lower-bound"
+        ]
+      }
+    ],
+    "last": 111,
+    "path": "RST/en/Sorting/SortingLowerBound.rst",
+    "sha256": "0e18e449391323aa539d25aee0947de9439d087905468e3687f2668af1b87c8f"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 110,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "A binary comparison decision tree for distinct keys needs at least n factorial leaves, yielding the stated worst-case lower bound.",
+        "state": "approved",
+        "triple": [
+          "opencs-c42615",
+          "hasProperty",
+          "comparison-sorting-lower-bound"
+        ]
+      },
+      {
+        "evidence_mode": "source statement",
+        "scope": "The lower-bound argument counts distinguishable permutations as leaves of the comparison decision tree.",
+        "state": "approved",
+        "triple": [
+          "comparison-sorting-lower-bound",
+          "uses",
+          "comparison-sort-decision-tree"
+        ]
+      }
+    ],
+    "last": 143,
+    "path": "RST/en/Sorting/SortingLowerBound.rst",
+    "sha256": "ab32938756e6d33bc0d37c935df5a676bd51e00c717578fe702cb3c434b4f168"
+  },
+  {
+    "corpus": "pgmpy",
+    "first": 517,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "implementation observation",
+        "scope": "The discrete implementation marginalizes non-query variables conditional on the evidence, then returns an argmax over the resulting factor. For continuous MAP the density and dominating measure must be specified.",
+        "state": "approved",
+        "triple": [
+          "maximum-a-posteriori-estimation",
+          "uses",
+          "posterior-distribution"
+        ]
+      }
+    ],
+    "last": 545,
+    "path": "pgmpy/inference/ExactInference.py",
+    "sha256": "aaa2a28285c8a03830bb23c79c032b3d6a6be89444435117630dd7d7770ffff3"
+  },
+  {
+    "corpus": "pgmpy",
+    "first": 637,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "The discrete junction-tree inference route calibrates a tree of cliques. Its tree structure satisfies the running-intersection condition imposed by the model conversion.",
+        "state": "approved",
+        "triple": [
+          "opencs-c18813",
+          "uses",
+          "tree-graph-theory"
+        ]
+      }
+    ],
+    "last": 668,
+    "path": "pgmpy/inference/ExactInference.py",
+    "sha256": "7a83aa3f7ad1f1529faa9bc9cd44c69f3e20d2328149b9ee4c3708098bddfd54"
+  },
+  {
+    "corpus": "postgres",
+    "first": 87,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "Isolation levels specify what interactions concurrent transactions can observe. PostgreSQL documents serializable and weaker levels separately.",
+        "state": "approved",
+        "triple": [
+          "opencs-c30273",
+          "analyzes",
+          "database-transaction"
+        ]
+      }
+    ],
+    "last": 106,
+    "path": "doc/src/sgml/mvcc.sgml",
+    "sha256": "2f3ed407b2f46b147613172324a96acd060bc253cdaa13f704e877bdf9d41ee1"
+  },
+  {
+    "corpus": "postgres",
+    "first": 1082,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "Selectivity estimates for predicates help cost-based optimizers compare candidate plans. The statement covers cost-based planning, with PostgreSQL as its documented instance.",
+        "state": "approved",
+        "triple": [
+          "query-optimization",
+          "uses",
+          "optimizer-cardinality-estimate"
+        ]
+      }
+    ],
+    "last": 1128,
+    "path": "doc/src/sgml/perform.sgml",
+    "sha256": "3671bcd88ac5d8be195c74a83d6524e792abbfce33de3b8f7a63006dc36d4f7c"
+  },
+  {
+    "corpus": "postgres",
+    "first": 19,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "For distributed atomic updates coordinated by a two-phase transaction manager, each database participant prepares a local transaction and later receives the decision. Distributed databases can use other commit arrangements.",
+        "state": "approved",
+        "triple": [
+          "opencs-c45370",
+          "appliesToModel",
+          "opencs-c8327"
+        ]
+      }
+    ],
+    "last": 72,
+    "path": "doc/src/sgml/ref/prepare_transaction.sgml",
+    "sha256": "034181681b97c62f93ae04f7f6c4f0c19d1c88f62d0c94cb2fa0dababc5119a4"
+  },
+  {
+    "corpus": "postgres",
+    "first": 81,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "implementation observation",
+        "scope": "The database participant prepares a local transaction for later commit or rollback under an external transaction manager in two-phase commit.",
+        "state": "approved",
+        "triple": [
+          "opencs-c45370",
+          "uses",
+          "database-transaction"
+        ]
+      }
+    ],
+    "last": 102,
+    "path": "doc/src/sgml/ref/prepare_transaction.sgml",
+    "sha256": "3259f52123c79b26a4a348725737e3fafcc79af79c876ad94980928fcaffdb80"
+  },
+  {
+    "corpus": "scipy",
+    "first": 149,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "This routine solves an assignment problem with a modified Jonker–Volgenant implementation. A shared problem does not support a Hungarian implementation assertion. The rejected artifact endpoint identifies the candidate only.",
+        "state": "rejected",
+        "triple": [
+          "scipy-linear-sum-assignment",
+          "implementsAlgorithm",
+          "opencs-c24154"
+        ]
+      }
+    ],
+    "last": 176,
+    "path": "scipy/optimize/_lsap.c",
+    "sha256": "ee24541078f59a44ba9a5726d9d4a9c8a69cd7e658209e78e669aeba836aeb87"
+  },
+  {
+    "corpus": "scipy",
+    "first": 278,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "The documented unconstrained Levenberg–Marquardt method seeks a local least-squares solution. The loss is a sum of squared residuals in this method's linear-loss scope.",
+        "state": "approved",
+        "triple": [
+          "opencs-c16904",
+          "solves",
+          "nonlinear-least-squares-problem"
+        ]
+      },
+      {
+        "evidence_mode": "source statement",
+        "scope": "The unconstrained least-squares implementation uses a Jacobian of the residual vector, which may be approximated numerically.",
+        "state": "approved",
+        "triple": [
+          "opencs-c16904",
+          "uses",
+          "ontomath-pro-e1731"
+        ]
+      }
+    ],
+    "last": 410,
+    "path": "scipy/optimize/_lsq/least_squares.py",
+    "sha256": "3390c7338f9baa575ced18d0824f169d122732b3fb104670648021a39c070f1f"
+  },
+  {
+    "corpus": "scipy",
+    "first": 1345,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "The reviewed routine permits an initial inverse-Hessian estimate and updates it from gradients. It does not assume an externally supplied exact Hessian.",
+        "state": "rejected",
+        "triple": [
+          "opencs-c24725",
+          "requiresAssumption",
+          "ontomath-pro-e1729"
+        ]
+      }
+    ],
+    "last": 1438,
+    "path": "scipy/optimize/_optimize.py",
+    "sha256": "35c8db9bd0435b61b963bbe3e2f06f0e1629e3012fe5c627a6766a98be7ccef7"
+  },
+  {
+    "corpus": "scipy",
+    "first": 1460,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "implementation observation",
+        "scope": "The implementation takes the difference between successive gradients and uses it in the BFGS inverse-Hessian update.",
+        "state": "approved",
+        "triple": [
+          "opencs-c24725",
+          "uses",
+          "ontomath-pro-e1700"
+        ]
+      }
+    ],
+    "last": 1512,
+    "path": "scipy/optimize/_optimize.py",
+    "sha256": "3f7f0454c5d62dee05779923d9a4c15862331948bb2d715dbdd91dd323245ea9"
+  },
+  {
+    "corpus": "scipy",
+    "first": 109,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "implementation observation",
+        "scope": "For scalar Newton–Raphson iteration the first derivative supplies the slope. SciPy's entry point selects secant iteration when no derivative is supplied.",
+        "state": "approved",
+        "triple": [
+          "newton-s-method",
+          "uses",
+          "derivative"
+        ]
+      }
+    ],
+    "last": 138,
+    "path": "scipy/optimize/_zeros_py.py",
+    "sha256": "b1c4bed4e93ccf414805562f6aa493c45e51148911327f23c147f06a49405123"
+  },
+  {
+    "corpus": "scipy",
+    "first": 307,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "implementation observation",
+        "scope": "For Hermitian positive definite linear systems, the CG update takes inner products of residuals with preconditioned residuals and directions with their matrix images.",
+        "state": "approved",
+        "triple": [
+          "conjugate-gradient-method",
+          "uses",
+          "inner-product"
+        ]
+      }
+    ],
+    "last": 420,
+    "path": "scipy/sparse/linalg/_isolve/iterative.py",
+    "sha256": "4e7ed7eddd3a52e8ddee66f9b2aad3aceb546c61cb3dfac9d4f30187d0552e4e"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 711,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "The stagewise method fits a predictor to negative loss gradients evaluated at the current additive prediction.",
+        "state": "approved",
+        "triple": [
+          "opencs-c24136",
+          "uses",
+          "functional-gradient-step"
+        ]
+      }
+    ],
+    "last": 731,
+    "path": "doc/modules/ensemble.rst",
+    "sha256": "e3524d777d4f278d09ee4f1bb4a748b6f109f046943fcdc056d7524d44608536"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 1678,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "Tree-based gradient boosting fits weak regression trees stage by stage. The unqualified gradient boosting family also supports other base learners.",
+        "state": "approved",
+        "triple": [
+          "opencs-c24136",
+          "uses",
+          "decision-tree-learning"
+        ]
+      }
+    ],
+    "last": 1724,
+    "path": "doc/modules/ensemble.rst",
+    "sha256": "7ca754a3ef534ceb611df7abf5e963bab6020bc5eac5a88ffca33dd2cdf0a858"
+  },
+  {
+    "corpus": "sklearn",
+    "first": 564,
+    "introduced": "0.9.0",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "One-vs-rest evaluation decomposes a multiclass outcome into a binary decision per class. This is a scoped evaluation reduction and does not claim all multiclass learners fit binary classifiers.",
+        "state": "approved",
+        "triple": [
+          "opencs-c23929",
+          "uses",
+          "opencs-c28516"
+        ]
+      },
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "Per-label evaluation treats each label as a binary presence decision in the documented one-vs-rest view, without assuming labels are statistically independent.",
+        "state": "approved",
+        "triple": [
+          "opencs-c13429",
+          "uses",
+          "opencs-c28516"
+        ]
+      }
+    ],
+    "last": 600,
+    "path": "doc/modules/model_evaluation.rst",
+    "sha256": "d42a52b0a7ae4748453f76884d3bf9dff82f73201f8069c59a4a46b93652d867"
   }
 ]

@@ -79,6 +79,15 @@ jobs:
       - name: Replay stratified audit batch witnesses
         run: |
           release=$(jq -r .version dist/manifest.json)
-          if [[ -f "reviews/quality/$release.json" ]]; then
-            python -m pipeline.cli replay-semantic-audit --release "$release" --offline
+          audit="reviews/quality/$release.json"
+          if [[ -f "$audit" ]]; then
+            baseline=$(jq -r '.baseline_comparison.commit // empty' "$audit")
+            if [[ -n "$baseline" ]]; then
+              git fetch --no-tags --depth=1 origin "$baseline"
+              git show "$baseline:dist/formal-sciences.nq" > "$RUNNER_TEMP/baseline.nq"
+              python -m pipeline.cli replay-semantic-audit --release "$release" --offline \
+                --baseline "$RUNNER_TEMP/baseline.nq"
+            else
+              python -m pipeline.cli replay-semantic-audit --release "$release" --offline
+            fi
           fi

@@ -1,7 +1,11 @@
 <https://curricula.live/id/formal-sciences/concept/a-star-search> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/a-star-search> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/artificial-intelligence> .
+<https://curricula.live/id/formal-sciences/concept/a-star-search> <http://www.w3.org/2004/02/skos/core#definition> "Best-first shortest-path search that orders candidate states by path cost so far plus a heuristic estimate of remaining cost. The reviewed graph-search guarantee assumes nonnegative edge weights, a fixed admissible heuristic with zero at the target, and reopening on improved cost."@en .
 <https://curricula.live/id/formal-sciences/concept/a-star-search> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/a-star-search> <http://www.w3.org/2004/02/skos/core#prefLabel> "A-star search"@en .
+<https://curricula.live/id/formal-sciences/concept/a-star-search> <https://curricula.live/id/formal-sciences/vocab/requiresAssumption> <https://curricula.live/id/formal-sciences/concept/admissible-search-heuristic> .
+<https://curricula.live/id/formal-sciences/concept/a-star-search> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/shortest-path-problem> .
+<https://curricula.live/id/formal-sciences/concept/a-star-search> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/priority-queue> .
 <https://curricula.live/id/formal-sciences/concept/abstract-machine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/abstract-machine> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/foundations-of-computing> .
 <https://curricula.live/id/formal-sciences/concept/abstract-machine> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -63,6 +67,11 @@
 <https://curricula.live/id/formal-sciences/concept/adjacency-matrix> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/adjacency-matrix> <http://www.w3.org/2004/02/skos/core#prefLabel> "Adjacency matrix"@en .
 <https://curricula.live/id/formal-sciences/concept/adjacency-matrix> <https://curricula.live/id/formal-sciences/vocab/represents> <https://curricula.live/id/formal-sciences/concept/graph-graph-theory> .
+<https://curricula.live/id/formal-sciences/concept/admissible-search-heuristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/admissible-search-heuristic> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/heuristic-search> .
+<https://curricula.live/id/formal-sciences/concept/admissible-search-heuristic> <http://www.w3.org/2004/02/skos/core#definition> "For a goal and cost function, an estimate that never exceeds the true minimum remaining path cost."@en .
+<https://curricula.live/id/formal-sciences/concept/admissible-search-heuristic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
+<https://curricula.live/id/formal-sciences/concept/admissible-search-heuristic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Admissible shortest-path heuristic"@en .
 <https://curricula.live/id/formal-sciences/concept/affine-space> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/affine-space> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/geometry> .
 <https://curricula.live/id/formal-sciences/concept/affine-space> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
@@ -98,6 +107,12 @@
 <https://curricula.live/id/formal-sciences/concept/artificial-intelligence> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/artificial-intelligence> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/artificial-intelligence> <http://www.w3.org/2004/02/skos/core#prefLabel> "Artificial intelligence"@en .
+<https://curricula.live/id/formal-sciences/concept/assignment-problem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/assignment-problem> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
+<https://curricula.live/id/formal-sciences/concept/assignment-problem> <http://www.w3.org/2004/02/skos/core#definition> "Find a minimum-total-cost one-to-one matching between workers and tasks in the stated bipartite assignment model."@en .
+<https://curricula.live/id/formal-sciences/concept/assignment-problem> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
+<https://curricula.live/id/formal-sciences/concept/assignment-problem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Linear assignment problem"@en .
+<https://curricula.live/id/formal-sciences/concept/assignment-problem> <https://curricula.live/id/formal-sciences/vocab/hasInputStructure> <https://curricula.live/id/formal-sciences/concept/bipartite-graph> .
 <https://curricula.live/id/formal-sciences/concept/automata-theoretic-ltl-model-checking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/automata-theoretic-ltl-model-checking> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/formal-verification> .
 <https://curricula.live/id/formal-sciences/concept/automata-theoretic-ltl-model-checking> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/model-checking> .
@@ -160,6 +175,7 @@
 <https://curricula.live/id/formal-sciences/concept/bayes-theorem> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/bayesian-statistics> .
 <https://curricula.live/id/formal-sciences/concept/bayes-theorem> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/bayes-theorem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bayes' theorem"@en .
+<https://curricula.live/id/formal-sciences/concept/bayes-theorem> <https://curricula.live/id/formal-sciences/vocab/requiresPremise> <https://curricula.live/id/formal-sciences/concept/positive-bayes-conditioning-probabilities> .
 <https://curricula.live/id/formal-sciences/concept/bayes-theorem> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/conditional-probability> .
 <https://curricula.live/id/formal-sciences/concept/bayesian-network> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/bayesian-network> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/bayesian-statistics> .
@@ -173,6 +189,11 @@
 <https://curricula.live/id/formal-sciences/concept/bayesian-statistics> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/statistics> .
 <https://curricula.live/id/formal-sciences/concept/bayesian-statistics> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/bayesian-statistics> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bayesian statistics"@en .
+<https://curricula.live/id/formal-sciences/concept/behavioral-regression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/behavioral-regression> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/software-testing> .
+<https://curricula.live/id/formal-sciences/concept/behavioral-regression> <http://www.w3.org/2004/02/skos/core#definition> "An unintended degradation of previously working software behavior relative to a defined expectation."@en .
+<https://curricula.live/id/formal-sciences/concept/behavioral-regression> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
+<https://curricula.live/id/formal-sciences/concept/behavioral-regression> <http://www.w3.org/2004/02/skos/core#prefLabel> "Software behavioral regression"@en .
 <https://curricula.live/id/formal-sciences/concept/bell-number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/bell-number> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/combinatorics> .
 <https://curricula.live/id/formal-sciences/concept/bell-number> <http://www.w3.org/2004/02/skos/core#definition> "The number of set partitions of an n-element set."@en .
@@ -264,6 +285,7 @@
 <https://curricula.live/id/formal-sciences/concept/binary-search> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/binary-search> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/binary-search> <http://www.w3.org/2004/02/skos/core#prefLabel> "Binary search"@en .
+<https://curricula.live/id/formal-sciences/concept/binary-search> <https://curricula.live/id/formal-sciences/vocab/requiresAssumption> <https://curricula.live/id/formal-sciences/concept/sorted-search-input> .
 <https://curricula.live/id/formal-sciences/concept/binomial-coefficient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/binomial-coefficient> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/combinatorics> .
 <https://curricula.live/id/formal-sciences/concept/binomial-coefficient> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
@@ -478,6 +500,17 @@
 <https://curricula.live/id/formal-sciences/concept/compactness-topology> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/topology> .
 <https://curricula.live/id/formal-sciences/concept/compactness-topology> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/compactness-topology> <http://www.w3.org/2004/02/skos/core#prefLabel> "Compactness (topology)"@en .
+<https://curricula.live/id/formal-sciences/concept/comparison-sort-decision-tree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/comparison-sort-decision-tree> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computational-complexity-theory> .
+<https://curricula.live/id/formal-sciences/concept/comparison-sort-decision-tree> <http://www.w3.org/2004/02/skos/core#definition> "A tree of comparisons between input keys. Each reachable leaf identifies a possible output permutation under the modeled comparison outcomes."@en .
+<https://curricula.live/id/formal-sciences/concept/comparison-sort-decision-tree> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
+<https://curricula.live/id/formal-sciences/concept/comparison-sort-decision-tree> <http://www.w3.org/2004/02/skos/core#prefLabel> "Decision tree for comparison sorting"@en .
+<https://curricula.live/id/formal-sciences/concept/comparison-sorting-lower-bound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/comparison-sorting-lower-bound> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computational-complexity-theory> .
+<https://curricula.live/id/formal-sciences/concept/comparison-sorting-lower-bound> <http://www.w3.org/2004/02/skos/core#definition> "Sorting n distinct keys in the comparison model takes at least the ceiling of log base two of n factorial comparisons in the worst case."@en .
+<https://curricula.live/id/formal-sciences/concept/comparison-sorting-lower-bound> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
+<https://curricula.live/id/formal-sciences/concept/comparison-sorting-lower-bound> <http://www.w3.org/2004/02/skos/core#prefLabel> "Worst-case comparison lower bound for sorting"@en .
+<https://curricula.live/id/formal-sciences/concept/comparison-sorting-lower-bound> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/comparison-sort-decision-tree> .
 <https://curricula.live/id/formal-sciences/concept/complete-lattice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/complete-lattice> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/lattice-order-theory> .
 <https://curricula.live/id/formal-sciences/concept/complete-lattice> <http://www.w3.org/2004/02/skos/core#definition> "A partially ordered set in which every subset has both a supremum and an infimum."@en .
@@ -664,6 +697,7 @@
 <https://curricula.live/id/formal-sciences/concept/context-free-grammar> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/automata-theory> .
 <https://curricula.live/id/formal-sciences/concept/context-free-grammar> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/context-free-grammar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Context-free grammar"@en .
+<https://curricula.live/id/formal-sciences/concept/context-free-grammar> <https://curricula.live/id/formal-sciences/vocab/represents> <https://curricula.live/id/formal-sciences/concept/context-free-language> .
 <https://curricula.live/id/formal-sciences/concept/context-free-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/context-free-language> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/automata-theory> .
 <https://curricula.live/id/formal-sciences/concept/context-free-language> <http://www.w3.org/2004/02/skos/core#definition> "A language generated by a context-free grammar."@en .
@@ -928,6 +962,11 @@
 <https://curricula.live/id/formal-sciences/concept/design-matrix> <http://www.w3.org/2004/02/skos/core#definition> "A matrix whose rows encode observations and whose columns encode model terms for those observations."@en .
 <https://curricula.live/id/formal-sciences/concept/design-matrix> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/design-matrix> <http://www.w3.org/2004/02/skos/core#prefLabel> "Design matrix"@en .
+<https://curricula.live/id/formal-sciences/concept/deterministic-context-free-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/deterministic-context-free-language> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/automata-theory> .
+<https://curricula.live/id/formal-sciences/concept/deterministic-context-free-language> <http://www.w3.org/2004/02/skos/core#definition> "A language recognized by a deterministic pushdown automaton under the specified acceptance convention."@en .
+<https://curricula.live/id/formal-sciences/concept/deterministic-context-free-language> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
+<https://curricula.live/id/formal-sciences/concept/deterministic-context-free-language> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deterministic context-free language"@en .
 <https://curricula.live/id/formal-sciences/concept/dfa-concatenation-evaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/dfa-concatenation-evaluation> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/automata-theory> .
 <https://curricula.live/id/formal-sciences/concept/dfa-concatenation-evaluation> <http://www.w3.org/2004/02/skos/core#definition> "Starting in state q, evaluate the first word to reach a state, then evaluate the second word starting from that state. The result equals evaluation of their concatenation from q."@en .
@@ -1027,6 +1066,12 @@
 <https://curricula.live/id/formal-sciences/concept/ecdsa-digital-signature> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/ecdsa-digital-signature> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elliptic Curve Digital Signature Algorithm"@en .
 <https://curricula.live/id/formal-sciences/concept/ecdsa-digital-signature> <https://curricula.live/id/formal-sciences/vocab/computes> <https://curricula.live/id/formal-sciences/concept/digital-signature> .
+<https://curricula.live/id/formal-sciences/concept/edge-betweenness-centrality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/edge-betweenness-centrality> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/graph-theory> .
+<https://curricula.live/id/formal-sciences/concept/edge-betweenness-centrality> <http://www.w3.org/2004/02/skos/core#definition> "The sum, over applicable vertex pairs, of the fraction of their shortest paths traversing a specified edge, with the stated normalization."@en .
+<https://curricula.live/id/formal-sciences/concept/edge-betweenness-centrality> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/edge-betweenness-centrality> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edge betweenness centrality"@en .
+<https://curricula.live/id/formal-sciences/concept/edge-betweenness-centrality> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/shortest-path-multiplicity> .
 <https://curricula.live/id/formal-sciences/concept/edge-relaxation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/edge-relaxation> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/edge-relaxation> <http://www.w3.org/2004/02/skos/core#definition> "A shortest-path update that compares the current distance estimate with the estimate obtained by extending a path across one edge."@en .
@@ -1284,6 +1329,7 @@
 <https://curricula.live/id/formal-sciences/concept/fixed-input-halting> <https://curricula.live/id/formal-sciences/vocab/hasProperty> <https://curricula.live/id/formal-sciences/concept/fixed-input-halting-undecidability> .
 <https://curricula.live/id/formal-sciences/concept/fixed-point-semantics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/fixed-point-semantics> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/formal-semantics> .
+<https://curricula.live/id/formal-sciences/concept/fixed-point-semantics> <http://www.w3.org/2004/02/skos/core#definition> "An interpretation of recursion or iteration as a fixed point of a semantic functional. Where an ordered-domain construction supplies a least fixed point, it selects the least solution in that order."@en .
 <https://curricula.live/id/formal-sciences/concept/fixed-point-semantics> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
 <https://curricula.live/id/formal-sciences/concept/fixed-point-semantics> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fixed-point semantics"@en .
 <https://curricula.live/id/formal-sciences/concept/fixed-point-semantics> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/fixed-point> .
@@ -1490,10 +1536,16 @@
 <https://curricula.live/id/formal-sciences/concept/halting-problem> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computability-theory> .
 <https://curricula.live/id/formal-sciences/concept/halting-problem> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/halting-problem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Halting problem"@en .
+<https://curricula.live/id/formal-sciences/concept/hash-ring-local-remapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/hash-ring-local-remapping> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
+<https://curricula.live/id/formal-sciences/concept/hash-ring-local-remapping> <http://www.w3.org/2004/02/skos/core#definition> "With existing ring positions fixed and distinct, adding a token remaps only keys between that token and its previous predecessor around the ring."@en .
+<https://curricula.live/id/formal-sciences/concept/hash-ring-local-remapping> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
+<https://curricula.live/id/formal-sciences/concept/hash-ring-local-remapping> <http://www.w3.org/2004/02/skos/core#prefLabel> "Local key remapping under hash-ring insertion"@en .
 <https://curricula.live/id/formal-sciences/concept/hash-table> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/hash-table> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/data-structures> .
 <https://curricula.live/id/formal-sciences/concept/hash-table> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/hash-table> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hash table"@en .
+<https://curricula.live/id/formal-sciences/concept/hash-table> <https://curricula.live/id/formal-sciences/vocab/represents> <https://curricula.live/id/formal-sciences/concept/opencs-c8022> .
 <https://curricula.live/id/formal-sciences/concept/herbrand-term-universe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/herbrand-term-universe> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/model-theory> .
 <https://curricula.live/id/formal-sciences/concept/herbrand-term-universe> <http://www.w3.org/2004/02/skos/core#definition> "The collection of variable-free terms over a first-order signature, using a fresh constant if needed to make the collection nonempty."@en .
@@ -2554,6 +2606,7 @@
 <https://curricula.live/id/formal-sciences/concept/maximum-a-posteriori-estimation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/maximum-a-posteriori-estimation> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/bayesian-statistics> .
 <https://curricula.live/id/formal-sciences/concept/maximum-a-posteriori-estimation> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/statistical-estimation> .
+<https://curricula.live/id/formal-sciences/concept/maximum-a-posteriori-estimation> <http://www.w3.org/2004/02/skos/core#definition> "Estimation by choosing a maximizer of posterior mass in the discrete case, or of a specified posterior density where a maximizer exists in the continuous case."@en .
 <https://curricula.live/id/formal-sciences/concept/maximum-a-posteriori-estimation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/maximum-a-posteriori-estimation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maximum a posteriori estimation"@en .
 <https://curricula.live/id/formal-sciences/concept/maximum-a-posteriori-estimation> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/posterior-distribution> .
@@ -2906,6 +2959,11 @@
 <https://curricula.live/id/formal-sciences/concept/nondeterministic-pushdown-automaton> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nondeterministic pushdown automaton"@en .
 <https://curricula.live/id/formal-sciences/concept/nondeterministic-pushdown-automaton> <https://curricula.live/id/formal-sciences/vocab/recognizesExactly> <https://curricula.live/id/formal-sciences/concept/context-free-language> .
 <https://curricula.live/id/formal-sciences/concept/nondeterministic-pushdown-automaton> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/stack-data-structure> .
+<https://curricula.live/id/formal-sciences/concept/nonlinear-least-squares-problem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/nonlinear-least-squares-problem> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/numerical-analysis> .
+<https://curricula.live/id/formal-sciences/concept/nonlinear-least-squares-problem> <http://www.w3.org/2004/02/skos/core#definition> "Find parameters minimizing the sum of squared residuals when the residual vector can be nonlinear in those parameters."@en .
+<https://curricula.live/id/formal-sciences/concept/nonlinear-least-squares-problem> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/nonlinear-least-squares-problem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nonlinear least-squares problem"@en .
 <https://curricula.live/id/formal-sciences/concept/nonnegative-edge-weights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/nonnegative-edge-weights> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/graph-theory> .
 <https://curricula.live/id/formal-sciences/concept/nonnegative-edge-weights> <http://www.w3.org/2004/02/skos/core#definition> "An edge-weight function whose value on each edge is at least zero."@en .
@@ -5153,6 +5211,7 @@
 <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e2558> <http://www.w3.org/2004/02/skos/core#prefLabel> "Simple random variable"@en .
 <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e2563> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e2563> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/probability-theory> .
+<https://curricula.live/id/formal-sciences/concept/ontomath-pro-e2563> <http://www.w3.org/2004/02/skos/core#definition> "A random variable considered as a member of a specified independent family. Independence is a property of the family or joint law."@en .
 <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e2563> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e2563> <http://www.w3.org/2004/02/skos/core#prefLabel> "Independent random variable"@en .
 <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e2564> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -6553,6 +6612,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c11128> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/programming-languages> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c11128> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c11128> <http://www.w3.org/2004/02/skos/core#prefLabel> "Python (programming language)"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c11128> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/lexical-scope> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c11144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c11144> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-networks> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c11144> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -6615,6 +6675,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c12108> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/programming-languages> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c12108> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c12108> <http://www.w3.org/2004/02/skos/core#prefLabel> "Closure (computer programming)"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c12108> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/lexical-scope> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c122> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/foundations-of-computing> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c122> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -6695,6 +6756,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c13429> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/machine-learning> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c13429> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c13429> <http://www.w3.org/2004/02/skos/core#prefLabel> "Multi-label classification"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c13429> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/opencs-c28516> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c13516> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c13516> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/data-structures> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c13516> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -6899,6 +6961,8 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c16904> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c16904> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c16904> <http://www.w3.org/2004/02/skos/core#prefLabel> "Levenberg–Marquardt algorithm"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c16904> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/nonlinear-least-squares-problem> .
+<https://curricula.live/id/formal-sciences/concept/opencs-c16904> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e1731> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c16915> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c16915> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c16915> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -7013,6 +7077,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c18415> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/software-engineering> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c18415> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c18415> <http://www.w3.org/2004/02/skos/core#prefLabel> "Regression testing"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c18415> <https://curricula.live/id/formal-sciences/vocab/analyzes> <https://curricula.live/id/formal-sciences/concept/behavioral-regression> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c18560> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c18560> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-networks> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c18560> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -7056,6 +7121,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c18813> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c18813> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c18813> <http://www.w3.org/2004/02/skos/core#prefLabel> "Junction tree algorithm"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c18813> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/tree-graph-theory> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c18860> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c18860> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/data-structures> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c18860> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/opencs-c2885> .
@@ -7289,6 +7355,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c21398> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c21398> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deterministic finite automaton"@en .
 <https://curricula.live/id/formal-sciences/concept/opencs-c21398> <https://curricula.live/id/formal-sciences/vocab/hasProperty> <https://curricula.live/id/formal-sciences/concept/dfa-concatenation-evaluation> .
+<https://curricula.live/id/formal-sciences/concept/opencs-c21398> <https://curricula.live/id/formal-sciences/vocab/recognizesExactly> <https://curricula.live/id/formal-sciences/concept/regular-language> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c21710> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c21710> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c21710> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -7452,6 +7519,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c23929> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/machine-learning> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c23929> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c23929> <http://www.w3.org/2004/02/skos/core#prefLabel> "Multiclass classification"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c23929> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/opencs-c28516> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c23965> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c23965> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-networks> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c23965> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -7466,6 +7534,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c24136> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/opencs-c424> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24136> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24136> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gradient boosting"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c24136> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/decision-tree-learning> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24136> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/functional-gradient-step> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c2414> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c2414> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/databases> .
@@ -7480,6 +7549,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c24154> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24154> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24154> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hungarian algorithm"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c24154> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/assignment-problem> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24194> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24194> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24194> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -7517,6 +7587,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c24725> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24725> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24725> <http://www.w3.org/2004/02/skos/core#prefLabel> "Broyden–Fletcher–Goldfarb–Shanno algorithm"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c24725> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e1700> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24869> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24869> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/automated-reasoning> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24869> <http://www.w3.org/2004/02/skos/core#definition> "For an unsatisfiable first-order clause set, there is an unsatisfiable finite set of its ground instances over the Herbrand universe, with a fresh constant available if needed."@en .
@@ -7565,6 +7636,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c25543> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c25543> <http://www.w3.org/2004/02/skos/core#prefLabel> "Suffix array"@en .
 <https://curricula.live/id/formal-sciences/concept/opencs-c25543> <https://curricula.live/id/formal-sciences/vocab/supportsOperation> <https://curricula.live/id/formal-sciences/concept/substring-indexing-query> .
+<https://curricula.live/id/formal-sciences/concept/opencs-c25543> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/lexicographic-key-order> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c25669> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c25669> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c25669> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -7584,10 +7656,12 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c26036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c26036> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/foundations-of-computing> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c26036> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/opencs-c12099> .
+<https://curricula.live/id/formal-sciences/concept/opencs-c26036> <http://www.w3.org/2004/02/skos/core#definition> "For a fixed finite string, the minimal partial deterministic automaton accepting its suffixes. All paths from the initial state spell substrings, with acceptance restricted to paths ending in a terminal state."@en .
 <https://curricula.live/id/formal-sciences/concept/opencs-c26036> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c26036> <http://www.w3.org/2004/02/skos/core#prefLabel> "Suffix automaton"@en .
 <https://curricula.live/id/formal-sciences/concept/opencs-c26036> <https://curricula.live/id/formal-sciences/vocab/represents> <https://curricula.live/id/formal-sciences/concept/suffix-language-of-a-string> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c26036> <https://curricula.live/id/formal-sciences/vocab/supportsOperation> <https://curricula.live/id/formal-sciences/concept/substring-indexing-query> .
+<https://curricula.live/id/formal-sciences/concept/opencs-c26036> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/directed-acyclic-graph> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c26124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c26124> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/distributed-computing> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c26124> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -7910,6 +7984,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c30273> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/databases> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c30273> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c30273> <http://www.w3.org/2004/02/skos/core#prefLabel> "Isolation (database systems)"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c30273> <https://curricula.live/id/formal-sciences/vocab/analyzes> <https://curricula.live/id/formal-sciences/concept/database-transaction> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c30285> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c30285> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c30285> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -8005,6 +8080,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c31455> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/data-structures> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c31455> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c31455> <http://www.w3.org/2004/02/skos/core#prefLabel> "Double hashing"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c31455> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/hash-table> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c31517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c31517> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/information-theory> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c31517> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -8097,6 +8173,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c32507> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c32507> <http://www.w3.org/2004/02/skos/core#prefLabel> "Merge sort"@en .
 <https://curricula.live/id/formal-sciences/concept/opencs-c32507> <https://curricula.live/id/formal-sciences/vocab/guarantees> <https://curricula.live/id/formal-sciences/concept/stable-sort-order> .
+<https://curricula.live/id/formal-sciences/concept/opencs-c32507> <https://curricula.live/id/formal-sciences/vocab/invokesAlgorithm> <https://curricula.live/id/formal-sciences/concept/opencs-c33859> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c32507> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/sorting-problem> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c32582> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c32582> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-networks> .
@@ -8129,6 +8206,8 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c33039> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/opencs-c16028> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c33039> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c33039> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bubble sort"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c33039> <https://curricula.live/id/formal-sciences/vocab/hasProperty> <https://curricula.live/id/formal-sciences/concept/quadratic-comparison-bound> .
+<https://curricula.live/id/formal-sciences/concept/opencs-c33039> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/sorting-problem> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c3304> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c3304> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-networks> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c3304> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -8154,7 +8233,9 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c33387> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-networks> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c33387> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c33387> <http://www.w3.org/2004/02/skos/core#prefLabel> "Avionics Full-Duplex Switched Ethernet"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c3339> <http://purl.org/dc/terms/isReplacedBy> <https://curricula.live/id/formal-sciences/concept/a-star-search> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c3339> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/opencs-c3339> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c3339> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c3339> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c3339> <http://www.w3.org/2004/02/skos/core#prefLabel> "A* search algorithm"@en .
@@ -8194,6 +8275,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c33859> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c33859> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c33859> <http://www.w3.org/2004/02/skos/core#prefLabel> "Merge algorithm"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c33859> <https://curricula.live/id/formal-sciences/vocab/requiresAssumption> <https://curricula.live/id/formal-sciences/concept/sorted-search-input> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c3391> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c3391> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-networks> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c3391> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -8380,6 +8462,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c36074> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/opencs-c16028> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c36074> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c36074> <http://www.w3.org/2004/02/skos/core#prefLabel> "Radix sort"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c36074> <https://curricula.live/id/formal-sciences/vocab/invokesAlgorithm> <https://curricula.live/id/formal-sciences/concept/opencs-c42816> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c36074> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/sorting-problem> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c36080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c36080> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-networks> .
@@ -8841,6 +8924,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c39385> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/data-structures> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c39385> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c39385> <http://www.w3.org/2004/02/skos/core#prefLabel> "Consistent hashing"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c39385> <https://curricula.live/id/formal-sciences/vocab/hasProperty> <https://curricula.live/id/formal-sciences/concept/hash-ring-local-remapping> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c39422> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c39422> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/programming-languages> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c39422> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -8995,6 +9079,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c40335> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c40335> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c40335> <http://www.w3.org/2004/02/skos/core#prefLabel> "Girvan–Newman algorithm"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c40335> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/edge-betweenness-centrality> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c40351> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c40351> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/operating-systems> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c40351> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -9041,6 +9126,8 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c40594> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/data-structures> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c40594> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c40594> <http://www.w3.org/2004/02/skos/core#prefLabel> "X-fast trie"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c40594> <https://curricula.live/id/formal-sciences/vocab/invokesAlgorithm> <https://curricula.live/id/formal-sciences/concept/binary-search> .
+<https://curricula.live/id/formal-sciences/concept/opencs-c40594> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/hash-table> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c40657> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c40657> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/databases> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c40657> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -9189,6 +9276,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c41436> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c41436> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c41436> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pigeonhole sort"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c41436> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/sorting-problem> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c41437> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c41437> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/software-engineering> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c41437> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -9383,10 +9471,12 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c42589> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c42589> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c42589> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bucket sort"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c42589> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/sorting-problem> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c42615> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c42615> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c42615> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c42615> <http://www.w3.org/2004/02/skos/core#prefLabel> "Comparison sort"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c42615> <https://curricula.live/id/formal-sciences/vocab/hasProperty> <https://curricula.live/id/formal-sciences/concept/comparison-sorting-lower-bound> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c42629> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c42629> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/data-structures> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c42629> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -9460,6 +9550,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c42922> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/foundations-of-computing> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c42922> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c42922> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deterministic pushdown automaton"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c42922> <https://curricula.live/id/formal-sciences/vocab/recognizesExactly> <https://curricula.live/id/formal-sciences/concept/deterministic-context-free-language> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c42934> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c42934> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-networks> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c42934> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -9592,6 +9683,7 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c43547> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/foundations-of-computing> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c43547> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c43547> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stochastic context-free grammar"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c43547> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/stato-0000117> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c43549> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c43549> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-networks> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c43549> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -9888,6 +9980,8 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c45370> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-networks> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c45370> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c45370> <http://www.w3.org/2004/02/skos/core#prefLabel> "Two-phase commit protocol"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c45370> <https://curricula.live/id/formal-sciences/vocab/appliesToModel> <https://curricula.live/id/formal-sciences/concept/opencs-c8327> .
+<https://curricula.live/id/formal-sciences/concept/opencs-c45370> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/database-transaction> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c45400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c45400> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computer-networks> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c45400> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -9965,6 +10059,8 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c45644> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/data-structures> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c45644> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c45644> <http://www.w3.org/2004/02/skos/core#prefLabel> "Y-fast trie"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c45644> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/binary-search-tree> .
+<https://curricula.live/id/formal-sciences/concept/opencs-c45644> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/opencs-c40594> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c45709> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c45709> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c45709> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -10528,6 +10624,11 @@
 <https://curricula.live/id/formal-sciences/concept/polynomial-time> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computational-complexity-theory> .
 <https://curricula.live/id/formal-sciences/concept/polynomial-time> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/polynomial-time> <http://www.w3.org/2004/02/skos/core#prefLabel> "Polynomial time"@en .
+<https://curricula.live/id/formal-sciences/concept/positive-bayes-conditioning-probabilities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/positive-bayes-conditioning-probabilities> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/probability-theory> .
+<https://curricula.live/id/formal-sciences/concept/positive-bayes-conditioning-probabilities> <http://www.w3.org/2004/02/skos/core#definition> "For the elementary event formula expressing both conditional probabilities as ratios, each conditioning event has strictly positive probability."@en .
+<https://curricula.live/id/formal-sciences/concept/positive-bayes-conditioning-probabilities> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
+<https://curricula.live/id/formal-sciences/concept/positive-bayes-conditioning-probabilities> <http://www.w3.org/2004/02/skos/core#prefLabel> "Positive event probabilities for Bayes ratios"@en .
 <https://curricula.live/id/formal-sciences/concept/post-correspondence-problem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/post-correspondence-problem> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computability-theory> .
 <https://curricula.live/id/formal-sciences/concept/post-correspondence-problem> <http://www.w3.org/2004/02/skos/core#definition> "Given finitely many pairs of words over a finite alphabet, decide whether a nonempty sequence of pair indices, with repetition allowed, makes the two concatenations identical."@en .
@@ -10791,6 +10892,7 @@
 <https://curricula.live/id/formal-sciences/concept/pushdown-automaton> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/automata-theory> .
 <https://curricula.live/id/formal-sciences/concept/pushdown-automaton> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/pushdown-automaton> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pushdown automaton"@en .
+<https://curricula.live/id/formal-sciences/concept/pushdown-automaton> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/stack-data-structure> .
 <https://curricula.live/id/formal-sciences/concept/qr-factorization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/qr-factorization> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/linear-algebra> .
 <https://curricula.live/id/formal-sciences/concept/qr-factorization> <http://www.w3.org/2004/02/skos/core#definition> "A matrix factorization into a factor with orthonormal columns and an upper triangular or upper trapezoidal factor."@en .
@@ -10822,6 +10924,7 @@
 <https://curricula.live/id/formal-sciences/concept/query-optimization> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/databases> .
 <https://curricula.live/id/formal-sciences/concept/query-optimization> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/query-optimization> <http://www.w3.org/2004/02/skos/core#prefLabel> "Query optimization"@en .
+<https://curricula.live/id/formal-sciences/concept/query-optimization> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/optimizer-cardinality-estimate> .
 <https://curricula.live/id/formal-sciences/concept/queue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/queue> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/data-structures> .
 <https://curricula.live/id/formal-sciences/concept/queue> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -10997,6 +11100,7 @@
 <https://curricula.live/id/formal-sciences/concept/resolution-logic> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/most-general-unifier> .
 <https://curricula.live/id/formal-sciences/concept/resolution-refutation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/resolution-refutation> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/proof-theory> .
+<https://curricula.live/id/formal-sciences/concept/resolution-refutation> <http://www.w3.org/2004/02/skos/core#definition> "A refutation of a clause set that derives the empty clause using resolution with the rules appropriate to the scoped clause language."@en .
 <https://curricula.live/id/formal-sciences/concept/resolution-refutation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
 <https://curricula.live/id/formal-sciences/concept/resolution-refutation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Resolution refutation"@en .
 <https://curricula.live/id/formal-sciences/concept/resolution-refutation> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/resolution-logic> .
@@ -11216,6 +11320,11 @@
 <https://curricula.live/id/formal-sciences/concept/shannon-entropy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/shannon-entropy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shannon entropy"@en .
 <https://curricula.live/id/formal-sciences/concept/shannon-entropy> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/probability-distributions> .
+<https://curricula.live/id/formal-sciences/concept/shortest-path-multiplicity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/shortest-path-multiplicity> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/graph-theory> .
+<https://curricula.live/id/formal-sciences/concept/shortest-path-multiplicity> <http://www.w3.org/2004/02/skos/core#definition> "For two vertices in a finite graph with positive edge lengths and a connecting path, the number of distinct minimum-length paths between them."@en .
+<https://curricula.live/id/formal-sciences/concept/shortest-path-multiplicity> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
+<https://curricula.live/id/formal-sciences/concept/shortest-path-multiplicity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Multiplicity of shortest paths"@en .
 <https://curricula.live/id/formal-sciences/concept/shortest-path-problem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/shortest-path-problem> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/shortest-path-problem> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
@@ -11275,6 +11384,11 @@
 <https://curricula.live/id/formal-sciences/concept/software-testing> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/software-engineering> .
 <https://curricula.live/id/formal-sciences/concept/software-testing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/software-testing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Software testing"@en .
+<https://curricula.live/id/formal-sciences/concept/sorted-search-input> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/concept/sorted-search-input> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/binary-search> .
+<https://curricula.live/id/formal-sciences/concept/sorted-search-input> <http://www.w3.org/2004/02/skos/core#definition> "A finite sequence ordered consistently with the comparison used for searching its keys."@en .
+<https://curricula.live/id/formal-sciences/concept/sorted-search-input> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
+<https://curricula.live/id/formal-sciences/concept/sorted-search-input> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sorted key sequence for lookup"@en .
 <https://curricula.live/id/formal-sciences/concept/sorting-problem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/sorting-problem> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/sorting-problem> <http://www.w3.org/2004/02/skos/core#definition> "Given a finite sequence of comparable records and an ordering on their keys, produce a permutation arranged by that ordering."@en .
@@ -12882,7 +12996,6 @@
 <https://curricula.live/id/formal-sciences/concept/topological-sorting> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/topological-sorting> <http://www.w3.org/2004/02/skos/core#prefLabel> "Topological sorting"@en .
 <https://curricula.live/id/formal-sciences/concept/topological-sorting> <https://curricula.live/id/formal-sciences/vocab/requiresAssumption> <https://curricula.live/id/formal-sciences/concept/directed-acyclic-graph> .
-<https://curricula.live/id/formal-sciences/concept/topological-sorting> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/directed-acyclic-graph> .
 <https://curricula.live/id/formal-sciences/concept/topological-space> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/topological-space> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/topology> .
 <https://curricula.live/id/formal-sciences/concept/topological-space> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .

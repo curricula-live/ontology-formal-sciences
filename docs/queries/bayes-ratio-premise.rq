@@ -1,0 +1,18 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT ?premise ?source ?mode ?scope
+WHERE {
+  GRAPH g:asserted { c:bayes-theorem v:requiresPremise ?premise }
+  GRAPH g:provenance {
+    ?statement rdf:subject c:bayes-theorem ; rdf:predicate v:requiresPremise ;
+      rdf:object ?premise ; prov:wasDerivedFrom ?evidence .
+    ?review dct:subject ?statement ; dct:type ?mode ; dct:description ?scope ;
+      prov:wasDerivedFrom ?evidence .
+    ?evidence prov:hadPrimarySource ?source .
+  }
+}

@@ -2,13 +2,14 @@ from rdflib import Graph, Literal, OWL, RDF, SKOS
 from rdflib.namespace import DCTERMS, PROV
 
 from pipeline.common import C, D, V
-from pipeline.curate.identities import apply_migrations, reviewed_migrations
+from pipeline.curate import identities
 from pipeline.curate.relations import statement_for
 from pipeline.validate import check
 
 
-def test_reviewed_duplicate_keeps_source_and_has_discoverable_replacement():
-    row, = reviewed_migrations()
+def test_reviewed_duplicate_keeps_source_and_has_discoverable_replacement(monkeypatch):
+    row, = (item for item in identities.reviewed_migrations() if item["former"] == "opencs-c3339")
+    monkeypatch.setattr(identities, "reviewed_migrations", lambda: [row])
     graph = Graph()
     provenance = Graph()
     preferred, former = C[row["preferred"]], C[row["former"]]
@@ -23,7 +24,7 @@ def test_reviewed_duplicate_keeps_source_and_has_discoverable_replacement():
     original = (former, DCTERMS.source, native)
     provenance.add(original)
 
-    assert apply_migrations(graph, provenance)["retired_duplicates"] == 1
+    assert identities.apply_migrations(graph, provenance)["retired_duplicates"] == 1
     replacement = (former, DCTERMS.isReplacedBy, preferred)
     assert replacement in graph and original in provenance
     assert (former, OWL.deprecated, Literal(True)) in graph

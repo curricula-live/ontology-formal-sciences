@@ -27,6 +27,12 @@ def test_connectivity_counts_only_asserted_concept_edges():
     assert result["concepts_by_scheme"] == {"mathematics": 2, "computer-science": 1}
     assert result["scientific_connectivity"]["participating_concepts"] == 0
 
+    graph.add((C.algorithm, V.containsSymbol, C.isolate))
+    result = graph_metrics(graph, prov)
+    assert result["expression_connectivity"]["relations"] == 1
+    assert result["scientific_connectivity"]["relations"] == 0
+    assert result["scientific_connectivity"]["evidence_backed"]["participating_concepts"] == 0
+
     graph.add((C.isolate, V.uses, C.graph))
     statement = URIRef("urn:test:evidenced-edge")
     for predicate, obj in (

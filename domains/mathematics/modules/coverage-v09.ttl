@@ -1,0 +1,21 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix d: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:nonlinear-least-squares-problem a skos:Concept ;
+  skos:inScheme d:mathematics ;
+  skos:broader c:numerical-analysis ;
+  skos:prefLabel "Nonlinear least-squares problem"@en ;
+  skos:definition "Find parameters minimizing the sum of squared residuals when the residual vector can be nonlinear in those parameters."@en .
+
+c:edge-betweenness-centrality a skos:Concept ;
+  skos:inScheme d:mathematics ;
+  skos:broader c:graph-theory ;
+  skos:prefLabel "Edge betweenness centrality"@en ;
+  skos:definition "The sum, over applicable vertex pairs, of the fraction of their shortest paths traversing a specified edge, with the stated normalization."@en .
+
+c:shortest-path-multiplicity a skos:Concept ;
+  skos:inScheme d:mathematics ;
+  skos:broader c:graph-theory ;
+  skos:prefLabel "Multiplicity of shortest paths"@en ;
+  skos:definition "For two vertices in a finite graph with positive edge lengths and a connecting path, the number of distinct minimum-length paths between them."@en .

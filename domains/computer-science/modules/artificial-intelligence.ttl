@@ -10,7 +10,8 @@ c:heuristic-search a skos:Concept ; skos:prefLabel "Heuristic search"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:artificial-intelligence .
 
 c:a-star-search a skos:Concept ; skos:prefLabel "A-star search"@en ;
-    skos:inScheme scheme:computer-science ; skos:broader c:artificial-intelligence .
+    skos:inScheme scheme:computer-science ; skos:broader c:artificial-intelligence ;
+    skos:definition "Best-first shortest-path search that orders candidate states by path cost so far plus a heuristic estimate of remaining cost. The reviewed graph-search guarantee assumes nonnegative edge weights, a fixed admissible heuristic with zero at the target, and reopening on improved cost."@en .
 
 c:knowledge-representation a skos:Concept ; skos:prefLabel "Knowledge representation"@en ;
     skos:inScheme scheme:computer-science ; skos:broader c:artificial-intelligence .

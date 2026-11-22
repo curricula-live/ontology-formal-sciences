@@ -60,8 +60,8 @@ def review_inputs():
             if (len(triple) != 3 or triple[1] not in PERMITTED
                     or decision["state"] not in {"approved", "rejected"} or not decision["scope"].strip()):
                 raise ValueError(f"Invalid passage judgment: {key} {decision}")
-            if (row.get("introduced") and decision.get("evidence_mode") not in EVIDENCE_MODES
-                    or "evidence_mode" in decision and decision["evidence_mode"] not in EVIDENCE_MODES):
+            if ((row.get("introduced") or "evidence_mode" in decision)
+                    and decision.get("evidence_mode") not in EVIDENCE_MODES):
                 raise ValueError(f"Missing or invalid passage evidence mode: {key} {decision}")
     return corpora, reviews
 

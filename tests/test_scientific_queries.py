@@ -166,3 +166,44 @@ def test_every_new_scientific_claim_has_a_citation_and_no_implicit_inverse():
     assert directional and directional <= cited
     assert not any(predicate in set(claims.predicates()) - {SKOS.broader}
                    for _, predicate, _ in reason(claims))
+
+
+def test_reconciled_identifiers_and_scoped_enrichment():
+    results = answers(ROOT / "dist/formal-sciences.nq")
+    migration, = results["a-star-identity-and-scope"]
+    assert migration["former"] == str(C["opencs-c3339"])
+    assert migration["preferred"] == str(C["a-star-search"])
+    assert migration["native"] == "https://w3id.org/ocs/ont/C3339"
+    assert migration["condition"] == str(C["admissible-search-heuristic"])
+    assignment, = results["assignment-graph-structure"]
+    assert assignment["method"] == str(C["opencs-c24154"])
+    assert assignment["structure"] == str(C["bipartite-graph"])
+    premise, = results["bayes-ratio-premise"]
+    assert premise["premise"] == str(C["positive-bayes-conditioning-probabilities"])
+    assert premise["mode"] == "editorial interpretation"
+    lookup, = results["trie-subroutine-evidence"]
+    assert lookup["index"] == str(C["opencs-c40594"])
+    assert lookup["algorithm"] == str(C["binary-search"])
+    assert lookup["table"] == str(C["hash-table"])
+    grammar, = results["stochastic-grammar-rule-distribution"]
+    assert grammar["distribution"] == str(C["stato-0000117"])
+    assert "each nonterminal" in grammar["scope"].lower()
+
+
+def test_published_predicate_roles_and_superseded_assertions():
+    graph = Graph().parse(ROOT / "dist/formal-sciences.ttl")
+    for subject, predicate, target in [
+        ("topological-sorting", V.requiresAssumption, "directed-acyclic-graph"),
+        ("knaster-tarski-fixed-point-theorem", V.requiresPremise, "complete-lattice"),
+        ("princeton-dijkstra-implementation", V.implementsAlgorithm, "dijkstra-s-algorithm"),
+        ("dpll-algorithm", V.invokesAlgorithm, "unit-propagation"),
+        ("density-moment-integral", V.containsSymbol, "scalar-multiplication"),
+        ("opencs-c42922", V.recognizesExactly, "deterministic-context-free-language"),
+    ]:
+        assert (C[subject], predicate, C[target]) in graph
+        assert (C[subject], V.uses, C[target]) not in graph
+    assert (C["opencs-c42922"], V.recognizesExactly, C["context-free-language"]) not in graph
+    for matrix in (C["adjacency-matrix"], C["graph-laplacian"]):
+        assert (matrix, SKOS.broader, C.matrix) in graph
+        assert (matrix, V.uses, C.matrix) not in graph
+    assert (C["opencs-c24725"], V.requiresAssumption, C["ontomath-pro-e1729"]) not in graph

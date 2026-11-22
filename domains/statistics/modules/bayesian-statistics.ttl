@@ -22,7 +22,8 @@ c:probabilistic-graphical-model a skos:Concept ; skos:prefLabel "Probabilistic g
     skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics .
 
 c:maximum-a-posteriori-estimation a skos:Concept ; skos:prefLabel "Maximum a posteriori estimation"@en ;
-    skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics .
+    skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics ;
+    skos:definition "Estimation by choosing a maximizer of posterior mass in the discrete case, or of a specified posterior density where a maximizer exists in the continuous case."@en .
 
 c:gibbs-sampling a skos:Concept ; skos:prefLabel "Gibbs sampling"@en ;
     skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics ;

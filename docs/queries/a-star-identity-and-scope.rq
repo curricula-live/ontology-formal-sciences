@@ -1,0 +1,20 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+SELECT ?former ?preferred ?native ?problem ?condition ?source
+WHERE {
+  GRAPH g:asserted {
+    VALUES ?former { c:opencs-c3339 }
+    ?former owl:deprecated true ; dct:isReplacedBy ?preferred .
+    ?preferred v:solves ?problem ; v:requiresAssumption ?condition .
+  }
+  GRAPH g:provenance {
+    ?former dct:source ?native .
+    ?statement rdf:subject ?preferred ; rdf:predicate v:requiresAssumption ;
+      rdf:object ?condition ; dct:source ?source .
+  }
+}

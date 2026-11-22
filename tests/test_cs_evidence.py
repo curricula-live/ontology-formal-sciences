@@ -49,3 +49,28 @@ def test_replay_checks_passage_bytes_and_line_range(monkeypatch, tmp_path):
     write(decisions, [row])
     with pytest.raises(ValueError, match="Reviewed passage differs"):
         cs_evidence.replay(offline=True)
+
+
+def test_candidate_extraction_is_scoped_to_unlinked_topics(monkeypatch, tmp_path):
+    text = b"first line\nBinary Search and Hash Table\nlast line\n"
+    source = tmp_path / "verified.txt"
+    source.write_bytes(text)
+    digest = sha256(text).hexdigest()
+    corpus = {"license_path": "LICENSE", "files": {"notes.txt": digest, "LICENSE": "unused"}}
+    monkeypatch.setattr(cs_evidence, "review_inputs", lambda: ({"fixture": corpus}, []))
+    monkeypatch.setattr(cs_evidence, "cache_file", lambda *_args: source)
+    baseline = tmp_path / "asserted.ttl"
+    baseline.write_text(
+        '@prefix c: <https://curricula.live/id/formal-sciences/concept/> .\n'
+        '@prefix d: <https://curricula.live/id/formal-sciences/scheme/> .\n'
+        '@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .\n'
+        '@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n'
+        'c:hash skos:inScheme d:computer-science ; skos:prefLabel "Hash Table" ; '
+        'v:uses c:key .\n'
+        'c:binary skos:inScheme d:computer-science ; skos:prefLabel "Binary Search" .\n'
+    )
+
+    candidate, = cs_evidence.suggest_passages("fixture", baseline, offline=True)
+    assert candidate["canonical"] == str(C.binary)
+    assert (candidate["first"], candidate["last"]) == (1, 3)
+    assert candidate["sha256"] == sha256(text.rstrip(b"\n")).hexdigest()

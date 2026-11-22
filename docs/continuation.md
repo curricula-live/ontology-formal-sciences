@@ -209,3 +209,36 @@ topics remain priorities for precise source-backed coverage. The CSO
 snapshot and Mathlib compiled-object cache remain blocked locally.
 The layered scientific metrics and separate formula counts support
 coverage comparisons across future releases.
+
+## 0.9.0 completed scope
+
+The release adds 12 scoped scientific topics and connects 34 previously
+unconnected computer-science subjects. In the fixed v0.8.0 cohort, computer
+science participation rose from 192 to 226 of 1,127 subjects. Across the
+current release, 234 of 1,135 computer-science subjects participate. Both
+comparisons exclude formula symbol occurrences, SKOS links, and identity
+migration edges. The manifest also records the actual subjects gaining their
+first relationship, changes in other domains, cross-scheme edge counts, and
+source contributions.
+
+Passage review now anchors claims in 17 pinned corpora. The published judgment
+records distinguish direct source statements, observations of implementations,
+formal source statements, and editorial interpretations of exact passages.
+Use \`python -m pipeline.cli suggest-cs-passages --corpus opendsa --baseline
+/path/to/formal-sciences.ttl\` to locate additional candidates among unlinked
+subjects. Candidates are literal label matches with file ranges and checksums.
+A scoped review in the passage ledger is required before any candidate
+contributes a scientific edge.
+
+The A* migration preserves the original OpenCS topic and supplies an explicit
+route to the preferred canonical IRI. The audit closes the four recorded
+legacy citation gaps and adds the Bayes ratio premise. Five new competency
+queries check identity-aware A* lookup, assignment-graph structure, the Bayes
+premise with its judgment mode, the Y-fast trie subroutine path, and the
+probability distribution over alternatives for a stochastic grammar rule.
+[Identity policy](canonical-identities.md) · [Semantic audit](semantic-audit-v0.9.md)
+
+Remaining work includes precise evidence for the unlinked computing topics,
+independent scope evidence for OntoMathPro's reduced-group record, and the
+newly sampled estimator-bias citation gap. The checked Lean fixtures and the
+textual Mathlib evidence remain separately reported.
