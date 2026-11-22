@@ -28,8 +28,12 @@ jobs:
           git fetch --no-tags --depth=1 origin "$baseline"
           mkdir "$RUNNER_TEMP/predecessor"
           git archive "$baseline" dist | tar -x -C "$RUNNER_TEMP/predecessor"
-          python -m pipeline.rc_review --predecessor "$RUNNER_TEMP/predecessor/dist" --output "$RUNNER_TEMP/review"
-          diff -ru reviews/quality/rc-v1 "$RUNNER_TEMP/review"
+          rc1=$(jq -r .review_predecessor.commit reviews/quality/rc2-plan.json)
+          git fetch --no-tags --depth=1 origin "$rc1"
+          mkdir "$RUNNER_TEMP/rc1"
+          git archive "$rc1" dist reviews/quality/rc-v1/independent-review.json | tar -x -C "$RUNNER_TEMP/rc1"
+          python -m pipeline.rc_review --predecessor "$RUNNER_TEMP/predecessor/dist" --review-predecessor "$RUNNER_TEMP/rc1" --output "$RUNNER_TEMP/review"
+          diff -ru reviews/quality/rc2 "$RUNNER_TEMP/review"
       - uses: actions/upload-artifact@v4
         with:
           name: formal-sciences-rdf-v1
