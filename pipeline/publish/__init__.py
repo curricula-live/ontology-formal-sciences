@@ -11,6 +11,7 @@ from pipeline.curate.openmath import apply_formal_properties
 from pipeline.curate.mathlib_evidence import apply_declarations
 from pipeline.curate.cs_evidence import apply_reviewed_claims
 from pipeline.curate.revisions import apply_revisions
+from pipeline.curate.identities import apply_migrations
 from pipeline.lean_probe import apply_kernel_probe
 from pipeline.curate.neighborhoods import release_summaries as neighborhood_summaries
 from pipeline.parse.lean_index import release_summary as mathlib_index_summary
@@ -37,6 +38,7 @@ def build(dest=None):
     primary_claims = apply_reviewed_claims(graph, prov)
     declarations = apply_declarations(sources["mathlib4"], graph, prov)
     revisions = apply_revisions(graph, prov)
+    migrations = apply_migrations(graph, prov)
     kernel_probe = apply_kernel_probe(graph, prov)
     report = check(graph)
     if not report["conforms"]:
@@ -101,6 +103,7 @@ def build(dest=None):
         manifest["quality"] = quality(graph, maps, prov, inferred, inventory, report)
         manifest["quality"]["computer_science_evidence"] = primary_claims
         manifest["quality"]["relation_revisions"] = revisions
+        manifest["quality"]["canonical_identity_migrations"] = migrations
         manifest["quality"]["lean_kernel_probe"] = kernel_probe
         audit = release_audit(config["version"], graph, sources, prov)
         if audit:

@@ -17,6 +17,7 @@ from pipeline.curate.mathlib_evidence import replay as replay_mathlib
 from pipeline.parse import lean_index
 from pipeline.curate import neighborhoods
 from pipeline.curate import cs_evidence
+from pipeline.curate import identities
 from pipeline import lean_probe
 from pipeline.semantic_audit import AUDITS, replay as replay_semantic_audit
 
@@ -64,6 +65,12 @@ def main():
     mathlib_index.add_argument("--export", type=Path)
     primary = subs.add_parser("replay-cs-evidence")
     primary.add_argument("--offline", action="store_true")
+    suggestions = subs.add_parser("suggest-cs-passages")
+    suggestions.add_argument("--corpus", required=True)
+    suggestions.add_argument("--baseline", type=Path, default=ROOT / "dist/formal-sciences.ttl")
+    suggestions.add_argument("--offline", action="store_true")
+    migration = subs.add_parser("replay-identity-migrations")
+    migration.add_argument("--offline", action="store_true")
     kernel = subs.add_parser("replay-lean-probe")
     kernel.add_argument("--lean", required=True, type=Path)
     kernel.add_argument("--write-evidence", action="store_true")
@@ -88,6 +95,10 @@ def main():
             result = replay_mathlib(args.offline)
         elif args.cmd == "replay-cs-evidence":
             result = cs_evidence.replay(args.offline)
+        elif args.cmd == "suggest-cs-passages":
+            result = cs_evidence.suggest_passages(args.corpus, args.baseline, args.offline)
+        elif args.cmd == "replay-identity-migrations":
+            result = identities.replay(args.offline)
         elif args.cmd == "replay-lean-probe":
             result = lean_probe.replay(args.lean, args.write_evidence)
         elif args.cmd == "replay-mathlib-index":

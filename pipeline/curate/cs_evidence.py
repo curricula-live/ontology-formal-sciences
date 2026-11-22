@@ -8,16 +8,18 @@ from tempfile import NamedTemporaryFile
 from urllib.parse import quote
 from urllib.request import urlopen
 
-from rdflib import Literal, RDF, SKOS, URIRef
+from rdflib import Graph, Literal, OWL, RDF, SKOS, URIRef
 from rdflib.namespace import DCTERMS, PROV
 
-from pipeline.common import BASE, C, ROOT, V, checksum, read
+from pipeline.common import BASE, C, D, ROOT, V, checksum, read
 from pipeline.curate.relations import statement_for
+from pipeline.normalize import label_key
 
 CORPORA = ROOT / "reviews/cs-evidence/corpora.json"
 DECISIONS = ROOT / "reviews/cs-evidence/decisions.json"
 CACHE = ROOT / ".cache/cs-evidence"
 DIGEST = re.compile("[0-9a-f]{64}")
+EVIDENCE_MODES = {"source statement", "implementation observation", "formal source statement", "editorial interpretation"}
 PERMITTED = {
     "analyzes", "appliesToModel", "computes", "estimates", "guarantees", "hasInputStructure", "hasModelingAssumption",
     "hasProperty", "implementsAlgorithm", "invokesAlgorithm", "recognizesExactly", "represents",
@@ -58,6 +60,9 @@ def review_inputs():
             if (len(triple) != 3 or triple[1] not in PERMITTED
                     or decision["state"] not in {"approved", "rejected"} or not decision["scope"].strip()):
                 raise ValueError(f"Invalid passage judgment: {key} {decision}")
+            if (row.get("introduced") and decision.get("evidence_mode") not in EVIDENCE_MODES
+                    or "evidence_mode" in decision and decision["evidence_mode"] not in EVIDENCE_MODES):
+                raise ValueError(f"Missing or invalid passage evidence mode: {key} {decision}")
     return corpora, reviews
 
 
@@ -100,6 +105,38 @@ def replay(offline=False):
             "verified_files": sum(len(corpus["files"]) for corpus in corpora.values())}
 
 
+def suggest_passages(corpus_key, baseline, offline=False, limit=50):
+    """Locate exact topic labels in pinned passages and return review candidates."""
+    corpora, _ = review_inputs()
+    corpus = corpora[corpus_key]
+    graph = Graph().parse(baseline, format="turtle")
+    linked = {term for s, p, o in graph if str(p).startswith(str(V)) and p != V.containsSymbol
+              for term in (s, o)}
+    labels = {label_key(str(label)): str(term) for term, label in graph.subject_objects(SKOS.prefLabel)
+              if term not in linked and graph.value(term, OWL.deprecated) != Literal(True)
+              and (term, SKOS.inScheme, D["computer-science"]) in graph and len(str(label).split()) > 1}
+    pattern = re.compile(r"(?<!\w)(?:" + "|".join(re.escape(text) for text in sorted(labels, key=lambda x: (-len(x), x)))
+                         + r")(?!\w)") if labels else None
+    results, seen = [], set()
+    for name, digest in sorted(corpus["files"].items()):
+        if name == corpus["license_path"] or pattern is None:
+            continue
+        lines = cache_file(corpus, name, digest, offline).read_text(encoding="utf-8").splitlines()
+        for index, line in enumerate(lines):
+            for match in pattern.finditer(label_key(line)):
+                subject = labels[match.group()]
+                if (name, subject) in seen:
+                    continue
+                seen.add((name, subject))
+                first, last = max(0, index - 2), min(len(lines), index + 5)
+                results.append({"canonical": subject, "label_match": match.group(), "file": name,
+                                "first": first + 1, "last": last,
+                                "sha256": sha256("\n".join(lines[first:last]).encode()).hexdigest()})
+                if len(results) == limit:
+                    return results
+    return results
+
+
 def apply_reviewed_claims(graph, provenance):
     corpora, rows = review_inputs()
     sources = {}
@@ -111,7 +148,7 @@ def apply_reviewed_claims(graph, provenance):
         provenance.add((source, DCTERMS.hasVersion, Literal(corpus["revision"])))
 
     facts, rejected = set(), set()
-    counts = Counter()
+    counts, modes = Counter(), Counter()
     for row in rows:
         key, path = row["corpus"], row["path"]
         corpus = corpora[key]
@@ -142,6 +179,15 @@ def apply_reviewed_claims(graph, provenance):
             provenance.add((statement, DCTERMS.description, Literal(decision["scope"], lang="en")))
             for field, term in zip((RDF.subject, RDF.predicate, RDF.object), triple):
                 provenance.add((statement, field, term))
+            mode = decision.get("evidence_mode", "legacy passage review")
+            modes[mode] += 1
+            judgment_key = f"{statement}|{evidence}|{mode}|{decision['scope']}"
+            judgment = URIRef(BASE + "relation-review/" + sha256(judgment_key.encode()).hexdigest())
+            provenance.add((judgment, RDF.type, PROV.Entity))
+            provenance.add((judgment, DCTERMS.subject, statement))
+            provenance.add((judgment, PROV.wasDerivedFrom, evidence))
+            provenance.add((judgment, DCTERMS.type, Literal(mode)))
+            provenance.add((judgment, DCTERMS.description, Literal(decision["scope"], lang="en")))
     if any(triple in graph for triple in rejected):
         raise ValueError("A rejected source-passage interpretation is asserted")
     topics = {term for subject, _, obj in facts for term in (subject, obj)}
@@ -152,5 +198,6 @@ def apply_reviewed_claims(graph, provenance):
                     for key, corpus in corpora.items()},
         "reviewed_passages": len(rows), "decisions": dict(counts), "distinct_relations": len(facts),
         "opencs_admitted_endpoints": len(topics & native_opencs),
+        "approved_judgments_by_evidence_mode": dict(modes),
         "review_sha256": checksum(DECISIONS), "corpora_sha256": checksum(CORPORA),
     }
