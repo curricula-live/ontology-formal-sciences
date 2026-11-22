@@ -1,24 +1,35 @@
-# Canonical identity migrations
+# Canonical identity lifecycle
 
-A reviewed duplicate continues to resolve in the asserted graph as its original
-SKOS concept, with its original labels, taxonomy, source identity, and admission
-record. The publisher marks that IRI with \`owl:deprecated true\` and adds one
-\`dcterms:isReplacedBy\` edge to a current concept in the same scheme. The
-replacement has a cited editorial decision in the provenance graph and is
-independent of SKOS mappings and OWL equivalence. Review decisions and source
-identifiers remain available on historical IRIs.
+The asserted graph records each permanent canonical IRI and its current
+status. A reviewed change in the existing
+[identity migration ledger](../reviews/approved/identity-migrations.json)
+is projected there with its review in the provenance graph. The ledger
+records decisions and evidence. It does not allocate alternative concept
+IRIs or replace concept ownership.
 
-Follow the replacement for current scientific queries and new assertions. The
-release validator rejects chains, cycles, cross-scheme replacements, and new
-scientific assertions using retired endpoints. Changes involving already
-published scientific assertions require an explicit statement-level review and
-revision record.
+| Action | Effect on the permanent IRI |
+|---|---|
+| Editorial correction | Keep the same denotation. Record the correction and claim history. Changes to previous preferred labels, definitions or schemes require compatibility review. |
+| Deprecate | Retain the original record and add the deprecation marker. There may be no successor. |
+| Replace | Record one same-scheme successor for the prior scope. Keep original source provenance and reviewed mappings. |
+| Merge | Point each retired duplicate to the one live canonical IRI. This action has an explicit identity review. |
+| Split | Keep the original umbrella IRI as a deprecated subject with at least two reviewed successors. Resolve to the list, then choose the applicable branch based on scope. |
 
-The pinned OpenCS A* topic and the authored A-star search subject both denote
-the ordinary A* method. The authored IRI \`concept/a-star-search\` is the
-preferred canonical endpoint. \`concept/opencs-c3339\` retains its earlier
-OpenCS admission. Its native topic, snapshot digest, and scientific reference
-are recorded in the reviewed migration ledger.
+The marker is `owl:deprecated true`. One `dcterms:isReplacedBy`
+edge names each target. Reified action and target statements share a
+provenance witness with the action, rationale, source or editorial reference,
+and a review identifier or native digest. This is a lifecycle projection
+and carries no SKOS or OWL equivalence consequence.
 
-Replay the migration source evidence with
-\`python -m pipeline.cli replay-identity-migrations\`.
+A consumer keeps prior concept records resolvable. It checks a pinned
+predecessor for accidental deletion, lost source origins, retired IRI reuse,
+unexpected scope changes and lost reviewed mapping history. Targets must
+be live subjects in the same scheme. Missing targets, chains, cycles and
+cross-scheme redirects fail. Any scope-altering change requires fresh
+identity decisions and publication approval.
+
+OpenCS C3339 and the prior authored A-star subject refer to ordinary A*
+search. `concept/a-star-search` is the active endpoint.
+`concept/opencs-c3339` retains its OpenCS identity, taxonomy, and prior
+admission. Replay the native evidence with
+`python -m pipeline.cli replay-identity-migrations`.

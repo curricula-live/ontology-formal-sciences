@@ -5,13 +5,11 @@ from contextlib import closing
 from pathlib import Path
 
 from pyoxigraph import BlankNode, DefaultGraph, NamedNode, RdfFormat, parse
-from rdflib import RDF, SKOS
+from rdflib import Dataset, Graph, RDF, RDFS, SKOS
+from rdflib.namespace import XSD
 
-from pipeline.common import BASE, G, checksum, read
-
-ARTIFACTS = {"formal-sciences.ttl", "formal-sciences.trig", "formal-sciences.nq",
-             "source-alignments.trig", "validation-report.json"}
-GRAPH_NAMES = ("asserted", "alignments", "inferred", "provenance")
+from pipeline.common import C, G, checksum
+from pipeline.contract import ARTIFACTS, GRAPH_NAMES, read_json, validate_manifest
 
 
 def records(path, fmt, bit, name=None):
@@ -26,18 +24,38 @@ def records(path, fmt, bit, name=None):
         yield graph.value, str(quad.subject), str(quad.predicate), str(quad.object), bit
 
 
-def verify(directory):
+def rdflib_records(path, fmt):
+    if fmt == "turtle":
+        graph = Graph().parse(path, format=fmt)
+        rows = ((s, p, o, G.asserted) for s, p, o in graph)
+    else:
+        dataset = Dataset()
+        dataset.parse(path, format=fmt)
+        rows = dataset.quads()
+    for s, p, o, graph in rows:
+        # Both plain RDF 1.1 strings and explicit xsd:string have the same datatype.
+        value = o.n3()
+        if getattr(o, "datatype", None) == XSD.string:
+            value = value.removesuffix("^^" + XSD.string.n3())
+        yield str(graph), s.n3(), p.n3(), value
+
+
+def verify(directory, expected_digest=None):
     directory = Path(directory)
-    manifest = read(directory / "manifest.json")
-    if manifest["contract"] != "curricula.rdf-release/v1" or manifest["namespace"] != BASE:
-        raise ValueError("Unexpected release contract or namespace")
-    if set(manifest["artifacts"]) != ARTIFACTS or {p.name for p in directory.iterdir()} != ARTIFACTS | {"manifest.json"}:
+    files = list(directory.iterdir())
+    if {p.name for p in files} != ARTIFACTS | {"manifest.json"} or any(
+        not p.is_file() or p.is_symlink() for p in files
+    ):
         raise ValueError("Unexpected v1 artifact inventory")
+    if expected_digest is not None and checksum(directory / "manifest.json") != expected_digest:
+        raise ValueError("Pinned manifest checksum mismatch")
+    manifest = validate_manifest(read_json(directory / "manifest.json"))
     for artifact, digest in manifest["artifacts"].items():
         if checksum(directory / artifact) != digest:
             raise ValueError(f"Artifact checksum mismatch: {artifact}")
-    report = read(directory / "validation-report.json")
-    if manifest["conforms"] is not True or report["conforms"] is not True or report["findings"]:
+    report = read_json(directory / "validation-report.json")
+    if (not isinstance(report, dict) or report.get("conforms") is not True or report.get("findings") != []
+            or not isinstance(report.get("profile"), str) or not report["profile"].strip()):
         raise ValueError("Release validation failed")
 
     # A temporary SQLite database bounds the comparison's working memory. Each bit records
@@ -69,12 +87,64 @@ def verify(directory):
             raise ValueError("Inferred graph contains an asserted triple")
         concepts, = db.execute("SELECT COUNT(*) FROM quads WHERE g=? AND p=? AND o=?",
                                (str(G.asserted), RDF.type.n3(), SKOS.Concept.n3())).fetchone()
-        if concepts != manifest["concepts"]:
-            raise ValueError("Manifest concept count differs from RDF")
+        predicates, = db.execute("SELECT COUNT(DISTINCT p) FROM quads WHERE g=?",
+                                 (str(G.asserted),)).fetchone()
+        if (concepts, predicates) != (manifest["concepts"], manifest["predicates"]):
+            raise ValueError("Manifest concept or predicate count differs from RDF")
+
+        # Independently parse each file, then compare exact RDF term membership.
+        for filename, fmt, name in [
+            ("formal-sciences.trig", "trig", None),
+            ("formal-sciences.nq", "nquads", None),
+            ("formal-sciences.ttl", "turtle", "asserted"),
+            ("source-alignments.trig", "trig", "alignments"),
+        ]:
+            rows = set(rdflib_records(directory / filename, fmt))
+            expected = set(db.execute(
+                "SELECT g,s,p,o FROM quads" + (" WHERE g=?" if name else ""),
+                (str(G[name]),) if name else (),
+            ))
+            if rows != expected:
+                raise ValueError(f"RDF parser disagreement in {filename}")
+
+        canonical = {row[0] for row in db.execute(
+            "SELECT s FROM quads WHERE g=? AND p=? AND o=?",
+            (str(G.asserted), RDF.type.n3(), SKOS.Concept.n3()),
+        )}
+        mapping_predicates = {p.n3() for p in (SKOS.exactMatch, SKOS.closeMatch, RDFS.seeAlso)}
+        for predicate in mapping_predicates:
+            if db.execute("SELECT 1 FROM quads WHERE g=? AND p=? LIMIT 1",
+                          (str(G.asserted), predicate)).fetchone():
+                raise ValueError("Source mapping appears in the asserted graph")
+        if db.execute("SELECT 1 FROM quads WHERE g=? AND p=? AND o=? LIMIT 1",
+                      (str(G.provenance), RDF.type.n3(), SKOS.Concept.n3())).fetchone():
+            raise ValueError("Canonical concept declaration appears in the provenance graph")
+        for s, p, o in db.execute("SELECT s,p,o FROM quads WHERE g=?", (str(G.alignments),)):
+            if s not in canonical or p not in mapping_predicates or not o.startswith("<") or o.startswith("<" + str(C)):
+                raise ValueError("Invalid alignment graph boundary")
+        inferred = set(db.execute("SELECT s,p,o FROM quads WHERE g=?", (str(G.inferred),)))
+        asserted_skos = set(db.execute("SELECT s,p,o FROM quads WHERE g=? AND p IN (?,?)",
+                                       (str(G.asserted), SKOS.broader.n3(), SKOS.related.n3())))
+        permitted = {(o, SKOS.narrower.n3() if p == SKOS.broader.n3() else p, s)
+                     for s, p, o in asserted_skos} - asserted_skos
+        if inferred != permitted:
+            raise ValueError("Inferred graph differs from the release inference profile")
+    if manifest.get("release"):
+        from pipeline.curate.identities import lifecycle_errors
+        from pipeline.validate import identity_errors
+
+        dataset = Dataset()
+        dataset.parse(directory / "formal-sciences.nq", format="nquads")
+        asserted, provenance = dataset.graph(G.asserted), dataset.graph(G.provenance)
+        errors = identity_errors(asserted) + lifecycle_errors(asserted, provenance)
+        if errors:
+            raise ValueError("; ".join(errors))
     return counts
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("directory", type=Path, nargs="?", default=Path("dist"))
-    print(verify(parser.parse_args().directory))
+    parser.add_argument("--manifest-sha256")
+    args = parser.parse_args()
+    print(verify(args.directory, args.manifest_sha256))

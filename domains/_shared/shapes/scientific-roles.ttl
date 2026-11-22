@@ -1,0 +1,14 @@
+@prefix s: <https://curricula.live/id/formal-sciences/shape/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+s:ScientificRoleAssignment a sh:NodeShape ;
+    sh:targetSubjectsOf v:hasScientificRole ;
+    sh:class skos:Concept ;
+    sh:property [ sh:path v:hasScientificRole ; sh:nodeKind sh:IRI ; sh:class v:ScientificRole ] ;
+    sh:not [ sh:and (
+        [ sh:property [ sh:path v:hasScientificRole ; sh:hasValue v:Algorithm ] ]
+        [ sh:property [ sh:path v:hasScientificRole ; sh:hasValue v:Implementation ] ]
+    ) ] ;
+    sh:message "Separate an abstract algorithm from the executable artifact that implements it." .

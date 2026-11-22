@@ -28,3 +28,9 @@ def checksum(path):
 
 def registry():
     return {p.parent.name: read(p) for p in sorted((ROOT / "sources").glob("*/source.yaml"))}
+
+def require_checkout(root=ROOT):
+    if not (root / "ontology.yaml").is_file() or any(
+        not (root / name).is_dir() for name in ("domains", "sources", "reviews")
+    ):
+        raise ValueError("Run python -m pipeline.cli from a complete ontology checkout")

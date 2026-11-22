@@ -3,7 +3,8 @@ import tempfile
 from pathlib import Path
 from rdflib import Dataset, Graph, URIRef, Literal, RDF, SKOS, BNode
 from rdflib.namespace import DCTERMS, PROV
-from pipeline.common import ROOT, BASE, G, checksum, registry, write, read
+from pipeline.common import ROOT, BASE, G, checksum, registry, write, read, require_checkout
+from pipeline.contract import metadata, validate_manifest
 from pipeline.curate import authored, reviewed
 from pipeline.curate.batches import verify_batches
 from pipeline.curate.relations import apply_relations
@@ -12,6 +13,8 @@ from pipeline.curate.mathlib_evidence import apply_declarations
 from pipeline.curate.cs_evidence import apply_reviewed_claims
 from pipeline.curate.revisions import apply_revisions
 from pipeline.curate.identities import apply_migrations
+from pipeline.curate.roles import apply_roles, role_profile
+from pipeline.rights import inventory as rights_inventory
 from pipeline.lean_probe import apply_kernel_probe
 from pipeline.curate.neighborhoods import release_summaries as neighborhood_summaries
 from pipeline.parse.lean_index import release_summary as mathlib_index_summary
@@ -28,6 +31,7 @@ def lines(graph):
 
 
 def build(dest=None):
+    require_checkout()
     dest = Path(dest or ROOT / "dist")
     graph, prov = authored()
     sources = registry()
@@ -40,7 +44,12 @@ def build(dest=None):
     revisions = apply_revisions(graph, prov)
     migrations = apply_migrations(graph, prov)
     kernel_probe = apply_kernel_probe(graph, prov)
-    report = check(graph)
+    apply_roles(graph, prov)
+    roles, role_errors = role_profile(graph, prov)
+    report = check(graph, prov)
+    if role_errors:
+        report["conforms"] = False
+        report["findings"].extend(sorted(role_errors))
     if not report["conforms"]:
         raise ValueError(report)
     inferred = reason(graph)
@@ -108,7 +117,11 @@ def build(dest=None):
         audit = release_audit(config["version"], graph, sources, prov)
         if audit:
             manifest["quality"]["semantic_audit"] = audit
-        write(out / "manifest.json",manifest)
+        if "release" in config:
+            manifest["release"] = metadata(**config["release"])
+            manifest["rights"] = rights_inventory(inventory, prov)
+        manifest["quality"]["scientific_roles"] = roles
+        write(out / "manifest.json", validate_manifest(manifest))
         dest.mkdir(exist_ok=True)
         for path in sorted(out.iterdir(),key=lambda p:p.name=="manifest.json"):
             os.replace(path,dest/path.name)

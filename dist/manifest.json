@@ -1,8 +1,8 @@
 {
   "artifacts": {
-    "formal-sciences.nq": "417eb5262199afd52dd0391ec659f7bf9ad809c2274040bb332073c5c5b26adf",
-    "formal-sciences.trig": "d89e4fe434f542dea9d72d72ce55cbeb82454fcb7261df4384e12f044e88b314",
-    "formal-sciences.ttl": "9ad2592c244a5ffab28c0ab3bd51e9ed361bbef16da1f4debb12233b6a9fe3ec",
+    "formal-sciences.nq": "df57b14ca54c14af7ef310fd24da86b74e9a3c015be5fca765d40f39f58c60c1",
+    "formal-sciences.trig": "f4eff305be83d7750705a648279efc77901999e3b4f55b519acf9025a3f8eb4b",
+    "formal-sciences.ttl": "1918a3523f71fd39cd3a331252722d7bc9d9a1ba0bc9df3532f7ee1dcb3955ae",
     "source-alignments.trig": "373a560fbbef3688b718ad203c713478180da0bda9ef9f9955b587d455386d34",
     "validation-report.json": "53d08d3d3ba0eb867f1671cd1ae50c0254b5122d63db5c5d209e180c92008116"
   },
@@ -11,19 +11,20 @@
   "contract": "curricula.rdf-release/v1",
   "counts": {
     "alignments": 234,
-    "asserted": 13431,
+    "asserted": 13488,
     "inferred": 3091,
-    "provenance": 19397
+    "provenance": 19594
   },
   "namespace": "https://curricula.live/id/formal-sciences/",
-  "predicates": 43,
+  "predicates": 44,
   "quality": {
     "approved_mappings": 234,
     "batch_eligible_entities": 2386,
     "batch_pending_entities": 49,
     "canonical_identity_migrations": {
       "ledger_sha256": "ef7279029861951bf8e3c86561ea3cb2ff9b8bf51e2340c3f19eb2c381b3095b",
-      "retired_duplicates": 1
+      "retired_duplicates": 1,
+      "reviewed_migrations": 1
     },
     "computer_science_by_topic_family": {
       "algorithms": {
@@ -1731,201 +1732,577 @@
         }
       }
     },
-    "semantic_audit": {
-      "baseline_comparison": {
-        "commit": "17c4c1db6901381b41bd377fb8c24c2f868c1f23",
-        "dataset_sha256": "7b77ab8bb3352513354ac445ade678dd9b3c0aaf414e154638d9830c57895782",
-        "participation": {
-          "computer-science": {
-            "added_canonical": 8,
-            "added_participating": 8,
-            "baseline_canonical": 1127,
-            "baseline_participating": 192,
-            "current_existing_participating": 226,
-            "gained_existing": [
-              "a-star-search",
-              "binary-search",
-              "context-free-grammar",
-              "hash-table",
-              "lexical-scope",
-              "lexicographic-key-order",
-              "opencs-c11128",
-              "opencs-c12108",
-              "opencs-c13429",
-              "opencs-c16904",
-              "opencs-c18415",
-              "opencs-c18813",
-              "opencs-c23929",
-              "opencs-c24154",
-              "opencs-c24725",
-              "opencs-c28516",
-              "opencs-c31455",
-              "opencs-c33039",
-              "opencs-c33859",
-              "opencs-c39385",
-              "opencs-c40335",
-              "opencs-c40594",
-              "opencs-c41436",
-              "opencs-c42589",
-              "opencs-c42615",
-              "opencs-c42816",
-              "opencs-c42922",
-              "opencs-c43547",
-              "opencs-c45370",
-              "opencs-c45644",
-              "opencs-c8022",
-              "opencs-c8327",
-              "pushdown-automaton",
-              "query-optimization"
-            ],
-            "lost_existing": []
-          },
-          "logic": {
-            "added_canonical": 0,
-            "added_participating": 0,
-            "baseline_canonical": 197,
-            "baseline_participating": 145,
-            "current_existing_participating": 145,
-            "gained_existing": [],
-            "lost_existing": []
-          },
-          "mathematics": {
-            "added_canonical": 3,
-            "added_participating": 3,
-            "baseline_canonical": 1109,
-            "baseline_participating": 265,
-            "current_existing_participating": 267,
-            "gained_existing": [
-              "ontomath-pro-e1700",
-              "ontomath-pro-e1731"
-            ],
-            "lost_existing": []
-          },
-          "statistics": {
-            "added_canonical": 1,
-            "added_participating": 1,
-            "baseline_canonical": 495,
-            "baseline_participating": 97,
-            "current_existing_participating": 98,
-            "gained_existing": [
-              "stato-0000117"
-            ],
-            "lost_existing": []
-          }
+    "scientific_roles": {
+      "ledger_sha256": "540468862a3a58fb211a261f266248c0f5ec59ee407a2fc515982787a68a4060",
+      "policy_sha256": "ebf6683081b4270446d68cfb459b9d95db809790caa7794297f14697876e7f1f",
+      "predicate_review": {
+        "hasInputStructure": {
+          "scope_supported": 1,
+          "unresolved": 1
+        },
+        "hasModelingAssumption": {
+          "unresolved": 18
+        },
+        "implementsAlgorithm": {
+          "scope_supported": 1,
+          "unresolved": 2
+        },
+        "invokesAlgorithm": {
+          "unresolved": 10
+        },
+        "requiresPremise": {
+          "scope_supported": 2,
+          "unresolved": 3
+        },
+        "solves": {
+          "scope_supported": 2,
+          "unresolved": 50
         }
       },
-      "batch_sample_by_scheme": {
-        "computer-science": 1
-      },
-      "by_method": {
-        "batch_admission": 1,
-        "formal_declaration": 1,
-        "formal_property": 3,
-        "mapping": 1,
-        "relation_projection": 4
-      },
-      "by_predicate": {
-        "containsSymbol": 1,
-        "documentsEvaluationOutput": 1,
-        "exactMatch": 1,
-        "executesImplementation": 1,
-        "hasProperty": 2,
-        "implementsAlgorithm": 1,
-        "proves": 1,
-        "usesReferenceDistribution": 1
-      },
-      "by_scheme": {
-        "computer-science": 5,
-        "logic": 1,
-        "mathematics": 2,
-        "statistics": 2
-      },
-      "cases": 10,
-      "closed_legacy_citation_gaps": 4,
-      "corrected_subjects": [
-        "https://curricula.live/id/formal-sciences/concept/opencs-c44766"
-      ],
-      "record": "reviews/quality/0.9.0.json",
-      "selection_limit": "One hash-ranked item per baseline domain/evidence or domain/admission stratum, per new passage corpus and per source/mapping-decision stratum. Separate risk-targeted cases have no sampling-rate interpretation.",
-      "sha256": "e2a026cd74ad34da6debf405a2b749ed9a92993d8e18b281f240a8c8ae61dbce",
-      "source_assessments": {
-        "cso": {
-          "cause": "offline_source_unavailable",
-          "explanation": "Fetching the pinned CSO release locally returned HTTP 403. Reconciliation uses previously verified source mapping witnesses.",
-          "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc"
+      "review_queue": [
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/weighted-graph",
+          "predicate": "hasInputStructure",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/minimum-spanning-tree-problem"
         },
-        "mathlib4": {
-          "cause": "library_objects_unavailable",
-          "explanation": "The pinned Lean toolchain compiled two local fixtures. The Mathlib object cache returned HTTP 403. Mathlib module imports, textual headers and passages retain distinct evidence classifications.",
-          "sha256": "e38cb828c5368d71469540927a0c81ea1faa69f007c9a372926207c8521e82b3"
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674576",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674141"
         },
-        "ontomath-pro": {
-          "cause": "owl_universal_scope",
-          "explanation": "OWL named class identity and universal restrictions remain distinct from scientific dependencies and existential witnesses.",
-          "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f"
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674362",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674363"
         },
-        "opencs": {
-          "cause": "topical_semantics",
-          "explanation": "OpenCS supplies verified native labels, parent paths and explicit referents for identity review. Its topical associations do not prove implementation, complexity, or dependency.",
-          "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5"
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674366",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674365"
         },
-        "openmath": {
-          "cause": "expression_and_property_separation",
-          "explanation": "All 230 prior edges were classified by their published source role. The 167 operator occurrences are retained as containsSymbol with archived uses interpretations. The 63 scoped property assertions remain scientific.",
-          "sha256": "4bcd5e40a5985f1bd29b0aea8f3bf172ecaf2392be44edf4b7b4eb4756340ac2"
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674367",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674365"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674366",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675405"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674367",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675405"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674362",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6675406"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674362",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775745"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674366",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775754"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674367",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6775754"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674362",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6821153"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674366",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6821153"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674367",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6821153"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674362",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6821405"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674366",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6821405"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674367",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6821405"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674362",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6822091"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/conditional-feature-independence",
+          "predicate": "hasModelingAssumption",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c6021"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/sha256-hash",
+          "predicate": "implementsAlgorithm",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/go-sha256-implementation"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/algorithm",
+          "predicate": "implementsAlgorithm",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/mls-executable-implementation"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/unit-propagation",
+          "predicate": "invokesAlgorithm",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/conflict-driven-clause-learning"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/depth-first-search",
+          "predicate": "invokesAlgorithm",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/depth-first-topological-sort"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm",
+          "predicate": "invokesAlgorithm",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/dijkstra-all-pairs-repeated"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/unit-propagation",
+          "predicate": "invokesAlgorithm",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/dpll-algorithm"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/opencs-c41652",
+          "predicate": "invokesAlgorithm",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/extended-gcd-modular-inverse"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/opencs-c33859",
+          "predicate": "invokesAlgorithm",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c32507"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/depth-first-search",
+          "predicate": "invokesAlgorithm",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c34708"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/opencs-c42816",
+          "predicate": "invokesAlgorithm",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c36074"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/breadth-first-search",
+          "predicate": "invokesAlgorithm",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c37941"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/binary-search",
+          "predicate": "invokesAlgorithm",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c40594"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/monotone-map",
+          "predicate": "requiresPremise",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/knaster-tarski-fixed-point-theorem"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/rewriting-local-confluence",
+          "predicate": "requiresPremise",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/rewriting-newman-lemma"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/rewriting-termination",
+          "predicate": "requiresPremise",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/rewriting-newman-lemma"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/shortest-path-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/a-star-search"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/shortest-path-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/bellman-ford-algorithm"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/unweighted-shortest-paths",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/breadth-first-search"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/boolean-satisfiability",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/conflict-driven-clause-learning"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/ground-euf-satisfiability",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/congruence-closure-decision-procedure"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/linear-system-solution",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/conjugate-gradient-method"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/ctl-model-checking",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/ctl-state-labeling-algorithm"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/supervised-classification-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/decision-tree-learning"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/shortest-path-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/boolean-satisfiability",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/dpll-algorithm"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/satisfiability-modulo-theories",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/dpll-t"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/linear-congruence-inversion",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/extended-gcd-modular-inverse"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/maximum-flow-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/ford-fulkerson-method"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/linear-rational-conjunction-feasibility",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/fourier-motzkin-elimination"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/linear-recurrence",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/generating-function-recurrence-method"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/minimum-spanning-tree-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/kruskal-s-algorithm"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/nearest-neighbor-query",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c16606"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/substring-search-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c18328"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/data-clustering-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c29024"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/data-clustering-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c29574"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/integer-factor-search",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c3144"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/shortest-path-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c32449"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/sorting-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c32507"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/sorting-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c33039"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/scc-decomposition-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c34708"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/supervised-classification-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c3512"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/sorting-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c35199"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/sorting-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c36074"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/maximum-bipartite-matching-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c37941"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/minimum-spanning-tree-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c38457"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/substring-search-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c38917"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/equal-degree-polynomial-factorization",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c39942"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/substring-search-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c39969"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/scc-decomposition-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c40824"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/sorting-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c41255"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/sorting-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c41288"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/sorting-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c41436"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/all-pairs-shortest-paths",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c41938"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/sorting-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c42589"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/maximum-flow-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c43466"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/minimum-spanning-tree-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c43738"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/integer-factor-search",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c4466"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/supervised-classification-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/opencs-c6021"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/linear-least-squares-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/ordinary-least-squares"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/boolean-satisfiability",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/propositional-semantic-tableau"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/linear-least-squares-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/qr-least-squares-method"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/distributed-consensus",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/raft-consensus"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/boolean-satisfiability",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/sat-solver"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/linear-least-squares-problem",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/svd-least-squares-method"
+        },
+        {
+          "object": "https://curricula.live/id/formal-sciences/concept/two-satisfiability",
+          "predicate": "solves",
+          "state": "unresolved",
+          "subject": "https://curricula.live/id/formal-sciences/concept/two-sat-implication-graph-algorithm"
         }
-      },
-      "sources": [
-        "mathlib4",
-        "ml-schema",
-        "opencs",
-        "openmath",
-        "stato"
       ],
-      "stratified_sample": {
-        "baseline": "17c4c1db6901381b41bd377fb8c24c2f868c1f23",
-        "baseline_relation_sample": 29,
-        "baseline_relations_by_predicate": {
-          "analyzes": 1,
-          "computes": 1,
-          "estimates": 1,
-          "guarantees": 2,
-          "hasEvaluationComponent": 1,
-          "hasFormulationComponent": 1,
-          "hasModelingAssumption": 1,
-          "hasProperty": 6,
-          "reportsEvaluationMeasure": 1,
-          "represents": 2,
-          "requiresPremise": 1,
-          "solves": 2,
-          "uses": 8,
-          "usesReferenceDistribution": 1
-        },
-        "baseline_relations_by_scheme": {
-          "computer-science": 11,
-          "logic": 6,
-          "mathematics": 5,
-          "statistics": 7
-        },
-        "baseline_topic_sample": 14,
-        "mapping_sample": 9,
-        "new_passage_sample": 13,
-        "outcomes": {
-          "corrected": 3,
-          "evidence_added": 2,
-          "evidence_gap": 1,
-          "retained": 56,
-          "withheld": 3
-        },
-        "seed": "ontology-formal-sciences:v0.9.0:17c4c1db6901381b41bd377fb8c24c2f868c1f23"
+      "reviewed_subjects": 19,
+      "role_counts": {
+        "Algorithm": 4,
+        "Assumption": 3,
+        "Implementation": 1,
+        "Method": 5,
+        "Problem": 2,
+        "Property": 4,
+        "Result": 3,
+        "Structure": 5
       },
-      "targeted_passage_exclusions": 4,
-      "unresolved_identities": 1,
-      "verdicts": {
-        "corrected": 1,
-        "retained": 4,
-        "withheld": 5
-      }
+      "unclassified_subjects": 2921,
+      "unconstrained_predicates": [
+        "analyzes",
+        "appliesToModel",
+        "computes",
+        "containsSymbol",
+        "documentsEvaluationOutput",
+        "estimates",
+        "executesImplementation",
+        "guarantees",
+        "hasApproximation",
+        "hasDiscretization",
+        "hasEvaluationComponent",
+        "hasFormulationComponent",
+        "hasProperty",
+        "hasWeakFormulation",
+        "isSolutionOf",
+        "producesEstimate",
+        "proves",
+        "recognizesExactly",
+        "reportsEvaluationMeasure",
+        "represents",
+        "requiresAssumption",
+        "supportsOperation",
+        "uses",
+        "usesReferenceDistribution"
+      ]
     },
     "sources_with_mapping_disabled": [
       "acm-ccs",
@@ -1975,6 +2352,661 @@
       "relations": 3058
     },
     "validation_findings": 0
+  },
+  "release": {
+    "graph_iris": {
+      "alignments": "https://curricula.live/id/formal-sciences/graph/alignments",
+      "asserted": "https://curricula.live/id/formal-sciences/graph/asserted",
+      "inferred": "https://curricula.live/id/formal-sciences/graph/inferred",
+      "provenance": "https://curricula.live/id/formal-sciences/graph/provenance"
+    },
+    "scientific_maturity": "Foundation",
+    "status": "candidate"
+  },
+  "rights": {
+    "project": {
+      "authored_rdf_and_editorial_mappings": "CC-BY-4.0",
+      "credit": "Curricula contributors",
+      "notice": "LICENSE",
+      "software": "MIT"
+    },
+    "reference_policy": "Identifiers, independently authored scientific statements, bibliographic references and passage fingerprints are tracked separately from copied source prose, snapshots and materially derived representations. A citation alone does not assign its source licence to a statement.",
+    "scope": "Disposition refers to the reviewed publication channel. External material retains its own terms.",
+    "sources": {
+      "native:acm-ccs": {
+        "attribution": "Association for Computing Machinery",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "unresolved",
+        "notice_or_source": "https://www.acm.org/publications/class-2012",
+        "revision": null,
+        "source_sha256": null,
+        "terms": "permission unresolved"
+      },
+      "native:cso": {
+        "attribution": "Salatino et al., The Open University",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "editorial-mappings",
+          "source-identifiers"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://cso.kmi.open.ac.uk/download/version-3.5/CSO.3.5.nt.zip",
+        "revision": "3.5",
+        "source_sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc",
+        "terms": "CC-BY-4.0"
+      },
+      "native:dbpedia": {
+        "attribution": "DBpedia contributors",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "unresolved",
+        "notice_or_source": "https://dbpedia.org/data/Graph_theory.ttl",
+        "revision": "content digest",
+        "source_sha256": "2c2525a89646fbf72831d0b606d50a7457abafa2782e97afcdf1d383c27e498d",
+        "terms": "unverified"
+      },
+      "native:dlmf": {
+        "attribution": "NIST DLMF",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://dlmf.nist.gov/5.2.E1.tex",
+        "revision": "content digest",
+        "source_sha256": "faf0aeccd2ee45c3f05a3b85b6bc086de58979da2ad7388e97b9d7e0e696d3a9",
+        "terms": "reference only"
+      },
+      "native:dmop": {
+        "attribution": "e-LICO",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "unresolved",
+        "notice_or_source": "https://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl",
+        "revision": "content digest",
+        "source_sha256": null,
+        "terms": "unverified"
+      },
+      "native:dublin-core": {
+        "attribution": "DCMI",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_terms.ttl",
+        "revision": "content digest",
+        "source_sha256": "13df401072dd7015bf9d75162f3e41c8138075304b7b9cc1aa1e9c16db976797",
+        "terms": "reference only"
+      },
+      "native:edam": {
+        "attribution": "edamontology/edamontology",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "unresolved",
+        "notice_or_source": "https://raw.githubusercontent.com/edamontology/edamontology/3a6e2ca4f5eba34d189e737808909f3c96270c84/releases/EDAM_1.25.owl",
+        "revision": "3a6e2ca4f5eba34d189e737808909f3c96270c84",
+        "source_sha256": "af29132f641b5f4096d9d7659ee9450c75b1ef56471a7c35e3175d1228324f48",
+        "terms": "CC-BY-SA-4.0"
+      },
+      "native:mathlib4": {
+        "attribution": "mathlib community",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "citations",
+          "formal-fingerprints",
+          "source-identifiers"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://codeload.github.com/leanprover-community/mathlib4/tar.gz/35f494609c32653bae53eb33f0cf2d899808909a",
+        "revision": "35f494609c32653bae53eb33f0cf2d899808909a",
+        "source_sha256": "e38cb828c5368d71469540927a0c81ea1faa69f007c9a372926207c8521e82b3",
+        "terms": "Apache-2.0"
+      },
+      "native:mathmoddb": {
+        "attribution": "MaRDI4NFDI/MathModDB",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "editorial-mappings",
+          "native-labels",
+          "source-axiom-projections",
+          "source-identifiers"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://raw.githubusercontent.com/MaRDI4NFDI/MathModDB/0c308b7888a12cd1103a6f7f0273b8554d039482/MathModDB_full.owl",
+        "revision": "0c308b7888a12cd1103a6f7f0273b8554d039482",
+        "source_sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d",
+        "terms": "CC-BY-4.0"
+      },
+      "native:ml-schema": {
+        "attribution": "ML-Schema/core",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "editorial-mappings",
+          "native-labels",
+          "source-axiom-projections",
+          "source-identifiers"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://raw.githubusercontent.com/ML-Schema/core/4e1d90292509ed2a2ec52efc955e40e17fa92281/MLSchema.ttl",
+        "revision": "4e1d90292509ed2a2ec52efc955e40e17fa92281",
+        "source_sha256": "5eb9572cde53e362f74113b9292f07a9d9ad115d811341489fa00dba4dd0f35e",
+        "terms": "CC-BY-4.0"
+      },
+      "native:msc2020": {
+        "attribution": "TIBHannover/MSC2020_SKOS",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "incompatible",
+        "notice_or_source": "https://raw.githubusercontent.com/TIBHannover/MSC2020_SKOS/33972ddb6a72c3660a6e499ee5f881b57fa92d41/msc-2020-suggestion4.ttl",
+        "revision": "33972ddb6a72c3660a6e499ee5f881b57fa92d41",
+        "source_sha256": "ee4afa1f198ffd0f5ea807377e46420c5fd7537991928c67c759fa44640421e9",
+        "terms": "CC-BY-NC-SA"
+      },
+      "native:oeis": {
+        "attribution": "OEIS Foundation and sequence contributors",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "unresolved",
+        "notice_or_source": "https://oeis.org/A000045/b000045.txt",
+        "revision": "content digest",
+        "source_sha256": "fb52264d1faa56aa9d3bc9f52eb42fe5c9beaba71cef4a0e50689bbbbeb923e4",
+        "terms": "CC-BY-SA-4.0"
+      },
+      "native:ontodm": {
+        "attribution": "Panče Panov and OntoDM contributors",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "unresolved",
+        "notice_or_source": "https://raw.githubusercontent.com/panovp/ontodm-core/d4aeb928a86b61bc3e7d1177589ea16362f929ce/OntoDM.owl",
+        "revision": "d4aeb928a86b61bc3e7d1177589ea16362f929ce",
+        "source_sha256": "28d821c5bb962af35768c569fa77bb5558c936d4deb09561e7ebba828036f69a",
+        "terms": "unverified"
+      },
+      "native:ontomath-edu": {
+        "attribution": "CLLKazan/OntoMathEdu",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "unresolved",
+        "notice_or_source": "https://raw.githubusercontent.com/CLLKazan/OntoMathEdu/fd39c2fa5aebdfba07f09f4829f49cc95cd70246/ontomathedu.omn",
+        "revision": "fd39c2fa5aebdfba07f09f4829f49cc95cd70246",
+        "source_sha256": "ea619ad644de79ac379b853b8cf636f6c4daec5258a726bd82402ffe97a56081",
+        "terms": "unverified"
+      },
+      "native:ontomath-pro": {
+        "attribution": "CLLKazan/OntoMathPro",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "editorial-mappings",
+          "native-labels",
+          "source-axiom-projections",
+          "source-identifiers"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://raw.githubusercontent.com/CLLKazan/OntoMathPro/ebb4083adec275e079bb6210df24cfcd11d2767c/OntoMathPro.omn",
+        "revision": "ebb4083adec275e079bb6210df24cfcd11d2767c",
+        "source_sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f",
+        "terms": "Apache-2.0"
+      },
+      "native:openalex": {
+        "attribution": "OurResearch",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "unresolved",
+        "notice_or_source": "https://api.openalex.org/topics/T10374",
+        "revision": "content digest",
+        "source_sha256": "74687f76161db9da5a5959053a46abba071e3d8a236fdb8a7d307d7f2bb5f291",
+        "terms": "CC0-1.0"
+      },
+      "native:opencs": {
+        "attribution": "OpenCS contributors",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "editorial-mappings",
+          "native-labels",
+          "source-identifiers"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://opencs-ontology.github.io/releases/stable/opencs.nt",
+        "revision": "0.4.0",
+        "source_sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+        "terms": "CC-BY-4.0"
+      },
+      "native:openmath": {
+        "attribution": "OpenMath Society and dictionary authors",
+        "basis": "Selected dictionaries only. The embedded derivative-work notices and fingerprints are reviewed in the OpenMath evidence ledger.",
+        "channels": [
+          "selected-formal-expressions",
+          "source-identifiers"
+        ],
+        "disposition": "unresolved",
+        "notice_or_source": "https://codeload.github.com/OpenMath/CDs/tar.gz/cbf607561e3f90630ce7a57fe9a85f5bc0dfdd3c",
+        "revision": "cbf607561e3f90630ce7a57fe9a85f5bc0dfdd3c",
+        "source_sha256": "4bcd5e40a5985f1bd29b0aea8f3bf172ecaf2392be44edf4b7b4eb4756340ac2",
+        "terms": "per dictionary"
+      },
+      "native:openmath-rdf": {
+        "attribution": "OpenMath/om-rdf",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "unresolved",
+        "notice_or_source": "https://raw.githubusercontent.com/OpenMath/om-rdf/8714d151dabbd4f02bb9c7d37006852d727cd9fe/ontologies/math.ttl",
+        "revision": "8714d151dabbd4f02bb9c7d37006852d727cd9fe",
+        "source_sha256": "e23bfb0f76db3a56b61f2d70a487f3cdc5afa045be8760dd1e73fe6b42e4a611",
+        "terms": "unverified"
+      },
+      "native:owl": {
+        "attribution": "W3C",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://www.w3.org/2002/07/owl.ttl",
+        "revision": "content digest",
+        "source_sha256": "718fa1db7840d3315bfce94398543f91437ef6fe933054fd93f5471d19262fc5",
+        "terms": "reference only"
+      },
+      "native:prov-o": {
+        "attribution": "W3C",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://www.w3.org/ns/prov-o.ttl",
+        "revision": "content digest",
+        "source_sha256": "7d203989f67b38bca572253942acc5a1bf24ce3ccfece16f072dcb4be2b79a96",
+        "terms": "reference only"
+      },
+      "native:qudt": {
+        "attribution": "QUDT.org",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "unresolved",
+        "notice_or_source": "https://github.com/qudt/qudt-public-repo/releases/download/v3.5.3/qudt-public-repo-3.5.3.zip",
+        "revision": "v3.5.3",
+        "source_sha256": "1e73b229ba1b2e047136b15bc14ad385d013d2ac5cbda69e9453916e68b2ed75",
+        "terms": "CC-BY-4.0"
+      },
+      "native:rdf-rdfs": {
+        "attribution": "W3C",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://www.w3.org/2000/01/rdf-schema.ttl",
+        "revision": "content digest",
+        "source_sha256": "ecee3a011b7c13ea2a7e40b0a208bfe6be53d69fdd53ee035e09e9f9e5108ad6",
+        "terms": "reference only"
+      },
+      "native:shacl": {
+        "attribution": "W3C",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://www.w3.org/ns/shacl.ttl",
+        "revision": "content digest",
+        "source_sha256": "0e5d8aea0eab98a072d4a02faaee1ee914ec99eab2ca473429726faed4a13f69",
+        "terms": "reference only"
+      },
+      "native:skos": {
+        "attribution": "W3C",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://www.w3.org/2009/08/skos-reference/skos.rdf",
+        "revision": "content digest",
+        "source_sha256": "e79633b8d0564816cee8a99f5c9acf9a0e6fc7257c7209acd684ecad53a89dd6",
+        "terms": "reference only"
+      },
+      "native:stato": {
+        "attribution": "ISA-tools/stato",
+        "basis": "Native STATO scope only. Imported content has separate notices and does not inherit STATO's terms.",
+        "channels": [
+          "native-labels",
+          "source-axiom-projections",
+          "source-identifiers"
+        ],
+        "disposition": "unresolved",
+        "notice_or_source": "https://raw.githubusercontent.com/ISA-tools/stato/a5910e6115217a88ee86e2666e12983ef2ef2a42/releases/1.5/stato.owl",
+        "revision": "a5910e6115217a88ee86e2666e12983ef2ef2a42",
+        "source_sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578",
+        "terms": "CC-BY-3.0 (embedded imports have separate notices)"
+      },
+      "native:swo": {
+        "attribution": "Software Ontology contributors",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "unresolved",
+        "notice_or_source": "https://purl.obolibrary.org/obo/swo.owl",
+        "revision": "content digest",
+        "source_sha256": "a2136461c6bf4a76c42caf6f96da3910a2d334d555a372639f16f6dbef1e4545",
+        "terms": "unverified"
+      },
+      "native:tptp": {
+        "attribution": "TPTP World",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "unresolved",
+        "notice_or_source": "https://seetptp.tptp.org/download/TPTPWorld/TPTP/Problems/PUZ/PUZ001-1.p",
+        "revision": "content digest",
+        "source_sha256": "73a011c22f2583491605d29e712d7b9bb26c737331b97eee6172a231e50d2ff6",
+        "terms": "unverified"
+      },
+      "native:wikidata": {
+        "attribution": "Wikidata contributors",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "editorial-mappings",
+          "source-identifiers"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://www.wikidata.org/wiki/Special:EntityData/Q11348.ttl",
+        "revision": "2571730946",
+        "source_sha256": "a66946dbf19dcfd6a69052f3227e40ee4c7a7b792d5434cec94101a4453a5f6c",
+        "terms": "CC0-1.0"
+      },
+      "native:zbmath-open": {
+        "attribution": "FIZ Karlsruhe",
+        "basis": "Pinned source metadata and reviewed publication channels.",
+        "channels": [
+          "reference-or-staging-only"
+        ],
+        "disposition": "unresolved",
+        "notice_or_source": "https://api.zbmath.org/v1/document/7000000",
+        "revision": "content digest",
+        "source_sha256": "6ff84101d9746770dd91250081b4b7711be9a4a1171556454be8e179fbee7fa1",
+        "terms": "field-specific"
+      },
+      "passage:algs4": {
+        "attribution": "Robert Sedgewick and Kevin Wayne, Algorithms, fourth edition",
+        "basis": "Pinned notice and file digests. Published entries contain an editorial judgment and no upstream passage text.",
+        "channels": [
+          "citations",
+          "passage-fingerprints",
+          "independent-editorial-assertions"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://github.com/kevin-wayne/algs4/blob/7bb62c32f03fec900f0cc796a548ab992feffe4e/LICENSE",
+        "reviewed_passages": 38,
+        "revision": "7bb62c32f03fec900f0cc796a548ab992feffe4e",
+        "source_sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+        "terms": "GPL-3.0 source; algorithm facts and passage fingerprints"
+      },
+      "passage:cpalgs": {
+        "attribution": "Algorithms for Competitive Programming contributors",
+        "basis": "Pinned notice and file digests. Published entries contain an editorial judgment and no upstream passage text.",
+        "channels": [
+          "citations",
+          "passage-fingerprints",
+          "independent-editorial-assertions"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://github.com/cp-algorithms/cp-algorithms/blob/9392ad98aabadd2bc2feab65b91881918dfe560e/LICENSE",
+        "reviewed_passages": 24,
+        "revision": "9392ad98aabadd2bc2feab65b91881918dfe560e",
+        "source_sha256": "bae5ccc863235f984a52c07d011e48a86c0c12f923be2dedd8624c7abdc22c6c",
+        "terms": "CC-BY-SA-4.0"
+      },
+      "passage:cpython": {
+        "attribution": "Python Software Foundation",
+        "basis": "Pinned notice and file digests. Published entries contain an editorial judgment and no upstream passage text.",
+        "channels": [
+          "citations",
+          "passage-fingerprints",
+          "independent-editorial-assertions"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://github.com/python/cpython/blob/6cb20a219a860eaf687b2d968b41c480c7461909/LICENSE",
+        "reviewed_passages": 2,
+        "revision": "6cb20a219a860eaf687b2d968b41c480c7461909",
+        "source_sha256": "78b12c3a81360b357002334f0e70ea0e92eebf7a9b358805c03c48484945f3bb",
+        "terms": "PSF-2.0"
+      },
+      "passage:go": {
+        "attribution": "The Go Authors",
+        "basis": "Pinned notice and file digests. Published entries contain an editorial judgment and no upstream passage text.",
+        "channels": [
+          "citations",
+          "passage-fingerprints",
+          "independent-editorial-assertions"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://github.com/golang/go/blob/7f36edc26d4e3becb6d9c9008ff00f260bb19055/LICENSE",
+        "reviewed_passages": 4,
+        "revision": "7f36edc26d4e3becb6d9c9008ff00f260bb19055",
+        "source_sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+        "terms": "BSD-3-Clause"
+      },
+      "passage:groupcache": {
+        "attribution": "The Go Authors",
+        "basis": "Pinned notice and file digests. Published entries contain an editorial judgment and no upstream passage text.",
+        "channels": [
+          "citations",
+          "passage-fingerprints",
+          "independent-editorial-assertions"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://github.com/golang/groupcache/blob/2c02b8208cf8c02a3e358cb1d9b60950647543fc/LICENSE",
+        "reviewed_passages": 1,
+        "revision": "2c02b8208cf8c02a3e358cb1d9b60950647543fc",
+        "source_sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+        "terms": "Apache-2.0"
+      },
+      "passage:lean4": {
+        "attribution": "Lean developers",
+        "basis": "Pinned notice and file digests. Published entries contain an editorial judgment and no upstream passage text.",
+        "channels": [
+          "citations",
+          "passage-fingerprints",
+          "independent-editorial-assertions"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://github.com/leanprover/lean4/blob/611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9/LICENSE",
+        "reviewed_passages": 1,
+        "revision": "611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+        "source_sha256": "8b28515ffffc5c0fe2807d8ae3735b00b324d9b7ce807dd63ff6ac8922fbce7e",
+        "terms": "Apache-2.0"
+      },
+      "passage:llvm": {
+        "attribution": "LLVM Project contributors",
+        "basis": "Pinned notice and file digests. Published entries contain an editorial judgment and no upstream passage text.",
+        "channels": [
+          "citations",
+          "passage-fingerprints",
+          "independent-editorial-assertions"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://github.com/llvm/llvm-project/blob/87f0227cb60147a26a1eeb4fb06e3b505e9c7261/LICENSE.TXT",
+        "reviewed_passages": 7,
+        "revision": "87f0227cb60147a26a1eeb4fb06e3b505e9c7261",
+        "source_sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee",
+        "terms": "Apache-2.0 WITH LLVM-exception"
+      },
+      "passage:mathlib4": {
+        "attribution": "The mathlib community",
+        "basis": "Pinned notice and file digests. Published entries contain an editorial judgment and no upstream passage text.",
+        "channels": [
+          "citations",
+          "passage-fingerprints",
+          "independent-editorial-assertions"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://github.com/leanprover-community/mathlib4/blob/35f494609c32653bae53eb33f0cf2d899808909a/LICENSE",
+        "reviewed_passages": 4,
+        "revision": "35f494609c32653bae53eb33f0cf2d899808909a",
+        "source_sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+        "terms": "Apache-2.0"
+      },
+      "passage:networkx": {
+        "attribution": "NetworkX developers",
+        "basis": "Pinned notice and file digests. Published entries contain an editorial judgment and no upstream passage text.",
+        "channels": [
+          "citations",
+          "passage-fingerprints",
+          "independent-editorial-assertions"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://github.com/networkx/networkx/blob/4fa222d2fb157e1b7f8c753c9f92e5907d1ddeb4/LICENSE.txt",
+        "reviewed_passages": 5,
+        "revision": "4fa222d2fb157e1b7f8c753c9f92e5907d1ddeb4",
+        "source_sha256": "3cf7c3a179d817b23b8b8568211769fefdf93797d207d984b8b2fa24d0220b33",
+        "terms": "BSD-3-Clause"
+      },
+      "passage:nltk": {
+        "attribution": "NLTK contributors",
+        "basis": "Pinned notice and file digests. Published entries contain an editorial judgment and no upstream passage text.",
+        "channels": [
+          "citations",
+          "passage-fingerprints",
+          "independent-editorial-assertions"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://github.com/nltk/nltk/blob/aca78cb2add4084f76b9eac921d8a73927d7a086/LICENSE.txt",
+        "reviewed_passages": 2,
+        "revision": "aca78cb2add4084f76b9eac921d8a73927d7a086",
+        "source_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "terms": "Apache-2.0"
+      },
+      "passage:ods": {
+        "attribution": "Pat Morin, Open Data Structures",
+        "basis": "Pinned notice and file digests. Published entries contain an editorial judgment and no upstream passage text.",
+        "channels": [
+          "citations",
+          "passage-fingerprints",
+          "independent-editorial-assertions"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://github.com/patmorin/ods/blob/9d22c44906dda2017b2ef0c762025bee644b58aa/COPYING",
+        "reviewed_passages": 2,
+        "revision": "9d22c44906dda2017b2ef0c762025bee644b58aa",
+        "source_sha256": "381d100a6bf229ddeb088ba7fae439493906c149e86b2abc19c393fd8c3b5863",
+        "terms": "CC-BY-2.5-CA (COPYING)"
+      },
+      "passage:opendsa": {
+        "attribution": "OpenDSA contributors",
+        "basis": "Repository README notice. Only independently reviewed facts, references and file fingerprints are published.",
+        "channels": [
+          "citations",
+          "passage-fingerprints",
+          "independent-editorial-assertions"
+        ],
+        "disposition": "unresolved",
+        "notice_or_source": "https://github.com/OpenDSA/OpenDSA/blob/7f7d2baa355e0b649982d1c48d17705185bfc2ea/README.md",
+        "reviewed_passages": 19,
+        "revision": "7f7d2baa355e0b649982d1c48d17705185bfc2ea",
+        "source_sha256": "c68d1de7a8dc5e74d36d4478fee59541eef6ff17b82279909a4003b0e5f675b1",
+        "terms": "MIT (source repository notice)"
+      },
+      "passage:pgmpy": {
+        "attribution": "pgmpy contributors",
+        "basis": "Pinned notice and file digests. Published entries contain an editorial judgment and no upstream passage text.",
+        "channels": [
+          "citations",
+          "passage-fingerprints",
+          "independent-editorial-assertions"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://github.com/pgmpy/pgmpy/blob/9f61170f42cbbe72b597823c236c53cd46fae7f8/LICENSE",
+        "reviewed_passages": 2,
+        "revision": "9f61170f42cbbe72b597823c236c53cd46fae7f8",
+        "source_sha256": "89171dcc8977530b0c101fbbb1c1d34caee998fc7def9eded629753cd2616a15",
+        "terms": "MIT"
+      },
+      "passage:postgres": {
+        "attribution": "PostgreSQL Global Development Group",
+        "basis": "Pinned notice and file digests. Published entries contain an editorial judgment and no upstream passage text.",
+        "channels": [
+          "citations",
+          "passage-fingerprints",
+          "independent-editorial-assertions"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://github.com/postgres/postgres/blob/f8554dee417ffc4540c94cf357f7bf7d4b6e5d80/COPYRIGHT",
+        "reviewed_passages": 11,
+        "revision": "f8554dee417ffc4540c94cf357f7bf7d4b6e5d80",
+        "source_sha256": "e3822c4797fadcab31a3fc73f75c28ac20c73d72b565da91e9974cf9398ef4d2",
+        "terms": "PostgreSQL License"
+      },
+      "passage:raft": {
+        "attribution": "Diego Ongaro, Raft TLA+ specification",
+        "basis": "Pinned notice and file digests. Published entries contain an editorial judgment and no upstream passage text.",
+        "channels": [
+          "citations",
+          "passage-fingerprints",
+          "independent-editorial-assertions"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://github.com/ongardie/raft.tla/blob/6ecbdbcf1bcde2910367cdfd67f31b0bae447ddd/raft.tla",
+        "reviewed_passages": 3,
+        "revision": "6ecbdbcf1bcde2910367cdfd67f31b0bae447ddd",
+        "source_sha256": "2cf54dbedc5d81f3b108596a24644279a3bbc94cc0980108ee51590c7461cc3b",
+        "terms": "CC-BY-4.0 (embedded source notice)"
+      },
+      "passage:scipy": {
+        "attribution": "SciPy developers",
+        "basis": "Pinned notice and file digests. Published entries contain an editorial judgment and no upstream passage text.",
+        "channels": [
+          "citations",
+          "passage-fingerprints",
+          "independent-editorial-assertions"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://github.com/scipy/scipy/blob/b1296b9b4393e251511fe8fdd3e58c22a1124899/LICENSE.txt",
+        "reviewed_passages": 6,
+        "revision": "b1296b9b4393e251511fe8fdd3e58c22a1124899",
+        "source_sha256": "221e59f5e910fd7f94e44f0dac77436a11338c285c6346232e4a850a50da0e94",
+        "terms": "BSD-3-Clause"
+      },
+      "passage:sklearn": {
+        "attribution": "The scikit-learn developers",
+        "basis": "Pinned notice and file digests. Published entries contain an editorial judgment and no upstream passage text.",
+        "channels": [
+          "citations",
+          "passage-fingerprints",
+          "independent-editorial-assertions"
+        ],
+        "disposition": "verified",
+        "notice_or_source": "https://github.com/scikit-learn/scikit-learn/blob/25dee604bae18205b01548348388baf7a1cdfe0e/COPYING",
+        "reviewed_passages": 20,
+        "revision": "25dee604bae18205b01548348388baf7a1cdfe0e",
+        "source_sha256": "75684d16f4662ab842ed5af9482ac01939aee83c8243d89993616d959d3053f8",
+        "terms": "BSD-3-Clause"
+      }
+    }
   },
   "sources": {
     "acm-ccs": {
@@ -2965,5 +3997,5 @@
       "url": "https://api.zbmath.org/v1/document/7000000"
     }
   },
-  "version": "0.9.0"
+  "version": "1.0.0"
 }

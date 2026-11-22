@@ -3,6 +3,8 @@
 <https://curricula.live/id/formal-sciences/concept/a-star-search> <http://www.w3.org/2004/02/skos/core#definition> "Best-first shortest-path search that orders candidate states by path cost so far plus a heuristic estimate of remaining cost. The reviewed graph-search guarantee assumes nonnegative edge weights, a fixed admissible heuristic with zero at the target, and reopening on improved cost."@en .
 <https://curricula.live/id/formal-sciences/concept/a-star-search> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/a-star-search> <http://www.w3.org/2004/02/skos/core#prefLabel> "A-star search"@en .
+<https://curricula.live/id/formal-sciences/concept/a-star-search> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Algorithm> .
+<https://curricula.live/id/formal-sciences/concept/a-star-search> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Method> .
 <https://curricula.live/id/formal-sciences/concept/a-star-search> <https://curricula.live/id/formal-sciences/vocab/requiresAssumption> <https://curricula.live/id/formal-sciences/concept/admissible-search-heuristic> .
 <https://curricula.live/id/formal-sciences/concept/a-star-search> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/shortest-path-problem> .
 <https://curricula.live/id/formal-sciences/concept/a-star-search> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/priority-queue> .
@@ -72,6 +74,8 @@
 <https://curricula.live/id/formal-sciences/concept/admissible-search-heuristic> <http://www.w3.org/2004/02/skos/core#definition> "For a goal and cost function, an estimate that never exceeds the true minimum remaining path cost."@en .
 <https://curricula.live/id/formal-sciences/concept/admissible-search-heuristic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/admissible-search-heuristic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Admissible shortest-path heuristic"@en .
+<https://curricula.live/id/formal-sciences/concept/admissible-search-heuristic> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Assumption> .
+<https://curricula.live/id/formal-sciences/concept/admissible-search-heuristic> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Property> .
 <https://curricula.live/id/formal-sciences/concept/affine-space> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/affine-space> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/geometry> .
 <https://curricula.live/id/formal-sciences/concept/affine-space> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
@@ -113,6 +117,7 @@
 <https://curricula.live/id/formal-sciences/concept/assignment-problem> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/assignment-problem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Linear assignment problem"@en .
 <https://curricula.live/id/formal-sciences/concept/assignment-problem> <https://curricula.live/id/formal-sciences/vocab/hasInputStructure> <https://curricula.live/id/formal-sciences/concept/bipartite-graph> .
+<https://curricula.live/id/formal-sciences/concept/assignment-problem> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Problem> .
 <https://curricula.live/id/formal-sciences/concept/automata-theoretic-ltl-model-checking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/automata-theoretic-ltl-model-checking> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/formal-verification> .
 <https://curricula.live/id/formal-sciences/concept/automata-theoretic-ltl-model-checking> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/model-checking> .
@@ -175,6 +180,7 @@
 <https://curricula.live/id/formal-sciences/concept/bayes-theorem> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/bayesian-statistics> .
 <https://curricula.live/id/formal-sciences/concept/bayes-theorem> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/bayes-theorem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bayes' theorem"@en .
+<https://curricula.live/id/formal-sciences/concept/bayes-theorem> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Result> .
 <https://curricula.live/id/formal-sciences/concept/bayes-theorem> <https://curricula.live/id/formal-sciences/vocab/requiresPremise> <https://curricula.live/id/formal-sciences/concept/positive-bayes-conditioning-probabilities> .
 <https://curricula.live/id/formal-sciences/concept/bayes-theorem> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/conditional-probability> .
 <https://curricula.live/id/formal-sciences/concept/bayesian-network> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -194,6 +200,7 @@
 <https://curricula.live/id/formal-sciences/concept/behavioral-regression> <http://www.w3.org/2004/02/skos/core#definition> "An unintended degradation of previously working software behavior relative to a defined expectation."@en .
 <https://curricula.live/id/formal-sciences/concept/behavioral-regression> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/behavioral-regression> <http://www.w3.org/2004/02/skos/core#prefLabel> "Software behavioral regression"@en .
+<https://curricula.live/id/formal-sciences/concept/behavioral-regression> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Property> .
 <https://curricula.live/id/formal-sciences/concept/bell-number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/bell-number> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/combinatorics> .
 <https://curricula.live/id/formal-sciences/concept/bell-number> <http://www.w3.org/2004/02/skos/core#definition> "The number of set partitions of an n-element set."@en .
@@ -311,6 +318,7 @@
 <https://curricula.live/id/formal-sciences/concept/bipartite-graph> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/graph-theory> .
 <https://curricula.live/id/formal-sciences/concept/bipartite-graph> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/bipartite-graph> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bipartite graph"@en .
+<https://curricula.live/id/formal-sciences/concept/bipartite-graph> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Structure> .
 <https://curricula.live/id/formal-sciences/concept/bisimulation-modal-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/bisimulation-modal-logic> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/modal-logic> .
 <https://curricula.live/id/formal-sciences/concept/bisimulation-modal-logic> <http://www.w3.org/2004/02/skos/core#definition> "A relation matching worlds with the same atomic valuation and matching each successor of a related world with a related successor on the other side, in both directions."@en .
@@ -510,12 +518,15 @@
 <https://curricula.live/id/formal-sciences/concept/comparison-sorting-lower-bound> <http://www.w3.org/2004/02/skos/core#definition> "Sorting n distinct keys in the comparison model takes at least the ceiling of log base two of n factorial comparisons in the worst case."@en .
 <https://curricula.live/id/formal-sciences/concept/comparison-sorting-lower-bound> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/comparison-sorting-lower-bound> <http://www.w3.org/2004/02/skos/core#prefLabel> "Worst-case comparison lower bound for sorting"@en .
+<https://curricula.live/id/formal-sciences/concept/comparison-sorting-lower-bound> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Property> .
+<https://curricula.live/id/formal-sciences/concept/comparison-sorting-lower-bound> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Result> .
 <https://curricula.live/id/formal-sciences/concept/comparison-sorting-lower-bound> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/comparison-sort-decision-tree> .
 <https://curricula.live/id/formal-sciences/concept/complete-lattice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/complete-lattice> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/lattice-order-theory> .
 <https://curricula.live/id/formal-sciences/concept/complete-lattice> <http://www.w3.org/2004/02/skos/core#definition> "A partially ordered set in which every subset has both a supremum and an infimum."@en .
 <https://curricula.live/id/formal-sciences/concept/complete-lattice> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/complete-lattice> <http://www.w3.org/2004/02/skos/core#prefLabel> "Complete lattice"@en .
+<https://curricula.live/id/formal-sciences/concept/complete-lattice> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Structure> .
 <https://curricula.live/id/formal-sciences/concept/complete-lattice> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/partial-order> .
 <https://curricula.live/id/formal-sciences/concept/complex-imaginary-coordinate-projection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/complex-imaginary-coordinate-projection> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algebra> .
@@ -703,6 +714,7 @@
 <https://curricula.live/id/formal-sciences/concept/context-free-language> <http://www.w3.org/2004/02/skos/core#definition> "A language generated by a context-free grammar."@en .
 <https://curricula.live/id/formal-sciences/concept/context-free-language> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/context-free-language> <http://www.w3.org/2004/02/skos/core#prefLabel> "Context-free language"@en .
+<https://curricula.live/id/formal-sciences/concept/context-free-language> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Structure> .
 <https://curricula.live/id/formal-sciences/concept/continuity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/continuity> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/mathematical-analysis> .
 <https://curricula.live/id/formal-sciences/concept/continuity> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
@@ -1001,6 +1013,8 @@
 <https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm> <http://www.w3.org/2004/02/skos/core#definition> "A shortest-path algorithm that repeatedly settles an unsettled vertex of minimum tentative distance. Its standard correctness guarantee assumes nonnegative edge weights."@en .
 <https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dijkstra's algorithm"@en .
+<https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Algorithm> .
+<https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Method> .
 <https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm> <https://curricula.live/id/formal-sciences/vocab/requiresAssumption> <https://curricula.live/id/formal-sciences/concept/nonnegative-edge-weights> .
 <https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/shortest-path-problem> .
 <https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/edge-relaxation> .
@@ -1667,6 +1681,7 @@
 <https://curricula.live/id/formal-sciences/concept/inductive-recursion> <http://www.w3.org/2004/02/skos/core#definition> "Definition by constructor cases whose recursive calls are on available smaller structural constituents."@en .
 <https://curricula.live/id/formal-sciences/concept/inductive-recursion> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
 <https://curricula.live/id/formal-sciences/concept/inductive-recursion> <http://www.w3.org/2004/02/skos/core#prefLabel> "Structural recursion over an inductive type"@en .
+<https://curricula.live/id/formal-sciences/concept/inductive-recursion> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Method> .
 <https://curricula.live/id/formal-sciences/concept/inductive-recursion> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/inductive-eliminator> .
 <https://curricula.live/id/formal-sciences/concept/inductive-rule-learning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/inductive-rule-learning> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/machine-learning> .
@@ -1792,6 +1807,7 @@
 <https://curricula.live/id/formal-sciences/concept/knaster-tarski-fixed-point-theorem> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/knaster-tarski-fixed-point-theorem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Knaster–Tarski fixed-point theorem"@en .
 <https://curricula.live/id/formal-sciences/concept/knaster-tarski-fixed-point-theorem> <https://curricula.live/id/formal-sciences/vocab/guarantees> <https://curricula.live/id/formal-sciences/concept/fixed-point> .
+<https://curricula.live/id/formal-sciences/concept/knaster-tarski-fixed-point-theorem> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Result> .
 <https://curricula.live/id/formal-sciences/concept/knaster-tarski-fixed-point-theorem> <https://curricula.live/id/formal-sciences/vocab/requiresPremise> <https://curricula.live/id/formal-sciences/concept/complete-lattice> .
 <https://curricula.live/id/formal-sciences/concept/knaster-tarski-fixed-point-theorem> <https://curricula.live/id/formal-sciences/vocab/requiresPremise> <https://curricula.live/id/formal-sciences/concept/monotone-map> .
 <https://curricula.live/id/formal-sciences/concept/knowledge-representation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -2764,6 +2780,7 @@
 <https://curricula.live/id/formal-sciences/concept/most-general-unifier> <http://www.w3.org/2004/02/skos/core#definition> "A unifying substitution through which every other unifying substitution factors by further substitution."@en .
 <https://curricula.live/id/formal-sciences/concept/most-general-unifier> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/logic> .
 <https://curricula.live/id/formal-sciences/concept/most-general-unifier> <http://www.w3.org/2004/02/skos/core#prefLabel> "Most general unifier"@en .
+<https://curricula.live/id/formal-sciences/concept/most-general-unifier> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Structure> .
 <https://curricula.live/id/formal-sciences/concept/multilayer-perceptron-gradient-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/multilayer-perceptron-gradient-training> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/machine-learning> .
 <https://curricula.live/id/formal-sciences/concept/multilayer-perceptron-gradient-training> <http://www.w3.org/2004/02/skos/core#definition> "Fit the network parameters by computing loss gradients through the layered model and applying the chosen optimizer."@en .
@@ -2964,6 +2981,7 @@
 <https://curricula.live/id/formal-sciences/concept/nonlinear-least-squares-problem> <http://www.w3.org/2004/02/skos/core#definition> "Find parameters minimizing the sum of squared residuals when the residual vector can be nonlinear in those parameters."@en .
 <https://curricula.live/id/formal-sciences/concept/nonlinear-least-squares-problem> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/mathematics> .
 <https://curricula.live/id/formal-sciences/concept/nonlinear-least-squares-problem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nonlinear least-squares problem"@en .
+<https://curricula.live/id/formal-sciences/concept/nonlinear-least-squares-problem> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Problem> .
 <https://curricula.live/id/formal-sciences/concept/nonnegative-edge-weights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/nonnegative-edge-weights> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/graph-theory> .
 <https://curricula.live/id/formal-sciences/concept/nonnegative-edge-weights> <http://www.w3.org/2004/02/skos/core#definition> "An edge-weight function whose value on each edge is at least zero."@en .
@@ -6961,6 +6979,8 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c16904> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c16904> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c16904> <http://www.w3.org/2004/02/skos/core#prefLabel> "Levenberg–Marquardt algorithm"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c16904> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Algorithm> .
+<https://curricula.live/id/formal-sciences/concept/opencs-c16904> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Method> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c16904> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/nonlinear-least-squares-problem> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c16904> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/ontomath-pro-e1731> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c16915> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -7549,6 +7569,8 @@
 <https://curricula.live/id/formal-sciences/concept/opencs-c24154> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24154> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24154> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hungarian algorithm"@en .
+<https://curricula.live/id/formal-sciences/concept/opencs-c24154> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Algorithm> .
+<https://curricula.live/id/formal-sciences/concept/opencs-c24154> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Method> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24154> <https://curricula.live/id/formal-sciences/vocab/solves> <https://curricula.live/id/formal-sciences/concept/assignment-problem> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24194> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/opencs-c24194> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
@@ -10629,6 +10651,8 @@
 <https://curricula.live/id/formal-sciences/concept/positive-bayes-conditioning-probabilities> <http://www.w3.org/2004/02/skos/core#definition> "For the elementary event formula expressing both conditional probabilities as ratios, each conditioning event has strictly positive probability."@en .
 <https://curricula.live/id/formal-sciences/concept/positive-bayes-conditioning-probabilities> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/statistics> .
 <https://curricula.live/id/formal-sciences/concept/positive-bayes-conditioning-probabilities> <http://www.w3.org/2004/02/skos/core#prefLabel> "Positive event probabilities for Bayes ratios"@en .
+<https://curricula.live/id/formal-sciences/concept/positive-bayes-conditioning-probabilities> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Assumption> .
+<https://curricula.live/id/formal-sciences/concept/positive-bayes-conditioning-probabilities> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Property> .
 <https://curricula.live/id/formal-sciences/concept/post-correspondence-problem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/post-correspondence-problem> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/computability-theory> .
 <https://curricula.live/id/formal-sciences/concept/post-correspondence-problem> <http://www.w3.org/2004/02/skos/core#definition> "Given finitely many pairs of words over a finite alphabet, decide whether a nonempty sequence of pair indices, with repetition allowed, makes the two concatenations identical."@en .
@@ -10702,6 +10726,7 @@
 <https://curricula.live/id/formal-sciences/concept/princeton-dijkstra-implementation> <http://www.w3.org/2004/02/skos/core#definition> "The Java Algorithms, fourth edition, implementation of single-source Dijkstra using an indexed minimum priority queue."@en .
 <https://curricula.live/id/formal-sciences/concept/princeton-dijkstra-implementation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/princeton-dijkstra-implementation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Princeton indexed-priority-queue Dijkstra implementation"@en .
+<https://curricula.live/id/formal-sciences/concept/princeton-dijkstra-implementation> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Implementation> .
 <https://curricula.live/id/formal-sciences/concept/princeton-dijkstra-implementation> <https://curricula.live/id/formal-sciences/vocab/implementsAlgorithm> <https://curricula.live/id/formal-sciences/concept/dijkstra-s-algorithm> .
 <https://curricula.live/id/formal-sciences/concept/princeton-dijkstra-implementation> <https://curricula.live/id/formal-sciences/vocab/uses> <https://curricula.live/id/formal-sciences/concept/indexed-min-priority-queue> .
 <https://curricula.live/id/formal-sciences/concept/princeton-nfa-regex-matcher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -11389,6 +11414,8 @@
 <https://curricula.live/id/formal-sciences/concept/sorted-search-input> <http://www.w3.org/2004/02/skos/core#definition> "A finite sequence ordered consistently with the comparison used for searching its keys."@en .
 <https://curricula.live/id/formal-sciences/concept/sorted-search-input> <http://www.w3.org/2004/02/skos/core#inScheme> <https://curricula.live/id/formal-sciences/scheme/computer-science> .
 <https://curricula.live/id/formal-sciences/concept/sorted-search-input> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sorted key sequence for lookup"@en .
+<https://curricula.live/id/formal-sciences/concept/sorted-search-input> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Assumption> .
+<https://curricula.live/id/formal-sciences/concept/sorted-search-input> <https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <https://curricula.live/id/formal-sciences/vocab/Structure> .
 <https://curricula.live/id/formal-sciences/concept/sorting-problem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/concept/sorting-problem> <http://www.w3.org/2004/02/skos/core#broader> <https://curricula.live/id/formal-sciences/concept/algorithms> .
 <https://curricula.live/id/formal-sciences/concept/sorting-problem> <http://www.w3.org/2004/02/skos/core#definition> "Given a finite sequence of comparable records and an ordering on their keys, produce a permutation arranged by that ordering."@en .
@@ -13279,6 +13306,32 @@
 <https://curricula.live/id/formal-sciences/scheme/mathematics> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mathematics"@en .
 <https://curricula.live/id/formal-sciences/scheme/statistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://curricula.live/id/formal-sciences/scheme/statistics> <http://www.w3.org/2004/02/skos/core#prefLabel> "Statistics"@en .
+<https://curricula.live/id/formal-sciences/vocab/Algorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://curricula.live/id/formal-sciences/vocab/ScientificRole> .
+<https://curricula.live/id/formal-sciences/vocab/Algorithm> <http://www.w3.org/2000/01/rdf-schema#comment> "Executable-in-principle procedure, abstracted from a concrete artifact."@en .
+<https://curricula.live/id/formal-sciences/vocab/Assumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://curricula.live/id/formal-sciences/vocab/ScientificRole> .
+<https://curricula.live/id/formal-sciences/vocab/Assumption> <http://www.w3.org/2000/01/rdf-schema#comment> "Condition adopted for a specified model, proof, or method."@en .
+<https://curricula.live/id/formal-sciences/vocab/Formalism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://curricula.live/id/formal-sciences/vocab/ScientificRole> .
+<https://curricula.live/id/formal-sciences/vocab/Formalism> <http://www.w3.org/2000/01/rdf-schema#comment> "System of symbols, formation rules, or semantics."@en .
+<https://curricula.live/id/formal-sciences/vocab/Implementation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://curricula.live/id/formal-sciences/vocab/ScientificRole> .
+<https://curricula.live/id/formal-sciences/vocab/Implementation> <http://www.w3.org/2000/01/rdf-schema#comment> "Concrete executable software artifact or implementation design identified as such."@en .
+<https://curricula.live/id/formal-sciences/vocab/Method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://curricula.live/id/formal-sciences/vocab/ScientificRole> .
+<https://curricula.live/id/formal-sciences/vocab/Method> <http://www.w3.org/2000/01/rdf-schema#comment> "Scientific procedure, technique, or reasoning approach."@en .
+<https://curricula.live/id/formal-sciences/vocab/Model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://curricula.live/id/formal-sciences/vocab/ScientificRole> .
+<https://curricula.live/id/formal-sciences/vocab/Model> <http://www.w3.org/2000/01/rdf-schema#comment> "Representation of a system or phenomenon under stated assumptions."@en .
+<https://curricula.live/id/formal-sciences/vocab/Problem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://curricula.live/id/formal-sciences/vocab/ScientificRole> .
+<https://curricula.live/id/formal-sciences/vocab/Problem> <http://www.w3.org/2000/01/rdf-schema#comment> "Task, question, or input and output specification."@en .
+<https://curricula.live/id/formal-sciences/vocab/Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://curricula.live/id/formal-sciences/vocab/ScientificRole> .
+<https://curricula.live/id/formal-sciences/vocab/Property> <http://www.w3.org/2000/01/rdf-schema#comment> "Condition, law, or attribute of a specified object or construction."@en .
+<https://curricula.live/id/formal-sciences/vocab/Result> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://curricula.live/id/formal-sciences/vocab/ScientificRole> .
+<https://curricula.live/id/formal-sciences/vocab/Result> <http://www.w3.org/2000/01/rdf-schema#comment> "Stated scientific conclusion with its scoped hypotheses."@en .
+<https://curricula.live/id/formal-sciences/vocab/ScientificRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://curricula.live/id/formal-sciences/vocab/ScientificRole> <http://www.w3.org/2000/01/rdf-schema#label> "Scientific role"@en .
+<https://curricula.live/id/formal-sciences/vocab/Structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://curricula.live/id/formal-sciences/vocab/ScientificRole> .
+<https://curricula.live/id/formal-sciences/vocab/Structure> <http://www.w3.org/2000/01/rdf-schema#comment> "Mathematical or computational carrier with specified organization or operations."@en .
+<https://curricula.live/id/formal-sciences/vocab/SubjectArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://curricula.live/id/formal-sciences/vocab/ScientificRole> .
+<https://curricula.live/id/formal-sciences/vocab/SubjectArea> <http://www.w3.org/2000/01/rdf-schema#comment> "Coherent scientific field or subfield."@en .
+<https://curricula.live/id/formal-sciences/vocab/Topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://curricula.live/id/formal-sciences/vocab/ScientificRole> .
+<https://curricula.live/id/formal-sciences/vocab/Topic> <http://www.w3.org/2000/01/rdf-schema#comment> "Editorial subject whose scope is topical."@en .
 <https://curricula.live/id/formal-sciences/vocab/analyzes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://curricula.live/id/formal-sciences/vocab/analyzes> <http://www.w3.org/2000/01/rdf-schema#comment> "From a scoped analysis procedure to the structure, property or behavior under examination."@en .
 <https://curricula.live/id/formal-sciences/vocab/analyzes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -13354,6 +13407,10 @@
 <https://curricula.live/id/formal-sciences/vocab/hasProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://curricula.live/id/formal-sciences/vocab/hasProperty> <http://www.w3.org/2000/01/rdf-schema#label> "has property"@en .
 <https://curricula.live/id/formal-sciences/vocab/hasProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Positive editorial role assignment supported by a recorded review."@en .
+<https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://curricula.live/id/formal-sciences/vocab/hasScientificRole> <http://www.w3.org/2000/01/rdf-schema#range> <https://curricula.live/id/formal-sciences/vocab/ScientificRole> .
 <https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a documented model or equation to a weak formulation using test functions over the applicable model domain."@en .
 <https://curricula.live/id/formal-sciences/vocab/hasWeakFormulation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .

@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 import sys
 from rdflib import Graph
-from pipeline.common import ROOT, registry, read
+from pipeline.common import ROOT, registry, read, require_checkout
 from pipeline.curate import authored
 from pipeline.normalize.index import normalize
 from pipeline.fetch import fetch
@@ -86,6 +86,7 @@ def main():
         subs.add_parser(cmd)
     args = parser.parse_args()
     try:
+        require_checkout()
         catalog = registry()
         if args.cmd == "sources":
             result = list(catalog) if args.view=="list" else {k:s["status"] for k,s in catalog.items()}

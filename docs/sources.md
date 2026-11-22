@@ -40,3 +40,34 @@ Source originals retain their own terms. The project publishes its own curation,
 ROBOT 1.9.8 is used for Manchester syntax and OWL/XML. Install a Java runtime and download https://github.com/ontodev/robot/releases/download/v1.9.8/robot.jar, then set ROBOT_JAR to its path. The adapter enforces the digest in pipeline/parse/robot.sha256. Source-specific formats and revisions are recorded under sources/. Source manifests use JSON syntax, a YAML subset.
 
 The Curricula legacy ontology repository archives V1 and treats V2 as a federation and pedagogy project. Its catalog was reviewed as a possible migration input. No legacy assertions were admitted.
+
+## Rights in the Foundation candidate
+
+The release notice in [LICENSE](../LICENSE) remains authoritative. Software
+uses MIT. Project-authored RDF and editorial mappings use CC BY 4.0.
+External materials retain their applicable terms.
+
+The manifest inventory distinguishes copied native labels and scoped source
+axiom projections from mappings, citations, identifiers, and fingerprints.
+Bibliographic citation alone does not impose the cited source's licence on
+a project-authored statement. A material projection requires its own review.
+Passage corpora expose notice paths, identities, file digests and editorial
+judgments. The default package does not include their underlying prose or
+software. The legacy private staging workflow continues to hold source
+snapshots separately.
+
+The build blocks unreviewed material redistribution from restricted,
+share-alike, GPL or unverified sources. For example MSC2020 is a reference
+for coverage reporting with incompatible terms for a default material
+import. GPL-licensed Princeton sources and share-alike CP-Algorithms supply
+citation or fingerprint evidence for independently reviewed facts. Source
+citations and identifiers use their indicated assessment channel.
+The manifest preserves attribution and exact revision for each use.
+
+OpenMath selected expressions are governed by the dictionary notices.
+STATO's native contribution is scoped separately from embedded imports.
+The OpenDSA README serves as the current notice for its evidence-only use.
+Applicability of those terms to downstream redistribution remains an owner
+review item. The report describes technical policy and evidence rather than
+legal clearance. Inactive source families retain their original status, terms
+and citations for audit.

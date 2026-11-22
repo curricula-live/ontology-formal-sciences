@@ -38,3 +38,17 @@ def test_reference_can_suggest_without_a_matching_label_and_preserves_veto(tmp_p
     assert refreshed["previous_decision"] == "veto"
     assert set(canonical.predicates()) == {RDF.type, SKOS.prefLabel}
 
+
+
+def test_only_exact_match_can_resolve_a_scientific_projection_endpoint():
+    from rdflib import RDFS, URIRef
+
+    from pipeline.curate.relations import OBO, resolved_identities
+
+    external = URIRef(OBO + "STATO_9999999")
+    mappings = Graph()
+    mappings.add((C.example, SKOS.closeMatch, external))
+    mappings.add((C.example, RDFS.seeAlso, external))
+    assert external not in resolved_identities("stato", mappings)
+    mappings.add((C.example, SKOS.exactMatch, external))
+    assert resolved_identities("stato", mappings)[external] == {C.example}

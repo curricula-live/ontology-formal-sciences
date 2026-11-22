@@ -1,7 +1,8 @@
 {
   "name": "Formal sciences",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "namespace": "https://curricula.live/id/formal-sciences/",
   "contract": "curricula.rdf-release/v1",
+  "release": {"status": "candidate", "maturity": "Foundation"},
   "ownership": ["computer-science","logic","mathematics","statistics"]
 }

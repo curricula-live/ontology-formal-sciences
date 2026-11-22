@@ -40,3 +40,25 @@ def test_reviewed_duplicate_keeps_source_and_has_discoverable_replacement(monkey
     graph.add((preferred, OWL.deprecated, Literal(True)))
     graph.add((preferred, DCTERMS.isReplacedBy, former))
     assert any("Invalid canonical replacement" in issue for issue in check(graph)["findings"])
+
+
+def test_split_requires_distinct_live_same_scheme_targets(monkeypatch):
+    graph, provenance = Graph(), Graph()
+    for concept in (C.former, C.a, C.b, C.other):
+        graph.add((concept, RDF.type, SKOS.Concept))
+        graph.add((concept, SKOS.inScheme, D.logic if concept == C.other else D.mathematics))
+    row = {"former": "former", "decision": "split", "targets": ["a", "b"],
+           "rationale": "Test review", "review_id": "test-split",
+           "scientific_reference": "https://example.org/review"}
+    monkeypatch.setattr(identities, "reviewed_migrations", lambda: [row])
+    identities.apply_migrations(graph, provenance)
+    from pipeline.validate import identity_errors
+
+    assert not identity_errors(graph) and not identities.lifecycle_errors(graph, provenance)
+    graph.remove((C.former, DCTERMS.isReplacedBy, C.b))
+    assert any("cardinality" in x for x in identities.lifecycle_errors(graph, provenance))
+    graph.add((C.former, DCTERMS.isReplacedBy, C.other))
+    assert any("Invalid canonical replacement" in x for x in identity_errors(graph))
+    graph.remove((C.former, DCTERMS.isReplacedBy, C.other))
+    graph.add((C.former, DCTERMS.isReplacedBy, C.missing))
+    assert any("Invalid canonical replacement" in x for x in identity_errors(graph))
