@@ -1,0 +1,19 @@
+{
+  "candidate_graph_counts": {
+    "alignments": 234,
+    "asserted": 13483,
+    "inferred": 3093,
+    "provenance": 19779
+  },
+  "candidate_manifest_sha256": "f4a07846eec3be96093fd0f3db7417735549dbc08729d5105a8e191ca51b00c3",
+  "engine_jar_sha256": "d28c1eaf703122ee628895a460c20fa4aa60a892f435d403ea8c036f241da1f8",
+  "passed": [
+    "baseline-import",
+    "repeat-import",
+    "failure-rollback",
+    "successor-replacement-and-identity",
+    "tdb2-reopen",
+    "explicit-rollback"
+  ],
+  "predecessor_manifest_sha256": "06ea2b984dd414568fb5a925eb0fadb720ebdd46c044711fd514c623aceabfd3"
+}

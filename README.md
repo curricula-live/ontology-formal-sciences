@@ -31,7 +31,7 @@ Source documents land under sources/<id>/original and are verified on each acces
 The scheduled network audit verifies pinned documents and flags newer repository revisions or changed downloads. To adopt a revision, retain the old byte snapshot, fetch the new document separately, verify its license and checksum, change its source manifest in a branch, ingest it and refresh ingestion.json from the successful run. Rerun alignment and audit, then review affected decisions before updating the exports. Source updates never overwrite accepted decisions automatically.
 
 - [Processing scope, licensing and actual ingestion counts](docs/sources.md)
-- [v1.0.0 candidate readiness](docs/release-candidate-v1.md)
+- [v1.0.0-rc.2 readiness](docs/release-candidate-rc2.md)
 - [RDF package contract](docs/contract-v1.md)
 - [Editorial policy, provenance, predicates and inference](docs/model.md)
 - [v0.9.0 semantic audit](docs/semantic-audit-v0.9.md)
