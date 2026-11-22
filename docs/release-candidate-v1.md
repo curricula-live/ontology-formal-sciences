@@ -1,10 +1,19 @@
-# Formal sciences v1.0.0 Foundation candidate
+# Formal sciences v1.0.0-rc.1 Foundation candidate
 
 Branch `feat/formal-sciences` advances the verified v0.9.0 baseline
 `bb65b889cf8444ef66eb17860eeefec9d513aa10`. Use `git rev-parse HEAD`
 for the immutable candidate commit and `sha256sum dist/manifest.json`
 for the exact package digest at that commit. Preparation preserves
 `curricula.rdf-release/v1` and the four logical graph names.
+
+The review label is v1.0.0-rc.1. The manifest carries ontology version
+1.0.0 with candidate status. The candidate is available on the feature
+branch. Its exact manifest has SHA-256
+06ea2b984dd414568fb5a925eb0fadb720ebdd46c044711fd514c623aceabfd3.
+
+Independent hardening from PR #2 adds acyclic canonical SKOS navigation,
+order-independent matching regressions and adversarial package checks.
+The producer and reference consumer share the hierarchy check.
 
 The candidate retains every permanent concept IRI and reviewed mapping.
 The producer review corrected the transition-matrix carrier classification

@@ -131,12 +131,14 @@ def verify(directory, expected_digest=None):
             raise ValueError("Inferred graph differs from the release inference profile")
     if manifest.get("release"):
         from pipeline.curate.identities import lifecycle_errors
-        from pipeline.validate import identity_errors
+        from pipeline.validate import hierarchy_cycle_issue, identity_errors
 
         dataset = Dataset()
         dataset.parse(directory / "formal-sciences.nq", format="nquads")
         asserted, provenance = dataset.graph(G.asserted), dataset.graph(G.provenance)
         errors = identity_errors(asserted) + lifecycle_errors(asserted, provenance)
+        if cycle := hierarchy_cycle_issue(asserted):
+            errors.append(cycle)
         if errors:
             raise ValueError("; ".join(errors))
     return counts

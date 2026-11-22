@@ -1,6 +1,6 @@
 # PR #1 description draft
 
-## Formal sciences v1.0.0 Foundation candidate
+## Formal sciences v1.0.0-rc.1 Foundation candidate
 
 This branch prepares the first standalone RDF import candidate under
 `curricula.rdf-release/v1`. The package retains the four logical named

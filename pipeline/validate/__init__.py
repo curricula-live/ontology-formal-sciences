@@ -1,3 +1,5 @@
+from collections import deque
+
 from rdflib import Graph, OWL, RDF, SKOS, RDFS, URIRef, Literal
 from rdflib.namespace import DCTERMS
 from pyshacl import validate
@@ -14,6 +16,35 @@ RELATIONS = {
     V.implementsAlgorithm, V.hasEvaluationComponent, V.reportsEvaluationMeasure,
     V.executesImplementation, V.documentsEvaluationOutput,
 }
+
+
+def hierarchy_cycle_issue(graph):
+    """Reject directed cycles in the editorial SKOS broader hierarchy.
+
+    SKOS itself does not impose general acyclicity. This is an explicit
+    constraint of Curricula's canonical navigation hierarchy; source-native
+    SKOS graphs are not subject to this additional editorial rule.
+    """
+    links = {}
+    indegree = {}
+    for child, parent in graph.subject_objects(SKOS.broader):
+        links.setdefault(child, set()).add(parent)
+        indegree.setdefault(child, 0)
+        indegree[parent] = indegree.get(parent, 0) + 1
+    queue = deque(node for node, degree in indegree.items() if degree == 0)
+    removed = 0
+    while queue:
+        child = queue.popleft()
+        removed += 1
+        for parent in links.get(child, ()):
+            indegree[parent] -= 1
+            if indegree[parent] == 0:
+                queue.append(parent)
+    if removed == len(indegree):
+        return None
+    remaining = sorted(str(node) for node, degree in indegree.items() if degree > 0)
+    return (f"Canonical SKOS broader hierarchy cycle detected "
+            f"({len(remaining)} affected nodes; examples: {remaining[:3]})")
 
 
 def identity_errors(graph):
@@ -46,6 +77,8 @@ def check(graph, provenance=None):
         shapes.parse(path)
     conforms, _, message = validate(graph, shacl_graph=shapes, inference="none")
     errors = identity_errors(graph)
+    if cycle_issue := hierarchy_cycle_issue(graph):
+        errors.append(cycle_issue)
     if provenance is not None:
         from pipeline.curate.identities import lifecycle_errors
 
