@@ -104,3 +104,5 @@ action. Exclusion actions describe publication scope for this profile.
 A witness may also link to a scoped endpoint-projection entity with
 the native endpoint, canonical subject, evidence fingerprint and reviewed
 reason. It provides source-aware resolution for the statement.
+
+The manifest identifies the separately distributed repository-level NOTICE.md and its digest. Keep the notice with the release when redistributing, outside the verified six-file RDF package directory.

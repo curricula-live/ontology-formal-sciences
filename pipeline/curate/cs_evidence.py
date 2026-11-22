@@ -23,7 +23,7 @@ EVIDENCE_MODES = {"source statement", "implementation observation", "formal sour
 PERMITTED = {
     "analyzes", "appliesToModel", "computes", "estimates", "guarantees", "hasInputStructure", "hasModelingAssumption",
     "hasProperty", "implementsAlgorithm", "invokesAlgorithm", "recognizesExactly", "represents",
-    "requiresAssumption", "requiresPremise", "solves", "supportsOperation", "uses",
+    "requiresAssumption", "requiresPremise", "solves", "supportsOperation", "uses", "usesReferenceDistribution",
 }
 
 

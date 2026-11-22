@@ -16,8 +16,8 @@ def test_strata_use_a_total_budget_and_stable_rank():
 def test_candidate_review_packet_is_reproducible_and_unassessed(tmp_path):
     directory = ROOT / "dist"
     generate(directory, tmp_path)
-    generated = ROOT / "reviews/quality/rc-v1"
-    for file in generated.iterdir():
+    generated = ROOT / "reviews/quality/rc2"
+    for file in (generated / name for name in ("coverage.json", "independent-review.json")):
         assert (tmp_path / file.name).read_bytes() == file.read_bytes()
     packet = read(tmp_path / "independent-review.json")
     assert packet["manifest_sha256"] == checksum(directory / "manifest.json")

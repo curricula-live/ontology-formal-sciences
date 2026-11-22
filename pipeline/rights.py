@@ -4,7 +4,7 @@ from collections import defaultdict
 
 from rdflib.namespace import DCTERMS
 
-from pipeline.common import BASE, ROOT, read
+from pipeline.common import BASE, ROOT, checksum, read
 from pipeline.curate.cs_evidence import file_url, review_inputs
 
 NATIVE = {"opencs", "ontomath-pro", "stato", "mathmoddb", "ml-schema"}
@@ -99,6 +99,8 @@ def inventory(sources, provenance):
         "project": {"software": "MIT", "authored_rdf_and_editorial_mappings": "CC-BY-4.0",
                     "credit": "Curricula contributors", "notice": "LICENSE"},
         "sources": result,
+        "distribution_notice": {"path": "NOTICE.md", "sha256": checksum(ROOT / "NOTICE.md"),
+                                "applies_to": ["native:openmath", "native:stato", "passage:opendsa"]},
         "reference_policy": policy["reference_policy"],
         "scope": "Disposition refers to the reviewed publication channel. External material retains its own terms.",
     }

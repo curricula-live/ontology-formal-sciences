@@ -24,7 +24,7 @@ jobs:
           test -z "$(git status --porcelain --untracked-files=all -- dist)"
       - name: Check the pinned successor and regenerate reviewer evidence
         run: |
-          baseline=$(jq -r .baseline.commit reviews/quality/rc-v1-plan.json)
+          baseline=$(jq -r .baseline.commit reviews/quality/rc2-plan.json)
           git fetch --no-tags --depth=1 origin "$baseline"
           mkdir "$RUNNER_TEMP/predecessor"
           git archive "$baseline" dist | tar -x -C "$RUNNER_TEMP/predecessor"

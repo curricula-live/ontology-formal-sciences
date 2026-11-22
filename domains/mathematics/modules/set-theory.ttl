@@ -43,7 +43,7 @@ c:complete-lattice a skos:Concept ; skos:prefLabel "Complete lattice"@en ;
 
 c:knaster-tarski-fixed-point-theorem a skos:Concept ; skos:prefLabel "Knaster–Tarski fixed-point theorem"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:lattice-order-theory ;
-    skos:definition "The fixed points of a monotone self-map of a complete lattice form a complete lattice, with extrema in the original order."@en .
+    skos:definition "The fixed points of a monotone self-map of a complete lattice form a complete lattice under the induced order. Suprema and infima in the fixed-point lattice can differ from the corresponding bounds in the ambient lattice."@en .
 
 c:galois-connection a skos:Concept ; skos:prefLabel "Galois connection between partially ordered sets"@en ;
     skos:inScheme scheme:mathematics ; skos:broader c:partial-order ;

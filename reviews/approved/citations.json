@@ -660,12 +660,6 @@
     "https://doi.org/10.1090/S0025-5718-1981-0606517-5"
   ],
   [
-    "opencs-c39942",
-    "computes",
-    "irreducible-polynomial",
-    "https://doi.org/10.1090/S0025-5718-1981-0606517-5"
-  ],
-  [
     "equal-degree-polynomial-factorization",
     "uses",
     "polynomial-ring",
@@ -1419,18 +1413,6 @@
     "resolution-logic",
     "hasProperty",
     "propositional-resolution-soundness",
-    "https://doi.org/10.1145/321250.321253"
-  ],
-  [
-    "propositional-resolution-soundness",
-    "uses",
-    "logical-disjunction",
-    "https://doi.org/10.1145/321250.321253"
-  ],
-  [
-    "propositional-resolution-soundness",
-    "uses",
-    "logical-negation",
     "https://doi.org/10.1145/321250.321253"
   ],
   [

@@ -1,0 +1,156 @@
+{
+  "baseline": {
+    "commit": "bb65b889cf8444ef66eb17860eeefec9d513aa10",
+    "manifest_sha256": "8b3395353d73cd3b3365933abfe9d3a0bdcc20f4be0757e01115994d8f278919"
+  },
+  "rejected_mappings": [
+    "cso-finite-automaton",
+    "ontomath-pro-v02-review-e850"
+  ],
+  "rejected_projections": {
+    "ml-schema": [
+      [
+        "Run",
+        "output",
+        "Model"
+      ]
+    ],
+    "ontomath-pro": [
+      [
+        "E285",
+        "P1",
+        "E1030"
+      ]
+    ],
+    "stato": [
+      [
+        "0000077",
+        "input",
+        "0000227"
+      ]
+    ]
+  },
+  "relation_families": {
+    "formal-results-and-conditions": [
+      "hasProperty",
+      "guarantees",
+      "proves",
+      "requiresPremise",
+      "recognizesExactly"
+    ],
+    "methods-and-dependencies": [
+      "uses",
+      "invokesAlgorithm",
+      "implementsAlgorithm",
+      "executesImplementation",
+      "supportsOperation",
+      "solves",
+      "analyzes",
+      "computes",
+      "hasInputStructure",
+      "requiresAssumption"
+    ],
+    "representations-and-models": [
+      "represents",
+      "hasDiscretization",
+      "hasWeakFormulation",
+      "hasApproximation",
+      "hasModelingAssumption",
+      "appliesToModel",
+      "hasFormulationComponent",
+      "isSolutionOf"
+    ],
+    "statistical-and-evaluation-roles": [
+      "usesReferenceDistribution",
+      "estimates",
+      "producesEstimate",
+      "hasEvaluationComponent",
+      "reportsEvaluationMeasure",
+      "documentsEvaluationOutput"
+    ]
+  },
+  "review_predecessor": {
+    "commit": "083f22b2f25c5cb520838c6b3eec22fea0072b6c",
+    "manifest_sha256": "06ea2b984dd414568fb5a925eb0fadb720ebdd46c044711fd514c623aceabfd3"
+  },
+  "sample_sizes": {
+    "alignments": 20,
+    "concepts": 32,
+    "scientific_relations": 48
+  },
+  "seed": "formal-sciences:1.0.0-rc.2:independent-review:v1",
+  "target_relations": [
+    [
+      "opencs-c24154",
+      "solves",
+      "assignment-problem",
+      "Direction from method to problem, with the problem linked separately to its input structure."
+    ],
+    [
+      "princeton-dijkstra-implementation",
+      "implementsAlgorithm",
+      "dijkstra-s-algorithm",
+      "Scope of implementation versus algorithm."
+    ],
+    [
+      "topological-sorting",
+      "requiresAssumption",
+      "directed-acyclic-graph",
+      "Condition on the input and archived former generic dependency."
+    ],
+    [
+      "bayes-theorem",
+      "requiresPremise",
+      "positive-bayes-conditioning-probabilities",
+      "Ordinary ratios versus totalized formal conditional measures."
+    ],
+    [
+      "stato-0000304",
+      "usesReferenceDistribution",
+      "stato-0000059",
+      "Approximate reference distribution and experimental scope."
+    ],
+    [
+      "density-moment-integral",
+      "containsSymbol",
+      "scalar-multiplication",
+      "Expression occurrence stays outside scientific connectivity."
+    ],
+    [
+      "opencs-c42922",
+      "recognizesExactly",
+      "deterministic-context-free-language",
+      "Acceptance convention and strict distinction from nondeterministic PDA."
+    ],
+    [
+      "opencs-c24725",
+      "uses",
+      "ontomath-pro-e1700",
+      "Gradient dependence, with no exact user-supplied Hessian requirement."
+    ],
+    [
+      "transition-matrix",
+      "skos:broader",
+      "matrix",
+      "The reviewed replacement classifies a mathematical carrier and archives the former uses statement."
+    ],
+    [
+      "gradient-descent",
+      "uses",
+      "ontomath-pro-e1700",
+      "Vector gradient in the Euclidean differentiable case."
+    ],
+    [
+      "principal-component-analysis",
+      "uses",
+      "singular-value-decomposition",
+      "Column-mean-centered inputs for the sample covariance correspondence."
+    ],
+    [
+      "opencs-c39942",
+      "solves",
+      "equal-degree-polynomial-factorization",
+      "Scoped randomized finite-field factorization."
+    ]
+  ]
+}

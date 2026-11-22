@@ -12,6 +12,7 @@ from pipeline.curate.openmath import apply_formal_properties
 from pipeline.curate.mathlib_evidence import apply_declarations
 from pipeline.curate.cs_evidence import apply_reviewed_claims
 from pipeline.curate.revisions import apply_revisions
+from pipeline.curate import rc2
 from pipeline.curate.identities import apply_migrations
 from pipeline.curate.roles import apply_roles, role_profile
 from pipeline.rights import inventory as rights_inventory
@@ -45,8 +46,10 @@ def build(dest=None):
     migrations = apply_migrations(graph, prov)
     kernel_probe = apply_kernel_probe(graph, prov)
     apply_roles(graph, prov)
+    rc2.apply(graph, prov)
     roles, role_errors = role_profile(graph, prov)
     report = check(graph, prov)
+    role_errors.extend(rc2.findings(graph, prov))
     if role_errors:
         report["conforms"] = False
         report["findings"].extend(sorted(role_errors))

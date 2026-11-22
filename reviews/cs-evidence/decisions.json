@@ -3407,5 +3407,125 @@
     "last": 600,
     "path": "doc/modules/model_evaluation.rst",
     "sha256": "d42a52b0a7ae4748453f76884d3bf9dff82f73201f8069c59a4a46b93652d867"
+  },
+  {
+    "corpus": "openstax-conditional",
+    "first": 202,
+    "introduced": "1.0.0-rc.2",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "The textbook supplies the ordinary conditional ratio. Applying it in both directions and equating the common joint probability yields the Bayes ratio when both denominators are positive.",
+        "state": "approved",
+        "triple": [
+          "bayes-theorem",
+          "requiresPremise",
+          "positive-bayes-conditioning-probabilities"
+        ]
+      }
+    ],
+    "last": 205,
+    "path": "modules/m62128/index.cnxml",
+    "sha256": "99d2950085dd0adaa597420c8139b6f03b08b31bc443c1fbc07f36afb12dff3e"
+  },
+  {
+    "corpus": "d2l-gradient",
+    "first": 131,
+    "introduced": "1.0.0-rc.2",
+    "judgments": [
+      {
+        "evidence_mode": "source statement",
+        "scope": "The Euclidean multivariate update subtracts a positive step size times the gradient vector. A choice of step size affects descent and convergence.",
+        "state": "approved",
+        "triple": [
+          "gradient-descent",
+          "uses",
+          "ontomath-pro-e1700"
+        ]
+      }
+    ],
+    "last": 144,
+    "path": "chapter_optimization/gd.md",
+    "sha256": "d1ecb7bad10f392fd5693c37fe1fb1a1cf323af5084ad8d0555f35bce24f06ad"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 15,
+    "introduced": "1.0.0-rc.2",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "The text distinguishes acceptance in a final state after the input is read from empty-stack acceptance. Read together with its separate definition of deterministic CFLs.",
+        "state": "approved",
+        "triple": [
+          "opencs-c42922",
+          "recognizesExactly",
+          "deterministic-context-free-language"
+        ]
+      }
+    ],
+    "last": 22,
+    "path": "AV/PIFLA/PDA/PDAAcceptanceFS.js",
+    "sha256": "ae886b3a4fc8de28792f20a848208e0c52d0ecce448286a58ea2feca763f27e1"
+  },
+  {
+    "corpus": "opendsa",
+    "first": 9,
+    "introduced": "1.0.0-rc.2",
+    "judgments": [
+      {
+        "evidence_mode": "editorial interpretation",
+        "scope": "The machine linked by the deterministic-PDA definition supplies a final state. This example corroborates the convention, while the separate definition supplies the language-family claim.",
+        "state": "approved",
+        "triple": [
+          "opencs-c42922",
+          "recognizesExactly",
+          "deterministic-context-free-language"
+        ]
+      }
+    ],
+    "last": 31,
+    "path": "AV/OpenFLAP/machines/PDA/PDAExample1.jff",
+    "sha256": "6eab1a6330dd54ecdd8b9f757ac8894d01c33a977044a4a0d1a7c877ee4fbe1f"
+  },
+  {
+    "corpus": "scipy",
+    "first": 6289,
+    "introduced": "1.0.0-rc.2",
+    "judgments": [
+      {
+        "evidence_mode": "implementation observation",
+        "scope": "The unequal-variance standard error and Satterthwaite degrees of freedom are computed from the independent-sample variance estimates. Read with the t-law calculation.",
+        "state": "approved",
+        "triple": [
+          "stato-0000304",
+          "usesReferenceDistribution",
+          "stato-0000059"
+        ]
+      }
+    ],
+    "last": 6304,
+    "path": "scipy/stats/_stats_py.py",
+    "sha256": "2641bca1d46c1ee81c3648cdeabf8459f98d553fe6661d58b4dd6180e3de50f2"
+  },
+  {
+    "corpus": "scipy",
+    "first": 6817,
+    "introduced": "1.0.0-rc.2",
+    "judgments": [
+      {
+        "evidence_mode": "implementation observation",
+        "scope": "The unequal-variance branch supplies the degrees of freedom to the t-test implementation. Its Student t law is approximate in the generic unequal-variance case.",
+        "state": "approved",
+        "triple": [
+          "stato-0000304",
+          "usesReferenceDistribution",
+          "stato-0000059"
+        ]
+      }
+    ],
+    "last": 6835,
+    "path": "scipy/stats/_stats_py.py",
+    "sha256": "6bccda0a4dcb6bcffa5c56c14a3a27ed2902c12bb1ad9fed10126fde23e1a40d"
   }
 ]

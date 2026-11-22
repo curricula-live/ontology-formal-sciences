@@ -34,7 +34,7 @@ jobs:
           python -m pipeline.cli build
           python -m pipeline.package_check dist
           test -z "$(git status --porcelain --untracked-files=all -- dist)"
-      - name: Publish six versioned files
+      - name: Publish six package files and a separate attribution notice
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release create "$GITHUB_REF_NAME" --verify-tag --title "Formal sciences $GITHUB_REF_NAME" --generate-notes dist/*
+        run: gh release create "$GITHUB_REF_NAME" --verify-tag --title "Formal sciences $GITHUB_REF_NAME" --generate-notes dist/* NOTICE.md

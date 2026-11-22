@@ -79,6 +79,17 @@
     "revision": "6cb20a219a860eaf687b2d968b41c480c7461909",
     "rights": "PSF-2.0"
   },
+  "d2l-gradient": {
+    "attribution": "Aston Zhang, Zachary C. Lipton, Mu Li and Alexander J. Smola",
+    "files": {
+      "LICENSE": "a39a4b3d0f411a8217b7c6dd35dc8b06003784ce32d3593d0d2d780a7e9c2f8c",
+      "chapter_optimization/gd.md": "c614912211219b60e4cc91b1385b92ac5eb7cac77ca26b4e8c52fa02db810f76"
+    },
+    "license_path": "LICENSE",
+    "repository": "d2l-ai/d2l-en",
+    "revision": "23d7a5aecceee57d1292c56e90cce307f183bb0a",
+    "rights": "CC-BY-SA-4.0 (evidence references only)"
+  },
   "go": {
     "attribution": "The Go Authors",
     "files": {
@@ -180,8 +191,10 @@
   "opendsa": {
     "attribution": "OpenDSA contributors",
     "files": {
+      "AV/OpenFLAP/machines/PDA/PDAExample1.jff": "a29115b6a66087e1a3c9bc751a5ce8a4abb576dce43501060a9872c90b1e3cf1",
       "AV/PIFLA/PDA/DPDAFS.js": "9d3a36b322ca226088ec16de240446061ff6603f02146fe46020a6905c58bb9e",
       "AV/PIFLA/PDA/NCFLProofFS.js": "b30a2aff4a9387ad28372733568371ac5eac799b337af6130ce79241583d43b9",
+      "AV/PIFLA/PDA/PDAAcceptanceFS.js": "ae07d5d97af04f5874d8fb096595e55fca738ea613c492213df7151653f67550",
       "README.md": "c68d1de7a8dc5e74d36d4478fee59541eef6ff17b82279909a4003b0e5f675b1",
       "RST/en/Hashing/HashCImproved.rst": "7f174389cc234e742e1859903a8edcf192371c5b9bd01383271441a76c8d9696",
       "RST/en/Hashing/HashIntro.rst": "625a0be83942a3d73c40c54f12d23b1622d73ec5b649e1765bbf09eec7265cc6",
@@ -202,6 +215,17 @@
     "repository": "OpenDSA/OpenDSA",
     "revision": "7f7d2baa355e0b649982d1c48d17705185bfc2ea",
     "rights": "MIT (source repository notice)"
+  },
+  "openstax-conditional": {
+    "attribution": "OpenStax, Introductory Statistics",
+    "files": {
+      "LICENSE": "ab1a44bbba58252630134574d7b2534813339240eb645825ffcc2487dbe8114a",
+      "modules/m62128/index.cnxml": "5050e8d0297670a04c94e12933b450b1fa47e7dd9f83a0722d5268e3bbd2cf5c"
+    },
+    "license_path": "LICENSE",
+    "repository": "openstax/osbooks-introductory-statistics-bundle",
+    "revision": "24e9884724b13baba2b8879d03103cccafc7e25d",
+    "rights": "CC-BY-NC-SA-4.0 (evidence references only)"
   },
   "pgmpy": {
     "attribution": "pgmpy contributors",
@@ -247,7 +271,8 @@
       "scipy/optimize/_lsq/least_squares.py": "edb25eca998c20b9cc10b3b22faf9b0861f9be5251209481b739f56d857b1b7c",
       "scipy/optimize/_optimize.py": "249d8c04cd780f14bc60150c363a8affb976fa3d425b2a8b87c6e63925c42b70",
       "scipy/optimize/_zeros_py.py": "e8d37fbc90fe42770c8219ef0c8a61a3d4717f64084d0b94d841888bff3b27dc",
-      "scipy/sparse/linalg/_isolve/iterative.py": "f9d7ace03295000d7b1a76dd12229208908a59140b741669e961b69733110e8f"
+      "scipy/sparse/linalg/_isolve/iterative.py": "f9d7ace03295000d7b1a76dd12229208908a59140b741669e961b69733110e8f",
+      "scipy/stats/_stats_py.py": "c1f98867bce4a0bdb336b6c33bd930bcf50f8b9aae6a654e1f9a6d2064bda3b4"
     },
     "license_path": "LICENSE.txt",
     "repository": "scipy/scipy",

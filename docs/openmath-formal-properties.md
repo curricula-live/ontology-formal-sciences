@@ -6,9 +6,8 @@ credited under the embedded derivative-work terms. The release names the
 original dictionary for each projected claim and retains the symbol's
 upstream IRI. The original XML remains in the checksum-pinned source archive.
 
-The profile selects ten official dictionaries and the experimental
-`combinat1` dictionary after checking their embedded notices. This
-permission is specific to the selected files. Each recorded property
+The profile selects 22 official dictionaries and the experimental
+`combinat1` dictionary after checking their embedded notices. The selected files and embedded conditions are recorded in [NOTICE](../NOTICE.md). Downstream rights review remains open. Each recorded property
 retains its owner symbol, ordinal, full expression digest, referenced
 symbols and outer expression shape. The review binds a symbol's
 mathematical sense to an existing or newly curated subject. It does not

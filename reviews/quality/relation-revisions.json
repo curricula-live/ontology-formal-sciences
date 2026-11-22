@@ -283,5 +283,178 @@
       "https://github.com/networkx/networkx/blob/4fa222d2fb157e1b7f8c753c9f92e5907d1ddeb4/networkx/algorithms/link_analysis/pagerank_alg.py#L220-L223"
     ],
     "sources": []
+  },
+  {
+    "former": [
+      "conflict-driven-clause-learning",
+      "uses",
+      "clause-learning"
+    ],
+    "former_modules": {
+      "logic/links/relations.ttl": "57c209e6e558d87918e2d6eade58b978e762e0eaf1d46ca6e573e7d86e80bc9c"
+    },
+    "rationale": "The broad component edge is redundant with the scoped CDCL procedure and does not specify a callable clause-learning subroutine.",
+    "replacement": null,
+    "review_release": "1.0.0-rc.2",
+    "sources": []
+  },
+  {
+    "former": [
+      "huffman-coding",
+      "uses",
+      "tree-graph-theory"
+    ],
+    "former_modules": {
+      "_shared/bridges/formal-sciences.ttl": "4afcd969acccf98eb856e938344a2b2d268d59faa2913939c09a20cdd4e80c4e"
+    },
+    "rationale": "The standard construction outputs a prefix code represented by a rooted binary tree. The generic tree edge obscures the output role.",
+    "replacement": [
+      "huffman-coding",
+      "computes",
+      "opencs-c39572"
+    ],
+    "review_release": "1.0.0-rc.2",
+    "sources": []
+  },
+  {
+    "former": [
+      "bias-of-an-estimator",
+      "uses",
+      "expected-value"
+    ],
+    "former_modules": {
+      "statistics/links/relations.ttl": "6d294df75f84b440e1d2b38aaade92e6fe082d038d3076f0f55915a1f802f7bc"
+    },
+    "rationale": "Bias is a property of an estimator. Where an expected value exists, it is the expected estimator value minus its target. A method-to-ingredient edge misstates that definition.",
+    "replacement": null,
+    "review_release": "1.0.0-rc.2",
+    "sources": []
+  },
+  {
+    "former": [
+      "probabilistic-graphical-model",
+      "uses",
+      "graph-graph-theory"
+    ],
+    "former_modules": {
+      "_shared/bridges/formal-sciences.ttl": "4afcd969acccf98eb856e938344a2b2d268d59faa2913939c09a20cdd4e80c4e"
+    },
+    "rationale": "The separately reviewed representation edge describes the supported scientific role: a graph encodes a factorization of a joint distribution.",
+    "replacement": [
+      "probabilistic-graphical-model",
+      "represents",
+      "joint-distribution"
+    ],
+    "review_release": "1.0.0-rc.2",
+    "sources": []
+  },
+  {
+    "former": [
+      "gradient-descent",
+      "uses",
+      "derivative"
+    ],
+    "former_modules": {
+      "_shared/bridges/formal-sciences.ttl": "4afcd969acccf98eb856e938344a2b2d268d59faa2913939c09a20cdd4e80c4e"
+    },
+    "rationale": "For differentiable objectives in Euclidean space, a standard gradient-descent update steps in the negative gradient direction. This scope identifies the vector gradient.",
+    "replacement": [
+      "gradient-descent",
+      "uses",
+      "ontomath-pro-e1700"
+    ],
+    "review_release": "1.0.0-rc.2",
+    "sources": []
+  },
+  {
+    "former": [
+      "graph-algorithm",
+      "uses",
+      "graph-graph-theory"
+    ],
+    "former_modules": {
+      "_shared/bridges/formal-sciences.ttl": "4afcd969acccf98eb856e938344a2b2d268d59faa2913939c09a20cdd4e80c4e"
+    },
+    "rationale": "The category does not name a particular algorithm or a precisely specified computational task. Reviewed problem-to-input assertions carry the more specific claim.",
+    "replacement": null,
+    "review_release": "1.0.0-rc.2",
+    "sources": []
+  },
+  {
+    "former": [
+      "opencs-c39942",
+      "computes",
+      "irreducible-polynomial"
+    ],
+    "former_modules": {
+      "_shared/bridges/foundations.ttl": "04e9c4536cb0100cbf9bdc02de97166ce29dfd25ae83f1f6e36bb9385c63c2ef"
+    },
+    "rationale": "The randomized equal-degree procedure factors square-free input polynomials over finite fields in the stated scope. The retained solves assertion identifies the factorization task without projecting a single polynomial as its general output.",
+    "replacement": [
+      "opencs-c39942",
+      "solves",
+      "equal-degree-polynomial-factorization"
+    ],
+    "review_release": "1.0.0-rc.2",
+    "sources": [
+      "https://doi.org/10.1090/S0025-5718-1981-0606517-5"
+    ]
+  },
+  {
+    "former": [
+      "propositional-resolution-soundness",
+      "uses",
+      "logical-disjunction"
+    ],
+    "former_modules": {
+      "logic/links/interdisciplinary.ttl": "a0c1c6fe975ae9b61a68a7518b3c1f07a177ddb1f932c3669d05e70912fa6bc8"
+    },
+    "rationale": "Soundness is a metatheoretic property of propositional resolution. Occurrence of a connective in the inference rule is distinct from a method-to-ingredient dependency.",
+    "replacement": null,
+    "review_release": "1.0.0-rc.2",
+    "sources": [
+      "https://doi.org/10.1145/321250.321253"
+    ]
+  },
+  {
+    "former": [
+      "propositional-resolution-soundness",
+      "uses",
+      "logical-negation"
+    ],
+    "former_modules": {
+      "logic/links/interdisciplinary.ttl": "a0c1c6fe975ae9b61a68a7518b3c1f07a177ddb1f932c3669d05e70912fa6bc8"
+    },
+    "rationale": "Soundness is a metatheoretic property of propositional resolution. Occurrence of a connective in the inference rule is distinct from a method-to-ingredient dependency.",
+    "replacement": null,
+    "review_release": "1.0.0-rc.2",
+    "sources": [
+      "https://doi.org/10.1145/321250.321253"
+    ]
+  },
+  {
+    "former": [
+      "bayes-theorem",
+      "uses",
+      "conditional-probability"
+    ],
+    "former_modules": {},
+    "rationale": "The Bayes identity is a result. Its ordinary conditional-ratio scope is recorded by the premise statement and its editorial review.",
+    "replacement": null,
+    "review_release": "1.0.0-rc.2",
+    "sources": [],
+    "withdraw_passage": true
+  },
+  {
+    "former": [
+      "comparison-sorting-lower-bound",
+      "uses",
+      "comparison-sort-decision-tree"
+    ],
+    "rationale": "The decision-tree argument establishes the lower bound. The result does not invoke a computational ingredient.",
+    "replacement": null,
+    "review_release": "1.0.0-rc.2",
+    "sources": [],
+    "withdraw_passage": true
   }
 ]

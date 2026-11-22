@@ -99,6 +99,6 @@ def check(graph, provenance=None):
     for s,p,o in graph:
         if p in RELATIONS and (s not in concepts or o not in concepts or s == o):
             errors.append(f"Invalid relation endpoints: {s} {p} {o}")
-        if p not in RELATIONS | administrative | {V.hasScientificRole,RDF.type,SKOS.prefLabel,SKOS.altLabel,SKOS.definition,SKOS.inScheme,RDFS.label,RDFS.domain,RDFS.range,RDFS.comment}:
+        if p not in RELATIONS | administrative | {V.hasScientificRole,RDF.type,SKOS.prefLabel,SKOS.altLabel,SKOS.scopeNote,SKOS.definition,SKOS.inScheme,RDFS.label,RDFS.domain,RDFS.range,RDFS.comment}:
             errors.append(f"Predicate outside asserted profile: {p}")
     return {"conforms":not errors,"findings":sorted(errors),"profile":"SHACL and closed-world editorial constraints"}

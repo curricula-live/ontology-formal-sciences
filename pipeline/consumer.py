@@ -31,13 +31,23 @@ def successor_changes(before, after):
     missing = old_concepts - new_concepts
     if missing:
         raise ValueError(f"Canonical IRI deleted: {min(missing)}")
-    scope_fields = (SKOS.prefLabel, SKOS.definition, SKOS.inScheme)
+    scope_fields = (SKOS.prefLabel, SKOS.inScheme)
     old_prov, new_prov = before.graph(G.provenance), after.graph(G.provenance)
     for concept in sorted(old_concepts):
         # A tombstone remains the same identity. A repurposed concept needs a fresh IRI.
         if (any(set(old.objects(concept, field)) != set(new.objects(concept, field)) for field in scope_fields)
                 or not set(old.objects(concept, SKOS.altLabel)) <= set(new.objects(concept, SKOS.altLabel))):
             raise ValueError(f"Canonical scope changed without an approved compatibility policy: {concept}")
+        old_definitions = set(old.objects(concept, SKOS.definition))
+        new_definitions = set(new.objects(concept, SKOS.definition))
+        if old_definitions != new_definitions and not (
+            len(old_definitions) == len(new_definitions) == 1
+            and (statement_for((concept, SKOS.definition, next(iter(new_definitions)))),
+                 PROV.wasRevisionOf, statement_for((concept, SKOS.definition, next(iter(old_definitions))))) in new_prov
+            and (statement_for((concept, SKOS.definition, next(iter(new_definitions)))),
+                 DCTERMS.type, Literal("same-identity definition correction")) in new_prov
+        ):
+            raise ValueError(f"Canonical definition changed without a same-identity review: {concept}")
         if old.value(concept, OWL.deprecated) == Literal(True) and (
             new.value(concept, OWL.deprecated) != Literal(True)
             or set(old.objects(concept, DCTERMS.isReplacedBy)) != set(new.objects(concept, DCTERMS.isReplacedBy))
@@ -51,8 +61,10 @@ def successor_changes(before, after):
         retired = statement_for(triple)
         revisions = new_prov.subjects(PROV.wasRevisionOf, retired)
         fields = (RDF.subject, RDF.predicate, RDF.object)
+        review_withdrawn = ((retired, DCTERMS.type, Literal("withdrawn interpretation")) in new_prov
+                            and new_prov.value(retired, DCTERMS.description))
         if (any((retired, field, value) not in new_prov for field, value in zip(fields, triple))
-                or not any(tuple(new_prov.value(revision, term) for term in fields) in new
+                or not review_withdrawn and not any(tuple(new_prov.value(revision, term) for term in fields) in new
                            and new_prov.value(revision, DCTERMS.description)
                            for revision in revisions)):
             raise ValueError(f"Asserted statement removed without an archived revision: {retired}")

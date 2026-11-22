@@ -13,5 +13,3 @@ c:conjunction-product-interpretation v:uses c:product-type .
 c:conjunction-product-interpretation v:represents c:logical-conjunction .
 c:conjunction-product-interpretation v:represents c:conjunction-introduction .
 c:resolution-logic v:hasProperty c:propositional-resolution-soundness .
-c:propositional-resolution-soundness v:uses c:logical-disjunction .
-c:propositional-resolution-soundness v:uses c:logical-negation .

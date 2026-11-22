@@ -69,3 +69,15 @@ Provenance distinguishes bibliography, source replay of exact passages or
 axioms, textual declarations, and the small set of locally checked Lean
 fixtures. Role and predicate QA and independent scientific agreement are
 separate checks.
+
+A statistical reference distribution may be exact or approximate. Read its
+scope on the reified claim. For Welch's independent two-sample test the
+Student t law with Welch–Satterthwaite degrees of freedom is approximate
+in the generic unequal-variance case. A source's generic specified-input
+axiom requires editorial evidence before it can support that role.
+
+MathModDB records mathematical tasks, formulations and model-context
+entries at different levels of detail. Canonical subjects preserve those
+reviewed scopes and native identifiers. A model-specific equation or
+task is not a general method or theory merely because it shares a label
+or predicate with one.

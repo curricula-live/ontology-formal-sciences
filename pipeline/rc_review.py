@@ -4,7 +4,7 @@ from collections import Counter, defaultdict
 from hashlib import sha256
 from pathlib import Path
 
-from rdflib import Literal, OWL, RDF, SKOS
+from rdflib import Literal, OWL, RDF, SKOS, URIRef
 from rdflib.namespace import DCTERMS, PROV
 
 from pipeline.common import BASE, C, G, ROOT, V, checksum, read, write
@@ -13,7 +13,7 @@ from pipeline.contract import read_json
 from pipeline.curate.relations import statement_for
 from pipeline.package_check import verify
 
-PLAN = ROOT / "reviews/quality/rc-v1-plan.json"
+PLAN = ROOT / "reviews/quality/rc2-plan.json"
 
 
 def local(iri):
@@ -151,6 +151,16 @@ def packet(manifest, data, plan):
             targeted_projections.append({"native_keys": keys, "source": source, "decision": "withheld",
                                          "snapshot_sha256": ledger["sha256"], "rationale": decision[3],
                                          "record": str(path.relative_to(ROOT)), "assessment": assessment()})
+    archived = []
+    for row in read(ROOT / "reviews/quality/relation-revisions.json"):
+        if row.get("review_release") != "1.0.0-rc.2":
+            continue
+        s, p, o = row["former"]
+        triple = C[s], V[p], C[o]
+        item = relation_info(triple, "provenance")
+        item["editorial_disposition"] = "corrected" if row["replacement"] else "withheld"
+        item["replacement"] = row["replacement"]
+        archived.append(item)
     return {
         "review_status": "prepared for independent review",
         "assessment_choices": ["supported_at_stated_scope", "unsupported", "incorrect_direction",
@@ -163,7 +173,7 @@ def packet(manifest, data, plan):
         "critical_census": {"role_assignments": role_census, "identity_migrations": migration_census,
                             "scientific_statements_without_citation": gap_census},
         "targeted": {"relation_scopes": targeted_relations, "rejected_mappings": targeted_mappings,
-                     "rejected_projections": targeted_projections},
+                     "rejected_projections": targeted_projections, "archived_interpretations": archived},
         "evidence_note": "A stored rationale records the producer judgment. Compare RDF terms, source snapshot and actual scientific scope before completing an assessment.",
     }
 
@@ -231,6 +241,53 @@ def coverage(manifest, data):
     }
 
 
+def impact(old_package, new_package, plan):
+    old_digest = plan["review_predecessor"]["manifest_sha256"]
+    verify(old_package / "dist", old_digest)
+    previous = read(old_package / "reviews/quality/rc-v1/independent-review.json")
+    if previous["manifest_sha256"] != old_digest:
+        raise ValueError("Reviewed packet does not match the pinned rc.1 package")
+    before = dataset((old_package / "dist/formal-sciences.nq").read_bytes())
+    after = dataset((new_package / "formal-sciences.nq").read_bytes())
+    successor_changes(before, after)
+    old_asserted, new_asserted = before.graph(G.asserted), after.graph(G.asserted)
+    old_prov, new_prov = before.graph(G.provenance), after.graph(G.provenance)
+    reviewed_predicates = (SKOS.definition, SKOS.scopeNote, SKOS.broader, SKOS.inScheme, V.hasScientificRole)
+
+    def changed(subject):
+        return any(set(old_asserted.objects(subject, p)) != set(new_asserted.objects(subject, p))
+                   for p in reviewed_predicates)
+
+    def disposition(row):
+        terms = row.get("triple")
+        if terms and row.get("graph") == str(G.asserted):
+            reference = URIRef(row["id"])
+            triple = tuple(old_prov.value(reference, p) for p in (RDF.subject, RDF.predicate, RDF.object))
+            if triple in old_asserted and triple not in new_asserted:
+                return "corrected" if any(new_prov.subjects(PROV.wasRevisionOf, reference)) else "withheld"
+            if set(old_prov.predicate_objects(reference)) != set(new_prov.predicate_objects(reference)):
+                return "corrected"
+            if changed(URIRef(terms[0])) or (terms[2].startswith(BASE) and changed(URIRef(terms[2]))):
+                return "requires re-review"
+        if row.get("concept") and changed(URIRef(row["concept"]["iri"])):
+            return "corrected"
+        return "unchanged"
+
+    items = []
+    for section in ("representative", "critical_census", "targeted"):
+        for family, value in sorted(previous[section].items()):
+            rows = value["sample"] if section == "representative" else value
+            for index, row in enumerate(rows, 1):
+                items.append({"section": section, "family": family, "ordinal": index,
+                              "id": row.get("id", row.get("native_keys")),
+                              "disposition": disposition(row)})
+    return {"predecessor_manifest_sha256": old_digest,
+            "manifest_sha256": checksum(new_package / "manifest.json"),
+            "scope": "Published rc.1 packet items. External item-level verdicts were not supplied.",
+            "counts": dict(Counter(row["disposition"] for row in items)), "items": items}
+
+
+
 def generate(package, output):
     manifest = read_json(package / "manifest.json")
     data = dataset((package / "formal-sciences.nq").read_bytes())
@@ -245,6 +302,7 @@ if __name__ == "__main__":
     parser.add_argument("--package", type=Path, default=ROOT / "dist")
     parser.add_argument("--output", type=Path)
     parser.add_argument("--predecessor", type=Path)
+    parser.add_argument("--review-predecessor", type=Path)
     args = parser.parse_args()
     verify(args.package)
     if args.predecessor:
@@ -253,3 +311,5 @@ if __name__ == "__main__":
                                  for path in (args.predecessor, args.package))))
     if args.output:
         generate(args.package, args.output)
+        if args.review_predecessor:
+            write(args.output / "change-impact.json", impact(args.review_predecessor, args.package, read(PLAN)))

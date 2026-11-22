@@ -14,5 +14,6 @@ WHERE {
     ?review dct:subject ?statement ; dct:type ?mode ; dct:description ?scope ;
       prov:wasDerivedFrom ?evidence .
     ?evidence prov:hadPrimarySource ?source .
+    FILTER(CONTAINS(STR(?source), "openstax/osbooks-introductory-statistics-bundle"))
   }
 }

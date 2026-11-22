@@ -60,3 +60,5 @@ coverage, `python -m pipeline.package_check dist` to verify a package
 independently and `python -m pipeline.competency` to run the published
 SPARQL queries. Compare two manifests with
 `python -m pipeline.quality OLD_MANIFEST NEW_MANIFEST`.
+
+See [external attribution and source notices](NOTICE.md) for the source-specific publication terms. Future release archives attach this notice separately from the six-file RDF package.

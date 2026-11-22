@@ -72,8 +72,8 @@ def test_published_competencies():
     assert pairs("finite-field-factorization", "method", "assumption") == {
         (str(C["opencs-c39942"]), str(C["square-free-polynomial"]))
     }
-    assert pairs("finite-field-factorization", "method", "output") == {
-        (str(C["opencs-c39942"]), str(C["irreducible-polynomial"]))
+    assert pairs("finite-field-factorization", "method", "problem") == {
+        (str(C["opencs-c39942"]), str(C["equal-degree-polynomial-factorization"]))
     }
     assert {
         str(C["number-theory"]), str(C["numerical-analysis"]),
