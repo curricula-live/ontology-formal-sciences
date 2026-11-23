@@ -92,7 +92,8 @@ def validate_rights(rights, native_sources):
     if notice is not None and (
         not isinstance(notice, dict) or notice.get("path") != "NOTICE.md"
         or not isinstance(notice.get("sha256"), str) or not DIGEST.fullmatch(notice["sha256"])
-        or notice.get("applies_to") != ["native:openmath", "native:stato", "passage:opendsa"]
+        or notice.get("applies_to") not in (["native:openmath", "native:stato", "passage:opendsa"],
+            ["native:openmath", "native:stato", "passage:opendsa", "passage:openstax-conditional", "passage:d2l-gradient"])
     ):
         raise ValueError("Invalid separate source notice metadata")
     families = rights.get("sources")

@@ -78,3 +78,14 @@ carries no separate licence notice in its bytes. Curricula distributes
 references, file and passage fingerprints, and its own scientific judgments.
 The underlying textbook text, code and examples stay outside the public
 RDF package. Owner confirmation of the evidence-only scope remains open.
+
+## OpenStax evidence-only
+
+The original source is [OpenStax, Introductory Statistics](https://github.com/openstax/osbooks-introductory-statistics-bundle/tree/24e9884724b13baba2b8879d03103cccafc7e25d).
+Its pinned [LICENSE](https://github.com/openstax/osbooks-introductory-statistics-bundle/blob/24e9884724b13baba2b8879d03103cccafc7e25d/LICENSE) states **CC BY-NC-SA 4.0**. Curricula uses the source as evidence for independently authored, scoped mathematical assertions, retaining pinned URLs and file/passage fingerprints. No copied OpenStax textbook prose or figures are included in the published RDF. The source's noncommercial and share-alike conditions remain applicable to its own material. This evidence-only publication channel awaits owner or qualified rights confirmation; the derived-rights implications are not declared resolved.
+
+## Dive into Deep Learning (d2l) evidence-only
+
+Credit Aston Zhang, Zachary C. Lipton, Mu Li and Alexander J. Smola for the cited [Dive into Deep Learning](https://github.com/d2l-ai/d2l-en/tree/23d7a5aecceee57d1292c56e90cce307f183bb0a) source. The pinned [LICENSE](https://github.com/d2l-ai/d2l-en/blob/23d7a5aecceee57d1292c56e90cce307f183bb0a/LICENSE) states **CC BY-SA 4.0**. Curricula publishes a separately authored gradient-descent interpretation, its citation and source fingerprints; it does not redistribute the original textbook passage, figures or code. The source's attribution and share-alike conditions remain applicable to its own material. Owner or qualified rights confirmation is still required for the evidence-only channel.
+
+These evidence-only notices do not grant permission to redistribute source material outside the recorded release channels.

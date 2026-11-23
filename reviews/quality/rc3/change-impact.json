@@ -1,0 +1,1114 @@
+{
+  "counts": {
+    "unchanged": 156
+  },
+  "items": [
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "cso-software-engineering",
+      "ordinal": 1,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "opencs-polynomial-time-reduction",
+      "ordinal": 2,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "opencs-computability-theory",
+      "ordinal": 3,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "opencs-lambda-calculus",
+      "ordinal": 4,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "opencs-priority-queue",
+      "ordinal": 5,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "opencs-v06-review-c32546",
+      "ordinal": 6,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "opencs-supervised-learning",
+      "ordinal": 7,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "cso-relational-algebra",
+      "ordinal": 8,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "opencs-v05-review-c22394",
+      "ordinal": 9,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "opencs-v06-review-c16252",
+      "ordinal": 10,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "opencs-model-checking",
+      "ordinal": 11,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "opencs-unit-propagation",
+      "ordinal": 12,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "opencs-boolean-algebra",
+      "ordinal": 13,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "opencs-directed-graph",
+      "ordinal": 14,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "opencs-cartesian-product",
+      "ordinal": 15,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "ontomath-pro-group",
+      "ordinal": 16,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "opencs-bayes-theorem",
+      "ordinal": 17,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "opencs-linear-regression",
+      "ordinal": 18,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "opencs-v06-review-c6947",
+      "ordinal": 19,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "alignments",
+      "id": "ontomath-pro-v02-review-e2434",
+      "ordinal": 20,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/polynomial-time",
+      "ordinal": 1,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/decision-tree-learning",
+      "ordinal": 2,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/opencs-c42059",
+      "ordinal": 3,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/opencs-c14329",
+      "ordinal": 4,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/opencs-c26767",
+      "ordinal": 5,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/opencs-c122",
+      "ordinal": 6,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/opencs-c31656",
+      "ordinal": 7,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/opencs-c22643",
+      "ordinal": 8,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/opencs-c8660",
+      "ordinal": 9,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/opencs-c14185",
+      "ordinal": 10,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/opencs-c38067",
+      "ordinal": 11,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/opencs-c34946",
+      "ordinal": 12,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/free-variable",
+      "ordinal": 13,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/typing-judgment",
+      "ordinal": 14,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/real-sine-addition",
+      "ordinal": 15,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/set-union",
+      "ordinal": 16,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/set-difference",
+      "ordinal": 17,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/mathmoddb-q6674148",
+      "ordinal": 18,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e1030",
+      "ordinal": 19,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e262",
+      "ordinal": 20,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e1725",
+      "ordinal": 21,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e1609",
+      "ordinal": 22,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e742",
+      "ordinal": 23,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e93",
+      "ordinal": 24,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e2373",
+      "ordinal": 25,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e2963",
+      "ordinal": 26,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/null-hypothesis",
+      "ordinal": 27,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/ontomath-pro-e2411",
+      "ordinal": 28,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/stato-0000565",
+      "ordinal": 29,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/stato-0000276",
+      "ordinal": 30,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/stato-0000507",
+      "ordinal": 31,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "concepts",
+      "id": "https://curricula.live/id/formal-sciences/concept/stato-0000464",
+      "ordinal": 32,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/4eeafbb4d4fd32c605b21ee4fbca1b2eb1f7938cb0adc2d8d6e10ba5425c133f",
+      "ordinal": 1,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/2477beadf6518c4800584e7ce753bfedd698964afd49b0226b840ad4c2ed64b3",
+      "ordinal": 2,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/2861551b72c21f5566e030b867fedaf0b295c3fec20f2fe1477fe76c22b040a1",
+      "ordinal": 3,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/3936f14aaf40a4e306d14c20517a2d81cc0fc97d7ab44a3843a1c2b373c2d872",
+      "ordinal": 4,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/7cc5c99ae1d011264270c59a28150cb79d810aaad0664acadaeb51ea9c7ab9d5",
+      "ordinal": 5,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/c5782c1ab65876c8c306150ef0cfaea82a0acfbe3d61ab3de2854d24b4c27cde",
+      "ordinal": 6,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/f4cdb27bab54f271ba1e19028156f77714fc62ab3122ab11ef595d9a672c42fe",
+      "ordinal": 7,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/8bf3e858879d6ce96b1be23ab7881142d81eedd1e7adb3e426814f1ac8fc2d56",
+      "ordinal": 8,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/a21850245547502a8f3fb59437080ed1f395f38ed8616b2b57b714eb5424345e",
+      "ordinal": 9,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/ff1a1d8719a6fe0018881575f330a0db5396d2856fbf45c8013721f5b10c1822",
+      "ordinal": 10,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/09592da8ce53671e539ed5dd1f92501c1377ca1d4eba0dd8917fee967235bb8c",
+      "ordinal": 11,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/cf38a6361656fe18d983395653dc89d2b2485ee6214a37b36f7b5b3d1f890dab",
+      "ordinal": 12,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/f147cf45d4929c326cb25a16518f4532c93b3a499ac9cfdd21bc3baa1edaca43",
+      "ordinal": 13,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/442cb2ced6f2ff91501c4df03dcc541a9ad9ed7b788841b0d0b83b5c7cb6ff94",
+      "ordinal": 14,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/3e90315922a99168515a9549ce57db1841b62acac30ca38d4669d23845f1b1ee",
+      "ordinal": 15,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/33f17202edee11aac0165e855144a02c7856bc51dbb167e60273e083f80e71f3",
+      "ordinal": 16,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/10b0c64636d35058de2c5bf90071603497f8a26f117d5947d7d7e80aad01abfc",
+      "ordinal": 17,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/a614592fdc2efe706afd888d6ff8d00ccec4b6434ac9a03653592e24c6ef888f",
+      "ordinal": 18,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/33168173add5c4f1abbf0caca2ae436297ccc11fb3ee086d522c0867fcff9a2c",
+      "ordinal": 19,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/edcc148e28bc3fe87921a003f7a7affe991757fd0b1f656ae9f35839a248c013",
+      "ordinal": 20,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/24378e3dd31d7f6417ff56ee59c58169689160b6381267e89a3f63a60e97a0aa",
+      "ordinal": 21,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/dc560d6d8b577ae6798c4ace1cc1c13b77ead384131015ceb26ad91a8f9addae",
+      "ordinal": 22,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/5d9b70867bd2902ecd10e1ea74f5c6c7cb89e890df63355b02b2810b3e8f5751",
+      "ordinal": 23,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/9a944624bb9d23e8927d3e2ad4fde69a5bba4ef2249062c8ea2cc994f3a1b02d",
+      "ordinal": 24,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/2b56fbb94ffd92a30d653066b3aa09d2e3e6f2e9362ef6ac6d4873cb8fbeb680",
+      "ordinal": 25,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/93e2bd13cebc0a51823bd3cac373e98d0918de8b2c63b85df53ef920ad438dc0",
+      "ordinal": 26,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/c6742f4ca8ce53e58c1a6a426b085b0a116b6982d1b7149f1a3e4cad5426470c",
+      "ordinal": 27,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/2c6507ca8e5e1048b2fac2d3cac8ca80d3b23f7287fdb046d3b2135db70686a5",
+      "ordinal": 28,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/841bb4f0db4e3d4beab0c9447b1a64ee36448d9a875244a9806ee193c793e2bf",
+      "ordinal": 29,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/c74881e4b3f9dcb9551ad19fa1783444c2cac7973b47ff338a3dca4f75c3c154",
+      "ordinal": 30,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/91ee121d2a5046d6a22d62e2bd729149de5e893c0d996f77f32f1763c41b528c",
+      "ordinal": 31,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/da7cb8d58390527bd638e3004441804fb3c7b9baf3770df6e9b64d80fe2d72e9",
+      "ordinal": 32,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/eca1fbbfb0904d51616bfbe10c077d6d764ba4e20e946108f216f5679aec97ed",
+      "ordinal": 33,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/c433acd3529658426ff0bca3520ca0e5af87855f0671e5d040743819cd4d9675",
+      "ordinal": 34,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/97fba6367a704eec88b5e5274a348a157b7337208a831c0afba737c4c73df6b9",
+      "ordinal": 35,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/c3ecbcd8987413687b8eccc0a4f7c709d705e6b2a0516adb25c0fe135058ea95",
+      "ordinal": 36,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/c6adba88fc6bdffd36a3583fa6e19e0060f9a4bafbee12568b508776ced2d7c0",
+      "ordinal": 37,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/a8190916e6ec366b684d7a2573439f6f5e44d812451dafb29363fcf13feaf268",
+      "ordinal": 38,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/ea7a101770ff9df3f680e9cd9e2b6b5494b16333fe0a6c25716edbc56785b905",
+      "ordinal": 39,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/16454251141f4bc9cf1630a5c094924925b15f4caa826cca7eefac112fcec7a3",
+      "ordinal": 40,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/14e3b4f8a4e55c5e38e10c5f7711d09e88e391c317a13e6880d06a6f29bbbf4a",
+      "ordinal": 41,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/1e1b65fba565a0b2c0dad7fec85de3deccf3989a8030d32ab28c4ea8437d509b",
+      "ordinal": 42,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/28107710ec2be20fad123dc583df39b9ef98a7e6c8824b98d0026ad54796e096",
+      "ordinal": 43,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/7deb59ec1f43d105abbdd262b7f66c21573a8607c587a157479499bb95d00605",
+      "ordinal": 44,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/bd1f13d2b4c3c1b1f7ac43f65110dd41caf993c9df495ec5d1f60ea4ef0303b7",
+      "ordinal": 45,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/8309ec5860eaa5878c8fe84272063d05049e969d05b4a6d7f6324ac0ef901915",
+      "ordinal": 46,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/b539e0155f425850336dbc7f4e0239b58fa50e45f1ba0e1d4387067e5c51ad85",
+      "ordinal": 47,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "scientific_relations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/65d20c9602f2f5763622c5f9ec60eb69715c1e40c7fdcec4d5a04e939e4ce869",
+      "ordinal": 48,
+      "section": "representative"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "identity_migrations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/64d12dbdddd8f1c2b335260d6e2c936e63ded2ad97fa19fe0e57f4b9f9eba2e8",
+      "ordinal": 1,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/ac5eaf8d9253d1fba5e10a42dd8123253ec9ce1c66b1fc07600be099073e5649",
+      "ordinal": 1,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/9ff9fbe98ff51d561d86c60c2f2f6a65d91c5b6c6aca0630215c3b52a4f42494",
+      "ordinal": 2,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/74dec9ed6e8842f7db7375339490ad9e891e97a5615fce5f2acf3b96f3e916be",
+      "ordinal": 3,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/0e6e39d4e946f78905a6abeab343a91cd9b68c452b5dfef6759e6222556d6f7b",
+      "ordinal": 4,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/a293e514ba2e9f49fabfb33e668ab548ba255bc329a3b9de2b039fcf8641423e",
+      "ordinal": 5,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/077b7be248389df48e5576d08ee8263afd7a451c2bbb89ddbeb43037599bdf62",
+      "ordinal": 6,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/9e3187bcf2e9b4284ba9ffb1a6fc2116bf61c871c079b922b90a9a017788b205",
+      "ordinal": 7,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/6bd9d81433b38436053e10c1e13643c161ec4e24c17ec83ff3796abac39a8b59",
+      "ordinal": 8,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/614377936e5df3d740625d2dfc2941a0873aa74fb3e1091ff8c0d2d789a4d722",
+      "ordinal": 9,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/f38778881796b21a50d6bbd81b4d2430ea60cca50f4365c202e2cf5e0748829d",
+      "ordinal": 10,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/82cba8c0ff0f02714fa3c6a3f8d99a0bd306d2fe25ea066cffa0d3ca0957039c",
+      "ordinal": 11,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/000cdb55d6d54d1669591c3f6ab1492f2ba035eb9491903f3c05a08adc1f8e9c",
+      "ordinal": 12,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/aca1d3fc309a411f08bfc5098f05ec17455115e4441463c4572914cd271b6597",
+      "ordinal": 13,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/50610d47aa57a11291066cbb1ba2d3c5b43bcb21658b7f1083722fc90bd8757f",
+      "ordinal": 14,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/ebc276cf2195574f35d739ae329a57c48af4f8451288737202af80985c663915",
+      "ordinal": 15,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/ec3cf4c0808a1344deb06b16e427695ccd4dd6749f47e4e9443d5f6ddd195681",
+      "ordinal": 16,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/f61e518ef5b68904a0a04e3e4fb392b09c99912966f300d1e98e85bdcc73bb86",
+      "ordinal": 17,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/12c483e9876436186dd566e4590f2fded34f78286dba2557128b56ba3157a630",
+      "ordinal": 18,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/924102b2746c38e58640662b4d886f871b2eb046779d76f716880f87ac01f417",
+      "ordinal": 19,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/2815cb2ae35bde29c9fd0c7e907544cf95567e7419263b7aabb4cc77bb1c6a1b",
+      "ordinal": 20,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/f8e8f9964db4aa65b7b7c1eec1681758f9691bc26e6578c091160c977a99630a",
+      "ordinal": 21,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/52aeb6bc27a307037e92ce9cd61d5c71a01addeeb5458ebd0ab2d9cca723c473",
+      "ordinal": 22,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/69f16beeca7ce5654b787be3718074dad5dc7cb39a785eb86eb34e52a2b72aa2",
+      "ordinal": 23,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/cd5a56387e00bf9bc3989e616680dcc53bafdc6c810888169357fb1e4c47fd82",
+      "ordinal": 24,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/16dd1fa15828ac8a5564ac6395260046c8252431708075bd75f3e518497a574d",
+      "ordinal": 25,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/2fb8245701af20fb50b4248cfbb3d37cda2885ea32d9324ff664cc4c2ad8fc34",
+      "ordinal": 26,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "role_assignments",
+      "id": "https://curricula.live/id/formal-sciences/assertion/6cf0e2bc0a8e6d4431f532542af806a3306953a39ffd769e146858dbb6180f6f",
+      "ordinal": 27,
+      "section": "critical_census"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "archived_interpretations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/1099d992deb69cc17dab020d0bfd9300d798ef2ba68b6b3080951693bf6e7243",
+      "ordinal": 1,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "archived_interpretations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/39731d1423f552edaf9ad823818da1ba0334ec49810adbd5dc49c8f173f56d9e",
+      "ordinal": 2,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "archived_interpretations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/49b3199dec97c752818dc26c63045cef4613cec5ab66e9c2026ab613a23188be",
+      "ordinal": 3,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "archived_interpretations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/57d2cd792d88df9ed0f5acdfe130f451990979560da8715a04ac2b518102bdd1",
+      "ordinal": 4,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "archived_interpretations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/cd1b0d82aa29f197257045d760a63b3a29476f86251b5fbf60795f72ea48eb3d",
+      "ordinal": 5,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "archived_interpretations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/fd000bda3c28475c1a66a91e6fdbbe40348f14dc4f419f6eaeef2bbbce2da16e",
+      "ordinal": 6,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "archived_interpretations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/0f8c6859bb87684f8790bafc2eb3f122a38758313d5deb26f928f90d0531f1a6",
+      "ordinal": 7,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "archived_interpretations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/190c1929c735efd7fdd6fe62aa179e06df7d4a1502ad678f17fbead151b95300",
+      "ordinal": 8,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "archived_interpretations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/89bc7ac64f7b9597f41ca62130803152c44ab25d957bcf35a28cc8c41ed443e1",
+      "ordinal": 9,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "archived_interpretations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/6e20d346329a746fcbf6279f31594643a7fa71a1a4ec8675212adc59db1c0198",
+      "ordinal": 10,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "archived_interpretations",
+      "id": "https://curricula.live/id/formal-sciences/assertion/d9c8c610c82317bc10f50f60cc979d0fa6acf23c75c644f04eaa718e3d0142d6",
+      "ordinal": 11,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "rejected_mappings",
+      "id": "cso-finite-automaton",
+      "ordinal": 1,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "rejected_mappings",
+      "id": "ontomath-pro-v02-review-e850",
+      "ordinal": 2,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "rejected_projections",
+      "id": [
+        "Run",
+        "output",
+        "Model"
+      ],
+      "ordinal": 1,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "rejected_projections",
+      "id": [
+        "E285",
+        "P1",
+        "E1030"
+      ],
+      "ordinal": 2,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "rejected_projections",
+      "id": [
+        "0000077",
+        "input",
+        "0000227"
+      ],
+      "ordinal": 3,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "relation_scopes",
+      "id": "https://curricula.live/id/formal-sciences/assertion/ab93963d92098f52b54f7fbf0131cfc29803c1ccbf1854d093f9e001363f7325",
+      "ordinal": 1,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "relation_scopes",
+      "id": "https://curricula.live/id/formal-sciences/assertion/f40f9e9dbd8f64727180a10ef958abf43a64aab534c922b48899fa3977de272c",
+      "ordinal": 2,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "relation_scopes",
+      "id": "https://curricula.live/id/formal-sciences/assertion/2271649438249da50769eedc773cd91a483c4e3315a171ebc15d0842b6d85d03",
+      "ordinal": 3,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "relation_scopes",
+      "id": "https://curricula.live/id/formal-sciences/assertion/b82e71d2cd66b166420a8ab2fe2767487c518968a9197088e8a98476e66d7c41",
+      "ordinal": 4,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "relation_scopes",
+      "id": "https://curricula.live/id/formal-sciences/assertion/6339e3adb7b5c10f6261809a8bcd612eeaea3b3d83d2c47e0c4a088a1b11f92a",
+      "ordinal": 5,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "relation_scopes",
+      "id": "https://curricula.live/id/formal-sciences/assertion/d46f38192c174ac2e4dd9b536f2b32d3ca3c2068834b4893737c3dd8dd163751",
+      "ordinal": 6,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "relation_scopes",
+      "id": "https://curricula.live/id/formal-sciences/assertion/368c602a28b31851cc2c5423adb9f185e1824f15d07dbfe4b5bbb87e87b401b7",
+      "ordinal": 7,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "relation_scopes",
+      "id": "https://curricula.live/id/formal-sciences/assertion/45cd1f05696b556d2a9107777a3757edaf1c32f39533d35974cc4e57b6a0a8ef",
+      "ordinal": 8,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "relation_scopes",
+      "id": "https://curricula.live/id/formal-sciences/assertion/cc1ed92dca11a83d9ae68a0fc6881f3152b4de6be75b36d453891c1f159e7e4c",
+      "ordinal": 9,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "relation_scopes",
+      "id": "https://curricula.live/id/formal-sciences/assertion/7cc5c99ae1d011264270c59a28150cb79d810aaad0664acadaeb51ea9c7ab9d5",
+      "ordinal": 10,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "relation_scopes",
+      "id": "https://curricula.live/id/formal-sciences/assertion/beb6d1c5b0c95c00c8ff658b8845bcf6556d0544638c4cbfbc1d5533f1460735",
+      "ordinal": 11,
+      "section": "targeted"
+    },
+    {
+      "disposition": "unchanged",
+      "family": "relation_scopes",
+      "id": "https://curricula.live/id/formal-sciences/assertion/2861551b72c21f5566e030b867fedaf0b295c3fec20f2fe1477fe76c22b040a1",
+      "ordinal": 12,
+      "section": "targeted"
+    }
+  ],
+  "manifest_sha256": "a30bf1f5e2baaf01b06c8efbc8d74eaea73d7bfceede586b34c94fe2d8f8d477",
+  "predecessor_manifest_sha256": "f4a07846eec3be96093fd0f3db7417735549dbc08729d5105a8e191ca51b00c3",
+  "scope": "Published rc.1 packet items. External item-level verdicts were not supplied."
+}
