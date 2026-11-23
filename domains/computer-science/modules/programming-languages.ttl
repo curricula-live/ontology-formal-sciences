@@ -1,0 +1,24 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:programming-languages a skos:Concept ; skos:prefLabel "Programming languages"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-science .
+
+c:lambda-calculus a skos:Concept ; skos:prefLabel "Lambda calculus"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:type-inference a skos:Concept ; skos:prefLabel "Type inference"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:lexical-scope a skos:Concept ; skos:prefLabel "Lexical scope"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:operational-semantics a skos:Concept ; skos:prefLabel "Operational semantics"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:programming-languages .
+
+c:hindley-milner-algorithm-w a skos:Concept ;
+    skos:prefLabel "Hindley–Milner Algorithm W"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:type-inference ;
+    skos:definition "Infer a most general type for expressions in the Hindley–Milner language by combining recursive inference, unification, and generalization at let bindings."@en .

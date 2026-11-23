@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:operating-systems a skos:Concept ; skos:prefLabel "Operating systems"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-science .
+
+c:virtual-memory a skos:Concept ; skos:prefLabel "Virtual memory"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:process-scheduling a skos:Concept ; skos:prefLabel "Process scheduling"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:page-replacement a skos:Concept ; skos:prefLabel "Page replacement"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .
+
+c:mutual-exclusion a skos:Concept ; skos:prefLabel "Mutual exclusion"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:operating-systems .

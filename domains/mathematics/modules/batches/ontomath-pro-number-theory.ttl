@@ -1,0 +1,48 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:ontomath-pro-e2114 a skos:Concept ; skos:prefLabel "Number"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:number-theory .
+
+c:ontomath-pro-e2116 a skos:Concept ; skos:prefLabel "Real number"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:number-theory .
+
+c:ontomath-pro-e2117 a skos:Concept ; skos:prefLabel "Rational number"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:number-theory .
+
+c:ontomath-pro-e2119 a skos:Concept ; skos:prefLabel "Natural number"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:number-theory .
+
+c:ontomath-pro-e2122 a skos:Concept ; skos:prefLabel "Even integer"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:number-theory .
+
+c:ontomath-pro-e2124 a skos:Concept ; skos:prefLabel "Hypercomplex number"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:number-theory .
+
+c:ontomath-pro-e2126 a skos:Concept ; skos:prefLabel "Transcendental number"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:number-theory .
+
+c:ontomath-pro-e2127 a skos:Concept ; skos:prefLabel "Complex number"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:number-theory .
+
+c:ontomath-pro-e2135 a skos:Concept ; skos:prefLabel "Lebesgue constant"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:number-theory .
+
+c:ontomath-pro-e2136 a skos:Concept ; skos:prefLabel "Landau constant"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:number-theory .
+
+c:ontomath-pro-e2141 a skos:Concept ; skos:prefLabel "Eulerian number"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:number-theory .
+
+c:ontomath-pro-e3132 a skos:Concept ; skos:prefLabel "Divisor"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:number-theory .
+
+c:ontomath-pro-e3136 a skos:Concept ; skos:prefLabel "Principal character"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:number-theory .
+
+c:ontomath-pro-e3138 a skos:Concept ; skos:prefLabel "Primitive character"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:number-theory .
+
+c:ontomath-pro-e3448 a skos:Concept ; skos:prefLabel "Odd prime"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:number-theory .

@@ -1,0 +1,1048 @@
+{
+  "baseline_comparison": {
+    "commit": "17c4c1db6901381b41bd377fb8c24c2f868c1f23",
+    "dataset_sha256": "7b77ab8bb3352513354ac445ade678dd9b3c0aaf414e154638d9830c57895782",
+    "participation": {
+      "computer-science": {
+        "added_canonical": 8,
+        "added_participating": 8,
+        "baseline_canonical": 1127,
+        "baseline_participating": 192,
+        "current_existing_participating": 226,
+        "gained_existing": [
+          "a-star-search",
+          "binary-search",
+          "context-free-grammar",
+          "hash-table",
+          "lexical-scope",
+          "lexicographic-key-order",
+          "opencs-c11128",
+          "opencs-c12108",
+          "opencs-c13429",
+          "opencs-c16904",
+          "opencs-c18415",
+          "opencs-c18813",
+          "opencs-c23929",
+          "opencs-c24154",
+          "opencs-c24725",
+          "opencs-c28516",
+          "opencs-c31455",
+          "opencs-c33039",
+          "opencs-c33859",
+          "opencs-c39385",
+          "opencs-c40335",
+          "opencs-c40594",
+          "opencs-c41436",
+          "opencs-c42589",
+          "opencs-c42615",
+          "opencs-c42816",
+          "opencs-c42922",
+          "opencs-c43547",
+          "opencs-c45370",
+          "opencs-c45644",
+          "opencs-c8022",
+          "opencs-c8327",
+          "pushdown-automaton",
+          "query-optimization"
+        ],
+        "lost_existing": []
+      },
+      "logic": {
+        "added_canonical": 0,
+        "added_participating": 0,
+        "baseline_canonical": 197,
+        "baseline_participating": 145,
+        "current_existing_participating": 145,
+        "gained_existing": [],
+        "lost_existing": []
+      },
+      "mathematics": {
+        "added_canonical": 3,
+        "added_participating": 3,
+        "baseline_canonical": 1109,
+        "baseline_participating": 265,
+        "current_existing_participating": 267,
+        "gained_existing": [
+          "ontomath-pro-e1700",
+          "ontomath-pro-e1731"
+        ],
+        "lost_existing": []
+      },
+      "statistics": {
+        "added_canonical": 1,
+        "added_participating": 1,
+        "baseline_canonical": 495,
+        "baseline_participating": 97,
+        "current_existing_participating": 98,
+        "gained_existing": [
+          "stato-0000117"
+        ],
+        "lost_existing": []
+      }
+    }
+  },
+  "cases": [
+    {
+      "key": "rounding1:round/2",
+      "method": "formal_property",
+      "predicate": "containsSymbol",
+      "rationale": "The record preserves the half-integer guard and the native occurrence of integer membership.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "retained"
+    },
+    {
+      "key": "s_data1:sdev/1",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The formula collapses repeated observations by counting a set. The denominator is unsuitable for the named sample quantity.",
+      "scheme": "statistics",
+      "source": "openmath",
+      "verdict": "withheld"
+    },
+    {
+      "key": "calculus1:defint/2",
+      "method": "formal_property",
+      "predicate": "hasProperty",
+      "rationale": "The formula references an interval symbol absent from its native dictionary.",
+      "scheme": "mathematics",
+      "source": "openmath",
+      "verdict": "withheld"
+    },
+    {
+      "key": [
+        "Implementation",
+        "implements",
+        "Algorithm"
+      ],
+      "method": "relation_projection",
+      "predicate": "implementsAlgorithm",
+      "rationale": "An executable implementation realizes an abstract algorithm. The source existential is typed and separately recorded.",
+      "scheme": "computer-science",
+      "source": "ml-schema",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "Run",
+        "executes",
+        "Implementation"
+      ],
+      "method": "relation_projection",
+      "predicate": "executesImplementation",
+      "rationale": "An execution run refers to its executable implementation. It has a different subject role from the algorithm itself.",
+      "scheme": "computer-science",
+      "source": "ml-schema",
+      "verdict": "retained"
+    },
+    {
+      "key": [
+        "Run",
+        "output",
+        "Model"
+      ],
+      "method": "relation_projection",
+      "predicate": "documentsEvaluationOutput",
+      "rationale": "A trained model and its evaluation result have distinct source-native output roles.",
+      "scheme": "computer-science",
+      "source": "ml-schema",
+      "verdict": "withheld"
+    },
+    {
+      "key": [
+        "0000440",
+        "input",
+        "0000227"
+      ],
+      "method": "relation_projection",
+      "predicate": "usesReferenceDistribution",
+      "rationale": "The normal law concerns observations under the Dixon test model. Its spacing ratio has a different reference law.",
+      "scheme": "statistics",
+      "source": "stato",
+      "verdict": "withheld"
+    },
+    {
+      "key": [
+        "ComputablePred.rice",
+        "rice-fixed-point-proof",
+        "proves",
+        "opencs-c43294"
+      ],
+      "method": "formal_declaration",
+      "predicate": "proves",
+      "rationale": "The pinned named proof is textual evidence of the scoped result. Kernel evidence from the separate Lean fixture has a different provenance type.",
+      "scheme": "computer-science",
+      "source": "mathlib4",
+      "verdict": "retained"
+    },
+    {
+      "key": "opencs-v06-review-c7823",
+      "method": "mapping",
+      "predicate": "exactMatch",
+      "rationale": "The explicit source referent denotes an inference rule. Equivalence to the Boolean implication connective remains unsupported.",
+      "scheme": "logic",
+      "source": "opencs",
+      "verdict": "withheld"
+    },
+    {
+      "broader": "opencs-c2801",
+      "canonical": "opencs-c44766",
+      "key": "https://w3id.org/ocs/ont/C44766",
+      "label_witness": [
+        "<https://w3id.org/ocs/ont/C44766> <http://www.w3.org/2004/02/skos/core#prefLabel> \"Feature hashing\"@en ."
+      ],
+      "method": "batch_admission",
+      "rationale": "The native concept denotes learned-feature encoding. The old parent Data structures captured the name of the technique rather than its scientific role. The canonical parent is Feature extraction.",
+      "source": "opencs",
+      "verdict": "corrected"
+    }
+  ],
+  "legacy_citation_gaps": [
+    [
+      "fixed-point-semantics",
+      "uses",
+      "fixed-point"
+    ],
+    [
+      "resolution-refutation",
+      "uses",
+      "resolution-logic"
+    ],
+    [
+      "conjugate-gradient-method",
+      "uses",
+      "inner-product"
+    ],
+    [
+      "maximum-a-posteriori-estimation",
+      "uses",
+      "posterior-distribution"
+    ]
+  ],
+  "selection_limit": "One hash-ranked item per baseline domain/evidence or domain/admission stratum, per new passage corpus and per source/mapping-decision stratum. Separate risk-targeted cases have no sampling-rate interpretation.",
+  "source_assessments": {
+    "cso": {
+      "cause": "offline_source_unavailable",
+      "explanation": "Fetching the pinned CSO release locally returned HTTP 403. Reconciliation uses previously verified source mapping witnesses.",
+      "sha256": "47e535468e3c9fb9e9da91bc97a3756d472ce8513bd72b094dcd67c65e78d5cc"
+    },
+    "mathlib4": {
+      "cause": "library_objects_unavailable",
+      "explanation": "The pinned Lean toolchain compiled two local fixtures. The Mathlib object cache returned HTTP 403. Mathlib module imports, textual headers and passages retain distinct evidence classifications.",
+      "sha256": "e38cb828c5368d71469540927a0c81ea1faa69f007c9a372926207c8521e82b3"
+    },
+    "ontomath-pro": {
+      "cause": "owl_universal_scope",
+      "explanation": "OWL named class identity and universal restrictions remain distinct from scientific dependencies and existential witnesses.",
+      "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f"
+    },
+    "opencs": {
+      "cause": "topical_semantics",
+      "explanation": "OpenCS supplies verified native labels, parent paths and explicit referents for identity review. Its topical associations do not prove implementation, complexity, or dependency.",
+      "sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5"
+    },
+    "openmath": {
+      "cause": "expression_and_property_separation",
+      "explanation": "All 230 prior edges were classified by their published source role. The 167 operator occurrences are retained as containsSymbol with archived uses interpretations. The 63 scoped property assertions remain scientific.",
+      "sha256": "4bcd5e40a5985f1bd29b0aea8f3bf172ecaf2392be44edf4b7b4eb4756340ac2"
+    }
+  },
+  "stratified_sample": {
+    "baseline": "17c4c1db6901381b41bd377fb8c24c2f868c1f23",
+    "mappings": [
+      {
+        "id": "cso-directed-graph",
+        "judgment": "The reviewed CSO label and outgoing explicit reference both identify the directed-graph topic. The evidence is the stored snapshot witness.",
+        "outcome": "retained",
+        "population": 50,
+        "source": "cso",
+        "state": "approved"
+      },
+      {
+        "id": "cso-graph-algorithm",
+        "judgment": "The upstream list reference is insufficient to identify the scientific field or class of graph algorithms. The veto remains in force.",
+        "outcome": "withheld",
+        "population": 2,
+        "source": "cso",
+        "state": "rejected"
+      },
+      {
+        "id": "mathmoddb-normal-distribution",
+        "judgment": "An upstream individual refers to the mathematical distribution in this scope. The published seeAlso preserves that type distinction.",
+        "outcome": "retained",
+        "population": 1,
+        "source": "mathmoddb",
+        "state": "approved"
+      },
+      {
+        "id": "ml-schema-algorithm",
+        "judgment": "The source class distinguishes an algorithm from its implementation, so a seeAlso reference remains appropriate.",
+        "outcome": "retained",
+        "population": 1,
+        "source": "ml-schema",
+        "state": "approved"
+      },
+      {
+        "id": "ontomath-pro-field-algebra",
+        "judgment": "The native superclass and label identify the algebraic field sense. The stored seeAlso keeps the OWL class distinct from the subject.",
+        "outcome": "retained",
+        "population": 25,
+        "source": "ontomath-pro",
+        "state": "approved"
+      },
+      {
+        "id": "ontomath-pro-v02-review-e850",
+        "judgment": "The set-algebra bilingual witness is narrower than the discipline of algebra. Preserve the former exact-match rejection.",
+        "outcome": "withheld",
+        "population": 3,
+        "source": "ontomath-pro",
+        "state": "rejected"
+      },
+      {
+        "id": "opencs-permutation",
+        "judgment": "The explicit native permutation topic and target refer to the same concept at the current topical scope.",
+        "outcome": "retained",
+        "population": 156,
+        "source": "opencs",
+        "state": "approved"
+      },
+      {
+        "id": "opencs-v02-review-c37707",
+        "judgment": "The native node denotes mathematical graphs, while the prior proposed target denotes the science that studies them. The equivalence was withheld.",
+        "outcome": "withheld",
+        "population": 2,
+        "source": "opencs",
+        "state": "rejected"
+      },
+      {
+        "id": "wikidata-function",
+        "judgment": "The single-output mathematical sense agrees at the subject level. The reviewed identifier is a reference.",
+        "outcome": "retained",
+        "population": 1,
+        "source": "wikidata",
+        "state": "approved"
+      }
+    ],
+    "passages": [
+      {
+        "corpus": "cpalgs",
+        "first": 9,
+        "judgment": "The assignment formulation is minimum-cost one-to-one matching between the two parts. It supports Hungarian as one method and gives no identity across other assignment solvers.",
+        "last": 40,
+        "outcome": "retained",
+        "path": "src/graph/hungarian-algorithm.md",
+        "population": 5,
+        "triple": [
+          "opencs-c24154",
+          "solves",
+          "assignment-problem"
+        ]
+      },
+      {
+        "corpus": "cpython",
+        "first": 92,
+        "judgment": "The CPython regression suite is an implementation example and corroborates the behavior-under-test role. It does not identify every tested defect as a regression.",
+        "last": 112,
+        "outcome": "retained",
+        "path": "Doc/library/test.rst",
+        "population": 3,
+        "triple": [
+          "opencs-c18415",
+          "analyzes",
+          "behavioral-regression"
+        ]
+      },
+      {
+        "corpus": "groupcache",
+        "first": 53,
+        "judgment": "Successor lookup on a sorted ring supports the remapping argument after insertion at a distinct position. The effect follows from the code under fixed existing positions, so the mode is editorial interpretation.",
+        "last": 81,
+        "outcome": "retained",
+        "path": "consistenthash/consistenthash.go",
+        "population": 1,
+        "triple": [
+          "opencs-c39385",
+          "hasProperty",
+          "hash-ring-local-remapping"
+        ]
+      },
+      {
+        "corpus": "lean4",
+        "first": 15,
+        "judgment": "The documentation names the exact order-theoretic fixed point in the while encoding. The review makes no kernel-dependency claim for the encoding.",
+        "last": 35,
+        "outcome": "retained",
+        "path": "src/Init/Internal/Order/While.lean",
+        "population": 1,
+        "triple": [
+          "fixed-point-semantics",
+          "uses",
+          "fixed-point"
+        ]
+      },
+      {
+        "corpus": "mathlib4",
+        "first": 264,
+        "judgment": "The source states a totalized conditional measure formula. Strict positivity belongs to the elementary ratio interpretation for two ordinary conditional probabilities.",
+        "last": 291,
+        "outcome": "retained",
+        "path": "Mathlib/Probability/ConditionalProbability.lean",
+        "population": 2,
+        "triple": [
+          "bayes-theorem",
+          "requiresPremise",
+          "positive-bayes-conditioning-probabilities"
+        ]
+      },
+      {
+        "corpus": "networkx",
+        "first": 14,
+        "judgment": "The implementation keeps a fixed heuristic value per node and documents suboptimality under overestimation. The canonical guarantee supplies the nonnegative-weight, zero-at-goal, and reopening scope.",
+        "last": 41,
+        "outcome": "retained",
+        "path": "networkx/algorithms/shortest_paths/astar.py",
+        "population": 6,
+        "triple": [
+          "a-star-search",
+          "requiresAssumption",
+          "admissible-search-heuristic"
+        ]
+      },
+      {
+        "corpus": "nltk",
+        "first": 82,
+        "judgment": "The resolution implementation loops over candidate clause pairs and checks the empty clause. The witness is operational and does not establish solver completeness.",
+        "last": 108,
+        "outcome": "retained",
+        "path": "nltk/inference/resolution.py",
+        "population": 2,
+        "triple": [
+          "resolution-refutation",
+          "uses",
+          "resolution-logic"
+        ]
+      },
+      {
+        "corpus": "ods",
+        "first": 297,
+        "judgment": "The textbook's Y-fast construction uses sampled representatives and ordered treaps. The canonical dependency identifies treaps as randomized binary search trees.",
+        "last": 320,
+        "outcome": "retained",
+        "path": "latex/integers.tex",
+        "population": 4,
+        "triple": [
+          "opencs-c45644",
+          "uses",
+          "binary-search-tree"
+        ]
+      },
+      {
+        "corpus": "opendsa",
+        "first": 51,
+        "judgment": "The textbook identifies context-free languages with the languages generated by context-free grammars. Grammar representation and automaton recognition remain separate predicate roles.",
+        "last": 83,
+        "outcome": "retained",
+        "path": "RST/en/PIFLA/CFG1.rst",
+        "population": 20,
+        "triple": [
+          "context-free-grammar",
+          "represents",
+          "context-free-language"
+        ]
+      },
+      {
+        "corpus": "pgmpy",
+        "first": 517,
+        "judgment": "The review verified condition-and-marginalize followed by argmax in the discrete example. It leaves the continuous density and existence conditions explicit.",
+        "last": 545,
+        "outcome": "retained",
+        "path": "pgmpy/inference/ExactInference.py",
+        "population": 2,
+        "triple": [
+          "maximum-a-posteriori-estimation",
+          "uses",
+          "posterior-distribution"
+        ]
+      },
+      {
+        "corpus": "postgres",
+        "first": 19,
+        "judgment": "The manual describes the prepared transaction participant under an external transaction manager. The graph scopes applicability to coordinated distributed commits.",
+        "last": 72,
+        "outcome": "retained",
+        "path": "doc/src/sgml/ref/prepare_transaction.sgml",
+        "population": 4,
+        "triple": [
+          "opencs-c45370",
+          "appliesToModel",
+          "opencs-c8327"
+        ]
+      },
+      {
+        "corpus": "scipy",
+        "first": 1460,
+        "judgment": "The BFGS implementation updates the inverse-Hessian approximation using successive gradients; the pinned implementation supports the gradient relationship without requiring a user-supplied exact Hessian.",
+        "last": 1512,
+        "outcome": "retained",
+        "path": "scipy/optimize/_optimize.py",
+        "population": 5,
+        "triple": [
+          "opencs-c24725",
+          "uses",
+          "ontomath-pro-e1700"
+        ]
+      },
+      {
+        "corpus": "sklearn",
+        "first": 1678,
+        "judgment": "This is evidence for the tree-learning ingredient of the tree-based boosting variant. It gives no universal restriction on the weak learner family.",
+        "last": 1724,
+        "outcome": "retained",
+        "path": "doc/modules/ensemble.rst",
+        "population": 4,
+        "triple": [
+          "opencs-c24136",
+          "uses",
+          "decision-tree-learning"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "evidence_family": "algs4",
+        "judgment": "The reference insertion routine moves only strictly larger keys; equal keys retain input order.",
+        "outcome": "retained",
+        "population": 45,
+        "scheme": "computer-science",
+        "triple": [
+          "opencs-c35199",
+          "guarantees",
+          "stable-sort-order"
+        ]
+      },
+      {
+        "evidence_family": "cpalgs",
+        "judgment": "The disjoint-set abstraction represents the blocks of a partition and merges blocks without identifying distinct elements.",
+        "outcome": "retained",
+        "population": 26,
+        "scheme": "computer-science",
+        "triple": [
+          "disjoint-set-data-structure",
+          "represents",
+          "set-partition"
+        ]
+      },
+      {
+        "evidence_family": "editorial-citation",
+        "judgment": "The cited finite-field method applies to the equal-degree factorization task with its square-free input conditions. The citation is editorial.",
+        "outcome": "retained",
+        "population": 44,
+        "scheme": "computer-science",
+        "triple": [
+          "opencs-c39942",
+          "solves",
+          "equal-degree-polynomial-factorization"
+        ]
+      },
+      {
+        "evidence_family": "go",
+        "judgment": "The implementation produces an ECDSA signature in its curve, digest and key scope; the source need not classify every signature scheme.",
+        "outcome": "retained",
+        "population": 5,
+        "scheme": "computer-science",
+        "triple": [
+          "ecdsa-digital-signature",
+          "computes",
+          "digital-signature"
+        ]
+      },
+      {
+        "evidence_family": "llvm",
+        "judgment": "The alias analysis reports may-, must-, partial- or no-alias results for memory locations.",
+        "outcome": "retained",
+        "population": 11,
+        "scheme": "computer-science",
+        "triple": [
+          "llvm-alias-analysis",
+          "analyzes",
+          "pointer-aliasing"
+        ]
+      },
+      {
+        "evidence_family": "mathlib4",
+        "judgment": "The declaration states preservation of accepted languages under subset construction. The published extraction is textual.",
+        "outcome": "retained",
+        "population": 20,
+        "scheme": "computer-science",
+        "triple": [
+          "nfa-subset-construction",
+          "guarantees",
+          "nfa-dfa-language-preservation"
+        ]
+      },
+      {
+        "evidence_family": "ml-schema",
+        "judgment": "The reviewed ML-Schema restriction links an evaluation specification to a measure, at the specification level.",
+        "outcome": "retained",
+        "population": 5,
+        "scheme": "computer-science",
+        "triple": [
+          "mls-evaluation-specification",
+          "hasEvaluationComponent",
+          "mls-evaluation-measure"
+        ]
+      },
+      {
+        "evidence_family": "postgres",
+        "judgment": "The estimate is the planner's predicted output row count at a plan node, distinct from execution observations.",
+        "outcome": "retained",
+        "population": 10,
+        "scheme": "computer-science",
+        "triple": [
+          "postgres-query-planner",
+          "estimates",
+          "optimizer-cardinality-estimate"
+        ]
+      },
+      {
+        "evidence_family": "raft",
+        "judgment": "The Raft specification transmits entries identified by term and index under its replication protocol. Recorded use refers to the log role.",
+        "outcome": "retained",
+        "population": 5,
+        "scheme": "computer-science",
+        "triple": [
+          "raft-consensus",
+          "uses",
+          "raft-replicated-log"
+        ]
+      },
+      {
+        "evidence_family": "sklearn",
+        "judgment": "Naive Bayes factorizes feature likelihoods conditional on the class. Marginal independence is a different claim.",
+        "outcome": "retained",
+        "population": 26,
+        "scheme": "computer-science",
+        "triple": [
+          "opencs-c6021",
+          "hasModelingAssumption",
+          "conditional-feature-independence"
+        ]
+      },
+      {
+        "evidence_family": "unattributed",
+        "judgment": "NetworkX documents that a topological ordering requires acyclicity of the directed input. The generic uses relation was replaced and retained in provenance.",
+        "outcome": "corrected",
+        "population": 4,
+        "replacement": [
+          "topological-sorting",
+          "requiresAssumption",
+          "directed-acyclic-graph"
+        ],
+        "scheme": "computer-science",
+        "triple": [
+          "topological-sorting",
+          "uses",
+          "directed-acyclic-graph"
+        ]
+      },
+      {
+        "evidence_family": "cpalgs",
+        "judgment": "The 2-SAT method detects a contradiction when a variable and its negation share a strongly connected component. Assignment extraction follows the component ordering in the published method.",
+        "outcome": "retained",
+        "population": 1,
+        "scheme": "logic",
+        "triple": [
+          "two-sat-implication-graph-algorithm",
+          "solves",
+          "two-satisfiability"
+        ]
+      },
+      {
+        "evidence_family": "editorial-citation",
+        "judgment": "Skolem normal form is reached by a scoped transformation on quantified formulae. Equisatisfiability under signature expansion is distinct from equivalence in the original signature.",
+        "outcome": "retained",
+        "population": 116,
+        "scheme": "logic",
+        "triple": [
+          "opencs-c17709",
+          "uses",
+          "skolemization"
+        ]
+      },
+      {
+        "evidence_family": "lean-kernel-fixture",
+        "judgment": "The OpenMath Boolean law and the local kernel-checked Boolean fixture support the stated De Morgan instance. The fixture checks a finite Boolean operation.",
+        "outcome": "retained",
+        "population": 1,
+        "scheme": "logic",
+        "triple": [
+          "logical-negation",
+          "hasProperty",
+          "de-morgan-conjunction-law"
+        ]
+      },
+      {
+        "evidence_family": "mathlib4",
+        "judgment": "Reassociation relates the two bracketings by an equivalence of types. The textual declaration supports this interpretation.",
+        "outcome": "retained",
+        "population": 4,
+        "scheme": "logic",
+        "triple": [
+          "product-type",
+          "hasProperty",
+          "product-type-reassociation"
+        ]
+      },
+      {
+        "evidence_family": "openmath",
+        "judgment": "The source property is excluded middle for Boolean disjunction and complements. It establishes no corresponding theorem in intuitionistic propositional logic.",
+        "outcome": "retained",
+        "population": 9,
+        "scheme": "logic",
+        "triple": [
+          "logical-disjunction",
+          "hasProperty",
+          "boolean-excluded-middle"
+        ]
+      },
+      {
+        "evidence_family": "unattributed",
+        "judgment": "The pinned Lean implementation documents least fixed point semantics for its while-loop functional. This is a formal source statement.",
+        "outcome": "evidence_added",
+        "population": 3,
+        "scheme": "logic",
+        "triple": [
+          "fixed-point-semantics",
+          "uses",
+          "fixed-point"
+        ]
+      },
+      {
+        "evidence_family": "editorial-citation",
+        "judgment": "Monotonicity applies to a self-map on the complete lattice in the Knaster–Tarski theorem.",
+        "outcome": "retained",
+        "population": 39,
+        "scheme": "mathematics",
+        "triple": [
+          "knaster-tarski-fixed-point-theorem",
+          "requiresPremise",
+          "monotone-map"
+        ]
+      },
+      {
+        "evidence_family": "mathlib4",
+        "judgment": "The product rule concerns factors differentiable at the point under the stated scalar scope. The Mathlib source matches the relevant specialization.",
+        "outcome": "retained",
+        "population": 2,
+        "scheme": "mathematics",
+        "triple": [
+          "derivative",
+          "hasProperty",
+          "derivative-product-rule"
+        ]
+      },
+      {
+        "evidence_family": "mathmoddb",
+        "judgment": "The particular bilinear evolution formulation names its control-state initial condition. Its source applies to this model scope.",
+        "outcome": "retained",
+        "population": 147,
+        "scheme": "mathematics",
+        "triple": [
+          "mathmoddb-q6684561",
+          "hasFormulationComponent",
+          "mathmoddb-q6674147"
+        ]
+      },
+      {
+        "evidence_family": "openmath",
+        "judgment": "OpenMath supplies the real sine angle-addition identity. It is a mathematical property assertion distinct from occurrence of plus or multiplication within the expression.",
+        "outcome": "retained",
+        "population": 50,
+        "scheme": "mathematics",
+        "triple": [
+          "real-sine",
+          "hasProperty",
+          "real-sine-addition"
+        ]
+      },
+      {
+        "evidence_family": "unattributed",
+        "judgment": "SciPy's documentation explicitly separates the derivative-based Newton–Raphson method from the secant fallback.",
+        "outcome": "evidence_added",
+        "population": 2,
+        "scheme": "mathematics",
+        "triple": [
+          "newton-s-method",
+          "uses",
+          "derivative"
+        ]
+      },
+      {
+        "evidence_family": "editorial-citation",
+        "judgment": "A conditional probability factor for each node given its parents is an ingredient of the Bayesian-network factorization.",
+        "outcome": "retained",
+        "population": 28,
+        "scheme": "statistics",
+        "triple": [
+          "bayesian-network",
+          "uses",
+          "conditional-probability"
+        ]
+      },
+      {
+        "evidence_family": "mathlib4",
+        "judgment": "The Boolean probability representation assigns mass p to true and one minus p to false. The pinned declaration remains the witness even though its name is deprecated upstream.",
+        "outcome": "retained",
+        "population": 6,
+        "scheme": "statistics",
+        "triple": [
+          "boolean-bernoulli-representation",
+          "represents",
+          "bernoulli-distribution"
+        ]
+      },
+      {
+        "evidence_family": "ml-schema",
+        "judgment": "The model distinguishes the result record from its evaluation measure. Other outputs of a learning run do different work.",
+        "outcome": "retained",
+        "population": 1,
+        "scheme": "statistics",
+        "triple": [
+          "mls-model-evaluation-result",
+          "reportsEvaluationMeasure",
+          "mls-evaluation-measure"
+        ]
+      },
+      {
+        "evidence_family": "openmath",
+        "judgment": "The density formulation uses the moment integral only under the stated order and finite moment conditions.",
+        "outcome": "retained",
+        "population": 2,
+        "scheme": "statistics",
+        "triple": [
+          "moment-by-density",
+          "hasProperty",
+          "density-moment-integral"
+        ]
+      },
+      {
+        "evidence_family": "sklearn",
+        "judgment": "SVD of the centered observation matrix is one valid PCA computation. The relation is scoped to this computation and leaves other algorithms available.",
+        "outcome": "retained",
+        "population": 1,
+        "scheme": "statistics",
+        "triple": [
+          "principal-component-analysis",
+          "uses",
+          "singular-value-decomposition"
+        ]
+      },
+      {
+        "evidence_family": "stato",
+        "judgment": "Cochran's Q has a chi-square reference law in its usual asymptotic matched-binary-outcomes setting, with degrees of freedom one fewer than the number of treatments.",
+        "outcome": "retained",
+        "population": 35,
+        "scheme": "statistics",
+        "triple": [
+          "stato-0000434",
+          "usesReferenceDistribution",
+          "stato-0000229"
+        ]
+      },
+      {
+        "evidence_family": "unattributed",
+        "judgment": "Bias is expected estimator value minus the target when the expectation exists. This legacy assertion still lacks a source passage scoped to the definition.",
+        "outcome": "evidence_gap",
+        "population": 5,
+        "scheme": "statistics",
+        "triple": [
+          "bias-of-an-estimator",
+          "uses",
+          "expected-value"
+        ]
+      }
+    ],
+    "seed": "ontology-formal-sciences:v0.9.0:17c4c1db6901381b41bd377fb8c24c2f868c1f23",
+    "topics": [
+      {
+        "admission": "authored",
+        "canonical": "dynamic-programming",
+        "judgment": "The algorithmic strategy reuses solutions to overlapping subproblems. Its algorithms classification is appropriate.",
+        "outcome": "retained",
+        "population": 209,
+        "scheme": "computer-science"
+      },
+      {
+        "admission": "ml-schema",
+        "canonical": "mls-run",
+        "judgment": "A run is a concrete execution of a machine-learning implementation. The subject scope preserves the separation from algorithm and model.",
+        "outcome": "retained",
+        "population": 3,
+        "scheme": "computer-science"
+      },
+      {
+        "admission": "ontomath-pro",
+        "canonical": "ontomath-pro-e2394",
+        "judgment": "Recursive set denotes computably decidable membership in this computability context. The use of recursive differs from recurrence relations.",
+        "outcome": "retained",
+        "population": 2,
+        "scheme": "computer-science"
+      },
+      {
+        "admission": "opencs",
+        "canonical": "opencs-c26036",
+        "definition_added": true,
+        "judgment": "The pinned algorithm reference distinguishes terminal-state suffix acceptance from all initial-state paths spelling substrings. The canonical subject now records this convention.",
+        "outcome": "corrected",
+        "population": 913,
+        "scheme": "computer-science"
+      },
+      {
+        "admission": "authored",
+        "canonical": "most-general-unifier",
+        "judgment": "The admissible substitution through which other unifiers factor is appropriately scoped under unification.",
+        "outcome": "retained",
+        "population": 183,
+        "scheme": "logic"
+      },
+      {
+        "admission": "opencs",
+        "canonical": "opencs-c24869",
+        "judgment": "The canonical Herbrand subject specifies the finite ground-instance form for first-order clauses, with a fresh constant when necessary.",
+        "outcome": "retained",
+        "population": 14,
+        "scheme": "logic"
+      },
+      {
+        "admission": "authored",
+        "canonical": "group",
+        "judgment": "A group is the algebraic structure with associative composition, an identity and inverses. This scope is compatible with the algebra parent.",
+        "outcome": "retained",
+        "population": 242,
+        "scheme": "mathematics"
+      },
+      {
+        "admission": "mathmoddb",
+        "canonical": "mathmoddb-q6821398",
+        "judgment": "The retained subject concerns a mathematical solution of the small-angle equation. It carries no assertion about an arbitrary physical pendulum.",
+        "outcome": "retained",
+        "population": 92,
+        "scheme": "mathematics"
+      },
+      {
+        "admission": "ontomath-pro",
+        "canonical": "ontomath-pro-e1126",
+        "judgment": "The projective plane topic is appropriately under geometry. Its label does not choose a coordinate field or identify a particular projective construction.",
+        "outcome": "retained",
+        "population": 773,
+        "scheme": "mathematics"
+      },
+      {
+        "admission": "opencs",
+        "canonical": "opencs-c11287",
+        "judgment": "The least nonrecursive ordinal is a set-theoretic object with a computability characterization, consistent with its ownership.",
+        "outcome": "retained",
+        "population": 2,
+        "scheme": "mathematics"
+      },
+      {
+        "admission": "authored",
+        "canonical": "density-moment-integral",
+        "judgment": "The subject states the density, center, integral, order, and finite absolute moment conditions.",
+        "outcome": "retained",
+        "population": 84,
+        "scheme": "statistics"
+      },
+      {
+        "admission": "ml-schema",
+        "canonical": "mls-evaluation-measure",
+        "judgment": "An evaluation measure is distinct from its numeric result, its evaluation procedure, and the implementation being measured.",
+        "outcome": "retained",
+        "population": 3,
+        "scheme": "statistics"
+      },
+      {
+        "admission": "ontomath-pro",
+        "canonical": "ontomath-pro-e2563",
+        "definition_added": true,
+        "judgment": "Independence requires a family or joint law. The scope annotation retains the native class while preventing interpretation as an intrinsic property of a lone variable.",
+        "outcome": "corrected",
+        "population": 92,
+        "scheme": "statistics"
+      },
+      {
+        "admission": "stato",
+        "canonical": "stato-0000375",
+        "judgment": "Residual mean square is a statistic; its standard residual-degrees-of-freedom denominator differs from the number of observations in many regression settings.",
+        "outcome": "retained",
+        "population": 316,
+        "scheme": "statistics"
+      }
+    ]
+  },
+  "targeted_passages": [
+    {
+      "corpus": "opendsa",
+      "first": 17,
+      "judgment": "The source distinguishes deterministic and nondeterministic power. The former is strictly less expressive under final-state acceptance.",
+      "last": 54,
+      "path": "AV/PIFLA/PDA/NCFLProofFS.js",
+      "state": "rejected",
+      "triple": [
+        "opencs-c42922",
+        "recognizesExactly",
+        "context-free-language"
+      ]
+    },
+    {
+      "corpus": "opendsa",
+      "first": 94,
+      "judgment": "The proof counts comparisons between keys. Inspecting digits as integers is outside that comparison-only model.",
+      "last": 111,
+      "path": "RST/en/Sorting/SortingLowerBound.rst",
+      "state": "rejected",
+      "triple": [
+        "opencs-c36074",
+        "hasProperty",
+        "comparison-sorting-lower-bound"
+      ]
+    },
+    {
+      "corpus": "scipy",
+      "first": 149,
+      "judgment": "This routine solves an assignment problem with a modified Jonker–Volgenant implementation. A shared problem does not support a Hungarian implementation assertion. The rejected artifact endpoint identifies the candidate only.",
+      "last": 176,
+      "path": "scipy/optimize/_lsap.c",
+      "state": "rejected",
+      "triple": [
+        "scipy-linear-sum-assignment",
+        "implementsAlgorithm",
+        "opencs-c24154"
+      ]
+    },
+    {
+      "corpus": "scipy",
+      "first": 1345,
+      "judgment": "The reviewed routine permits an initial inverse-Hessian estimate and updates it from gradients. It does not assume an externally supplied exact Hessian.",
+      "last": 1438,
+      "path": "scipy/optimize/_optimize.py",
+      "state": "rejected",
+      "triple": [
+        "opencs-c24725",
+        "requiresAssumption",
+        "ontomath-pro-e1729"
+      ]
+    }
+  ],
+  "unresolved_identities": [
+    {
+      "canonical": [
+        "ontomath-pro-e2221"
+      ],
+      "judgment": "The original reduced-group class has matching bilingual labels and a group superclass. Precise scope depends on the upstream convention, so no stronger identity projection was approved.",
+      "native": "http://cll.niimm.ksu.ru/ontologies/mathematics#E2221",
+      "source": "ontomath-pro"
+    }
+  ],
+  "version": "0.9.0"
+}

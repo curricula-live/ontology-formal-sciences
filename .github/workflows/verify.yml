@@ -1,0 +1,40 @@
+name: Verify ontology release
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements.lock
+      - run: pip install -r requirements.lock
+      - run: python -m pytest -q
+      - name: Reproduce and independently verify the committed release
+        run: |
+          python -m pipeline.cli build
+          python -m pipeline.package_check dist
+          test -z "$(git status --porcelain --untracked-files=all -- dist)"
+      - name: Check the pinned successor and regenerate reviewer evidence
+        run: |
+          baseline=$(jq -r .baseline.commit reviews/quality/rc3-plan.json)
+          git fetch --no-tags --depth=1 origin "$baseline"
+          mkdir "$RUNNER_TEMP/predecessor"
+          git archive "$baseline" dist | tar -x -C "$RUNNER_TEMP/predecessor"
+          rc1=$(jq -r .review_predecessor.commit reviews/quality/rc3-plan.json)
+          git fetch --no-tags --depth=1 origin "$rc1"
+          mkdir "$RUNNER_TEMP/rc2"
+          git archive "$rc1" dist reviews/quality/rc2/independent-review.json | tar -x -C "$RUNNER_TEMP/rc2"
+          python -m pipeline.rc_review --predecessor "$RUNNER_TEMP/predecessor/dist" --review-predecessor "$RUNNER_TEMP/rc2" --output "$RUNNER_TEMP/review"
+          diff -ru reviews/quality/rc3 "$RUNNER_TEMP/review"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: formal-sciences-rdf-v1
+          path: dist/

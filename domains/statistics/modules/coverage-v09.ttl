@@ -1,0 +1,9 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix d: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:positive-bayes-conditioning-probabilities a skos:Concept ;
+  skos:inScheme d:statistics ;
+  skos:broader c:probability-theory ;
+  skos:prefLabel "Positive event probabilities for Bayes ratios"@en ;
+  skos:definition "For the elementary event formula expressing both conditional probabilities as ratios, each conditioning event has strictly positive probability."@en .

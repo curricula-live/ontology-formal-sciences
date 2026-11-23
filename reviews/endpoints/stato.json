@@ -1,0 +1,5684 @@
+{
+  "edges_sha256": "5bb519cbae423f1f41ce8a81c214f25d900f0f3005a16ad212df2873d58c0aff",
+  "entities": {
+    "0000023": {
+      "definition_terms": [
+        "0275fca08c216c77",
+        "193c45b5281908d2",
+        "1e7eda566c762add",
+        "2269c0be009b610c",
+        "245111bc573ad01d",
+        "24baa7a731ce04b4",
+        "317b32c143692b99",
+        "37ae591ebce627d6",
+        "3955f8fd92cda2c1",
+        "3ccda33285e3d4a2",
+        "3f8a7e66329a6d6c",
+        "4cc6cf4706b8e8bf",
+        "50731d868f6e3793",
+        "59830ebc3a418411",
+        "5c9473495c88cc1d",
+        "69ea741e98fdc758",
+        "70332d559269a27a",
+        "79e1d925e79c904a",
+        "7c0766a4cdd8aa64",
+        "853916b1dbc21e61",
+        "85574fa07dae3213",
+        "9293a7e0b944108f",
+        "92a5dc04bd6f9fb8",
+        "93354845030274cd",
+        "99341d56cc288053",
+        "9f86d081884c7d65",
+        "a36670b856d6b910",
+        "a441b15fe9a3cf56",
+        "af2bdbe1aa9b6ec1",
+        "b48111c10c65fc11",
+        "c271f2bb931810ee",
+        "ccdcbe846f3da4eb",
+        "cdb011f8fbe14ff0",
+        "e5930e63213247cc",
+        "e61db885bd6e7f40",
+        "e9c974e51bac2961",
+        "f839161355091fcd"
+      ],
+      "labels": [
+        "studentized range distribution"
+      ],
+      "parents": [
+        "0000067"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000034": {
+      "definition_terms": [
+        "24baa7a731ce04b4",
+        "37a680133bd09342",
+        "3a6eb0790f39ac87",
+        "3aacd10c6e949520",
+        "4a33eacd5fa65f2b",
+        "4f9edc4d3ed0a0e5",
+        "6390361dfdff141a",
+        "6f69060228ff342e",
+        "8fbf21b24b51ec03",
+        "9372c470eeadd5ec",
+        "96adb92452863058",
+        "99341d56cc288053",
+        "9a2ea65b8be0d086",
+        "9bf86920ceaf8314",
+        "b23a6a8439c0dde5",
+        "d342ed822e55a972",
+        "ee4d988c65de860f"
+      ],
+      "labels": [
+        "model parameter"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000037": {
+      "definition_terms": [
+        "07678593eb0c5e2c",
+        "12886f9d00055adf",
+        "1501661682797862",
+        "1cb7558d1341f5ca",
+        "24baa7a731ce04b4",
+        "3a6eb0790f39ac87",
+        "4813494d137e1631",
+        "4a33eacd5fa65f2b",
+        "4ba3e8e3765f2970",
+        "4f9edc4d3ed0a0e5",
+        "70332d559269a27a",
+        "79e1d925e79c904a",
+        "82523faea1b0f2da",
+        "8bc7cf60c35e3f06",
+        "9639b250b40b41d8",
+        "a441b15fe9a3cf56",
+        "af2bdbe1aa9b6ec1",
+        "b4267ce93cbba4e4",
+        "bfc5a6b45b6a1612",
+        "c5dfd110181fa703",
+        "c9125b74e0ad8b24",
+        "ca00fccfb408989e",
+        "ccdcbe846f3da4eb",
+        "dd13795d0e0b52c8",
+        "dd20955d60739e8d",
+        "deb538b50cb6318b",
+        "e604f8c97caaadb4",
+        "fe6d3468cf5c74d8"
+      ],
+      "labels": [
+        "standard error of the mean"
+      ],
+      "parents": [
+        "0000562"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000038": {
+      "definition_terms": [
+        "19ed40bf62c399b8",
+        "262d517bffd06484",
+        "6ee0eb490ff83210",
+        "7369949b47ef2c6b",
+        "a9491f4c1bf7b0cf",
+        "ba1b620317039da4",
+        "dd20955d60739e8d",
+        "e223d8ec1e6450da",
+        "f6a214f7a5fcda0c",
+        "f9f5cf73e6038b91"
+      ],
+      "labels": [
+        "matched pair of subjects"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000039": {
+      "definition_terms": [
+        "361900df8e883931",
+        "3a6eb0790f39ac87",
+        "3b325109deb02ebf",
+        "604cee807f644af4",
+        "6c5a6990038d66c5",
+        "6ee0eb490ff83210",
+        "b277fd623676a525",
+        "c52028f34e378d1e",
+        "e0cb800a5ccda4cb",
+        "e5930e63213247cc",
+        "f5259fbfbce9732c"
+      ],
+      "labels": [
+        "statistic"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000042": {
+      "definition_terms": [
+        "3509fd899235fb8b",
+        "3955f8fd92cda2c1",
+        "3a6eb0790f39ac87",
+        "5b729e0f619797fd",
+        "8b6df8c11847ada8",
+        "93354845030274cd",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "af2bdbe1aa9b6ec1",
+        "c1d35cc3471fe509",
+        "fb609bdcdece3f06"
+      ],
+      "labels": [
+        "Anderson-Darling test"
+      ],
+      "parents": [
+        "0000191"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000044": {
+      "definition_terms": [
+        "0275fca08c216c77",
+        "07678593eb0c5e2c",
+        "1888101dae1d8fc2",
+        "3a6eb0790f39ac87",
+        "3b325109deb02ebf",
+        "411d709dc2f00420",
+        "41a093100bbbb59e",
+        "44c5e7071f3a75a2",
+        "4ed379d418bb8629",
+        "69ea741e98fdc758",
+        "70332d559269a27a",
+        "74234e98afe7498f",
+        "7692c3ad3540bb80",
+        "7beb7f4a57251263",
+        "7c0766a4cdd8aa64",
+        "7d50f20853334a30",
+        "7e96b2e5cde1ac87",
+        "85574fa07dae3213",
+        "9d6f965ac832e40a",
+        "9f86d081884c7d65",
+        "b48111c10c65fc11",
+        "bec1687971e36be5",
+        "c110b93cfa8d9952",
+        "c5fc2700317a1985",
+        "d6a9355f5108e75d",
+        "de38e0881e31dde6",
+        "f44e85c4b8ea2add",
+        "f905b19542ed08c9",
+        "fbb27fbdc4f4dd04"
+      ],
+      "labels": [
+        "one-way ANOVA"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000045": {
+      "definition_terms": [
+        "0275fca08c216c77",
+        "07678593eb0c5e2c",
+        "10781e1901a6714a",
+        "1888101dae1d8fc2",
+        "3a6eb0790f39ac87",
+        "3fc4ccfe745870e2",
+        "411d709dc2f00420",
+        "41a093100bbbb59e",
+        "44c5e7071f3a75a2",
+        "4ed379d418bb8629",
+        "69ea741e98fdc758",
+        "70332d559269a27a",
+        "74234e98afe7498f",
+        "7af0b3e47c35820f",
+        "7beb7f4a57251263",
+        "7c0766a4cdd8aa64",
+        "7d50f20853334a30",
+        "7e96b2e5cde1ac87",
+        "85574fa07dae3213",
+        "9d6f965ac832e40a",
+        "9f86d081884c7d65",
+        "b48111c10c65fc11",
+        "bec1687971e36be5",
+        "c110b93cfa8d9952",
+        "c5fc2700317a1985",
+        "d6a9355f5108e75d",
+        "de38e0881e31dde6",
+        "f44e85c4b8ea2add",
+        "fbb27fbdc4f4dd04"
+      ],
+      "labels": [
+        "two-way ANOVA"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000047": {
+      "definition_terms": [
+        "12886f9d00055adf",
+        "19071403f5a7043d",
+        "20202235c399832a",
+        "2dba2454d80024ac",
+        "3a6eb0790f39ac87",
+        "4a33eacd5fa65f2b",
+        "6c35493a2b937829",
+        "964085f0bd89e19e",
+        "bca3685fea8acd4e",
+        "cc4c9079038d3b2f"
+      ],
+      "labels": [
+        "count"
+      ],
+      "parents": [
+        "0000039"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000048": {
+      "definition_terms": [
+        "0275fca08c216c77",
+        "07678593eb0c5e2c",
+        "187897ce0afcf20b",
+        "1888101dae1d8fc2",
+        "3a6eb0790f39ac87",
+        "411d709dc2f00420",
+        "41a093100bbbb59e",
+        "44c5e7071f3a75a2",
+        "4bd77cffb0da8cbd",
+        "4ed379d418bb8629",
+        "69ea741e98fdc758",
+        "70332d559269a27a",
+        "7383711c1b05e72a",
+        "74234e98afe7498f",
+        "7af0b3e47c35820f",
+        "7beb7f4a57251263",
+        "7c0766a4cdd8aa64",
+        "7d50f20853334a30",
+        "7e96b2e5cde1ac87",
+        "85574fa07dae3213",
+        "9f86d081884c7d65",
+        "b48111c10c65fc11",
+        "bec1687971e36be5",
+        "c110b93cfa8d9952",
+        "c5fc2700317a1985",
+        "d6a9355f5108e75d",
+        "de38e0881e31dde6",
+        "f44e85c4b8ea2add",
+        "fbb27fbdc4f4dd04"
+      ],
+      "labels": [
+        "multiway ANOVA"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000052": {
+      "definition_terms": [
+        "10aca1d8b724381a",
+        "153b2a38cb4afb93",
+        "70332d559269a27a",
+        "74234e98afe7498f",
+        "7beb7f4a57251263",
+        "9293a7e0b944108f",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "cd42404d52ad55cc",
+        "f9d6cd1ed5cf1ead"
+      ],
+      "labels": [
+        "Z-test"
+      ],
+      "parents": [
+        "0000279"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000053": {
+      "definition_terms": [
+        "203d3536bd62ad33",
+        "3a6eb0790f39ac87",
+        "40b149bf4da1c2ad",
+        "4a33eacd5fa65f2b",
+        "74234e98afe7498f",
+        "7beb7f4a57251263",
+        "afa6e9ab3ac6574d",
+        "b5bea41b6c623f7c",
+        "bc62a3c14fec277e",
+        "c549779d79e5c8e9",
+        "fcbcf165908dd18a",
+        "fd793986cd6d4596"
+      ],
+      "labels": [
+        "false positive rate"
+      ],
+      "parents": [
+        "0000607"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000057": {
+      "definition_terms": [
+        "112d857213723ac1",
+        "2184966b0ca21d4a",
+        "27747689baf9903c",
+        "6cb09fe72a3471a7",
+        "7117fff2d0fd2944",
+        "74234e98afe7498f",
+        "7beb7f4a57251263",
+        "827961b48d1f730d",
+        "8ed3f6ad685b959e",
+        "a8f9c6d33384115e",
+        "aa33996d60e89311",
+        "b5bea41b6c623f7c",
+        "b63b99f6383ba713",
+        "b84744db0cc7c549",
+        "bfc5a6b45b6a1612",
+        "c081dd376ba93a53",
+        "c29a4b42073219ba",
+        "c4773daf2e6a2e27",
+        "ceb1e2514a1f1b45",
+        "d767748a603799c8",
+        "da5e11efa36720a4",
+        "dcb576426a17b7df",
+        "f6a214f7a5fcda0c",
+        "fd793986cd6d4596"
+      ],
+      "labels": [
+        "null hypothesis"
+      ],
+      "parents": [
+        "0000065"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000059": {
+      "definition_terms": [
+        "15eaa75240aed625",
+        "1cb7558d1341f5ca",
+        "264c8c381bf16c98",
+        "2b320f111b832396",
+        "37ae591ebce627d6",
+        "3955f8fd92cda2c1",
+        "4f9edc4d3ed0a0e5",
+        "514f2f5ba3daa391",
+        "81db8ebbbbc69c6c",
+        "82523faea1b0f2da",
+        "93354845030274cd",
+        "af2bdbe1aa9b6ec1",
+        "b23a6a8439c0dde5",
+        "b48111c10c65fc11",
+        "ca8eb3cb5206208a",
+        "ccdcbe846f3da4eb",
+        "f7496f1fc9731f2e",
+        "f885b8a1b99b6c43",
+        "fe6d3468cf5c74d8"
+      ],
+      "labels": [
+        "Student's t distribution"
+      ],
+      "parents": [
+        "0000067",
+        "0000329"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000060": {
+      "definition_terms": [
+        "0aa2666b2c6d6b0c",
+        "1216b2a88975f9d3",
+        "2c9da48a31cf62f1",
+        "3955f8fd92cda2c1",
+        "4f9edc4d3ed0a0e5",
+        "7b655c0164492a75",
+        "89762329af32f4f2",
+        "93354845030274cd",
+        "95713e9cbdd1dfcb",
+        "c016fc082ddf1751",
+        "ccdcbe846f3da4eb",
+        "d4f568b800c6a61b"
+      ],
+      "labels": [
+        "hypergeometric distribution"
+      ],
+      "parents": [
+        "0000117"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000067": {
+      "definition_terms": [
+        "06f8382071a4109d",
+        "3955f8fd92cda2c1",
+        "78f9ac018e554365",
+        "93354845030274cd",
+        "c3657998722524e9",
+        "f7496f1fc9731f2e"
+      ],
+      "labels": [
+        "continuous probability distribution"
+      ],
+      "parents": [
+        "0000225"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000069": {
+      "definition_terms": [
+        "0275fca08c216c77",
+        "12886f9d00055adf",
+        "13b1f7ec5beaefc7",
+        "1a7b308d8df661ba",
+        "361900df8e883931",
+        "49d4843163a72a45",
+        "67e565733661bf1a",
+        "6c35493a2b937829",
+        "6c5a6990038d66c5",
+        "82523faea1b0f2da",
+        "89445ea08b55421f",
+        "8f289b828ab9b83e",
+        "9f584196e7fe6de8",
+        "b308a7f43bba8e7a",
+        "bbfcd4160a1e8674",
+        "bfc5a6b45b6a1612",
+        "ca75eaf4e00caa4b",
+        "d15690f08a575024",
+        "d342ed822e55a972",
+        "f655913a97ba34a5",
+        "f9d6cd1ed5cf1ead"
+      ],
+      "labels": [
+        "number of degrees of freedom"
+      ],
+      "parents": [
+        "0000047"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000070": {
+      "definition_terms": [
+        "0387dd2081a1cde3",
+        "07a8750738828ffd",
+        "0adc36057cef79f8",
+        "0b514913789f890c",
+        "0d4fc4a78d3706ed",
+        "1791d01f272867e6",
+        "1c48c170ceb92c92",
+        "295c580af9bdacb3",
+        "34627e3242f2ca21",
+        "3def73f15b56a47b",
+        "4c7e98bfa0c750be",
+        "604cee807f644af4",
+        "69ea741e98fdc758",
+        "721f1f837521c3b3",
+        "7374df08a7a6cf10",
+        "7513553c1e397a18",
+        "77646f5a4f316663",
+        "7af0b3e47c35820f",
+        "8ad7037556d07941",
+        "8d55a46bf05a132a",
+        "90581b0a2ee6d43f",
+        "93354845030274cd",
+        "98c14afe7206e64d",
+        "9f86d081884c7d65",
+        "a24e10fde71a121a",
+        "a8f9c6d33384115e",
+        "b6234d2ea0d6022b",
+        "be9e7c2d53a2ab04",
+        "bec1687971e36be5",
+        "c38762e6e9f36b8a",
+        "c3aa9a8cc69dc3bf",
+        "c432b3dedcd6852f",
+        "ca00fccfb408989e",
+        "cd42404d52ad55cc",
+        "cea23dd4b87e8b00",
+        "d859a706a3c5a6eb",
+        "db96e3f0c7ba9bc1",
+        "dffe602cd1e0bfa9",
+        "ea103d6cb5c3fb3d",
+        "f839161355091fcd",
+        "f86dc49946c07f7f",
+        "fbb27fbdc4f4dd04",
+        "fbb6337a2ba75d08",
+        "fff21209710ee214"
+      ],
+      "labels": [
+        "Yate's corrected Chi-Squared test"
+      ],
+      "parents": [
+        "0000081"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000073": {
+      "definition_terms": [
+        "0d0eff7483f9df60",
+        "3d8eefab379df522",
+        "3f8139402f84ba2f",
+        "3fc4ccfe745870e2",
+        "7af0b3e47c35820f",
+        "827961b48d1f730d",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "b6dd29a47ca2a341",
+        "e244f187f696561d",
+        "f839161355091fcd",
+        "fa79d4746c21cd96",
+        "fbb27fbdc4f4dd04"
+      ],
+      "labels": [
+        "Fisher's exact test"
+      ],
+      "parents": [
+        "0000027"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000074": {
+      "definition_terms": [
+        "0275fca08c216c77",
+        "0ef14763eefa007f",
+        "15eaa75240aed625",
+        "1791d01f272867e6",
+        "2181584795ff5511",
+        "218e5a6376848b0f",
+        "25fb6729f0d90d9e",
+        "2b892ee4ee562d87",
+        "2d62ab6de83b849f",
+        "2f500c239d50c37b",
+        "3b325109deb02ebf",
+        "3d5409950f91e207",
+        "3f8139402f84ba2f",
+        "3fc4ccfe745870e2",
+        "48d492d08e9d314c",
+        "4a8a03b3832bed1f",
+        "4ed379d418bb8629",
+        "59830ebc3a418411",
+        "5c294537da5e402d",
+        "71ad7238ad4389cd",
+        "74234e98afe7498f",
+        "77f6a16644cee961",
+        "7af0b3e47c35820f",
+        "7beb7f4a57251263",
+        "93c68148f4acfe0d",
+        "9483dba1651400db",
+        "9a43b6dac4660897",
+        "9d6f965ac832e40a",
+        "9f584196e7fe6de8",
+        "9f86d081884c7d65",
+        "a441b15fe9a3cf56",
+        "a9f4b3d22a523fda",
+        "aee9ef33b2f61960",
+        "b1e99324505bd32d",
+        "b48111c10c65fc11",
+        "bec1687971e36be5",
+        "c271f2bb931810ee",
+        "c29a4b42073219ba",
+        "cdc29937887188ad",
+        "ce7a7c10b0dfd968",
+        "d58999507a10460c",
+        "d9298a10d1b07358",
+        "dcb576426a17b7df",
+        "dd13795d0e0b52c8",
+        "e223d8ec1e6450da",
+        "e244f187f696561d",
+        "ed5511caf830a1ac",
+        "f106376011688eda",
+        "f839161355091fcd",
+        "fbb6337a2ba75d08",
+        "ff5490e52efb8ca4"
+      ],
+      "labels": [
+        "Cochran-Mantel-Haenzel test for repeated tests of independence"
+      ],
+      "parents": [
+        "0000027"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000076": {
+      "definition_terms": [
+        "0275fca08c216c77",
+        "0487c249731a7d90",
+        "1216b2a88975f9d3",
+        "24baa7a731ce04b4",
+        "37ae591ebce627d6",
+        "3fc4ccfe745870e2",
+        "4ed379d418bb8629",
+        "562a77a7ae22fe1b",
+        "74234e98afe7498f",
+        "77f257677ce7f118",
+        "77f6a16644cee961",
+        "7beb7f4a57251263",
+        "89445ea08b55421f",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "bcee72e6df5d5631",
+        "befb90274c7db469",
+        "c081dd376ba93a53",
+        "c5fc2700317a1985",
+        "cc73c906e945aa99",
+        "cf80cd8aed482d5d",
+        "f4182874e7466ab3",
+        "f885b8a1b99b6c43",
+        "febb9f32c94e238e",
+        "ff5490e52efb8ca4"
+      ],
+      "labels": [
+        "Mann-Whitney U-test"
+      ],
+      "parents": [
+        "0000198"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000077": {
+      "definition_terms": [
+        "1bc64d81058505c7",
+        "317b32c143692b99",
+        "4f9edc4d3ed0a0e5",
+        "6d62ba541843c36d",
+        "71536ec7b375136d",
+        "74234e98afe7498f",
+        "7beb7f4a57251263",
+        "8b6df8c11847ada8",
+        "8d0288f434f2ff12",
+        "93354845030274cd",
+        "956e22b93147d413",
+        "9f86d081884c7d65",
+        "af2bdbe1aa9b6ec1",
+        "da4270e3735a3418"
+      ],
+      "labels": [
+        "Shapiro-Wilk test"
+      ],
+      "parents": [
+        "0000191"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000079": {
+      "definition_terms": [
+        "0ec8b3a4a10e5266",
+        "136a94de1ec3a1c8",
+        "218e5a6376848b0f",
+        "21af6f1260f927f5",
+        "24baa7a731ce04b4",
+        "298d0a50411bc92f",
+        "2d5e8600a4fba66e",
+        "317b32c143692b99",
+        "33dd34e2738ded73",
+        "4ed379d418bb8629",
+        "4fdd3b6201a22c78",
+        "50d858e0985ecc7f",
+        "59830ebc3a418411",
+        "5eb67f9f8409b9c3",
+        "66bab390a09376e9",
+        "6cb2266c1d72161c",
+        "702ae24c938c3e10",
+        "7c0766a4cdd8aa64",
+        "7e96b2e5cde1ac87",
+        "82e05dae00a818a3",
+        "8a1eb106427026fd",
+        "8c90cbf5d27d61f5",
+        "9293a7e0b944108f",
+        "9c19636ddea25f0a",
+        "9f584196e7fe6de8",
+        "9f86d081884c7d65",
+        "a12dd3a7fd3203a4",
+        "a6b46dd0d1ae5e86",
+        "a8f9c6d33384115e",
+        "a988478b8c98ff70",
+        "aa9e9b5c907d50fe",
+        "bcee72e6df5d5631",
+        "bf5d68beb85d647b",
+        "c081dd376ba93a53",
+        "c1c55efd302c49bc",
+        "cf80cd8aed482d5d",
+        "deb538b50cb6318b",
+        "ee4d988c65de860f",
+        "f44e85c4b8ea2add",
+        "f839161355091fcd",
+        "f9d6cd1ed5cf1ead"
+      ],
+      "labels": [
+        "Barlett's test"
+      ],
+      "parents": [
+        "0000137",
+        "0000191"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000080": {
+      "definition_terms": [
+        "27ce252594811401",
+        "2ddeaa83d0898c3f",
+        "33dd34e2738ded73",
+        "3b970a8596e91223",
+        "4ed379d418bb8629",
+        "562a77a7ae22fe1b",
+        "5e8c03a94c7835b8",
+        "5eb67f9f8409b9c3",
+        "6398e24a849a87e6",
+        "6d62ba541843c36d",
+        "6efcbfb1f9f195ce",
+        "7383711c1b05e72a",
+        "7896a617a785dd96",
+        "7c0766a4cdd8aa64",
+        "82523faea1b0f2da",
+        "9d6f965ac832e40a",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "c110b93cfa8d9952",
+        "c1c55efd302c49bc",
+        "d1ffaf0265bbf7e1",
+        "dcfff5eb40423f05",
+        "f839161355091fcd",
+        "f9d6cd1ed5cf1ead",
+        "fd54e5a82e36d787"
+      ],
+      "labels": [
+        "Brown Forsythe test"
+      ],
+      "parents": [
+        "0000137"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000081": {
+      "definition_terms": [
+        "0b514913789f890c",
+        "10aca1d8b724381a",
+        "1888101dae1d8fc2",
+        "3f8139402f84ba2f",
+        "6120d7ff00ac60e0",
+        "71536ec7b375136d",
+        "74234e98afe7498f",
+        "7af0b3e47c35820f",
+        "7beb7f4a57251263",
+        "93354845030274cd",
+        "94f106e0117354ce",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "b277fd623676a525",
+        "c38762e6e9f36b8a",
+        "c3aa9a8cc69dc3bf",
+        "da4270e3735a3418",
+        "dffe602cd1e0bfa9",
+        "f839161355091fcd",
+        "fbb27fbdc4f4dd04",
+        "fbb6337a2ba75d08"
+      ],
+      "labels": [
+        "Pearson's Chi square test of independence between categorical variables"
+      ],
+      "parents": [
+        "0000027"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000083": {
+      "definition_terms": [
+        "12681deafadfa535",
+        "3955f8fd92cda2c1",
+        "4f9edc4d3ed0a0e5",
+        "54b759dba2ded093",
+        "6484495b0b95a208",
+        "6d62ba541843c36d",
+        "71536ec7b375136d",
+        "74234e98afe7498f",
+        "7beb7f4a57251263",
+        "8b6df8c11847ada8",
+        "93354845030274cd",
+        "9f86d081884c7d65",
+        "af2bdbe1aa9b6ec1",
+        "d7e29edd6af6bd88",
+        "da4270e3735a3418",
+        "f7496f1fc9731f2e"
+      ],
+      "labels": [
+        "Kolmogorov-Smirnov test"
+      ],
+      "parents": [
+        "0000191"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000085": {
+      "definition_terms": [
+        "1198780b3af7203c",
+        "3a6eb0790f39ac87",
+        "3f3406368e194f4e",
+        "3f3867313a9dbfd5",
+        "3fe1406a8254afd4",
+        "4a33eacd5fa65f2b",
+        "6120d7ff00ac60e0",
+        "79e1d925e79c904a",
+        "93c4abe27cf16961",
+        "a4262e1c9bcbc172",
+        "a8f9c6d33384115e",
+        "ccdcbe846f3da4eb",
+        "d4f0bc5a29de06b5",
+        "d4fc996e45f7f468",
+        "dcb576426a17b7df",
+        "de00163e80311042",
+        "e6b88623f7209b6c",
+        "ff0139d07c592e9a",
+        "ff774b15f230c77d"
+      ],
+      "labels": [
+        "effect size estimate"
+      ],
+      "parents": [
+        "0000471"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000086": {
+      "definition_terms": [
+        "09f5ffef28309853",
+        "12681deafadfa535",
+        "15eaa75240aed625",
+        "2d5e8600a4fba66e",
+        "3a6eb0790f39ac87",
+        "49d4843163a72a45",
+        "51d2361f4faea3bc",
+        "59854b300f1ad281",
+        "5aa562409c66b3b3",
+        "5e06ddf9a3c49ef1",
+        "6d62ba541843c36d",
+        "6edcf19e5230b0f4",
+        "6ee0eb490ff83210",
+        "74234e98afe7498f",
+        "7beb7f4a57251263",
+        "7e96b2e5cde1ac87",
+        "877d41bc540c57e0",
+        "93354845030274cd",
+        "9f86d081884c7d65",
+        "a70712f49d7d1d9c",
+        "a8f9c6d33384115e",
+        "d767748a603799c8"
+      ],
+      "labels": [
+        "F-test"
+      ],
+      "parents": [
+        "0000191"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000091": {
+      "definition_terms": [
+        "05cf69408f5a1879",
+        "0abaa40b10436a8f",
+        "0b27c158feb36ab1",
+        "0b514913789f890c",
+        "0c72058cb79c9abe",
+        "0c87ed818fb90f3f",
+        "0fcd568a5cb9bdb4",
+        "1241626eb8ca5429",
+        "17ec2a07e71fc3b2",
+        "185745fcf816e97f",
+        "1c999646c80ca97b",
+        "1eb23d0bec731530",
+        "295444c1178cf38f",
+        "3edbdb5e0adae73b",
+        "48d492d08e9d314c",
+        "55efa0938f9f52fb",
+        "7692c3ad3540bb80",
+        "8e48aec363763843",
+        "9293a7e0b944108f",
+        "96044d9734b60441",
+        "982055e51c25a06a",
+        "99045570dfa5b0e0",
+        "9c3b7a3063981b21",
+        "a3b142af6e97cfc3",
+        "a77de8a6daa11295",
+        "ab91a82d14cfc612",
+        "ad95d5fa651ba86d",
+        "ae448ac86c4e8e4d",
+        "b8e8c313b6712eb7",
+        "bbfcd4160a1e8674",
+        "cfacfd3ec33b9608",
+        "d3087354d69a831f",
+        "d454bec656d32723",
+        "d9298a10d1b07358",
+        "ee4d988c65de860f",
+        "f839161355091fcd",
+        "f9bb818d84838e08",
+        "fbb27fbdc4f4dd04",
+        "ffe02ff46a04d9f4"
+      ],
+      "labels": [
+        "genome-wide association study"
+      ],
+      "parents": [
+        "0000235"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000092": {
+      "definition_terms": [
+        "0487c249731a7d90",
+        "117924a4b06255a7",
+        "184df936d41b2da8",
+        "21af6f1260f927f5",
+        "2220e3c51f099b53",
+        "245111bc573ad01d",
+        "24ea913efda289dc",
+        "28e5c066055aeb3d",
+        "37ae591ebce627d6",
+        "3ccda33285e3d4a2",
+        "3fc4ccfe745870e2",
+        "4072ac2186efbe24",
+        "442b7af49162a932",
+        "44a53f8fca870ba0",
+        "45314b7e39d4b07b",
+        "49d4843163a72a45",
+        "4a3cdfae6f291c8f",
+        "4f627c9e32f4ff3e",
+        "4fdd3b6201a22c78",
+        "59830ebc3a418411",
+        "5a8460f6b1bf96a8",
+        "5b729e0f619797fd",
+        "5ef5ef0364b6939c",
+        "69ea741e98fdc758",
+        "74234e98afe7498f",
+        "747355bdc2a22403",
+        "7692c3ad3540bb80",
+        "77f257677ce7f118",
+        "7896a617a785dd96",
+        "7beb7f4a57251263",
+        "7cad15d4112d1de6",
+        "812de6e718f869fe",
+        "82a3537ff0dbce7e",
+        "89445ea08b55421f",
+        "9113a84fdf3be217",
+        "93354845030274cd",
+        "936fbcc6eed01b4b",
+        "93c4abe27cf16961",
+        "979ed9d6677e64f4",
+        "9f86d081884c7d65",
+        "a3a14a1df8440331",
+        "a8f9c6d33384115e",
+        "abeda62fefc1b342",
+        "b808e156d18d1cec",
+        "bcee72e6df5d5631",
+        "bfc5a6b45b6a1612",
+        "c6c1c9a9c8543f1e",
+        "cd42404d52ad55cc",
+        "d767748a603799c8",
+        "d9298a10d1b07358",
+        "daf76895e66d92e2",
+        "dde593f076e08075",
+        "e5930e63213247cc",
+        "e823da61abfbd317",
+        "e93a15eab4b9bca2",
+        "ee4d988c65de860f",
+        "ee6fb3167b02cd70",
+        "f839161355091fcd",
+        "f86b1f62a8554232",
+        "f885b8a1b99b6c43",
+        "f9194e73f9e9459e",
+        "fb095624103259f8",
+        "fbb27fbdc4f4dd04"
+      ],
+      "labels": [
+        "Wilcoxon signed rank test"
+      ],
+      "parents": [
+        "0000202"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000094": {
+      "definition_terms": [
+        "0275fca08c216c77",
+        "1216b2a88975f9d3",
+        "15eaa75240aed625",
+        "24baa7a731ce04b4",
+        "24ea913efda289dc",
+        "254bb97b57f12e16",
+        "37ae591ebce627d6",
+        "3b325109deb02ebf",
+        "3f8a7e66329a6d6c",
+        "4ed379d418bb8629",
+        "562a77a7ae22fe1b",
+        "6c5a6990038d66c5",
+        "74234e98afe7498f",
+        "7692c3ad3540bb80",
+        "77f257677ce7f118",
+        "77f6a16644cee961",
+        "7beb7f4a57251263",
+        "7e96b2e5cde1ac87",
+        "862079b2a455c3ef",
+        "89445ea08b55421f",
+        "8ccb033c0e48b27f",
+        "961eb43699731759",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "aac0a0f664a6a15e",
+        "bcee72e6df5d5631",
+        "c081dd376ba93a53",
+        "c110b93cfa8d9952",
+        "c5fc2700317a1985",
+        "cc73c906e945aa99",
+        "cf80cd8aed482d5d",
+        "d454bec656d32723",
+        "d58999507a10460c",
+        "e244f187f696561d",
+        "f839161355091fcd",
+        "f885b8a1b99b6c43",
+        "febb9f32c94e238e",
+        "fefccc2f3085a5cc",
+        "ff5490e52efb8ca4"
+      ],
+      "labels": [
+        "Kruskal Wallis test"
+      ],
+      "parents": [
+        "0000198"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000095": {
+      "definition_terms": [
+        "2c7bb4b91c4f2aae",
+        "372ea2d8a3fefc0d",
+        "48d492d08e9d314c",
+        "50d858e0985ecc7f",
+        "5852a8e4853588ed",
+        "60c411b2baec2ab5",
+        "6db7d803e74f1ffa",
+        "936fbcc6eed01b4b",
+        "9f86d081884c7d65",
+        "a77de8a6daa11295",
+        "a8f9c6d33384115e",
+        "a9491f4c1bf7b0cf",
+        "b427c3dec9045990",
+        "bbfcd4160a1e8674",
+        "bfc5a6b45b6a1612",
+        "dd13795d0e0b52c8",
+        "e5b2c58b34910b88",
+        "e93a15eab4b9bca2",
+        "f39592393ef0859c",
+        "f44e85c4b8ea2add",
+        "f905b19542ed08c9",
+        "fbb27fbdc4f4dd04",
+        "fc83ec582b335dd0"
+      ],
+      "labels": [
+        "paired t-test"
+      ],
+      "parents": [
+        "0000202"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000098": {
+      "definition_terms": [
+        "1303c06b0b014d0c",
+        "14b9005e4f90ef7e",
+        "15eaa75240aed625",
+        "23d5e1e004ec63f2",
+        "264c8c381bf16c98",
+        "435c149cbc6a5e5c",
+        "5e6b75c2f4ab3b8b",
+        "6ee0eb490ff83210",
+        "70332d559269a27a",
+        "7af0b3e47c35820f",
+        "9293a7e0b944108f",
+        "98b81d01501fdcdf",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "aaa8d3c8d74ad3e8",
+        "d3410732409bcff6",
+        "f44e85c4b8ea2add"
+      ],
+      "labels": [
+        "two sample Hotelling T2 test"
+      ],
+      "parents": [
+        "0000279"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000099": {
+      "definition_terms": [
+        "0b27c158feb36ab1",
+        "411d709dc2f00420",
+        "4608fac28f429202",
+        "55efa0938f9f52fb",
+        "5852db6b508ee9af",
+        "7b12be43febc6e18",
+        "7c0766a4cdd8aa64",
+        "7f2fe580edb35154",
+        "85574fa07dae3213",
+        "8c90cbf5d27d61f5",
+        "9293a7e0b944108f",
+        "936fbcc6eed01b4b",
+        "9372c470eeadd5ec",
+        "9d6f965ac832e40a",
+        "a441b15fe9a3cf56",
+        "a691b5823bf6b820",
+        "b277fd623676a525",
+        "bb8c8605c55dcc2d",
+        "dcb576426a17b7df",
+        "e78618f499c47e47",
+        "ff88bf2406519342"
+      ],
+      "labels": [
+        "random effect model"
+      ],
+      "parents": [
+        "0000107"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000100": {
+      "definition_terms": [
+        "0275fca08c216c77",
+        "1216b2a88975f9d3",
+        "1303c06b0b014d0c",
+        "1493865cd77ff714",
+        "1501661682797862",
+        "15eaa75240aed625",
+        "1cb7558d1341f5ca",
+        "21af6f1260f927f5",
+        "35af1308cec0b212",
+        "3b283e93debf035e",
+        "3b325109deb02ebf",
+        "3b857e4f8436df32",
+        "3f8139402f84ba2f",
+        "3fc4ccfe745870e2",
+        "405abc33f5f3b06b",
+        "599f7703547e9c8e",
+        "59d59b1c416ed97e",
+        "5aa562409c66b3b3",
+        "69ea741e98fdc758",
+        "70332d559269a27a",
+        "75846e529667722d",
+        "79e1d925e79c904a",
+        "82523faea1b0f2da",
+        "9639b250b40b41d8",
+        "a8f9c6d33384115e",
+        "a9f4b3d22a523fda",
+        "ad936fcbed631fa6",
+        "b229003f1ecb0c22",
+        "b6dfe33841f2f8dc",
+        "c9046f7a37ad0ea7",
+        "ccdcbe846f3da4eb",
+        "da5e11efa36720a4",
+        "dcb576426a17b7df",
+        "ddc9e669194254ce",
+        "e5930e63213247cc",
+        "f106376011688eda",
+        "f5fd5ffef3c528d3",
+        "f7496f1fc9731f2e",
+        "f839161355091fcd",
+        "fbb27fbdc4f4dd04",
+        "fe6d3468cf5c74d8",
+        "ff5490e52efb8ca4"
+      ],
+      "labels": [
+        "standardized mean difference"
+      ],
+      "parents": [
+        "0000085",
+        "0000613"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000107": {
+      "definition_terms": [
+        "07397d633f25a710",
+        "187897ce0afcf20b",
+        "254bb97b57f12e16",
+        "28135547bb3fd307",
+        "37852d1c963b23b1",
+        "7692c3ad3540bb80",
+        "7af0b3e47c35820f",
+        "8044aae1f86875d9",
+        "8346862a9c870a53",
+        "9372c470eeadd5ec",
+        "a441b15fe9a3cf56",
+        "a8f9c6d33384115e",
+        "bca3685fea8acd4e",
+        "c016fc082ddf1751",
+        "cdc29937887188ad",
+        "d331a6d6cfea5153",
+        "d84cbe8b573d0b43",
+        "d9298a10d1b07358",
+        "dea7111a8406e27c",
+        "e0f86f8ffc57886b",
+        "ed7002b439e9ac84",
+        "f7867daf10006942",
+        "fbb27fbdc4f4dd04"
+      ],
+      "labels": [
+        "statistical model"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000119": {
+      "definition_terms": [
+        "2149c64d00134c01",
+        "24ea913efda289dc",
+        "3a6eb0790f39ac87",
+        "4b7e172afd07683e",
+        "6390361dfdff141a",
+        "89445ea08b55421f",
+        "9372c470eeadd5ec",
+        "a1613be9e3df6e9a",
+        "b5cbb993bb195e1d",
+        "b6dfe33841f2f8dc",
+        "d4fc996e45f7f468"
+      ],
+      "labels": [
+        "model parameter estimation"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000130": {
+      "definition_terms": [
+        "0c87ed818fb90f3f",
+        "15eaa75240aed625",
+        "1fd5faa9b5cf91c2",
+        "24baa7a731ce04b4",
+        "25a63e52a98f6fda",
+        "2740e59ffb8c5eff",
+        "28d9e7bbbf81137e",
+        "4197ce7868e273c2",
+        "4f9edc4d3ed0a0e5",
+        "5e8c03a94c7835b8",
+        "67f56b651aae6716",
+        "6d62ba541843c36d",
+        "79891e980747ffbd",
+        "82ba7e1f6f4171d3",
+        "8a08e46eee4518ed",
+        "944c27e5b97ab779",
+        "98569e7e9080addd",
+        "9d6f965ac832e40a",
+        "9f86d081884c7d65",
+        "a57fa114a36ae2d3",
+        "a8f9c6d33384115e",
+        "b40356e6d1c6948b",
+        "d859a706a3c5a6eb",
+        "d98a034f5cb8a0e3",
+        "db38d0df723fadbf",
+        "de38e0881e31dde6",
+        "deb538b50cb6318b",
+        "e19bbccafeb36e6a",
+        "ea7792a26f405e2a",
+        "f655913a97ba34a5",
+        "fbb27fbdc4f4dd04",
+        "ffbfabc54ca8a26e"
+      ],
+      "labels": [
+        "Breslow-Day test for homogeneity of odds ratio"
+      ],
+      "parents": [
+        "0000247"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000132": {
+      "definition_terms": [
+        "0a348ac4d94f9da0",
+        "12765295db4f1e79",
+        "23d5e1e004ec63f2",
+        "264c8c381bf16c98",
+        "32182951b85a244a",
+        "342c8c61e679d490",
+        "3955f8fd92cda2c1",
+        "3fc4ccfe745870e2",
+        "462a6bf9715f1d07",
+        "49d4843163a72a45",
+        "4a6a185af12d8f5e",
+        "59830ebc3a418411",
+        "5e6b75c2f4ab3b8b",
+        "63e6ce93e1bcb512",
+        "6ed0337140bd32b4",
+        "6ee0eb490ff83210",
+        "70332d559269a27a",
+        "7beb7f4a57251263",
+        "9293a7e0b944108f",
+        "93354845030274cd",
+        "936fbcc6eed01b4b",
+        "985cfdcf860beb8b",
+        "98b81d01501fdcdf",
+        "9d6f965ac832e40a",
+        "9f86d081884c7d65",
+        "a157d36a739191c1",
+        "a3b142af6e97cfc3",
+        "aac0a0f664a6a15e",
+        "af2bdbe1aa9b6ec1",
+        "b48111c10c65fc11",
+        "c0f601966fcb8616",
+        "c187e609c81b0181",
+        "c38762e6e9f36b8a",
+        "c52028f34e378d1e",
+        "c6323a2117013ed6",
+        "ca8eb3cb5206208a",
+        "ce5c53dca9b75ba7",
+        "ce73ee05c851b14c",
+        "cf80cd8aed482d5d",
+        "d05aa2a15fb3c40e",
+        "ee6474aa634fa43e",
+        "f839161355091fcd",
+        "fbb27fbdc4f4dd04"
+      ],
+      "labels": [
+        "Hotelling T2 distribution"
+      ],
+      "parents": [
+        "0000225"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000136": {
+      "definition_terms": [
+        "1fd5faa9b5cf91c2",
+        "2f04a79ef13b95c1",
+        "6d62ba541843c36d",
+        "702ae24c938c3e10",
+        "74234e98afe7498f",
+        "7beb7f4a57251263",
+        "9527c1c86df82e51",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "dee71796bc3421c6"
+      ],
+      "labels": [
+        "Tarone's test for homogeneity of odds ratio"
+      ],
+      "parents": [
+        "0000247"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000138": {
+      "definition_terms": [
+        "0d4fc4a78d3706ed",
+        "1161842e2b6d8f3f",
+        "1791d01f272867e6",
+        "3f8139402f84ba2f",
+        "44575cf5b28512d7",
+        "7af0b3e47c35820f",
+        "b8b142fa994e8794",
+        "bec1687971e36be5",
+        "c4773daf2e6a2e27",
+        "d859a706a3c5a6eb",
+        "d98a034f5cb8a0e3",
+        "f905b19542ed08c9"
+      ],
+      "labels": [
+        "2 by 2 contingency table"
+      ],
+      "parents": [
+        "0000140"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000139": {
+      "definition_terms": [
+        "0fd924362117d036",
+        "19ed40bf62c399b8",
+        "262d517bffd06484",
+        "6be95b08e946e5ad",
+        "7369949b47ef2c6b",
+        "82c6db3dbf4ab471",
+        "965abb254b10e268",
+        "9b0f1b10aff55228",
+        "a9491f4c1bf7b0cf",
+        "c099142bc3186ded",
+        "e223d8ec1e6450da",
+        "f9f5cf73e6038b91"
+      ],
+      "labels": [
+        "subject pairing"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000140": {
+      "definition_terms": [
+        "03b7a0d9ccaf8156",
+        "0b514913789f890c",
+        "0d4fc4a78d3706ed",
+        "105319b79320ea89",
+        "11239872d178729a",
+        "19071403f5a7043d",
+        "2220e3c51f099b53",
+        "2e9089fefc7aaa5c",
+        "317b32c143692b99",
+        "3338f195ffdc5899",
+        "37a33bc87d2f4983",
+        "37a680133bd09342",
+        "3a6eb0790f39ac87",
+        "3b325109deb02ebf",
+        "3b521973ca9cae69",
+        "3f8139402f84ba2f",
+        "4361cc01e665e9d5",
+        "4a33eacd5fa65f2b",
+        "57104c57fbe0d1c9",
+        "577bf0c4f4ee4f88",
+        "599f7703547e9c8e",
+        "5e6b75c2f4ab3b8b",
+        "5f3258eaa1979a8b",
+        "604cee807f644af4",
+        "634768dae1474506",
+        "66f62d1807d3821a",
+        "6996ee3cf81e326b",
+        "7692c3ad3540bb80",
+        "7af0b3e47c35820f",
+        "7c56efd206a184a3",
+        "85574fa07dae3213",
+        "878c9388e86fc9bd",
+        "881d5fb60090f59a",
+        "89445ea08b55421f",
+        "8a2f8bcb5572a89a",
+        "93354845030274cd",
+        "9cda38ea3a2bd78c",
+        "a6216ea03e578f21",
+        "a7937b64b8caa58f",
+        "ae4e19fd6a9209da",
+        "af2bdbe1aa9b6ec1",
+        "b04e5ea201bb040c",
+        "b63b99f6383ba713",
+        "bb8c8605c55dcc2d",
+        "bec1687971e36be5",
+        "beeb20fbd6769508",
+        "c31a690b528b81ac",
+        "c3aa9a8cc69dc3bf",
+        "c4773daf2e6a2e27",
+        "d859a706a3c5a6eb",
+        "d9298a10d1b07358",
+        "ea103d6cb5c3fb3d",
+        "f168ccdd91548c5a",
+        "f4397b4805e00143",
+        "f839161355091fcd",
+        "fc8fbb48a3a16bfd"
+      ],
+      "labels": [
+        "contingency table"
+      ],
+      "parents": [
+        "0000642"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000144": {
+      "definition_terms": [
+        "19ed40bf62c399b8",
+        "1ca7738c018a904b",
+        "3a6eb0790f39ac87",
+        "4a33eacd5fa65f2b",
+        "6390361dfdff141a",
+        "79e1d925e79c904a",
+        "9372c470eeadd5ec",
+        "a4262e1c9bcbc172",
+        "b0268fa71bc6e96c",
+        "b6dfe33841f2f8dc",
+        "c099142bc3186ded",
+        "cd42404d52ad55cc"
+      ],
+      "labels": [
+        "model parameter estimate"
+      ],
+      "parents": [
+        "0000471"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000148": {
+      "definition_terms": [
+        "0081779c287d567d",
+        "0387dd2081a1cde3",
+        "05cf69408f5a1879",
+        "0967115f2813a354",
+        "0b514913789f890c",
+        "0fcd568a5cb9bdb4",
+        "14b9005e4f90ef7e",
+        "15eaa75240aed625",
+        "1791d01f272867e6",
+        "218e5a6376848b0f",
+        "25fb6729f0d90d9e",
+        "2ab022d82080f5d9",
+        "3a6eb0790f39ac87",
+        "3b325109deb02ebf",
+        "3db0548b7d9c9641",
+        "3f8139402f84ba2f",
+        "3fc4ccfe745870e2",
+        "40b149bf4da1c2ad",
+        "482353b8466f9f94",
+        "48d492d08e9d314c",
+        "50d858e0985ecc7f",
+        "5ef5ef0364b6939c",
+        "60c411b2baec2ab5",
+        "6aeb4190a1820173",
+        "6c1ff09db3a73dc4",
+        "6ef7c9b15ecdd690",
+        "70332d559269a27a",
+        "74234e98afe7498f",
+        "7beb7f4a57251263",
+        "7d50f20853334a30",
+        "7fdbf2f7e97fe77a",
+        "81f70b1b814382bb",
+        "8920cfb42142cc57",
+        "93c68148f4acfe0d",
+        "982776aa0b872d5a",
+        "9a43b6dac4660897",
+        "9ebb1e6f5b2adf42",
+        "9f584196e7fe6de8",
+        "9f86d081884c7d65",
+        "a27f98238d2c1c02",
+        "a6216ea03e578f21",
+        "a8f9c6d33384115e",
+        "a9f4b3d22a523fda",
+        "bbfcd4160a1e8674",
+        "c082456a7766e23a",
+        "d9298a10d1b07358",
+        "daf81fe9648c6ae0",
+        "dd20955d60739e8d",
+        "dff0669b4df441c2",
+        "e30d52bcec21e7ff",
+        "e823da61abfbd317",
+        "e97469619c0d7aa7",
+        "ee4d988c65de860f",
+        "f44e85c4b8ea2add",
+        "f839161355091fcd",
+        "fbb27fbdc4f4dd04"
+      ],
+      "labels": [
+        "Cochran-Armitage test for trend"
+      ],
+      "parents": [
+        "0000027"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000153": {
+      "definition_terms": [
+        "12886f9d00055adf",
+        "15eaa75240aed625",
+        "187897ce0afcf20b",
+        "254bb97b57f12e16",
+        "264c8c381bf16c98",
+        "26f1de33979d065b",
+        "2740e59ffb8c5eff",
+        "2e1d76579d44d7cf",
+        "317b32c143692b99",
+        "3a6eb0790f39ac87",
+        "3b325109deb02ebf",
+        "3df701b1e5b876b2",
+        "3fc4ccfe745870e2",
+        "40ea5adb9c7eaca0",
+        "54b759dba2ded093",
+        "59830ebc3a418411",
+        "5e6b75c2f4ab3b8b",
+        "5f79c870f2acef18",
+        "7692c3ad3540bb80",
+        "7af0b3e47c35820f",
+        "82523faea1b0f2da",
+        "8656aa55d393b032",
+        "905301bf736f9b79",
+        "92a5dc04bd6f9fb8",
+        "98b81d01501fdcdf",
+        "9f584196e7fe6de8",
+        "9f86d081884c7d65",
+        "a718e3e9aefa308a",
+        "a9f4b3d22a523fda",
+        "af2bdbe1aa9b6ec1",
+        "b1f7124c563597b0",
+        "b808e156d18d1cec",
+        "bb0347a468d97e98",
+        "c081dd376ba93a53",
+        "c099142bc3186ded",
+        "c5fc2700317a1985",
+        "cd42404d52ad55cc",
+        "d2e44a77c2ea0c2d",
+        "da7241946d2eb066",
+        "e244f187f696561d",
+        "e93a15eab4b9bca2",
+        "efbde73cf7b4ef00",
+        "f839161355091fcd",
+        "f86b1f62a8554232",
+        "f905b19542ed08c9",
+        "fa79d4746c21cd96"
+      ],
+      "labels": [
+        "one sample Hotelling T2 test"
+      ],
+      "parents": [
+        "0000191"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000156": {
+      "definition_terms": [
+        "03b7a0d9ccaf8156",
+        "2a31aefa266db9cc",
+        "3a6eb0790f39ac87",
+        "3f8a7e66329a6d6c",
+        "4b7e172afd07683e",
+        "5ef5ef0364b6939c",
+        "63c2d0c2120c05d7",
+        "6d62ba541843c36d",
+        "7d50f20853334a30",
+        "7f2fe580edb35154",
+        "8698fb89e125b92a",
+        "927a3aed189d610b",
+        "93a0e7b46d1987e2",
+        "9f584196e7fe6de8",
+        "9f86d081884c7d65",
+        "b63b99f6383ba713",
+        "bae0db182974fd46",
+        "c152d5bbb379c3f9",
+        "c271f2bb931810ee",
+        "c4773daf2e6a2e27",
+        "dbbb45f8b8808f24",
+        "e5abc828db7f1dfa",
+        "e6deb10a6558650a",
+        "ec3f30fe82847d4f",
+        "f274537aaf2c5097",
+        "f86dc49946c07f7f",
+        "fe0c70fea6ac4788",
+        "ff0139d07c592e9a"
+      ],
+      "labels": [
+        "Scheffe test"
+      ],
+      "parents": [
+        "0000133"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000157": {
+      "definition_terms": [
+        "36d78c756a3bec3c",
+        "3f8a7e66329a6d6c",
+        "69ea741e98fdc758",
+        "6bab65a2bddec8af",
+        "70332d559269a27a",
+        "8d0288f434f2ff12",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "b46130a48b367b27",
+        "c110b93cfa8d9952",
+        "e61db885bd6e7f40",
+        "f44e85c4b8ea2add",
+        "ff5490e52efb8ca4"
+      ],
+      "labels": [
+        "Least significance different test"
+      ],
+      "parents": [
+        "0000133"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000175": {
+      "definition_terms": [
+        "1a72f901e49498ef",
+        "361900df8e883931",
+        "3a6eb0790f39ac87",
+        "3fe1406a8254afd4",
+        "4b7e172afd07683e",
+        "5b729e0f619797fd",
+        "6390361dfdff141a",
+        "a8f9c6d33384115e",
+        "ff0139d07c592e9a"
+      ],
+      "labels": [
+        "confidence interval calculation"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000176": {
+      "definition_terms": [
+        "1198780b3af7203c",
+        "15eaa75240aed625",
+        "264c8c381bf16c98",
+        "5aa562409c66b3b3",
+        "93354845030274cd",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "bfc5a6b45b6a1612",
+        "c5fc2700317a1985",
+        "cd42404d52ad55cc",
+        "e5930e63213247cc",
+        "f839161355091fcd"
+      ],
+      "labels": [
+        "t-statistic"
+      ],
+      "parents": [
+        "0000039"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000181": {
+      "definition_terms": [
+        "0fcd568a5cb9bdb4",
+        "10aca1d8b724381a",
+        "254bb97b57f12e16",
+        "40b149bf4da1c2ad",
+        "43136a6b3dcac62f",
+        "4f9edc4d3ed0a0e5",
+        "4fac4ed5dfc73619",
+        "520cdb563bf80b19",
+        "593deac5063e0377",
+        "70332d559269a27a",
+        "79c6702755c69af4",
+        "9c3b7a3063981b21",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "acef2c15bcd349db",
+        "b5a0aa306476543f",
+        "ca00fccfb408989e",
+        "f379ccb92b911644",
+        "f839161355091fcd",
+        "fc16b406b2f5ed5c"
+      ],
+      "labels": [
+        "Hardy-Weinberg equilibrium testing"
+      ],
+      "parents": [
+        "0000191"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000187": {
+      "definition_terms": [
+        "0081779c287d567d",
+        "0487c249731a7d90",
+        "0c87ed818fb90f3f",
+        "1303c06b0b014d0c",
+        "24065231df1b2892",
+        "2c6ef0f0d0e4cc6e",
+        "3b970a8596e91223",
+        "3d8eefab379df522",
+        "3eeb7e96e59ce40f",
+        "4ed379d418bb8629",
+        "4fdd3b6201a22c78",
+        "5b729e0f619797fd",
+        "69ea741e98fdc758",
+        "70332d559269a27a",
+        "7383711c1b05e72a",
+        "7c69f3fafb1de732",
+        "82f03da4967cd2ff",
+        "8698fb89e125b92a",
+        "890dd879817a0198",
+        "8bb97dc4ff7e3596",
+        "8d0288f434f2ff12",
+        "93354845030274cd",
+        "9a5b19d243c35f4e",
+        "9d6f965ac832e40a",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "af2bdbe1aa9b6ec1",
+        "c110b93cfa8d9952",
+        "c152d5bbb379c3f9",
+        "ca00fccfb408989e",
+        "cd42404d52ad55cc",
+        "cdb011f8fbe14ff0",
+        "e409bfc6fe798c2e",
+        "e61db885bd6e7f40",
+        "e9c974e51bac2961",
+        "f839161355091fcd",
+        "f9d6cd1ed5cf1ead"
+      ],
+      "labels": [
+        "Tukey HSD for Post-Hoc Analysis"
+      ],
+      "parents": [
+        "0000133"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000193": {
+      "definition_terms": [
+        "080484b7e27e069f",
+        "12886f9d00055adf",
+        "17373ca1c7634a4b",
+        "17b669561c95d3ac",
+        "19ed40bf62c399b8",
+        "309074dc4898c3d1",
+        "3cdc6d6e23e0f947",
+        "40ea5adb9c7eaca0",
+        "4f9edc4d3ed0a0e5",
+        "52630e4131f9862e",
+        "55efa0938f9f52fb",
+        "5852a8e4853588ed",
+        "59830ebc3a418411",
+        "5f3258eaa1979a8b",
+        "7369949b47ef2c6b",
+        "762069bc07a6e1b5",
+        "89445ea08b55421f",
+        "925733dafd743699",
+        "9f6eec7d586f63c4",
+        "a8f9c6d33384115e",
+        "ac05a7eb3b0e3ce2",
+        "ad936fcbed631fa6",
+        "bc16f5825a9dafc8",
+        "c96c6d5be8d08a12",
+        "da15caaee9de1b0d",
+        "e18ba6a8049379ef",
+        "ecd21b60cb8a8041",
+        "ee4d988c65de860f",
+        "f839161355091fcd"
+      ],
+      "labels": [
+        "study group population"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000196": {
+      "definition_terms": [
+        "03b7a0d9ccaf8156",
+        "2269c0be009b610c",
+        "3955f8fd92cda2c1",
+        "3a6eb0790f39ac87",
+        "3fe1406a8254afd4",
+        "4a33eacd5fa65f2b",
+        "4cfd97d8cd083f51",
+        "5b729e0f619797fd",
+        "6c5a6990038d66c5",
+        "79891e980747ffbd",
+        "89445ea08b55421f",
+        "c1b7cf7c9cdf6f57",
+        "ff0139d07c592e9a"
+      ],
+      "labels": [
+        "confidence interval"
+      ],
+      "parents": [
+        "0000028"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000199": {
+      "definition_terms": [
+        "1501661682797862",
+        "1cc6c255881f3090",
+        "285ae0043925796c",
+        "372ea2d8a3fefc0d",
+        "37ae591ebce627d6",
+        "3de1a906b11023bd",
+        "4b7e172afd07683e",
+        "4ed379d418bb8629",
+        "5b729e0f619797fd",
+        "5e8c03a94c7835b8",
+        "5ef5ef0364b6939c",
+        "6d62ba541843c36d",
+        "6e00cd562cc2d88e",
+        "7117fff2d0fd2944",
+        "7c0766a4cdd8aa64",
+        "854d6aea115ed918",
+        "936fbcc6eed01b4b",
+        "93f6e11d9ce3e407",
+        "9f86d081884c7d65",
+        "a8f780ae35e70862",
+        "a8f9c6d33384115e",
+        "c110b93cfa8d9952",
+        "c5745750e775bb28",
+        "dd13795d0e0b52c8",
+        "deda662849233f49",
+        "e5bade0e979cb8cf",
+        "ea7792a26f405e2a",
+        "ee6474aa634fa43e",
+        "f839161355091fcd",
+        "f9d6cd1ed5cf1ead",
+        "fbb27fbdc4f4dd04",
+        "fc9184134ae56728"
+      ],
+      "labels": [
+        "Mauchly's test for sphericity"
+      ],
+      "parents": [
+        "0000131"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000204": {
+      "definition_terms": [
+        "0967115f2813a354",
+        "193c45b5281908d2",
+        "24baa7a731ce04b4",
+        "3509fd899235fb8b",
+        "3955f8fd92cda2c1",
+        "3fc4ccfe745870e2",
+        "604cee807f644af4",
+        "7c0766a4cdd8aa64",
+        "93354845030274cd",
+        "ca8eb3cb5206208a",
+        "cf80cd8aed482d5d",
+        "f7496f1fc9731f2e"
+      ],
+      "labels": [
+        "F-distribution"
+      ],
+      "parents": [
+        "0000067"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000207": {
+      "definition_terms": [
+        "19ed40bf62c399b8",
+        "74234e98afe7498f",
+        "76678e40cf8bdb8a",
+        "7beb7f4a57251263",
+        "923b4b90ea64343e",
+        "9b0f1b10aff55228",
+        "9d6f965ac832e40a",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "e255d11c7ad7a1c7",
+        "f94403d8b6109c69"
+      ],
+      "labels": [
+        "specifying null and alternate hypothesis"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000208": {
+      "definition_terms": [
+        "27747689baf9903c",
+        "74234e98afe7498f",
+        "7beb7f4a57251263",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "c3657998722524e9",
+        "d9f62c2ad0ad79d0"
+      ],
+      "labels": [
+        "alternative hypothesis"
+      ],
+      "parents": [
+        "0000065"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000213": {
+      "definition_terms": [
+        "0a63dd9aa0a90420",
+        "3b325109deb02ebf",
+        "482353b8466f9f94",
+        "5e7351e76e1f597c",
+        "62343f5aa4d9216d",
+        "6b847a0ed0b2c484",
+        "6c621d1a05138a78",
+        "6ee0eb490ff83210",
+        "f7496f1fc9731f2e",
+        "ff5d991aaa370a4e"
+      ],
+      "labels": [
+        "continuous variable discretization"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000227": {
+      "definition_terms": [
+        "270457853ec6b61f",
+        "317b32c143692b99",
+        "3955f8fd92cda2c1",
+        "4249a1a0ce3af7c4",
+        "71b4f3a3748cd684",
+        "78f9ac018e554365",
+        "93354845030274cd",
+        "9a568f4479bc707c",
+        "b84744db0cc7c549",
+        "e0603c499aae47eb",
+        "e5e239560bc125a2",
+        "f7496f1fc9731f2e",
+        "fcec91509759ad99"
+      ],
+      "labels": [
+        "normal distribution"
+      ],
+      "parents": [
+        "0000067",
+        "0000329"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000229": {
+      "definition_terms": [
+        "0275fca08c216c77",
+        "09f5ffef28309853",
+        "13b1f7ec5beaefc7",
+        "317b32c143692b99",
+        "3338f195ffdc5899",
+        "3955f8fd92cda2c1",
+        "3b49d04a79c55454",
+        "4ba3e8e3765f2970",
+        "59854b300f1ad281",
+        "67e565733661bf1a",
+        "7af0b3e47c35820f",
+        "93354845030274cd",
+        "a441b15fe9a3cf56",
+        "dffe602cd1e0bfa9",
+        "fe6d3468cf5c74d8"
+      ],
+      "labels": [
+        "Chi-square probability distribution"
+      ],
+      "parents": [
+        "0000067"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000246": {
+      "definition_terms": [
+        "0967115f2813a354",
+        "17ec2a07e71fc3b2",
+        "1fd5faa9b5cf91c2",
+        "2f04a79ef13b95c1",
+        "4f9edc4d3ed0a0e5",
+        "57794bdeddd90874",
+        "5ef5ef0364b6939c",
+        "6d62ba541843c36d",
+        "74234e98afe7498f",
+        "7beb7f4a57251263",
+        "82ba7e1f6f4171d3",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "d767748a603799c8",
+        "ff723a18ff38fb7b"
+      ],
+      "labels": [
+        "Woolf's test"
+      ],
+      "parents": [
+        "0000247"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000251": {
+      "definition_terms": [
+        "3b325109deb02ebf",
+        "47da8304ae594537",
+        "7692c3ad3540bb80",
+        "8a46fd6fc3d79d41",
+        "c4773daf2e6a2e27",
+        "cd42404d52ad55cc",
+        "d6a7cd2a7371b1a1",
+        "f106376011688eda",
+        "f7496f1fc9731f2e"
+      ],
+      "labels": [
+        "continuous variable"
+      ],
+      "parents": [
+        "0000258"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000252": {
+      "definition_terms": [
+        "12886f9d00055adf",
+        "3b325109deb02ebf",
+        "3f8139402f84ba2f",
+        "603705cc260e946d",
+        "772c6953848bf5b1",
+        "81db8ebbbbc69c6c",
+        "82e05dae00a818a3",
+        "9f584196e7fe6de8",
+        "a6216ea03e578f21",
+        "cd42404d52ad55cc",
+        "d4f568b800c6a61b",
+        "f905b19542ed08c9"
+      ],
+      "labels": [
+        "categorical variable"
+      ],
+      "parents": [
+        "0000258"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000254": {
+      "definition_terms": [
+        "05cf69408f5a1879",
+        "07678593eb0c5e2c",
+        "0b597595a01aaa08",
+        "12886f9d00055adf",
+        "2e9089fefc7aaa5c",
+        "2f04a79ef13b95c1",
+        "2ff61e6fabfeeb15",
+        "32182951b85a244a",
+        "3a6eb0790f39ac87",
+        "3b74abe789a08e18",
+        "4a33eacd5fa65f2b",
+        "4f9edc4d3ed0a0e5",
+        "5ac52c67c10a6cea",
+        "5ef5ef0364b6939c",
+        "81df63580cc9ff15",
+        "9c3b7a3063981b21",
+        "a506dcc39d5e6d1b",
+        "c62d18434681f20e",
+        "c9125b74e0ad8b24",
+        "cb7bf562420b82e9"
+      ],
+      "labels": [
+        "allele frequency"
+      ],
+      "parents": [
+        "0000184"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000260": {
+      "definition_terms": [
+        "0275fca08c216c77",
+        "0b27c158feb36ab1",
+        "1501661682797862",
+        "15eaa75240aed625",
+        "187897ce0afcf20b",
+        "1cc6c255881f3090",
+        "2c7bb4b91c4f2aae",
+        "2d5e8600a4fba66e",
+        "385cfdbc00ec3203",
+        "3df701b1e5b876b2",
+        "463c75f732420fdc",
+        "4a502846d070e208",
+        "4e724e52bbea531d",
+        "4ed379d418bb8629",
+        "54e47fef9c9e03d5",
+        "5852a8e4853588ed",
+        "66bab390a09376e9",
+        "7383711c1b05e72a",
+        "748be63c87c9fad2",
+        "774cdf08f6a80fc9",
+        "7c69f3fafb1de732",
+        "7e96b2e5cde1ac87",
+        "854d6aea115ed918",
+        "87b477dbf6204214",
+        "9293a7e0b944108f",
+        "985cfdcf860beb8b",
+        "9d6f965ac832e40a",
+        "9f5997d4c9a9196e",
+        "9f86d081884c7d65",
+        "a24e10fde71a121a",
+        "a5c935d142e9fa6e",
+        "a70712f49d7d1d9c",
+        "af2bdbe1aa9b6ec1",
+        "bbfcd4160a1e8674",
+        "bcc649cfdb8cc557",
+        "bcee72e6df5d5631",
+        "bd5a946796ac5137",
+        "bfc5a6b45b6a1612",
+        "c110b93cfa8d9952",
+        "d1fd863d937f5633",
+        "d9298a10d1b07358",
+        "dd13795d0e0b52c8",
+        "ed5eb9a37e2d8231",
+        "efe77b201dc216c0",
+        "f839161355091fcd",
+        "f9d35d43770d3909"
+      ],
+      "labels": [
+        "repeated measure ANOVA"
+      ],
+      "parents": [
+        "0000202"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000261": {
+      "definition_terms": [
+        "00a9e08ce4c65c4c",
+        "0487c249731a7d90",
+        "0f780b5c735e7025",
+        "187897ce0afcf20b",
+        "2269c0be009b610c",
+        "264c8c381bf16c98",
+        "36d78c756a3bec3c",
+        "36e8072cf8b4a6b5",
+        "3f8a7e66329a6d6c",
+        "49d4843163a72a45",
+        "4fdd3b6201a22c78",
+        "50731d868f6e3793",
+        "5380b4faddb75750",
+        "58c48602d373404d",
+        "5b7e6bf2dc4a32a6",
+        "69ea741e98fdc758",
+        "70332d559269a27a",
+        "7097c15c7f69677d",
+        "72231043bc1807e6",
+        "7c0766a4cdd8aa64",
+        "7e97ff3e2414ed00",
+        "853916b1dbc21e61",
+        "8b5b9db0c13db242",
+        "9150c74c5f92d51a",
+        "93c68148f4acfe0d",
+        "9d6f965ac832e40a",
+        "9f86d081884c7d65",
+        "a157d36a739191c1",
+        "a254f4f4734969db",
+        "a3b142af6e97cfc3",
+        "af2bdbe1aa9b6ec1",
+        "b63b99f6383ba713",
+        "bec1687971e36be5",
+        "c110b93cfa8d9952",
+        "c152d5bbb379c3f9",
+        "c5fc2700317a1985",
+        "cdc29937887188ad",
+        "d2e44a77c2ea0c2d",
+        "d6447e23d6652bd9",
+        "d9298a10d1b07358",
+        "d93a9a958f6512ad",
+        "e61db885bd6e7f40",
+        "e9c974e51bac2961",
+        "f39592393ef0859c",
+        "f44e85c4b8ea2add",
+        "f839161355091fcd",
+        "f8c02d36f8ae8ae4",
+        "fbb27fbdc4f4dd04",
+        "ff7772053abf7d81"
+      ],
+      "labels": [
+        "Newman-Keuls test post-hoc analysis"
+      ],
+      "parents": [
+        "0000133"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000275": {
+      "definition_terms": [
+        "05cf69408f5a1879",
+        "1d2cafdb2fbaa2b8",
+        "3f650dce81c641b4",
+        "4f9edc4d3ed0a0e5",
+        "520cdb563bf80b19",
+        "982055e51c25a06a",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "be9e7c2d53a2ab04",
+        "beccbf3b889fe1fa",
+        "e1c0624695f43eba",
+        "ed5b8120601641c5",
+        "fbb27fbdc4f4dd04"
+      ],
+      "labels": [
+        "transmission disequilibrium test"
+      ],
+      "parents": [
+        "0000027"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000276": {
+      "definition_terms": [
+        "0aa2666b2c6d6b0c",
+        "12886f9d00055adf",
+        "24065231df1b2892",
+        "2c9da48a31cf62f1",
+        "3955f8fd92cda2c1",
+        "3a18a526a9379e71",
+        "3db0548b7d9c9641",
+        "4e4f7b36057c1148",
+        "4f9edc4d3ed0a0e5",
+        "64ea62de2928a9ac",
+        "762069bc07a6e1b5",
+        "79891e980747ffbd",
+        "7c0766a4cdd8aa64",
+        "82523faea1b0f2da",
+        "8326f4709d401dfa",
+        "8b6df8c11847ada8",
+        "93354845030274cd",
+        "9372c470eeadd5ec",
+        "95713e9cbdd1dfcb",
+        "959a9132f6c78a3f",
+        "966877d108f945fa",
+        "a167ddeb1c00e9f9",
+        "af2bdbe1aa9b6ec1",
+        "b48111c10c65fc11",
+        "b5bea41b6c623f7c",
+        "bec1687971e36be5",
+        "c016fc082ddf1751",
+        "ccdcbe846f3da4eb",
+        "d4f568b800c6a61b",
+        "f6a214f7a5fcda0c",
+        "f839161355091fcd",
+        "fcbcf165908dd18a"
+      ],
+      "labels": [
+        "binomial distribution"
+      ],
+      "parents": [
+        "0000117"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000282": {
+      "definition_terms": [
+        "1198780b3af7203c",
+        "15eaa75240aed625",
+        "2220e3c51f099b53",
+        "2f04a79ef13b95c1",
+        "3fc4ccfe745870e2",
+        "59854b300f1ad281",
+        "5aa562409c66b3b3",
+        "5e06ddf9a3c49ef1",
+        "878a52fc5ff6a57d",
+        "93354845030274cd",
+        "9d6f965ac832e40a",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "b1dd938bda7819de",
+        "bfc5a6b45b6a1612",
+        "c39b9c280c6250a6",
+        "c5fc2700317a1985",
+        "cd42404d52ad55cc",
+        "e5930e63213247cc",
+        "f839161355091fcd"
+      ],
+      "labels": [
+        "F-statistic"
+      ],
+      "parents": [
+        "0000039"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000284": {
+      "definition_terms": [
+        "0081779c287d567d",
+        "27747689baf9903c",
+        "5f3258eaa1979a8b",
+        "653a6d265ad8824b",
+        "7beb7f4a57251263",
+        "7c0766a4cdd8aa64",
+        "7f2fe580edb35154",
+        "87edca85c8608f76",
+        "89445ea08b55421f",
+        "8a1b12670e9ea570",
+        "96f6549c6b97a641",
+        "9f86d081884c7d65",
+        "a575b79868a2336d",
+        "a718e3e9aefa308a",
+        "a8f9c6d33384115e",
+        "a9f4b3d22a523fda",
+        "c0164c09bb2aa50c",
+        "ca00fccfb408989e",
+        "d0b4ba2311b3e849",
+        "d7575fde02a7eb54"
+      ],
+      "labels": [
+        "Breusch-Pagan test"
+      ],
+      "parents": [
+        "0000137"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000285": {
+      "definition_terms": [
+        "1216b2a88975f9d3",
+        "12681deafadfa535",
+        "23b633de9ef7534e",
+        "324e229d221aa3a4",
+        "352b84777d8dd96a",
+        "3b325109deb02ebf",
+        "44e6e348769c3e8e",
+        "489111f65854bf6d",
+        "52630e4131f9862e",
+        "5e8c03a94c7835b8",
+        "6d62ba541843c36d",
+        "6ee0eb490ff83210",
+        "71536ec7b375136d",
+        "74234e98afe7498f",
+        "74f8efe5512d4ffc",
+        "7beb7f4a57251263",
+        "89762329af32f4f2",
+        "912d5f84749d0349",
+        "93354845030274cd",
+        "9f86d081884c7d65",
+        "a441b15fe9a3cf56",
+        "a6216ea03e578f21",
+        "a8f780ae35e70862",
+        "b0b17893a5134397",
+        "cf80cd8aed482d5d",
+        "d4f568b800c6a61b",
+        "da4270e3735a3418",
+        "fc097e65503cb3ad"
+      ],
+      "labels": [
+        "hypergeometric test"
+      ],
+      "parents": [
+        "0000191",
+        "0000287"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000286": {
+      "definition_terms": [
+        "0081779c287d567d",
+        "07d715edb696fb5f",
+        "0818ab2593f5cb6c",
+        "0e9f3819185eea8a",
+        "10aca1d8b724381a",
+        "1152b3289b98456a",
+        "187897ce0afcf20b",
+        "254bb97b57f12e16",
+        "3270f7fe8acead1d",
+        "374a0426ab12d4bc",
+        "3955f8fd92cda2c1",
+        "3eeb7e96e59ce40f",
+        "3f251db73f53a7fb",
+        "3fc4ccfe745870e2",
+        "5ef5ef0364b6939c",
+        "604cee807f644af4",
+        "69ea741e98fdc758",
+        "762069bc07a6e1b5",
+        "7692c3ad3540bb80",
+        "7beb7f4a57251263",
+        "8698fb89e125b92a",
+        "93354845030274cd",
+        "93c4abe27cf16961",
+        "9f86d081884c7d65",
+        "a1c09925e8af0640",
+        "a8f9c6d33384115e",
+        "b0268fa71bc6e96c",
+        "c6a9b099d5da6ffa",
+        "cf80cd8aed482d5d",
+        "cfacfd3ec33b9608",
+        "d9298a10d1b07358",
+        "dc0a65bcea25cfdd",
+        "dcb576426a17b7df",
+        "f60856e4af9c29eb",
+        "f86b1f62a8554232",
+        "f905b19542ed08c9",
+        "ffa63583dfa6706b"
+      ],
+      "labels": [
+        "one tailed test"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000287": {
+      "definition_terms": [
+        "0081779c287d567d",
+        "0818ab2593f5cb6c",
+        "0e031e954a432055",
+        "0e9f3819185eea8a",
+        "12ea12eace7d655f",
+        "14b9005e4f90ef7e",
+        "1888101dae1d8fc2",
+        "254bb97b57f12e16",
+        "2ea71c18131a7f03",
+        "342c8c61e679d490",
+        "374a0426ab12d4bc",
+        "3955f8fd92cda2c1",
+        "3fc4ccfe745870e2",
+        "44f2f920aee5d31f",
+        "50d858e0985ecc7f",
+        "69ea741e98fdc758",
+        "74234e98afe7498f",
+        "7beb7f4a57251263",
+        "8698fb89e125b92a",
+        "93354845030274cd",
+        "93c4abe27cf16961",
+        "9f584196e7fe6de8",
+        "9f86d081884c7d65",
+        "a11ae06469c63740",
+        "a8f9c6d33384115e",
+        "ac9fc833c96e7347",
+        "bec1687971e36be5",
+        "d7cbbb688b2e506c",
+        "ddd36ae5e6900eff",
+        "f64f061199958145"
+      ],
+      "labels": [
+        "two tailed test"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000298": {
+      "definition_terms": [
+        "3db0548b7d9c9641",
+        "4e4f7b36057c1148",
+        "59830ebc3a418411",
+        "6b847a0ed0b2c484",
+        "6d62ba541843c36d",
+        "71536ec7b375136d",
+        "7beb7f4a57251263",
+        "8698fb89e125b92a",
+        "93354845030274cd",
+        "9f86d081884c7d65",
+        "a4262e1c9bcbc172",
+        "a530c507fd893f52",
+        "a6216ea03e578f21",
+        "a8f9c6d33384115e",
+        "bfc5a6b45b6a1612",
+        "cea23dd4b87e8b00",
+        "da4270e3735a3418",
+        "ea0890697a77af0a",
+        "f5d7fa2a0d6c96e4",
+        "f8af75fd4abdcf20"
+      ],
+      "labels": [
+        "exact binomial test"
+      ],
+      "parents": [
+        "0000191"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000302": {
+      "definition_terms": [
+        "0b27c158feb36ab1",
+        "24baa7a731ce04b4",
+        "264c8c381bf16c98",
+        "2d92fc5142e6a2c1",
+        "3501684178fe986c",
+        "4f9edc4d3ed0a0e5",
+        "5b729e0f619797fd",
+        "6390361dfdff141a",
+        "6d62ba541843c36d",
+        "7692c3ad3540bb80",
+        "81db8ebbbbc69c6c",
+        "895f7dcdf72d7dd4",
+        "99341d56cc288053",
+        "9f584196e7fe6de8",
+        "9f86d081884c7d65",
+        "ab3200f4ccb0a69a",
+        "af2bdbe1aa9b6ec1",
+        "d35c416a85b807e9",
+        "e1e4f9ca51b7286f",
+        "e5930e63213247cc"
+      ],
+      "labels": [
+        "one sample t-test"
+      ],
+      "parents": [
+        "0000279"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000303": {
+      "definition_terms": [
+        "084e990a49ba65e6",
+        "1888101dae1d8fc2",
+        "1e0125772f4ab33a",
+        "37ae591ebce627d6",
+        "3fc4ccfe745870e2",
+        "411d709dc2f00420",
+        "4f9edc4d3ed0a0e5",
+        "5fb6a47e368e12e5",
+        "69ea741e98fdc758",
+        "70332d559269a27a",
+        "74234e98afe7498f",
+        "7a665072dc2b2399",
+        "7af0b3e47c35820f",
+        "7beb7f4a57251263",
+        "9293a7e0b944108f",
+        "93354845030274cd",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "a988478b8c98ff70",
+        "af2bdbe1aa9b6ec1",
+        "c125d0397b605657",
+        "f480ffb2979d1888",
+        "f839161355091fcd",
+        "f885b8a1b99b6c43",
+        "f9d6cd1ed5cf1ead",
+        "fbb27fbdc4f4dd04"
+      ],
+      "labels": [
+        "two sample t-test with equal variance"
+      ],
+      "parents": [
+        "0000279"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000304": {
+      "definition_terms": [
+        "07397d633f25a710",
+        "0e7519a5980a644d",
+        "15eaa75240aed625",
+        "1c34f88707b55e61",
+        "1e7eda566c762add",
+        "24baa7a731ce04b4",
+        "254bb97b57f12e16",
+        "3fc4ccfe745870e2",
+        "49d4843163a72a45",
+        "55218052f4e1f8c0",
+        "5ca4f3850ccc331a",
+        "79e1d925e79c904a",
+        "7beb7f4a57251263",
+        "7c0766a4cdd8aa64",
+        "9293a7e0b944108f",
+        "961eb43699731759",
+        "9a5b19d243c35f4e",
+        "9f86d081884c7d65",
+        "a988478b8c98ff70",
+        "af2bdbe1aa9b6ec1",
+        "b1f7124c563597b0",
+        "b8192353a3982b4f",
+        "e7f5b61e70252b1b",
+        "f839161355091fcd"
+      ],
+      "labels": [
+        "two sample t-test with unequal variance"
+      ],
+      "parents": [
+        "0000279"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000309": {
+      "definition_terms": [
+        "10aca1d8b724381a",
+        "71536ec7b375136d",
+        "74234e98afe7498f",
+        "7beb7f4a57251263",
+        "93354845030274cd",
+        "94f106e0117354ce",
+        "9f86d081884c7d65",
+        "a5399a047ebc9022",
+        "a8f9c6d33384115e",
+        "b277fd623676a525",
+        "c38762e6e9f36b8a",
+        "c3aa9a8cc69dc3bf",
+        "da4270e3735a3418",
+        "dffe602cd1e0bfa9",
+        "f839161355091fcd"
+      ],
+      "labels": [
+        "Pearson's Chi square test of goodness of fit"
+      ],
+      "parents": [
+        "0000191"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000310": {
+      "definition_terms": [
+        "0d0eff7483f9df60",
+        "187897ce0afcf20b",
+        "24ea913efda289dc",
+        "2bf61a3bc850596a",
+        "3d8eefab379df522",
+        "3f8139402f84ba2f",
+        "3fc4ccfe745870e2",
+        "58c48602d373404d",
+        "7af0b3e47c35820f",
+        "827961b48d1f730d",
+        "985cfdcf860beb8b",
+        "9f86d081884c7d65",
+        "a441b15fe9a3cf56",
+        "a8f9c6d33384115e",
+        "b63b99f6383ba713",
+        "bcee72e6df5d5631",
+        "da6b81180fba740f",
+        "e244f187f696561d",
+        "f839161355091fcd",
+        "fa79d4746c21cd96",
+        "fbb27fbdc4f4dd04"
+      ],
+      "labels": [
+        "Barnard's test"
+      ],
+      "parents": [
+        "0000027"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000314": {
+      "definition_terms": [
+        "245111bc573ad01d",
+        "3a6eb0790f39ac87",
+        "3fe1406a8254afd4",
+        "4a33eacd5fa65f2b",
+        "55ea09e5715d0a8d",
+        "aee6105582920237",
+        "cd42404d52ad55cc",
+        "e33137e6b5c562ba",
+        "ff0139d07c592e9a"
+      ],
+      "labels": [
+        "upper confidence limit"
+      ],
+      "parents": [
+        "0000633"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000324": {
+      "definition_terms": [
+        "0844df8fee9eeada",
+        "14d7952a779ce518",
+        "19ed40bf62c399b8",
+        "3426125bf109d4bb",
+        "3a6eb0790f39ac87",
+        "6390361dfdff141a",
+        "79e1d925e79c904a",
+        "9372c470eeadd5ec",
+        "c099142bc3186ded",
+        "c96c6d5be8d08a12",
+        "f839161355091fcd",
+        "fb209e75cfb94344"
+      ],
+      "labels": [
+        "contrast weight estimate"
+      ],
+      "parents": [
+        "0000144"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000334": {
+      "definition_terms": [
+        "08f0be883564cbf2",
+        "12681deafadfa535",
+        "21af6f1260f927f5",
+        "37a894a4cbe1f450",
+        "3955f8fd92cda2c1",
+        "3b325109deb02ebf",
+        "58c92ee653b56b65",
+        "5b729e0f619797fd",
+        "65045134064dd4d9",
+        "6cb09fe72a3471a7",
+        "7af0b3e47c35820f",
+        "93354845030274cd",
+        "a441b15fe9a3cf56",
+        "a7937b64b8caa58f",
+        "cd42404d52ad55cc",
+        "d7cbbb688b2e506c",
+        "d9298a10d1b07358",
+        "f1fc3326d9fc752b",
+        "fa7496e4ae840306",
+        "fcbb0b71c7618c47"
+      ],
+      "labels": [
+        "mixture distribution"
+      ],
+      "parents": [
+        "0000225"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000336": {
+      "definition_terms": [
+        "193c45b5281908d2",
+        "3a6eb0790f39ac87",
+        "3b325109deb02ebf",
+        "3cdb1d0de8f0c3c3",
+        "4b7e172afd07683e",
+        "6195048f9ca4906f",
+        "70ad7b8f9a1c6c89",
+        "7f2fe580edb35154",
+        "89842e02ffefc886",
+        "8f4375ec65c2c409",
+        "a441b15fe9a3cf56",
+        "c081dd376ba93a53",
+        "d767748a603799c8",
+        "dcb576426a17b7df",
+        "fd28b6e8bdc03aa1"
+      ],
+      "labels": [
+        "best linear unbiased predictor"
+      ],
+      "parents": [
+        "0000119",
+        "0000337"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000337": {
+      "definition_terms": [
+        "1847074d1c25ea55",
+        "19ed40bf62c399b8",
+        "295444c1178cf38f",
+        "2ddeaa83d0898c3f",
+        "3a6eb0790f39ac87",
+        "4b7e172afd07683e",
+        "5b729e0f619797fd",
+        "6ee0eb490ff83210",
+        "7bd09a6286949473",
+        "aa8ff1bb43203d8b",
+        "b6dfe33841f2f8dc",
+        "bfc5a6b45b6a1612",
+        "cd42404d52ad55cc",
+        "d13dae0e56798384",
+        "d4fc996e45f7f468",
+        "dea7111a8406e27c",
+        "ee95898f9783c093",
+        "fad8fb8fe9acb079"
+      ],
+      "labels": [
+        "breeding value estimation"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000338": {
+      "definition_terms": [
+        "19ed40bf62c399b8",
+        "295444c1178cf38f",
+        "2ddeaa83d0898c3f",
+        "3a6eb0790f39ac87",
+        "4b7e172afd07683e",
+        "5b729e0f619797fd",
+        "6ee0eb490ff83210",
+        "7bd09a6286949473",
+        "aa8ff1bb43203d8b",
+        "b6dfe33841f2f8dc",
+        "bfc5a6b45b6a1612",
+        "cd42404d52ad55cc",
+        "d13dae0e56798384",
+        "d4fc996e45f7f468",
+        "fad8fb8fe9acb079"
+      ],
+      "labels": [
+        "breeding value estimation using genotype data"
+      ],
+      "parents": [
+        "0000337"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000339": {
+      "definition_terms": [
+        "1847074d1c25ea55",
+        "19ed40bf62c399b8",
+        "2ddeaa83d0898c3f",
+        "3a6eb0790f39ac87",
+        "4b7e172afd07683e",
+        "5b729e0f619797fd",
+        "6ee0eb490ff83210",
+        "7bd09a6286949473",
+        "b6dfe33841f2f8dc",
+        "cd42404d52ad55cc",
+        "d13dae0e56798384",
+        "d4fc996e45f7f468",
+        "dea7111a8406e27c",
+        "fad8fb8fe9acb079"
+      ],
+      "labels": [
+        "breeding value estimation using pedigree data"
+      ],
+      "parents": [
+        "0000337"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000343": {
+      "definition_terms": [
+        "195c703b019ccaec",
+        "54b759dba2ded093",
+        "6ee0eb490ff83210",
+        "7dcb94002acbbd09",
+        "8753d69d89a14c23",
+        "8d9b1e5d1d7117e9",
+        "9c3b7a3063981b21",
+        "b277fd623676a525",
+        "d13dae0e56798384",
+        "dea7111a8406e27c",
+        "ea0890697a77af0a"
+      ],
+      "labels": [
+        "genotype data set"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000376": {
+      "definition_terms": [
+        "1198780b3af7203c",
+        "15eaa75240aed625",
+        "317b32c143692b99",
+        "5aa562409c66b3b3",
+        "8c90cbf5d27d61f5",
+        "93354845030274cd",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "bfc5a6b45b6a1612",
+        "c5fc2700317a1985",
+        "cd42404d52ad55cc",
+        "e5930e63213247cc",
+        "f839161355091fcd",
+        "fe6d3468cf5c74d8"
+      ],
+      "labels": [
+        "Z-statistic"
+      ],
+      "parents": [
+        "0000039"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000385": {
+      "definition_terms": [
+        "1cb7558d1341f5ca",
+        "3426125bf109d4bb",
+        "52630e4131f9862e",
+        "79e1d925e79c904a",
+        "93354845030274cd",
+        "fe6d3468cf5c74d8"
+      ],
+      "labels": [
+        "standard error of a contrast estimate"
+      ],
+      "parents": [
+        "0000562"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000390": {
+      "definition_terms": [
+        "0275fca08c216c77",
+        "11a88a9d8d0a37f0",
+        "1303c06b0b014d0c",
+        "3b325109deb02ebf",
+        "3d8eefab379df522",
+        "6ee0eb490ff83210",
+        "78f9ac018e554365",
+        "9372c470eeadd5ec",
+        "94a23dc9d73e8e6a",
+        "a8f9c6d33384115e",
+        "a9f4b3d22a523fda",
+        "b23a6a8439c0dde5",
+        "f274537aaf2c5097",
+        "f44e85c4b8ea2add",
+        "f528212a496dc7a0",
+        "f839161355091fcd",
+        "fbb27fbdc4f4dd04",
+        "fc8fbb48a3a16bfd"
+      ],
+      "labels": [
+        "regression model"
+      ],
+      "parents": [
+        "0000107"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000401": {
+      "definition_terms": [
+        "0ec8b3a4a10e5266",
+        "12886f9d00055adf",
+        "1501661682797862",
+        "184df936d41b2da8",
+        "265ab25868e1d69a",
+        "3316348dbadfb7b1",
+        "3a6eb0790f39ac87",
+        "4f9edc4d3ed0a0e5",
+        "526f0af91e6b579f",
+        "5aa562409c66b3b3",
+        "5fb6a47e368e12e5",
+        "79e1d925e79c904a",
+        "82523faea1b0f2da",
+        "9639b250b40b41d8",
+        "964085f0bd89e19e",
+        "a8f9c6d33384115e",
+        "af2bdbe1aa9b6ec1",
+        "b0268fa71bc6e96c",
+        "bfc5a6b45b6a1612",
+        "c54a061dfcc125cb",
+        "ca75eaf4e00caa4b",
+        "ccdcbe846f3da4eb",
+        "d91555cffd334538",
+        "e6eaea18e885e107",
+        "ea0890697a77af0a",
+        "f179a509d32bd92c",
+        "f8b7fd82d83f8dfa",
+        "fcde2b2edba56bf4"
+      ],
+      "labels": [
+        "sample mean"
+      ],
+      "parents": [
+        "0000471",
+        "0000573"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000402": {
+      "definition_terms": [
+        "06f8382071a4109d",
+        "136a94de1ec3a1c8",
+        "2ddeaa83d0898c3f",
+        "3955f8fd92cda2c1",
+        "3a6eb0790f39ac87",
+        "4084a32b9bba4b4a",
+        "4f9edc4d3ed0a0e5",
+        "5aa562409c66b3b3",
+        "6390361dfdff141a",
+        "7513553c1e397a18",
+        "78f9ac018e554365",
+        "82523faea1b0f2da",
+        "93354845030274cd",
+        "9639b250b40b41d8",
+        "966877d108f945fa",
+        "99262a0284ae7670",
+        "9f584196e7fe6de8",
+        "a24e10fde71a121a",
+        "af2bdbe1aa9b6ec1",
+        "b00af6c28b451fcf",
+        "b20ad0b74eb57154",
+        "d342ed822e55a972",
+        "f839161355091fcd"
+      ],
+      "labels": [
+        "population mean"
+      ],
+      "parents": [
+        "0000029"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000421": {
+      "definition_terms": [
+        "0c87ed818fb90f3f",
+        "12886f9d00055adf",
+        "1cb7558d1341f5ca",
+        "2bfcf64c38aeb71a",
+        "342c8c61e679d490",
+        "4813494d137e1631",
+        "48d492d08e9d314c",
+        "4ba3e8e3765f2970",
+        "79e1d925e79c904a",
+        "7c0766a4cdd8aa64",
+        "888ad3a8bb06276a",
+        "a441b15fe9a3cf56",
+        "c38762e6e9f36b8a",
+        "d342ed822e55a972",
+        "deb538b50cb6318b",
+        "ea3bd73e2b506e00",
+        "f44e85c4b8ea2add",
+        "fbb27fbdc4f4dd04",
+        "fe6d3468cf5c74d8"
+      ],
+      "labels": [
+        "Tau squared"
+      ],
+      "parents": [
+        "0000418"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000425": {
+      "definition_terms": [
+        "0c87ed818fb90f3f",
+        "24225b1190d2389f",
+        "3a6eb0790f39ac87",
+        "4a33eacd5fa65f2b",
+        "5aa562409c66b3b3",
+        "6390361dfdff141a",
+        "79e1d925e79c904a",
+        "7a48c48032b1feeb",
+        "7c0766a4cdd8aa64",
+        "9372c470eeadd5ec",
+        "9e9d1d18fef11867",
+        "a441b15fe9a3cf56",
+        "acc93d8a4e4d7749",
+        "dcb576426a17b7df",
+        "ea3bd73e2b506e00",
+        "f44e85c4b8ea2add",
+        "fbb27fbdc4f4dd04"
+      ],
+      "labels": [
+        "Sidik-Jonkman estimator"
+      ],
+      "parents": [
+        "0000471"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000426": {
+      "definition_terms": [
+        "0c87ed818fb90f3f",
+        "3a6eb0790f39ac87",
+        "4a33eacd5fa65f2b",
+        "5aa562409c66b3b3",
+        "6390361dfdff141a",
+        "79e1d925e79c904a",
+        "7a48c48032b1feeb",
+        "7c0766a4cdd8aa64",
+        "9372c470eeadd5ec",
+        "9e9d1d18fef11867",
+        "a441b15fe9a3cf56",
+        "c7311d4137b8a37b",
+        "dcb576426a17b7df",
+        "e9a63a4eb15738ae",
+        "ea3bd73e2b506e00",
+        "f44e85c4b8ea2add",
+        "fbb27fbdc4f4dd04"
+      ],
+      "labels": [
+        "Hunter-Schmidt estimator"
+      ],
+      "parents": [
+        "0000471"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000428": {
+      "definition_terms": [
+        "136a94de1ec3a1c8",
+        "15719127b3dd9951",
+        "16188fca10e34d2a",
+        "1ac7d61d1d29fc2e",
+        "2149c64d00134c01",
+        "2b320f111b832396",
+        "2eaa6c981568da77",
+        "2ff61e6fabfeeb15",
+        "4bd77cffb0da8cbd",
+        "5b729e0f619797fd",
+        "5b7e6bf2dc4a32a6",
+        "5ce977ed5726c6c5",
+        "6390361dfdff141a",
+        "78f9ac018e554365",
+        "89445ea08b55421f",
+        "8a64ff09886cc35f",
+        "90ac16783fbc54c3",
+        "9372c470eeadd5ec",
+        "973e223542ffe23e",
+        "990b14ed85eaef92",
+        "9ca37ab3be873707",
+        "a8f9c6d33384115e",
+        "b48111c10c65fc11",
+        "b6dfe33841f2f8dc",
+        "bfc5a6b45b6a1612",
+        "c83445ef447d7330",
+        "d34a569ab7aaa54d",
+        "dd20955d60739e8d",
+        "e6640de835ad09fb",
+        "f528212a496dc7a0",
+        "f7d11e18f3d131a5"
+      ],
+      "labels": [
+        "maximum likelihood estimation"
+      ],
+      "parents": [
+        "0000119"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000429": {
+      "definition_terms": [
+        "0487c249731a7d90",
+        "0c87ed818fb90f3f",
+        "35b73ae88839e992",
+        "3a6eb0790f39ac87",
+        "48d492d08e9d314c",
+        "4a33eacd5fa65f2b",
+        "4adad6bbc5c853fc",
+        "5aa562409c66b3b3",
+        "60c411b2baec2ab5",
+        "6390361dfdff141a",
+        "79e1d925e79c904a",
+        "7a48c48032b1feeb",
+        "7c0766a4cdd8aa64",
+        "84d7c3a578ad0562",
+        "888ad3a8bb06276a",
+        "93354845030274cd",
+        "9372c470eeadd5ec",
+        "9cda38ea3a2bd78c",
+        "9e9d1d18fef11867",
+        "a441b15fe9a3cf56",
+        "a66e7109d7cf60d8",
+        "a7a39b72f29718e6",
+        "dcb576426a17b7df",
+        "ea3bd73e2b506e00",
+        "f44e85c4b8ea2add",
+        "f839161355091fcd",
+        "fbb27fbdc4f4dd04"
+      ],
+      "labels": [
+        "DerSimonian-Laird estimator"
+      ],
+      "parents": [
+        "0000471"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000430": {
+      "definition_terms": [
+        "0487c249731a7d90",
+        "0ad081759c63452e",
+        "12886f9d00055adf",
+        "15eaa75240aed625",
+        "24225b1190d2389f",
+        "35b73ae88839e992",
+        "48d492d08e9d314c",
+        "49b4a588ebb75ec2",
+        "5dbc14b928678fd2",
+        "7383711c1b05e72a",
+        "7a48c48032b1feeb",
+        "81db8ebbbbc69c6c",
+        "a441b15fe9a3cf56",
+        "a66e7109d7cf60d8",
+        "acc93d8a4e4d7749",
+        "b109a53288ba6ef3",
+        "c3657998722524e9",
+        "cec9111de36d4a50",
+        "d7d5dcc369426e2e",
+        "dcb576426a17b7df",
+        "e244f187f696561d",
+        "ea3bd73e2b506e00",
+        "f44e85c4b8ea2add"
+      ],
+      "labels": [
+        "meta analysis by Hartung-Knapp-Sidik-Jonkman method"
+      ],
+      "parents": [
+        "0000155"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000431": {
+      "definition_terms": [
+        "1501661682797862",
+        "35b73ae88839e992",
+        "3b970a8596e91223",
+        "48d492d08e9d314c",
+        "5fb6a47e368e12e5",
+        "6ee0eb490ff83210",
+        "7a48c48032b1feeb",
+        "7ceed0025bf72fab",
+        "9e9d1d18fef11867",
+        "ea3bd73e2b506e00",
+        "f44e85c4b8ea2add",
+        "fb209e75cfb94344"
+      ],
+      "labels": [
+        "meta analysis by DerSimonian and Leard method"
+      ],
+      "parents": [
+        "0000155"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000432": {
+      "definition_terms": [
+        "1501661682797862",
+        "175318ed6f7faac7",
+        "2269c0be009b610c",
+        "23d5e1e004ec63f2",
+        "3b970a8596e91223",
+        "48d492d08e9d314c",
+        "52630e4131f9862e",
+        "577bf0c4f4ee4f88",
+        "5fb6a47e368e12e5",
+        "6c5a6990038d66c5",
+        "6ee0eb490ff83210",
+        "749ab2c0d06c42ae",
+        "7a48c48032b1feeb",
+        "7c69f3fafb1de732",
+        "7ef50ace94f83c5a",
+        "82523faea1b0f2da",
+        "873f8161e2c69fa3",
+        "915f03836aeebc96",
+        "985cfdcf860beb8b",
+        "9a2ea65b8be0d086",
+        "9e9d1d18fef11867",
+        "aac0a0f664a6a15e",
+        "aed8e65072a17343",
+        "b808e156d18d1cec",
+        "c7311d4137b8a37b",
+        "ca00fccfb408989e",
+        "d6447e23d6652bd9",
+        "d7439bee24773bcb",
+        "dcb576426a17b7df",
+        "e9a63a4eb15738ae",
+        "ea257421aa4a9af6",
+        "ea3bd73e2b506e00",
+        "f44e85c4b8ea2add",
+        "f5f0b7008b9ef554",
+        "fb209e75cfb94344"
+      ],
+      "labels": [
+        "meta analysis by Hunter-Schmidt method"
+      ],
+      "parents": [
+        "0000155"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000433": {
+      "definition_terms": [
+        "1791d01f272867e6",
+        "1d2cafdb2fbaa2b8",
+        "1fe289205936c3fd",
+        "2184966b0ca21d4a",
+        "3509fd899235fb8b",
+        "36441047cde1c310",
+        "3a6eb0790f39ac87",
+        "3b096ab7467aff69",
+        "3d8eefab379df522",
+        "634768dae1474506",
+        "6ed0337140bd32b4",
+        "702ae24c938c3e10",
+        "881d5fb60090f59a",
+        "982055e51c25a06a",
+        "9f86d081884c7d65",
+        "a157d36a739191c1",
+        "a8f9c6d33384115e",
+        "ae4e19fd6a9209da",
+        "b4267ce93cbba4e4",
+        "be9e7c2d53a2ab04",
+        "beccbf3b889fe1fa",
+        "c512ca0c5c1e71be",
+        "c6a9b099d5da6ffa",
+        "d3087354d69a831f",
+        "d58999507a10460c",
+        "d859a706a3c5a6eb",
+        "d98a034f5cb8a0e3",
+        "e223d8ec1e6450da",
+        "e244f187f696561d",
+        "e93a15eab4b9bca2",
+        "eadc688cd557ee35",
+        "f39592393ef0859c",
+        "f839161355091fcd",
+        "f9d6cd1ed5cf1ead",
+        "fb095624103259f8"
+      ],
+      "labels": [
+        "McNemar test"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000434": {
+      "definition_terms": [
+        "193c45b5281908d2",
+        "218e5a6376848b0f",
+        "319e2ba078f51cfa",
+        "3509fd899235fb8b",
+        "3a6eb0790f39ac87",
+        "3b325109deb02ebf",
+        "3fc4ccfe745870e2",
+        "44c5e7071f3a75a2",
+        "496aca80e4d8f29f",
+        "77e9b7c9e40e1a39",
+        "77f257677ce7f118",
+        "888ad3a8bb06276a",
+        "8b2df81cc399a681",
+        "9a3a45d01531a20e",
+        "9f584196e7fe6de8",
+        "9f86d081884c7d65",
+        "a12dd3a7fd3203a4",
+        "a77de8a6daa11295",
+        "a8f9c6d33384115e",
+        "a9f4b3d22a523fda",
+        "b48111c10c65fc11",
+        "b8b142fa994e8794",
+        "bcee72e6df5d5631",
+        "c4773daf2e6a2e27",
+        "c78e2c6a7e4ba04d",
+        "d1905cf90af29a5a",
+        "d2b0a4ddd9880beb",
+        "dbb1831acb4510ce",
+        "e93a15eab4b9bca2",
+        "f44e85c4b8ea2add",
+        "f839161355091fcd",
+        "f905b19542ed08c9",
+        "ff5490e52efb8ca4"
+      ],
+      "labels": [
+        "Cochran's q test for heterogeneity"
+      ],
+      "parents": [
+        "0000027"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000435": {
+      "definition_terms": [
+        "06e55b633481f7bb",
+        "1501661682797862",
+        "15eaa75240aed625",
+        "187897ce0afcf20b",
+        "3544ab385b06600e",
+        "3955f8fd92cda2c1",
+        "4cfd97d8cd083f51",
+        "4f627c9e32f4ff3e",
+        "6390361dfdff141a",
+        "6ee0eb490ff83210",
+        "762069bc07a6e1b5",
+        "77f257677ce7f118",
+        "8044aae1f86875d9",
+        "819b60bb250f24cb",
+        "909802b269dee093",
+        "93354845030274cd",
+        "cd42404d52ad55cc",
+        "f469802a31447f90"
+      ],
+      "labels": [
+        "probability distribution scale parameter"
+      ],
+      "parents": [
+        "0000028"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000437": {
+      "definition_terms": [
+        "07678593eb0c5e2c",
+        "3955f8fd92cda2c1",
+        "3a6eb0790f39ac87",
+        "604cee807f644af4",
+        "6390361dfdff141a",
+        "6c5a6990038d66c5",
+        "93354845030274cd",
+        "9e9d1d18fef11867",
+        "cec9111de36d4a50",
+        "e5930e63213247cc",
+        "e5c6fde86910ded7",
+        "f469802a31447f90",
+        "f5259fbfbce9732c"
+      ],
+      "labels": [
+        "scale estimator"
+      ],
+      "parents": [
+        "0000471"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000440": {
+      "definition_terms": [
+        "37ae591ebce627d6",
+        "3a6eb0790f39ac87",
+        "4f9edc4d3ed0a0e5",
+        "6ee0eb490ff83210",
+        "81e2d3c92e49b42a",
+        "9c19636ddea25f0a",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "ab3200f4ccb0a69a",
+        "bc5534e9c0cbad11",
+        "ce73ee05c851b14c",
+        "cfacfd3ec33b9608",
+        "f839161355091fcd",
+        "f885b8a1b99b6c43"
+      ],
+      "labels": [
+        "Dixon Q test"
+      ],
+      "parents": [
+        "0000443"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000441": {
+      "definition_terms": [
+        "292450d64ef3672b",
+        "2aed12b734be9cf4",
+        "37ae591ebce627d6",
+        "3a6eb0790f39ac87",
+        "4f9edc4d3ed0a0e5",
+        "6ee0eb490ff83210",
+        "7692c3ad3540bb80",
+        "9c19636ddea25f0a",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "ab3200f4ccb0a69a",
+        "ce73ee05c851b14c",
+        "cfacfd3ec33b9608",
+        "f839161355091fcd",
+        "f885b8a1b99b6c43"
+      ],
+      "labels": [
+        "Grubbs' test"
+      ],
+      "parents": [
+        "0000443"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000442": {
+      "definition_terms": [
+        "05c97b671f1a8967",
+        "12618ec9f69ee45b",
+        "187897ce0afcf20b",
+        "23d5e1e004ec63f2",
+        "292450d64ef3672b",
+        "2aed12b734be9cf4",
+        "3338f195ffdc5899",
+        "37ae591ebce627d6",
+        "3a6eb0790f39ac87",
+        "4f9edc4d3ed0a0e5",
+        "6ee0eb490ff83210",
+        "7383711c1b05e72a",
+        "7692c3ad3540bb80",
+        "80348a765e5b2971",
+        "81e2d3c92e49b42a",
+        "947f187506f7629c",
+        "9c19636ddea25f0a",
+        "9f86d081884c7d65",
+        "a107a7269891aa74",
+        "a8f9c6d33384115e",
+        "ab3200f4ccb0a69a",
+        "c432b3dedcd6852f",
+        "cc73c906e945aa99",
+        "ce73ee05c851b14c",
+        "cf80cd8aed482d5d",
+        "cfacfd3ec33b9608",
+        "dad9a79bf7094d4e",
+        "f839161355091fcd",
+        "f885b8a1b99b6c43"
+      ],
+      "labels": [
+        "Tietjen-Moore test for outliers"
+      ],
+      "parents": [
+        "0000443"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000443": {
+      "definition_terms": [
+        "12618ec9f69ee45b",
+        "1b4859dd82e401fc",
+        "292450d64ef3672b",
+        "3393b41eeeea1c11",
+        "34627e3242f2ca21",
+        "37ae591ebce627d6",
+        "3a6eb0790f39ac87",
+        "3f8a7e66329a6d6c",
+        "4f9edc4d3ed0a0e5",
+        "50731d868f6e3793",
+        "5146f25dc5079599",
+        "586a866f990ab55e",
+        "5a4b5a17a4e90e76",
+        "6ee0eb490ff83210",
+        "73424c510585c102",
+        "80348a765e5b2971",
+        "81e2d3c92e49b42a",
+        "9c19636ddea25f0a",
+        "9f86d081884c7d65",
+        "a8f9c6d33384115e",
+        "ab3200f4ccb0a69a",
+        "beeb20fbd6769508",
+        "ce73ee05c851b14c",
+        "cf80cd8aed482d5d",
+        "cfacfd3ec33b9608",
+        "f839161355091fcd",
+        "f885b8a1b99b6c43"
+      ],
+      "labels": [
+        "generalized extreme studentized deviate test"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000461": {
+      "definition_terms": [
+        "0387dd2081a1cde3",
+        "0967115f2813a354",
+        "0b27c158feb36ab1",
+        "1303c06b0b014d0c",
+        "1fb839e651cd5774",
+        "3a6eb0790f39ac87",
+        "3f3867313a9dbfd5",
+        "5673d254beb90de4",
+        "5b7e6bf2dc4a32a6",
+        "5ef5ef0364b6939c",
+        "6842ca7df10554ec",
+        "79891e980747ffbd",
+        "7beb7f4a57251263",
+        "7daf3e3985f8c05b",
+        "85c567a49f48e303",
+        "931534c0c145d0a9",
+        "9432190b4ac41501",
+        "98569e7e9080addd",
+        "9af211329b2fc82e",
+        "c02d93bb92700960",
+        "c549779d79e5c8e9",
+        "ca00fccfb408989e",
+        "cf80cd8aed482d5d",
+        "dd13795d0e0b52c8",
+        "ebb73279a5725b6f",
+        "f44e85c4b8ea2add"
+      ],
+      "labels": [
+        "O'brien-Flemming boundary analysis"
+      ],
+      "parents": [
+        "0000460"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000462": {
+      "definition_terms": [
+        "03494afd4248c42f",
+        "0387dd2081a1cde3",
+        "0967115f2813a354",
+        "12886f9d00055adf",
+        "1303c06b0b014d0c",
+        "14a2326b6bb54f40",
+        "1e3350f128594f48",
+        "1fb839e651cd5774",
+        "21af6f1260f927f5",
+        "222b0bd51fcef7e6",
+        "254bb97b57f12e16",
+        "28c03d30bb4ff669",
+        "3509fd899235fb8b",
+        "3a6eb0790f39ac87",
+        "3f3867313a9dbfd5",
+        "4137b01e139589b7",
+        "497e22fe854a24bc",
+        "50d858e0985ecc7f",
+        "5673d254beb90de4",
+        "56953444227c36ed",
+        "5ef5ef0364b6939c",
+        "64ea62de2928a9ac",
+        "6c45cb72a36e63d5",
+        "72199746018e5e3e",
+        "79891e980747ffbd",
+        "7beb7f4a57251263",
+        "7daf3e3985f8c05b",
+        "7e9e5ac30f2216fd",
+        "8044aae1f86875d9",
+        "8322e87d24582952",
+        "89445ea08b55421f",
+        "8e752bb9817c0632",
+        "9150c74c5f92d51a",
+        "931534c0c145d0a9",
+        "9432190b4ac41501",
+        "94e8566ddfc123ed",
+        "98569e7e9080addd",
+        "9893ff995bf32a4f",
+        "992a93455c71fedd",
+        "9b0f1b10aff55228",
+        "a167ddeb1c00e9f9",
+        "a3b142af6e97cfc3",
+        "a511aeeeb8a11993",
+        "a7a39b72f29718e6",
+        "ae448ac86c4e8e4d",
+        "aef9b0cbd5d5c214",
+        "b1e99324505bd32d",
+        "b63b99f6383ba713",
+        "bec1687971e36be5",
+        "c1bb3894443fd908",
+        "c1deb3268b977bb9",
+        "c2bdb8d8cd2d5435",
+        "c4773daf2e6a2e27",
+        "c549779d79e5c8e9",
+        "ca00fccfb408989e",
+        "cced28c6dc3f99c2",
+        "cd42404d52ad55cc",
+        "cd892494455f6fa0",
+        "cdc29937887188ad",
+        "cf80cd8aed482d5d",
+        "d767748a603799c8",
+        "dd13795d0e0b52c8",
+        "e2257349c139799f",
+        "e244f187f696561d",
+        "ebb73279a5725b6f",
+        "f39592393ef0859c",
+        "f44e85c4b8ea2add",
+        "f839161355091fcd",
+        "f9dc689e6d50ad6f"
+      ],
+      "labels": [
+        "Pocock boundary analysis"
+      ],
+      "parents": [
+        "0000460"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000463": {
+      "definition_terms": [
+        "0081779c287d567d",
+        "0387dd2081a1cde3",
+        "0967115f2813a354",
+        "0d6e4079e36703eb",
+        "0e449aae8fb8acb2",
+        "1303c06b0b014d0c",
+        "15eaa75240aed625",
+        "17eebc0598244f4c",
+        "187897ce0afcf20b",
+        "1e4453a98c9d7417",
+        "1fb839e651cd5774",
+        "21af6f1260f927f5",
+        "2443630b4620165c",
+        "317b32c143692b99",
+        "3393b41eeeea1c11",
+        "3955f8fd92cda2c1",
+        "3a6eb0790f39ac87",
+        "3f3867313a9dbfd5",
+        "490b61875085b974",
+        "497e22fe854a24bc",
+        "4fdd3b6201a22c78",
+        "5673d254beb90de4",
+        "5b729e0f619797fd",
+        "5ef5ef0364b6939c",
+        "61bffea9215f6516",
+        "66a424a9a958b152",
+        "69ea741e98fdc758",
+        "6c45cb72a36e63d5",
+        "70332d559269a27a",
+        "72199746018e5e3e",
+        "7369949b47ef2c6b",
+        "7383711c1b05e72a",
+        "74234e98afe7498f",
+        "7692c3ad3540bb80",
+        "79891e980747ffbd",
+        "7beb7f4a57251263",
+        "7daf3e3985f8c05b",
+        "7db0558a5cdaa5ff",
+        "8322e87d24582952",
+        "85c567a49f48e303",
+        "8698fb89e125b92a",
+        "8b60aa24be25bde4",
+        "923b4b90ea64343e",
+        "931534c0c145d0a9",
+        "9432190b4ac41501",
+        "94c05f1c45a1d1a9",
+        "94e8566ddfc123ed",
+        "96d9632f363564cc",
+        "98569e7e9080addd",
+        "9ea90488b5c8219a",
+        "a157d36a739191c1",
+        "a24e10fde71a121a",
+        "a407e2640b1c2341",
+        "a5c935d142e9fa6e",
+        "a6b46dd0d1ae5e86",
+        "a718e3e9aefa308a",
+        "b48111c10c65fc11",
+        "b5bea41b6c623f7c",
+        "b74f83c9353b55cd",
+        "bb8c8605c55dcc2d",
+        "bc05d8917dac5eaa",
+        "bcc649cfdb8cc557",
+        "c093955cebfac85b",
+        "c152d5bbb379c3f9",
+        "c3657998722524e9",
+        "c549779d79e5c8e9",
+        "ca00fccfb408989e",
+        "ceb1e2514a1f1b45",
+        "cf80cd8aed482d5d",
+        "d0b4ba2311b3e849",
+        "daf76895e66d92e2",
+        "dd13795d0e0b52c8",
+        "e2257349c139799f",
+        "e255d11c7ad7a1c7",
+        "ebb1d2e59513b31a",
+        "ebb73279a5725b6f",
+        "efbde73cf7b4ef00",
+        "f078209dfece9535",
+        "f408830bcc7fab37",
+        "f44e85c4b8ea2add",
+        "f839161355091fcd",
+        "f86b1f62a8554232",
+        "f9d6cd1ed5cf1ead",
+        "f9dc689e6d50ad6f",
+        "fbb27fbdc4f4dd04",
+        "ff5490e52efb8ca4"
+      ],
+      "labels": [
+        "Haybittle-Peto boundary analysis"
+      ],
+      "parents": [
+        "0000460"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000471": {
+      "definition_terms": [
+        "342c8c61e679d490",
+        "3a6eb0790f39ac87",
+        "405abc33f5f3b06b",
+        "4a33eacd5fa65f2b",
+        "4f9edc4d3ed0a0e5",
+        "5aa562409c66b3b3",
+        "6390361dfdff141a",
+        "79e1d925e79c904a",
+        "93354845030274cd",
+        "9e9d1d18fef11867",
+        "a8f9c6d33384115e",
+        "aa33996d60e89311",
+        "b277fd623676a525",
+        "b5bea41b6c623f7c",
+        "c2c4db7b208fd30d",
+        "cd42404d52ad55cc",
+        "ce83b099dfbaf0e2"
+      ],
+      "labels": [
+        "estimate"
+      ],
+      "parents": [
+        "0000039"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000477": {
+      "definition_terms": [
+        "0844df8fee9eeada",
+        "15eaa75240aed625",
+        "4ba3e8e3765f2970",
+        "6bab65a2bddec8af",
+        "9834a14ab9bcaa0f",
+        "afbfaf8cdbc30a53",
+        "bca3685fea8acd4e",
+        "c8f1413fe5b6bcb2",
+        "dea7111a8406e27c",
+        "e0cb800a5ccda4cb",
+        "ed7002b439e9ac84",
+        "f44e85c4b8ea2add"
+      ],
+      "labels": [
+        "partial least square weight"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000478": {
+      "definition_terms": [
+        "0713f136ea316c8f",
+        "15e253e68190acd4",
+        "1847074d1c25ea55",
+        "195c703b019ccaec",
+        "6ee0eb490ff83210",
+        "8d9b1e5d1d7117e9",
+        "b277fd623676a525",
+        "d13dae0e56798384",
+        "dea7111a8406e27c",
+        "ea0890697a77af0a"
+      ],
+      "labels": [
+        "pedigree data set"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000480": {
+      "definition_terms": [
+        "0487c249731a7d90",
+        "0967115f2813a354",
+        "0c72058cb79c9abe",
+        "0e9f3819185eea8a",
+        "110f945a922bccbd",
+        "193c45b5281908d2",
+        "2b320f111b832396",
+        "3a6eb0790f39ac87",
+        "409e364456fa9364",
+        "4b7e172afd07683e",
+        "5ef5ef0364b6939c",
+        "6390361dfdff141a",
+        "7bd09a6286949473",
+        "7c0766a4cdd8aa64",
+        "8a241a5c3e113838",
+        "90869314cc23cd66",
+        "9f584196e7fe6de8",
+        "a24e10fde71a121a",
+        "cd42404d52ad55cc",
+        "ea7792a26f405e2a",
+        "ec72b9566a9c3501",
+        "f274537aaf2c5097",
+        "f839161355091fcd",
+        "f9194e73f9e9459e",
+        "fff21209710ee214"
+      ],
+      "labels": [
+        "ridge regression best linear unbiaised predictor"
+      ],
+      "parents": [
+        "0000119",
+        "0000337"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000481": {
+      "definition_terms": [
+        "05cf69408f5a1879",
+        "07678593eb0c5e2c",
+        "0c72058cb79c9abe",
+        "174824b02c8aa83d",
+        "1847074d1c25ea55",
+        "28d9e7bbbf81137e",
+        "3a6eb0790f39ac87",
+        "4b7e172afd07683e",
+        "5a7580116e14fdc3",
+        "6e00cd562cc2d88e",
+        "7117fff2d0fd2944",
+        "7bd09a6286949473",
+        "89445ea08b55421f",
+        "90869314cc23cd66",
+        "9372c470eeadd5ec",
+        "a24e10fde71a121a",
+        "aa8ff1bb43203d8b",
+        "ab91a82d14cfc612",
+        "bb8c8605c55dcc2d",
+        "dea7111a8406e27c",
+        "edca249d8d1f9a5b",
+        "fb815b24c582b236"
+      ],
+      "labels": [
+        "genomic best linear unbiased prediction"
+      ],
+      "parents": [
+        "0000119",
+        "0000337"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000482": {
+      "definition_terms": [
+        "2fbff922b53a9ceb",
+        "3a6eb0790f39ac87",
+        "4b7e172afd07683e",
+        "4f7247a59591e3a1",
+        "54b759dba2ded093",
+        "7bd09a6286949473",
+        "89445ea08b55421f",
+        "9372c470eeadd5ec",
+        "96044d9734b60441",
+        "982055e51c25a06a",
+        "aa8ff1bb43203d8b",
+        "ab91a82d14cfc612",
+        "d342ed822e55a972",
+        "d4fc996e45f7f468",
+        "dea7111a8406e27c",
+        "ed5b8120601641c5",
+        "edca249d8d1f9a5b"
+      ],
+      "labels": [
+        "trait-specific relationship matrix best linear unbiaised prediction"
+      ],
+      "parents": [
+        "0000119",
+        "0000337"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000483": {
+      "definition_terms": [
+        "110f945a922bccbd",
+        "295444c1178cf38f",
+        "2b320f111b832396",
+        "3955f8fd92cda2c1",
+        "3a6eb0790f39ac87",
+        "3b970a8596e91223",
+        "4b7e172afd07683e",
+        "7bd09a6286949473",
+        "7f8b38975a118e99",
+        "8a241a5c3e113838",
+        "9150c74c5f92d51a",
+        "9372c470eeadd5ec",
+        "b23a6a8439c0dde5",
+        "cd42404d52ad55cc",
+        "dcb576426a17b7df",
+        "e5bade0e979cb8cf",
+        "ea7792a26f405e2a",
+        "f839161355091fcd",
+        "f9194e73f9e9459e"
+      ],
+      "labels": [
+        "Bayes A"
+      ],
+      "parents": [
+        "0000119",
+        "0000337"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000484": {
+      "definition_terms": [
+        "110f945a922bccbd",
+        "295444c1178cf38f",
+        "2b320f111b832396",
+        "3955f8fd92cda2c1",
+        "3a6eb0790f39ac87",
+        "3b970a8596e91223",
+        "4b7e172afd07683e",
+        "58c92ee653b56b65",
+        "6ee0eb490ff83210",
+        "7bd09a6286949473",
+        "7f8b38975a118e99",
+        "8a241a5c3e113838",
+        "9150c74c5f92d51a",
+        "93354845030274cd",
+        "9372c470eeadd5ec",
+        "cd42404d52ad55cc",
+        "dcb576426a17b7df",
+        "e5bade0e979cb8cf",
+        "ea7792a26f405e2a",
+        "f480ffb2979d1888",
+        "f839161355091fcd",
+        "f9194e73f9e9459e"
+      ],
+      "labels": [
+        "Bayes B"
+      ],
+      "parents": [
+        "0000119",
+        "0000337"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000485": {
+      "definition_terms": [
+        "04731bc4ce6b2c98",
+        "05cf69408f5a1879",
+        "07a8750738828ffd",
+        "07f7fcdeb05ccbef",
+        "080484b7e27e069f",
+        "0c72058cb79c9abe",
+        "1d35a94841cbfca1",
+        "254bb97b57f12e16",
+        "284d1e8c49182482",
+        "32182951b85a244a",
+        "342c8c61e679d490",
+        "3a6eb0790f39ac87",
+        "3af1cf6be4d7c59a",
+        "3df701b1e5b876b2",
+        "3f3867313a9dbfd5",
+        "40c079d137e82025",
+        "429bf78dbd9b9535",
+        "4a1898716ef67796",
+        "4a33eacd5fa65f2b",
+        "51f1a4c98cc8993a",
+        "599fc58fd0f76984",
+        "5aa562409c66b3b3",
+        "5ef5ef0364b6939c",
+        "6c5a6990038d66c5",
+        "6ee1bce9367ceddf",
+        "7117fff2d0fd2944",
+        "770e607624d68926",
+        "79e1d925e79c904a",
+        "7bd09a6286949473",
+        "7c0766a4cdd8aa64",
+        "853916b1dbc21e61",
+        "85574fa07dae3213",
+        "878c9388e86fc9bd",
+        "89445ea08b55421f",
+        "8a241a5c3e113838",
+        "8c90cbf5d27d61f5",
+        "8edcc26c0f6c7256",
+        "982055e51c25a06a",
+        "9ba82e0b46792104",
+        "9e27940861d74757",
+        "9f584196e7fe6de8",
+        "a11ae06469c63740",
+        "b5bea41b6c623f7c",
+        "b6dfe33841f2f8dc",
+        "b7a348d567c7fb4e",
+        "b808e156d18d1cec",
+        "bc16f5825a9dafc8",
+        "bcee72e6df5d5631",
+        "bec1687971e36be5",
+        "c3657998722524e9",
+        "c4773daf2e6a2e27",
+        "c8e14c39b1fbb565",
+        "c981a30c0e7b420b",
+        "cd42404d52ad55cc",
+        "d05aa2a15fb3c40e",
+        "d13dae0e56798384",
+        "d342ed822e55a972",
+        "d4fc996e45f7f468",
+        "d58ba90161ff51f2",
+        "d7cbbb688b2e506c",
+        "dcb576426a17b7df",
+        "e0ee8bb50685e05f",
+        "ea103d6cb5c3fb3d",
+        "ed5b8120601641c5",
+        "f839161355091fcd",
+        "f9d6cd1ed5cf1ead",
+        "fa79d4746c21cd96",
+        "fd1c8dcdc898b165"
+      ],
+      "labels": [
+        "estimated breeding value"
+      ],
+      "parents": [
+        "0000471"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000490": {
+      "definition_terms": [
+        "0fcd568a5cb9bdb4",
+        "10882c27c47753f2",
+        "12886f9d00055adf",
+        "15eaa75240aed625",
+        "1e2135d1b50f14d3",
+        "254bb97b57f12e16",
+        "27747689baf9903c",
+        "32182951b85a244a",
+        "36d78c756a3bec3c",
+        "3a6eb0790f39ac87",
+        "3f8a7e66329a6d6c",
+        "4c6a4839f83d20d2",
+        "4d040d3f6466018c",
+        "4f627c9e32f4ff3e",
+        "54b759dba2ded093",
+        "58c48602d373404d",
+        "59830ebc3a418411",
+        "5a4aa198598a303b",
+        "5ef5ef0364b6939c",
+        "6bab65a2bddec8af",
+        "6db7d803e74f1ffa",
+        "72231043bc1807e6",
+        "725fed9d1ae90998",
+        "7692c3ad3540bb80",
+        "77f257677ce7f118",
+        "7c4e1fb1780242ab",
+        "7e97ff3e2414ed00",
+        "81db8ebbbbc69c6c",
+        "82e05dae00a818a3",
+        "8656aa55d393b032",
+        "93354845030274cd",
+        "936fbcc6eed01b4b",
+        "99262a0284ae7670",
+        "9f584196e7fe6de8",
+        "9f86d081884c7d65",
+        "a3b142af6e97cfc3",
+        "a82c1f6925f73962",
+        "a8421af85259088b",
+        "acba25512100f80b",
+        "ad936fcbed631fa6",
+        "ad95d5fa651ba86d",
+        "b109a53288ba6ef3",
+        "bb0347a468d97e98",
+        "bcee72e6df5d5631",
+        "c110b93cfa8d9952",
+        "c152d5bbb379c3f9",
+        "c271f2bb931810ee",
+        "c4773daf2e6a2e27",
+        "daa5c360ed3488f3",
+        "e9c974e51bac2961",
+        "ecec4693a14911d6",
+        "f39592393ef0859c",
+        "f3c7807d475073ba",
+        "f905b19542ed08c9",
+        "fb095624103259f8"
+      ],
+      "labels": [
+        "Dunn’s multiple comparison test"
+      ],
+      "parents": [
+        "0000279"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000491": {
+      "definition_terms": [
+        "03b7a0d9ccaf8156",
+        "04cd87fad96e800b",
+        "09f5ffef28309853",
+        "136a94de1ec3a1c8",
+        "16367aacb67a4a01",
+        "1e0125772f4ab33a",
+        "20cd938a2ea64f61",
+        "254bb97b57f12e16",
+        "2606a9816816db6a",
+        "2a93fe385c0b4e60",
+        "319e2ba078f51cfa",
+        "32174ee0e18780d0",
+        "3338f195ffdc5899",
+        "36d78c756a3bec3c",
+        "3955f8fd92cda2c1",
+        "3a6eb0790f39ac87",
+        "3b151d348d3d215d",
+        "3f8a7e66329a6d6c",
+        "4ed379d418bb8629",
+        "4f627c9e32f4ff3e",
+        "53501f58f1926163",
+        "5a8460f6b1bf96a8",
+        "696cb6a2fa76011c",
+        "69ea741e98fdc758",
+        "6e0534af16e1fe99",
+        "7383711c1b05e72a",
+        "74234e98afe7498f",
+        "766c1d13a3e06c4d",
+        "7692c3ad3540bb80",
+        "7896a617a785dd96",
+        "7beb7f4a57251263",
+        "7cad15d4112d1de6",
+        "7d77ef9527284ec3",
+        "7d8a733043452f2b",
+        "7f26104f77a7ce47",
+        "862079b2a455c3ef",
+        "961eb43699731759",
+        "9f584196e7fe6de8",
+        "9f86d081884c7d65",
+        "a08c21fc7b1d10ef",
+        "a11ae06469c63740",
+        "a3a14a1df8440331",
+        "a7937b64b8caa58f",
+        "a82c1f6925f73962",
+        "ab3200f4ccb0a69a",
+        "ad936fcbed631fa6",
+        "b11279547bc49510",
+        "b3986952b145da5f",
+        "b9014eaab626647d",
+        "bc62a3c14fec277e",
+        "bec1687971e36be5",
+        "befb90274c7db469",
+        "c081dd376ba93a53",
+        "c099142bc3186ded",
+        "c271f2bb931810ee",
+        "cab2644828bcc1f2",
+        "cd42404d52ad55cc",
+        "d7cbbb688b2e506c",
+        "d9298a10d1b07358",
+        "e6eaea18e885e107",
+        "e93cb41d4a7d2395",
+        "ec654fac9599f62e",
+        "ee4d988c65de860f",
+        "f39592393ef0859c",
+        "f4182874e7466ab3",
+        "f7496f1fc9731f2e",
+        "f905b19542ed08c9",
+        "fefccc2f3085a5cc"
+      ],
+      "labels": [
+        "Conover-Iman test of multiple comparisons using rank sums"
+      ],
+      "parents": [
+        "0000279"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000492": {
+      "definition_terms": [
+        "00b38c8bf4329725",
+        "00ff6f13379089e6",
+        "0275fca08c216c77",
+        "06a61df042ad775e",
+        "193c45b5281908d2",
+        "2ce06a9e7f8c3e6b",
+        "3a6eb0790f39ac87",
+        "4b7e172afd07683e",
+        "79e1d925e79c904a",
+        "7f2fe580edb35154",
+        "84b8f92cdf1755ac",
+        "8a241a5c3e113838",
+        "b48111c10c65fc11",
+        "d075063d475b0d15",
+        "d4fc996e45f7f468",
+        "e642b12901a6ee51",
+        "ec805d17ad4f6cf2",
+        "ef5b47e46984e701",
+        "f274537aaf2c5097",
+        "f528212a496dc7a0",
+        "f839161355091fcd",
+        "fad4382334c0bcf6"
+      ],
+      "labels": [
+        "Bayesian least absolute shrinkage and selection operator"
+      ],
+      "parents": [
+        "0000119",
+        "0000337"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000502": {
+      "definition_terms": [
+        "0425843ebda6f84d",
+        "193c45b5281908d2",
+        "19ed40bf62c399b8",
+        "24baa7a731ce04b4",
+        "3eeb7e96e59ce40f",
+        "4f9edc4d3ed0a0e5",
+        "4fac4ed5dfc73619",
+        "518d2b1571856dc0",
+        "52630e4131f9862e",
+        "772c6953848bf5b1",
+        "853916b1dbc21e61",
+        "8b6df8c11847ada8",
+        "92bc2e4121158762",
+        "9b0f1b10aff55228",
+        "a4262e1c9bcbc172",
+        "a8f9c6d33384115e",
+        "b808e156d18d1cec",
+        "bb202a0f7b7ba5a4",
+        "c4773daf2e6a2e27",
+        "c981a30c0e7b420b",
+        "cf3c3437a865359b",
+        "dea7111a8406e27c",
+        "e5c6fde86910ded7"
+      ],
+      "labels": [
+        "statistical sampling"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000525": {
+      "definition_terms": [
+        "2740e59ffb8c5eff",
+        "285ae0043925796c",
+        "4ba3e8e3765f2970",
+        "59ff86a3428de18e",
+        "5ef5ef0364b6939c",
+        "6e00cd562cc2d88e",
+        "7af0b3e47c35820f",
+        "a988478b8c98ff70",
+        "b0b17893a5134397",
+        "b4dc66dde806261b",
+        "beeb20fbd6769508",
+        "c4773daf2e6a2e27",
+        "dd9245cc1ddc69c8",
+        "de38e0881e31dde6",
+        "e09f4039d9b673bf",
+        "fb095624103259f8",
+        "fbb27fbdc4f4dd04"
+      ],
+      "labels": [
+        "covariance matrix"
+      ],
+      "parents": [
+        "0000642"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000529": {
+      "definition_terms": [
+        "0b27c158feb36ab1",
+        "1cb7558d1341f5ca",
+        "264c8c381bf16c98",
+        "2ec51a80f6f515e8",
+        "82523faea1b0f2da",
+        "93354845030274cd",
+        "b1dd938bda7819de",
+        "fe6d3468cf5c74d8"
+      ],
+      "labels": [
+        "scaled t distribution"
+      ],
+      "parents": [
+        "0000059"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000533": {
+      "definition_terms": [
+        "008dd550c215e07c",
+        "110f945a922bccbd",
+        "1f46b2fdd9382900",
+        "295444c1178cf38f",
+        "3955f8fd92cda2c1",
+        "3a6eb0790f39ac87",
+        "3f3867313a9dbfd5",
+        "43cedaa98924112f",
+        "4b7e172afd07683e",
+        "5b7e6bf2dc4a32a6",
+        "6e302ff0f0e8ebf6",
+        "7bd09a6286949473",
+        "7f8b38975a118e99",
+        "858b59ff9fce2bd2",
+        "89445ea08b55421f",
+        "8a241a5c3e113838",
+        "9150c74c5f92d51a",
+        "9372c470eeadd5ec",
+        "9414886b1ebf025d",
+        "a24e10fde71a121a",
+        "b04a12f6483ea24a",
+        "b23a6a8439c0dde5",
+        "b63b99f6383ba713",
+        "d342ed822e55a972",
+        "d80c9bf910f14473",
+        "dcb576426a17b7df",
+        "df36b896bab5f953",
+        "e5bade0e979cb8cf",
+        "f839161355091fcd",
+        "f9194e73f9e9459e",
+        "f9b0078b5df596d2"
+      ],
+      "labels": [
+        "Bayes C pi"
+      ],
+      "parents": [
+        "0000119",
+        "0000337"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000534": {
+      "definition_terms": [
+        "05cf69408f5a1879",
+        "15eaa75240aed625",
+        "2181584795ff5511",
+        "2cdde11f0c547636",
+        "3a6eb0790f39ac87",
+        "40c079d137e82025",
+        "4a33eacd5fa65f2b",
+        "5b7e6bf2dc4a32a6",
+        "7bd09a6286949473",
+        "9372c470eeadd5ec",
+        "b6dfe33841f2f8dc",
+        "b917d8215e51bcaf",
+        "c071cf5f5ed6f884",
+        "c081dd376ba93a53",
+        "cd42404d52ad55cc",
+        "f839161355091fcd"
+      ],
+      "labels": [
+        "genetic inheritance model"
+      ],
+      "parents": [
+        "0000107"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000540": {
+      "definition_terms": [
+        "251fecd592e56e6c",
+        "3a6eb0790f39ac87",
+        "3b637864e75ab14e",
+        "3f49dbbfe051cb20",
+        "4b7e172afd07683e",
+        "6531bc143ca07e24",
+        "6923dd1bc0460082",
+        "7f2fe580edb35154",
+        "812592913d114ecb",
+        "a4a9d8abb594d75c",
+        "dd92a47df2f3d2c8",
+        "ef7d009c7e812da1",
+        "efe77b201dc216c0",
+        "f7496f1fc9731f2e"
+      ],
+      "labels": [
+        "reproducing kernel Hilbert space procedure"
+      ],
+      "parents": [
+        "0000119",
+        "0000337"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000542": {
+      "definition_terms": [
+        "07678593eb0c5e2c",
+        "08f0be883564cbf2",
+        "1613c118b0e96b4d",
+        "2676e6e68a8ebfb9",
+        "35005070692e3eec",
+        "3a6eb0790f39ac87",
+        "5c298ed8154b7e16",
+        "6cbdfcf83679e694",
+        "6ef7c9b15ecdd690",
+        "7bd09a6286949473",
+        "8920cfb42142cc57",
+        "89445ea08b55421f",
+        "a24e10fde71a121a",
+        "aa8ff1bb43203d8b",
+        "cd42404d52ad55cc",
+        "d0331ca087d69014",
+        "d13dae0e56798384",
+        "d21f85ea38166303",
+        "d342ed822e55a972",
+        "dea7111a8406e27c",
+        "e39da5b66920a888",
+        "f96c94f287038f69"
+      ],
+      "labels": [
+        "genomic estimated breeding value"
+      ],
+      "parents": [
+        "0000485"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000546": {
+      "definition_terms": [
+        "05cf69408f5a1879",
+        "08f0be883564cbf2",
+        "110f945a922bccbd",
+        "11507a0e2f5e69d5",
+        "136a94de1ec3a1c8",
+        "295444c1178cf38f",
+        "2b320f111b832396",
+        "317b32c143692b99",
+        "3426125bf109d4bb",
+        "3a6eb0790f39ac87",
+        "3b970a8596e91223",
+        "3f3867313a9dbfd5",
+        "411d709dc2f00420",
+        "4b7e172afd07683e",
+        "5b7e6bf2dc4a32a6",
+        "5f79c870f2acef18",
+        "7692c3ad3540bb80",
+        "7bd09a6286949473",
+        "7c0766a4cdd8aa64",
+        "888ad3a8bb06276a",
+        "89445ea08b55421f",
+        "8a241a5c3e113838",
+        "9372c470eeadd5ec",
+        "9cda38ea3a2bd78c",
+        "a7937b64b8caa58f",
+        "aa8ff1bb43203d8b",
+        "b04a12f6483ea24a",
+        "b5bea41b6c623f7c",
+        "cd42404d52ad55cc",
+        "d342ed822e55a972",
+        "ea7792a26f405e2a",
+        "f839161355091fcd",
+        "f9194e73f9e9459e"
+      ],
+      "labels": [
+        "Bayes R"
+      ],
+      "parents": [
+        "0000119",
+        "0000337"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000547": {
+      "definition_terms": [
+        "00b38c8bf4329725",
+        "0275fca08c216c77",
+        "136a94de1ec3a1c8",
+        "25342add8cb7293e",
+        "2ce06a9e7f8c3e6b",
+        "319e2ba078f51cfa",
+        "3fc4ccfe745870e2",
+        "93354845030274cd",
+        "936fbcc6eed01b4b",
+        "a4ca8c5d68c930c8",
+        "b8120099e590408d",
+        "d075063d475b0d15",
+        "fbb27fbdc4f4dd04"
+      ],
+      "labels": [
+        "Laplace probability distribution"
+      ],
+      "parents": [
+        "0000067",
+        "0000329"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000556": {
+      "definition_terms": [
+        "12886f9d00055adf",
+        "37a54e5c414654d8",
+        "4ba3e8e3765f2970",
+        "6bab65a2bddec8af",
+        "6c35493a2b937829",
+        "7b12be43febc6e18",
+        "85e1c71eade2bdb0",
+        "8dd8300fba8e5df3",
+        "9834a14ab9bcaa0f",
+        "c96c6d5be8d08a12",
+        "f44e85c4b8ea2add",
+        "f839161355091fcd"
+      ],
+      "labels": [
+        "number of orthogonal components"
+      ],
+      "parents": [
+        "0000047"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000559": {
+      "definition_terms": [
+        "112891abfb19c3e0",
+        "1185f37d33b0f89e",
+        "1216b2a88975f9d3",
+        "151e58a831306903",
+        "1785cfc3bc6ac773",
+        "187897ce0afcf20b",
+        "25fb6729f0d90d9e",
+        "285ae0043925796c",
+        "3fc9b689459d738f",
+        "44c5e7071f3a75a2",
+        "5b729e0f619797fd",
+        "6e00cd562cc2d88e",
+        "70332d559269a27a",
+        "762069bc07a6e1b5",
+        "7af0b3e47c35820f",
+        "7c0766a4cdd8aa64",
+        "7dbbfe42465d3612",
+        "7e9e5ac30f2216fd",
+        "8a1b12670e9ea570",
+        "8c90cbf5d27d61f5",
+        "9372c470eeadd5ec",
+        "9f584196e7fe6de8",
+        "9f86d081884c7d65",
+        "a344e996d98aa7ad",
+        "a8f9c6d33384115e",
+        "b5edb6472cf83e3e",
+        "bb8c8605c55dcc2d",
+        "c38762e6e9f36b8a",
+        "d6a7cd2a7371b1a1",
+        "dffe602cd1e0bfa9",
+        "e61db885bd6e7f40",
+        "e6640de835ad09fb",
+        "fd963e4fd45949aa"
+      ],
+      "labels": [
+        "Wald test"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000562": {
+      "definition_terms": [
+        "07678593eb0c5e2c",
+        "1501661682797862",
+        "1cb7558d1341f5ca",
+        "24baa7a731ce04b4",
+        "342c8c61e679d490",
+        "372ea2d8a3fefc0d",
+        "3a6eb0790f39ac87",
+        "604cee807f644af4",
+        "6390361dfdff141a",
+        "704a1142c7056b69",
+        "79e1d925e79c904a",
+        "8044aae1f86875d9",
+        "8bc7cf60c35e3f06",
+        "9019f8058b99ac31",
+        "93354845030274cd",
+        "9639b250b40b41d8",
+        "9f584196e7fe6de8",
+        "a441b15fe9a3cf56",
+        "a8f9c6d33384115e",
+        "b23a6a8439c0dde5",
+        "b4267ce93cbba4e4",
+        "be4bd56772770471",
+        "c5fc2700317a1985",
+        "ca00fccfb408989e",
+        "ceb1e2514a1f1b45",
+        "d342ed822e55a972",
+        "d4fc996e45f7f468",
+        "dd13795d0e0b52c8",
+        "de38e0881e31dde6",
+        "deb538b50cb6318b",
+        "f8af75fd4abdcf20",
+        "fe6d3468cf5c74d8"
+      ],
+      "labels": [
+        "standard error of estimate"
+      ],
+      "parents": [
+        "0000028",
+        "0000471"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000565": {
+      "definition_terms": [
+        "0275fca08c216c77",
+        "09f04951af4cd503",
+        "0b514913789f890c",
+        "0b6f395ca14ac202",
+        "12886f9d00055adf",
+        "1303c06b0b014d0c",
+        "1501661682797862",
+        "37a680133bd09342",
+        "3a6eb0790f39ac87",
+        "3b325109deb02ebf",
+        "3b857e4f8436df32",
+        "4b7e172afd07683e",
+        "4fac4ed5dfc73619",
+        "51d2361f4faea3bc",
+        "70332d559269a27a",
+        "75846e529667722d",
+        "7692c3ad3540bb80",
+        "78f9ac018e554365",
+        "7af0b3e47c35820f",
+        "7ef50ace94f83c5a",
+        "7f2fe580edb35154",
+        "8c90cbf5d27d61f5",
+        "9372c470eeadd5ec",
+        "93c4abe27cf16961",
+        "a5c935d142e9fa6e",
+        "a9f4b3d22a523fda",
+        "afa6e9ab3ac6574d",
+        "b48111c10c65fc11",
+        "b80012851cf027c6",
+        "b8bc0e4f01a0ebdb",
+        "bfb37574bd893654",
+        "cd42404d52ad55cc",
+        "e0cb800a5ccda4cb",
+        "ea103d6cb5c3fb3d",
+        "f274537aaf2c5097",
+        "f528212a496dc7a0",
+        "f839161355091fcd",
+        "f9194e73f9e9459e"
+      ],
+      "labels": [
+        "regression coefficient"
+      ],
+      "parents": [
+        "0000610"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000567": {
+      "definition_terms": [
+        "0f780b5c735e7025",
+        "12886f9d00055adf",
+        "1613c118b0e96b4d",
+        "1e40954c019c3e5d",
+        "1f46b2fdd9382900",
+        "22e15f613c5814a5",
+        "254bb97b57f12e16",
+        "319e2ba078f51cfa",
+        "3a6eb0790f39ac87",
+        "3fc4ccfe745870e2",
+        "41a093100bbbb59e",
+        "46401dc068e724ef",
+        "48eb632fe16ae195",
+        "4b7e172afd07683e",
+        "4c7e98bfa0c750be",
+        "4dda90e8db4f8130",
+        "51d2361f4faea3bc",
+        "54f262d93069ea65",
+        "5e06ddf9a3c49ef1",
+        "604cee807f644af4",
+        "6985ca1f4daa5a58",
+        "69e03750027e6b1e",
+        "6b4cc83fd06ded39",
+        "6ee0eb490ff83210",
+        "70d16cbbf8e41719",
+        "721f1f837521c3b3",
+        "766c1d13a3e06c4d",
+        "7af0b3e47c35820f",
+        "8c6fb1e9e37a1aea",
+        "8c90cbf5d27d61f5",
+        "8f4375ec65c2c409",
+        "9251036c931d9d0a",
+        "961eb43699731759",
+        "99341d56cc288053",
+        "9d6f965ac832e40a",
+        "a27f98238d2c1c02",
+        "a97541517d61b2f6",
+        "b0268fa71bc6e96c",
+        "c1132a78fd64f668",
+        "c52028f34e378d1e",
+        "cdc29937887188ad",
+        "d0a3630555bbec7f",
+        "d454bec656d32723",
+        "d4561b8fb2a016bb",
+        "d80c9bf910f14473",
+        "d9343d0a0097eb85",
+        "e0f86f8ffc57886b",
+        "f44e85c4b8ea2add",
+        "f839161355091fcd",
+        "fc83ec582b335dd0",
+        "ff7772053abf7d81"
+      ],
+      "labels": [
+        "factor analysis"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000568": {
+      "definition_terms": [
+        "008231aaf9995698",
+        "28d9e7bbbf81137e",
+        "342c8c61e679d490",
+        "3b325109deb02ebf",
+        "41a093100bbbb59e",
+        "9637a7ed9af2e912",
+        "bec1687971e36be5",
+        "f44e85c4b8ea2add"
+      ],
+      "labels": [
+        "loadings"
+      ],
+      "parents": [
+        "0000034"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000569": {
+      "definition_terms": [
+        "0c3e015009e5155c",
+        "1b6a3443f30a8adc",
+        "2d5e8600a4fba66e",
+        "47a54ed4b81f3cc7",
+        "6390361dfdff141a",
+        "78f9ac018e554365",
+        "8044aae1f86875d9",
+        "836ff184e7b41b1e",
+        "973e223542ffe23e",
+        "a575b79868a2336d",
+        "b4a4d44648cd8578",
+        "ea103d6cb5c3fb3d",
+        "f7d11e18f3d131a5"
+      ],
+      "labels": [
+        "score"
+      ],
+      "parents": [
+        "0000039"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000570": {
+      "definition_terms": [
+        "1b250ea199bec73d",
+        "2f04a79ef13b95c1",
+        "34a04005bcaf206e",
+        "3b325109deb02ebf",
+        "5509c57e278ae2bf",
+        "59854b300f1ad281",
+        "6985ca1f4daa5a58",
+        "6bab65a2bddec8af",
+        "7c0766a4cdd8aa64",
+        "864ab12b1858361a",
+        "9834a14ab9bcaa0f",
+        "ad7bee4746cb1c59",
+        "ba5657dbca21fe4f",
+        "c3657998722524e9",
+        "c5006763e9daf0e4",
+        "ea7792a26f405e2a",
+        "f44e85c4b8ea2add"
+      ],
+      "labels": [
+        "selectivity ratio"
+      ],
+      "parents": [
+        "0000184"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000571": {
+      "definition_terms": [
+        "001e53259cf62582",
+        "0275fca08c216c77",
+        "04731bc4ce6b2c98",
+        "0682c5f2076f099c",
+        "0d9311ce6cab34aa",
+        "1137b15c7797aa84",
+        "11507a0e2f5e69d5",
+        "15a596e3c98c407e",
+        "15eaa75240aed625",
+        "187897ce0afcf20b",
+        "1b250ea199bec73d",
+        "1e262cd7d110812f",
+        "2149c64d00134c01",
+        "2184966b0ca21d4a",
+        "21af6f1260f927f5",
+        "22e12554dd26b5bf",
+        "24ea913efda289dc",
+        "2647784c9df98b46",
+        "27747689baf9903c",
+        "285ae0043925796c",
+        "2e1d76579d44d7cf",
+        "324e229d221aa3a4",
+        "3426125bf109d4bb",
+        "352b84777d8dd96a",
+        "3a4b077ae91cf041",
+        "3a6eb0790f39ac87",
+        "3b095cb6d8b6dffd",
+        "3b325109deb02ebf",
+        "3bf39bf3fe465c06",
+        "3e860f41a5ea92c4",
+        "3f3867313a9dbfd5",
+        "3f49dbbfe051cb20",
+        "3f8139402f84ba2f",
+        "3fc4ccfe745870e2",
+        "41a093100bbbb59e",
+        "4b7e172afd07683e",
+        "51280dabfbc880cd",
+        "5178a8b5d07e1cda",
+        "59854b300f1ad281",
+        "599f7703547e9c8e",
+        "5c9473495c88cc1d",
+        "653a6d265ad8824b",
+        "6585a1437b66a198",
+        "69e03750027e6b1e",
+        "6bab65a2bddec8af",
+        "6e00cd562cc2d88e",
+        "6ed0337140bd32b4",
+        "7117fff2d0fd2944",
+        "7383711c1b05e72a",
+        "73c9c98668a34c54",
+        "766c1d13a3e06c4d",
+        "7af0b3e47c35820f",
+        "7b12be43febc6e18",
+        "7b20ed340ca52b69",
+        "7c0766a4cdd8aa64",
+        "7f2fe580edb35154",
+        "85e1c71eade2bdb0",
+        "89445ea08b55421f",
+        "89c91f8fb410e1c5",
+        "8a64ff09886cc35f",
+        "8bf18252cb6dadd5",
+        "8edcc26c0f6c7256",
+        "910adfb424646393",
+        "9150c74c5f92d51a",
+        "9372c470eeadd5ec",
+        "93c4abe27cf16961",
+        "94e8566ddfc123ed",
+        "9834a14ab9bcaa0f",
+        "985cfdcf860beb8b",
+        "98aa667548255288",
+        "99262a0284ae7670",
+        "9dd198e5fff6c45d",
+        "9f242f2407768374",
+        "9f88d2d7bf217235",
+        "a511aeeeb8a11993",
+        "a6b46dd0d1ae5e86",
+        "a9f4b3d22a523fda",
+        "b63b99f6383ba713",
+        "b808e156d18d1cec",
+        "bb8c8605c55dcc2d",
+        "bc16f5825a9dafc8",
+        "bd035d5e693a776e",
+        "bfc5a6b45b6a1612",
+        "c215cc7ced6a185b",
+        "c44738333d95c9f2",
+        "c7b10b8ca4b51744",
+        "c8a69f6975448745",
+        "c8f1413fe5b6bcb2",
+        "cb7bf562420b82e9",
+        "cdc29937887188ad",
+        "cec9111de36d4a50",
+        "d0346e497a83ea89",
+        "d34a569ab7aaa54d",
+        "e0f4f767ac88a930",
+        "e0f86f8ffc57886b",
+        "e24415683066ee3a",
+        "e244f187f696561d",
+        "e2ba41af03120f14",
+        "e338d19f3fe5111a",
+        "e39da5b66920a888",
+        "e60854b862f4123f",
+        "e6640de835ad09fb",
+        "ec641b7cd3ef73a7",
+        "f187c7148c692e72",
+        "f1fc3326d9fc752b",
+        "f274537aaf2c5097",
+        "f44e85c4b8ea2add",
+        "f839161355091fcd",
+        "f86dc49946c07f7f",
+        "fa9c3b4bd8ba98e6",
+        "faa5af7cea8ae502",
+        "fbb27fbdc4f4dd04",
+        "fc8fbb48a3a16bfd",
+        "fd54e5a82e36d787",
+        "fe6d3468cf5c74d8",
+        "ff6f0e9a530a025a",
+        "ff75a25c72e648da",
+        "ff7772053abf7d81"
+      ],
+      "labels": [
+        "Partial Least Square regression"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000572": {
+      "definition_terms": [
+        "3b325109deb02ebf",
+        "3f8139402f84ba2f",
+        "496aca80e4d8f29f",
+        "5ca4f3850ccc331a",
+        "7383711c1b05e72a",
+        "9f0c8aa526579f4d",
+        "ad936fcbed631fa6",
+        "b48111c10c65fc11",
+        "c8f1413fe5b6bcb2",
+        "c96c6d5be8d08a12",
+        "d1ffaf0265bbf7e1",
+        "d772ebb4590212c6",
+        "f7496f1fc9731f2e",
+        "f839161355091fcd"
+      ],
+      "labels": [
+        "Partial Least Square Discriminant Analysis"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000580": {
+      "definition_terms": [
+        "1501661682797862",
+        "1b250ea199bec73d",
+        "2d1d52c3d18efcfd",
+        "37a680133bd09342",
+        "3b325109deb02ebf",
+        "4ba3e8e3765f2970",
+        "5aa562409c66b3b3",
+        "6985ca1f4daa5a58",
+        "6bab65a2bddec8af",
+        "85574fa07dae3213",
+        "9834a14ab9bcaa0f",
+        "bec1687971e36be5",
+        "d1ec49df3bf4c283",
+        "f1ec66fed535da47",
+        "f274537aaf2c5097"
+      ],
+      "labels": [
+        "variable importance in projection"
+      ],
+      "parents": [
+        "0000039"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000582": {
+      "definition_terms": [
+        "3cdb1d0de8f0c3c3",
+        "7f2fe580edb35154",
+        "8f4375ec65c2c409",
+        "9e9d1d18fef11867"
+      ],
+      "labels": [
+        "best linear unbiased estimator"
+      ],
+      "parents": [
+        "0000119",
+        "0000337"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000585": {
+      "definition_terms": [
+        "12886f9d00055adf",
+        "13b1f7ec5beaefc7",
+        "361900df8e883931",
+        "37a680133bd09342",
+        "3a6eb0790f39ac87",
+        "3d8eefab379df522",
+        "4b7e172afd07683e",
+        "4fac4ed5dfc73619",
+        "67e565733661bf1a",
+        "79e1d925e79c904a",
+        "7d77ef9527284ec3",
+        "9f86d081884c7d65",
+        "b308a7f43bba8e7a",
+        "bbc5e661e106c6dc"
+      ],
+      "labels": [
+        "degree of freedom calculation"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000646": {
+      "definition_terms": [
+        "08f0be883564cbf2",
+        "4f9edc4d3ed0a0e5",
+        "5e06ddf9a3c49ef1",
+        "7c0766a4cdd8aa64",
+        "af2bdbe1aa9b6ec1",
+        "b5bea41b6c623f7c",
+        "bd70eb35e7aa71d7",
+        "c016fc082ddf1751"
+      ],
+      "labels": [
+        "population variance"
+      ],
+      "parents": [
+        "0000113"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000650": {
+      "definition_terms": [
+        "3b325109deb02ebf",
+        "4a76189d391df82c",
+        "4f9edc4d3ed0a0e5",
+        "52630e4131f9862e",
+        "5e06ddf9a3c49ef1",
+        "6390361dfdff141a",
+        "7c0766a4cdd8aa64",
+        "8bc7cf60c35e3f06",
+        "8dba6bdfdceaf274",
+        "93354845030274cd",
+        "9639b250b40b41d8",
+        "a4262e1c9bcbc172",
+        "a441b15fe9a3cf56",
+        "af2bdbe1aa9b6ec1",
+        "ca8eb3cb5206208a",
+        "cd42404d52ad55cc",
+        "cea23dd4b87e8b00",
+        "d4fc996e45f7f468",
+        "fd963e4fd45949aa"
+      ],
+      "labels": [
+        "sampling variance"
+      ],
+      "parents": [
+        "0000113",
+        "0000471"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000651": {
+      "definition_terms": [
+        "2cc497857559ff85",
+        "4b60d190e95e5769",
+        "4f9edc4d3ed0a0e5",
+        "50f7becde477bb50",
+        "52630e4131f9862e",
+        "6e2ed3762fbd1ed7",
+        "93354845030274cd",
+        "a8f9c6d33384115e",
+        "e0ee8bb50685e05f"
+      ],
+      "labels": [
+        "statistical sample"
+      ],
+      "parents": [],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    },
+    "0000653": {
+      "definition_terms": [
+        "03a311656c69e0c0",
+        "12681deafadfa535",
+        "12886f9d00055adf",
+        "129fa7713adba71e",
+        "13b1f7ec5beaefc7",
+        "14b9005e4f90ef7e",
+        "22e12554dd26b5bf",
+        "25a63e52a98f6fda",
+        "28d9e7bbbf81137e",
+        "2d9457560f1192de",
+        "3509fd899235fb8b",
+        "3a6eb0790f39ac87",
+        "3b325109deb02ebf",
+        "3b857e4f8436df32",
+        "3d8eefab379df522",
+        "4945a70fa7f9c13f",
+        "4ba3e8e3765f2970",
+        "4ed379d418bb8629",
+        "604cee807f644af4",
+        "67e565733661bf1a",
+        "68894c5f9e0560af",
+        "6d62ba541843c36d",
+        "71536ec7b375136d",
+        "7280f85ac8f65a0c",
+        "7af0b3e47c35820f",
+        "8044aae1f86875d9",
+        "93354845030274cd",
+        "9372c470eeadd5ec",
+        "9a3a45d01531a20e",
+        "9f86d081884c7d65",
+        "a36d67aa3a6898bd",
+        "a7722b765d15608d",
+        "a8f9c6d33384115e",
+        "b8b142fa994e8794",
+        "d342ed822e55a972",
+        "da4270e3735a3418",
+        "dffe602cd1e0bfa9",
+        "e5930e63213247cc",
+        "f0995983b62250e8",
+        "f274537aaf2c5097",
+        "f528212a496dc7a0",
+        "f839161355091fcd",
+        "f9d6cd1ed5cf1ead",
+        "fbb27fbdc4f4dd04",
+        "fcbb0b71c7618c47"
+      ],
+      "labels": [
+        "Hosmer-Lemeshow goodness-of-fit test"
+      ],
+      "parents": [
+        "0000191"
+      ],
+      "role": "class",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ]
+    }
+  },
+  "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578"
+}

@@ -1,0 +1,12 @@
+{
+  "allow_mapping": false,
+  "attribution": "Association for Computing Machinery",
+  "blocker": "Publication terms for this package and redistribution not confirmed; obtain an authorized export and explicit rights.",
+  "format": "SKOS XML",
+  "homepage": "https://www.acm.org/publications/class-2012",
+  "id": "acm-ccs",
+  "license": "permission unresolved",
+  "scope": "2012 Computing Classification System",
+  "status": "blocked",
+  "url": "https://www.acm.org/publications/class-2012"
+}

@@ -1,0 +1,23 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT ?distribution ?mass ?coefficient ?identity ?dictionary ?digest
+WHERE {
+  VALUES ?distribution { c:stato-0000060 c:stato-0000276 }
+  GRAPH g:asserted {
+    ?distribution v:hasProperty ?mass .
+    ?mass v:containsSymbol ?coefficient .
+    ?coefficient v:hasProperty ?identity .
+  }
+  GRAPH g:provenance {
+    ?claim rdf:subject ?coefficient ; rdf:predicate v:hasProperty ;
+      rdf:object ?identity ; prov:wasDerivedFrom ?evidence .
+    ?evidence dct:type "OpenMath formal mathematical property" ;
+      prov:hadPrimarySource ?dictionary ; v:sourceExpressionDigest ?digest .
+  }
+}
+ORDER BY ?distribution ?mass ?identity

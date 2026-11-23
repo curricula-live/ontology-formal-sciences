@@ -1,0 +1,240 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:opencs-c12099 a skos:Concept ; skos:prefLabel "Automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c122 a skos:Concept ; skos:prefLabel "Cellular automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c14185 a skos:Concept ; skos:prefLabel "Tree walking automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing, c:opencs-c12099 .
+
+c:opencs-c14248 a skos:Concept ; skos:prefLabel "Timed automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing, c:opencs-c12099 .
+
+c:opencs-c17875 a skos:Concept ; skos:prefLabel "Morphological parsing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing, c:opencs-c8564 .
+
+c:opencs-c18975 a skos:Concept ; skos:prefLabel "Stochastic cellular automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing, c:opencs-c12099, c:opencs-c122 .
+
+c:opencs-c19459 a skos:Concept ; skos:prefLabel "Shallow parsing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing, c:opencs-c8564 .
+
+c:opencs-c21398 a skos:Concept ; skos:prefLabel "Deterministic finite automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing, c:opencs-c12099 .
+
+c:opencs-c22974 a skos:Concept ; skos:prefLabel "Hybrid automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing, c:opencs-c12099 .
+
+c:opencs-c24961 a skos:Concept ; skos:prefLabel "Input/output automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing, c:opencs-c12099 .
+
+c:opencs-c25081 a skos:Concept ; skos:prefLabel "Tree automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing, c:opencs-c12099 .
+
+c:opencs-c25461 a skos:Concept ; skos:prefLabel "Quantum cellular automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c25857 a skos:Concept ; skos:prefLabel "Quantum dot cellular automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c26036 a skos:Concept ; skos:prefLabel "Suffix automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing, c:opencs-c12099 .
+
+c:opencs-c26158 a skos:Concept ; skos:prefLabel "Formal grammar"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c27087 a skos:Concept ; skos:prefLabel "Probabilistic automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing, c:opencs-c12099 .
+
+c:opencs-c27892 a skos:Concept ; skos:prefLabel "Attribute grammar"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c28579 a skos:Concept ; skos:prefLabel "Top-down parsing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing, c:opencs-c8564 .
+
+c:opencs-c30272 a skos:Concept ; skos:prefLabel "Nondeterministic finite automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c30896 a skos:Concept ; skos:prefLabel "Symmetric Turing machine"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c30921 a skos:Concept ; skos:prefLabel "LR parser"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c31124 a skos:Concept ; skos:prefLabel "Universal Turing machine"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c31160 a skos:Concept ; skos:prefLabel "Bottom-up parsing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c32355 a skos:Concept ; skos:prefLabel "Synchronous context-free grammar"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c32663 a skos:Concept ; skos:prefLabel "Chart parser"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c33441 a skos:Concept ; skos:prefLabel "Counter automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c33609 a skos:Concept ; skos:prefLabel "LALR parser"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c36538 a skos:Concept ; skos:prefLabel "Context-sensitive grammar"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c36615 a skos:Concept ; skos:prefLabel "Cyclic cellular automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c37207 a skos:Concept ; skos:prefLabel "Quantum finite automata"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c37855 a skos:Concept ; skos:prefLabel "Deterministic parsing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c37890 a skos:Concept ; skos:prefLabel "Nested stack automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c38067 a skos:Concept ; skos:prefLabel "Linear bounded automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c38273 a skos:Concept ; skos:prefLabel "Continuous spatial automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c38374 a skos:Concept ; skos:prefLabel "Alternating Turing machine"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c38591 a skos:Concept ; skos:prefLabel "LL parser"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c39098 a skos:Concept ; skos:prefLabel "Embedded pushdown automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c39250 a skos:Concept ; skos:prefLabel "Combinatory categorial grammar"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c39305 a skos:Concept ; skos:prefLabel "Block cellular automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c396 a skos:Concept ; skos:prefLabel "Von Neumann cellular automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c39717 a skos:Concept ; skos:prefLabel "ω-automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c40137 a skos:Concept ; skos:prefLabel "Wolfram's 2-state 3-symbol Turing machine"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c40274 a skos:Concept ; skos:prefLabel "Probabilistic Turing machine"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c40477 a skos:Concept ; skos:prefLabel "Non-deterministic Turing machine"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c40905 a skos:Concept ; skos:prefLabel "GLR parser"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing, c:opencs-c30921 .
+
+c:opencs-c410 a skos:Concept ; skos:prefLabel "Second-order cellular automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c41257 a skos:Concept ; skos:prefLabel "Deterministic context-free grammar"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c41349 a skos:Concept ; skos:prefLabel "Earley parser"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c41940 a skos:Concept ; skos:prefLabel "Quantum Turing machine"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c42055 a skos:Concept ; skos:prefLabel "Life-like cellular automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c42063 a skos:Concept ; skos:prefLabel "Multitape Turing machine"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c42185 a skos:Concept ; skos:prefLabel "Scannerless parsing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c42484 a skos:Concept ; skos:prefLabel "Continuous automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c42877 a skos:Concept ; skos:prefLabel "Canonical LR parser"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing, c:opencs-c30921 .
+
+c:opencs-c42914 a skos:Concept ; skos:prefLabel "Permutation automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c42922 a skos:Concept ; skos:prefLabel "Deterministic pushdown automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c43277 a skos:Concept ; skos:prefLabel "Two-way deterministic finite automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c43346 a skos:Concept ; skos:prefLabel "Shift-reduce parser"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c43547 a skos:Concept ; skos:prefLabel "Stochastic context-free grammar"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c43627 a skos:Concept ; skos:prefLabel "Levenshtein automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c43654 a skos:Concept ; skos:prefLabel "Elementary cellular automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c43681 a skos:Concept ; skos:prefLabel "Alternating finite automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c43807 a skos:Concept ; skos:prefLabel "Asynchronous cellular automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c43828 a skos:Concept ; skos:prefLabel "Statistical parsing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c44124 a skos:Concept ; skos:prefLabel "Definite clause grammar"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c4501 a skos:Concept ; skos:prefLabel "Post–Turing machine"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c45217 a skos:Concept ; skos:prefLabel "Reversible cellular automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c45431 a skos:Concept ; skos:prefLabel "Simple LR parser"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing, c:opencs-c30921 .
+
+c:opencs-c45537 a skos:Concept ; skos:prefLabel "Generalized nondeterministic finite automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c45631 a skos:Concept ; skos:prefLabel "Data-oriented parsing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c45758 a skos:Concept ; skos:prefLabel "Recursive descent parser"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c4606 a skos:Concept ; skos:prefLabel "Greenberg–Hastings cellular automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c5107 a skos:Concept ; skos:prefLabel "Recursive ascent parser"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c524 a skos:Concept ; skos:prefLabel "Formal language"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c5976 a skos:Concept ; skos:prefLabel "Simple precedence parser"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c8313 a skos:Concept ; skos:prefLabel "Operator-precedence parser"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c8334 a skos:Concept ; skos:prefLabel "Queue automaton"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c8564 a skos:Concept ; skos:prefLabel "Parsing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .
+
+c:opencs-c9167 a skos:Concept ; skos:prefLabel "Weighted context-free grammar"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:foundations-of-computing .

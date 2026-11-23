@@ -1,0 +1,34 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:bayesian-statistics a skos:Concept ; skos:prefLabel "Bayesian statistics"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistics .
+
+c:bayes-theorem a skos:Concept ; skos:prefLabel "Bayes' theorem"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics .
+
+c:prior-distribution a skos:Concept ; skos:prefLabel "Prior distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics .
+
+c:posterior-distribution a skos:Concept ; skos:prefLabel "Posterior distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics .
+
+c:bayesian-network a skos:Concept ; skos:prefLabel "Bayesian network"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics .
+
+c:probabilistic-graphical-model a skos:Concept ; skos:prefLabel "Probabilistic graphical model"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics .
+
+c:maximum-a-posteriori-estimation a skos:Concept ; skos:prefLabel "Maximum a posteriori estimation"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics ;
+    skos:definition "Estimation by choosing a maximizer of posterior mass in the discrete case, or of a specified posterior density where a maximizer exists in the continuous case."@en .
+
+c:gibbs-sampling a skos:Concept ; skos:prefLabel "Gibbs sampling"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics ;
+    skos:definition "A Markov chain Monte Carlo method that updates variables or blocks using their full conditional distributions."@en .
+
+c:full-conditional-distribution a skos:Concept ; skos:prefLabel "Full conditional distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:bayesian-statistics ;
+    skos:definition "The conditional law of a variable or block given the values of all the remaining variables in a joint model."@en .

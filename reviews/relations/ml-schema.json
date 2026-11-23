@@ -1,0 +1,62 @@
+{
+  "edges": [
+    [
+      "EvaluationSpecification",
+      "part",
+      "EvaluationMeasure"
+    ],
+    [
+      "EvaluationSpecification",
+      "part",
+      "EvaluationProcedure"
+    ],
+    [
+      "Experiment",
+      "part",
+      "Run"
+    ],
+    [
+      "HyperParameterSetting",
+      "specifies",
+      "HyperParameter"
+    ],
+    [
+      "Implementation",
+      "implements",
+      "Algorithm"
+    ],
+    [
+      "ModelEvaluation",
+      "specifies",
+      "EvaluationMeasure"
+    ],
+    [
+      "Run",
+      "executes",
+      "Implementation"
+    ],
+    [
+      "Run",
+      "output",
+      "Model"
+    ],
+    [
+      "Run",
+      "output",
+      "ModelEvaluation"
+    ],
+    [
+      "Software",
+      "part",
+      "Implementation"
+    ],
+    [
+      "Study",
+      "part",
+      "Experiment"
+    ]
+  ],
+  "profile_sha256": "92dbb1243e1a2c3c27b657b7885e45ad4e9ce7854520a6631a0af26ada3ef661",
+  "revision": "4e1d90292509ed2a2ec52efc955e40e17fa92281",
+  "sha256": "5eb9572cde53e362f74113b9292f07a9d9ad115d811341489fa00dba4dd0f35e"
+}

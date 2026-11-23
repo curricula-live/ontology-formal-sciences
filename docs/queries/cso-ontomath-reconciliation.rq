@@ -1,0 +1,14 @@
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?concept ?cso ?ontomath
+WHERE {
+  GRAPH g:alignments {
+    ?concept skos:exactMatch ?cso ;
+             rdfs:seeAlso ?ontomath .
+  }
+  FILTER STRSTARTS(STR(?cso), "https://cso.kmi.open.ac.uk/topics/")
+  FILTER STRSTARTS(STR(?ontomath), "http://cll.niimm.ksu.ru/ontologies/mathematics#")
+}
+ORDER BY ?concept ?cso ?ontomath

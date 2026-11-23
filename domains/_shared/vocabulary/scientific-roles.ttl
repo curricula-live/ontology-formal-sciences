@@ -1,0 +1,21 @@
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+v:ScientificRole a rdfs:Class ; rdfs:label "Scientific role"@en .
+v:hasScientificRole a rdf:Property ; rdfs:domain skos:Concept ; rdfs:range v:ScientificRole ;
+    rdfs:comment "Positive editorial role assignment supported by a recorded review."@en .
+
+v:SubjectArea a v:ScientificRole ; rdfs:comment "Coherent scientific field or subfield."@en .
+v:Topic a v:ScientificRole ; rdfs:comment "Editorial subject whose scope is topical."@en .
+v:Structure a v:ScientificRole ; rdfs:comment "Mathematical or computational carrier with specified organization or operations."@en .
+v:Property a v:ScientificRole ; rdfs:comment "Condition, law, or attribute of a specified object or construction."@en .
+v:Result a v:ScientificRole ; rdfs:comment "Stated scientific conclusion with its scoped hypotheses."@en .
+v:Problem a v:ScientificRole ; rdfs:comment "Task, question, or input and output specification."@en .
+v:Algorithm a v:ScientificRole ; rdfs:comment "Executable-in-principle procedure, abstracted from a concrete artifact."@en .
+v:Method a v:ScientificRole ; rdfs:comment "Scientific procedure, technique, or reasoning approach."@en .
+v:Model a v:ScientificRole ; rdfs:comment "Representation of a system or phenomenon under stated assumptions."@en .
+v:Formalism a v:ScientificRole ; rdfs:comment "System of symbols, formation rules, or semantics."@en .
+v:Implementation a v:ScientificRole ; rdfs:comment "Concrete executable software artifact or implementation design identified as such."@en .
+v:Assumption a v:ScientificRole ; rdfs:comment "Condition adopted for a specified model, proof, or method."@en .

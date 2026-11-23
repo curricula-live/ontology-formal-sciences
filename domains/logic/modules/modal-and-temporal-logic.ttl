@@ -1,0 +1,76 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:modal-logic a skos:Concept ; skos:prefLabel "Modal logic"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:logic ;
+    skos:definition "A family of logics with operators that express modes of truth such as necessity and possibility."@en .
+
+c:normal-modal-logic a skos:Concept ; skos:prefLabel "Normal modal logic"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:modal-logic ;
+    skos:definition "A modal logic extending classical propositional logic with the distribution axiom for necessity and closed under modus ponens, uniform substitution and necessitation."@en .
+
+c:modal-necessity a skos:Concept ; skos:prefLabel "Modal necessity"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:modal-logic ;
+    skos:definition "In Kripke semantics, necessity of a formula at a world means that the formula holds at every world accessible from it."@en .
+
+c:modal-possibility a skos:Concept ; skos:prefLabel "Modal possibility"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:modal-logic ;
+    skos:definition "In Kripke semantics, possibility of a formula at a world means that the formula holds at some world accessible from it."@en .
+
+c:modal-necessitation-rule a skos:Concept ; skos:prefLabel "Rule of necessitation"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:inference-rule ;
+    skos:definition "The inference rule that licenses deriving necessity of a theorem. In a normal modal logic the premise is a theorem without undischarged assumptions."@en .
+
+c:modal-system-k a skos:Concept ; skos:prefLabel "Modal system K"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:normal-modal-logic ;
+    skos:definition "The minimal normal propositional modal logic, sound and complete for all Kripke frames."@en .
+
+c:modal-system-t a skos:Concept ; skos:prefLabel "Modal system T"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:normal-modal-logic ;
+    skos:definition "The normal modal logic extending K with the axiom that necessity implies truth, sound and complete for reflexive Kripke frames."@en .
+
+c:modal-system-s4 a skos:Concept ; skos:prefLabel "Modal system S4"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:normal-modal-logic ;
+    skos:definition "The normal modal logic extending T with the axiom that necessity implies iterated necessity, sound and complete for reflexive transitive frames."@en .
+
+c:modal-system-s5 a skos:Concept ; skos:prefLabel "Modal system S5"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:normal-modal-logic ;
+    skos:definition "The normal propositional modal logic sound and complete for frames whose accessibility relation is an equivalence relation."@en .
+
+c:kripke-frame a skos:Concept ; skos:prefLabel "Kripke frame"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:modal-logic ;
+    skos:definition "For basic modal logic, a nonempty set of worlds with a binary accessibility relation on those worlds."@en .
+
+c:kripke-model a skos:Concept ; skos:prefLabel "Kripke model"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:modal-logic ;
+    skos:definition "For basic modal logic, a Kripke frame equipped with a valuation specifying the worlds where each propositional atom holds."@en .
+
+c:bisimulation-modal-logic a skos:Concept ; skos:prefLabel "Bisimulation of Kripke models"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:modal-logic ;
+    skos:definition "A relation matching worlds with the same atomic valuation and matching each successor of a related world with a related successor on the other side, in both directions."@en .
+
+c:branching-time-temporal-logic a skos:Concept ; skos:prefLabel "Branching-time temporal logic"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification ;
+    skos:definition "A family of temporal logics interpreted over alternative possible futures from a given state."@en .
+
+c:computation-tree-logic a skos:Concept ; skos:prefLabel "Computation tree logic"@en ;
+    skos:altLabel "CTL"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:branching-time-temporal-logic ;
+    skos:definition "A branching-time logic where a path quantifier binds each temporal operator and formulas are evaluated at states."@en .
+
+c:ctl-star a skos:Concept ; skos:prefLabel "CTL*"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:branching-time-temporal-logic ;
+    skos:definition "A branching-time logic with distinct state and path formulas, allowing Boolean combinations of temporal path properties within a path quantifier."@en .
+
+c:path-quantifier a skos:Concept ; skos:prefLabel "Path quantifier"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:branching-time-temporal-logic ;
+    skos:definition "An operator selecting universal or existential quantification over computation paths starting at the current state."@en .
+
+c:ctl-model-checking a skos:Concept ; skos:prefLabel "CTL model checking"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:model-checking ;
+    skos:definition "Determining whether a designated state of a Kripke structure satisfies a given computation tree logic formula."@en .
+
+c:ctl-state-labeling-algorithm a skos:Concept ; skos:prefLabel "CTL state-labeling algorithm"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "A bottom-up CTL model-checking method that builds the set of satisfying states for each subformula, using finite-set fixed points for temporal operators with unbounded time."@en .

@@ -1,0 +1,4 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:opencs-c26036 skos:definition "For a fixed finite string, the minimal partial deterministic automaton accepting its suffixes. All paths from the initial state spell substrings, with acceptance restricted to paths ending in a terminal state."@en .

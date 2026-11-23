@@ -1,0 +1,19 @@
+{
+  "engine_jar_sha256": "d28c1eaf703122ee628895a460c20fa4aa60a892f435d403ea8c036f241da1f8",
+  "predecessor_manifest_sha256": "f4a07846eec3be96093fd0f3db7417735549dbc08729d5105a8e191ca51b00c3",
+  "candidate_manifest_sha256": "a30bf1f5e2baaf01b06c8efbc8d74eaea73d7bfceede586b34c94fe2d8f8d477",
+  "candidate_graph_counts": {
+    "asserted": 13483,
+    "alignments": 234,
+    "inferred": 3093,
+    "provenance": 19781
+  },
+  "passed": [
+    "baseline-import",
+    "repeat-import",
+    "failure-rollback",
+    "successor-replacement-and-identity",
+    "tdb2-reopen",
+    "explicit-rollback"
+  ]
+}

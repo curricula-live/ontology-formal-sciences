@@ -1,0 +1,15 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# Which exact graph-theory mappings carry a reified source review?
+SELECT ?external ?source ?digest WHERE {
+  GRAPH g:alignments { c:graph-theory skos:exactMatch ?external }
+  GRAPH g:provenance {
+    ?review rdf:subject c:graph-theory ; rdf:predicate skos:exactMatch ;
+            rdf:object ?external ; prov:hadPrimarySource ?source ; dct:identifier ?digest .
+  }
+} ORDER BY ?external ?source

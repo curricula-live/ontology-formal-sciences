@@ -1,0 +1,12 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+
+c:hypergeometric-mass-formula v:containsSymbol c:binomial-coefficient .
+c:binomial-mass-formula v:containsSymbol c:binomial-coefficient .
+c:hypergeometric-normalization v:uses c:vandermonde-convolution .
+c:post-correspondence-problem v:uses c:word-concatenation .
+c:many-one-reduction-transitivity v:uses c:function-composition .
+c:set-based-product-type-interpretation v:uses c:cartesian-product .
+c:nand-gate-synthesis v:uses c:boolean-nand .
+c:nand-gate-synthesis v:uses c:de-morgan-conjunction-law .

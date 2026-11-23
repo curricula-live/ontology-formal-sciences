@@ -1,0 +1,519 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:ontomath-pro-e32 a skos:Concept ; skos:prefLabel "Functional analysis"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e144 a skos:Concept ; skos:prefLabel "Closed form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e145 a skos:Concept ; skos:prefLabel "Exact form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e305 a skos:Concept ; skos:prefLabel "Pole"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e307 a skos:Concept ; skos:prefLabel "Simple pole"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e308 a skos:Concept ; skos:prefLabel "Essential singularity"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e451 a skos:Concept ; skos:prefLabel "Grötzsch method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e460 a skos:Concept ; skos:prefLabel "Steiner symmetrization"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1081 a skos:Concept ; skos:prefLabel "Infinite-dimensional space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1088 a skos:Concept ; skos:prefLabel "Finite-dimensional space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1107 a skos:Concept ; skos:prefLabel "Strictly convex space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1120 a skos:Concept ; skos:prefLabel "Nonseparable space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1130 a skos:Concept ; skos:prefLabel "Holder space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1131 a skos:Concept ; skos:prefLabel "Sobolev space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1132 a skos:Concept ; skos:prefLabel "Hardy space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1141 a skos:Concept ; skos:prefLabel "Weighted space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1143 a skos:Concept ; skos:prefLabel "Space of differentiable function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1145 a skos:Concept ; skos:prefLabel "Locally convex space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1147 a skos:Concept ; skos:prefLabel "Space of continuous functions"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1206 a skos:Concept ; skos:prefLabel "Bessel inequality"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1208 a skos:Concept ; skos:prefLabel "Hilbert inequality"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1221 a skos:Concept ; skos:prefLabel "Young inequality"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1222 a skos:Concept ; skos:prefLabel "Variational inequality"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1227 a skos:Concept ; skos:prefLabel "Operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1228 a skos:Concept ; skos:prefLabel "Completely continuous operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1229 a skos:Concept ; skos:prefLabel "Differential operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1231 a skos:Concept ; skos:prefLabel "Closed operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1232 a skos:Concept ; skos:prefLabel "Compact operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1233 a skos:Concept ; skos:prefLabel "Finite-dimensional compact operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1234 a skos:Concept ; skos:prefLabel "Linear operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1236 a skos:Concept ; skos:prefLabel "Continuous operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1237 a skos:Concept ; skos:prefLabel "Null operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1238 a skos:Concept ; skos:prefLabel "Invertible operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1240 a skos:Concept ; skos:prefLabel "Bounded operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1242 a skos:Concept ; skos:prefLabel "Hilbert-Schmidt operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1244 a skos:Concept ; skos:prefLabel "Fredholm operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1245 a skos:Concept ; skos:prefLabel "Hodge operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1248 a skos:Concept ; skos:prefLabel "Bellman operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1250 a skos:Concept ; skos:prefLabel "Wiener-Hopf operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1253 a skos:Concept ; skos:prefLabel "Laplace operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1254 a skos:Concept ; skos:prefLabel "Laplace-Beltrami operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1255 a skos:Concept ; skos:prefLabel "Monge-Ampere operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1256 a skos:Concept ; skos:prefLabel "Nemytsky operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1258 a skos:Concept ; skos:prefLabel "Hardy operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1259 a skos:Concept ; skos:prefLabel "Cesaro operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1260 a skos:Concept ; skos:prefLabel "Schrodinger operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1269 a skos:Concept ; skos:prefLabel "Integration operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1270 a skos:Concept ; skos:prefLabel "Integro-differential operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1275 a skos:Concept ; skos:prefLabel "Positive operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1276 a skos:Concept ; skos:prefLabel "Pseudodifferential operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1277 a skos:Concept ; skos:prefLabel "R-sectorial operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1280 a skos:Concept ; skos:prefLabel "Shift operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1284 a skos:Concept ; skos:prefLabel "Operator resolvent"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1287 a skos:Concept ; skos:prefLabel "Semigroup of operators"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1296 a skos:Concept ; skos:prefLabel "Selfadjoint operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1299 a skos:Concept ; skos:prefLabel "Discrete spectrum"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1320 a skos:Concept ; skos:prefLabel "Blaschke product"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1507 a skos:Concept ; skos:prefLabel "Absolutely continuous function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1509 a skos:Concept ; skos:prefLabel "Automorphic function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1510 a skos:Concept ; skos:prefLabel "Analytic function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1513 a skos:Concept ; skos:prefLabel "Schlicht function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1516 a skos:Concept ; skos:prefLabel "Antiholomorphic function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1519 a skos:Concept ; skos:prefLabel "Convex function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1520 a skos:Concept ; skos:prefLabel "wavelet"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1522 a skos:Concept ; skos:prefLabel "Daubechies wavelet"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1525 a skos:Concept ; skos:prefLabel "Stromberg wavelet"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1526 a skos:Concept ; skos:prefLabel "Battle-Lemarie wavelet"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1527 a skos:Concept ; skos:prefLabel "Meyer wavelet"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1528 a skos:Concept ; skos:prefLabel "Morlet wavelet"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1529 a skos:Concept ; skos:prefLabel "Gabor wavelet"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1530 a skos:Concept ; skos:prefLabel "Haar wavelet"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1534 a skos:Concept ; skos:prefLabel "multiwavelet"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1536 a skos:Concept ; skos:prefLabel "Spline wavelet"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1541 a skos:Concept ; skos:prefLabel "Hypergeometric function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1542 a skos:Concept ; skos:prefLabel "Holomorphic function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1543 a skos:Concept ; skos:prefLabel "Riemann zeta function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1545 a skos:Concept ; skos:prefLabel "Infinitely differentiable function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1546 a skos:Concept ; skos:prefLabel "Measurable function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1548 a skos:Concept ; skos:prefLabel "Piecewise continuously differentiable function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1549 a skos:Concept ; skos:prefLabel "Piecewise continuous function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1551 a skos:Concept ; skos:prefLabel "Meromorphic function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1552 a skos:Concept ; skos:prefLabel "Metric"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1554 a skos:Concept ; skos:prefLabel "Hyperbolic distance"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1556 a skos:Concept ; skos:prefLabel "Induced metric"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1559 a skos:Concept ; skos:prefLabel "Minkowski metric"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1560 a skos:Concept ; skos:prefLabel "Metric signature"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1562 a skos:Concept ; skos:prefLabel "Hamming metric"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1565 a skos:Concept ; skos:prefLabel "Left-invariant metric"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1569 a skos:Concept ; skos:prefLabel "Norm"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1572 a skos:Concept ; skos:prefLabel "Pseudometric"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1573 a skos:Concept ; skos:prefLabel "Pseudo-Riemannian metric"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1575 a skos:Concept ; skos:prefLabel "Spherical metric"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1576 a skos:Concept ; skos:prefLabel "Finsler metric"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1577 a skos:Concept ; skos:prefLabel "Minorant"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1578 a skos:Concept ; skos:prefLabel "Monotone function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1579 a skos:Concept ; skos:prefLabel "Increasing function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1580 a skos:Concept ; skos:prefLabel "Monotone non-increasing function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1581 a skos:Concept ; skos:prefLabel "Monotone non-decreasing function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1583 a skos:Concept ; skos:prefLabel "Unbounded function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1585 a skos:Concept ; skos:prefLabel "Left-continuous function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1586 a skos:Concept ; skos:prefLabel "Right-continuous function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1590 a skos:Concept ; skos:prefLabel "Implicit function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1591 a skos:Concept ; skos:prefLabel "Generalised function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1601 a skos:Concept ; skos:prefLabel "Simple function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1602 a skos:Concept ; skos:prefLabel "Discontinuous function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1603 a skos:Concept ; skos:prefLabel "Rational function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1604 a skos:Concept ; skos:prefLabel "Singular function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1606 a skos:Concept ; skos:prefLabel "Composite function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1608 a skos:Concept ; skos:prefLabel "Spline function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1609 a skos:Concept ; skos:prefLabel "Exponential function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1610 a skos:Concept ; skos:prefLabel "Step function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1611 a skos:Concept ; skos:prefLabel "Summable function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1612 a skos:Concept ; skos:prefLabel "Superharmonic function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1613 a skos:Concept ; skos:prefLabel "Typically real function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1617 a skos:Concept ; skos:prefLabel "Busemann function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1620 a skos:Concept ; skos:prefLabel "Dirichlet function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1625 a skos:Concept ; skos:prefLabel "Heaviside function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1627 a skos:Concept ; skos:prefLabel "Beta function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1628 a skos:Concept ; skos:prefLabel "Gamma function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1629 a skos:Concept ; skos:prefLabel "Borel measurable function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1632 a skos:Concept ; skos:prefLabel "Function of bounded variation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1655 a skos:Concept ; skos:prefLabel "Even function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1656 a skos:Concept ; skos:prefLabel "Elementary function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1860 a skos:Concept ; skos:prefLabel "Ascoli Arzela theorem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1866 a skos:Concept ; skos:prefLabel "Cauchy residue theorem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1877 a skos:Concept ; skos:prefLabel "Hille Yosida theorem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1882 a skos:Concept ; skos:prefLabel "Implicit function theorem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1883 a skos:Concept ; skos:prefLabel "Inverse function theorem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1892 a skos:Concept ; skos:prefLabel "Differential equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1966 a skos:Concept ; skos:prefLabel "Dini condition"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e1967 a skos:Concept ; skos:prefLabel "Lipschitz condition"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2081 a skos:Concept ; skos:prefLabel "Transfinite diameter"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2689 a skos:Concept ; skos:prefLabel "Approximation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2696 a skos:Concept ; skos:prefLabel "Total variation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2699 a skos:Concept ; skos:prefLabel "Analytic vector function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2700 a skos:Concept ; skos:prefLabel "Meromorphic vector function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2711 a skos:Concept ; skos:prefLabel "Subdifferential calculus"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2728 a skos:Concept ; skos:prefLabel "Nondifferentiable optimization"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2735 a skos:Concept ; skos:prefLabel "Semicontinuity"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2738 a skos:Concept ; skos:prefLabel "Bessel transform"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2739 a skos:Concept ; skos:prefLabel "Mellin transformation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2748 a skos:Concept ; skos:prefLabel "The contraction mapping principle"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2792 a skos:Concept ; skos:prefLabel "Schwarz symmetrization"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2837 a skos:Concept ; skos:prefLabel "Soliton"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2841 a skos:Concept ; skos:prefLabel "Subgradient"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2842 a skos:Concept ; skos:prefLabel "Subdifferential"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2961 a skos:Concept ; skos:prefLabel "Mobius transformation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2963 a skos:Concept ; skos:prefLabel "Conformal mapping"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2966 a skos:Concept ; skos:prefLabel "Nonlinear transformation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2973 a skos:Concept ; skos:prefLabel "Legendre transformation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e2975 a skos:Concept ; skos:prefLabel "Fourier transformation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3108 a skos:Concept ; skos:prefLabel "Triangle inequality"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3117 a skos:Concept ; skos:prefLabel "Bianchi identity"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3151 a skos:Concept ; skos:prefLabel "Simple singularity"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3170 a skos:Concept ; skos:prefLabel "Chebyshev weight"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3175 a skos:Concept ; skos:prefLabel "Dirichlet kernel"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3176 a skos:Concept ; skos:prefLabel "Integral operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3177 a skos:Concept ; skos:prefLabel "Frechet space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3178 a skos:Concept ; skos:prefLabel "Nuclear space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3179 a skos:Concept ; skos:prefLabel "Radon transformation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3191 a skos:Concept ; skos:prefLabel "Operator norm"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3206 a skos:Concept ; skos:prefLabel "Convolution operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3208 a skos:Concept ; skos:prefLabel "Set function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3209 a skos:Concept ; skos:prefLabel "Special function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3249 a skos:Concept ; skos:prefLabel "Elliptic operator"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3254 a skos:Concept ; skos:prefLabel "Root of an equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3259 a skos:Concept ; skos:prefLabel "Function of one variable"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3260 a skos:Concept ; skos:prefLabel "Multivariable function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3261 a skos:Concept ; skos:prefLabel "Periodic function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3264 a skos:Concept ; skos:prefLabel "Modulus of continuity"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3306 a skos:Concept ; skos:prefLabel "Almost periodic function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .
+
+c:ontomath-pro-e3335 a skos:Concept ; skos:prefLabel "Lorentz space"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis .

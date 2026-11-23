@@ -1,0 +1,11 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:conditional-feature-independence a skos:Concept ; skos:prefLabel "Conditional independence of features given class"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-theory ;
+    skos:definition "Given the class, the joint feature distribution factors into the product of its marginal feature distributions."@en .
+
+c:bootstrap-resampling a skos:Concept ; skos:prefLabel "Bootstrap resampling"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:experimental-design ;
+    skos:definition "Sample with replacement from the observed data, usually retaining the original sample size."@en .

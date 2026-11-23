@@ -1,0 +1,15 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:ontomath-pro-e1544 a skos:Concept ; skos:prefLabel "Differentiable function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:calculus .
+
+c:ontomath-pro-e1700 a skos:Concept ; skos:prefLabel "Gradient"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:calculus .
+
+c:ontomath-pro-e2709 a skos:Concept ; skos:prefLabel "Differential calculus"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:calculus .
+
+c:ontomath-pro-e3124 a skos:Concept ; skos:prefLabel "Frenet Serret formulas"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:calculus .

@@ -1,0 +1,19 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT ?algorithm ?queue ?condition ?source
+WHERE {
+  GRAPH g:asserted {
+    c:princeton-dijkstra-implementation v:implementsAlgorithm ?algorithm ; v:uses ?queue .
+    ?algorithm v:requiresAssumption ?condition .
+  }
+  GRAPH g:provenance {
+    ?statement rdf:subject c:princeton-dijkstra-implementation ;
+      rdf:predicate v:implementsAlgorithm ; rdf:object ?algorithm ; prov:wasDerivedFrom ?evidence .
+    ?evidence dct:type "reviewed primary-source passage" ; prov:hadPrimarySource ?source .
+  }
+}

@@ -1,0 +1,231 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:iterated-ordinary-derivative a skos:Concept ; skos:prefLabel "Iterated ordinary derivative"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:calculus ;
+    skos:definition "Repeated differentiation with respect to the same variable, with order zero equal to the original function."@en .
+
+c:integer-power-operation a skos:Concept ; skos:prefLabel "Integer power operation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "Exponentiation with an integer exponent wherever the resulting expression is defined."@en .
+
+c:additive-identity a skos:Concept ; skos:prefLabel "Additive identity"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "The element zero satisfying a+0=0+a=a in an additive structure."@en .
+
+c:multiplicative-identity a skos:Concept ; skos:prefLabel "Multiplicative identity"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "The element one satisfying a·1=1·a=a in a unital multiplicative structure."@en .
+
+c:strict-real-order a skos:Concept ; skos:prefLabel "Strict order on the reals"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-foundations ;
+    skos:definition "For real arguments a and b, a is strictly less than b in the usual order."@en .
+
+c:nonstrict-real-order a skos:Concept ; skos:prefLabel "Nonstrict order on the reals"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-foundations ;
+    skos:definition "For real arguments a and b, a is less than or equal to b in the usual order."@en .
+
+c:multiset a skos:Concept ; skos:prefLabel "Multiset"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:discrete-mathematics ;
+    skos:definition "A collection assigning a multiplicity to each element. A finite multiset has finite support and nonnegative integer multiplicities."@en .
+
+c:empty-multiset a skos:Concept ; skos:prefLabel "Empty multiset"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:discrete-mathematics ;
+    skos:definition "The multiset in which every element has multiplicity zero."@en .
+
+c:multiset-membership a skos:Concept ; skos:prefLabel "Multiset membership"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:discrete-mathematics ;
+    skos:definition "An element belongs to a multiset when its multiplicity is positive."@en .
+
+c:submultiset-relation a skos:Concept ; skos:prefLabel "Submultiset relation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:discrete-mathematics ;
+    skos:definition "A is a submultiset of B when every multiplicity in A is at most the corresponding multiplicity in B."@en .
+
+c:multiset-intersection a skos:Concept ; skos:prefLabel "Multiset intersection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:discrete-mathematics ;
+    skos:definition "The operation taking pointwise minima of multiplicities."@en .
+
+c:additive-multiset-union a skos:Concept ; skos:prefLabel "Additive multiset union"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:discrete-mathematics ;
+    skos:definition "The operation taking pointwise sums of multiplicities, also called multiset sum."@en .
+
+c:multiset-difference a skos:Concept ; skos:prefLabel "Multiset difference"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:discrete-mathematics ;
+    skos:definition "The operation subtracting the second multiplicity from the first at each element, with the result truncated below at zero."@en .
+
+c:multiset-cardinality a skos:Concept ; skos:prefLabel "Multiset cardinality"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:discrete-mathematics ;
+    skos:definition "The total count of occurrences in a finite multiset, including repetitions."@en .
+
+c:real-interval-with-unspecified-endpoints a skos:Concept ; skos:prefLabel "Real interval with unspecified endpoint inclusion"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis ;
+    skos:definition "An interval between ordered real bounds whose endpoint inclusion is left unspecified."@en .
+
+c:open-real-interval a skos:Concept ; skos:prefLabel "Open real interval"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis ;
+    skos:definition "The set of real numbers strictly between the stated bounds."@en .
+
+c:closed-real-interval a skos:Concept ; skos:prefLabel "Closed real interval"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis ;
+    skos:definition "The set of real numbers between the stated bounds inclusive."@en .
+
+c:real-floor a skos:Concept ; skos:prefLabel "Real floor function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis ;
+    skos:definition "The greatest integer less than or equal to a real input."@en .
+
+c:real-ceiling a skos:Concept ; skos:prefLabel "Real ceiling function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis ;
+    skos:definition "The least integer greater than or equal to a real input."@en .
+
+c:truncate-toward-zero a skos:Concept ; skos:prefLabel "Real truncation toward zero"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis ;
+    skos:definition "Rounding a real number toward zero to an integer."@en .
+
+c:nearest-integer-ties-to-even a skos:Concept ; skos:prefLabel "Nearest-integer rounding with ties to even"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis ;
+    skos:definition "Choosing an integer closest to a real input and choosing the even integer in a half-integer tie."@en .
+
+c:real-part-of-complex-number a skos:Concept ; skos:prefLabel "Real part of a complex number"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "The real coordinate x of a complex number x+iy."@en .
+
+c:imaginary-part-of-complex-number a skos:Concept ; skos:prefLabel "Imaginary part of a complex number"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "The real coefficient y of the imaginary unit in x+iy."@en .
+
+c:complex-polar-form a skos:Concept ; skos:prefLabel "Complex polar form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "The representation of a complex number as r exp(iθ) for real θ and nonnegative real r."@en .
+
+c:imaginary-unit a skos:Concept ; skos:prefLabel "Imaginary unit"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "The designated complex number i satisfying i squared equals minus one."@en .
+
+c:real-sine a skos:Concept ; skos:prefLabel "Real sine function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis ;
+    skos:definition "The trigonometric sine of a real angle in radians."@en .
+
+c:real-cosine a skos:Concept ; skos:prefLabel "Real cosine function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis ;
+    skos:definition "The trigonometric cosine of a real angle in radians."@en .
+
+c:derivative-sum-rule a skos:Concept ; skos:prefLabel "Sum rule for ordinary derivatives"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:calculus ;
+    skos:definition "For two real functions differentiable at x, the derivative of their sum at x is the sum of their derivatives at x."@en .
+
+c:derivative-product-rule a skos:Concept ; skos:prefLabel "Product rule for ordinary derivatives"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:calculus ;
+    skos:definition "If f and g are real functions differentiable at x, (fg)'(x) equals f'(x)g(x)+f(x)g'(x)."@en .
+
+c:derivative-order-zero a skos:Concept ; skos:prefLabel "Derivative of order zero"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:calculus ;
+    skos:definition "The derivative of order zero is the original function."@en .
+
+c:derivative-order-recurrence a skos:Concept ; skos:prefLabel "Successor-order differentiation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:calculus ;
+    skos:definition "For a nonnegative integer n and a function having the needed derivatives, its derivative of order n+1 is the derivative of its order-n derivative."@en .
+
+c:open-interval-membership a skos:Concept ; skos:prefLabel "Membership in an open real interval"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis ;
+    skos:definition "A point belongs to the open interval with bounds a and b exactly when it is real and satisfies a<x<b."@en .
+
+c:interval-contained-in-closed-hull a skos:Concept ; skos:prefLabel "Containment of a bounded interval in its closed hull"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis ;
+    skos:definition "Every interval with finite ordered bounds and unspecified endpoint inclusion is contained in the closed interval with those bounds."@en .
+
+c:interval-contains-open-interior a skos:Concept ; skos:prefLabel "Open interior of an interval with unspecified endpoints"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis ;
+    skos:definition "The open interval with fixed real bounds is contained in the interval with those bounds and unspecified endpoint inclusion."@en .
+
+c:multiset-intersection-empty a skos:Concept ; skos:prefLabel "Empty multiset annihilates multiset intersection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:discrete-mathematics ;
+    skos:definition "Intersection with the empty multiset is empty, because minimum with zero has zero multiplicity at each element."@en .
+
+c:additive-multiset-union-empty a skos:Concept ; skos:prefLabel "Empty multiset identity for additive union"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:discrete-mathematics ;
+    skos:definition "Additive union with the empty multiset preserves all multiplicities."@en .
+
+c:multiset-intersection-lower-bound a skos:Concept ; skos:prefLabel "Submultiset lower bounds from intersection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:discrete-mathematics ;
+    skos:definition "The intersection of two multisets is a submultiset of both, since each resulting multiplicity is their minimum."@en .
+
+c:additive-multiset-union-upper-bound a skos:Concept ; skos:prefLabel "Submultiset upper bound from additive union"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:discrete-mathematics ;
+    skos:definition "Each operand is a submultiset of the additive union of two finite multisets."@en .
+
+c:additive-multiset-union-distributivity a skos:Concept ; skos:prefLabel "Additive multiset union distributes over intersection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:discrete-mathematics ;
+    skos:definition "For finite multisets, adding A to the intersection of B and C equals the intersection of A+B and A+C, by pointwise translation of the minimum."@en .
+
+c:multiset-difference-submultiset a skos:Concept ; skos:prefLabel "Multiset difference is contained in its minuend"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:discrete-mathematics ;
+    skos:definition "Truncated subtraction of nonnegative multiplicities leaves a submultiset of the first operand."@en .
+
+c:submultiset-transitivity a skos:Concept ; skos:prefLabel "Transitivity of the submultiset relation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:discrete-mathematics ;
+    skos:definition "If A is a submultiset of B and B is a submultiset of C, A is a submultiset of C."@en .
+
+c:multiset-intersection-membership a skos:Concept ; skos:prefLabel "Membership introduction for multiset intersection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:discrete-mathematics ;
+    skos:definition "If x occurs in each of two finite multisets, it occurs in their intersection with positive multiplicity."@en .
+
+c:floor-unit-interval a skos:Concept ; skos:prefLabel "Unit-interval bounds for the floor function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis ;
+    skos:definition "For real x, the floor of x is at most x and x is strictly below floor(x)+1."@en .
+
+c:ceiling-unit-interval a skos:Concept ; skos:prefLabel "Unit-interval bounds for the ceiling function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis ;
+    skos:definition "For real x, ceiling(x)−1 is strictly below x and x is at most ceiling(x)."@en .
+
+c:nonnegative-truncation-bounds a skos:Concept ; skos:prefLabel "Bounds for truncation of a nonnegative real"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis ;
+    skos:definition "If x is nonnegative, trunc(x) is at most x and x is strictly below trunc(x)+1."@en .
+
+c:nonpositive-truncation-bounds a skos:Concept ; skos:prefLabel "Bounds for truncation of a nonpositive real"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis ;
+    skos:definition "If x is nonpositive, trunc(x) is at least x and x is strictly above trunc(x)−1."@en .
+
+c:nearest-integer-error-bound a skos:Concept ; skos:prefLabel "Half-unit error bound for nearest-integer rounding"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis ;
+    skos:definition "The nearest-integer rounding of any real input differs from it by at most one half."@en .
+
+c:nearest-integer-even-tie a skos:Concept ; skos:prefLabel "Even-integer tie rule for nearest-integer rounding"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis ;
+    skos:definition "If x is a nonintegral half-integer, ties-to-even rounding gives an integer divisible by two."@en .
+
+c:complex-rectangular-construction a skos:Concept ; skos:prefLabel "Rectangular construction of a complex number"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "For real x and y, constructing the complex number with coordinates x and y gives x+iy."@en .
+
+c:complex-real-coordinate-projection a skos:Concept ; skos:prefLabel "Real-coordinate projection of a rectangular complex number"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "For real x and y, the real part of x+iy is x."@en .
+
+c:complex-imaginary-coordinate-projection a skos:Concept ; skos:prefLabel "Imaginary-coordinate projection of a rectangular complex number"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "For real x and y, the imaginary part of x+iy is y."@en .
+
+c:complex-polar-rectangular-agreement a skos:Concept ; skos:prefLabel "Agreement of polar and rectangular complex coordinates"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "For a nonnegative real radius r and real angle θ, the complex number in polar form has rectangular coordinates r cos θ and r sin θ."@en .
+
+c:imaginary-unit-square a skos:Concept ; skos:prefLabel "Square of the imaginary unit"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "The square of i equals the additive inverse of one."@en .
+
+c:real-sine-addition a skos:Concept ; skos:prefLabel "Addition formula for real sine"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis ;
+    skos:definition "For real a and b, sin(a+b) equals sin(a) cos(b) plus cos(a) sin(b)."@en .
+
+c:real-sine-oddness a skos:Concept ; skos:prefLabel "Oddness of real sine"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis ;
+    skos:definition "For real x, sin(−x) equals −sin(x)."@en .
+
+c:real-cosine-double-angle a skos:Concept ; skos:prefLabel "Double-angle identity for real cosine"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis ;
+    skos:definition "For real x, cos(2x) equals cos²(x)−sin²(x)."@en .
+
+c:real-cosine-evenness a skos:Concept ; skos:prefLabel "Evenness of real cosine"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematical-analysis ;
+    skos:definition "For real x, cos(−x) equals cos(x)."@en .

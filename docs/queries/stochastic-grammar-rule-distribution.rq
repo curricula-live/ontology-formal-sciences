@@ -1,0 +1,23 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX s: <https://curricula.live/id/formal-sciences/scheme/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT ?grammar ?distribution ?scope ?reference
+WHERE {
+  GRAPH g:asserted {
+    VALUES ?grammar { c:opencs-c43547 }
+    ?grammar skos:inScheme s:computer-science ; v:uses ?distribution .
+    ?distribution skos:inScheme s:statistics .
+  }
+  GRAPH g:provenance {
+    ?statement rdf:subject ?grammar ; rdf:predicate v:uses ; rdf:object ?distribution .
+    ?review dct:subject ?statement ; dct:type "editorial interpretation" ;
+      dct:description ?scope ; prov:wasDerivedFrom ?passage .
+    ?passage prov:hadPrimarySource ?reference .
+  }
+}

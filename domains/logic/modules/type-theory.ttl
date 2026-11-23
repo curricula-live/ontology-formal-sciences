@@ -1,0 +1,127 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:type-theory a skos:Concept ; skos:prefLabel "Type theory"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:logic .
+
+c:dependent-type a skos:Concept ; skos:prefLabel "Dependent type"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory .
+
+c:simply-typed-lambda-calculus a skos:Concept ; skos:prefLabel "Simply typed lambda calculus"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory .
+
+c:curry-howard-correspondence a skos:Concept ; skos:prefLabel "Curry-Howard correspondence"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory .
+
+c:typing-judgment a skos:Concept ; skos:prefLabel "Typing judgment"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory .
+
+c:typing-context a skos:Concept ; skos:prefLabel "Typing context"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "A collection of assumptions assigning types to free variables used to form a typing judgment."@en .
+
+c:capture-avoiding-substitution a skos:Concept ; skos:prefLabel "Capture-avoiding substitution"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:simply-typed-lambda-calculus ;
+    skos:definition "Replacement of free occurrences of a variable by a term with bound variables renamed as needed to preserve free occurrences."@en .
+
+c:beta-reduction a skos:Concept ; skos:prefLabel "Beta reduction"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:simply-typed-lambda-calculus ;
+    skos:definition "Reduction of an application of a lambda abstraction to an argument by capture-avoiding substitution into the body."@en .
+
+c:type-preservation a skos:Concept ; skos:prefLabel "Type preservation"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "In a typed calculus, evaluation of a well-typed term by one step preserves its type in the same context."@en .
+
+c:type-progress a skos:Concept ; skos:prefLabel "Progress (type safety)"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "In a suitable evaluation semantics, a closed well-typed term is a value or has a next evaluation step."@en .
+
+c:stlc-type-safety a skos:Concept ; skos:prefLabel "Type safety of simply typed lambda calculus"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:simply-typed-lambda-calculus ;
+    skos:definition "For standard evaluation of closed well-typed simply typed terms, progress and preservation exclude stuck non-values."@en .
+
+c:dependent-function-type a skos:Concept ; skos:prefLabel "Dependent function type"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:dependent-type ;
+    skos:definition "A function type whose result type may depend on the input value."@en .
+
+c:dependent-pair-type a skos:Concept ; skos:prefLabel "Dependent pair type"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:dependent-type ;
+    skos:definition "A pair type whose second component type may depend on the value of the first component."@en .
+
+c:inductive-type a skos:Concept ; skos:prefLabel "Inductive type"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "A type specified by constructors together with rules for reasoning by induction and defining functions by recursion over their results."@en .
+
+c:inductive-eliminator a skos:Concept ; skos:prefLabel "Inductive eliminator"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:inductive-type ;
+    skos:definition "An operation defining a result on values of an inductive type by supplying a case for each constructor and recursion or induction hypotheses where provided."@en .
+
+c:principal-type-scheme a skos:Concept ; skos:prefLabel "Principal type scheme"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "For the given typing context, a scheme from which every assignable type of the expression can be obtained by instantiation."@en .
+
+c:definitional-equality a skos:Concept ; skos:prefLabel "Definitional equality"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "An equality judgment accepted by the conversion rules of the type system, often by computation and unfolding."@en .
+
+c:propositional-equality a skos:Concept ; skos:prefLabel "Propositional equality in type theory"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "An equality expressed as a type or proposition whose inhabitants provide proofs under the equality rules."@en .
+
+c:type-conversion-rule a skos:Concept ; skos:prefLabel "Type conversion rule"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:typing-judgment ;
+    skos:definition "A rule allowing a term of one type to be used at a definitionally equal type."@en .
+
+c:type-theoretic-proof-kernel a skos:Concept ; skos:prefLabel "Type-theoretic proof kernel"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-checker ;
+    skos:definition "The trusted checker validating formal proof terms using the typing and definitional equality rules of a logical framework."@en .
+
+c:strong-normalization a skos:Concept ; skos:prefLabel "Strong normalization"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "Every sequence of reductions starting from the given well-formed term eventually terminates."@en .
+
+c:universe-hierarchy a skos:Concept ; skos:prefLabel "Type universe hierarchy"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "A stratification of types into universes where the type of a universe belongs to a higher universe."@en .
+
+c:inductive-recursion a skos:Concept ; skos:prefLabel "Structural recursion over an inductive type"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:inductive-type ;
+    skos:definition "Definition by constructor cases whose recursive calls are on available smaller structural constituents."@en .
+
+c:system-f a skos:Concept ; skos:prefLabel "System F"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "The second-order typed lambda calculus with abstraction and application over both values and types."@en .
+
+c:universal-type a skos:Concept ; skos:prefLabel "Universal type"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "A polymorphic type whose type variable is bound by universal quantification and may be instantiated at a type."@en .
+
+c:type-abstraction a skos:Concept ; skos:prefLabel "Type abstraction"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "A term abstraction that binds a type variable and produces a term at a universal type."@en .
+
+c:type-application a skos:Concept ; skos:prefLabel "Type application"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "Instantiation of a polymorphic term at a type, substituting that type into the quantified result."@en .
+
+c:type-constructor a skos:Concept ; skos:prefLabel "Type constructor"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "An operation on types that forms a new type, such as the constructor for a function or list type."@en .
+
+c:impredicative-polymorphism a skos:Concept ; skos:prefLabel "Impredicative polymorphism"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "Polymorphism whose type quantification ranges over types that may themselves contain quantified types of the same universe."@en .
+
+c:type-erasure a skos:Concept ; skos:prefLabel "Type erasure"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "Removal of type annotations and type-level constructs when their role is confined to static typing."@en .
+
+c:logical-relations a skos:Concept ; skos:prefLabel "Logical relations"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "Relations on typed terms or values defined recursively by type structure to support proofs of semantic properties."@en .
+
+c:relational-parametricity a skos:Concept ; skos:prefLabel "Relational parametricity"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:type-theory ;
+    skos:definition "The uniformity principle that polymorphic terms preserve relations determined by the interpretation of their types."@en .

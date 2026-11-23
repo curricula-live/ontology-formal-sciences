@@ -1,0 +1,56 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:algorithms a skos:Concept ; skos:prefLabel "Algorithms"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-science .
+
+c:graph-algorithm a skos:Concept ; skos:prefLabel "Graph algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:dijkstra-s-algorithm a skos:Concept ; skos:prefLabel "Dijkstra's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:bellman-ford-algorithm a skos:Concept ; skos:prefLabel "Bellman-Ford algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:shortest-path-problem a skos:Concept ; skos:prefLabel "Shortest path problem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:dynamic-programming a skos:Concept ; skos:prefLabel "Dynamic programming"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:binary-search a skos:Concept ; skos:prefLabel "Binary search"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:dijkstra-s-algorithm skos:definition "A shortest-path algorithm that repeatedly settles an unsettled vertex of minimum tentative distance. Its standard correctness guarantee assumes nonnegative edge weights."@en .
+
+c:breadth-first-search a skos:Concept ; skos:prefLabel "Breadth-first search"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:depth-first-search a skos:Concept ; skos:prefLabel "Depth-first search"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:kruskal-s-algorithm a skos:Concept ; skos:prefLabel "Kruskal's algorithm"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:minimum-spanning-tree-problem a skos:Concept ; skos:prefLabel "Minimum spanning tree problem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:topological-sorting a skos:Concept ; skos:prefLabel "Topological sorting"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:ford-fulkerson-method a skos:Concept ; skos:prefLabel "Ford–Fulkerson method"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:maximum-flow-problem a skos:Concept ; skos:prefLabel "Maximum flow problem"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms .
+
+c:edge-relaxation a skos:Concept ; skos:prefLabel "Edge relaxation"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:algorithms ;
+    skos:definition "A shortest-path update that compares the current distance estimate with the estimate obtained by extending a path across one edge."@en .
+
+c:bellman-ford-algorithm skos:definition "A single-source algorithm that relaxes edges to obtain finite shortest-path distances to reachable vertices when no negative-weight cycle is reachable from the source. An additional relaxation pass can detect such a cycle."@en .
+
+c:minimum-spanning-tree-problem skos:definition "Find a spanning tree of minimum total weight in a connected, weighted, undirected graph."@en .

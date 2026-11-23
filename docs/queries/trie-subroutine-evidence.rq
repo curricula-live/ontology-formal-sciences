@@ -1,0 +1,18 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+SELECT ?structure ?index ?algorithm ?table ?reference
+WHERE {
+  GRAPH g:asserted {
+    VALUES ?structure { c:opencs-c45644 }
+    ?structure v:uses ?index .
+    ?index v:invokesAlgorithm ?algorithm ; v:uses ?table .
+  }
+  GRAPH g:provenance {
+    ?statement rdf:subject ?index ; rdf:predicate v:invokesAlgorithm ;
+      rdf:object ?algorithm ; dct:source ?reference .
+  }
+}

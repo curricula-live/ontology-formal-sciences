@@ -1,0 +1,33 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:probability-distributions a skos:Concept ; skos:prefLabel "Probability distributions"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistics .
+
+c:normal-distribution a skos:Concept ; skos:prefLabel "Normal distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:bernoulli-distribution a skos:Concept ; skos:prefLabel "Bernoulli distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:poisson-distribution a skos:Concept ; skos:prefLabel "Poisson distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:cumulative-distribution-function a skos:Concept ; skos:prefLabel "Cumulative distribution function"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions .
+
+c:normal-distribution skos:definition "A continuous univariate probability distribution determined by a mean and a strictly positive variance, with density proportional to the exponential of a negative squared deviation from the mean."@en .
+
+c:exponential-distribution a skos:Concept ; skos:prefLabel "Exponential distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions ;
+    skos:definition "A continuous distribution for a nonnegative waiting time with survival function exp(−λt) for t ≥ 0 and rate λ > 0."@en .
+
+c:geometric-distribution a skos:Concept ; skos:prefLabel "Geometric distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions ;
+    skos:definition "The distribution of the trial number of the first success in independent Bernoulli trials with fixed success probability, or equivalently its failures-before-success convention."@en .
+
+c:memorylessness a skos:Concept ; skos:prefLabel "Memorylessness"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions ;
+    skos:definition "For a nonnegative waiting time, the conditional probability of waiting an additional interval after survival to time s equals the original survival probability for that interval. Intervals are indexed on the support’s time scale."@en .

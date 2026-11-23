@@ -1,0 +1,11 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:opencs-c11287 a skos:Concept ; skos:prefLabel "Church–Kleene ordinal"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "The least nonrecursive ordinal, equivalently the supremum of the order types of computable well-orderings of the natural numbers."@en .
+
+c:opencs-c11706 a skos:Concept ; skos:prefLabel "Kleene algebra"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:algebra ;
+    skos:definition "An idempotent semiring equipped with a star operation satisfying star-unfolding and induction axioms."@en .

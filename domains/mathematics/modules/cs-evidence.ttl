@@ -1,0 +1,7 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:coprime-residue-modulus a skos:Concept ; skos:prefLabel "Coprimality of residue and modulus"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:number-theory ;
+    skos:definition "The greatest common divisor of the specified residue and modulus is one."@en .

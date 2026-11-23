@@ -1,0 +1,26 @@
+{
+  "decisions": {
+    "rejected": [
+      [
+        "E285",
+        "P1",
+        "E1030",
+        "The universal restriction limits the range of any defining relation. It does not entail that the relation exists."
+      ],
+      [
+        "E1714",
+        "P1",
+        "E1010",
+        "The universal restriction limits the range of any defining relation. It does not state that a particular contact form defines a particular manifold."
+      ],
+      [
+        "E2410",
+        "P2",
+        "E1135",
+        "An all-values restriction does not witness a defining relationship, even with both canonical subjects resolved."
+      ]
+    ]
+  },
+  "profile_sha256": "bf68fd8593f8c2c70b550a6bbd58d951365e9125dfcfdd36b03e3c1431e7017b",
+  "sha256": "d8ceab757419a6ff07230342c47f4d49f8542ef998e0b052b31cde8fa5ab1c7f"
+}

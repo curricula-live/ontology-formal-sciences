@@ -1,0 +1,183 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:ontomath-pro-e2146 a skos:Concept ; skos:prefLabel "Abelian group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2147 a skos:Concept ; skos:prefLabel "Algebraically compact Abelian group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2148 a skos:Concept ; skos:prefLabel "Absolutely decomposable Abelian group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2149 a skos:Concept ; skos:prefLabel "Free Abelian group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2150 a skos:Concept ; skos:prefLabel "Additive group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2151 a skos:Concept ; skos:prefLabel "Algebraically closed group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2152 a skos:Concept ; skos:prefLabel "Artinian group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2153 a skos:Concept ; skos:prefLabel "Archimedean group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2154 a skos:Concept ; skos:prefLabel "Infinite group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2155 a skos:Concept ; skos:prefLabel "Klein group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2156 a skos:Concept ; skos:prefLabel "Whitehead group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2157 a skos:Concept ; skos:prefLabel "Fibonacci group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2158 a skos:Concept ; skos:prefLabel "Automorphism group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2167 a skos:Concept ; skos:prefLabel "Polyhedral group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2170 a skos:Concept ; skos:prefLabel "Parafree group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2171 a skos:Concept ; skos:prefLabel "Permutation group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2177 a skos:Concept ; skos:prefLabel "Character group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2181 a skos:Concept ; skos:prefLabel "Quasi-cyclic group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2182 a skos:Concept ; skos:prefLabel "Kleinian group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2183 a skos:Concept ; skos:prefLabel "Finite group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2184 a skos:Concept ; skos:prefLabel "Finitely defined group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2186 a skos:Concept ; skos:prefLabel "Linear group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2187 a skos:Concept ; skos:prefLabel "Linearly ordered group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2188 a skos:Concept ; skos:prefLabel "Locally finite group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2189 a skos:Concept ; skos:prefLabel "Locally finite hypercentral group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2191 a skos:Concept ; skos:prefLabel "Locally finite solvable group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2192 a skos:Concept ; skos:prefLabel "Locally Euclidean group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2193 a skos:Concept ; skos:prefLabel "Metabelian group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2194 a skos:Concept ; skos:prefLabel "Metrizable group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2195 a skos:Concept ; skos:prefLabel "Multiplicative group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2196 a skos:Concept ; skos:prefLabel "Multiplicative group of ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2197 a skos:Concept ; skos:prefLabel "Multiplicative group of residue ring"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2198 a skos:Concept ; skos:prefLabel "Multiplicative group of field"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2200 a skos:Concept ; skos:prefLabel "Hypercentral group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2205 a skos:Concept ; skos:prefLabel "Periodic group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2206 a skos:Concept ; skos:prefLabel "Polynilpotent group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2207 a skos:Concept ; skos:prefLabel "Polycyclic group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2210 a skos:Concept ; skos:prefLabel "Nilpotent-by-finite group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2211 a skos:Concept ; skos:prefLabel "Nilpotent-by-finite polycyclic group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2212 a skos:Concept ; skos:prefLabel "Nilpotent-by-finite solvable group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2213 a skos:Concept ; skos:prefLabel "Primary group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2214 a skos:Concept ; skos:prefLabel "Projective group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2216 a skos:Concept ; skos:prefLabel "Profinite group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2217 a skos:Concept ; skos:prefLabel "Simple group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2218 a skos:Concept ; skos:prefLabel "Solvable group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2220 a skos:Concept ; skos:prefLabel "Rational group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2221 a skos:Concept ; skos:prefLabel "Reduced group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2222 a skos:Concept ; skos:prefLabel "Recursive group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2223 a skos:Concept ; skos:prefLabel "Recursively enumerable group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2225 a skos:Concept ; skos:prefLabel "Lattice ordered group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2226 a skos:Concept ; skos:prefLabel "Supersoluble group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2227 a skos:Concept ; skos:prefLabel "Free group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2233 a skos:Concept ; skos:prefLabel "Topologically complete group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2234 a skos:Concept ; skos:prefLabel "Triangular group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2235 a skos:Concept ; skos:prefLabel "Trivial group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2237 a skos:Concept ; skos:prefLabel "Ordered group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2239 a skos:Concept ; skos:prefLabel "Fuchsian group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2240 a skos:Concept ; skos:prefLabel "Cyclic group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e2241 a skos:Concept ; skos:prefLabel "Existentially closed group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .
+
+c:ontomath-pro-e3180 a skos:Concept ; skos:prefLabel "Chow group"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:group .

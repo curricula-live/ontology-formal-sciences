@@ -1,0 +1,58 @@
+{
+  "decisions": {
+    "approved": [
+      [
+        "Implementation",
+        "implements",
+        "Algorithm",
+        "The restriction identifies the abstract algorithm realized by an executable implementation. The scoped projection preserves the implementation distinction."
+      ],
+      [
+        "EvaluationSpecification",
+        "part",
+        "EvaluationMeasure",
+        "The specification names the metric by which the learning task is assessed."
+      ],
+      [
+        "EvaluationSpecification",
+        "part",
+        "EvaluationProcedure",
+        "The specification includes the statistical assessment procedure."
+      ],
+      [
+        "ModelEvaluation",
+        "specifies",
+        "EvaluationMeasure",
+        "The result is a value for the specified performance measure. Metric and recorded result remain distinct."
+      ],
+      [
+        "Run",
+        "executes",
+        "Implementation",
+        "The source execution role explicitly refers to an implementation."
+      ],
+      [
+        "Run",
+        "output",
+        "ModelEvaluation",
+        "The run model documents the evaluation-result output kind. A run can fail or omit an available evaluation."
+      ]
+    ],
+    "rejected": [
+      [
+        "HyperParameterSetting",
+        "specifies",
+        "HyperParameter",
+        "The same OWL property connects a setting to a parameter in this context. It does not describe a reported evaluation measure."
+      ],
+      [
+        "Run",
+        "output",
+        "Model",
+        "The trained model is a different output kind from the performance evaluation. The scope cannot treat the two as interchangeable."
+      ]
+    ]
+  },
+  "profile_sha256": "92dbb1243e1a2c3c27b657b7885e45ad4e9ce7854520a6631a0af26ada3ef661",
+  "sha256": "5eb9572cde53e362f74113b9292f07a9d9ad115d811341489fa00dba4dd0f35e"
+}

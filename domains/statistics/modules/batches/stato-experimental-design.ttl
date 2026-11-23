@@ -1,0 +1,75 @@
+# Selected and adapted from STATO 1.5 by ISA-tools/STATO, CC BY 3.0.
+# See sources/stato/README.md for license, authorship and the pinned revision.
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:stato-0000003 a skos:Concept ;
+    skos:prefLabel "Balanced design"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:experimental-design .
+
+c:stato-0000005 a skos:Concept ;
+    skos:prefLabel "Single factor design"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:experimental-design .
+
+c:stato-0000046 a skos:Concept ;
+    skos:prefLabel "Block design"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:experimental-design .
+
+c:stato-0000222 a skos:Concept ;
+    skos:prefLabel "Graeco-Latin square design"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:experimental-design .
+
+c:stato-0000270 a skos:Concept ;
+    skos:prefLabel "Full factorial design"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:experimental-design .
+
+c:stato-0000311 a skos:Concept ;
+    skos:prefLabel "Central composite design"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:experimental-design .
+
+c:stato-0000312 a skos:Concept ;
+    skos:prefLabel "Box–Behnken design"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:experimental-design .
+
+c:stato-0000313 a skos:Concept ;
+    skos:prefLabel "Plackett–Burman design"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:experimental-design .
+
+c:stato-0000444 a skos:Concept ;
+    skos:prefLabel "Split-plot design"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000586 .
+
+c:stato-0000445 a skos:Concept ;
+    skos:prefLabel "Split-split-plot design"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000444 .
+
+c:stato-0000459 a skos:Concept ;
+    skos:prefLabel "Group sequential design"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:experimental-design .
+
+c:stato-0000499 a skos:Concept ;
+    skos:prefLabel "Augmented experimental design"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:experimental-design .
+
+c:stato-0000583 a skos:Concept ;
+    skos:prefLabel "Completely randomized design"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:experimental-design .
+
+c:stato-0000586 a skos:Concept ;
+    skos:prefLabel "Restricted randomized design"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:experimental-design .

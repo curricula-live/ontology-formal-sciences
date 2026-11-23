@@ -1,0 +1,19 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:computer-architecture a skos:Concept ; skos:prefLabel "Computer architecture"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-science .
+
+c:instruction-set-architecture a skos:Concept ; skos:prefLabel "Instruction set architecture"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-architecture .
+
+c:cache-memory a skos:Concept ; skos:prefLabel "Cache memory"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-architecture .
+
+c:instruction-pipeline a skos:Concept ; skos:prefLabel "Instruction pipeline"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-architecture .
+
+c:branch-prediction a skos:Concept ; skos:prefLabel "Branch prediction"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:computer-architecture .

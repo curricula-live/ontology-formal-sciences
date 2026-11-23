@@ -1,0 +1,135 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:automated-reasoning a skos:Concept ; skos:prefLabel "Automated reasoning"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:logic .
+
+c:resolution-logic a skos:Concept ; skos:prefLabel "Resolution (logic)"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning .
+
+c:unification a skos:Concept ; skos:prefLabel "Unification"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning .
+
+c:term-rewriting a skos:Concept ; skos:prefLabel "Term rewriting"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning .
+
+c:theorem-prover a skos:Concept ; skos:prefLabel "Theorem prover"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning .
+
+c:two-sat-implication-graph-algorithm a skos:Concept ; skos:prefLabel "Implication-graph algorithm for 2-SAT"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "A decision procedure that checks whether a literal and its negation lie in the same strongly connected component of a 2-SAT implication graph."@en .
+
+c:satisfiability-modulo-theories a skos:Concept ; skos:prefLabel "Satisfiability modulo theories"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "The problem of deciding whether a formula has a model that also satisfies the axioms of a fixed background theory."@en .
+
+c:dpll-t a skos:Concept ; skos:prefLabel "DPLL(T)"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "An SMT architecture in which a Boolean search engine works with theory solvers that check consistency of the selected theory literals."@en .
+
+c:theory-solver a skos:Concept ; skos:prefLabel "Theory solver"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "A decision procedure that checks the consistency of a conjunction of literals in a specified background theory."@en .
+
+c:equality-uninterpreted-functions a skos:Concept ; skos:prefLabel "Equality with uninterpreted functions"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:first-order-logic ;
+    skos:definition "The first-order theory of equality in which function symbols obey congruence and their interpretations are otherwise unspecified."@en .
+
+c:ground-euf-satisfiability a skos:Concept ; skos:prefLabel "Ground equality satisfiability with uninterpreted functions"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:satisfiability-modulo-theories ;
+    skos:definition "Deciding consistency of a finite set of ground equalities and disequalities in the theory of equality with uninterpreted functions."@en .
+
+c:congruence-closure a skos:Concept ; skos:prefLabel "Congruence closure"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "The least equivalence relation on terms containing the specified equalities and respected by application of function symbols."@en .
+
+c:congruence-closure-decision-procedure a skos:Concept ; skos:prefLabel "Congruence-closure decision procedure"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:theory-solver ;
+    skos:definition "For ground EUF literals, the method closes equalities under congruence and detects a disequality whose endpoints fall in the same class."@en .
+
+c:critical-pair a skos:Concept ; skos:prefLabel "Critical pair"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:term-rewriting ;
+    skos:definition "Two terms obtained by applying overlapping rewrite rules to a common term at the overlap, using a most general unifier."@en .
+
+c:rewriting-confluence a skos:Concept ; skos:prefLabel "Confluence (term rewriting)"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:term-rewriting ;
+    skos:definition "Whenever a term rewrites in zero or more steps to two terms, both can be rewritten further to a common term."@en .
+
+c:rewriting-local-confluence a skos:Concept ; skos:prefLabel "Local confluence (term rewriting)"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:term-rewriting ;
+    skos:definition "Whenever a term takes one rewrite step to either of two terms, both results can be rewritten further to a common term."@en .
+
+c:rewriting-termination a skos:Concept ; skos:prefLabel "Termination (term rewriting)"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:term-rewriting ;
+    skos:definition "Absence of an infinite sequence of rewrite steps."@en .
+
+c:rewriting-newman-lemma a skos:Concept ; skos:prefLabel "Newman's lemma"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:term-rewriting ;
+    skos:definition "A terminating rewrite relation is confluent if it is locally confluent."@en .
+
+c:rewriting-normal-form a skos:Concept ; skos:prefLabel "Normal form (term rewriting)"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:term-rewriting ;
+    skos:definition "A term to which no rewrite rule applies."@en .
+
+c:most-general-unifier a skos:Concept ; skos:prefLabel "Most general unifier"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:unification ;
+    skos:definition "A unifying substitution through which every other unifying substitution factors by further substitution."@en .
+
+c:propositional-abstraction a skos:Concept ; skos:prefLabel "Propositional abstraction of theory atoms"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "Replacing each distinct theory atom with a propositional variable to retain the Boolean structure of the formula."@en .
+
+c:nelson-oppen-combination a skos:Concept ; skos:prefLabel "Nelson–Oppen theory combination"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:theory-solver ;
+    skos:definition "A framework that combines satisfiability procedures for component theories by exchanging equalities on shared variables after purification."@en .
+
+c:disjoint-theory-signatures a skos:Concept ; skos:prefLabel "Disjoint theory signatures"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:satisfiability-modulo-theories ;
+    skos:definition "A condition in theory combination in which component signatures share no nonlogical symbols."@en .
+
+c:stable-infiniteness a skos:Concept ; skos:prefLabel "Stable infiniteness"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:satisfiability-modulo-theories ;
+    skos:definition "Every satisfiable quantifier-free formula over the theory has an infinite model satisfying that theory."@en .
+
+c:theory-purification a skos:Concept ; skos:prefLabel "Theory purification"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:satisfiability-modulo-theories ;
+    skos:definition "Replace subterms drawn from other theories by fresh variables with defining equalities, obtaining constraints owned by individual theories."@en .
+
+c:quantifier-free-linear-rational-arithmetic a skos:Concept ; skos:prefLabel "Quantifier-free linear rational arithmetic"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:satisfiability-modulo-theories ;
+    skos:definition "Satisfiability of Boolean combinations of linear rational constraints over variables ranging over the rationals."@en .
+
+c:linear-rational-conjunction-feasibility a skos:Concept ; skos:prefLabel "Feasibility of conjunctive rational linear inequalities"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:quantifier-free-linear-rational-arithmetic ;
+    skos:definition "The existence of a rational assignment satisfying all inequalities in a finite conjunction of linear rational inequalities."@en .
+
+c:proof-certificate a skos:Concept ; skos:prefLabel "Proof certificate"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "A finite artifact containing evidence that a checker can validate against a specified correctness claim."@en .
+
+c:proof-checker a skos:Concept ; skos:prefLabel "Proof checker"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "A procedure validating a proof or certificate against the inference rules of a formal system."@en .
+
+c:first-order-saturation a skos:Concept ; skos:prefLabel "First-order saturation"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "A proof-search approach that iteratively derives consequences of a clause set under a chosen calculus, subject to its redundancy criteria."@en .
+
+c:factorization-of-clauses a skos:Concept ; skos:prefLabel "Clause factoring"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:resolution-logic ;
+    skos:definition "A rule that unifies two literals of the same polarity in a clause and retains one copy under the unifying substitution."@en .
+
+c:propositional-resolution-certificate a skos:Concept ; skos:prefLabel "Propositional resolution certificate"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-certificate ;
+    skos:definition "A finite sequence or directed acyclic graph of resolution derivations from input clauses to the empty clause, certifying their joint unsatisfiability."@en .
+
+c:proof-assistant a skos:Concept ; skos:prefLabel "Proof assistant"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:automated-reasoning ;
+    skos:definition "A system that lets authors construct formal statements and proofs with machine-checked inference."@en .
+
+c:type-theoretic-proof-assistant a skos:Concept ; skos:prefLabel "Type-theoretic proof assistant"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:proof-assistant ;
+    skos:definition "A proof assistant in which a kernel checks proof terms according to a formal dependent type theory."@en .

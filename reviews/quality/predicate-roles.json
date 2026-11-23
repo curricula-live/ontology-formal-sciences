@@ -1,0 +1,102 @@
+{
+  "constraints": {
+    "hasInputStructure": {
+      "object": {
+        "expected": [
+          "Structure"
+        ],
+        "incompatible": []
+      },
+      "subject": {
+        "expected": [
+          "Problem"
+        ],
+        "incompatible": []
+      }
+    },
+    "hasModelingAssumption": {
+      "object": {
+        "expected": [
+          "Assumption",
+          "Property"
+        ],
+        "incompatible": []
+      },
+      "subject": {
+        "expected": [
+          "Model",
+          "Method"
+        ],
+        "incompatible": []
+      }
+    },
+    "implementsAlgorithm": {
+      "object": {
+        "expected": [
+          "Algorithm"
+        ],
+        "incompatible": [
+          "Implementation"
+        ]
+      },
+      "subject": {
+        "expected": [
+          "Implementation"
+        ],
+        "incompatible": [
+          "Algorithm"
+        ]
+      }
+    },
+    "invokesAlgorithm": {
+      "object": {
+        "expected": [
+          "Algorithm"
+        ],
+        "incompatible": [
+          "Implementation"
+        ]
+      },
+      "subject": {
+        "expected": [
+          "Implementation",
+          "Algorithm"
+        ],
+        "incompatible": []
+      }
+    },
+    "requiresPremise": {
+      "object": {
+        "expected": [
+          "Assumption",
+          "Property",
+          "Structure"
+        ],
+        "incompatible": []
+      },
+      "subject": {
+        "expected": [
+          "Result",
+          "Property"
+        ],
+        "incompatible": []
+      }
+    },
+    "solves": {
+      "object": {
+        "expected": [
+          "Problem"
+        ],
+        "incompatible": []
+      },
+      "subject": {
+        "expected": [
+          "Algorithm",
+          "Method"
+        ],
+        "incompatible": []
+      }
+    }
+  },
+  "exceptions": []
+}

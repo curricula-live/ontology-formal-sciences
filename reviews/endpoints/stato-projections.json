@@ -1,0 +1,17 @@
+{
+  "projections": {
+    "0000175": {
+      "canonical": "confidence-interval-construction",
+      "evidence_sha256": "cb115958dd1546defece60047c7603c0eb8c6a4cba13782a9b622570e189eddd",
+      "rationale": "The definition identifies the procedure returning a confidence interval for a model parameter. It is distinct from the interval object.",
+      "reference": "https://www.itl.nist.gov/div898/handbook/prc/section1/prc14.htm"
+    },
+    "0000571": {
+      "canonical": "partial-least-squares-regression",
+      "evidence_sha256": "a57edc512125a25ba6d82f58574b95ecefa94f8fc4c1e1b9e572af200630f77b",
+      "rationale": "The source defines the regression family by joint predictor–response component modeling, rather than an application-specific PLS workflow.",
+      "reference": "https://doi.org/10.1016/S0169-7439(01)00155-1"
+    }
+  },
+  "sha256": "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578"
+}

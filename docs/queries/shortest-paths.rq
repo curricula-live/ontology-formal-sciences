@@ -1,0 +1,9 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+
+# Which shortest-path solvers use weighted graphs, and which state an input condition?
+SELECT ?algorithm ?assumption FROM g:asserted WHERE {
+  ?algorithm v:solves c:shortest-path-problem ; v:uses c:weighted-graph .
+  OPTIONAL { ?algorithm v:requiresAssumption ?assumption }
+} ORDER BY ?algorithm

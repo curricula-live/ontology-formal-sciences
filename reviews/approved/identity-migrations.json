@@ -1,0 +1,13 @@
+[
+  {
+    "decision": "duplicate",
+    "former": "opencs-c3339",
+    "native": "https://w3id.org/ocs/ont/C3339",
+    "preferred": "a-star-search",
+    "rationale": "The pinned OpenCS topic refers to the ordinary A* search algorithm. The authored A-star subject names the same best-first method. Their labels and existing scope provide no distinct heuristic, termination rule or graph-search variant. The authored IRI is preferred for new scientific assertions; the source-derived IRI retains its original admission and vocabulary record.",
+    "scientific_reference": "https://doi.org/10.1109/TSSC.1968.300136",
+    "snapshot_sha256": "a59ef7c77364d1a067e84bbec1c88dbaf5ae3a6df2184832887d9a106b3c08e5",
+    "source": "opencs",
+    "source_evidence": "<https://w3id.org/ocs/ont/C3339> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .\n<https://w3id.org/ocs/ont/C3339> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/ocs/ont/C10> .\n<https://w3id.org/ocs/ont/C3339> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/A*_search_algorithm> .\n<https://w3id.org/ocs/ont/C3339> <http://www.w3.org/2004/02/skos/core#prefLabel> \"A* search algorithm\"@en .\n"
+  }
+]

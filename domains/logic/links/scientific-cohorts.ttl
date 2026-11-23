@@ -1,0 +1,10 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+
+c:opencs-c44999 v:uses c:beta-reduction .
+c:opencs-c17709 v:uses c:skolemization .
+c:opencs-c24869 v:uses c:herbrand-term-universe .
+c:opencs-c24869 v:uses c:ground-instance .
+c:opencs-c44728 v:uses c:herbrand-term-universe .
+c:opencs-c42139 v:uses c:opencs-c24201 .

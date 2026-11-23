@@ -1,0 +1,33 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:ontomath-pro-e1673 a skos:Concept ; skos:prefLabel "Non-parametric estimation"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:ontomath-pro-e1674 a skos:Concept ; skos:prefLabel "Parametric estimation"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:ontomath-pro-e1681 a skos:Concept ; skos:prefLabel "Unbiased estimate"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:ontomath-pro-e1683 a skos:Concept ; skos:prefLabel "Consistent estimate"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:ontomath-pro-e2427 a skos:Concept ; skos:prefLabel "Confidence limit"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:ontomath-pro-e2442 a skos:Concept ; skos:prefLabel "Confidence region"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:ontomath-pro-e2576 a skos:Concept ; skos:prefLabel "Analysis of variance"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:ontomath-pro-e2578 a skos:Concept ; skos:prefLabel "Residual variance"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:ontomath-pro-e2587 a skos:Concept ; skos:prefLabel "Correlation"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .
+
+c:ontomath-pro-e2625 a skos:Concept ; skos:prefLabel "Orthogonal regression"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:statistical-estimation .

@@ -1,0 +1,305 @@
+# Selected and adapted from STATO 1.5 by ISA-tools/STATO, CC BY 3.0.
+# See sources/stato/README.md for license, authorship and the pinned revision.
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:stato-0000027 a skos:Concept ;
+    skos:prefLabel "Test of association between categorical variables"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000042 a skos:Concept ;
+    skos:prefLabel "Anderson-Darling test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000191 .
+
+c:stato-0000052 a skos:Concept ;
+    skos:prefLabel "Z-test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000279 .
+
+c:stato-0000070 a skos:Concept ;
+    skos:prefLabel "Yates's correction for continuity"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000081 .
+
+c:stato-0000073 a skos:Concept ;
+    skos:prefLabel "Fisher's exact test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000027 .
+
+c:stato-0000074 a skos:Concept ;
+    skos:prefLabel "Cochran–Mantel–Haenszel test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000027 .
+
+c:stato-0000076 a skos:Concept ;
+    skos:prefLabel "Mann-Whitney U-test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000198 .
+
+c:stato-0000077 a skos:Concept ;
+    skos:prefLabel "Shapiro-Wilk test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000191 .
+
+c:stato-0000078 a skos:Concept ;
+    skos:prefLabel "Levene's test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000137 .
+
+c:stato-0000079 a skos:Concept ;
+    skos:prefLabel "Bartlett's test for equal variances"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000137 .
+
+c:stato-0000080 a skos:Concept ;
+    skos:prefLabel "Brown–Forsythe test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000137 .
+
+c:stato-0000081 a skos:Concept ;
+    skos:prefLabel "Pearson's chi-square test of independence"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000027 .
+
+c:stato-0000083 a skos:Concept ;
+    skos:prefLabel "Kolmogorov-Smirnov test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000191 .
+
+c:stato-0000086 a skos:Concept ;
+    skos:prefLabel "F-test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000092 a skos:Concept ;
+    skos:prefLabel "Wilcoxon signed-rank test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000202 .
+
+c:stato-0000094 a skos:Concept ;
+    skos:prefLabel "Kruskal–Wallis test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000198 .
+
+c:stato-0000095 a skos:Concept ;
+    skos:prefLabel "Paired t-test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000202 .
+
+c:stato-0000098 a skos:Concept ;
+    skos:prefLabel "Two sample Hotelling T2 test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000130 a skos:Concept ;
+    skos:prefLabel "Breslow-Day test for homogeneity of odds ratio"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000247 .
+
+c:stato-0000131 a skos:Concept ;
+    skos:prefLabel "Sphericity test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000133 a skos:Concept ;
+    skos:prefLabel "Post-hoc analysis"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000136 a skos:Concept ;
+    skos:prefLabel "Tarone's test for homogeneity of odds ratio"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000247 .
+
+c:stato-0000137 a skos:Concept ;
+    skos:prefLabel "Test for equal variances"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000148 a skos:Concept ;
+    skos:prefLabel "Cochran-Armitage test for trend"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000027 .
+
+c:stato-0000153 a skos:Concept ;
+    skos:prefLabel "One-sample Hotelling's T-squared test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000156 a skos:Concept ;
+    skos:prefLabel "Scheffé's method"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000133 .
+
+c:stato-0000157 a skos:Concept ;
+    skos:prefLabel "Fisher's least significant difference test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000133 .
+
+c:stato-0000179 a skos:Concept ;
+    skos:prefLabel "Analysis of covariance"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000279 .
+
+c:stato-0000187 a skos:Concept ;
+    skos:prefLabel "Tukey's honestly significant difference test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000133 .
+
+c:stato-0000191 a skos:Concept ;
+    skos:prefLabel "Goodness-of-fit test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000198 a skos:Concept ;
+    skos:prefLabel "Nonparametric test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000199 a skos:Concept ;
+    skos:prefLabel "Mauchly's test for sphericity"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000131 .
+
+c:stato-0000202 a skos:Concept ;
+    skos:prefLabel "Within-subject comparison test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000246 a skos:Concept ;
+    skos:prefLabel "Woolf's test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000247 .
+
+c:stato-0000247 a skos:Concept ;
+    skos:prefLabel "Odds ratio homogeneity test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000260 a skos:Concept ;
+    skos:prefLabel "Repeated-measures analysis of variance"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000202 .
+
+c:stato-0000261 a skos:Concept ;
+    skos:prefLabel "Newman–Keuls test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000133 .
+
+c:stato-0000279 a skos:Concept ;
+    skos:prefLabel "Between-group comparison test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000284 a skos:Concept ;
+    skos:prefLabel "Breusch-Pagan test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000137 .
+
+c:stato-0000285 a skos:Concept ;
+    skos:prefLabel "Hypergeometric test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000286 a skos:Concept ;
+    skos:prefLabel "One-tailed test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000287 a skos:Concept ;
+    skos:prefLabel "Two-tailed test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000298 a skos:Concept ;
+    skos:prefLabel "Exact binomial test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000191 .
+
+c:stato-0000302 a skos:Concept ;
+    skos:prefLabel "One-sample t-test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000303 a skos:Concept ;
+    skos:prefLabel "Pooled two-sample t-test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000279 .
+
+c:stato-0000304 a skos:Concept ;
+    skos:prefLabel "Welch's t-test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000279 .
+
+c:stato-0000309 a skos:Concept ;
+    skos:prefLabel "Pearson's chi-square goodness-of-fit test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000191 .
+
+c:stato-0000310 a skos:Concept ;
+    skos:prefLabel "Barnard's test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000027 .
+
+c:stato-0000406 a skos:Concept ;
+    skos:prefLabel "Yuen's trimmed-means t-test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000279 .
+
+c:stato-0000433 a skos:Concept ;
+    skos:prefLabel "McNemar test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000434 a skos:Concept ;
+    skos:prefLabel "Cochran's Q test for matched proportions"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000027 .
+
+c:stato-0000440 a skos:Concept ;
+    skos:prefLabel "Dixon Q test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000443 .
+
+c:stato-0000441 a skos:Concept ;
+    skos:prefLabel "Grubbs' test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000443 .
+
+c:stato-0000442 a skos:Concept ;
+    skos:prefLabel "Tietjen-Moore test for outliers"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000443 .
+
+c:stato-0000443 a skos:Concept ;
+    skos:prefLabel "Generalized extreme studentized deviate test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000490 a skos:Concept ;
+    skos:prefLabel "Dunn’s multiple comparison test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000279 .
+
+c:stato-0000491 a skos:Concept ;
+    skos:prefLabel "Conover-Iman test of multiple comparisons using rank sums"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000279 .
+
+c:stato-0000641 a skos:Concept ;
+    skos:prefLabel "Friedman test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000644 a skos:Concept ;
+    skos:prefLabel "Sign test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:hypothesis-testing .
+
+c:stato-0000653 a skos:Concept ;
+    skos:prefLabel "Hosmer-Lemeshow goodness-of-fit test"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000191 .

@@ -1,0 +1,215 @@
+# Selected and adapted from STATO 1.5 by ISA-tools/STATO, CC BY 3.0.
+# See sources/stato/README.md for license, authorship and the pinned revision.
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:stato-0000082 a skos:Concept ;
+    skos:prefLabel "Fixed effect model"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000107 .
+
+c:stato-0000099 a skos:Concept ;
+    skos:prefLabel "Random effect model"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000107 .
+
+c:stato-0000107 a skos:Concept ;
+    skos:prefLabel "Statistical model"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:statistics .
+
+c:stato-0000119 a skos:Concept ;
+    skos:prefLabel "Model parameter estimation"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:statistical-estimation .
+
+c:stato-0000143 a skos:Concept ;
+    skos:prefLabel "Bayesian model selection"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000328 .
+
+c:stato-0000189 a skos:Concept ;
+    skos:prefLabel "Mixed effect model"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000107 .
+
+c:stato-0000328 a skos:Concept ;
+    skos:prefLabel "Statistical model selection"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:statistics .
+
+c:stato-0000336 a skos:Concept ;
+    skos:prefLabel "Best linear unbiased predictor"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000119 .
+
+c:stato-0000346 a skos:Concept ;
+    skos:prefLabel "Covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000107 .
+
+c:stato-0000347 a skos:Concept ;
+    skos:prefLabel "Matérn anisotropic covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000348 a skos:Concept ;
+    skos:prefLabel "Rational quadratic anisotropic covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000349 a skos:Concept ;
+    skos:prefLabel "Spatial linear geometric anisotropic covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000350 a skos:Concept ;
+    skos:prefLabel "Spatial spherical geometric anisotropic covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000351 a skos:Concept ;
+    skos:prefLabel "Spatial gaussian geometric anisotropic covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000352 a skos:Concept ;
+    skos:prefLabel "Spatial exponential geometric anisotropic covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000353 a skos:Concept ;
+    skos:prefLabel "Spatial exponential anisotropic covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000354 a skos:Concept ;
+    skos:prefLabel "Banded heterogeneous Toeplitz covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000355 a skos:Concept ;
+    skos:prefLabel "Heterogeneous Toeplitz covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000356 a skos:Concept ;
+    skos:prefLabel "Banded Toeplitz covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000357 a skos:Concept ;
+    skos:prefLabel "Toeplitz covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000358 a skos:Concept ;
+    skos:prefLabel "Huynh-Feldt covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000359 a skos:Concept ;
+    skos:prefLabel "Equal diagonal Factor Analytic covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000361 .
+
+c:stato-0000360 a skos:Concept ;
+    skos:prefLabel "No diagonal Factor Analytic covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000361 .
+
+c:stato-0000361 a skos:Concept ;
+    skos:prefLabel "Factor-analytic covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000362 a skos:Concept ;
+    skos:prefLabel "Compound symmetry covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000363 a skos:Concept ;
+    skos:prefLabel "Heterogeneous compound symmetry covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000362 .
+
+c:stato-0000364 a skos:Concept ;
+    skos:prefLabel "First order autoregressive moving average covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000365 a skos:Concept ;
+    skos:prefLabel "First order autoregressive covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000366 a skos:Concept ;
+    skos:prefLabel "Heterogeneous first-order autoregressive covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000365 .
+
+c:stato-0000367 a skos:Concept ;
+    skos:prefLabel "Antedependence covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000371 a skos:Concept ;
+    skos:prefLabel "Weighted least squares estimation"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000119 .
+
+c:stato-0000372 a skos:Concept ;
+    skos:prefLabel "Generalized least squares estimation"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000119 .
+
+c:stato-0000373 a skos:Concept ;
+    skos:prefLabel "Iteratively reweighted least squares estimation"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000119 .
+
+c:stato-0000374 a skos:Concept ;
+    skos:prefLabel "Feasible generalized least squares estimation"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000372 .
+
+c:stato-0000390 a skos:Concept ;
+    skos:prefLabel "Regression model"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000107 .
+
+c:stato-0000405 a skos:Concept ;
+    skos:prefLabel "Unstructured covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .
+
+c:stato-0000427 a skos:Concept ;
+    skos:prefLabel "Restricted maximum likelihood estimation"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:maximum-likelihood-estimation .
+
+c:stato-0000464 a skos:Concept ;
+    skos:prefLabel "Linear mixed model"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000189 .
+
+c:stato-0000530 a skos:Concept ;
+    skos:prefLabel "Bayesian model"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000107 .
+
+c:stato-0000541 a skos:Concept ;
+    skos:prefLabel "State-space model"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000107 .
+
+c:stato-0000582 a skos:Concept ;
+    skos:prefLabel "Best linear unbiased estimator"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000119 .
+
+c:stato-0000588 a skos:Concept ;
+    skos:prefLabel "Scaled identity covariance structure"@en ;
+    skos:inScheme scheme:statistics ;
+    skos:broader c:stato-0000346 .

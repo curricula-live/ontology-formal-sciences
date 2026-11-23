@@ -1,0 +1,56 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:formal-verification a skos:Concept ; skos:prefLabel "Formal verification"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:logic .
+
+c:model-checking a skos:Concept ; skos:prefLabel "Model checking"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification .
+
+c:hoare-logic a skos:Concept ; skos:prefLabel "Hoare logic"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification .
+
+c:loop-invariant a skos:Concept ; skos:prefLabel "Loop invariant"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification .
+
+c:program-correctness a skos:Concept ; skos:prefLabel "Program correctness"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification .
+
+c:symbolic-model-checking a skos:Concept ; skos:prefLabel "Symbolic model checking"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification .
+
+c:weakest-precondition a skos:Concept ; skos:prefLabel "Weakest precondition"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification .
+
+c:linear-temporal-logic a skos:Concept ; skos:prefLabel "Linear temporal logic"@en ;
+    skos:altLabel "LTL"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification ;
+    skos:definition "A temporal logic interpreted over paths with operators such as next and until."@en .
+
+c:automata-theoretic-ltl-model-checking a skos:Concept ; skos:prefLabel "Automata-theoretic LTL model checking"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification ;
+    skos:definition "A verification method that searches for an execution satisfying the negation of a linear temporal specification using an automaton on infinite words."@en .
+
+c:sat-bounded-model-checking a skos:Concept ;
+    skos:prefLabel "SAT-based bounded model checking"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:model-checking ;
+    skos:definition "Encode the presence of a counterexample trace up to a chosen bound as a Boolean satisfiability problem for a finite-state system."@en .
+
+c:smt-bounded-model-checking a skos:Concept ;
+    skos:prefLabel "SMT-based bounded model checking"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:model-checking ;
+    skos:definition "Search for a counterexample up to a chosen bound by querying satisfiability of an unrolled transition formula in one or more background theories."@en .
+
+c:proof-obligation a skos:Concept ; skos:prefLabel "Proof obligation"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification ;
+    skos:definition "A proposition whose proof is required to establish a specified verification condition in a formal development."@en .
+
+c:galois-based-abstract-interpretation a skos:Concept ; skos:prefLabel "Galois-connection-based abstract interpretation"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification ;
+    skos:definition "Sound approximation of a concrete program semantics in an abstract domain related to the concrete domain by a Galois connection."@en .
+
+c:abstract-transfer-function a skos:Concept ; skos:prefLabel "Abstract transfer function"@en ;
+    skos:inScheme scheme:logic ; skos:broader c:formal-verification ;
+    skos:definition "A map of abstract program states that soundly approximates the effect of a concrete program operation."@en .

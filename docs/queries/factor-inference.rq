@@ -1,0 +1,10 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+
+# Which method computes a marginal from a graphical representation of a joint law?
+SELECT ?method ?representation ?quantity FROM g:asserted WHERE {
+  ?method v:uses ?representation ; v:computes ?quantity .
+  ?representation v:represents c:joint-distribution .
+  VALUES ?quantity { c:marginal-distribution }
+} ORDER BY ?method ?representation

@@ -1,0 +1,93 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:ontomath-pro-e47 a skos:Concept ; skos:prefLabel "Riesz basis"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e48 a skos:Concept ; skos:prefLabel "Haar basis"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e49 a skos:Concept ; skos:prefLabel "Schauder basis"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e50 a skos:Concept ; skos:prefLabel "Unconditional basis"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1687 a skos:Concept ; skos:prefLabel "Tensor"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1689 a skos:Concept ; skos:prefLabel "Dyadic"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1690 a skos:Concept ; skos:prefLabel "Bivector"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1691 a skos:Concept ; skos:prefLabel "Simple bivector"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1693 a skos:Concept ; skos:prefLabel "Vector"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1701 a skos:Concept ; skos:prefLabel "Tangent vector"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1702 a skos:Concept ; skos:prefLabel "Cotangent vector"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1707 a skos:Concept ; skos:prefLabel "Correlation matrix"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1710 a skos:Concept ; skos:prefLabel "Basis vector"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1711 a skos:Concept ; skos:prefLabel "Position vector"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1712 a skos:Concept ; skos:prefLabel "Exterior form"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1716 a skos:Concept ; skos:prefLabel "Covariantly constant tensor"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1717 a skos:Concept ; skos:prefLabel "Covector"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1720 a skos:Concept ; skos:prefLabel "Pauli matrices"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1721 a skos:Concept ; skos:prefLabel "Pseudoscalar"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1729 a skos:Concept ; skos:prefLabel "Hessian matrix"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1730 a skos:Concept ; skos:prefLabel "Carleman matrix"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1731 a skos:Concept ; skos:prefLabel "Jacobian matrix of a vector function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1732 a skos:Concept ; skos:prefLabel "Diagonal matrix"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1733 a skos:Concept ; skos:prefLabel "Matrix-valued function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e1908 a skos:Concept ; skos:prefLabel "Algebraic linear equation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e3146 a skos:Concept ; skos:prefLabel "Dual basis"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e3184 a skos:Concept ; skos:prefLabel "Stiffness matrix"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e3201 a skos:Concept ; skos:prefLabel "Kronecker delta"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e3211 a skos:Concept ; skos:prefLabel "Skew-symmetric matrix"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .
+
+c:ontomath-pro-e3212 a skos:Concept ; skos:prefLabel "Symmetric matrix"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:linear-algebra .

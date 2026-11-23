@@ -1,0 +1,24 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:ontomath-pro-e335 a skos:Concept ; skos:prefLabel "Simple hypothesis"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:hypothesis-testing .
+
+c:ontomath-pro-e336 a skos:Concept ; skos:prefLabel "Composite hypothesis"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:hypothesis-testing .
+
+c:ontomath-pro-e337 a skos:Concept ; skos:prefLabel "Statistical hypothesis"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:hypothesis-testing .
+
+c:ontomath-pro-e1951 a skos:Concept ; skos:prefLabel "Significance test"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:hypothesis-testing .
+
+c:ontomath-pro-e1955 a skos:Concept ; skos:prefLabel "Test for homogeneity"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:hypothesis-testing .
+
+c:ontomath-pro-e1960 a skos:Concept ; skos:prefLabel "Power of a statistical test"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:hypothesis-testing .
+
+c:ontomath-pro-e2431 a skos:Concept ; skos:prefLabel "Significance level"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:hypothesis-testing .

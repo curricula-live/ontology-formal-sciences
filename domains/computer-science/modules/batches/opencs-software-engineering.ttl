@@ -1,0 +1,93 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:opencs-c12495 a skos:Concept ; skos:prefLabel "Lazy systematic unit testing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c14329 a skos:Concept ; skos:prefLabel "Software architecture"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c14404 a skos:Concept ; skos:prefLabel "Abstraction model checking"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c16530 a skos:Concept ; skos:prefLabel "Software design pattern"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c18415 a skos:Concept ; skos:prefLabel "Regression testing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c19404 a skos:Concept ; skos:prefLabel "Integration testing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c2215 a skos:Concept ; skos:prefLabel "Design pattern"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c25956 a skos:Concept ; skos:prefLabel "Unit testing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c28080 a skos:Concept ; skos:prefLabel "Software development"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c28454 a skos:Concept ; skos:prefLabel "Requirements engineering"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c2899 a skos:Concept ; skos:prefLabel "Outside–in software development"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c30036 a skos:Concept ; skos:prefLabel "Software design"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c30119 a skos:Concept ; skos:prefLabel "Open-source software development"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering, c:opencs-c28080 .
+
+c:opencs-c33203 a skos:Concept ; skos:prefLabel "Model-driven software development"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering, c:opencs-c28080 .
+
+c:opencs-c35202 a skos:Concept ; skos:prefLabel "Software maintenance"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c37447 a skos:Concept ; skos:prefLabel "Aspect-oriented software development"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering, c:opencs-c28080 .
+
+c:opencs-c3844 a skos:Concept ; skos:prefLabel "Acceptance testing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c41437 a skos:Concept ; skos:prefLabel "Lean software development"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c42276 a skos:Concept ; skos:prefLabel "Crowdsourcing software development"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c42395 a skos:Concept ; skos:prefLabel "Software metric"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c42516 a skos:Concept ; skos:prefLabel "V-Model (software development)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c42685 a skos:Concept ; skos:prefLabel "Domain (software engineering)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c43011 a skos:Concept ; skos:prefLabel "Domain-specific software architecture"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c43030 a skos:Concept ; skos:prefLabel "Adaptive software development"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c43589 a skos:Concept ; skos:prefLabel "System integration testing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c44158 a skos:Concept ; skos:prefLabel "Operational acceptance testing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c44634 a skos:Concept ; skos:prefLabel "Interaction design pattern"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c44859 a skos:Concept ; skos:prefLabel "Functional software architecture"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c45208 a skos:Concept ; skos:prefLabel "Non-regression testing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .
+
+c:opencs-c4558 a skos:Concept ; skos:prefLabel "Agile software development"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:software-engineering .

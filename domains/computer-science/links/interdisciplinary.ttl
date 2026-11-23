@@ -1,0 +1,7 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+
+c:many-one-reduction v:hasProperty c:many-one-reduction-transitivity .
+c:many-one-reduction-transitivity v:uses c:many-one-reduction .
+c:effective-program-index-transformation v:hasProperty c:kleene-recursion-theorem .

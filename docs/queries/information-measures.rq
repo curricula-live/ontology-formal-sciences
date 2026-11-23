@@ -1,0 +1,11 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX s: <https://curricula.live/id/formal-sciences/scheme/>
+
+# Which information measures explicitly use statistical objects, and which ones?
+SELECT ?measure ?ingredient FROM g:asserted WHERE {
+  ?measure skos:broader+ c:information-theory ; v:uses ?ingredient .
+  ?ingredient skos:inScheme s:statistics .
+} ORDER BY ?measure ?ingredient

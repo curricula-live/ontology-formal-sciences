@@ -1,0 +1,11 @@
+{
+  "projections": {
+    "Algorithm": {
+      "canonical": "algorithm",
+      "evidence_sha256": "43045075d5dee86fd7370f4a3a62e4ad24df67194f7a05d201179d7e913827aa",
+      "rationale": "ML-Schema explicitly distinguishes the abstract algorithm from software implementing it. The subject projection is scoped to that role.",
+      "reference": "https://www.w3.org/community/ml-schema/"
+    }
+  },
+  "sha256": "5eb9572cde53e362f74113b9292f07a9d9ad115d811341489fa00dba4dd0f35e"
+}

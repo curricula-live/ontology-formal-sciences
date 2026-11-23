@@ -1,0 +1,922 @@
+{
+  "decisions": {
+    "approved": [
+      [
+        "Q6674141",
+        "P1674",
+        "Q6674576",
+        "The source links the Lyapunov equation to stability in the linear autonomous-system analysis. Preserve the context of the stability assumption."
+      ],
+      [
+        "Q6674142",
+        "P1655",
+        "Q6674143",
+        "The source description identifies the reduced bilinear input equation after model order reduction."
+      ],
+      [
+        "Q6674148",
+        "P1655",
+        "Q6674149",
+        "The related formulation is the reduced linear input equation."
+      ],
+      [
+        "Q6674150",
+        "P1655",
+        "Q6674144",
+        "The related formulation is the reduced linear output equation."
+      ],
+      [
+        "Q6674257",
+        "P1656",
+        "Q6674264",
+        "The source records leapfrog as a numerical integration scheme in the Hamiltonian case. The projection is scoped to that case."
+      ],
+      [
+        "Q6674283",
+        "P1736",
+        "Q6823151",
+        "The weak continuity formulation is explicitly linked to the conservation equation."
+      ],
+      [
+        "Q6674301",
+        "P1655",
+        "Q6674300",
+        "The quadratic output equation explicitly has a reduced formulation."
+      ],
+      [
+        "Q6674304",
+        "P1656",
+        "Q6674306",
+        "The target description identifies the finite volume spatial discretization of Darcy flow."
+      ],
+      [
+        "Q6674516",
+        "P1656",
+        "Q6674350",
+        "The source explicitly identifies the time discretization of its Stokes equation by backward Euler."
+      ],
+      [
+        "Q6674516",
+        "P1656",
+        "Q6674357",
+        "The source explicitly identifies the finite volume spatial discretization of its Stokes equation."
+      ],
+      [
+        "Q6675332",
+        "P147",
+        "Q6534338",
+        "The model is documented as used by the task of optimal control in this model catalog."
+      ],
+      [
+        "Q6675332",
+        "P147",
+        "Q6684552",
+        "The source explicitly records balanced truncation applied to the bilinear control model."
+      ],
+      [
+        "Q6675332",
+        "P147",
+        "Q6684558",
+        "The documented H2 approximation concerns the bilinear control model."
+      ],
+      [
+        "Q6675332",
+        "P147",
+        "Q6684561",
+        "The option for time evolution applies to the bilinear control model."
+      ],
+      [
+        "Q6675333",
+        "P147",
+        "Q6684551",
+        "The source explicitly records linear balanced truncation applied to a linear time-invariant model."
+      ],
+      [
+        "Q6675333",
+        "P147",
+        "Q6684562",
+        "The source records linear time evolution using the linear time-invariant model."
+      ],
+      [
+        "Q6675333",
+        "P147",
+        "Q6684570",
+        "The source documents H2 approximation of the linear time-invariant model."
+      ],
+      [
+        "Q6675390",
+        "P1656",
+        "Q6675391",
+        "Both endpoint descriptions identify the same Darcy model family and its discretized form."
+      ],
+      [
+        "Q6675408",
+        "P1656",
+        "Q6675441",
+        "The target is the discretized coupled Stokes–Darcy model."
+      ],
+      [
+        "Q6675409",
+        "P1656",
+        "Q6675442",
+        "The target is the explicitly identified discretized Stokes model."
+      ],
+      [
+        "Q6775296",
+        "P1736",
+        "Q6822179",
+        "This is the weak formulation of the same plate-with-hole elasticity problem."
+      ],
+      [
+        "Q6775619",
+        "P1656",
+        "Q6775737",
+        "The source links the weak momentum equation to its particular discretization."
+      ],
+      [
+        "Q6775662",
+        "P1736",
+        "Q6823150",
+        "The source records a weak form of the Poisson electric-potential equation."
+      ],
+      [
+        "Q6822179",
+        "P1656",
+        "Q6775736",
+        "The discretized weak model retains the same plate-with-hole scope."
+      ],
+      [
+        "Q6675332",
+        "P1560",
+        "Q6674142",
+        "The bilinear model includes its bilinear control input equation."
+      ],
+      [
+        "Q6675332",
+        "P1560",
+        "Q6674150",
+        "The documented bilinear control model includes a linear output equation."
+      ],
+      [
+        "Q6675332",
+        "P1560",
+        "Q6674301",
+        "The source model also records a quadratic output formulation. This preserves the documented component option."
+      ],
+      [
+        "Q6675333",
+        "P1560",
+        "Q6674148",
+        "The LTI model contains its linear input equation."
+      ],
+      [
+        "Q6675333",
+        "P1560",
+        "Q6674150",
+        "The LTI model contains its linear output equation."
+      ],
+      [
+        "Q6684552",
+        "P1560",
+        "Q6674142",
+        "The documented bilinear truncation task contains the original input equation."
+      ],
+      [
+        "Q6684552",
+        "P1560",
+        "Q6674143",
+        "The truncation task includes the reduced bilinear input equation."
+      ],
+      [
+        "Q6684552",
+        "P1560",
+        "Q6674144",
+        "The truncation task includes the reduced linear output equation."
+      ],
+      [
+        "Q6684551",
+        "P1560",
+        "Q6674148",
+        "The linear truncation task records the unreduced input equation."
+      ],
+      [
+        "Q6684551",
+        "P1560",
+        "Q6674149",
+        "The linear truncation task records the reduced input equation."
+      ],
+      [
+        "Q6684551",
+        "P1560",
+        "Q6674144",
+        "The linear truncation task records the reduced output equation."
+      ],
+      [
+        "Q6684558",
+        "P1560",
+        "Q6674142",
+        "The bilinear H2 approximation task contains the original bilinear input equation."
+      ],
+      [
+        "Q6684558",
+        "P1560",
+        "Q6674143",
+        "The bilinear H2 approximation task contains the reduced bilinear input equation."
+      ],
+      [
+        "Q6684570",
+        "P1560",
+        "Q6674148",
+        "The linear H2 approximation includes the original linear input equation."
+      ],
+      [
+        "Q6684570",
+        "P1560",
+        "Q6674149",
+        "The linear H2 approximation includes the reduced linear input equation."
+      ],
+      [
+        "Q6675408",
+        "P1560",
+        "Q6675409",
+        "The coupled Stokes–Darcy model contains the Stokes submodel."
+      ],
+      [
+        "Q6675408",
+        "P1560",
+        "Q6675390",
+        "The coupled Stokes–Darcy model contains the Darcy submodel."
+      ],
+      [
+        "Q6675441",
+        "P1560",
+        "Q6675442",
+        "The discretized coupled model contains a discretized Stokes submodel."
+      ],
+      [
+        "Q6675441",
+        "P1560",
+        "Q6675391",
+        "The discretized coupled model contains a discretized Darcy submodel."
+      ],
+      [
+        "Q6675409",
+        "P1560",
+        "Q6674516",
+        "The Stokes model includes the source Stokes equation."
+      ],
+      [
+        "Q6675390",
+        "P1560",
+        "Q6674304",
+        "The Darcy flow model includes the constitutive Darcy law."
+      ],
+      [
+        "Q6675391",
+        "P1560",
+        "Q6674305",
+        "The discretized Darcy model supplies the time-dependent context for the backward Euler equation."
+      ],
+      [
+        "Q6675391",
+        "P1560",
+        "Q6674306",
+        "The discretized Darcy model includes the spatial finite volume formulation."
+      ],
+      [
+        "Q6675442",
+        "P1560",
+        "Q6674357",
+        "The Stokes discretization includes the spatial finite volume formulation."
+      ],
+      [
+        "Q6675442",
+        "P1560",
+        "Q6674350",
+        "The Stokes discretization includes the backward Euler time formulation."
+      ],
+      [
+        "Q6822179",
+        "P1560",
+        "Q6775619",
+        "The provenance records the weak momentum balance within the plate's weak model."
+      ],
+      [
+        "Q6775736",
+        "P1560",
+        "Q6775737",
+        "The discretized plate model explicitly includes the discretized weak momentum equation."
+      ],
+      [
+        "Q6674260",
+        "P1656",
+        "Q6674268",
+        "Reviewed numerical formulation of the named source equation in its recorded setting."
+      ],
+      [
+        "Q6674308",
+        "P1656",
+        "Q6674356",
+        "Reviewed numerical formulation of the named source equation in its recorded setting."
+      ],
+      [
+        "Q6674363",
+        "P1674",
+        "Q6674362",
+        "The named premise is a spatially uniform gravitational field for this free-fall formulation. The source discussion contrasts this approximation with inverse-square variation."
+      ],
+      [
+        "Q6674365",
+        "P1674",
+        "Q6674366",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6674365",
+        "P1674",
+        "Q6674367",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6675405",
+        "P1674",
+        "Q6674366",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6675405",
+        "P1674",
+        "Q6674367",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6675406",
+        "P1674",
+        "Q6674362",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6775745",
+        "P1674",
+        "Q6674362",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6775754",
+        "P1674",
+        "Q6674366",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6775754",
+        "P1674",
+        "Q6674367",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6821153",
+        "P1674",
+        "Q6674362",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6821153",
+        "P1674",
+        "Q6674366",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6821153",
+        "P1674",
+        "Q6674367",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6821405",
+        "P1674",
+        "Q6674362",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6821405",
+        "P1674",
+        "Q6674366",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6821405",
+        "P1674",
+        "Q6674367",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6822091",
+        "P1674",
+        "Q6674362",
+        "This named premise belongs to the recorded equation, model or solution. It carries the source formulation's conditions."
+      ],
+      [
+        "Q6675331",
+        "P147",
+        "Q6534338",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6675331",
+        "P147",
+        "Q6684560",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6775296",
+        "P147",
+        "Q6775614",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6775296",
+        "P147",
+        "Q6775615",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6775736",
+        "P147",
+        "Q6775614",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6821153",
+        "P147",
+        "Q6821156",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6821153",
+        "P147",
+        "Q6821441",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6821153",
+        "P147",
+        "Q6821442",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6821405",
+        "P147",
+        "Q6821444",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6821405",
+        "P147",
+        "Q6821445",
+        "The task computes the period for the model's stated amplitude. The projection gives the task-to-model relation and does not import the source description of parameter dependence."
+      ],
+      [
+        "Q6822091",
+        "P147",
+        "Q6822089",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6822168",
+        "P147",
+        "Q6822166",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6822168",
+        "P147",
+        "Q6822174",
+        "Reverse the source 'used by' assertion for the documented task and the particular model it uses."
+      ],
+      [
+        "Q6675332",
+        "P1560",
+        "Q6674147",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675333",
+        "P1560",
+        "Q6674147",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675405",
+        "P1560",
+        "Q6674365",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675405",
+        "P1560",
+        "Q6674368",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675405",
+        "P1560",
+        "Q6775754",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675406",
+        "P1560",
+        "Q6674363",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675406",
+        "P1560",
+        "Q6674368",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675406",
+        "P1560",
+        "Q6775745",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675408",
+        "P1560",
+        "Q6674577",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675441",
+        "P1560",
+        "Q6674578",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6675441",
+        "P1560",
+        "Q6674579",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684551",
+        "P1560",
+        "Q6674147",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684551",
+        "P1560",
+        "Q6674150",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684552",
+        "P1560",
+        "Q6674147",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684552",
+        "P1560",
+        "Q6674150",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684552",
+        "P1560",
+        "Q6674301",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684558",
+        "P1560",
+        "Q6674144",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684558",
+        "P1560",
+        "Q6674147",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684558",
+        "P1560",
+        "Q6674150",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684561",
+        "P1560",
+        "Q6674142",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684561",
+        "P1560",
+        "Q6674147",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684561",
+        "P1560",
+        "Q6674150",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684562",
+        "P1560",
+        "Q6674147",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684562",
+        "P1560",
+        "Q6674148",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684562",
+        "P1560",
+        "Q6674150",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684570",
+        "P1560",
+        "Q6674144",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684570",
+        "P1560",
+        "Q6674147",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684570",
+        "P1560",
+        "Q6674150",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6775296",
+        "P1560",
+        "Q6775585",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6775614",
+        "P1560",
+        "Q6775737",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821153",
+        "P1560",
+        "Q6821154",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821153",
+        "P1560",
+        "Q6821397",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821153",
+        "P1560",
+        "Q6821398",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821156",
+        "P1560",
+        "Q6821158",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821402",
+        "P1560",
+        "Q6821403",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821405",
+        "P1560",
+        "Q6821397",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821405",
+        "P1560",
+        "Q6821404",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821405",
+        "P1560",
+        "Q6821446",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821441",
+        "P1560",
+        "Q6821439",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821442",
+        "P1560",
+        "Q6821443",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821444",
+        "P1560",
+        "Q6821397",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821444",
+        "P1560",
+        "Q6821404",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6821445",
+        "P1560",
+        "Q6821446",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6822089",
+        "P1560",
+        "Q6822087",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6822091",
+        "P1560",
+        "Q6821397",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6822091",
+        "P1560",
+        "Q6822090",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6822168",
+        "P1560",
+        "Q6822164",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6822168",
+        "P1560",
+        "Q6822169",
+        "The two records name a scoped model or calculation and an equation, condition, solution or mathematical expression used in that formulation."
+      ],
+      [
+        "Q6684551",
+        "P1560",
+        "Q6673771",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684551",
+        "P1560",
+        "Q6673772",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684551",
+        "P1560",
+        "Q6673773",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684552",
+        "P1560",
+        "Q6673771",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684552",
+        "P1560",
+        "Q6673772",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684552",
+        "P1560",
+        "Q6673773",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684561",
+        "P1560",
+        "Q6673771",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684561",
+        "P1560",
+        "Q6673772",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684561",
+        "P1560",
+        "Q6673773",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684562",
+        "P1560",
+        "Q6673771",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684562",
+        "P1560",
+        "Q6673772",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6684562",
+        "P1560",
+        "Q6673773",
+        "The source matrix record has the named state-space role in this documented model-reduction or time-evolution task."
+      ],
+      [
+        "Q6775745",
+        "P1692",
+        "Q6675406",
+        "The solution record and model have the same documented approximation and forcing context."
+      ],
+      [
+        "Q6775754",
+        "P1692",
+        "Q6675405",
+        "The solution record and model have the same documented approximation and forcing context."
+      ],
+      [
+        "Q6821398",
+        "P1692",
+        "Q6821153",
+        "The solution record and model have the same documented approximation and forcing context."
+      ],
+      [
+        "Q6775615",
+        "P1560",
+        "Q6775613",
+        "The plate-specific FEM discretization explicitly includes the general finite element method, whose endpoint reuses the OntoMathPro-backed subject."
+      ],
+      [
+        "Q6684606",
+        "P1560",
+        "Q6674483",
+        "The numerical maximization task contains the Poisson log-likelihood for its count model. The function is a statistical subject, distinct from the optimization task."
+      ]
+    ],
+    "rejected": [
+      [
+        "Q6674304",
+        "P1656",
+        "Q6674305",
+        "An isolated constitutive Darcy law has no time derivative. The backward Euler scheme needs the time-dependent model context, which this subject label omits."
+      ],
+      [
+        "Q6775585",
+        "P1736",
+        "Q6775619",
+        "The source subject specifies the elastostatic no-body-force limit. The target symbols and scope do not establish those restrictions on the generic weak momentum equation."
+      ],
+      [
+        "Q6674268",
+        "P1560",
+        "Q6674265",
+        "The source record references Euler formulas nearby. Forward Euler is not a defining component of the Verlet method."
+      ],
+      [
+        "Q6674268",
+        "P1560",
+        "Q6674269",
+        "Backward Euler and Verlet are distinct time discretizations. The generic contains annotation supplies no compound-method evidence."
+      ],
+      [
+        "Q6822091",
+        "P1560",
+        "Q6822086",
+        "The record provides placeholder prose. Its decaying cosine uses the undamped frequency, while the model has a damping term. The source does not state the approximation and initial conditions needed to identify a valid solution."
+      ]
+    ]
+  },
+  "profile_sha256": "72f3513f8f12533c66a22131a240e568d1eb8d6fa74ca80fa27e578a3ec7f42e",
+  "sha256": "acf15d06ae49aea4d81977b7bee30d159eb3931efa922dddb2af538d917ae63d"
+}

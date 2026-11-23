@@ -1,0 +1,255 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:ontomath-pro-e516 a skos:Concept ; skos:prefLabel "Minimum degree algorithm"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e523 a skos:Concept ; skos:prefLabel "Variational iteration method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e527 a skos:Concept ; skos:prefLabel "Gauss-Newton damped method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e528 a skos:Concept ; skos:prefLabel "Richardson iterative method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e536 a skos:Concept ; skos:prefLabel "Adams method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e545 a skos:Concept ; skos:prefLabel "Broyden's method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e546 a skos:Concept ; skos:prefLabel "Bairstow method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e551 a skos:Concept ; skos:prefLabel "Galerkin method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e552 a skos:Concept ; skos:prefLabel "Bubnov Galerkin method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e555 a skos:Concept ; skos:prefLabel "Gauss-Seidel method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e556 a skos:Concept ; skos:prefLabel "Gauss-Newton method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e558 a skos:Concept ; skos:prefLabel "Givens method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e559 a skos:Concept ; skos:prefLabel "Gear method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e560 a skos:Concept ; skos:prefLabel "Godunov method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e575 a skos:Concept ; skos:prefLabel "Levenberg-Marquardt method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e587 a skos:Concept ; skos:prefLabel "Neville's method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e588 a skos:Concept ; skos:prefLabel "Nystrom's method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e596 a skos:Concept ; skos:prefLabel "Romberg method of accuracy increase of quadrature"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e598 a skos:Concept ; skos:prefLabel "Runge-Kutta method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e612 a skos:Concept ; skos:prefLabel "Heun’s method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e613 a skos:Concept ; skos:prefLabel "Cholesky method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e617 a skos:Concept ; skos:prefLabel "Euler method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e621 a skos:Concept ; skos:prefLabel "Pade approximant method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e624 a skos:Concept ; skos:prefLabel "Method of barrier function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e626 a skos:Concept ; skos:prefLabel "Bisection method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e632 a skos:Concept ; skos:prefLabel "Bracketing technique"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e633 a skos:Concept ; skos:prefLabel "Nested dissection method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e634 a skos:Concept ; skos:prefLabel "Method of exterior penalty function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e635 a skos:Concept ; skos:prefLabel "Method of interior penalty function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e636 a skos:Concept ; skos:prefLabel "Method of feasible directions"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e653 a skos:Concept ; skos:prefLabel "Method of golden section"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e654 a skos:Concept ; skos:prefLabel "Isocline method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e655 a skos:Concept ; skos:prefLabel "Invariant embedding method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e660 a skos:Concept ; skos:prefLabel "Chebyshev iterative method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e666 a skos:Concept ; skos:prefLabel "Quadrature method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e667 a skos:Concept ; skos:prefLabel "Method of spline quadrature"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e668 a skos:Concept ; skos:prefLabel "Polynomial quadrature method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e670 a skos:Concept ; skos:prefLabel "Collocation method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e671 a skos:Concept ; skos:prefLabel "Method of finite differences"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e677 a skos:Concept ; skos:prefLabel "Lanczos method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e692 a skos:Concept ; skos:prefLabel "Method of undetermined coefficients"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e724 a skos:Concept ; skos:prefLabel "Gradient projection method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e725 a skos:Concept ; skos:prefLabel "Subgradient projection method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e726 a skos:Concept ; skos:prefLabel "Fixed point iteration method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e742 a skos:Concept ; skos:prefLabel "Relaxation method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e752 a skos:Concept ; skos:prefLabel "Conjugate directions method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e753 a skos:Concept ; skos:prefLabel "Method of spline interpolation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e754 a skos:Concept ; skos:prefLabel "Method of spline-collocation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e757 a skos:Concept ; skos:prefLabel "Shooting method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e759 a skos:Concept ; skos:prefLabel "Trapezoidal method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e764 a skos:Concept ; skos:prefLabel "Conditional gradient method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e773 a skos:Concept ; skos:prefLabel "Cyclic reduction method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e775 a skos:Concept ; skos:prefLabel "Penalty function method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e776 a skos:Concept ; skos:prefLabel "Richardson method of extrapolation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e779 a skos:Concept ; skos:prefLabel "Galerkin-Petrov method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e783 a skos:Concept ; skos:prefLabel "Implicit method Runge-Kutta"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e792 a skos:Concept ; skos:prefLabel "Inverse power method with shift"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e799 a skos:Concept ; skos:prefLabel "Chebyshev semi-iterative method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e809 a skos:Concept ; skos:prefLabel "Simplex method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e815 a skos:Concept ; skos:prefLabel "Doo-Sabin scheme"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e819 a skos:Concept ; skos:prefLabel "Catmull-Clark scheme"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e1977 a skos:Concept ; skos:prefLabel "Sommerfeld radiation condition"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e2028 a skos:Concept ; skos:prefLabel "Interpolation formula"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e2029 a skos:Concept ; skos:prefLabel "Gauss interpolation formula"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e2030 a skos:Concept ; skos:prefLabel "Lagrange interpolation formula"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e2033 a skos:Concept ; skos:prefLabel "Newton interpolation formula"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e2034 a skos:Concept ; skos:prefLabel "Stirling interpolation formula"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e2035 a skos:Concept ; skos:prefLabel "Bessel's interpolation formula"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e2039 a skos:Concept ; skos:prefLabel "Quadrature"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e2040 a skos:Concept ; skos:prefLabel "Gauss quadrature"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e2041 a skos:Concept ; skos:prefLabel "Romberg quadrature"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e2042 a skos:Concept ; skos:prefLabel "Simpson quadrature"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e2044 a skos:Concept ; skos:prefLabel "Chebyshev quadrature"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e2046 a skos:Concept ; skos:prefLabel "Hermite quadrature"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e2049 a skos:Concept ; skos:prefLabel "Lobatto quadrature formula"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e2064 a skos:Concept ; skos:prefLabel "Extrapolation rule"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e2071 a skos:Concept ; skos:prefLabel "Euler Maclaurin formula"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e3187 a skos:Concept ; skos:prefLabel "Finite element method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e3198 a skos:Concept ; skos:prefLabel "Difference scheme"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e3376 a skos:Concept ; skos:prefLabel "Approximation error"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e3378 a skos:Concept ; skos:prefLabel "Discretization error"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e3385 a skos:Concept ; skos:prefLabel "Interior point method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e3386 a skos:Concept ; skos:prefLabel "Ellipsoid method"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .
+
+c:ontomath-pro-e3418 a skos:Concept ; skos:prefLabel "Absolute error"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:numerical-analysis .

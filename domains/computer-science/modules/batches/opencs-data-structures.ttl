@@ -1,0 +1,195 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:opencs-c1082 a skos:Concept ; skos:prefLabel "Monotone priority queue"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c11899 a skos:Concept ; skos:prefLabel "Search tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c13296 a skos:Concept ; skos:prefLabel "Quadtree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c13516 a skos:Concept ; skos:prefLabel "Purely functional data structure"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c14269 a skos:Concept ; skos:prefLabel "Random binary tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures, c:opencs-c8565 .
+
+c:opencs-c14747 a skos:Concept ; skos:prefLabel "Persistent data structure"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c14958 a skos:Concept ; skos:prefLabel "Succinct data structure"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c17065 a skos:Concept ; skos:prefLabel "Compressed data structure"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c18860 a skos:Concept ; skos:prefLabel "Doubly linked list"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures, c:opencs-c2885 .
+
+c:opencs-c19305 a skos:Concept ; skos:prefLabel "Suffix tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c19507 a skos:Concept ; skos:prefLabel "Perceptual hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c23310 a skos:Concept ; skos:prefLabel "Linked data structure"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c2375 a skos:Concept ; skos:prefLabel "Bit array"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c25543 a skos:Concept ; skos:prefLabel "Suffix array"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c27528 a skos:Concept ; skos:prefLabel "Search data structure"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c2885 a skos:Concept ; skos:prefLabel "Linked list"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c28884 a skos:Concept ; skos:prefLabel "Fenwick tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c30059 a skos:Concept ; skos:prefLabel "Generalized suffix tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures, c:opencs-c19305 .
+
+c:opencs-c30964 a skos:Concept ; skos:prefLabel "Kinetic data structure"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c31455 a skos:Concept ; skos:prefLabel "Double hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c32077 a skos:Concept ; skos:prefLabel "Locality-sensitive hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c34223 a skos:Concept ; skos:prefLabel "Segment tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c34470 a skos:Concept ; skos:prefLabel "Optimal binary search tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c34595 a skos:Concept ; skos:prefLabel "Implicit data structure"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c35531 a skos:Concept ; skos:prefLabel "Compressed suffix array"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c35996 a skos:Concept ; skos:prefLabel "Ternary search tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c36112 a skos:Concept ; skos:prefLabel "Self-balancing binary search tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c37936 a skos:Concept ; skos:prefLabel "Pearson hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c38240 a skos:Concept ; skos:prefLabel "Left-child right-sibling binary tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c38666 a skos:Concept ; skos:prefLabel "Unrolled linked list"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c39015 a skos:Concept ; skos:prefLabel "Locality preserving hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c39385 a skos:Concept ; skos:prefLabel "Consistent hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c39981 a skos:Concept ; skos:prefLabel "Threaded binary tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c39995 a skos:Concept ; skos:prefLabel "Cuckoo hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c40594 a skos:Concept ; skos:prefLabel "X-fast trie"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c40696 a skos:Concept ; skos:prefLabel "Universal hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c41002 a skos:Concept ; skos:prefLabel "XOR linked list"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c41075 a skos:Concept ; skos:prefLabel "Coalesced hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c41841 a skos:Concept ; skos:prefLabel "Extendible hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c42058 a skos:Concept ; skos:prefLabel "2-choice hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c42331 a skos:Concept ; skos:prefLabel "Linear hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c42629 a skos:Concept ; skos:prefLabel "Hopscotch hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c42821 a skos:Concept ; skos:prefLabel "Level set (data structures)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c42917 a skos:Concept ; skos:prefLabel "Finger search tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c43785 a skos:Concept ; skos:prefLabel "B-heap"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c43884 a skos:Concept ; skos:prefLabel "Dynamic perfect hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c44226 a skos:Concept ; skos:prefLabel "Zobrist hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c44287 a skos:Concept ; skos:prefLabel "Hash array mapped trie"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c44390 a skos:Concept ; skos:prefLabel "HAT-trie"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c44766 a skos:Concept ; skos:prefLabel "Feature hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:opencs-c2801 .
+
+c:opencs-c45081 a skos:Concept ; skos:prefLabel "Hash trie"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c45137 a skos:Concept ; skos:prefLabel "Static Hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c45467 a skos:Concept ; skos:prefLabel "Tabulation hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c45584 a skos:Concept ; skos:prefLabel "K-independent hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c45644 a skos:Concept ; skos:prefLabel "Y-fast trie"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c45739 a skos:Concept ; skos:prefLabel "Range tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c7676 a skos:Concept ; skos:prefLabel "2–3 heap"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c7785 a skos:Concept ; skos:prefLabel "Range query (data structures)"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c7866 a skos:Concept ; skos:prefLabel "Rendezvous hashing"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c8022 a skos:Concept ; skos:prefLabel "Associative array"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c8522 a skos:Concept ; skos:prefLabel "Trie"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c8565 a skos:Concept ; skos:prefLabel "Binary tree"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c938 a skos:Concept ; skos:prefLabel "AF-heap"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .
+
+c:opencs-c9705 a skos:Concept ; skos:prefLabel "C-trie"@en ;
+    skos:inScheme scheme:computer-science ; skos:broader c:data-structures .

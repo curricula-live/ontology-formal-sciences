@@ -1,0 +1,51 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix d: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:admissible-search-heuristic a skos:Concept ;
+  skos:inScheme d:computer-science ;
+  skos:broader c:heuristic-search ;
+  skos:prefLabel "Admissible shortest-path heuristic"@en ;
+  skos:definition "For a goal and cost function, an estimate that never exceeds the true minimum remaining path cost."@en .
+
+c:sorted-search-input a skos:Concept ;
+  skos:inScheme d:computer-science ;
+  skos:broader c:binary-search ;
+  skos:prefLabel "Sorted key sequence for lookup"@en ;
+  skos:definition "A finite sequence ordered consistently with the comparison used for searching its keys."@en .
+
+c:comparison-sort-decision-tree a skos:Concept ;
+  skos:inScheme d:computer-science ;
+  skos:broader c:computational-complexity-theory ;
+  skos:prefLabel "Decision tree for comparison sorting"@en ;
+  skos:definition "A tree of comparisons between input keys. Each reachable leaf identifies a possible output permutation under the modeled comparison outcomes."@en .
+
+c:comparison-sorting-lower-bound a skos:Concept ;
+  skos:inScheme d:computer-science ;
+  skos:broader c:computational-complexity-theory ;
+  skos:prefLabel "Worst-case comparison lower bound for sorting"@en ;
+  skos:definition "Sorting n distinct keys in the comparison model takes at least the ceiling of log base two of n factorial comparisons in the worst case."@en .
+
+c:assignment-problem a skos:Concept ;
+  skos:inScheme d:computer-science ;
+  skos:broader c:algorithms ;
+  skos:prefLabel "Linear assignment problem"@en ;
+  skos:definition "Find a minimum-total-cost one-to-one matching between workers and tasks in the stated bipartite assignment model."@en .
+
+c:deterministic-context-free-language a skos:Concept ;
+  skos:inScheme d:computer-science ;
+  skos:broader c:automata-theory ;
+  skos:prefLabel "Deterministic context-free language"@en ;
+  skos:definition "A language recognized by a deterministic pushdown automaton under the specified acceptance convention."@en .
+
+c:behavioral-regression a skos:Concept ;
+  skos:inScheme d:computer-science ;
+  skos:broader c:software-testing ;
+  skos:prefLabel "Software behavioral regression"@en ;
+  skos:definition "An unintended degradation of previously working software behavior relative to a defined expectation."@en .
+
+c:hash-ring-local-remapping a skos:Concept ;
+  skos:inScheme d:computer-science ;
+  skos:broader c:algorithms ;
+  skos:prefLabel "Local key remapping under hash-ring insertion"@en ;
+  skos:definition "With existing ring positions fixed and distinct, adding a token remaps only keys between that token and its previous predecessor around the ring."@en .

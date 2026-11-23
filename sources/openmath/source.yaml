@@ -1,0 +1,15 @@
+{
+  "allow_mapping": false,
+  "attribution": "OpenMath Society and dictionary authors",
+  "bytes": 6862676,
+  "format": "openmath-tar",
+  "homepage": "https://codeload.github.com/OpenMath/CDs/tar.gz/cbf607561e3f90630ce7a57fe9a85f5bc0dfdd3c",
+  "id": "openmath",
+  "license": "per dictionary",
+  "revision": "cbf607561e3f90630ce7a57fe9a85f5bc0dfdd3c",
+  "scope": "complete repository archive; extract symbols, descriptions and dictionary membership from all 216 official, experimental and contributed CDs",
+  "sha256": "4bcd5e40a5985f1bd29b0aea8f3bf172ecaf2392be44edf4b7b4eb4756340ac2",
+  "status": "staged",
+  "url": "https://codeload.github.com/OpenMath/CDs/tar.gz/cbf607561e3f90630ce7a57fe9a85f5bc0dfdd3c",
+  "validation_query": "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX skos: <http://www.w3.org/2004/02/skos/core#> PREFIX owl: <http://www.w3.org/2002/07/owl#> PREFIX dct: <http://purl.org/dc/terms/> ASK { GRAPH ?g { <http://www.openmath.org/cd/logic1#and> rdfs:label \"and\" } }"
+}

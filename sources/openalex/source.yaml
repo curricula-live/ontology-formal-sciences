@@ -1,0 +1,15 @@
+{
+  "allow_mapping": true,
+  "attribution": "OurResearch",
+  "bytes": 5601,
+  "format": "openalex",
+  "homepage": "https://api.openalex.org/topics/T10374",
+  "id": "openalex",
+  "license": "CC0-1.0",
+  "revision": "content digest",
+  "scope": "one graph theory research topic",
+  "sha256": "74687f76161db9da5a5959053a46abba071e3d8a236fdb8a7d307d7f2bb5f291",
+  "status": "staged",
+  "url": "https://api.openalex.org/topics/T10374",
+  "validation_query": "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX skos: <http://www.w3.org/2004/02/skos/core#> PREFIX owl: <http://www.w3.org/2002/07/owl#> PREFIX dct: <http://purl.org/dc/terms/> ASK { GRAPH ?g { <https://openalex.org/T10374> skos:broader ?subfield } }"
+}

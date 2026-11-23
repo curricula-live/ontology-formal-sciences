@@ -1,0 +1,138 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c:set-theory a skos:Concept ; skos:prefLabel "Set theory"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:mathematics .
+
+c:set a skos:Concept ; skos:prefLabel "Set"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory .
+
+c:subset a skos:Concept ; skos:prefLabel "Subset"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory .
+
+c:power-set a skos:Concept ; skos:prefLabel "Power set"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory .
+
+c:cartesian-product a skos:Concept ; skos:prefLabel "Cartesian product"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory .
+
+c:set-intersection a skos:Concept ; skos:prefLabel "Set intersection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory .
+
+c:function a skos:Concept ; skos:prefLabel "Function (mathematics)"@en ;
+    skos:definition "A mapping that assigns exactly one output to each element of its domain."@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory .
+
+c:ultrafilter a skos:Concept ; skos:prefLabel "Ultrafilter"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "A maximal proper filter of subsets of a set. For each subset, exactly one of it and its complement belongs to the filter."@en .
+
+c:set-partition a skos:Concept ; skos:prefLabel "Partition of a set"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "A family of pairwise disjoint nonempty subsets whose union is the original set."@en .
+
+c:monotone-map a skos:Concept ; skos:prefLabel "Monotone map of partially ordered sets"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:partial-order ;
+    skos:definition "A map preserving the order relation between comparable elements."@en .
+
+c:complete-lattice a skos:Concept ; skos:prefLabel "Complete lattice"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:lattice-order-theory ;
+    skos:definition "A partially ordered set in which every subset has both a supremum and an infimum."@en .
+
+c:knaster-tarski-fixed-point-theorem a skos:Concept ; skos:prefLabel "Knaster–Tarski fixed-point theorem"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:lattice-order-theory ;
+    skos:definition "The fixed points of a monotone self-map of a complete lattice form a complete lattice under the induced order. Suprema and infima in the fixed-point lattice can differ from the corresponding bounds in the ambient lattice."@en .
+
+c:galois-connection a skos:Concept ; skos:prefLabel "Galois connection between partially ordered sets"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:partial-order ;
+    skos:definition "A pair of monotone maps between partially ordered sets such that the left map applied to x is below y exactly when x is below the right map applied to y."@en .
+
+c:greatest-fixed-point a skos:Concept ; skos:prefLabel "Greatest fixed point"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:knaster-tarski-fixed-point-theorem ;
+    skos:definition "A fixed point of an order-preserving map that is above every other fixed point in the underlying order."@en .
+
+c:least-fixed-point a skos:Concept ; skos:prefLabel "Least fixed point"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:knaster-tarski-fixed-point-theorem ;
+    skos:definition "A fixed point of an order-preserving map that is below every other fixed point in the underlying order."@en .
+
+c:set-union a skos:Concept ; skos:prefLabel "Set union"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "The set of elements belonging to at least one operand set."@en .
+
+c:empty-set a skos:Concept ; skos:prefLabel "Empty set"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "The unique set with no elements."@en .
+
+c:subset-relation a skos:Concept ; skos:prefLabel "Subset relation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "Every element of the first set is also an element of the second."@en .
+
+c:proper-subset-relation a skos:Concept ; skos:prefLabel "Proper subset relation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:subset-relation ;
+    skos:definition "A subset relation between sets that are distinct."@en .
+
+c:set-membership a skos:Concept ; skos:prefLabel "Set membership"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "The relation from an element to a set that contains the element."@en .
+
+c:set-difference a skos:Concept ; skos:prefLabel "Set difference"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "The subset of the first set consisting of elements that are absent from the second."@en .
+
+c:set-union-over-intersection-law a skos:Concept ; skos:prefLabel "Union distributivity over intersection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "Union with a fixed set distributes over intersection of two sets."@en .
+
+c:intersection-subset-law a skos:Concept ; skos:prefLabel "Intersection is included in both operands"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "The intersection of two sets is a subset of each operand."@en .
+
+c:union-superset-law a skos:Concept ; skos:prefLabel "Union contains both operands"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "Each of two sets is a subset of their union."@en .
+
+c:emptyset-union-identity a skos:Concept ; skos:prefLabel "Empty set identity for union"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "The union of any set with the empty set equals the original set."@en .
+
+c:emptyset-intersection-annihilation a skos:Concept ; skos:prefLabel "Empty set annihilation for intersection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "The intersection of any set with the empty set is empty."@en .
+
+c:difference-subset-law a skos:Concept ; skos:prefLabel "Set difference inclusion"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "The set difference is a subset of its first operand."@en .
+
+c:intersection-membership-introduction a skos:Concept ; skos:prefLabel "Membership introduction for intersection"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "Membership in each operand implies membership in their intersection."@en .
+
+c:proper-subset-characterization a skos:Concept ; skos:prefLabel "Proper-subset inclusion and distinctness"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "A proper subset is an included set distinct from the set containing it."@en .
+
+c:function-composition a skos:Concept ; skos:prefLabel "Function composition"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "Apply the inner function and then the outer function on arguments for which both applications are defined."@en .
+
+c:identity-function a skos:Concept ; skos:prefLabel "Identity function"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "A function on a set that sends each argument to itself."@en .
+
+c:identity-function-evaluation a skos:Concept ; skos:prefLabel "Identity function evaluation law"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "Evaluation of an identity function returns its argument."@en .
+
+c:composition-evaluation-law a skos:Concept ; skos:prefLabel "Function composition evaluation law"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "For composable functions, evaluating their composition equals application of the outer function to the result of the inner function."@en .
+
+c:relation-transitivity a skos:Concept ; skos:prefLabel "Transitivity of a relation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "If a is related to b and b is related to c, then a is related to c."@en .
+
+c:equality-relation a skos:Concept ; skos:prefLabel "Equality relation"@en ;
+    skos:inScheme scheme:mathematics ; skos:broader c:set-theory ;
+    skos:definition "The relation expressing that two expressions denote the same object in the applicable domain."@en .

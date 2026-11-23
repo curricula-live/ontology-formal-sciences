@@ -1,0 +1,93 @@
+id	broader	source_label	role
+Q6534338	control-systems-theory	optimal control	modeling-task
+Q6674141	control-systems-theory	Lyapunov equation	formulation
+Q6674142	control-systems-theory	control system input bilinear	formulation
+Q6674143	control-systems-theory	control system input bilinear (reduced)	formulation
+Q6674144	control-systems-theory	control system output linear (reduced)	formulation
+Q6674147	control-systems-theory	initial condition for control state	formulation
+Q6674148	control-systems-theory	control system input linear	formulation
+Q6674149	control-systems-theory	control system input linear (reduced)	formulation
+Q6674150	control-systems-theory	control system output linear	formulation
+Q6674257	differential-equations	Hamilton's equations	formulation
+Q6674260	differential-equations	Newton second law of motion for constant mass	formulation
+Q6674264	numerical-analysis	leapfrog integration	formulation
+Q6674268	numerical-analysis	Verlet integration	formulation
+Q6674283	differential-equations	continuity equation	formulation
+Q6674300	control-systems-theory	control system output quadratic (reduced)	formulation
+Q6674301	control-systems-theory	control system output quadratic	formulation
+Q6674304	differential-equations	Darcy's law	formulation
+Q6674305	numerical-analysis	Darcy equation (Euler backward)	formulation
+Q6674306	numerical-analysis	Darcy equation (finite volume)	formulation
+Q6674308	differential-equations	Poisson's equation for the electric potential (semiconductors)	formulation
+Q6674350	numerical-analysis	Stokes equation (Euler backward)	formulation
+Q6674356	numerical-analysis	Poisson equation for the electric potential (finite volume)	formulation
+Q6674357	numerical-analysis	Stokes equation (finite volume)	formulation
+Q6674362	differential-equations	uniform gravitational acceleration	formulation
+Q6674363	differential-equations	free fall equation (air drag)	formulation
+Q6674365	differential-equations	free fall equation (vacuum)	formulation
+Q6674366	differential-equations	vanishing air density	formulation
+Q6674367	differential-equations	vanishing drag coefficient	formulation
+Q6674368	differential-equations	free fall initial condition	formulation
+Q6674516	differential-equations	Stokes equation	formulation
+Q6674576	control-systems-theory	stability linear autonomous system	formulation
+Q6674577	differential-equations	Stokes Darcy coupling conditions	model
+Q6674578	numerical-analysis	Stokes Darcy equation (discretized, pv)	formulation
+Q6674579	numerical-analysis	Stokes Darcy equation (discretized, td)	formulation
+Q6675331	control-systems-theory	control system	model
+Q6675332	control-systems-theory	control system model (bilinear)	model
+Q6675333	control-systems-theory	linear time-invariant system	model
+Q6675390	differential-equations	Darcy model	model
+Q6675391	numerical-analysis	Darcy model (discretized)	model
+Q6675405	differential-equations	free fall model (vacuum)	model
+Q6675406	differential-equations	free fall model (air drag)	model
+Q6675408	differential-equations	Stokes Darcy model	model
+Q6675409	differential-equations	Stokes model	model
+Q6675441	numerical-analysis	Stokes Darcy model (discretized)	model
+Q6675442	numerical-analysis	Stokes model (discretized)	model
+Q6684551	control-systems-theory	balanced truncation (linear)	modeling-task
+Q6684552	control-systems-theory	balanced truncation (bi-linear)	modeling-task
+Q6684558	control-systems-theory	H2 optimal approximation (bi-linear)	modeling-task
+Q6684560	control-systems-theory	control system time evolution	modeling-task
+Q6684561	control-systems-theory	control system time evolution (bi-linear)	modeling-task
+Q6684562	control-systems-theory	control system time evolution (linear)	modeling-task
+Q6684570	control-systems-theory	H2 optimal approximation (linear)	modeling-task
+Q6684606	numerical-analysis	maximizing Poisson log-likelihood	modeling-task
+Q6775296	differential-equations	plate with a hole: linear elasticity model	model
+Q6775585	differential-equations	Cauchy momentum equation: elastostatic limit, no body forces	formulation
+Q6775614	numerical-analysis	plate with a hole: solve variational discretized problem	modeling-task
+Q6775615	numerical-analysis	plate with a hole: finite element discretization	modeling-task
+Q6775619	differential-equations	Cauchy momentum equation: weak formulation	formulation
+Q6775662	differential-equations	Poisson's equation for the electric potential	formulation
+Q6775736	numerical-analysis	plate with a hole: weak formulation, discretized model	model
+Q6775737	numerical-analysis	Cauchy momentum equation: weak formulation, discretized	formulation
+Q6775745	differential-equations	free fall solution (air drag)	formulation
+Q6775754	differential-equations	free fall solution (vacuum)	formulation
+Q6821153	differential-equations	mathematical pendulum model (small angle)	model
+Q6821154	differential-equations	mathematical pendulum equation (small angle)	formulation
+Q6821156	differential-equations	determine frequency of a pendulum (small angle)	modeling-task
+Q6821158	differential-equations	mathematical pendulum frequency (small angle)	formulation
+Q6821397	differential-equations	mathematical pendulum (initial condition)	formulation
+Q6821398	differential-equations	mathematical pendulum solution (small angle)	formulation
+Q6821402	differential-equations	determine frequency of a pendulum	modeling-task
+Q6821403	differential-equations	mathematical pendulum frequency	formulation
+Q6821404	differential-equations	mathematical pendulum equation	formulation
+Q6821405	differential-equations	mathematical pendulum model	model
+Q6821439	differential-equations	mathematical pendulum period (small angle)	formulation
+Q6821441	differential-equations	determine period of a pendulum (small angle)	modeling-task
+Q6821442	differential-equations	determine length of a pendulum (small angle)	modeling-task
+Q6821443	differential-equations	mathematical pendulum length (small angle)	formulation
+Q6821444	differential-equations	determine trajectory of a pendulum	modeling-task
+Q6821445	differential-equations	determine period of a pendulum	modeling-task
+Q6821446	differential-equations	mathematical pendulum period	formulation
+Q6822087	differential-equations	mathematical pendulum frequency (small angle, damped)	formulation
+Q6822089	differential-equations	determine frequency of a pendulum (small angle, damped)	modeling-task
+Q6822090	differential-equations	mathematical pendulum equation (small angle, damped)	formulation
+Q6822091	differential-equations	mathematical pendulum model (small angle, damped)	model
+Q6822164	differential-equations	mathematical pendulum equation (small angle, damped, driven)	formulation
+Q6822166	differential-equations	determine amplitude of a pendulum (small angle, damped, driven)	modeling-task
+Q6822168	differential-equations	mathematical pendulum model (small angle, damped, driven)	model
+Q6822169	differential-equations	mathematical pendulum solution (small angle, damped, driven)	formulation
+Q6822174	differential-equations	determine resonance of a pendulum (small angle, damped, driven)	modeling-task
+Q6822179	differential-equations	plate with a hole: weak formulation	model
+Q6823150	differential-equations	Poisson's equation for the electric potential: weak formulation	formulation
+Q6823151	differential-equations	continuity equation: weak formulation	formulation

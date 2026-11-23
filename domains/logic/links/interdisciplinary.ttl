@@ -1,0 +1,15 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+
+c:tseitin-transformation v:uses c:boolean-biconditional .
+c:two-sat-implication-graph-algorithm v:uses c:material-implication .
+c:product-type v:hasProperty c:product-type-swap .
+c:product-type v:hasProperty c:product-type-reassociation .
+c:product-type-swap v:uses c:product-type .
+c:product-type-reassociation v:uses c:product-type .
+c:set-based-product-type-interpretation v:uses c:product-type .
+c:conjunction-product-interpretation v:uses c:product-type .
+c:conjunction-product-interpretation v:represents c:logical-conjunction .
+c:conjunction-product-interpretation v:represents c:conjunction-introduction .
+c:resolution-logic v:hasProperty c:propositional-resolution-soundness .

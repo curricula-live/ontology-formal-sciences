@@ -1,0 +1,7 @@
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+
+# Which finite-word language families are recognized by the admitted models?
+SELECT ?machine ?family FROM g:asserted WHERE {
+  ?machine v:recognizesExactly ?family .
+} ORDER BY ?machine ?family

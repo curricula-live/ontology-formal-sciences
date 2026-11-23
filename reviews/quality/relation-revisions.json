@@ -1,0 +1,460 @@
+[
+  {
+    "former": [
+      "dpll-algorithm",
+      "uses",
+      "unit-propagation"
+    ],
+    "rationale": "DPLL runs unit propagation as a simplification subroutine.",
+    "replacement": [
+      "dpll-algorithm",
+      "invokesAlgorithm",
+      "unit-propagation"
+    ],
+    "sources": [
+      "https://doi.org/10.3233/FAIA336"
+    ]
+  },
+  {
+    "former": [
+      "conflict-driven-clause-learning",
+      "uses",
+      "unit-propagation"
+    ],
+    "rationale": "The scoped CDCL procedure runs Boolean constraint propagation between decisions and conflicts.",
+    "replacement": [
+      "conflict-driven-clause-learning",
+      "invokesAlgorithm",
+      "unit-propagation"
+    ],
+    "sources": [
+      "https://doi.org/10.3233/FAIA336"
+    ]
+  },
+  {
+    "former": [
+      "knaster-tarski-fixed-point-theorem",
+      "uses",
+      "complete-lattice"
+    ],
+    "rationale": "Completeness of the ordered domain is a hypothesis of the claimed fixed-point result.",
+    "replacement": [
+      "knaster-tarski-fixed-point-theorem",
+      "requiresPremise",
+      "complete-lattice"
+    ],
+    "sources": [
+      "https://doi.org/10.2140/pjm.1955.5.285"
+    ]
+  },
+  {
+    "former": [
+      "knaster-tarski-fixed-point-theorem",
+      "uses",
+      "monotone-map"
+    ],
+    "rationale": "The theorem requires a monotone self-map on the stated complete lattice.",
+    "replacement": [
+      "knaster-tarski-fixed-point-theorem",
+      "requiresPremise",
+      "monotone-map"
+    ],
+    "sources": [
+      "https://doi.org/10.2140/pjm.1955.5.285"
+    ]
+  },
+  {
+    "former": [
+      "knaster-tarski-fixed-point-theorem",
+      "uses",
+      "fixed-point"
+    ],
+    "rationale": "The theorem guarantees existence of fixed points for complete lattices and monotone self-maps.",
+    "replacement": [
+      "knaster-tarski-fixed-point-theorem",
+      "guarantees",
+      "fixed-point"
+    ],
+    "sources": [
+      "https://doi.org/10.2140/pjm.1955.5.285"
+    ]
+  },
+  {
+    "former": [
+      "probabilistic-graphical-model",
+      "uses",
+      "joint-distribution"
+    ],
+    "rationale": "The model represents a joint distribution through the factorization or conditional structure documented for its model family.",
+    "replacement": [
+      "probabilistic-graphical-model",
+      "represents",
+      "joint-distribution"
+    ],
+    "sources": []
+  },
+  {
+    "former": [
+      "binomial-mass-formula",
+      "uses",
+      "binomial-coefficient"
+    ],
+    "rationale": "The mass expression contains a binomial coefficient at its count parameter.",
+    "replacement": [
+      "binomial-mass-formula",
+      "containsSymbol",
+      "binomial-coefficient"
+    ],
+    "sources": [
+      "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/Binomial.html"
+    ]
+  },
+  {
+    "former": [
+      "hypergeometric-mass-formula",
+      "uses",
+      "binomial-coefficient"
+    ],
+    "rationale": "The mass expression contains the sample-counting coefficients.",
+    "replacement": [
+      "hypergeometric-mass-formula",
+      "containsSymbol",
+      "binomial-coefficient"
+    ],
+    "sources": [
+      "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/Hypergeometric.html"
+    ]
+  },
+  {
+    "former": [
+      "binary-f1-harmonic-mean",
+      "uses",
+      "stato-0000416"
+    ],
+    "rationale": "Precision is an operand of the harmonic-mean expression.",
+    "replacement": [
+      "binary-f1-harmonic-mean",
+      "containsSymbol",
+      "stato-0000416"
+    ],
+    "sources": [
+      "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html"
+    ]
+  },
+  {
+    "former": [
+      "binary-f1-harmonic-mean",
+      "uses",
+      "stato-0000233"
+    ],
+    "rationale": "Recall is the other operand of the binary harmonic-mean expression.",
+    "replacement": [
+      "binary-f1-harmonic-mean",
+      "containsSymbol",
+      "stato-0000233"
+    ],
+    "sources": [
+      "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html"
+    ]
+  },
+  {
+    "former": [
+      "minimum-spanning-tree-problem",
+      "uses",
+      "weighted-graph"
+    ],
+    "rationale": "A connected edge-weighted graph is the input of the existence-and-optimization problem.",
+    "replacement": [
+      "minimum-spanning-tree-problem",
+      "hasInputStructure",
+      "weighted-graph"
+    ],
+    "sources": []
+  },
+  {
+    "former": [
+      "rewriting-newman-lemma",
+      "requiresAssumption",
+      "rewriting-local-confluence"
+    ],
+    "rationale": "Local confluence is a theorem hypothesis, alongside termination.",
+    "replacement": [
+      "rewriting-newman-lemma",
+      "requiresPremise",
+      "rewriting-local-confluence"
+    ],
+    "sources": [
+      "https://www21.in.tum.de/~nipkow/TRaAT/"
+    ]
+  },
+  {
+    "former": [
+      "rewriting-newman-lemma",
+      "requiresAssumption",
+      "rewriting-termination"
+    ],
+    "rationale": "Termination is the other hypothesis supporting confluence.",
+    "replacement": [
+      "rewriting-newman-lemma",
+      "requiresPremise",
+      "rewriting-termination"
+    ],
+    "sources": [
+      "https://www21.in.tum.de/~nipkow/TRaAT/"
+    ]
+  },
+  {
+    "former": [
+      "vandermonde-convolution",
+      "uses",
+      "binomial-coefficient"
+    ],
+    "pinned_witnesses": [
+      "https://curricula.live/id/formal-sciences/relation-evidence/mathlib4/Nat.add_choose_eq"
+    ],
+    "rationale": "The count coefficients occur in the statement. The named proof can use other mathematical constructions.",
+    "replacement": [
+      "vandermonde-convolution",
+      "containsSymbol",
+      "binomial-coefficient"
+    ],
+    "sources": [
+      "https://github.com/leanprover-community/mathlib4/blob/35f494609c32653bae53eb33f0cf2d899808909a/Mathlib/Data/Nat/Choose/Vandermonde.lean#L25-L35"
+    ]
+  },
+  {
+    "former": [
+      "adjacency-matrix",
+      "uses",
+      "matrix"
+    ],
+    "rationale": "An adjacency matrix is a matrix; its distinct scientific representation claim is already recorded separately.",
+    "replacement": [
+      "adjacency-matrix",
+      "skos:broader",
+      "matrix"
+    ],
+    "sources": []
+  },
+  {
+    "former": [
+      "graph-laplacian",
+      "uses",
+      "matrix"
+    ],
+    "rationale": "In this matrix scope, the graph Laplacian is a matrix. The prior dependency had only taxonomic content.",
+    "replacement": [
+      "graph-laplacian",
+      "skos:broader",
+      "matrix"
+    ],
+    "sources": []
+  },
+  {
+    "former": [
+      "topological-sorting",
+      "uses",
+      "directed-acyclic-graph"
+    ],
+    "rationale": "Acyclicity is a condition for a topological ordering of the input directed graph. NetworkX documents this condition and raises an exception when the graph has a directed cycle.",
+    "replacement": [
+      "topological-sorting",
+      "requiresAssumption",
+      "directed-acyclic-graph"
+    ],
+    "sources": []
+  },
+  {
+    "former": [
+      "transition-matrix",
+      "uses",
+      "matrix"
+    ],
+    "former_modules": {
+      "_shared/bridges/formal-sciences.ttl": "0f7b91a3fa5937134d96876760b0efa7e0175eddaf4f0d66d410e4f4eca3a22a"
+    },
+    "rationale": "The stochastic-process subject denotes a matrix whose entries encode transitions. Its mathematical carrier is a kind of matrix, and its concept does not depend on a separate matrix operand. Publish the topical classification with the earlier interpretation in provenance.",
+    "replacement": [
+      "transition-matrix",
+      "skos:broader",
+      "matrix"
+    ],
+    "replacement_sources": [
+      "https://github.com/networkx/networkx/blob/4fa222d2fb157e1b7f8c753c9f92e5907d1ddeb4/networkx/algorithms/link_analysis/pagerank_alg.py#L220-L223"
+    ],
+    "sources": []
+  },
+  {
+    "former": [
+      "conflict-driven-clause-learning",
+      "uses",
+      "clause-learning"
+    ],
+    "former_modules": {
+      "logic/links/relations.ttl": "57c209e6e558d87918e2d6eade58b978e762e0eaf1d46ca6e573e7d86e80bc9c"
+    },
+    "rationale": "The broad component edge is redundant with the scoped CDCL procedure and does not specify a callable clause-learning subroutine.",
+    "replacement": null,
+    "review_release": "1.0.0-rc.2",
+    "sources": []
+  },
+  {
+    "former": [
+      "huffman-coding",
+      "uses",
+      "tree-graph-theory"
+    ],
+    "former_modules": {
+      "_shared/bridges/formal-sciences.ttl": "4afcd969acccf98eb856e938344a2b2d268d59faa2913939c09a20cdd4e80c4e"
+    },
+    "rationale": "The standard construction outputs a prefix code represented by a rooted binary tree. The generic tree edge obscures the output role.",
+    "replacement": [
+      "huffman-coding",
+      "computes",
+      "opencs-c39572"
+    ],
+    "review_release": "1.0.0-rc.2",
+    "sources": []
+  },
+  {
+    "former": [
+      "bias-of-an-estimator",
+      "uses",
+      "expected-value"
+    ],
+    "former_modules": {
+      "statistics/links/relations.ttl": "6d294df75f84b440e1d2b38aaade92e6fe082d038d3076f0f55915a1f802f7bc"
+    },
+    "rationale": "Bias is a property of an estimator. Where an expected value exists, it is the expected estimator value minus its target. A method-to-ingredient edge misstates that definition.",
+    "replacement": null,
+    "review_release": "1.0.0-rc.2",
+    "sources": []
+  },
+  {
+    "former": [
+      "probabilistic-graphical-model",
+      "uses",
+      "graph-graph-theory"
+    ],
+    "former_modules": {
+      "_shared/bridges/formal-sciences.ttl": "4afcd969acccf98eb856e938344a2b2d268d59faa2913939c09a20cdd4e80c4e"
+    },
+    "rationale": "The separately reviewed representation edge describes the supported scientific role: a graph encodes a factorization of a joint distribution.",
+    "replacement": [
+      "probabilistic-graphical-model",
+      "represents",
+      "joint-distribution"
+    ],
+    "review_release": "1.0.0-rc.2",
+    "sources": []
+  },
+  {
+    "former": [
+      "gradient-descent",
+      "uses",
+      "derivative"
+    ],
+    "former_modules": {
+      "_shared/bridges/formal-sciences.ttl": "4afcd969acccf98eb856e938344a2b2d268d59faa2913939c09a20cdd4e80c4e"
+    },
+    "rationale": "For differentiable objectives in Euclidean space, a standard gradient-descent update steps in the negative gradient direction. This scope identifies the vector gradient.",
+    "replacement": [
+      "gradient-descent",
+      "uses",
+      "ontomath-pro-e1700"
+    ],
+    "review_release": "1.0.0-rc.2",
+    "sources": []
+  },
+  {
+    "former": [
+      "graph-algorithm",
+      "uses",
+      "graph-graph-theory"
+    ],
+    "former_modules": {
+      "_shared/bridges/formal-sciences.ttl": "4afcd969acccf98eb856e938344a2b2d268d59faa2913939c09a20cdd4e80c4e"
+    },
+    "rationale": "The category does not name a particular algorithm or a precisely specified computational task. Reviewed problem-to-input assertions carry the more specific claim.",
+    "replacement": null,
+    "review_release": "1.0.0-rc.2",
+    "sources": []
+  },
+  {
+    "former": [
+      "opencs-c39942",
+      "computes",
+      "irreducible-polynomial"
+    ],
+    "former_modules": {
+      "_shared/bridges/foundations.ttl": "04e9c4536cb0100cbf9bdc02de97166ce29dfd25ae83f1f6e36bb9385c63c2ef"
+    },
+    "rationale": "The randomized equal-degree procedure factors square-free input polynomials over finite fields in the stated scope. The retained solves assertion identifies the factorization task without projecting a single polynomial as its general output.",
+    "replacement": [
+      "opencs-c39942",
+      "solves",
+      "equal-degree-polynomial-factorization"
+    ],
+    "review_release": "1.0.0-rc.2",
+    "sources": [
+      "https://doi.org/10.1090/S0025-5718-1981-0606517-5"
+    ]
+  },
+  {
+    "former": [
+      "propositional-resolution-soundness",
+      "uses",
+      "logical-disjunction"
+    ],
+    "former_modules": {
+      "logic/links/interdisciplinary.ttl": "a0c1c6fe975ae9b61a68a7518b3c1f07a177ddb1f932c3669d05e70912fa6bc8"
+    },
+    "rationale": "Soundness is a metatheoretic property of propositional resolution. Occurrence of a connective in the inference rule is distinct from a method-to-ingredient dependency.",
+    "replacement": null,
+    "review_release": "1.0.0-rc.2",
+    "sources": [
+      "https://doi.org/10.1145/321250.321253"
+    ]
+  },
+  {
+    "former": [
+      "propositional-resolution-soundness",
+      "uses",
+      "logical-negation"
+    ],
+    "former_modules": {
+      "logic/links/interdisciplinary.ttl": "a0c1c6fe975ae9b61a68a7518b3c1f07a177ddb1f932c3669d05e70912fa6bc8"
+    },
+    "rationale": "Soundness is a metatheoretic property of propositional resolution. Occurrence of a connective in the inference rule is distinct from a method-to-ingredient dependency.",
+    "replacement": null,
+    "review_release": "1.0.0-rc.2",
+    "sources": [
+      "https://doi.org/10.1145/321250.321253"
+    ]
+  },
+  {
+    "former": [
+      "bayes-theorem",
+      "uses",
+      "conditional-probability"
+    ],
+    "former_modules": {},
+    "rationale": "The Bayes identity is a result. Its ordinary conditional-ratio scope is recorded by the premise statement and its editorial review.",
+    "replacement": null,
+    "review_release": "1.0.0-rc.2",
+    "sources": [],
+    "withdraw_passage": true
+  },
+  {
+    "former": [
+      "comparison-sorting-lower-bound",
+      "uses",
+      "comparison-sort-decision-tree"
+    ],
+    "rationale": "The decision-tree argument establishes the lower bound. The result does not invoke a computational ingredient.",
+    "replacement": null,
+    "review_release": "1.0.0-rc.2",
+    "sources": [],
+    "withdraw_passage": true
+  }
+]

@@ -1,0 +1,19 @@
+PREFIX c: <https://curricula.live/id/formal-sciences/concept/>
+PREFIX v: <https://curricula.live/id/formal-sciences/vocab/>
+PREFIX g: <https://curricula.live/id/formal-sciences/graph/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+SELECT ?law ?expression ?declaration
+WHERE {
+  GRAPH g:asserted {
+    c:forward-mode-automatic-differentiation v:uses ?law .
+    c:derivative v:hasProperty ?law .
+  }
+  GRAPH g:provenance {
+    ?claim rdf:subject c:derivative ; rdf:predicate v:hasProperty ; rdf:object ?law ;
+      prov:wasDerivedFrom ?openmath, ?mathlib .
+    ?openmath dct:type "OpenMath formal mathematical property" ; v:sourceExpressionDigest ?expression .
+    ?mathlib dct:type "Lean declaration" ; dct:title ?declaration .
+  }
+}

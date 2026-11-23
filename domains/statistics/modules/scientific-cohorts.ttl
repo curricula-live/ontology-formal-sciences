@@ -1,0 +1,11 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix scheme: <https://curricula.live/id/formal-sciences/scheme/> .
+
+c:empirical-singleton-frequency a skos:Concept ; skos:prefLabel "Singleton probability in a finite empirical distribution"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions ;
+    skos:definition "For a nonempty multiset of observations in a measurable space with measurable singletons, the probability of observing a equals the multiplicity of a divided by the total number of observations."@en .
+
+c:boolean-bernoulli-representation a skos:Concept ; skos:prefLabel "Boolean representation of a Bernoulli law"@en ;
+    skos:inScheme scheme:statistics ; skos:broader c:probability-distributions ;
+    skos:definition "Assign mass p to true and mass 1−p to false, with p in the closed unit interval."@en .

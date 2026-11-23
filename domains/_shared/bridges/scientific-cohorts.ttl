@@ -1,0 +1,11 @@
+@prefix c: <https://curricula.live/id/formal-sciences/concept/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix v: <https://curricula.live/id/formal-sciences/vocab/> .
+
+c:dfa-concatenation-evaluation v:uses c:word-concatenation .
+c:kleene-star-membership-law v:uses c:word-concatenation .
+c:empirical-singleton-frequency v:uses c:multiset-multiplicity .
+c:empirical-singleton-frequency v:uses c:multiset-cardinality .
+c:boolean-bernoulli-representation v:uses c:boolean-truth-value .
+c:forward-mode-automatic-differentiation v:uses c:derivative-product-rule .
+c:forward-mode-automatic-differentiation v:uses c:derivative-sum-rule .

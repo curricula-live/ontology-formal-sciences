@@ -1,0 +1,15 @@
+{
+  "allow_mapping": false,
+  "attribution": "mathlib community",
+  "bytes": 24381847,
+  "format": "lean-archive",
+  "homepage": "https://codeload.github.com/leanprover-community/mathlib4/tar.gz/35f494609c32653bae53eb33f0cf2d899808909a",
+  "id": "mathlib4",
+  "license": "Apache-2.0",
+  "revision": "35f494609c32653bae53eb33f0cf2d899808909a",
+  "scope": "Complete Mathlib source archive. Stage module names and direct local Mathlib import declarations.",
+  "sha256": "e38cb828c5368d71469540927a0c81ea1faa69f007c9a372926207c8521e82b3",
+  "status": "staged",
+  "url": "https://codeload.github.com/leanprover-community/mathlib4/tar.gz/35f494609c32653bae53eb33f0cf2d899808909a",
+  "validation_query": "ASK { GRAPH ?g { ?module <http://www.w3.org/2000/01/rdf-schema#label> \"Mathlib.Algebra.Group.Defs\" ; <http://purl.org/dc/terms/requires> ?dependency . ?dependency <http://www.w3.org/2000/01/rdf-schema#label> \"Mathlib.Algebra.Group.DivInvMonoid\" } }"
+}
