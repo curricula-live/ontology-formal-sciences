@@ -1,0 +1,20 @@
+{
+  "statement_scope_additions": [
+    [
+      "svd-principal-component-analysis",
+      "computes",
+      "eigenvector",
+      "For column-mean-centered observations, the right singular vectors of the data matrix are eigenvectors of the sample covariance matrix; scaling the squared singular values gives covariance eigenvalues."
+    ],
+    [
+      "svd-principal-component-analysis",
+      "uses",
+      "singular-value-decomposition",
+      "The SVD implementation of covariance PCA operates on a column-mean-centered observation matrix; without centering, the covariance eigenvector interpretation need not hold."
+    ]
+  ],
+  "known_limitations": [
+    "The prior DPDA scope note includes an uncited prefix-free qualification. Removing that previously published statement-level provenance would violate the monotonic historical-provenance contract. It remains an S3 item requiring separately reviewed revision or evidence; no new approval is claimed.",
+    "The Bayes statement cites both supporting OpenStax evidence and the contrasting totalized Mathlib convention. Its assertion-level description explicitly distinguishes their evidence roles."
+  ]
+}

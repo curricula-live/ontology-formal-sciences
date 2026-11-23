@@ -13,7 +13,7 @@ from pipeline.contract import read_json
 from pipeline.curate.relations import statement_for
 from pipeline.package_check import verify
 
-PLAN = ROOT / "reviews/quality/rc2-plan.json"
+PLAN = ROOT / "reviews/quality/rc3-plan.json"
 
 
 def local(iri):
@@ -244,7 +244,7 @@ def coverage(manifest, data):
 def impact(old_package, new_package, plan):
     old_digest = plan["review_predecessor"]["manifest_sha256"]
     verify(old_package / "dist", old_digest)
-    previous = read(old_package / "reviews/quality/rc-v1/independent-review.json")
+    previous = read(old_package / plan["review_predecessor"]["packet_path"])
     if previous["manifest_sha256"] != old_digest:
         raise ValueError("Reviewed packet does not match the pinned rc.1 package")
     before = dataset((old_package / "dist/formal-sciences.nq").read_bytes())

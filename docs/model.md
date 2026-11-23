@@ -70,6 +70,16 @@ axioms, textual declarations, and the small set of locally checked Lean
 fixtures. Role and predicate QA and independent scientific agreement are
 separate checks.
 
+A `dcterms:source` reference on a reified assertion can record a source that
+**contrasts** with the asserted interpretation rather than directly supporting
+it, but such a role must be explicitly identified in the statement-level
+`dcterms:description`. For the ordinary positive-denominator form of Bayes'
+theorem, the OpenStax conditional-ratio material supports the equation and
+the Mathlib totalized conditional-measure convention is **contrasting**
+evidence; Mathlib's totalized convention is not cited as proof of positive
+denominator premises. The citation-presence gate verifies traceability, not
+scientific entailment or endorsement of every referenced source.
+
 A statistical reference distribution may be exact or approximate. Read its
 scope on the reified claim. For Welch's independent two-sample test the
 Student t law with Welch–Satterthwaite degrees of freedom is approximate

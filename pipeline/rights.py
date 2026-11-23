@@ -92,7 +92,7 @@ def inventory(sources, provenance):
             "terms": corpus["rights"], "attribution": corpus["attribution"],
             "notice_or_source": file_url(corpus, corpus["license_path"]),
             "revision": corpus["revision"], "source_sha256": corpus["files"][corpus["license_path"]],
-            "channels": channels, "disposition": "unresolved" if key == "opendsa" else "verified", "basis": basis,
+            "channels": channels, "disposition": "unresolved" if key in {"opendsa", "openstax-conditional", "d2l-gradient"} else "verified", "basis": basis,
             "reviewed_passages": sum(row["corpus"] == key for row in passages),
         }
     return {
@@ -100,7 +100,7 @@ def inventory(sources, provenance):
                     "credit": "Curricula contributors", "notice": "LICENSE"},
         "sources": result,
         "distribution_notice": {"path": "NOTICE.md", "sha256": checksum(ROOT / "NOTICE.md"),
-                                "applies_to": ["native:openmath", "native:stato", "passage:opendsa"]},
+                                "applies_to": ["native:openmath", "native:stato", "passage:opendsa", "passage:openstax-conditional", "passage:d2l-gradient"]},
         "reference_policy": policy["reference_policy"],
         "scope": "Disposition refers to the reviewed publication channel. External material retains its own terms.",
     }

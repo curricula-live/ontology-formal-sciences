@@ -1,7 +1,7 @@
 {
   "artifacts": {
-    "formal-sciences.nq": "e2064364efd80d2c467b7e679406083798d3aa63e367f60123049945215d5ead",
-    "formal-sciences.trig": "5b296b50cdd08113cf5602e6e95497fbc4e06b17093425a35d82d3603db1392c",
+    "formal-sciences.nq": "f3c12f4a54ea6f803f78acf24efecea3fbbbc14bd12c533d17f4511599c24f37",
+    "formal-sciences.trig": "ffee8655ce5be98af5dc051353a3996d74ca89f9f1431a99283334c32dcf4594",
     "formal-sciences.ttl": "b2f2f7a9fe465058f96b5abc761541b651bc27369a3debba3a358fced98345d5",
     "source-alignments.trig": "373a560fbbef3688b718ad203c713478180da0bda9ef9f9955b587d455386d34",
     "validation-report.json": "53d08d3d3ba0eb867f1671cd1ae50c0254b5122d63db5c5d209e180c92008116"
@@ -13,7 +13,7 @@
     "alignments": 234,
     "asserted": 13483,
     "inferred": 3093,
-    "provenance": 19779
+    "provenance": 19781
   },
   "namespace": "https://curricula.live/id/formal-sciences/",
   "predicates": 45,
@@ -2419,10 +2419,12 @@
       "applies_to": [
         "native:openmath",
         "native:stato",
-        "passage:opendsa"
+        "passage:opendsa",
+        "passage:openstax-conditional",
+        "passage:d2l-gradient"
       ],
       "path": "NOTICE.md",
-      "sha256": "d6e75b3393c6d8b60c589a3566cb81d773b37f79e6781d44b267399eab7ec2e8"
+      "sha256": "5d9b564fc88df41e2ff85590bb5245b60e9827e5182a475ddf698a5303bb7d88"
     },
     "project": {
       "authored_rdf_and_editorial_mappings": "CC-BY-4.0",
@@ -2864,7 +2866,7 @@
           "passage-fingerprints",
           "independent-editorial-assertions"
         ],
-        "disposition": "verified",
+        "disposition": "unresolved",
         "notice_or_source": "https://github.com/d2l-ai/d2l-en/blob/23d7a5aecceee57d1292c56e90cce307f183bb0a/LICENSE",
         "reviewed_passages": 1,
         "revision": "23d7a5aecceee57d1292c56e90cce307f183bb0a",
@@ -3014,7 +3016,7 @@
           "passage-fingerprints",
           "independent-editorial-assertions"
         ],
-        "disposition": "verified",
+        "disposition": "unresolved",
         "notice_or_source": "https://github.com/openstax/osbooks-introductory-statistics-bundle/blob/24e9884724b13baba2b8879d03103cccafc7e25d/LICENSE",
         "reviewed_passages": 1,
         "revision": "24e9884724b13baba2b8879d03103cccafc7e25d",
