@@ -2380,7 +2380,7 @@
       "zbmath-open"
     ],
     "staged_graphs": 28,
-    "staged_triples": 1113204,
+    "staged_triples": 1114855,
     "taxonomic_connectivity": {
       "component_size_histogram": {
         "1332": 1,
@@ -2709,9 +2709,9 @@
           "reference-or-staging-only"
         ],
         "disposition": "unresolved",
-        "notice_or_source": "https://github.com/qudt/qudt-public-repo/releases/download/v3.5.3/qudt-public-repo-3.5.3.zip",
-        "revision": "v3.5.3",
-        "source_sha256": "1e73b229ba1b2e047136b15bc14ad385d013d2ac5cbda69e9453916e68b2ed75",
+        "notice_or_source": "https://github.com/qudt/qudt-public-repo/releases/download/v3.5.4/qudt-public-repo-3.5.4.zip",
+        "revision": "v3.5.4",
+        "source_sha256": "020a0e29083dd4a57e9352927dcff1875e39dbfaf4ea56aaf66fd77c5be5225f",
         "terms": "CC-BY-4.0"
       },
       "native:rdf-rdfs": {
@@ -3910,16 +3910,16 @@
     },
     "qudt": {
       "attribution": "QUDT.org",
-      "candidate_pairs": 1,
+      "candidate_pairs": 13,
       "license": "CC-BY-4.0",
-      "normalized_label_keys": 23215,
-      "revision": "v3.5.3",
+      "normalized_label_keys": 24781,
+      "revision": "v3.5.4",
       "scope": "complete release ZIP; stage official QUDT-all-in-one-OWL.ttl (schema and vocabularies)",
-      "sha256": "1e73b229ba1b2e047136b15bc14ad385d013d2ac5cbda69e9453916e68b2ed75",
+      "sha256": "020a0e29083dd4a57e9352927dcff1875e39dbfaf4ea56aaf66fd77c5be5225f",
       "stage_validation": "passed",
-      "staged_triples": 132359,
+      "staged_triples": 134010,
       "status": "staged",
-      "url": "https://github.com/qudt/qudt-public-repo/releases/download/v3.5.3/qudt-public-repo-3.5.3.zip"
+      "url": "https://github.com/qudt/qudt-public-repo/releases/download/v3.5.4/qudt-public-repo-3.5.4.zip"
     },
     "rdf-rdfs": {
       "attribution": "W3C",
